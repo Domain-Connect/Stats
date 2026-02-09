@@ -69,4 +69,11 @@ The following statistics shall be included:
   - Table with PR number, name, status, labels, open date and link to github
   - for each entry list providerId/ServiceId and logo from the template (there might be more than one in one PR)
 
+- Top Pull Request Reviewers
+  - Two side-by-side tables: All-time and Last 30 days
+  - Show top 5 reviewers for each period
+  - Display: Rank, reviewer avatar (32x32), username (linked to GitHub profile), review count
+  - Review count = number of PRs reviewed (each reviewer counted once per PR)
+  - Exclude self-reviews (PR author reviewing their own PR)
+
 If you are not sure on anything, or need more clarification, ask the user upfront before proceeding.

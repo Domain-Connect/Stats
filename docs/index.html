@@ -152,6 +152,47 @@
                 </table>
             </div>
         </section>
+
+        <!-- Top Reviewers -->
+        <section class="top-reviewers">
+            <h2>Top Pull Request Reviewers</h2>
+            <div class="reviewers-tables">
+                <div class="reviewer-table-container">
+                    <h3>All Time</h3>
+                    <div class="table-wrapper">
+                        <table id="reviewers-all-time-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Reviewer</th>
+                                    <th>Reviews</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td colspan="3">Loading...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="reviewer-table-container">
+                    <h3>Last 30 Days</h3>
+                    <div class="table-wrapper">
+                        <table id="reviewers-30-days-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Reviewer</th>
+                                    <th>Reviews</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td colspan="3">Loading...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -206,6 +247,7 @@
             renderFeatureUsageCharts(data.feature_usage, data.repository);
             renderTopProvidersTable(data.top_providers, data.repository);
             renderRecentPRsTable(data.recent_prs, data.templates);
+            renderTopReviewersTable(data.top_reviewers);
         }
 
         // Render summary statistics
@@ -655,6 +697,63 @@
                 `;
                 tbody.appendChild(row);
             });
+        }
+
+        // Render Top Reviewers tables
+        function renderTopReviewersTable(reviewersData) {
+            if (!reviewersData) {
+                return;
+            }
+
+            // Render all-time reviewers
+            const allTimetbody = document.querySelector('#reviewers-all-time-table tbody');
+            allTimetbody.innerHTML = '';
+
+            if (!reviewersData.all_time || reviewersData.all_time.length === 0) {
+                allTimetbody.innerHTML = '<tr><td colspan="3">No reviewers data available</td></tr>';
+            } else {
+                reviewersData.all_time.forEach((reviewer, index) => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td class="reviewer-rank">${index + 1}</td>
+                        <td class="reviewer-info">
+                            <div class="reviewer-profile">
+                                <img src="${escapeHtml(reviewer.avatar_url)}" alt="${escapeHtml(reviewer.login)}" class="reviewer-avatar">
+                                <a href="${escapeHtml(reviewer.profile_url)}" target="_blank" rel="noopener noreferrer" class="reviewer-name">
+                                    ${escapeHtml(reviewer.login)}
+                                </a>
+                            </div>
+                        </td>
+                        <td class="reviewer-count">${reviewer.review_count}</td>
+                    `;
+                    allTimetbody.appendChild(row);
+                });
+            }
+
+            // Render last 30 days reviewers
+            const last30Tbody = document.querySelector('#reviewers-30-days-table tbody');
+            last30Tbody.innerHTML = '';
+
+            if (!reviewersData.last_30_days || reviewersData.last_30_days.length === 0) {
+                last30Tbody.innerHTML = '<tr><td colspan="3">No recent reviewers</td></tr>';
+            } else {
+                reviewersData.last_30_days.forEach((reviewer, index) => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td class="reviewer-rank">${index + 1}</td>
+                        <td class="reviewer-info">
+                            <div class="reviewer-profile">
+                                <img src="${escapeHtml(reviewer.avatar_url)}" alt="${escapeHtml(reviewer.login)}" class="reviewer-avatar">
+                                <a href="${escapeHtml(reviewer.profile_url)}" target="_blank" rel="noopener noreferrer" class="reviewer-name">
+                                    ${escapeHtml(reviewer.login)}
+                                </a>
+                            </div>
+                        </td>
+                        <td class="reviewer-count">${reviewer.review_count}</td>
+                    `;
+                    last30Tbody.appendChild(row);
+                });
+            }
         }
 
         // Utility: Format date as DD-MM-YYYY

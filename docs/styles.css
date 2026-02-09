@@ -462,6 +462,76 @@ tbody td {
     color: var(--bg-white);
 }
 
+/* ===== Top Reviewers ===== */
+.top-reviewers {
+    margin-bottom: var(--spacing-xl);
+}
+
+.top-reviewers h2 {
+    color: var(--primary-navy);
+    margin-bottom: var(--spacing-md);
+}
+
+.reviewers-tables {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.reviewer-table-container h3 {
+    color: var(--secondary-navy);
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.1rem;
+}
+
+.reviewer-table-container .table-wrapper {
+    background-color: var(--bg-white);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 2px 8px var(--shadow-light);
+}
+
+.reviewer-rank {
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-navy);
+    text-align: center;
+    width: 60px;
+}
+
+.reviewer-info {
+    min-width: 150px;
+}
+
+.reviewer-profile {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.reviewer-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid var(--light-blue-gray);
+}
+
+.reviewer-name {
+    color: var(--medium-teal);
+    font-weight: var(--font-weight-semibold);
+    text-decoration: none;
+}
+
+.reviewer-name:hover {
+    color: var(--accent-cyan);
+    text-decoration: underline;
+}
+
+.reviewer-count {
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    text-align: center;
+}
+
 /* ===== Footer ===== */
 footer {
     background-color: var(--primary-navy);

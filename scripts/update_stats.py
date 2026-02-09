@@ -26,7 +26,7 @@ import os
 import subprocess
 import sys
 from collections import defaultdict
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 import re
@@ -381,15 +381,15 @@ class StatsGenerator:
 
         return monthly_data
 
-    def get_pull_requests(self) -> List[Dict[str, Any]]:
-        """Fetch pull request data from GitHub API.
+    def fetch_all_prs_once(self) -> Dict[str, List[Dict[str, Any]]]:
+        """Fetch all PRs from GitHub API once (to avoid multiple API calls).
 
         Returns:
-            List of PR data
+            Dictionary with 'open' and 'closed' PR lists
         """
         if not self.github_token:
             print("Warning: GITHUB_TOKEN not set. PR data will be limited.")
-            return []
+            return {'open': [], 'closed': []}
 
         # Get all open PRs
         open_prs = self._get_all_paginated(
@@ -397,21 +397,38 @@ class StatsGenerator:
             {"state": "open"}
         )
 
-        # Get recently closed PRs (last 10 merged)
+        # Get all closed PRs (sorted by update time)
         closed_prs = self._get_all_paginated(
             f"/repos/{self.repo_owner}/{self.repo_name}/pulls",
             {"state": "closed", "sort": "updated", "direction": "desc"}
         )
 
-        # Filter for merged PRs only
+        return {'open': open_prs, 'closed': closed_prs}
+
+    def get_pull_requests(self, all_prs: Dict[str, List[Dict[str, Any]]]) -> List[Dict[str, Any]]:
+        """Process pull request data for display.
+
+        Args:
+            all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
+
+        Returns:
+            List of PR data for display
+        """
+        if not self.github_token:
+            return []
+
+        open_prs = all_prs.get('open', [])
+        closed_prs = all_prs.get('closed', [])
+
+        # Filter for merged PRs only (last 10 merged)
         merged_prs = [pr for pr in closed_prs if pr.get("merged_at")][:10]
 
         # Combine open + recently merged
-        all_prs = open_prs + merged_prs
+        combined_prs = open_prs + merged_prs
 
         # Extract relevant PR information
         pr_data = []
-        for pr in all_prs:
+        for pr in combined_prs:
             pr_info = {
                 'number': pr['number'],
                 'title': pr['title'],
@@ -464,8 +481,11 @@ class StatsGenerator:
 
         return pr_data
 
-    def calculate_pr_activity(self) -> Dict[str, Any]:
+    def calculate_pr_activity(self, all_prs: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
         """Calculate PR creation and merge statistics by month.
+
+        Args:
+            all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
 
         Returns:
             Dictionary with monthly PR activity
@@ -473,15 +493,8 @@ class StatsGenerator:
         if not self.github_token:
             return {'monthly': [], 'total_merged': 0, 'total_open': 0}
 
-        # Get all PRs (both open and closed)
-        all_prs = []
-
-        for state in ['open', 'closed']:
-            prs = self._get_all_paginated(
-                f"/repos/{self.repo_owner}/{self.repo_name}/pulls",
-                {"state": state, "sort": "created", "direction": "desc"}
-            )
-            all_prs.extend(prs)
+        # Combine all PRs
+        combined_prs = all_prs.get('open', []) + all_prs.get('closed', [])
 
         # Group by month
         monthly_created = defaultdict(int)
@@ -489,7 +502,7 @@ class StatsGenerator:
         total_merged = 0
         total_open = 0
 
-        for pr in all_prs:
+        for pr in combined_prs:
             # Created date
             created_date = pr['created_at'][:7]  # YYYY-MM
             monthly_created[created_date] += 1
@@ -546,6 +559,113 @@ class StatsGenerator:
             })
 
         return contributor_data
+
+    def get_top_reviewers(self, all_prs: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
+        """Get top PR reviewers from GitHub API.
+
+        Args:
+            all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
+
+        Returns:
+            Dictionary with all-time and last 30 days top reviewers
+        """
+        if not self.github_token:
+            return {'all_time': [], 'last_30_days': []}
+
+        # Filter for merged PRs only from closed PRs
+        closed_prs = all_prs.get('closed', [])
+        merged_prs = [pr for pr in closed_prs if pr.get("merged_at")]
+
+        print(f"    - Processing {len(merged_prs)} merged PRs for reviewer data...")
+
+        # Calculate reviewer statistics
+        reviewer_stats_all_time = defaultdict(lambda: {'reviews': 0, 'avatar_url': None, 'profile_url': None})
+        reviewer_stats_30_days = defaultdict(lambda: {'reviews': 0, 'avatar_url': None, 'profile_url': None})
+
+        thirty_days_ago = datetime.now(timezone.utc) - timedelta(days=30)
+
+        total_prs = len(merged_prs)
+        for idx, pr in enumerate(merged_prs, 1):
+            pr_number = pr['number']
+            merged_at = pr.get('merged_at')
+
+            if not merged_at:
+                continue
+
+            # Parse merged_at date
+            merged_date = datetime.fromisoformat(merged_at.replace('Z', '+00:00'))
+            is_recent = merged_date >= thirty_days_ago
+
+            # Progress log every 50 PRs
+            if idx % 50 == 0:
+                print(f"      Progress: Processed {idx}/{total_prs} PRs for reviewer data...")
+
+            # Get reviews for this PR
+            reviews = self._github_api_request(
+                f"/repos/{self.repo_owner}/{self.repo_name}/pulls/{pr_number}/reviews"
+            )
+
+            if reviews:
+                # Track unique reviewers per PR (count each reviewer once per PR)
+                reviewers_in_pr = set()
+                for review in reviews:
+                    # Skip if user is None (deleted users, bots, etc.)
+                    if not review.get('user'):
+                        continue
+
+                    reviewer = review['user']['login']
+                    # Skip if reviewer is the PR author (self-reviews don't count)
+                    if reviewer != pr['user']['login']:
+                        reviewers_in_pr.add(reviewer)
+                        # Store avatar and profile URL
+                        if not reviewer_stats_all_time[reviewer]['avatar_url']:
+                            reviewer_stats_all_time[reviewer]['avatar_url'] = review['user']['avatar_url']
+                            reviewer_stats_all_time[reviewer]['profile_url'] = review['user']['html_url']
+                        if is_recent and not reviewer_stats_30_days[reviewer]['avatar_url']:
+                            reviewer_stats_30_days[reviewer]['avatar_url'] = review['user']['avatar_url']
+                            reviewer_stats_30_days[reviewer]['profile_url'] = review['user']['html_url']
+
+                # Count each unique reviewer once per PR
+                for reviewer in reviewers_in_pr:
+                    reviewer_stats_all_time[reviewer]['reviews'] += 1
+                    if is_recent:
+                        reviewer_stats_30_days[reviewer]['reviews'] += 1
+
+        # Sort and get top 5 for all time
+        top_all_time = sorted(
+            [
+                {
+                    'login': login,
+                    'review_count': stats['reviews'],
+                    'avatar_url': stats['avatar_url'],
+                    'profile_url': stats['profile_url']
+                }
+                for login, stats in reviewer_stats_all_time.items()
+            ],
+            key=lambda x: x['review_count'],
+            reverse=True
+        )[:5]
+
+        # Sort and get top 5 for last 30 days
+        top_30_days = sorted(
+            [
+                {
+                    'login': login,
+                    'review_count': stats['reviews'],
+                    'avatar_url': stats['avatar_url'],
+                    'profile_url': stats['profile_url']
+                }
+                for login, stats in reviewer_stats_30_days.items()
+                if stats['reviews'] > 0  # Only include reviewers with reviews in last 30 days
+            ],
+            key=lambda x: x['review_count'],
+            reverse=True
+        )[:5]
+
+        return {
+            'all_time': top_all_time,
+            'last_30_days': top_30_days
+        }
 
     def generate_statistics(self) -> Dict[str, Any]:
         """Generate all statistics for the dashboard.
@@ -621,14 +741,19 @@ class StatsGenerator:
         growth_data = self.calculate_monthly_growth(commits)
         provider_growth_data = self.calculate_provider_growth(commits, templates)
 
-        # Pull request data
+        # Pull request data - fetch once and reuse
         print("  - Fetching pull request data...")
-        recent_prs = self.get_pull_requests()
-        pr_activity = self.calculate_pr_activity()
+        all_prs = self.fetch_all_prs_once()
+        recent_prs = self.get_pull_requests(all_prs)
+        pr_activity = self.calculate_pr_activity(all_prs)
 
         # Contributor data
         print("  - Fetching contributor data...")
         contributors = self.get_contributors()
+
+        # Top reviewers
+        print("  - Fetching top reviewers...")
+        top_reviewers = self.get_top_reviewers(all_prs)
 
         # Top providers
         sorted_providers = sorted(
@@ -712,6 +837,7 @@ class StatsGenerator:
                 ]
             },
             'recent_prs': recent_prs,
+            'top_reviewers': top_reviewers,
             'templates': templates,
             'contributors': contributors[:50]  # Top 50 contributors
         }

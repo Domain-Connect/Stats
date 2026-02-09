@@ -98,6 +98,13 @@ This document contains guidelines for maintaining and developing the Domain Conn
 - Content: All open PRs + last 10 merged PRs
 - Each PR shows associated provider/service IDs and logos
 
+### Top Pull Request Reviewers
+- Two side-by-side tables: All-time and Last 30 days
+- Shows top 5 reviewers for each period
+- Displays: Rank, reviewer avatar, username (linked to GitHub profile), review count
+- Review count = number of PRs reviewed (each reviewer counted once per PR)
+- Excludes self-reviews (PR author reviewing their own PR)
+
 ## update_stats.py Script
 
 ### Requirements
