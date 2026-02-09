@@ -106,12 +106,13 @@ This document contains guidelines for maintaining and developing the Domain Conn
 - GitHub API token via `GITHUB_TOKEN` environment variable
 
 ### CLI Arguments
+- `--folder FOLDER`: Path to templates repository folder (default: 'Templates')
 - `--repo-owner` / `--repo-name`: Specify GitHub repo directly (must be used together)
 - `--remote`: Specify git remote name for auto-detection (e.g. `upstream`)
-- If neither provided, auto-detects from the single git remote (aborts if multiple remotes exist)
+- If neither `--repo-owner/--repo-name` nor `--remote` provided, auto-detects from the single git remote (aborts if multiple remotes exist)
 
 ### Functionality
-1. Parse all `*.json` template files in repository root
+1. Parse all `*.json` template files in the specified folder
 2. Analyze git history for commits, template additions, and provider growth
 3. Fetch PR data from GitHub API (using token)
 4. Calculate all statistics: growth, record types, feature usage, provider metadata
@@ -126,10 +127,13 @@ This document contains guidelines for maintaining and developing the Domain Conn
 ```bash
 export GITHUB_TOKEN="your_token_here"
 
-# Auto-detect remote (requires exactly one git remote):
-python scripts/update_stats.py
+# Using default folder (Templates):
+python scripts/update_stats.py --repo-owner Domain-Connect --repo-name Templates
 
-# Specify remote explicitly:
+# Using custom folder:
+python scripts/update_stats.py --folder /path/to/templates --repo-owner Domain-Connect --repo-name Templates
+
+# Auto-detect remote (requires exactly one git remote):
 python scripts/update_stats.py --remote upstream
 
 # Specify owner/name directly (skips git remote detection):

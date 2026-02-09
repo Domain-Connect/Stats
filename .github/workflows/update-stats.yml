@@ -26,6 +26,10 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for git log analysis
 
+      - name: Clone Templates repository
+        run: |
+          git clone https://github.com/Domain-Connect/Templates.git Templates
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -35,13 +39,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests python-dateutil
+          pip install -r scripts/requirements.txt
 
       - name: Generate statistics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/update_stats.py
+          python scripts/update_stats.py --folder Templates --repo-owner Domain-Connect --repo-name Templates
 
       - name: Check for changes
         id: check_changes

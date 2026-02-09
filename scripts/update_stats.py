@@ -11,7 +11,13 @@ Requirements:
     - GITHUB_TOKEN environment variable for API access
 
 Usage:
-    python scripts/update_stats.py
+    python scripts/update_stats.py [--folder FOLDER] [--repo-owner OWNER --repo-name NAME]
+
+    Options:
+        --folder FOLDER      Path to templates repository folder (default: 'Templates')
+        --repo-owner OWNER   GitHub repository owner
+        --repo-name NAME     GitHub repository name
+        --remote REMOTE      Git remote name for auto-detection
 """
 
 import argparse
@@ -738,6 +744,8 @@ def main():
     parser = argparse.ArgumentParser(
         description="Generate statistics for Domain Connect Templates repository"
     )
+    parser.add_argument("--folder", default="Templates",
+                        help="Path to the templates repository folder (default: 'Templates')")
     parser.add_argument("--repo-owner", help="GitHub repository owner (e.g. 'Domain-Connect')")
     parser.add_argument("--repo-name", help="GitHub repository name (e.g. 'Templates')")
     parser.add_argument("--remote", help="Git remote name to use for auto-detection (e.g. 'upstream')")
@@ -757,7 +765,7 @@ def main():
 
     # Generate statistics
     generator = StatsGenerator(
-        repo_path="Templates",
+        repo_path=args.folder,
         repo_owner=args.repo_owner,
         repo_name=args.repo_name,
         remote=args.remote
