@@ -3,7 +3,7 @@
 Domain Connect Templates Statistics Generator
 
 This script generates statistics from the Domain Connect Templates repository
-and outputs them to dashboard/stats.json for visualization.
+and outputs them to docs/stats.json for visualization.
 
 Requirements:
     - Python 3.8+
@@ -717,7 +717,7 @@ class StatsGenerator:
 
         return stats
 
-    def save_statistics(self, stats: Dict[str, Any], output_path: str = "dashboard/stats.json"):
+    def save_statistics(self, stats: Dict[str, Any], output_path: str = "docs/stats.json"):
         """Save statistics to JSON file.
 
         Args:
@@ -765,7 +765,7 @@ def main():
     stats = generator.generate_statistics()
     generator.save_statistics(stats)
 
-    print("\nDone! Open dashboard/index.html to view statistics.")
+    print("\nDone! Open docs/index.html to view statistics.")
 
 
 if __name__ == "__main__":

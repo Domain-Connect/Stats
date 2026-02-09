@@ -16,18 +16,18 @@ This directory contains the statistics dashboard for the Domain Connect Template
 Simply open `index.html` in a web browser:
 
 ```bash
-open dashboard/index.html
+open docs/index.html
 # or
-firefox dashboard/index.html
+firefox docs/index.html
 # or
-chrome dashboard/index.html
+chrome docs/index.html
 ```
 
 ### Online Viewing
 
 The dashboard can be viewed online via GitHub Pages or CDN services like:
 - GitHub Pages: Configure repository settings to serve from `/dashboard` directory
-- RawGit/GitHack: `https://raw.githack.com/Domain-Connect/Templates/master/dashboard/index.html`
+- RawGit/GitHack: `https://raw.githack.com/Domain-Connect/Templates/master/docs/index.html`
 
 ## Statistics Included
 
@@ -74,7 +74,7 @@ export GITHUB_TOKEN="your_token_here"
 python scripts/update_stats.py
 
 # View the dashboard
-open dashboard/index.html
+open docs/index.html
 ```
 
 ## Customization

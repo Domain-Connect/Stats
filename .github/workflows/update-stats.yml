@@ -46,7 +46,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet dashboard/stats.json; then
+          if git diff --quiet docs/stats.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -57,7 +57,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add dashboard/stats.json
+          git add docs/stats.json
           git commit -m "Update statistics - $(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
           Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
@@ -75,4 +75,4 @@ jobs:
             echo "ℹ️ No changes detected" >> $GITHUB_STEP_SUMMARY
           fi
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "View dashboard: [Statistics Dashboard](https://raw.githack.com/${{ github.repository }}/master/dashboard/index.html)" >> $GITHUB_STEP_SUMMARY
+          echo "View dashboard: [Statistics Dashboard](https://raw.githack.com/${{ github.repository }}/master/docs/index.html)" >> $GITHUB_STEP_SUMMARY
