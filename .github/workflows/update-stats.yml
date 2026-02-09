@@ -26,6 +26,11 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for git log analysis
 
+      - name: Enable cache file tracking for CI
+        run: |
+          # In CI, we need to track the cache file changes
+          git update-index --no-skip-worktree scripts/pr_reviews_cache.json 2>/dev/null || true
+
       - name: Clone Templates repository
         run: |
           git clone https://github.com/Domain-Connect/Templates.git Templates

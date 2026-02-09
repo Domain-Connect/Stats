@@ -15,7 +15,8 @@ This document contains guidelines for maintaining and developing the Domain Conn
 ├── scripts/               # Python scripts for statistics generation
 │   ├── update_stats.py         # Main script to generate stats.json
 │   ├── requirements.txt        # Python dependencies
-│   └── pr_reviews_cache.json   # Cache for PR review data (committed in CI)
+│   ├── pr_reviews_cache.json   # Cache for PR review data (use skip-worktree locally)
+│   └── setup_local_dev.sh      # Helper to configure local development (sets skip-worktree)
 ├── .github/workflows/     # CI/CD workflows
 │   └── update-stats.yml   # Workflow to auto-update statistics
 └── [provider].[service].json  # Template files (root directory)
@@ -133,7 +134,7 @@ This document contains guidelines for maintaining and developing the Domain Conn
 - Implements rate limiting and error handling
 - Caches PR review data in `scripts/pr_reviews_cache.json` to avoid repeated API calls
 - Cache is automatically updated when new PRs are processed
-- In CI/CD, the cache file is committed to the repository for persistent benefit across runs
+- Cache file is committed to repository but can be ignored locally using `git update-index --skip-worktree`
 
 ### Running Locally
 ```bash
@@ -152,10 +153,22 @@ python scripts/update_stats.py --remote upstream
 python scripts/update_stats.py --repo-owner Domain-Connect --repo-name Templates
 ```
 
+#### Setting Up Local Development
+
+To prevent accidentally committing cache file changes:
+
+```bash
+# Run once to configure local development
+./scripts/setup_local_dev.sh
+```
+
+This uses `git update-index --skip-worktree` to tell git to ignore local changes to the cache file. The cache will still be pulled from the repository but your local modifications won't show up in `git status`.
+
 ### Running in CI/CD
-- Triggered on push to master and on schedule (daily at midnight UTC)
+- Triggered on push to main and on schedule (daily at midnight UTC)
 - Uses `secrets.GITHUB_TOKEN` automatically provided by GitHub Actions
-- Commits updated stats.json and pushes back to repository
+- Automatically enables cache file tracking with `--no-skip-worktree`
+- Commits updated `stats.json` and `pr_reviews_cache.json` back to repository
 
 ## Development Guidelines
 
