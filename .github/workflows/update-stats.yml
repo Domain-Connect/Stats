@@ -1,10 +1,10 @@
 name: Update Statistics
 
 on:
-  # Run on push to master branch
+  # Run on push to main branch
   push:
     branches:
-      - master
+      - main
   # Run daily at midnight UTC
   schedule:
     - cron: '0 0 * * *'
@@ -62,9 +62,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add docs/stats.json
-          git commit -m "Update statistics - $(date -u '+%Y-%m-%d %H:%M:%S UTC')
-
-          Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
+          git commit -m "Update statistics - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
           git push
 
       - name: Summary
