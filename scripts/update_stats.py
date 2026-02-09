@@ -54,6 +54,7 @@ class StatsGenerator:
         self.repo_path = Path(repo_path).resolve()
         self.github_token = os.environ.get("GITHUB_TOKEN")
         self.github_api = "https://api.github.com"
+        self.cache_file = Path(__file__).parent / "pr_reviews_cache.json"
 
         if repo_owner and repo_name:
             self.repo_owner = repo_owner
@@ -560,8 +561,39 @@ class StatsGenerator:
 
         return contributor_data
 
+    def load_review_cache(self) -> Dict[int, List[Dict[str, Any]]]:
+        """Load PR review data from cache file.
+
+        Returns:
+            Dictionary mapping PR number to list of reviews
+        """
+        if not self.cache_file.exists():
+            return {}
+
+        try:
+            with open(self.cache_file, 'r', encoding='utf-8') as f:
+                cache_data = json.load(f)
+                # Convert string keys back to integers
+                return {int(k): v for k, v in cache_data.items()}
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"    - Warning: Could not load review cache: {e}")
+            return {}
+
+    def save_review_cache(self, cache: Dict[int, List[Dict[str, Any]]]):
+        """Save PR review data to cache file.
+
+        Args:
+            cache: Dictionary mapping PR number to list of reviews
+        """
+        try:
+            with open(self.cache_file, 'w', encoding='utf-8') as f:
+                json.dump(cache, f, indent=2, ensure_ascii=False)
+            print(f"    - Saved review cache to {self.cache_file.name}")
+        except IOError as e:
+            print(f"    - Warning: Could not save review cache: {e}")
+
     def get_top_reviewers(self, all_prs: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
-        """Get top PR reviewers from GitHub API.
+        """Get top PR reviewers from GitHub API (with caching).
 
         Args:
             all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
@@ -577,6 +609,11 @@ class StatsGenerator:
         merged_prs = [pr for pr in closed_prs if pr.get("merged_at")]
 
         print(f"    - Processing {len(merged_prs)} merged PRs for reviewer data...")
+
+        # Load review cache
+        review_cache = self.load_review_cache()
+        cache_hits = 0
+        cache_misses = 0
 
         # Calculate reviewer statistics
         reviewer_stats_all_time = defaultdict(lambda: {'reviews': 0, 'avatar_url': None, 'profile_url': None})
@@ -598,12 +635,21 @@ class StatsGenerator:
 
             # Progress log every 50 PRs
             if idx % 50 == 0:
-                print(f"      Progress: Processed {idx}/{total_prs} PRs for reviewer data...")
+                print(f"      Progress: Processed {idx}/{total_prs} PRs (cache hits: {cache_hits}, misses: {cache_misses})...")
 
-            # Get reviews for this PR
-            reviews = self._github_api_request(
-                f"/repos/{self.repo_owner}/{self.repo_name}/pulls/{pr_number}/reviews"
-            )
+            # Check cache first
+            if pr_number in review_cache:
+                reviews = review_cache[pr_number]
+                cache_hits += 1
+            else:
+                # Get reviews from API
+                reviews = self._github_api_request(
+                    f"/repos/{self.repo_owner}/{self.repo_name}/pulls/{pr_number}/reviews"
+                )
+                # Store in cache
+                if reviews is not None:
+                    review_cache[pr_number] = reviews
+                cache_misses += 1
 
             if reviews:
                 # Track unique reviewers per PR (count each reviewer once per PR)
@@ -661,6 +707,12 @@ class StatsGenerator:
             key=lambda x: x['review_count'],
             reverse=True
         )[:5]
+
+        # Save updated cache
+        if cache_misses > 0:
+            self.save_review_cache(review_cache)
+
+        print(f"    - Review data: {cache_hits} from cache, {cache_misses} from API")
 
         return {
             'all_time': top_all_time,

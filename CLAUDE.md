@@ -13,7 +13,9 @@ This document contains guidelines for maintaining and developing the Domain Conn
 │   ├── _claude_prompt.txt # Requirements specification for the dashboard
 │   └── assets/            # Logos and images
 ├── scripts/               # Python scripts for statistics generation
-│   └── update_stats.py    # Main script to generate stats.json
+│   ├── update_stats.py         # Main script to generate stats.json
+│   ├── requirements.txt        # Python dependencies
+│   └── pr_reviews_cache.json   # Cache for PR review data (committed in CI)
 ├── .github/workflows/     # CI/CD workflows
 │   └── update-stats.yml   # Workflow to auto-update statistics
 └── [provider].[service].json  # Template files (root directory)
@@ -129,6 +131,9 @@ This document contains guidelines for maintaining and developing the Domain Conn
 - Uses `GITHUB_TOKEN` from environment for authentication
 - Fetches PR data, contributor info, and repository metadata
 - Implements rate limiting and error handling
+- Caches PR review data in `scripts/pr_reviews_cache.json` to avoid repeated API calls
+- Cache is automatically updated when new PRs are processed
+- In CI/CD, the cache file is committed to the repository for persistent benefit across runs
 
 ### Running Locally
 ```bash
