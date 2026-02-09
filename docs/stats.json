@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-02-09T22:33:09.938085",
+  "generated_at": "2026-02-09T22:39:14.197350",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 476,
-    "total_providers": 238,
+    "total_templates": 478,
+    "total_providers": 239,
     "total_merged_prs": 616,
     "total_open_prs": 12,
     "total_contributors": 272,
@@ -893,8 +893,8 @@
     },
     {
       "month": "2026-02",
-      "added": 9,
-      "cumulative": 238
+      "added": 10,
+      "cumulative": 239
     }
   ],
   "pr_activity": [
@@ -1397,7 +1397,7 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 353
+      "count": 355
     },
     {
       "type": "TXT",
@@ -1405,7 +1405,7 @@
     },
     {
       "type": "A",
-      "count": 198
+      "count": 200
     },
     {
       "type": "SPFM",
@@ -1425,7 +1425,7 @@
     },
     {
       "type": "AAAA",
-      "count": 13
+      "count": 15
     },
     {
       "type": "APEXCNAME",
@@ -1581,6 +1581,12 @@
         "template_count": 3
       },
       {
+        "provider_id": "deno.com",
+        "provider_name": "Deno",
+        "logo_url": "https://deno.com/logo.svg",
+        "template_count": 2
+      },
+      {
         "provider_id": "lettr.com",
         "provider_name": "Lettr",
         "logo_url": "https://assets.lettr.com/brand/lettr-logo-bw.svg",
@@ -1681,27 +1687,21 @@
         "provider_name": "Ark",
         "logo_url": "https://arkhq.io/ark-logo.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "mailrelay.com",
-        "provider_name": "Mailrelay.com",
-        "logo_url": "https://mailrelay.com/images/logo.svg",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 476,
+    "total_templates": 478,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 405
+        "count": 407
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 279
+        "count": 281
       },
       {
         "name": "warnPhishing",
@@ -1711,7 +1711,7 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 102
+        "count": 103
       }
     ]
   },
@@ -2067,14 +2067,14 @@
           "provider_id": "deno",
           "service_id": "com.deploy-apex",
           "filename": "deno.com.deploy-apex.json",
-          "logo_url": null,
+          "logo_url": "https://deno.com/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "deno",
           "service_id": "com.deploy-subdomain",
           "filename": "deno.com.deploy-subdomain.json",
-          "logo_url": null,
+          "logo_url": "https://deno.com/logo.svg",
           "status": "added"
         }
       ]
@@ -2306,7 +2306,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 387,
+        "review_count": 386,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -2881,6 +2881,24 @@
       "service_name": "Email Security Setup",
       "logo_url": "https://demarcify.com/images/demarcify.svg",
       "record_count": 7
+    },
+    {
+      "filename": "deno.com.deploy-apex.json",
+      "provider_id": "deno.com",
+      "service_id": "deploy-apex",
+      "provider_name": "Deno",
+      "service_name": "Deno Deploy",
+      "logo_url": "https://deno.com/logo.svg",
+      "record_count": 5
+    },
+    {
+      "filename": "deno.com.deploy-subdomain.json",
+      "provider_id": "deno.com",
+      "service_id": "deploy-subdomain",
+      "provider_name": "Deno",
+      "service_name": "Deno Deploy",
+      "logo_url": "https://deno.com/logo.svg",
+      "record_count": 4
     },
     {
       "filename": "deployalo.com.subdomain.json",
