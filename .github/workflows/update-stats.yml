@@ -1,0 +1,78 @@
+name: Update Statistics
+
+on:
+  # Run on push to master branch
+  push:
+    branches:
+      - master
+  # Run daily at midnight UTC
+  schedule:
+    - cron: '0 0 * * *'
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  update-stats:
+    name: Generate and Update Statistics
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for git log analysis
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests python-dateutil
+
+      - name: Generate statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update_stats.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet dashboard/stats.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add dashboard/stats.json
+          git commit -m "Update statistics - $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+
+          Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
+          git push
+
+      - name: Summary
+        run: |
+          echo "### Statistics Update Complete 📊" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Statistics have been generated and updated." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check_changes.outputs.changed }}" == "true" ]; then
+            echo "✅ Changes detected and committed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ No changes detected" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "View dashboard: [Statistics Dashboard](https://raw.githack.com/${{ github.repository }}/master/dashboard/index.html)" >> $GITHUB_STEP_SUMMARY

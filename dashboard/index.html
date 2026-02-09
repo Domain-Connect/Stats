@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Statistics dashboard for Domain Connect Templates repository">
+    <title>Domain Connect Templates - Statistics</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="assets/DomainConnectBlackSmall.png" alt="Domain Connect" class="logo">
+                <h1>Domain Connect Templates</h1>
+            </div>
+            <p class="subtitle">Statistics Dashboard</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Last Updated -->
+        <section class="last-updated">
+            <p>Last updated: <span id="last-updated">Loading...</span></p>
+        </section>
+
+        <!-- Summary Stats -->
+        <section class="summary-stats">
+            <div class="stat-card">
+                <div class="stat-value" id="total-templates">-</div>
+                <div class="stat-label">Total Templates</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="total-providers">-</div>
+                <div class="stat-label">Service Providers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="total-merged-prs">-</div>
+                <div class="stat-label">Merged PRs</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="total-open-prs">-</div>
+                <div class="stat-label">Open PRs</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="total-contributors">-</div>
+                <div class="stat-label">Contributors</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avg-records">-</div>
+                <div class="stat-label">Avg Records/Template</div>
+            </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts">
+            <!-- Templates Growth -->
+            <div class="chart-container">
+                <h2>Templates Growth Over Time</h2>
+                <div id="templates-growth-chart"></div>
+            </div>
+
+            <!-- Provider Growth -->
+            <div class="chart-container">
+                <h2>Provider Growth Over Time</h2>
+                <div id="providers-growth-chart"></div>
+            </div>
+
+            <!-- PR Activity -->
+            <div class="chart-container">
+                <h2>Pull Request Activity</h2>
+                <div id="pr-activity-chart"></div>
+            </div>
+
+            <!-- Record Types Distribution -->
+            <div class="chart-container">
+                <h2>Record Types Distribution</h2>
+                <div id="record-types-chart"></div>
+            </div>
+
+            <!-- Feature Usage -->
+            <div class="chart-container">
+                <h2>Feature Usage</h2>
+                <div id="feature-usage-charts" class="donut-row"></div>
+            </div>
+        </section>
+
+        <!-- Top Providers -->
+        <section class="tables">
+            <h2>Top Providers</h2>
+            <div class="tables-row">
+                <div class="table-container">
+                    <h3>All Time</h3>
+                    <div class="table-wrapper">
+                        <table id="top-providers-all-time">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Provider</th>
+                                    <th>Templates</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td colspan="3">Loading...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <h3>Last 30 Days</h3>
+                    <div class="table-wrapper">
+                        <table id="top-providers-recent">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Provider</th>
+                                    <th>Templates</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td colspan="3">Loading...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent PRs -->
+        <section class="recent-prs">
+            <h2>Recent Pull Requests</h2>
+            <div class="table-wrapper">
+                <table id="recent-prs-table">
+                    <thead>
+                        <tr>
+                            <th>PR</th>
+                            <th>Title</th>
+                            <th>Templates</th>
+                            <th>Status</th>
+                            <th>Labels</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td colspan="6">Loading...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Domain Connect. Visit <a href="https://www.domainconnect.org/" target="_blank">domainconnect.org</a></p>
+            <p><a href="https://github.com/Domain-Connect/Templates" target="_blank">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Global stats data
+        let statsData = null;
+
+        // Plotly configuration for all charts
+        const plotlyConfig = {
+            responsive: true,
+            displayModeBar: true,
+            modeBarButtonsToAdd: ['toImage'],
+            modeBarButtonsToRemove: ['lasso2d', 'select2d'],
+            toImageButtonOptions: {
+                format: 'png',
+                filename: 'domain_connect_stats',
+                height: 800,
+                width: 1200,
+                scale: 2
+            }
+        };
+
+        // Load and render statistics
+        async function loadStatistics() {
+            try {
+                const response = await fetch('stats.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load statistics');
+                }
+
+                statsData = await response.json();
+                renderStatistics(statsData);
+            } catch (error) {
+                console.error('Error loading statistics:', error);
+                document.getElementById('last-updated').textContent = 'Error loading data';
+            }
+        }
+
+        // Render all statistics
+        function renderStatistics(data) {
+            renderSummary(data.summary, data.generated_at);
+            renderTemplatesGrowthChart(data.templates_growth);
+            renderProvidersGrowthChart(data.providers_growth);
+            renderPRActivityChart(data.pr_activity);
+            renderRecordTypesChart(data.record_types, data.summary.total_templates, data.repository);
+            renderFeatureUsageCharts(data.feature_usage, data.repository);
+            renderTopProvidersTable(data.top_providers, data.repository);
+            renderRecentPRsTable(data.recent_prs, data.templates);
+        }
+
+        // Render summary statistics
+        function renderSummary(summary, generatedAt) {
+            // Last updated
+            const date = new Date(generatedAt);
+            document.getElementById('last-updated').textContent = formatDateTime(date);
+
+            // Summary stats
+            document.getElementById('total-templates').textContent = summary.total_templates.toLocaleString();
+            document.getElementById('total-providers').textContent = summary.total_providers.toLocaleString();
+            document.getElementById('total-merged-prs').textContent = summary.total_merged_prs.toLocaleString();
+            document.getElementById('total-open-prs').textContent = summary.total_open_prs.toLocaleString();
+            document.getElementById('total-contributors').textContent = summary.total_contributors.toLocaleString();
+            document.getElementById('avg-records').textContent = summary.avg_records_per_template.toFixed(2);
+        }
+
+        // Render Templates Growth chart
+        function renderTemplatesGrowthChart(data) {
+            if (!data || data.length === 0) {
+                document.getElementById('templates-growth-chart').innerHTML = '<p class="no-data">No data available</p>';
+                return;
+            }
+
+            const months = data.map(d => d.month);
+            const cumulative = data.map(d => d.cumulative);
+            const added = data.map(d => d.added);
+
+            const trace1 = {
+                x: months,
+                y: cumulative,
+                name: 'Cumulative Templates',
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: { color: '#03263B', width: 3 },
+                marker: { size: 6 },
+                yaxis: 'y'
+            };
+
+            const trace2 = {
+                x: months,
+                y: added,
+                name: 'Added in Month',
+                type: 'bar',
+                marker: { color: '#ff6663', opacity: 0.7 },
+                yaxis: 'y2'
+            };
+
+            const layout = {
+                xaxis: {
+                    title: 'Month',
+                    showgrid: true,
+                    gridcolor: '#e0e0e0'
+                },
+                yaxis: {
+                    title: 'Cumulative Templates',
+                    titlefont: { color: '#03263B' },
+                    tickfont: { color: '#03263B' },
+                    showgrid: true,
+                    gridcolor: '#e0e0e0',
+                    rangemode: 'tozero'
+                },
+                yaxis2: {
+                    title: 'Templates Added',
+                    titlefont: { color: '#ff6663' },
+                    tickfont: { color: '#ff6663' },
+                    overlaying: 'y',
+                    side: 'right',
+                    showgrid: false,
+                    rangemode: 'tozero'
+                },
+                hovermode: 'x unified',
+                legend: {
+                    x: 0.02,
+                    y: 0.98,
+                    bgcolor: 'rgba(255,255,255,0.8)',
+                    bordercolor: '#bddae6',
+                    borderwidth: 1
+                },
+                margin: { l: 60, r: 60, t: 20, b: 60 }
+            };
+
+            Plotly.newPlot('templates-growth-chart', [trace1, trace2], layout, plotlyConfig);
+        }
+
+        // Render Provider Growth chart
+        function renderProvidersGrowthChart(data) {
+            if (!data || data.length === 0) {
+                document.getElementById('providers-growth-chart').innerHTML = '<p class="no-data">No data available</p>';
+                return;
+            }
+
+            const months = data.map(d => d.month);
+            const cumulative = data.map(d => d.cumulative);
+            const added = data.map(d => d.added);
+
+            const trace1 = {
+                x: months,
+                y: cumulative,
+                name: 'Cumulative Providers',
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: { color: '#0b3954', width: 3 },
+                marker: { size: 6 },
+                yaxis: 'y'
+            };
+
+            const trace2 = {
+                x: months,
+                y: added,
+                name: 'Added in Month',
+                type: 'bar',
+                marker: { color: '#ff6663', opacity: 0.7 },
+                yaxis: 'y2'
+            };
+
+            const layout = {
+                xaxis: {
+                    title: 'Month',
+                    showgrid: true,
+                    gridcolor: '#e0e0e0'
+                },
+                yaxis: {
+                    title: 'Cumulative Providers',
+                    titlefont: { color: '#0b3954' },
+                    tickfont: { color: '#0b3954' },
+                    showgrid: true,
+                    gridcolor: '#e0e0e0',
+                    rangemode: 'tozero'
+                },
+                yaxis2: {
+                    title: 'Providers Added',
+                    titlefont: { color: '#ff6663' },
+                    tickfont: { color: '#ff6663' },
+                    overlaying: 'y',
+                    side: 'right',
+                    showgrid: false,
+                    rangemode: 'tozero'
+                },
+                hovermode: 'x unified',
+                legend: {
+                    x: 0.02,
+                    y: 0.98,
+                    bgcolor: 'rgba(255,255,255,0.8)',
+                    bordercolor: '#bddae6',
+                    borderwidth: 1
+                },
+                margin: { l: 60, r: 60, t: 20, b: 60 }
+            };
+
+            Plotly.newPlot('providers-growth-chart', [trace1, trace2], layout, plotlyConfig);
+        }
+
+        // Render PR Activity chart
+        function renderPRActivityChart(data) {
+            if (!data || data.length === 0) {
+                document.getElementById('pr-activity-chart').innerHTML = '<p class="no-data">No data available</p>';
+                return;
+            }
+
+            const months = data.map(d => d.month);
+            const created = data.map(d => d.created);
+            const merged = data.map(d => d.merged);
+
+            const trace1 = {
+                x: months,
+                y: created,
+                name: 'PRs Created',
+                type: 'bar',
+                marker: { color: '#0b3954' }
+            };
+
+            const trace2 = {
+                x: months,
+                y: merged,
+                name: 'PRs Merged',
+                type: 'bar',
+                marker: { color: '#00bfff' }
+            };
+
+            const layout = {
+                xaxis: {
+                    title: 'Month',
+                    showgrid: false
+                },
+                yaxis: {
+                    title: 'Number of PRs',
+                    showgrid: true,
+                    gridcolor: '#e0e0e0'
+                },
+                barmode: 'group',
+                hovermode: 'x unified',
+                legend: {
+                    x: 0.02,
+                    y: 0.98,
+                    bgcolor: 'rgba(255,255,255,0.8)',
+                    bordercolor: '#bddae6',
+                    borderwidth: 1
+                },
+                margin: { l: 60, r: 40, t: 20, b: 60 }
+            };
+
+            Plotly.newPlot('pr-activity-chart', [trace1, trace2], layout, plotlyConfig);
+        }
+
+        // Render Record Types chart
+        function renderRecordTypesChart(data, totalTemplates, repository) {
+            if (!data || data.length === 0) {
+                document.getElementById('record-types-chart').innerHTML = '<p class="no-data">No data available</p>';
+                return;
+            }
+
+            function recordTypeSearchUrl(type) {
+                const repo = `${repository.owner}/${repository.name}`;
+                const q = `repo:${repo} path:*.json "\\"type\\": \\"${type}\\""`;
+                return `https://github.com/search?q=${encodeURIComponent(q)}&type=code`;
+            }
+
+            // Sort ascending so highest percentage is at the top of horizontal bar chart
+            const sorted = [...data].sort((a, b) => a.count - b.count);
+            const types = sorted.map(d => d.type);
+            const percentages = sorted.map(d => Math.round((d.count / totalTemplates) * 100));
+            const counts = sorted.map(d => d.count);
+
+            const trace = {
+                y: types,
+                x: percentages,
+                type: 'bar',
+                orientation: 'h',
+                marker: { color: '#0b3954' },
+                text: counts.map((c, i) => `${percentages[i]}% (${c}/${totalTemplates})`),
+                textposition: 'auto',
+                hovertemplate: '<b>%{y}</b><br>%{x}% of templates (%{customdata}/' + totalTemplates + ')<br><i>Click to search on GitHub</i><extra></extra>',
+                customdata: counts
+            };
+
+            const layout = {
+                xaxis: {
+                    title: '% of Templates',
+                    showgrid: true,
+                    gridcolor: '#e0e0e0',
+                    range: [0, 100]
+                },
+                yaxis: {
+                    title: '',
+                    automargin: true
+                },
+                margin: { l: 80, r: 40, t: 20, b: 60 }
+            };
+
+            const chartEl = document.getElementById('record-types-chart');
+            Plotly.newPlot(chartEl, [trace], layout, plotlyConfig);
+
+            chartEl.on('plotly_click', function(clickData) {
+                const type = clickData.points[0].y;
+                window.open(recordTypeSearchUrl(type), '_blank');
+            });
+            chartEl.style.cursor = 'pointer';
+        }
+
+        // Render Feature Usage donut charts
+        function renderFeatureUsageCharts(data, repository) {
+            const container = document.getElementById('feature-usage-charts');
+            if (!data || !data.features || data.features.length === 0) {
+                container.innerHTML = '<p class="no-data">No data available</p>';
+                return;
+            }
+
+            function featureSearchUrl(featureName) {
+                const repo = `${repository.owner}/${repository.name}`;
+                let q;
+                if (featureName === 'warnPhishing' || featureName === 'hostRequired') {
+                    q = `repo:${repo} path:*.json "\\"${featureName}\\": true"`;
+                } else {
+                    q = `repo:${repo} path:*.json "\\"${featureName}\\""`;
+                }
+                return `https://github.com/search?q=${encodeURIComponent(q)}&type=code`;
+            }
+
+            const total = data.total_templates;
+            const colors = ['#0b3954', '#bddae6'];
+
+            data.features.forEach(feature => {
+                const chartDiv = document.createElement('div');
+                chartDiv.className = 'donut-cell';
+                const chartId = `donut-${feature.name}`;
+                chartDiv.innerHTML = `<div id="${chartId}" style="position:relative"></div>`;
+                container.appendChild(chartDiv);
+
+                const used = feature.count;
+                const notUsed = total - used;
+                const pct = Math.round((used / total) * 100);
+
+                const trace = {
+                    values: [used, notUsed],
+                    labels: ['Used', 'Not used'],
+                    type: 'pie',
+                    hole: 0.6,
+                    marker: {
+                        colors: colors,
+                        line: { color: '#ffffff', width: 2 }
+                    },
+                    textinfo: 'none',
+                    hovertemplate: '<b>%{label}</b><br>%{value} templates (%{percent})<extra></extra>'
+                };
+
+                const layout = {
+                    title: {
+                        text: feature.label,
+                        font: { size: 14, color: '#03263B' }
+                    },
+                    annotations: [],
+                    showlegend: false,
+                    margin: { l: 10, r: 10, t: 40, b: 10 },
+                    height: 200
+                };
+
+                Plotly.newPlot(chartId, [trace], layout, {
+                    responsive: true,
+                    displayModeBar: false
+                });
+
+                // Add clickable overlay on top of the donut center
+                const url = featureSearchUrl(feature.name);
+                const overlay = document.createElement('a');
+                overlay.href = url;
+                overlay.target = '_blank';
+                overlay.className = 'donut-center-link';
+                overlay.textContent = `${pct}%`;
+                document.getElementById(chartId).appendChild(overlay);
+            });
+        }
+
+        // Render Top Providers tables
+        function renderTopProvidersTable(data, repository) {
+            function providerSearchUrl(providerId) {
+                const repo = `${repository.owner}/${repository.name}`;
+                const q = `repo:${repo} path:*.json "\\"providerId\\": \\"${providerId}\\""`;
+                return `https://github.com/search?q=${encodeURIComponent(q)}&type=code`;
+            }
+
+            function renderProviderRow(provider, index) {
+                const logoHtml = provider.logo_url
+                    ? `<img src="${escapeHtml(provider.logo_url)}" alt="" class="provider-logo" onerror="this.style.display='none'">`
+                    : '';
+                const name = escapeHtml(provider.provider_name || provider.provider_id);
+                const searchUrl = providerSearchUrl(provider.provider_id);
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td class="provider-name">${logoHtml} ${name}</td>
+                    <td><a href="${searchUrl}" target="_blank" class="template-count-link">${provider.template_count}</a></td>
+                `;
+                return row;
+            }
+
+            // All time
+            const allTimeTable = document.querySelector('#top-providers-all-time tbody');
+            allTimeTable.innerHTML = '';
+
+            if (!data.all_time || data.all_time.length === 0) {
+                allTimeTable.innerHTML = '<tr><td colspan="3">No data available</td></tr>';
+            } else {
+                data.all_time.forEach((provider, index) => {
+                    allTimeTable.appendChild(renderProviderRow(provider, index));
+                });
+            }
+
+            // Last 30 days
+            const recentTable = document.querySelector('#top-providers-recent tbody');
+            recentTable.innerHTML = '';
+
+            if (!data.last_30_days || data.last_30_days.length === 0) {
+                recentTable.innerHTML = '<tr><td colspan="3">No data available</td></tr>';
+            } else {
+                data.last_30_days.forEach((provider, index) => {
+                    recentTable.appendChild(renderProviderRow(provider, index));
+                });
+            }
+        }
+
+        // Render Recent PRs table
+        function renderRecentPRsTable(prs, templates) {
+            const tbody = document.querySelector('#recent-prs-table tbody');
+            tbody.innerHTML = '';
+
+            if (!prs || prs.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="6">No pull requests available</td></tr>';
+                return;
+            }
+
+            prs.forEach(pr => {
+                const row = document.createElement('tr');
+
+                // PR number with link
+                const prLink = `<a href="${pr.url}" target="_blank" class="pr-link">#${pr.number}</a>`;
+
+                // Status badge
+                let statusBadge;
+                if (pr.merged) {
+                    statusBadge = '<span class="badge badge-merged">Merged</span>';
+                } else if (pr.state === 'open') {
+                    statusBadge = '<span class="badge badge-open">Open</span>';
+                } else {
+                    statusBadge = '<span class="badge badge-closed">Closed</span>';
+                }
+
+                // Templates with logos
+                let templatesHtml = '';
+                if (pr.templates && pr.templates.length > 0) {
+                    templatesHtml = '<div class="pr-templates">';
+                    pr.templates.forEach(template => {
+                        const logoHtml = template.logo_url
+                            ? `<img src="${escapeHtml(template.logo_url)}" alt="${escapeHtml(template.provider_id)}" class="template-logo" onerror="this.style.display='none'">`
+                            : '';
+                        const statusIcon = template.status === 'added' ? '➕' :
+                                         template.status === 'removed' ? '➖' :
+                                         template.status === 'modified' ? '✏️' : '';
+                        templatesHtml += `
+                            <div class="pr-template-item">
+                                ${logoHtml}
+                                <span class="template-name">${statusIcon} ${escapeHtml(template.provider_id)}.${escapeHtml(template.service_id)}</span>
+                            </div>
+                        `;
+                    });
+                    templatesHtml += '</div>';
+                } else {
+                    templatesHtml = '<em>No templates</em>';
+                }
+
+                // Labels
+                const labelsHtml = pr.labels && pr.labels.length > 0
+                    ? pr.labels.map(label => `<span class="label">${escapeHtml(label)}</span>`).join(' ')
+                    : '<em>None</em>';
+
+                // Date
+                const date = new Date(pr.created_at);
+                const dateStr = formatDate(date);
+
+                row.innerHTML = `
+                    <td>${prLink}</td>
+                    <td class="pr-title">${escapeHtml(pr.title)}</td>
+                    <td>${templatesHtml}</td>
+                    <td>${statusBadge}</td>
+                    <td class="pr-labels">${labelsHtml}</td>
+                    <td class="pr-date">${dateStr}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        // Utility: Format date as DD-MM-YYYY
+        function formatDate(date) {
+            const dd = String(date.getDate()).padStart(2, '0');
+            const mm = String(date.getMonth() + 1).padStart(2, '0');
+            const yyyy = date.getFullYear();
+            return `${dd}-${mm}-${yyyy}`;
+        }
+
+        // Utility: Format datetime as DD-MM-YYYY hh:mm
+        function formatDateTime(date) {
+            const hh = String(date.getHours()).padStart(2, '0');
+            const min = String(date.getMinutes()).padStart(2, '0');
+            return `${formatDate(date)} ${hh}:${min}`;
+        }
+
+        // Utility: Escape HTML to prevent XSS
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', loadStatistics);
+    </script>
+</body>
+</html>

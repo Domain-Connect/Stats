@@ -1,0 +1,72 @@
+The project contains a repository od Domain Connect templates.
+
+Add a statistics feature to this repository.
+
+Architecture:
+- all output files shall be in the ./dashboard directory
+- scripts shall be in ./scripts directory
+- static html file with statistics site
+- stats.json file, which will contain all data to be included in the graphs
+- update_stats.py - a python script which can be integrated into github ci/cd to update the stats on each new commit and/or on cron schedule
+- all styling shall be separate in .css file
+- use responsive design, so that the stats look good both on desktop and mobile
+- graph controls shall allow to zoom in on the time axis as well as download of source data tables
+
+Use colors and CI from https://www.domainconnect.org/
+Assets (logos) are in ./dashboards/assets folder
+
+Create Claude.md file so that future edits obey to the same rules.
+
+The following statistics shall be included:
+- Last updated date
+- Total Templates
+- Total Service Providers
+- Total Merged PRs
+- Total Open PRs
+- Total number of Contributors
+- Avg Records/Template
+
+- Graph Templates Growth Over Time
+  - Month since the beginning of the repository on X axis
+  - Cumulative Templates on the first Y axis (line)
+  - Added Templates in a month on the second Y axis (bar)
+  - both scales shall start at zero
+
+- Provider Growth Over Time:
+  - Month since the beginning of the repository on X axis
+  - Cumulative provider on the first Y axis (line)
+  - Added Provider in a month on the second Y axis (bar)
+  - both scales shall start at zero
+
+- Graph Pull Requests Activity
+  - Month since the beginning of the repository on X axis
+  - PRs created vs PRs merged on the Y axis (bar)
+
+- Record Types Distribution
+  - horizontal bar chart showing % of templates containing each RR type
+  - count RR type grouped per template, so if a template contains 5 CNAMEs, count it as 1
+  - bars show percentage with label "X% (count/total)"
+  - clicking a bar opens GitHub code search for that record type
+    e.g. repo:Domain-Connect/Templates path:*.json "\"type\": \"NS\""
+
+- Feature Usage
+  - row of donut charts below Record Types Distribution
+  - each donut shows % of templates using a feature:
+    - syncPubKeyDomain (present/non-empty)
+    - syncRedirectDomain (present/non-empty)
+    - warnPhishing (present and set to true)
+    - hostRequired (present and set to true)
+  - percentage displayed in the center of each donut
+
+- Top Providers
+  - 2 Tables: for whole history and for last month
+  - Show provider logo (from the first template) to the left of the provider name
+  - Use providerName from template content (not filename-derived provider ID)
+  - Number of templates is a clickable link opening GitHub code search for that providerId
+    e.g. https://github.com/search?q=repo%3ADomain-Connect%2FTemplates+path%3A*.json+%22providerId%22%3A+%22example.com%22&type=code
+
+- Recent Pull Requests
+  - Table with PR number, name, status, labels, open date and link to github
+  - for each entry list providerId/ServiceId and logo from the template (there might be more than one in one PR)
+
+If you are not sure on anything, or need more clarification, ask the user upfront before proceeding.
