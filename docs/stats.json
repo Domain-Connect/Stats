@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-09T22:55:32.911085",
+  "generated_at": "2026-02-10T01:18:56.082073",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -8,8 +8,8 @@
   "summary": {
     "total_templates": 478,
     "total_providers": 239,
-    "total_merged_prs": 616,
-    "total_open_prs": 12,
+    "total_merged_prs": 617,
+    "total_open_prs": 11,
     "total_contributors": 272,
     "avg_records_per_template": 3.62
   },
@@ -1391,7 +1391,7 @@
     {
       "month": "2026-02",
       "created": 22,
-      "merged": 12
+      "merged": 13
     }
   ],
   "record_types": [
@@ -1581,6 +1581,12 @@
         "template_count": 3
       },
       {
+        "provider_id": "leadform.io",
+        "provider_name": "Leadform",
+        "logo_url": "https://leadform.io/icon.png",
+        "template_count": 2
+      },
+      {
         "provider_id": "deno.com",
         "provider_name": "Deno",
         "logo_url": "https://deno.com/logo.svg",
@@ -1641,12 +1647,6 @@
         "template_count": 1
       },
       {
-        "provider_id": "leadform.io",
-        "provider_name": "Leadform",
-        "logo_url": "https://leadform.io/icon.png",
-        "template_count": 1
-      },
-      {
         "provider_id": "storeoncloud.com",
         "provider_name": "StoreOnCloud",
         "logo_url": "https://www.storeoncloud.com/img/logo.svg",
@@ -1696,17 +1696,17 @@
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 407
+        "count": 408
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 281
+        "count": 282
       },
       {
         "name": "warnPhishing",
         "label": "warnPhishing",
-        "count": 32
+        "count": 31
       },
       {
         "name": "hostRequired",
@@ -1717,39 +1717,20 @@
   },
   "recent_prs": [
     {
-      "number": 761,
-      "title": "Fix syncBlock and add syncRedirectDomain for leadform.io template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-09T18:15:32Z",
-      "updated_at": "2026-02-09T19:40:02Z",
-      "merged_at": null,
-      "author": "FrugenceFidel",
-      "author_avatar": "https://avatars.githubusercontent.com/u/26389425?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/761",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "leadform",
-          "service_id": "io.custom-domain",
-          "filename": "leadform.io.custom-domain.json",
-          "logo_url": "https://leadform.io/icon.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
       "number": 760,
       "title": "Add ops.autos hosting template",
       "state": "open",
       "merged": false,
       "created_at": "2026-02-09T17:53:43Z",
-      "updated_at": "2026-02-09T17:54:12Z",
+      "updated_at": "2026-02-09T23:22:37Z",
       "merged_at": null,
       "author": "ops3000",
       "author_avatar": "https://avatars.githubusercontent.com/u/215750677?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/760",
-      "labels": [],
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete"
+      ],
       "templates": [
         {
           "provider_id": "ops",
@@ -2051,6 +2032,28 @@
       ]
     },
     {
+      "number": 761,
+      "title": "Fix syncBlock and add syncRedirectDomain for leadform.io template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-09T18:15:32Z",
+      "updated_at": "2026-02-09T23:22:52Z",
+      "merged_at": "2026-02-09T23:22:52Z",
+      "author": "FrugenceFidel",
+      "author_avatar": "https://avatars.githubusercontent.com/u/26389425?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/761",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "leadform",
+          "service_id": "io.custom-domain",
+          "filename": "leadform.io.custom-domain.json",
+          "logo_url": "https://leadform.io/icon.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 750,
       "title": "deno.com - Deno Deploy custom domains",
       "state": "closed",
@@ -2275,38 +2278,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 744,
-      "title": "Add CariSEO Blog Hosting template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-03T08:18:59Z",
-      "updated_at": "2026-02-03T09:13:29Z",
-      "merged_at": "2026-02-03T09:13:29Z",
-      "author": "mengfoong-dev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/221976573?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/744",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete"
-      ],
-      "templates": [
-        {
-          "provider_id": "cariseo",
-          "service_id": "com.blog-hosting",
-          "filename": "cariseo.com.blog-hosting.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 386,
+        "review_count": 387,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -2338,7 +2316,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 30,
+        "review_count": 31,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
