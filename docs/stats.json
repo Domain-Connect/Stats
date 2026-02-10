@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-10T01:18:56.082073",
+  "generated_at": "2026-02-10T15:36:18.173098",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 478,
-    "total_providers": 239,
-    "total_merged_prs": 617,
-    "total_open_prs": 11,
-    "total_contributors": 272,
-    "avg_records_per_template": 3.62
+    "total_templates": 480,
+    "total_providers": 241,
+    "total_merged_prs": 619,
+    "total_open_prs": 9,
+    "total_contributors": 274,
+    "avg_records_per_template": 3.61
   },
   "templates_growth": [
     {
@@ -481,8 +481,8 @@
     },
     {
       "month": "2026-02",
-      "added": 15,
-      "cumulative": 570
+      "added": 17,
+      "cumulative": 572
     }
   ],
   "providers_growth": [
@@ -893,8 +893,8 @@
     },
     {
       "month": "2026-02",
-      "added": 10,
-      "cumulative": 239
+      "added": 12,
+      "cumulative": 241
     }
   ],
   "pr_activity": [
@@ -1391,17 +1391,17 @@
     {
       "month": "2026-02",
       "created": 22,
-      "merged": 13
+      "merged": 15
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 355
+      "count": 357
     },
     {
       "type": "TXT",
-      "count": 207
+      "count": 208
     },
     {
       "type": "A",
@@ -1641,6 +1641,18 @@
         "template_count": 2
       },
       {
+        "provider_id": "statickit.app",
+        "provider_name": "StaticKit",
+        "logo_url": "https://statickit.app/images/logo-dark.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "ops.autos",
+        "provider_name": "Ops",
+        "logo_url": null,
+        "template_count": 1
+      },
+      {
         "provider_id": "w7sfw.com",
         "provider_name": "W7SFW",
         "logo_url": "https://w7sfw.com/logo.svg",
@@ -1675,33 +1687,21 @@
         "provider_name": "ConnectHealthMD",
         "logo_url": "https://www.connecthealthmd.com/assets/images/ch_logo.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "railway.com",
-        "provider_name": "Railway",
-        "logo_url": "https://railway.com/brand/logotype-dark.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "arkhq.io",
-        "provider_name": "Ark",
-        "logo_url": "https://arkhq.io/ark-logo.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 478,
+    "total_templates": 480,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 408
+        "count": 410
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 282
+        "count": 284
       },
       {
         "name": "warnPhishing",
@@ -1711,68 +1711,18 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 103
+        "count": 105
       }
     ]
   },
   "recent_prs": [
-    {
-      "number": 760,
-      "title": "Add ops.autos hosting template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-09T17:53:43Z",
-      "updated_at": "2026-02-09T23:22:37Z",
-      "merged_at": null,
-      "author": "ops3000",
-      "author_avatar": "https://avatars.githubusercontent.com/u/215750677?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/760",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete"
-      ],
-      "templates": [
-        {
-          "provider_id": "ops",
-          "service_id": "autos.hosting",
-          "filename": "ops.autos.hosting.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 753,
-      "title": "Add StaticKit custom domain template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-09T08:32:59Z",
-      "updated_at": "2026-02-09T14:27:55Z",
-      "merged_at": null,
-      "author": "setasenarr",
-      "author_avatar": "https://avatars.githubusercontent.com/u/226505311?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/753",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete"
-      ],
-      "templates": [
-        {
-          "provider_id": "statickit",
-          "service_id": "app.custom-domain",
-          "filename": "statickit.app.custom-domain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
     {
       "number": 751,
       "title": "Add Rose Labs Pigeon Email template",
       "state": "open",
       "merged": false,
       "created_at": "2026-02-08T20:12:37Z",
-      "updated_at": "2026-02-09T09:48:55Z",
+      "updated_at": "2026-02-10T02:52:47Z",
       "merged_at": null,
       "author": "patsaid",
       "author_avatar": "https://avatars.githubusercontent.com/u/103618719?v=4",
@@ -2032,6 +1982,56 @@
       ]
     },
     {
+      "number": 753,
+      "title": "Add StaticKit custom domain template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-09T08:32:59Z",
+      "updated_at": "2026-02-10T10:59:31Z",
+      "merged_at": "2026-02-10T10:59:31Z",
+      "author": "setasenarr",
+      "author_avatar": "https://avatars.githubusercontent.com/u/226505311?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/753",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete"
+      ],
+      "templates": [
+        {
+          "provider_id": "statickit",
+          "service_id": "app.custom-domain",
+          "filename": "statickit.app.custom-domain.json",
+          "logo_url": "https://statickit.app/images/logo-dark.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 760,
+      "title": "Add ops.autos hosting template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-09T17:53:43Z",
+      "updated_at": "2026-02-10T07:22:33Z",
+      "merged_at": "2026-02-10T07:22:33Z",
+      "author": "ops3000",
+      "author_avatar": "https://avatars.githubusercontent.com/u/215750677?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/760",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete"
+      ],
+      "templates": [
+        {
+          "provider_id": "ops",
+          "service_id": "autos.hosting",
+          "filename": "ops.autos.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 761,
       "title": "Fix syncBlock and add syncRedirectDomain for leadform.io template",
       "state": "closed",
@@ -2220,71 +2220,13 @@
           "status": "renamed"
         }
       ]
-    },
-    {
-      "number": 746,
-      "title": "Add Lettr.com email sending templates",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-04T12:41:11Z",
-      "updated_at": "2026-02-04T17:17:37Z",
-      "merged_at": "2026-02-04T17:17:36Z",
-      "author": "Tlapi",
-      "author_avatar": "https://avatars.githubusercontent.com/u/2815391?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/746",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "lettr",
-          "service_id": "com.mail-send-and-receive",
-          "filename": "lettr.com.mail-send-and-receive.json",
-          "logo_url": "https://assets.lettr.com/brand/lettr-logo-bw.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 745,
-      "title": "Add SaasKevin domain verification templates",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-03T15:09:19Z",
-      "updated_at": "2026-02-03T15:32:36Z",
-      "merged_at": "2026-02-03T15:32:36Z",
-      "author": "kevinyun",
-      "author_avatar": "https://avatars.githubusercontent.com/u/1364544?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/745",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "saaskevin",
-          "service_id": "com.branded-cname",
-          "filename": "saaskevin.com.branded-cname.json",
-          "logo_url": "https://app.saaskevin.com/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "saaskevin",
-          "service_id": "com.widget-custom-domain-apex",
-          "filename": "saaskevin.com.widget-custom-domain-apex.json",
-          "logo_url": "https://app.saaskevin.com/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "saaskevin",
-          "service_id": "com.widget-custom-domain-subdomain",
-          "filename": "saaskevin.com.widget-custom-domain-subdomain.json",
-          "logo_url": "https://app.saaskevin.com/logo.svg",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 387,
+        "review_count": 389,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -2316,7 +2258,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 31,
+        "review_count": 33,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -5174,6 +5116,15 @@
       "record_count": 1
     },
     {
+      "filename": "ops.autos.hosting.json",
+      "provider_id": "ops.autos",
+      "service_id": "hosting",
+      "provider_name": "Ops",
+      "service_name": "Ops Hosting",
+      "logo_url": null,
+      "record_count": 1
+    },
+    {
       "filename": "optimizex.io.ox-connect.json",
       "provider_id": "optimizex.io",
       "service_id": "ox-connect",
@@ -5948,6 +5899,15 @@
       "record_count": 1
     },
     {
+      "filename": "statickit.app.custom-domain.json",
+      "provider_id": "statickit.app",
+      "service_id": "custom-domain",
+      "provider_name": "StaticKit",
+      "service_name": "Custom Domain",
+      "logo_url": "https://statickit.app/images/logo-dark.svg",
+      "record_count": 2
+    },
+    {
       "filename": "storeoncloud.com.email.json",
       "provider_id": "storeoncloud.com",
       "service_id": "email",
@@ -6635,7 +6595,7 @@
   "contributors": [
     {
       "login": "pawel-kow",
-      "contributions": 440,
+      "contributions": 441,
       "avatar_url": "https://avatars.githubusercontent.com/u/28707030?v=4",
       "profile_url": "https://github.com/pawel-kow"
     },
