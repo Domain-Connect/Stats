@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-02-10T15:36:18.173098",
+  "generated_at": "2026-02-11T01:16:48.673441",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 480,
-    "total_providers": 241,
-    "total_merged_prs": 619,
-    "total_open_prs": 9,
-    "total_contributors": 274,
+    "total_templates": 481,
+    "total_providers": 242,
+    "total_merged_prs": 620,
+    "total_open_prs": 10,
+    "total_contributors": 275,
     "avg_records_per_template": 3.61
   },
   "templates_growth": [
@@ -481,8 +481,8 @@
     },
     {
       "month": "2026-02",
-      "added": 17,
-      "cumulative": 572
+      "added": 18,
+      "cumulative": 573
     }
   ],
   "providers_growth": [
@@ -893,8 +893,8 @@
     },
     {
       "month": "2026-02",
-      "added": 12,
-      "cumulative": 241
+      "added": 13,
+      "cumulative": 242
     }
   ],
   "pr_activity": [
@@ -1390,18 +1390,18 @@
     },
     {
       "month": "2026-02",
-      "created": 22,
-      "merged": 15
+      "created": 24,
+      "merged": 16
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 357
+      "count": 358
     },
     {
       "type": "TXT",
-      "count": 208
+      "count": 209
     },
     {
       "type": "A",
@@ -1641,6 +1641,12 @@
         "template_count": 2
       },
       {
+        "provider_id": "roselabs.io",
+        "provider_name": "Rose Labs",
+        "logo_url": "https://pigeon.roselabs.io/pigeon-logo.png",
+        "template_count": 1
+      },
+      {
         "provider_id": "statickit.app",
         "provider_name": "StaticKit",
         "logo_url": "https://statickit.app/images/logo-dark.svg",
@@ -1681,27 +1687,21 @@
         "provider_name": "CariSEO",
         "logo_url": null,
         "template_count": 1
-      },
-      {
-        "provider_id": "connecthealthmd.com",
-        "provider_name": "ConnectHealthMD",
-        "logo_url": "https://www.connecthealthmd.com/assets/images/ch_logo.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 480,
+    "total_templates": 481,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 410
+        "count": 411
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 284
+        "count": 285
       },
       {
         "name": "warnPhishing",
@@ -1717,25 +1717,51 @@
   },
   "recent_prs": [
     {
-      "number": 751,
-      "title": "Add Rose Labs Pigeon Email template",
+      "number": 763,
+      "title": "Add groupId to DNS records for verification",
       "state": "open",
       "merged": false,
-      "created_at": "2026-02-08T20:12:37Z",
-      "updated_at": "2026-02-10T02:52:47Z",
+      "created_at": "2026-02-11T00:50:22Z",
+      "updated_at": "2026-02-11T01:03:03Z",
       "merged_at": null,
-      "author": "patsaid",
-      "author_avatar": "https://avatars.githubusercontent.com/u/103618719?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/751",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete"
-      ],
+      "author": "aomkoyo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/59776731?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/763",
+      "labels": [],
       "templates": [
         {
-          "provider_id": "roselabs",
-          "service_id": "io.pigeon-mail",
-          "filename": "roselabs.io.pigeon-mail.json",
+          "provider_id": "furimoe",
+          "service_id": "com.domain-verification",
+          "filename": "furimoe.com.domain-verification.json",
+          "logo_url": null,
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 762,
+      "title": "Add Rocketflow tracking page templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-10T18:33:54Z",
+      "updated_at": "2026-02-10T18:42:07Z",
+      "merged_at": null,
+      "author": "marluciaaraujo149-web",
+      "author_avatar": "https://avatars.githubusercontent.com/u/258689530?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/762",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "rflowcdn",
+          "service_id": "com.tracking-root",
+          "filename": "rflowcdn.com.tracking-root.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "rflowcdn",
+          "service_id": "com.tracking-subdomain",
+          "filename": "rflowcdn.com.tracking-subdomain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -1982,6 +2008,31 @@
       ]
     },
     {
+      "number": 751,
+      "title": "Add Rose Labs Pigeon Email template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-08T20:12:37Z",
+      "updated_at": "2026-02-10T16:06:02Z",
+      "merged_at": "2026-02-10T16:06:01Z",
+      "author": "patsaid",
+      "author_avatar": "https://avatars.githubusercontent.com/u/103618719?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/751",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete"
+      ],
+      "templates": [
+        {
+          "provider_id": "roselabs",
+          "service_id": "io.pigeon-mail",
+          "filename": "roselabs.io.pigeon-mail.json",
+          "logo_url": "https://pigeon.roselabs.io/pigeon-logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 753,
       "title": "Add StaticKit custom domain template",
       "state": "closed",
@@ -2196,30 +2247,6 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 702,
-      "title": "chore: add .json extension to the informaten.com.a file",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-07T13:06:48Z",
-      "updated_at": "2026-02-05T08:38:30Z",
-      "merged_at": "2026-02-05T08:38:29Z",
-      "author": "kerolasa",
-      "author_avatar": "https://avatars.githubusercontent.com/u/572411?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/702",
-      "labels": [
-        "Chores"
-      ],
-      "templates": [
-        {
-          "provider_id": "informaten",
-          "service_id": "com.a",
-          "filename": "informaten.com.a.json",
-          "logo_url": "https://informaten.com/logo_dark.png",
-          "status": "renamed"
-        }
-      ]
     }
   ],
   "top_reviewers": {
@@ -2232,7 +2259,7 @@
       },
       {
         "login": "kerolasa",
-        "review_count": 45,
+        "review_count": 46,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -2264,7 +2291,7 @@
       },
       {
         "login": "kerolasa",
-        "review_count": 25,
+        "review_count": 26,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -5492,6 +5519,15 @@
       "service_name": "RightClick Website",
       "logo_url": "https://domainconnect.org/wp-content/uploads/2017/03/rightclick.png",
       "record_count": 2
+    },
+    {
+      "filename": "roselabs.io.pigeon-mail.json",
+      "provider_id": "roselabs.io",
+      "service_id": "pigeon-mail",
+      "provider_name": "Rose Labs",
+      "service_name": "Pigeon Email",
+      "logo_url": "https://pigeon.roselabs.io/pigeon-logo.png",
+      "record_count": 4
     },
     {
       "filename": "ryzeo.com.email-auth.json",
