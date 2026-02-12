@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T01:16:48.673441",
+  "generated_at": "2026-02-12T01:09:03.240456",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 481,
     "total_providers": 242,
     "total_merged_prs": 620,
-    "total_open_prs": 10,
+    "total_open_prs": 14,
     "total_contributors": 275,
     "avg_records_per_template": 3.61
   },
@@ -1390,7 +1390,7 @@
     },
     {
       "month": "2026-02",
-      "created": 24,
+      "created": 30,
       "merged": 16
     }
   ],
@@ -1635,12 +1635,6 @@
         "template_count": 2
       },
       {
-        "provider_id": "apexsales.ai",
-        "provider_name": "Apex Sales",
-        "logo_url": "https://caspiansol.com/assets/caspian-new-logo-ibH7uW8J.png",
-        "template_count": 2
-      },
-      {
         "provider_id": "roselabs.io",
         "provider_name": "Rose Labs",
         "logo_url": "https://pigeon.roselabs.io/pigeon-logo.png",
@@ -1687,6 +1681,12 @@
         "provider_name": "CariSEO",
         "logo_url": null,
         "template_count": 1
+      },
+      {
+        "provider_id": "connecthealthmd.com",
+        "provider_name": "ConnectHealthMD",
+        "logo_url": "https://www.connecthealthmd.com/assets/images/ch_logo.png",
+        "template_count": 1
       }
     ]
   },
@@ -1717,17 +1717,115 @@
   },
   "recent_prs": [
     {
+      "number": 769,
+      "title": "Add DMARCeye Domain Connect template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-11T18:08:10Z",
+      "updated_at": "2026-02-11T18:08:43Z",
+      "merged_at": null,
+      "author": "bart-el",
+      "author_avatar": "https://avatars.githubusercontent.com/u/235506256?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/769",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "dmarceye",
+          "service_id": "com.dmarceye-setup",
+          "filename": "dmarceye.com.dmarceye-setup.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 768,
+      "title": "Update saaskevin.com.widget-custom-domain-subdomain.json and saaskevin.com.widget-custom-domain-apex.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-11T17:48:14Z",
+      "updated_at": "2026-02-11T20:09:39Z",
+      "merged_at": null,
+      "author": "kevinyun",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1364544?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/768",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "saaskevin",
+          "service_id": "com.branded-cname",
+          "filename": "saaskevin.com.branded-cname.json",
+          "logo_url": "https://app.saaskevin.com/logo.svg",
+          "status": "added"
+        },
+        {
+          "provider_id": "saaskevin",
+          "service_id": "com.widget-custom-domain-apex",
+          "filename": "saaskevin.com.widget-custom-domain-apex.json",
+          "logo_url": "https://app.saaskevin.com/logo.svg",
+          "status": "added"
+        },
+        {
+          "provider_id": "saaskevin",
+          "service_id": "com.widget-custom-domain-subdomain",
+          "filename": "saaskevin.com.widget-custom-domain-subdomain.json",
+          "logo_url": "https://app.saaskevin.com/logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 767,
+      "title": "Add domain authentication configuration for Auvex",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-11T14:44:05Z",
+      "updated_at": "2026-02-11T14:44:36Z",
+      "merged_at": null,
+      "author": "pablorod1",
+      "author_avatar": "https://avatars.githubusercontent.com/u/158567073?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/767",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "auvex",
+          "service_id": "es.domain-authentication",
+          "filename": "auvex.es.domain-authentication.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 765,
+      "title": "Add storefront custom domain configuration for Shopi.lk",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-11T10:38:55Z",
+      "updated_at": "2026-02-11T13:08:03Z",
+      "merged_at": null,
+      "author": "ruzny-ramzan",
+      "author_avatar": "https://avatars.githubusercontent.com/u/193292134?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/765",
+      "labels": [
+        "AI crap"
+      ],
+      "templates": []
+    },
+    {
       "number": 763,
       "title": "Add groupId to DNS records for verification",
       "state": "open",
       "merged": false,
       "created_at": "2026-02-11T00:50:22Z",
-      "updated_at": "2026-02-11T01:03:03Z",
+      "updated_at": "2026-02-11T10:55:04Z",
       "merged_at": null,
       "author": "aomkoyo",
       "author_avatar": "https://avatars.githubusercontent.com/u/59776731?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/763",
-      "labels": [],
+      "labels": [
+        "question"
+      ],
       "templates": [
         {
           "provider_id": "furimoe",
@@ -1744,12 +1842,15 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-10T18:33:54Z",
-      "updated_at": "2026-02-10T18:42:07Z",
+      "updated_at": "2026-02-11T06:22:05Z",
       "merged_at": null,
       "author": "marluciaaraujo149-web",
       "author_avatar": "https://avatars.githubusercontent.com/u/258689530?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/762",
-      "labels": [],
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete"
+      ],
       "templates": [
         {
           "provider_id": "rflowcdn",
@@ -1773,7 +1874,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-01T11:30:03Z",
-      "updated_at": "2026-02-07T11:46:10Z",
+      "updated_at": "2026-02-11T10:28:20Z",
       "merged_at": null,
       "author": "kyrixdev",
       "author_avatar": "https://avatars.githubusercontent.com/u/46058778?v=4",
@@ -2285,13 +2386,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 33,
+        "review_count": 32,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 26,
+        "review_count": 24,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
