@@ -7,17 +7,23 @@ summary is processed.
 
 ---
 
+_(Begin example - remove and replace with real output)_
+
 ## 1. Common Pitfalls and Errors in Template Creation
 
+### 1.1. Issue Group 1
+
+- issue 1
+
+- issue 2
+
+### 1.2. Issue Group 2
+
+- ...
+
+_(End example)_
+
 _(No findings yet — will be populated as PRs are processed.)_
-
-## 2. Reviewer Guidelines — What Reviewers Should Pay Attention To
-
-_(No findings yet.)_
-
-## 3. Checks That Can Be Automated
-
-_(No findings yet.)_
 
 ---
 

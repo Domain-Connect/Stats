@@ -40,8 +40,6 @@ Domain-Connect/Templates repository.  Your job is to identify:
 
 1. **Common Pitfalls & Errors** — recurring mistakes template authors make
    (e.g. missing fields, wrong record types, security issues, formatting).
-2. **Reviewer Guidelines** — things a human reviewer should always check.
-3. **Automatable Checks** — issues that could be caught by a linter or CI bot.
 
 You will receive:
 - The current accumulated findings document (`current_state.md`).
@@ -155,8 +153,8 @@ def call_ollama(
     model: str,
     system: str,
     user: str,
-    temperature: float = 0.2,
-    timeout: int = 600,
+    temperature: float = 0.1,
+    timeout: int = 1000,
 ) -> str:
     """Call Ollama chat completions API and return the assistant message."""
     url = f"{ollama_url}/api/chat"
@@ -169,7 +167,7 @@ def call_ollama(
         "stream": False,
         "options": {
             "temperature": temperature,
-            "num_ctx": 65536,
+            "num_ctx": 128 * 1024,
         },
     }
     resp = requests.post(url, json=payload, timeout=timeout)
@@ -387,7 +385,7 @@ def main():
                 updated_state = extract_markdown(raw_response)
 
                 # Sanity check: response should still contain key headings
-                if "## 1." in updated_state and "## 2." in updated_state:
+                if "## 1." in updated_state:
                     current_state = updated_state
                     write_file(state_file, current_state)
                     processed += 1
