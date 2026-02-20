@@ -239,9 +239,9 @@ class StatsGenerator:
             List of commit info dictionaries
         """
         try:
-            # Get all commits with file changes
+            # Get all commits with file changes, using --name-status to detect additions/deletions
             result = subprocess.run(
-                ["git", "log", "--all", "--date=short", "--name-only",
+                ["git", "log", "--all", "--date=short", "--name-status",
                  "--pretty=format:%ad|%H|%an|%ae"],
                 cwd=self.repo_path,
                 capture_output=True,
@@ -266,12 +266,26 @@ class StatsGenerator:
                             'hash': parts[1],
                             'author': parts[2],
                             'email': parts[3],
-                            'files': []
+                            'files': [],        # added files (backwards compat)
+                            'deleted': [],      # deleted files
                         }
                         commits.append(current_commit)
-                elif current_commit and line.endswith('.json'):
-                    # File change line
-                    current_commit['files'].append(line)
+                elif current_commit:
+                    # --name-status lines look like "A\tfilename" or "D\tfilename"
+                    # Renames look like "R100\told\tnew"
+                    parts = line.split('\t')
+                    if len(parts) >= 2:
+                        status = parts[0]
+                        if status.startswith('R') and len(parts) == 3:
+                            old_name, new_name = parts[1], parts[2]
+                            if old_name.endswith('.json'):
+                                current_commit['deleted'].append(old_name)
+                            if new_name.endswith('.json'):
+                                current_commit['files'].append(new_name)
+                        elif status == 'A' and parts[1].endswith('.json'):
+                            current_commit['files'].append(parts[1])
+                        elif status == 'D' and parts[1].endswith('.json'):
+                            current_commit['deleted'].append(parts[1])
 
             return commits
         except subprocess.CalledProcessError as e:
@@ -281,41 +295,38 @@ class StatsGenerator:
     def calculate_monthly_growth(self, commits: List[Dict[str, Any]]) -> Dict[str, Any]:
         """Calculate monthly template growth statistics.
 
+        Tracks net additions per month (files added minus files deleted) so that
+        the cumulative total matches the current number of templates in the repo.
+
         Args:
-            commits: List of commit data
+            commits: List of commit data (each with 'files' for added and 'deleted' for removed)
 
         Returns:
             Dictionary with monthly statistics
         """
-        # Track when each template was first added
-        template_first_seen = {}
+        # Count net additions (added - deleted) per month
+        monthly_added = defaultdict(int)
+        monthly_deleted = defaultdict(int)
 
-        # Process commits in chronological order (oldest first)
-        for commit in reversed(commits):
-            commit_date = commit['date']
-            for file in commit['files']:
-                if file.endswith('.json') and file not in template_first_seen:
-                    template_first_seen[file] = commit_date
+        for commit in commits:
+            year_month = commit['date'][:7]
+            monthly_added[year_month] += len(commit.get('files', []))
+            monthly_deleted[year_month] += len(commit.get('deleted', []))
 
-        # Group by month
-        monthly_additions = defaultdict(int)
-        for template, date_str in template_first_seen.items():
-            # Convert to YYYY-MM format
-            year_month = date_str[:7]  # Get YYYY-MM from YYYY-MM-DD
-            monthly_additions[year_month] += 1
-
-        # Calculate cumulative totals
-        sorted_months = sorted(monthly_additions.keys())
+        all_months = sorted(set(monthly_added) | set(monthly_deleted))
         cumulative = 0
         monthly_data = []
 
-        for month in sorted_months:
-            cumulative += monthly_additions[month]
-            monthly_data.append({
-                'month': month,
-                'added': monthly_additions[month],
-                'cumulative': cumulative
-            })
+        for month in all_months:
+            net = monthly_added[month] - monthly_deleted[month]
+            cumulative += net
+            if monthly_added[month] > 0 or monthly_deleted[month] > 0:
+                monthly_data.append({
+                    'month': month,
+                    'added': monthly_added[month],
+                    'deleted': monthly_deleted[month],
+                    'cumulative': cumulative
+                })
 
         return {
             'monthly': monthly_data,
