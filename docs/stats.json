@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:09:38.873082",
+  "generated_at": "2026-02-20T01:05:16.007571",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 490,
     "total_providers": 248,
     "total_merged_prs": 627,
-    "total_open_prs": 11,
+    "total_open_prs": 13,
     "total_contributors": 281,
     "avg_records_per_template": 3.61
   },
@@ -1390,7 +1390,7 @@
     },
     {
       "month": "2026-02",
-      "created": 35,
+      "created": 37,
       "merged": 23
     }
   ],
@@ -1717,6 +1717,64 @@
   },
   "recent_prs": [
     {
+      "number": 776,
+      "title": "Add TheDTSApp custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-19T21:18:29Z",
+      "updated_at": "2026-02-20T01:03:07Z",
+      "merged_at": null,
+      "author": "JJBrownHere",
+      "author_avatar": "https://avatars.githubusercontent.com/u/136272632?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/776",
+      "labels": [
+        "AI crap",
+        "PR description incomplete",
+        "Checklist of common problems not complete"
+      ],
+      "templates": [
+        {
+          "provider_id": "thedtsapp",
+          "service_id": "com.cname-setup",
+          "filename": "thedtsapp.com.cname-setup.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 775,
+      "title": "Add DMARCPulse DMARC and SPF templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-19T13:05:29Z",
+      "updated_at": "2026-02-19T14:46:44Z",
+      "merged_at": null,
+      "author": "tosh-hamburg",
+      "author_avatar": "https://avatars.githubusercontent.com/u/58424326?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/775",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete"
+      ],
+      "templates": [
+        {
+          "provider_id": "dmarcpulse",
+          "service_id": "io.dmarc-setup",
+          "filename": "dmarcpulse.io.dmarc-setup.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "dmarcpulse",
+          "service_id": "io.spf-setup",
+          "filename": "dmarcpulse.io.spf-setup.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 765,
       "title": "Add storefront custom domain configuration for Shopi.lk",
       "state": "open",
@@ -1892,12 +1950,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-01-15T19:04:24Z",
-      "updated_at": "2026-01-19T10:22:05Z",
+      "updated_at": "2026-02-19T03:57:56Z",
       "merged_at": null,
       "author": "BaptisteLam",
       "author_avatar": "https://avatars.githubusercontent.com/u/231010613?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/718",
       "labels": [
+        "Stale",
         "PR description incomplete"
       ],
       "templates": [
@@ -1940,13 +1999,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-01-07T10:54:33Z",
-      "updated_at": "2026-01-19T06:54:33Z",
+      "updated_at": "2026-02-19T03:57:57Z",
       "merged_at": null,
       "author": "kiritoaurora",
       "author_avatar": "https://avatars.githubusercontent.com/u/61142387?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/701",
       "labels": [
-        "question"
+        "question",
+        "Stale"
       ],
       "templates": [
         {
@@ -1964,12 +2024,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2025-12-31T07:03:37Z",
-      "updated_at": "2026-01-19T06:46:17Z",
+      "updated_at": "2026-02-19T03:57:59Z",
       "merged_at": null,
       "author": "AudEarn",
       "author_avatar": "https://avatars.githubusercontent.com/u/193089239?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/695",
       "labels": [
+        "Stale",
         "PR description incomplete"
       ],
       "templates": [
@@ -2333,13 +2394,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 25,
+        "review_count": 22,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 15,
+        "review_count": 13,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
