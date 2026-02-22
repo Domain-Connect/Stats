@@ -14,6 +14,7 @@ This document contains guidelines for maintaining and developing the Domain Conn
 │   └── assets/            # Logos and images
 ├── scripts/               # Python scripts for statistics generation
 │   ├── update_stats.py         # Main script to generate stats.json
+│   ├── check_syntax_rules.py   # Template syntax/field validator
 │   ├── requirements.txt        # Python dependencies
 │   ├── pr_reviews_cache.json   # Cache for PR review data (use skip-worktree locally)
 │   └── setup_local_dev.sh      # Helper to configure local development (sets skip-worktree)
@@ -170,6 +171,74 @@ This uses `git update-index --skip-worktree` to tell git to ignore local changes
 - Automatically enables cache file tracking with `--no-skip-worktree`
 - Commits updated `stats.json` and `pr_reviews_cache.json` back to repository
 
+## check_syntax_rules.py Script
+
+### Purpose
+Validates every `*.json` template file in the Templates folder against a set of
+typed syntax rules derived from the Domain Connect specification.  Exits with
+code 1 if any rule violations are found; warnings (deprecations) are printed but
+do not affect the exit code.
+
+### Requirements
+- Python 3.8+ (no third-party dependencies)
+
+### CLI Arguments
+- `--folder FOLDER`: Path to templates folder (default: `Templates`)
+- `--list-unchecked`: Print all top-level template properties not yet covered by
+  any rule, then exit.  Useful when reviewing spec changes.
+
+### Running Locally
+```bash
+# Check all templates in the default folder:
+python scripts/check_syntax_rules.py
+
+# Check a custom folder:
+python scripts/check_syntax_rules.py --folder /path/to/templates
+
+# List properties not yet covered by any rule:
+python scripts/check_syntax_rules.py --list-unchecked
+```
+
+### Output Format
+- `FAIL  <filename>` — file has one or more rule violations, followed by indented
+  error messages.
+- `WARN  <filename>` — file has deprecation warnings but no errors, followed by
+  indented warning messages.  Files with both errors and warnings show the `FAIL`
+  header; warnings are printed underneath.
+- Summary line: `N files checked, F with errors, W with warnings only.`
+
+### Rules Implemented
+
+| # | Field(s) | Constraint |
+|---|----------|-----------|
+| 1 | `syncRedirectDomain` | `dc-host-list = domain-name *( *SP "," *SP domain-name )` — comma-separated list of RFC 5890 domain names; spaces around commas allowed |
+| 2 | `providerId`, `serviceId`, `groupId` (per record) | `dc-id = 1*63( ALPHA / DIGIT / "-" / "_" / "." )` |
+| 3 | `syncPubKeyDomain` | `dc-pubkey-domain = *( dc-underscore-label "." ) domain-name` — optional RFC 8552 underscore labels prepended to an RFC 5890 domain name |
+| 4 | `providerName`, `serviceName` | `dc-display-name = 1*255unicode-assignable` — non-empty, ≤ 255 Unicode Assignable code points (RFC 9839 §4.3) |
+| 5 | `sharedProviderName`, `sharedServiceName`, `syncBlock`, `multiInstance`, `hostRequired`, `shared`, `warnPhishing` | JSON boolean (`true` / `false`) |
+| 6 | `description`, `variableDescription` | `dc-description-text = 0*2048unicode-assignable` — empty or ≤ 2048 Unicode Assignable code points (RFC 9839 §4.3) |
+| 7 | `version` | `dc-version = %x31-39 *DIGIT` — positive integer ≥ 1, no leading zeros, when present |
+| 8 | `logoUrl` | Valid RFC 3986 URI with scheme `https` or `http`, or empty string, when present (`http` triggers a deprecation warning) |
+
+### Deprecation Warnings
+
+| Trigger | Message |
+|---------|---------|
+| `shared` is present but `sharedProviderName` is absent | Migrate `shared` → `sharedProviderName` |
+| `logoUrl` uses `http` scheme | Migrate `logoUrl` to `https` |
+
+### Adding or Changing Rules
+1. Add or update the validator function (e.g. `is_valid_*`) in the appropriate
+   section of `check_syntax_rules.py`.
+2. Add or update the `rule_*` function and append it to `RULES`.
+3. Add the covered field name(s) to `_CHECKED_PROPERTIES` so they disappear from
+   `--list-unchecked` output.
+4. Update the module docstring rules list and this CLAUDE.md table.
+
+For deprecation warnings (non-fatal), add a `warn_*` function to `WARNINGS`
+instead of `RULES`.  Warning functions have the same signature but their messages
+do not cause a non-zero exit code.
+
 ## Development Guidelines
 
 ### Adding or Changing Statistics
@@ -184,7 +253,9 @@ This uses `git update-index --skip-worktree` to tell git to ignore local changes
 ### Template File Format
 - Naming: `[providerId].[serviceId].json`
 - Required fields: `providerId`, `providerName`, `serviceId`, `serviceName`, `records`
-- Optional fields: `logoUrl`, `description`, `version`
+- Optional fields: `logoUrl`, `description`, `variableDescription`, `version`,
+  `syncPubKeyDomain`, `syncRedirectDomain`, `hostRequired`, `warnPhishing`,
+  `syncBlock`, `multiInstance`, `shared`, `sharedProviderName`, `sharedServiceName`
 
 ### Code Style
 - Python: PEP 8 compliant, type hints where appropriate
@@ -208,6 +279,7 @@ This uses `git update-index --skip-worktree` to tell git to ignore local changes
 
 ### What to Edit
 - `scripts/update_stats.py`: Statistics calculation logic
+- `scripts/check_syntax_rules.py`: Template field syntax rules and deprecation warnings
 - `docs/index.html`: Layout and JavaScript for visualization
 - `docs/styles.css`: Styling and responsive design
 - `.github/workflows/update-stats.yml`: CI/CD automation
