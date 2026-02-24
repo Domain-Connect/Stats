@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-23T01:08:04.689483",
+  "generated_at": "2026-02-24T01:06:24.205368",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 492,
-    "total_providers": 250,
-    "total_merged_prs": 629,
-    "total_open_prs": 16,
-    "total_contributors": 283,
-    "avg_records_per_template": 3.61
+    "total_templates": 499,
+    "total_providers": 253,
+    "total_merged_prs": 632,
+    "total_open_prs": 13,
+    "total_contributors": 285,
+    "avg_records_per_template": 3.6
   },
   "templates_growth": [
     {
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-02",
-      "added": 29,
+      "added": 36,
       "deleted": 0,
-      "cumulative": 491
+      "cumulative": 498
     }
   ],
   "providers_growth": [
@@ -987,8 +987,8 @@
     },
     {
       "month": "2026-02",
-      "added": 21,
-      "cumulative": 250
+      "added": 24,
+      "cumulative": 253
     }
   ],
   "pr_activity": [
@@ -1485,21 +1485,21 @@
     {
       "month": "2026-02",
       "created": 42,
-      "merged": 25
+      "merged": 28
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 366
+      "count": 372
     },
     {
       "type": "TXT",
-      "count": 215
+      "count": 218
     },
     {
       "type": "A",
-      "count": 200
+      "count": 202
     },
     {
       "type": "SPFM",
@@ -1514,12 +1514,12 @@
       "count": 22
     },
     {
-      "type": "REDIR301",
+      "type": "AAAA",
       "count": 16
     },
     {
-      "type": "AAAA",
-      "count": 15
+      "type": "REDIR301",
+      "count": 16
     },
     {
       "type": "APEXCNAME",
@@ -1531,7 +1531,7 @@
     },
     {
       "type": "CAA",
-      "count": 2
+      "count": 4
     },
     {
       "type": "REDIR302",
@@ -1669,10 +1669,28 @@
         "template_count": 4
       },
       {
+        "provider_id": "growsurf.com",
+        "provider_name": "GrowSurf",
+        "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
+        "template_count": 3
+      },
+      {
         "provider_id": "saaskevin.com",
         "provider_name": "SaaSKevin",
         "logo_url": "https://app.saaskevin.com/logo.svg",
         "template_count": 3
+      },
+      {
+        "provider_id": "readymag.com",
+        "provider_name": "Readymag",
+        "logo_url": "https://public.readym.ag/domain-connect/logo.svg",
+        "template_count": 2
+      },
+      {
+        "provider_id": "magicpages.co",
+        "provider_name": "Magic Pages",
+        "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
+        "template_count": 2
       },
       {
         "provider_id": "deno.com",
@@ -1763,39 +1781,21 @@
         "provider_name": "Leadform",
         "logo_url": "https://leadform.io/icon.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "storeoncloud.com",
-        "provider_name": "StoreOnCloud",
-        "logo_url": "https://www.storeoncloud.com/img/logo.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "ezdomain.app",
-        "provider_name": "EZDomain",
-        "logo_url": "https://ezdomain.io/logo.png",
-        "template_count": 1
-      },
-      {
-        "provider_id": "informaten.com",
-        "provider_name": "Informaten",
-        "logo_url": "https://informaten.com/logo_dark.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 492,
+    "total_templates": 499,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 422
+        "count": 429
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 294
+        "count": 301
       },
       {
         "name": "warnPhishing",
@@ -1805,52 +1805,26 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 110
+        "count": 115
       }
     ]
   },
   "recent_prs": [
-    {
-      "number": 781,
-      "title": "Add Magic Pages custom domain templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-22T15:44:12Z",
-      "updated_at": "2026-02-22T15:44:45Z",
-      "merged_at": null,
-      "author": "betschki",
-      "author_avatar": "https://avatars.githubusercontent.com/u/25703384?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/781",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "magicpages",
-          "service_id": "co.website-a-cname",
-          "filename": "magicpages.co.website-a-cname.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "magicpages",
-          "service_id": "co.website-cname",
-          "filename": "magicpages.co.website-cname.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
     {
       "number": 780,
       "title": "Add 2fifteen.io domain-verification template",
       "state": "open",
       "merged": false,
       "created_at": "2026-02-21T23:42:31Z",
-      "updated_at": "2026-02-21T23:43:05Z",
+      "updated_at": "2026-02-23T07:18:45Z",
       "merged_at": null,
       "author": "robbybarnes",
       "author_avatar": "https://avatars.githubusercontent.com/u/7683472?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/780",
-      "labels": [],
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete"
+      ],
       "templates": [
         {
           "provider_id": "2fifteen",
@@ -1882,73 +1856,6 @@
           "provider_id": "mailaura",
           "service_id": "io.email-sending",
           "filename": "mailaura.io.email-sending.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 778,
-      "title": "Add Readymag template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-20T16:11:54Z",
-      "updated_at": "2026-02-20T16:12:49Z",
-      "merged_at": null,
-      "author": "iam-medvedev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/975358?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/778",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "readymag",
-          "service_id": "com.apex",
-          "filename": "readymag.com.apex.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "readymag",
-          "service_id": "com.subdomain",
-          "filename": "readymag.com.subdomain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 777,
-      "title": "Add GrowSurf domain verification templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-20T09:06:44Z",
-      "updated_at": "2026-02-20T17:48:48Z",
-      "merged_at": null,
-      "author": "kevinyun",
-      "author_avatar": "https://avatars.githubusercontent.com/u/1364544?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/777",
-      "labels": [
-        "PR description incomplete"
-      ],
-      "templates": [
-        {
-          "provider_id": "growsurf",
-          "service_id": "com.email-whitelabel",
-          "filename": "growsurf.com.email-whitelabel.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "growsurf",
-          "service_id": "com.referral-portal",
-          "filename": "growsurf.com.referral-portal.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "growsurf",
-          "service_id": "com.universal-code-reverse-proxy",
-          "filename": "growsurf.com.universal-code-reverse-proxy.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2275,6 +2182,102 @@
       ]
     },
     {
+      "number": 778,
+      "title": "Add Readymag template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-20T16:11:54Z",
+      "updated_at": "2026-02-23T14:23:52Z",
+      "merged_at": "2026-02-23T14:23:52Z",
+      "author": "iam-medvedev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/975358?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/778",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "readymag",
+          "service_id": "com.apex",
+          "filename": "readymag.com.apex.json",
+          "logo_url": "https://public.readym.ag/domain-connect/logo.svg",
+          "status": "added"
+        },
+        {
+          "provider_id": "readymag",
+          "service_id": "com.subdomain",
+          "filename": "readymag.com.subdomain.json",
+          "logo_url": "https://public.readym.ag/domain-connect/logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 777,
+      "title": "Add GrowSurf domain verification templates",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-20T09:06:44Z",
+      "updated_at": "2026-02-23T07:19:09Z",
+      "merged_at": "2026-02-23T07:19:08Z",
+      "author": "kevinyun",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1364544?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/777",
+      "labels": [
+        "PR description incomplete"
+      ],
+      "templates": [
+        {
+          "provider_id": "growsurf",
+          "service_id": "com.email-whitelabel",
+          "filename": "growsurf.com.email-whitelabel.json",
+          "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
+          "status": "added"
+        },
+        {
+          "provider_id": "growsurf",
+          "service_id": "com.referral-portal",
+          "filename": "growsurf.com.referral-portal.json",
+          "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
+          "status": "added"
+        },
+        {
+          "provider_id": "growsurf",
+          "service_id": "com.universal-code-reverse-proxy",
+          "filename": "growsurf.com.universal-code-reverse-proxy.json",
+          "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 781,
+      "title": "Add Magic Pages custom domain templates",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-22T15:44:12Z",
+      "updated_at": "2026-02-23T07:15:30Z",
+      "merged_at": "2026-02-23T07:15:30Z",
+      "author": "betschki",
+      "author_avatar": "https://avatars.githubusercontent.com/u/25703384?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/781",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "magicpages",
+          "service_id": "co.website-a-cname",
+          "filename": "magicpages.co.website-a-cname.json",
+          "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
+          "status": "added"
+        },
+        {
+          "provider_id": "magicpages",
+          "service_id": "co.website-cname",
+          "filename": "magicpages.co.website-cname.json",
+          "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 775,
       "title": "Add DMARCPulse Domain Connect template",
       "state": "closed",
@@ -2455,96 +2458,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 770,
-      "title": "Add Xperiencify custom domain template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-12T12:20:55Z",
-      "updated_at": "2026-02-12T12:28:39Z",
-      "merged_at": "2026-02-12T12:28:39Z",
-      "author": "frappzzz",
-      "author_avatar": "https://avatars.githubusercontent.com/u/168665842?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/770",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "xperiencify",
-          "service_id": "io.customdomain",
-          "filename": "xperiencify.io.customdomain.json",
-          "logo_url": "https://app.xperiencify.io/images/logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 768,
-      "title": "Update saaskevin.com.widget-custom-domain-subdomain.json and saaskevin.com.widget-custom-domain-apex.json",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-11T17:48:14Z",
-      "updated_at": "2026-02-12T11:23:36Z",
-      "merged_at": "2026-02-12T11:23:35Z",
-      "author": "kevinyun",
-      "author_avatar": "https://avatars.githubusercontent.com/u/1364544?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/768",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "saaskevin",
-          "service_id": "com.branded-cname",
-          "filename": "saaskevin.com.branded-cname.json",
-          "logo_url": "https://app.saaskevin.com/logo.svg",
-          "status": "modified"
-        },
-        {
-          "provider_id": "saaskevin",
-          "service_id": "com.widget-custom-domain-apex",
-          "filename": "saaskevin.com.widget-custom-domain-apex.json",
-          "logo_url": null,
-          "status": "modified"
-        },
-        {
-          "provider_id": "saaskevin",
-          "service_id": "com.widget-custom-domain-subdomain",
-          "filename": "saaskevin.com.widget-custom-domain-subdomain.json",
-          "logo_url": null,
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 751,
-      "title": "Add Rose Labs Pigeon Email template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-08T20:12:37Z",
-      "updated_at": "2026-02-10T16:06:02Z",
-      "merged_at": "2026-02-10T16:06:01Z",
-      "author": "patsaid",
-      "author_avatar": "https://avatars.githubusercontent.com/u/103618719?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/751",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete"
-      ],
-      "templates": [
-        {
-          "provider_id": "roselabs",
-          "service_id": "io.pigeon-mail",
-          "filename": "roselabs.io.pigeon-mail.json",
-          "logo_url": "https://pigeon.roselabs.io/pigeon-logo.png",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 398,
+        "review_count": 401,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -2576,7 +2496,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 23,
+        "review_count": 26,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4579,6 +4499,33 @@
       "record_count": 1
     },
     {
+      "filename": "growsurf.com.email-whitelabel.json",
+      "provider_id": "growsurf.com",
+      "service_id": "email-whitelabel",
+      "provider_name": "GrowSurf",
+      "service_name": "Email Whitelabel",
+      "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
+      "record_count": 3
+    },
+    {
+      "filename": "growsurf.com.referral-portal.json",
+      "provider_id": "growsurf.com",
+      "service_id": "referral-portal",
+      "provider_name": "GrowSurf",
+      "service_name": "Referral Portal",
+      "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
+      "record_count": 1
+    },
+    {
+      "filename": "growsurf.com.universal-code-reverse-proxy.json",
+      "provider_id": "growsurf.com",
+      "service_id": "universal-code-reverse-proxy",
+      "provider_name": "GrowSurf",
+      "service_name": "Universal Code Reverse Proxy",
+      "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
+      "record_count": 1
+    },
+    {
       "filename": "gvng.com.hosting_development.json",
       "provider_id": "gvng.com",
       "service_id": "hosting_development",
@@ -5135,6 +5082,24 @@
       "service_name": "Lofty Real Estate Website",
       "logo_url": "https://static.chimeroi.com/servicetool-temp/2023910/17/crm/lofty-Logo.svg",
       "record_count": 11
+    },
+    {
+      "filename": "magicpages.co.website-a-cname.json",
+      "provider_id": "magicpages.co",
+      "service_id": "website-a-cname",
+      "provider_name": "Magic Pages",
+      "service_name": "Magic Pages Custom Domain",
+      "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
+      "record_count": 2
+    },
+    {
+      "filename": "magicpages.co.website-cname.json",
+      "provider_id": "magicpages.co",
+      "service_id": "website-cname",
+      "provider_name": "Magic Pages",
+      "service_name": "Magic Pages Subdomain",
+      "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
+      "record_count": 1
     },
     {
       "filename": "mail-list.com.maillist.json",
@@ -5774,6 +5739,24 @@
       "service_name": "Readdy Site (Test)",
       "logo_url": "https://static.readdy.ai/logo.svg",
       "record_count": 2
+    },
+    {
+      "filename": "readymag.com.apex.json",
+      "provider_id": "readymag.com",
+      "service_id": "apex",
+      "provider_name": "Readymag",
+      "service_name": "Connect custom domain to Readymag",
+      "logo_url": "https://public.readym.ag/domain-connect/logo.svg",
+      "record_count": 5
+    },
+    {
+      "filename": "readymag.com.subdomain.json",
+      "provider_id": "readymag.com",
+      "service_id": "subdomain",
+      "provider_name": "Readymag",
+      "service_name": "Connect custom domain to Readymag",
+      "logo_url": "https://public.readym.ag/domain-connect/logo.svg",
+      "record_count": 4
     },
     {
       "filename": "realgeeks.com.website_and_crm.json",
@@ -7188,16 +7171,16 @@
       "profile_url": "https://github.com/TracyFogel"
     },
     {
-      "login": "kiranvsr",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/13899484?v=4",
-      "profile_url": "https://github.com/kiranvsr"
-    },
-    {
       "login": "arya-dos",
       "contributions": 8,
       "avatar_url": "https://avatars.githubusercontent.com/u/164984012?v=4",
       "profile_url": "https://github.com/arya-dos"
+    },
+    {
+      "login": "kiranvsr",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/13899484?v=4",
+      "profile_url": "https://github.com/kiranvsr"
     },
     {
       "login": "JoaoFSCruz",
@@ -7212,16 +7195,16 @@
       "profile_url": "https://github.com/cmalec"
     },
     {
+      "login": "anish2690",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
+      "profile_url": "https://github.com/anish2690"
+    },
+    {
       "login": "jonroig",
       "contributions": 8,
       "avatar_url": "https://avatars.githubusercontent.com/u/928215?v=4",
       "profile_url": "https://github.com/jonroig"
-    },
-    {
-      "login": "MrExcitingDigits",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
-      "profile_url": "https://github.com/MrExcitingDigits"
     },
     {
       "login": "tombeard",
@@ -7230,10 +7213,10 @@
       "profile_url": "https://github.com/tombeard"
     },
     {
-      "login": "anish2690",
+      "login": "MrExcitingDigits",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
-      "profile_url": "https://github.com/anish2690"
+      "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
+      "profile_url": "https://github.com/MrExcitingDigits"
     },
     {
       "login": "dommholland",
@@ -7308,16 +7291,16 @@
       "profile_url": "https://github.com/kcooperstein-godaddy"
     },
     {
-      "login": "chintans1",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/6274806?v=4",
-      "profile_url": "https://github.com/chintans1"
-    },
-    {
       "login": "lyalls-marc",
       "contributions": 6,
       "avatar_url": "https://avatars.githubusercontent.com/u/107384032?v=4",
       "profile_url": "https://github.com/lyalls-marc"
+    },
+    {
+      "login": "chintans1",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6274806?v=4",
+      "profile_url": "https://github.com/chintans1"
     }
   ]
 }
