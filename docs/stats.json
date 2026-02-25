@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T01:06:24.205368",
+  "generated_at": "2026-02-25T01:11:56.528216",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 499,
     "total_providers": 253,
     "total_merged_prs": 632,
-    "total_open_prs": 13,
+    "total_open_prs": 15,
     "total_contributors": 285,
     "avg_records_per_template": 3.6
   },
@@ -1484,7 +1484,7 @@
     },
     {
       "month": "2026-02",
-      "created": 42,
+      "created": 44,
       "merged": 28
     }
   ],
@@ -1810,6 +1810,50 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 783,
+      "title": "Add webtastic.site hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-24T20:10:22Z",
+      "updated_at": "2026-02-24T20:10:56Z",
+      "merged_at": null,
+      "author": "fiskeben",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28291?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/783",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "webtastic",
+          "service_id": "site.hosting",
+          "filename": "webtastic.site.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 782,
+      "title": "Add TracklySMS white-label domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-24T19:40:31Z",
+      "updated_at": "2026-02-24T19:41:09Z",
+      "merged_at": null,
+      "author": "ianitstoday",
+      "author_avatar": "https://avatars.githubusercontent.com/u/179533121?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/782",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "tracklysms",
+          "service_id": "com.sms-whitelabel",
+          "filename": "tracklysms.com.sms-whitelabel.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 780,
       "title": "Add 2fifteen.io domain-verification template",
