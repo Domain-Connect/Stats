@@ -240,9 +240,13 @@ class StatsGenerator:
             List of commit info dictionaries
         """
         try:
-            # Get all commits with file changes, using --name-status to detect additions/deletions
+            # --first-parent walks only the mainline: it follows the first parent of
+            # each merge commit, ignoring the feature-branch side of merges.  This
+            # means the commit date reflects when code landed on main, not when it
+            # was originally authored on a branch, preventing stale-branch snapshots
+            # from skewing monthly counts.
             result = subprocess.run(
-                ["git", "log", "--all", "--date=short", "--name-status",
+                ["git", "log", "--first-parent", "--date=short", "--name-status",
                  "--pretty=format:%ad|%H|%an|%ae"],
                 cwd=self.repo_path,
                 capture_output=True,
