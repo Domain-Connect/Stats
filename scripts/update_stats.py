@@ -25,6 +25,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -292,106 +293,123 @@ class StatsGenerator:
             print(f"Warning: Could not get git history: {e}")
             return []
 
-    def calculate_monthly_growth(self, commits: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Calculate monthly template growth statistics.
+    _EXCLUDED_JSON: Set[str] = {"package.json", "package-lock.json"}
 
-        Tracks net additions per month (files added minus files deleted) so that
-        the cumulative total matches the current number of templates in the repo.
+    def _snapshot_at_commit(self, commit_hash: str) -> Dict[str, Optional[str]]:
+        """Return template filename -> providerId for every template file at a commit.
+
+        Uses git ls-tree to list root-level files, then git show to read each
+        JSON file and extract its providerId.  Files that cannot be parsed or
+        that have no providerId are included with a None value so the template
+        count remains accurate.
 
         Args:
-            commits: List of commit data (each with 'files' for added and 'deleted' for removed)
+            commit_hash: The git commit hash to inspect
 
         Returns:
-            Dictionary with monthly statistics
+            Dict mapping filename to providerId (or None if absent/unreadable)
         """
-        # Count net additions (added - deleted) per month
-        monthly_added = defaultdict(int)
-        monthly_deleted = defaultdict(int)
+        snapshot: Dict[str, Optional[str]] = {}
+        try:
+            ls = subprocess.run(
+                ["git", "ls-tree", "--name-only", commit_hash],
+                cwd=self.repo_path,
+                capture_output=True,
+                text=True,
+                check=True,
+            )
+        except subprocess.CalledProcessError:
+            return snapshot
 
-        for commit in commits:
-            year_month = commit['date'][:7]
-            monthly_added[year_month] += len(commit.get('files', []))
-            monthly_deleted[year_month] += len(commit.get('deleted', []))
+        for name in ls.stdout.splitlines():
+            if not name.endswith('.json') or name in self._EXCLUDED_JSON:
+                continue
+            provider_id: Optional[str] = None
+            try:
+                show = subprocess.run(
+                    ["git", "show", f"{commit_hash}:{name}"],
+                    cwd=self.repo_path,
+                    capture_output=True,
+                    text=True,
+                    check=True,
+                )
+                provider_id = json.loads(show.stdout).get('providerId') or None
+            except (subprocess.CalledProcessError, json.JSONDecodeError, ValueError):
+                pass
+            snapshot[name] = provider_id
 
-        all_months = sorted(set(monthly_added) | set(monthly_deleted))
-        cumulative = 0
-        monthly_data = []
+        return snapshot
+
+    def _last_commit_per_month(self, commits: List[Dict[str, Any]]) -> Dict[str, str]:
+        """Return 'YYYY-MM' -> newest commit hash for that month.
+
+        commits must be in newest-first order (as returned by git log).
+        Iterating oldest-first and overwriting leaves the newest hash per month.
+        """
+        result: Dict[str, str] = {}
+        for commit in reversed(commits):
+            result[commit['date'][:7]] = commit['hash']
+        return result
+
+    def calculate_monthly_growth(self, commits: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Calculate monthly template and provider growth statistics.
+
+        For each month, snapshots the repository at the last commit of that month
+        using git ls-tree + git show to get exact file counts and provider sets.
+        This eliminates drift from renames, squashed commits, or filename/content
+        mismatches.
+
+        Args:
+            commits: List of commit data (each with 'date' and 'hash'); newest-first order.
+
+        Returns:
+            Dictionary with:
+              'monthly'           - template growth rows (month, added, deleted, cumulative)
+              'total_templates'   - exact template count at HEAD
+              'providers_monthly' - provider growth rows (month, added, cumulative)
+              'total_providers'   - exact provider count at HEAD
+        """
+        last_commit = self._last_commit_per_month(commits)
+        all_months = sorted(last_commit.keys())
+
+        template_data = []
+        provider_data = []
+        prev_template_count = 0
+        prev_providers: Set[str] = set()
 
         for month in all_months:
-            net = monthly_added[month] - monthly_deleted[month]
-            cumulative += net
-            if monthly_added[month] > 0 or monthly_deleted[month] > 0:
-                monthly_data.append({
+            snapshot = self._snapshot_at_commit(last_commit[month])
+            template_count = len(snapshot)
+            providers = {pid for pid in snapshot.values() if pid}
+
+            t_added = max(0, template_count - prev_template_count)
+            t_deleted = max(0, prev_template_count - template_count)
+            if t_added > 0 or t_deleted > 0:
+                template_data.append({
                     'month': month,
-                    'added': monthly_added[month],
-                    'deleted': monthly_deleted[month],
-                    'cumulative': cumulative
+                    'added': t_added,
+                    'deleted': t_deleted,
+                    'cumulative': template_count,
                 })
 
+            p_added = len(providers - prev_providers)
+            p_deleted = len(prev_providers - providers)
+            if p_added > 0 or p_deleted > 0:
+                provider_data.append({
+                    'month': month,
+                    'added': p_added,
+                    'cumulative': len(providers),
+                })
+
+            prev_template_count = template_count
+            prev_providers = providers
+
         return {
-            'monthly': monthly_data,
-            'total_templates': cumulative
+            'monthly': template_data,
+            'total_templates': prev_template_count,
+            'providers_monthly': provider_data,
+            'total_providers': len(prev_providers),
         }
-
-    def calculate_provider_growth(self, commits: List[Dict[str, Any]],
-                                  templates: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """Calculate monthly provider growth statistics.
-
-        Determines when each unique providerId first appeared by correlating
-        git history (when files were first committed) with parsed template data
-        (which contains the actual providerId).
-
-        Args:
-            commits: List of commit data from get_git_history()
-            templates: List of parsed template dicts (must have 'filename' and 'provider_id')
-
-        Returns:
-            List of monthly data with 'month', 'added', and 'cumulative' fields
-        """
-        # Build filename -> providerId mapping from parsed templates
-        filename_to_provider = {}
-        for t in templates:
-            provider_id = t.get('provider_id')
-            if provider_id:
-                filename_to_provider[t['filename']] = provider_id
-
-        # Track when each file was first seen in git history
-        template_first_seen = {}
-        for commit in reversed(commits):
-            commit_date = commit['date']
-            for file in commit['files']:
-                if file.endswith('.json') and file not in template_first_seen:
-                    template_first_seen[file] = commit_date
-
-        # Determine when each provider was first seen
-        provider_first_seen = {}
-        for filename, date_str in template_first_seen.items():
-            provider_id = filename_to_provider.get(filename)
-            if not provider_id:
-                continue
-            if provider_id not in provider_first_seen or date_str < provider_first_seen[provider_id]:
-                provider_first_seen[provider_id] = date_str
-
-        # Group by month
-        monthly_additions = defaultdict(int)
-        for provider, date_str in provider_first_seen.items():
-            year_month = date_str[:7]
-            monthly_additions[year_month] += 1
-
-        # Calculate cumulative totals
-        sorted_months = sorted(monthly_additions.keys())
-        cumulative = 0
-        monthly_data = []
-
-        for month in sorted_months:
-            cumulative += monthly_additions[month]
-            monthly_data.append({
-                'month': month,
-                'added': monthly_additions[month],
-                'cumulative': cumulative
-            })
-
-        return monthly_data
 
     def fetch_all_prs_once(self) -> Dict[str, List[Dict[str, Any]]]:
         """Fetch all PRs from GitHub API once (to avoid multiple API calls).
@@ -800,9 +818,14 @@ class StatsGenerator:
 
         # Git history analysis
         print("  - Analyzing git history...")
+        t0 = time.monotonic()
         commits = self.get_git_history()
+        print(f"    get_git_history: {time.monotonic() - t0:.2f}s")
+
+        t0 = time.monotonic()
         growth_data = self.calculate_monthly_growth(commits)
-        provider_growth_data = self.calculate_provider_growth(commits, templates)
+        provider_growth_data = growth_data['providers_monthly']
+        print(f"    calculate_monthly_growth: {time.monotonic() - t0:.2f}s")
 
         # Pull request data - fetch once and reuse
         print("  - Fetching pull request data...")
