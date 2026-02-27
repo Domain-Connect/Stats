@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-27T01:05:42.034531",
+  "generated_at": "2026-02-27T15:42:26.816784",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 501,
-    "total_providers": 255,
-    "total_merged_prs": 634,
+    "total_templates": 502,
+    "total_providers": 256,
+    "total_merged_prs": 635,
     "total_open_prs": 17,
-    "total_contributors": 287,
-    "avg_records_per_template": 3.59
+    "total_contributors": 288,
+    "avg_records_per_template": 3.6
   },
   "templates_growth": [
     {
@@ -562,9 +562,9 @@
     },
     {
       "month": "2026-02",
-      "added": 38,
+      "added": 39,
       "deleted": 0,
-      "cumulative": 501
+      "cumulative": 502
     }
   ],
   "providers_growth": [
@@ -990,8 +990,8 @@
     },
     {
       "month": "2026-02",
-      "added": 26,
-      "cumulative": 255
+      "added": 27,
+      "cumulative": 256
     }
   ],
   "pr_activity": [
@@ -1487,18 +1487,18 @@
     },
     {
       "month": "2026-02",
-      "created": 48,
-      "merged": 30
+      "created": 49,
+      "merged": 31
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 374
+      "count": 375
     },
     {
       "type": "TXT",
-      "count": 218
+      "count": 219
     },
     {
       "type": "A",
@@ -1506,11 +1506,11 @@
     },
     {
       "type": "SPFM",
-      "count": 97
+      "count": 98
     },
     {
       "type": "MX",
-      "count": 88
+      "count": 89
     },
     {
       "type": "SRV",
@@ -1708,6 +1708,12 @@
         "template_count": 2
       },
       {
+        "provider_id": "forwardemail.net",
+        "provider_name": "Forward Email",
+        "logo_url": "https://forwardemail.net/img/logo-square.svg",
+        "template_count": 1
+      },
+      {
         "provider_id": "webtastic.site",
         "provider_name": "Webtastic",
         "logo_url": "https://webtastic.site/logo.png",
@@ -1778,27 +1784,21 @@
         "provider_name": "Ops",
         "logo_url": null,
         "template_count": 1
-      },
-      {
-        "provider_id": "w7sfw.com",
-        "provider_name": "W7SFW",
-        "logo_url": "https://w7sfw.com/logo.svg",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 501,
+    "total_templates": 502,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 431
+        "count": 432
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 303
+        "count": 304
       },
       {
         "name": "warnPhishing",
@@ -1814,17 +1814,43 @@
   },
   "recent_prs": [
     {
+      "number": 788,
+      "title": "feat: Add Ferndesk custom domain configuration",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-27T13:54:33Z",
+      "updated_at": "2026-02-27T14:01:58Z",
+      "merged_at": null,
+      "author": "victorbuikem",
+      "author_avatar": "https://avatars.githubusercontent.com/u/67438668?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/788",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "ferndesk",
+          "service_id": "com.custom-domain",
+          "filename": "ferndesk.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 787,
       "title": "Add Inboxi Email hosting and DMARC templates",
       "state": "open",
       "merged": false,
       "created_at": "2026-02-26T22:25:58Z",
-      "updated_at": "2026-02-26T22:26:31Z",
+      "updated_at": "2026-02-27T13:42:07Z",
       "merged_at": null,
       "author": "thiagorussi",
       "author_avatar": "https://avatars.githubusercontent.com/u/60278366?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/787",
-      "labels": [],
+      "labels": [
+        "AI crap",
+        "PR description incomplete",
+        "Checklist of common problems not complete"
+      ],
       "templates": [
         {
           "provider_id": "inboxi",
@@ -1862,28 +1888,6 @@
           "provider_id": "guidasworld",
           "service_id": "com.domain-verification",
           "filename": "guidasworld.com.domain-verification.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 785,
-      "title": "Add forwardemail.net email hosting template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-25T11:38:46Z",
-      "updated_at": "2026-02-26T22:25:05Z",
-      "merged_at": null,
-      "author": "titanism",
-      "author_avatar": "https://avatars.githubusercontent.com/u/101466223?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/785",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "forwardemail",
-          "service_id": "net.email",
-          "filename": "forwardemail.net.email.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2040,7 +2044,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-01T11:30:03Z",
-      "updated_at": "2026-02-16T11:13:30Z",
+      "updated_at": "2026-02-27T07:25:25Z",
       "merged_at": null,
       "author": "kyrixdev",
       "author_avatar": "https://avatars.githubusercontent.com/u/46058778?v=4",
@@ -2283,6 +2287,28 @@
       ]
     },
     {
+      "number": 785,
+      "title": "Add forwardemail.net email hosting template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-25T11:38:46Z",
+      "updated_at": "2026-02-27T07:41:14Z",
+      "merged_at": "2026-02-27T07:41:13Z",
+      "author": "titanism",
+      "author_avatar": "https://avatars.githubusercontent.com/u/101466223?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/785",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "forwardemail",
+          "service_id": "net.email",
+          "filename": "forwardemail.net.email.json",
+          "logo_url": "https://forwardemail.net/img/logo-square.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 783,
       "title": "Add webtastic.site hosting template",
       "state": "closed",
@@ -2518,41 +2544,19 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 774,
-      "title": "Pablorod1 patch 1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-16T09:15:51Z",
-      "updated_at": "2026-02-16T12:25:12Z",
-      "merged_at": "2026-02-16T12:07:04Z",
-      "author": "pablorod1",
-      "author_avatar": "https://avatars.githubusercontent.com/u/158567073?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/774",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "auvex",
-          "service_id": "es.domain-authentication",
-          "filename": "auvex.es.domain-authentication.json",
-          "logo_url": "https://auvex.es/favicon-96x96.png",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 402,
+        "review_count": 403,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 51,
+        "review_count": 52,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -2584,7 +2588,7 @@
       },
       {
         "login": "kerolasa",
-        "review_count": 12,
+        "review_count": 13,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -3517,6 +3521,15 @@
       "service_name": "Flock Mail Hosting",
       "logo_url": "https://web.flockmail.com/images/logo/flockmail-logo-dark.svg",
       "record_count": 3
+    },
+    {
+      "filename": "forwardemail.net.email.json",
+      "provider_id": "forwardemail.net",
+      "service_id": "email",
+      "provider_name": "Forward Email",
+      "service_name": "Email",
+      "logo_url": "https://forwardemail.net/img/logo-square.svg",
+      "record_count": 9
     },
     {
       "filename": "framer.com.domain.json",
