@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-26T08:30:26.908367",
+  "generated_at": "2026-02-27T01:05:42.034531",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 501,
     "total_providers": 255,
     "total_merged_prs": 634,
-    "total_open_prs": 16,
+    "total_open_prs": 17,
     "total_contributors": 287,
     "avg_records_per_template": 3.59
   },
@@ -1487,7 +1487,7 @@
     },
     {
       "month": "2026-02",
-      "created": 47,
+      "created": 48,
       "merged": 30
     }
   ],
@@ -1708,12 +1708,6 @@
         "template_count": 2
       },
       {
-        "provider_id": "palisade.email",
-        "provider_name": "Palisade",
-        "logo_url": "https://app.palisade.email/logo.png",
-        "template_count": 2
-      },
-      {
         "provider_id": "webtastic.site",
         "provider_name": "Webtastic",
         "logo_url": "https://webtastic.site/logo.png",
@@ -1784,6 +1778,12 @@
         "provider_name": "Ops",
         "logo_url": null,
         "template_count": 1
+      },
+      {
+        "provider_id": "w7sfw.com",
+        "provider_name": "W7SFW",
+        "logo_url": "https://w7sfw.com/logo.svg",
+        "template_count": 1
       }
     ]
   },
@@ -1813,6 +1813,35 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 787,
+      "title": "Add Inboxi Email hosting and DMARC templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-26T22:25:58Z",
+      "updated_at": "2026-02-26T22:26:31Z",
+      "merged_at": null,
+      "author": "thiagorussi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/60278366?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/787",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "inboxi",
+          "service_id": "email.dmarc",
+          "filename": "inboxi.email.dmarc.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "inboxi",
+          "service_id": "email.email-hosting",
+          "filename": "inboxi.email.email-hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 786,
       "title": "Add guidasworld.com domain verification template",
@@ -1844,7 +1873,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-25T11:38:46Z",
-      "updated_at": "2026-02-26T01:35:28Z",
+      "updated_at": "2026-02-26T22:25:05Z",
       "merged_at": null,
       "author": "titanism",
       "author_avatar": "https://avatars.githubusercontent.com/u/101466223?v=4",
@@ -2259,7 +2288,7 @@
       "state": "closed",
       "merged": true,
       "created_at": "2026-02-24T20:10:22Z",
-      "updated_at": "2026-02-26T07:13:49Z",
+      "updated_at": "2026-02-26T11:28:08Z",
       "merged_at": "2026-02-26T07:13:48Z",
       "author": "fiskeben",
       "author_avatar": "https://avatars.githubusercontent.com/u/28291?v=4",
@@ -2555,7 +2584,7 @@
       },
       {
         "login": "kerolasa",
-        "review_count": 14,
+        "review_count": 12,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
