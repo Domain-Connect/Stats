@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-27T15:42:26.816784",
+  "generated_at": "2026-02-28T00:59:51.635548",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 502,
     "total_providers": 256,
     "total_merged_prs": 635,
-    "total_open_prs": 17,
+    "total_open_prs": 18,
     "total_contributors": 288,
     "avg_records_per_template": 3.6
   },
@@ -1487,7 +1487,7 @@
     },
     {
       "month": "2026-02",
-      "created": 49,
+      "created": 50,
       "merged": 31
     }
   ],
@@ -1814,6 +1814,28 @@
   },
   "recent_prs": [
     {
+      "number": 789,
+      "title": "Add Thallo Website Hosting template (usethallo.com.hosting)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-27T19:10:52Z",
+      "updated_at": "2026-02-27T19:11:25Z",
+      "merged_at": null,
+      "author": "Mrwatsbot",
+      "author_avatar": "https://avatars.githubusercontent.com/u/257218883?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/789",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "usethallo",
+          "service_id": "com.hosting",
+          "filename": "usethallo.com.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 788,
       "title": "feat: Add Ferndesk custom domain configuration",
       "state": "open",
@@ -1841,7 +1863,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-26T22:25:58Z",
-      "updated_at": "2026-02-27T13:42:07Z",
+      "updated_at": "2026-02-27T16:09:59Z",
       "merged_at": null,
       "author": "thiagorussi",
       "author_avatar": "https://avatars.githubusercontent.com/u/60278366?v=4",
