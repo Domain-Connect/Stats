@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T01:14:51.911309",
+  "generated_at": "2026-03-02T01:07:15.532371",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 504,
     "total_providers": 258,
     "total_merged_prs": 637,
-    "total_open_prs": 17,
+    "total_open_prs": 18,
     "total_contributors": 290,
     "avg_records_per_template": 3.59
   },
@@ -1492,7 +1492,7 @@
     },
     {
       "month": "2026-03",
-      "created": 0,
+      "created": 1,
       "merged": 1
     }
   ],
@@ -1819,12 +1819,69 @@
   },
   "recent_prs": [
     {
+      "number": 792,
+      "title": "Add Lindo templates (website, webapp, whitelabel, email)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-01T19:43:43Z",
+      "updated_at": "2026-03-01T19:44:13Z",
+      "merged_at": null,
+      "author": "saeedmsdi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3229325?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/792",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.email",
+          "filename": "lindo.ai.email.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.webapp",
+          "filename": "lindo.ai.webapp.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.website-apex",
+          "filename": "lindo.ai.website-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.website-subdomain",
+          "filename": "lindo.ai.website-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.website",
+          "filename": "lindo.ai.website.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.whitelabel",
+          "filename": "lindo.ai.whitelabel.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 791,
       "title": "ref: change pakai email config",
       "state": "open",
       "merged": false,
       "created_at": "2026-02-28T14:27:27Z",
-      "updated_at": "2026-02-28T15:19:26Z",
+      "updated_at": "2026-03-01T03:12:06Z",
       "merged_at": null,
       "author": "haiigas",
       "author_avatar": "https://avatars.githubusercontent.com/u/49256437?v=4",
@@ -2597,7 +2654,7 @@
       },
       {
         "login": "kerolasa",
-        "review_count": 13,
+        "review_count": 12,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -7144,7 +7201,7 @@
   "contributors": [
     {
       "login": "pawel-kow",
-      "contributions": 441,
+      "contributions": 444,
       "avatar_url": "https://avatars.githubusercontent.com/u/28707030?v=4",
       "profile_url": "https://github.com/pawel-kow"
     },
