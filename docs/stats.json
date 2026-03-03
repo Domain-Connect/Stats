@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-02T01:07:15.532371",
+  "generated_at": "2026-03-03T01:09:07.363090",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 504,
-    "total_providers": 258,
-    "total_merged_prs": 637,
+    "total_templates": 512,
+    "total_providers": 261,
+    "total_merged_prs": 640,
     "total_open_prs": 18,
-    "total_contributors": 290,
-    "avg_records_per_template": 3.59
+    "total_contributors": 293,
+    "avg_records_per_template": 3.56
   },
   "templates_growth": [
     {
@@ -565,6 +565,12 @@
       "added": 41,
       "deleted": 0,
       "cumulative": 504
+    },
+    {
+      "month": "2026-03",
+      "added": 8,
+      "deleted": 0,
+      "cumulative": 512
     }
   ],
   "providers_growth": [
@@ -992,6 +998,11 @@
       "month": "2026-02",
       "added": 29,
       "cumulative": 258
+    },
+    {
+      "month": "2026-03",
+      "added": 3,
+      "cumulative": 261
     }
   ],
   "pr_activity": [
@@ -1492,30 +1503,30 @@
     },
     {
       "month": "2026-03",
-      "created": 1,
-      "merged": 1
+      "created": 5,
+      "merged": 4
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 377
+      "count": 382
     },
     {
       "type": "TXT",
-      "count": 219
+      "count": 221
     },
     {
       "type": "A",
-      "count": 204
+      "count": 206
     },
     {
       "type": "SPFM",
-      "count": 98
+      "count": 99
     },
     {
       "type": "MX",
-      "count": 89
+      "count": 90
     },
     {
       "type": "SRV",
@@ -1583,6 +1594,12 @@
         "provider_name": "GetReadyDigital",
         "logo_url": "https://getreadydigital.com/wp-content/uploads/2023/04/cropped-GR-Logo-Favicon-192x192.png",
         "template_count": 7
+      },
+      {
+        "provider_id": "lindo.ai",
+        "provider_name": "Lindo",
+        "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+        "template_count": 6
       },
       {
         "provider_id": "certdashboard.cloud",
@@ -1661,15 +1678,15 @@
         "provider_name": "Bluehost",
         "logo_url": "https://bluehost-cdn.com/media/app/bluehost/live/static/media/src/common/assets/images/brand/bh/logo.svg",
         "template_count": 3
-      },
-      {
-        "provider_id": "bluehost.in",
-        "provider_name": "Bluehost India",
-        "logo_url": "https://bluehost-cdn.in/media/app/bluehost/live/static/media/src/common/assets/images/brand/bh/logo.svg",
-        "template_count": 3
       }
     ],
     "last_30_days": [
+      {
+        "provider_id": "lindo.ai",
+        "provider_name": "Lindo",
+        "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+        "template_count": 6
+      },
       {
         "provider_id": "posthog.com",
         "provider_name": "PostHog",
@@ -1711,6 +1728,18 @@
         "provider_name": "Migma",
         "logo_url": "https://migma.ai/brandkit/horizontal/SVG/light.svg",
         "template_count": 2
+      },
+      {
+        "provider_id": "mailrify.com",
+        "provider_name": "Mailrify",
+        "logo_url": "https://mailrify.com/icons/favicon.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "webgerek.com",
+        "provider_name": "webgerek.com",
+        "logo_url": "https://webgerek.com/logo.svg",
+        "template_count": 1
       },
       {
         "provider_id": "usethallo.com",
@@ -1771,39 +1800,21 @@
         "provider_name": "Auvex",
         "logo_url": "https://auvex.es/favicon-96x96.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "tubecms.app",
-        "provider_name": "TubeCMS",
-        "logo_url": "https://tubecms.app/logo-transparent.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "xperiencify.io",
-        "provider_name": "Xperiencify",
-        "logo_url": "https://app.xperiencify.io/images/logo.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "roselabs.io",
-        "provider_name": "Rose Labs",
-        "logo_url": "https://pigeon.roselabs.io/pigeon-logo.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 504,
+    "total_templates": 512,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 434
+        "count": 442
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 306
+        "count": 313
       },
       {
         "name": "warnPhishing",
@@ -1813,63 +1824,50 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 117
+        "count": 121
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 792,
-      "title": "Add Lindo templates (website, webapp, whitelabel, email)",
+      "number": 796,
+      "title": "feat(template): add realtimecdp email-setup template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-01T19:43:43Z",
-      "updated_at": "2026-03-01T19:44:13Z",
+      "created_at": "2026-03-02T19:54:32Z",
+      "updated_at": "2026-03-02T22:35:55Z",
       "merged_at": null,
-      "author": "saeedmsdi",
-      "author_avatar": "https://avatars.githubusercontent.com/u/3229325?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/792",
+      "author": "bprtsk",
+      "author_avatar": "https://avatars.githubusercontent.com/u/64994590?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/796",
       "labels": [],
       "templates": [
         {
-          "provider_id": "lindo",
-          "service_id": "ai.email",
-          "filename": "lindo.ai.email.json",
+          "provider_id": "realtimecdp",
+          "service_id": "io.email-setup",
+          "filename": "realtimecdp.io.email-setup.json",
           "logo_url": null,
           "status": "added"
-        },
+        }
+      ]
+    },
+    {
+      "number": 793,
+      "title": "Molted.email configuration",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-02T10:44:06Z",
+      "updated_at": "2026-03-02T12:08:43Z",
+      "merged_at": null,
+      "author": "chunkydotdev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1532451?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/793",
+      "labels": [],
+      "templates": [
         {
-          "provider_id": "lindo",
-          "service_id": "ai.webapp",
-          "filename": "lindo.ai.webapp.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "lindo",
-          "service_id": "ai.website-apex",
-          "filename": "lindo.ai.website-apex.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "lindo",
-          "service_id": "ai.website-subdomain",
-          "filename": "lindo.ai.website-subdomain.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "lindo",
-          "service_id": "ai.website",
-          "filename": "lindo.ai.website.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "lindo",
-          "service_id": "ai.whitelabel",
-          "filename": "lindo.ai.whitelabel.json",
+          "provider_id": "molted",
+          "service_id": "email.moltedemail",
+          "filename": "molted.email.moltedemail.json",
           "logo_url": null,
           "status": "added"
         }
@@ -1881,7 +1879,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-28T14:27:27Z",
-      "updated_at": "2026-03-01T03:12:06Z",
+      "updated_at": "2026-03-02T13:23:46Z",
       "merged_at": null,
       "author": "haiigas",
       "author_avatar": "https://avatars.githubusercontent.com/u/49256437?v=4",
@@ -1927,31 +1925,6 @@
           "provider_id": "inboxi",
           "service_id": "email.email-hosting",
           "filename": "inboxi.email.email-hosting.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 786,
-      "title": "Add guidasworld.com domain verification template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-25T18:03:30Z",
-      "updated_at": "2026-02-25T21:06:36Z",
-      "merged_at": null,
-      "author": "davidguigui29",
-      "author_avatar": "https://avatars.githubusercontent.com/u/97856081?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/786",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete"
-      ],
-      "templates": [
-        {
-          "provider_id": "guidasworld",
-          "service_id": "com.domain-verification",
-          "filename": "guidasworld.com.domain-verification.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2351,6 +2324,107 @@
       ]
     },
     {
+      "number": 795,
+      "title": "Mailrify Domain Connect template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-02T19:44:20Z",
+      "updated_at": "2026-03-02T20:09:39Z",
+      "merged_at": "2026-03-02T20:09:39Z",
+      "author": "mmihalev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/5316128?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/795",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mailrify",
+          "service_id": "com.mail-send-and-receive",
+          "filename": "mailrify.com.mail-send-and-receive.json",
+          "logo_url": "https://mailrify.com/icons/favicon.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 792,
+      "title": "Add Lindo templates (website, webapp, whitelabel, email)",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-01T19:43:43Z",
+      "updated_at": "2026-03-02T18:06:30Z",
+      "merged_at": "2026-03-02T06:21:21Z",
+      "author": "saeedmsdi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3229325?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/792",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.email",
+          "filename": "lindo.ai.email.json",
+          "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+          "status": "added"
+        },
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.webapp",
+          "filename": "lindo.ai.webapp.json",
+          "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+          "status": "added"
+        },
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.website-apex",
+          "filename": "lindo.ai.website-apex.json",
+          "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+          "status": "added"
+        },
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.website-subdomain",
+          "filename": "lindo.ai.website-subdomain.json",
+          "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+          "status": "added"
+        },
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.website",
+          "filename": "lindo.ai.website.json",
+          "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+          "status": "added"
+        },
+        {
+          "provider_id": "lindo",
+          "service_id": "ai.whitelabel",
+          "filename": "lindo.ai.whitelabel.json",
+          "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 794,
+      "title": "Add files via upload",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-02T11:02:27Z",
+      "updated_at": "2026-03-02T16:56:12Z",
+      "merged_at": "2026-03-02T16:56:12Z",
+      "author": "Efet1022",
+      "author_avatar": "https://avatars.githubusercontent.com/u/173594981?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/794",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "webgerek",
+          "service_id": "com.website",
+          "filename": "webgerek.com.website.json",
+          "logo_url": "https://webgerek.com/logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 789,
       "title": "Add Thallo Website Hosting template (usethallo.com.hosting)",
       "state": "closed",
@@ -2530,93 +2604,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 781,
-      "title": "Add Magic Pages custom domain templates",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-22T15:44:12Z",
-      "updated_at": "2026-02-23T07:15:30Z",
-      "merged_at": "2026-02-23T07:15:30Z",
-      "author": "betschki",
-      "author_avatar": "https://avatars.githubusercontent.com/u/25703384?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/781",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "magicpages",
-          "service_id": "co.website-a-cname",
-          "filename": "magicpages.co.website-a-cname.json",
-          "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "magicpages",
-          "service_id": "co.website-cname",
-          "filename": "magicpages.co.website-cname.json",
-          "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 775,
-      "title": "Add DMARCPulse Domain Connect template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-19T13:05:29Z",
-      "updated_at": "2026-02-20T15:57:06Z",
-      "merged_at": "2026-02-20T15:57:06Z",
-      "author": "tosh-hamburg",
-      "author_avatar": "https://avatars.githubusercontent.com/u/58424326?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/775",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete"
-      ],
-      "templates": [
-        {
-          "provider_id": "dmarcpulse",
-          "service_id": "io.dmarcpulse-setup",
-          "filename": "dmarcpulse.io.dmarcpulse-setup.json",
-          "logo_url": "https://dmarcpulse.io/logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 776,
-      "title": "Add TheDTSApp custom domain template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-19T21:18:29Z",
-      "updated_at": "2026-02-20T11:44:37Z",
-      "merged_at": "2026-02-20T11:44:36Z",
-      "author": "JJBrownHere",
-      "author_avatar": "https://avatars.githubusercontent.com/u/136272632?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/776",
-      "labels": [
-        "AI crap",
-        "PR description incomplete",
-        "Checklist of common problems not complete"
-      ],
-      "templates": [
-        {
-          "provider_id": "thedtsapp",
-          "service_id": "com.cname-setup",
-          "filename": "thedtsapp.com.cname-setup.json",
-          "logo_url": "https://thedtsapp.com/icons/Icon-192.png",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 405,
+        "review_count": 408,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -2648,7 +2642,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 28,
+        "review_count": 31,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -5218,6 +5212,60 @@
       "record_count": 2
     },
     {
+      "filename": "lindo.ai.email.json",
+      "provider_id": "lindo.ai",
+      "service_id": "email",
+      "provider_name": "Lindo",
+      "service_name": "Lindo Email (DKIM + DMARC)",
+      "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+      "record_count": 2
+    },
+    {
+      "filename": "lindo.ai.webapp.json",
+      "provider_id": "lindo.ai",
+      "service_id": "webapp",
+      "provider_name": "Lindo",
+      "service_name": "Lindo Webapp",
+      "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+      "record_count": 1
+    },
+    {
+      "filename": "lindo.ai.website-apex.json",
+      "provider_id": "lindo.ai",
+      "service_id": "website-apex",
+      "provider_name": "Lindo",
+      "service_name": "Lindo Website (Apex Only)",
+      "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+      "record_count": 2
+    },
+    {
+      "filename": "lindo.ai.website-subdomain.json",
+      "provider_id": "lindo.ai",
+      "service_id": "website-subdomain",
+      "provider_name": "Lindo",
+      "service_name": "Lindo Website (Subdomain)",
+      "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+      "record_count": 1
+    },
+    {
+      "filename": "lindo.ai.website.json",
+      "provider_id": "lindo.ai",
+      "service_id": "website",
+      "provider_name": "Lindo",
+      "service_name": "Lindo Website (Root + WWW)",
+      "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+      "record_count": 3
+    },
+    {
+      "filename": "lindo.ai.whitelabel.json",
+      "provider_id": "lindo.ai",
+      "service_id": "whitelabel",
+      "provider_name": "Lindo",
+      "service_name": "Lindo Whitelabel (Wildcard Subdomain)",
+      "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
+      "record_count": 2
+    },
+    {
       "filename": "lindris.com.domain-authentication.json",
       "provider_id": "lindris.com",
       "service_id": "domain-authentication",
@@ -5405,6 +5453,15 @@
       "service_name": "Email Authentication with Tracking",
       "logo_url": "https://mailrelay.com/images/logo.svg",
       "record_count": 5
+    },
+    {
+      "filename": "mailrify.com.mail-send-and-receive.json",
+      "provider_id": "mailrify.com",
+      "service_id": "mail-send-and-receive",
+      "provider_name": "Mailrify",
+      "service_name": "Mail (Sending & Receiving)",
+      "logo_url": "https://mailrify.com/icons/favicon.svg",
+      "record_count": 4
     },
     {
       "filename": "mcp-use.com.custom-domain.json",
@@ -6953,6 +7010,15 @@
       "service_name": "Webflow SSL",
       "logo_url": "https://domainconnect.org/wp-content/uploads/2017/01/webflow-logo-blue-300x113.jpg",
       "record_count": 3
+    },
+    {
+      "filename": "webgerek.com.website.json",
+      "provider_id": "webgerek.com",
+      "service_id": "website",
+      "provider_name": "webgerek.com",
+      "service_name": "Website Hosting",
+      "logo_url": "https://webgerek.com/logo.svg",
+      "record_count": 1
     },
     {
       "filename": "webomat.at.website-test.json",
