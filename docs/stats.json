@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-03T01:09:07.363090",
+  "generated_at": "2026-03-04T01:05:34.980957",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 512,
-    "total_providers": 261,
-    "total_merged_prs": 640,
-    "total_open_prs": 18,
-    "total_contributors": 293,
+    "total_templates": 513,
+    "total_providers": 262,
+    "total_merged_prs": 642,
+    "total_open_prs": 17,
+    "total_contributors": 294,
     "avg_records_per_template": 3.56
   },
   "templates_growth": [
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 8,
+      "added": 9,
       "deleted": 0,
-      "cumulative": 512
+      "cumulative": 513
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 3,
-      "cumulative": 261
+      "added": 4,
+      "cumulative": 262
     }
   ],
   "pr_activity": [
@@ -1503,14 +1503,14 @@
     },
     {
       "month": "2026-03",
-      "created": 5,
-      "merged": 4
+      "created": 7,
+      "merged": 6
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 382
+      "count": 383
     },
     {
       "type": "TXT",
@@ -1730,6 +1730,12 @@
         "template_count": 2
       },
       {
+        "provider_id": "atribu.app",
+        "provider_name": "Atribu",
+        "logo_url": "https://www.atribu.app/brand/atribu-wordmark-square-1024.png",
+        "template_count": 1
+      },
+      {
         "provider_id": "mailrify.com",
         "provider_name": "Mailrify",
         "logo_url": "https://mailrify.com/icons/favicon.svg",
@@ -1794,22 +1800,16 @@
         "provider_name": "Unbox",
         "logo_url": "https://unbox.so/logo.svg",
         "template_count": 1
-      },
-      {
-        "provider_id": "auvex.es",
-        "provider_name": "Auvex",
-        "logo_url": "https://auvex.es/favicon-96x96.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 512,
+    "total_templates": 513,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 442
+        "count": 443
       },
       {
         "name": "syncRedirectDomain",
@@ -1819,12 +1819,12 @@
       {
         "name": "warnPhishing",
         "label": "warnPhishing",
-        "count": 31
+        "count": 30
       },
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 121
+        "count": 122
       }
     ]
   },
@@ -1835,7 +1835,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-02T19:54:32Z",
-      "updated_at": "2026-03-02T22:35:55Z",
+      "updated_at": "2026-03-03T22:33:24Z",
       "merged_at": null,
       "author": "bprtsk",
       "author_avatar": "https://avatars.githubusercontent.com/u/64994590?v=4",
@@ -1857,7 +1857,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-02T10:44:06Z",
-      "updated_at": "2026-03-02T12:08:43Z",
+      "updated_at": "2026-03-03T16:57:19Z",
       "merged_at": null,
       "author": "chunkydotdev",
       "author_avatar": "https://avatars.githubusercontent.com/u/1532451?v=4",
@@ -1870,30 +1870,6 @@
           "filename": "molted.email.moltedemail.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 791,
-      "title": "ref: change pakai email config",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-28T14:27:27Z",
-      "updated_at": "2026-03-02T13:23:46Z",
-      "merged_at": null,
-      "author": "haiigas",
-      "author_avatar": "https://avatars.githubusercontent.com/u/49256437?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/791",
-      "labels": [
-        "PR description incomplete"
-      ],
-      "templates": [
-        {
-          "provider_id": "pakai",
-          "service_id": "email.domain",
-          "filename": "pakai.email.domain.json",
-          "logo_url": "https://pakai.email/assets/dashboard/images/logo-dark.png",
-          "status": "modified"
         }
       ]
     },
@@ -2324,6 +2300,52 @@
       ]
     },
     {
+      "number": 791,
+      "title": "ref: change pakai email config",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-28T14:27:27Z",
+      "updated_at": "2026-03-03T10:31:13Z",
+      "merged_at": "2026-03-03T10:31:13Z",
+      "author": "haiigas",
+      "author_avatar": "https://avatars.githubusercontent.com/u/49256437?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/791",
+      "labels": [
+        "PR description incomplete"
+      ],
+      "templates": [
+        {
+          "provider_id": "pakai",
+          "service_id": "email.domain",
+          "filename": "pakai.email.domain.json",
+          "logo_url": "https://pakai.email/assets/dashboard/images/logo-dark.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 797,
+      "title": "Feat(template): add atribu.app/tracking (first-party tracking CNAME)",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-03T04:29:46Z",
+      "updated_at": "2026-03-03T07:35:31Z",
+      "merged_at": "2026-03-03T07:35:31Z",
+      "author": "josefeliuf",
+      "author_avatar": "https://avatars.githubusercontent.com/u/62085104?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/797",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "atribu",
+          "service_id": "app.tracking",
+          "filename": "atribu.app.tracking.json",
+          "logo_url": "https://www.atribu.app/brand/atribu-wordmark-square-1024.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 795,
       "title": "Mailrify Domain Connect template",
       "state": "closed",
@@ -2537,86 +2559,19 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 778,
-      "title": "Add Readymag template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-20T16:11:54Z",
-      "updated_at": "2026-02-23T14:23:52Z",
-      "merged_at": "2026-02-23T14:23:52Z",
-      "author": "iam-medvedev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/975358?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/778",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "readymag",
-          "service_id": "com.apex",
-          "filename": "readymag.com.apex.json",
-          "logo_url": "https://public.readym.ag/domain-connect/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "readymag",
-          "service_id": "com.subdomain",
-          "filename": "readymag.com.subdomain.json",
-          "logo_url": "https://public.readym.ag/domain-connect/logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 777,
-      "title": "Add GrowSurf domain verification templates",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-20T09:06:44Z",
-      "updated_at": "2026-02-23T07:19:09Z",
-      "merged_at": "2026-02-23T07:19:08Z",
-      "author": "kevinyun",
-      "author_avatar": "https://avatars.githubusercontent.com/u/1364544?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/777",
-      "labels": [
-        "PR description incomplete"
-      ],
-      "templates": [
-        {
-          "provider_id": "growsurf",
-          "service_id": "com.email-whitelabel",
-          "filename": "growsurf.com.email-whitelabel.json",
-          "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
-          "status": "added"
-        },
-        {
-          "provider_id": "growsurf",
-          "service_id": "com.referral-portal",
-          "filename": "growsurf.com.referral-portal.json",
-          "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
-          "status": "added"
-        },
-        {
-          "provider_id": "growsurf",
-          "service_id": "com.universal-code-reverse-proxy",
-          "filename": "growsurf.com.universal-code-reverse-proxy.json",
-          "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 408,
+        "review_count": 409,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 52,
+        "review_count": 53,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -2642,13 +2597,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 31,
+        "review_count": 32,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 12,
+        "review_count": 13,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -2780,6 +2735,15 @@
       "service_name": "Email Sending",
       "logo_url": "https://arkhq.io/ark-logo.png",
       "record_count": 3
+    },
+    {
+      "filename": "atribu.app.tracking.json",
+      "provider_id": "atribu.app",
+      "service_id": "tracking",
+      "provider_name": "Atribu",
+      "service_name": "Atribu First-Party Tracking",
+      "logo_url": "https://www.atribu.app/brand/atribu-wordmark-square-1024.png",
+      "record_count": 1
     },
     {
       "filename": "auvex.es.domain-authentication.json",
@@ -7267,7 +7231,7 @@
   "contributors": [
     {
       "login": "pawel-kow",
-      "contributions": 444,
+      "contributions": 445,
       "avatar_url": "https://avatars.githubusercontent.com/u/28707030?v=4",
       "profile_url": "https://github.com/pawel-kow"
     },
