@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-04T01:05:34.980957",
+  "generated_at": "2026-03-05T01:08:10.243782",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 513,
-    "total_providers": 262,
-    "total_merged_prs": 642,
+    "total_templates": 516,
+    "total_providers": 265,
+    "total_merged_prs": 647,
     "total_open_prs": 17,
-    "total_contributors": 294,
+    "total_contributors": 297,
     "avg_records_per_template": 3.56
   },
   "templates_growth": [
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 9,
+      "added": 12,
       "deleted": 0,
-      "cumulative": 513
+      "cumulative": 516
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 4,
-      "cumulative": 262
+      "added": 7,
+      "cumulative": 265
     }
   ],
   "pr_activity": [
@@ -1503,18 +1503,18 @@
     },
     {
       "month": "2026-03",
-      "created": 7,
-      "merged": 6
+      "created": 17,
+      "merged": 11
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 383
+      "count": 385
     },
     {
       "type": "TXT",
-      "count": 221
+      "count": 224
     },
     {
       "type": "A",
@@ -1522,11 +1522,11 @@
     },
     {
       "type": "SPFM",
-      "count": 99
+      "count": 100
     },
     {
       "type": "MX",
-      "count": 90
+      "count": 91
     },
     {
       "type": "SRV",
@@ -1724,10 +1724,22 @@
         "template_count": 2
       },
       {
-        "provider_id": "migma.ai",
-        "provider_name": "Migma",
-        "logo_url": "https://migma.ai/brandkit/horizontal/SVG/light.svg",
-        "template_count": 2
+        "provider_id": "weav.com",
+        "provider_name": "Weav",
+        "logo_url": "https://app.weav.com/images/weav.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "restayway.com",
+        "provider_name": "Restayway",
+        "logo_url": "https://s3.restayway.com/logo/icon-blue-500x500.png",
+        "template_count": 1
+      },
+      {
+        "provider_id": "molted.email",
+        "provider_name": "Molted Email",
+        "logo_url": "https://molted.email/logo.svg",
+        "template_count": 1
       },
       {
         "provider_id": "atribu.app",
@@ -1788,58 +1800,70 @@
         "provider_name": "TheDTSApp",
         "logo_url": "https://thedtsapp.com/icons/Icon-192.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "dmarceye.com",
-        "provider_name": "DMARCeye",
-        "logo_url": "https://api.dmarceye.com/logo/light.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "unbox.so",
-        "provider_name": "Unbox",
-        "logo_url": "https://unbox.so/logo.svg",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 513,
+    "total_templates": 516,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 443
+        "count": 446
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 313
+        "count": 315
       },
       {
         "name": "warnPhishing",
         "label": "warnPhishing",
-        "count": 30
+        "count": 31
       },
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 122
+        "count": 124
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 796,
-      "title": "feat(template): add realtimecdp email-setup template",
+      "number": 808,
+      "title": "Add Nettingale managed WordPress hosting template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-02T19:54:32Z",
-      "updated_at": "2026-03-03T22:33:24Z",
+      "created_at": "2026-03-05T00:10:53Z",
+      "updated_at": "2026-03-05T00:24:04Z",
+      "merged_at": null,
+      "author": "radoslav-stefanov",
+      "author_avatar": "https://avatars.githubusercontent.com/u/23275463?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/808",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "nettingale",
+          "service_id": "com.nettingale-connect",
+          "filename": "nettingale.com.nettingale-connect.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 807,
+      "title": "Add realtimecdp.io email setup template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-04T19:19:12Z",
+      "updated_at": "2026-03-04T19:25:14Z",
       "merged_at": null,
       "author": "bprtsk",
       "author_avatar": "https://avatars.githubusercontent.com/u/64994590?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/796",
+      "url": "https://github.com/Domain-Connect/Templates/pull/807",
       "labels": [],
       "templates": [
         {
@@ -1852,24 +1876,80 @@
       ]
     },
     {
-      "number": 793,
-      "title": "Molted.email configuration",
+      "number": 806,
+      "title": "Add Pagesmith.ai website hosting template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-02T10:44:06Z",
-      "updated_at": "2026-03-03T16:57:19Z",
+      "created_at": "2026-03-04T19:13:33Z",
+      "updated_at": "2026-03-04T19:14:20Z",
       "merged_at": null,
-      "author": "chunkydotdev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/1532451?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/793",
-      "labels": [],
+      "author": "manukivi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/13639298?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/806",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
       "templates": [
         {
-          "provider_id": "molted",
-          "service_id": "email.moltedemail",
-          "filename": "molted.email.moltedemail.json",
+          "provider_id": "pagesmith",
+          "service_id": "app.cname-setup",
+          "filename": "pagesmith.app.cname-setup.json",
           "logo_url": null,
           "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 800,
+      "title": "Add ContentMetric website hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-04T11:47:44Z",
+      "updated_at": "2026-03-04T15:58:34Z",
+      "merged_at": null,
+      "author": "felixlvh",
+      "author_avatar": "https://avatars.githubusercontent.com/u/514064?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/800",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "contentmetric",
+          "service_id": "com.website",
+          "filename": "contentmetric.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 799,
+      "title": "Update CNAME target for mcp-use custom domains",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-04T08:06:51Z",
+      "updated_at": "2026-03-04T16:35:02Z",
+      "merged_at": null,
+      "author": "tonxxd",
+      "author_avatar": "https://avatars.githubusercontent.com/u/2827496?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/799",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "mcp-use",
+          "service_id": "com.custom-domain",
+          "filename": "mcp-use.com.custom-domain.json",
+          "logo_url": "https://mcp-use.com/logo.png",
+          "status": "modified"
         }
       ]
     },
@@ -1879,7 +1959,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-26T22:25:58Z",
-      "updated_at": "2026-02-27T16:09:59Z",
+      "updated_at": "2026-03-04T16:35:17Z",
       "merged_at": null,
       "author": "thiagorussi",
       "author_avatar": "https://avatars.githubusercontent.com/u/60278366?v=4",
@@ -1887,7 +1967,8 @@
       "labels": [
         "AI crap",
         "PR description incomplete",
-        "Checklist of common problems not complete"
+        "Checklist of common problems not complete",
+        "Test links missing"
       ],
       "templates": [
         {
@@ -1912,12 +1993,16 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-25T10:18:58Z",
-      "updated_at": "2026-02-25T10:56:30Z",
+      "updated_at": "2026-03-04T14:19:30Z",
       "merged_at": null,
       "author": "Anshuman200",
       "author_avatar": "https://avatars.githubusercontent.com/u/75315423?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/784",
-      "labels": [],
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
       "templates": [
         {
           "provider_id": "solidappmaker",
@@ -1934,14 +2019,15 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-21T23:42:31Z",
-      "updated_at": "2026-02-23T07:18:45Z",
+      "updated_at": "2026-03-04T16:29:31Z",
       "merged_at": null,
       "author": "robbybarnes",
       "author_avatar": "https://avatars.githubusercontent.com/u/7683472?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/780",
       "labels": [
         "PR description incomplete",
-        "Checklist of common problems not complete"
+        "Checklist of common problems not complete",
+        "Test links missing"
       ],
       "templates": [
         {
@@ -1959,7 +2045,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-20T17:15:56Z",
-      "updated_at": "2026-02-20T17:21:21Z",
+      "updated_at": "2026-03-04T16:30:39Z",
       "merged_at": null,
       "author": "AdSimpleGmbH",
       "author_avatar": "https://avatars.githubusercontent.com/u/213583200?v=4",
@@ -1967,7 +2053,8 @@
       "labels": [
         "AI crap",
         "PR description incomplete",
-        "Checklist of common problems not complete"
+        "Checklist of common problems not complete",
+        "Test links missing"
       ],
       "templates": [
         {
@@ -1985,13 +2072,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-11T10:38:55Z",
-      "updated_at": "2026-02-11T13:08:03Z",
+      "updated_at": "2026-03-04T16:31:57Z",
       "merged_at": null,
       "author": "ruzny-ramzan",
       "author_avatar": "https://avatars.githubusercontent.com/u/193292134?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/765",
       "labels": [
-        "AI crap"
+        "AI crap",
+        "Test links missing"
       ],
       "templates": []
     },
@@ -2001,13 +2089,15 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-11T00:50:22Z",
-      "updated_at": "2026-02-11T10:55:04Z",
+      "updated_at": "2026-03-04T16:31:35Z",
       "merged_at": null,
       "author": "aomkoyo",
       "author_avatar": "https://avatars.githubusercontent.com/u/59776731?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/763",
       "labels": [
-        "question"
+        "question",
+        "PR description incomplete",
+        "Test links missing"
       ],
       "templates": [
         {
@@ -2025,14 +2115,15 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-10T18:33:54Z",
-      "updated_at": "2026-02-15T19:45:49Z",
+      "updated_at": "2026-03-04T16:32:10Z",
       "merged_at": null,
       "author": "marluciaaraujo149-web",
       "author_avatar": "https://avatars.githubusercontent.com/u/258689530?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/762",
       "labels": [
         "PR description incomplete",
-        "Checklist of common problems not complete"
+        "Checklist of common problems not complete",
+        "Test links missing"
       ],
       "templates": [
         {
@@ -2057,14 +2148,15 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-01T11:30:03Z",
-      "updated_at": "2026-02-27T07:25:25Z",
+      "updated_at": "2026-03-04T16:34:35Z",
       "merged_at": null,
       "author": "kyrixdev",
       "author_avatar": "https://avatars.githubusercontent.com/u/46058778?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/740",
       "labels": [
         "PR description incomplete",
-        "Checklist of common problems not complete"
+        "Checklist of common problems not complete",
+        "Test links missing"
       ],
       "templates": [
         {
@@ -2096,7 +2188,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-01-16T20:47:09Z",
-      "updated_at": "2026-02-21T03:35:59Z",
+      "updated_at": "2026-03-04T16:33:37Z",
       "merged_at": null,
       "author": "willhackett",
       "author_avatar": "https://avatars.githubusercontent.com/u/12025460?v=4",
@@ -2156,14 +2248,16 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-01-15T19:04:24Z",
-      "updated_at": "2026-02-19T03:57:56Z",
+      "updated_at": "2026-03-04T16:32:57Z",
       "merged_at": null,
       "author": "BaptisteLam",
       "author_avatar": "https://avatars.githubusercontent.com/u/231010613?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/718",
       "labels": [
         "Stale",
-        "PR description incomplete"
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
       ],
       "templates": [
         {
@@ -2176,43 +2270,22 @@
       ]
     },
     {
-      "number": 717,
-      "title": "Update smtpkit.com.domain-auth.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-15T16:00:07Z",
-      "updated_at": "2026-02-16T04:01:17Z",
-      "merged_at": null,
-      "author": "xindex2",
-      "author_avatar": "https://avatars.githubusercontent.com/u/17485297?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/717",
-      "labels": [
-        "Stale"
-      ],
-      "templates": [
-        {
-          "provider_id": "smtpkit",
-          "service_id": "com.domain-auth",
-          "filename": "smtpkit.com.domain-auth.json",
-          "logo_url": "https://smtpkit.com/assets/media/logo/android-icon-192x192.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
       "number": 701,
       "title": "domain connect template for uspeedo.com",
       "state": "open",
       "merged": false,
       "created_at": "2026-01-07T10:54:33Z",
-      "updated_at": "2026-02-19T03:57:57Z",
+      "updated_at": "2026-03-04T16:33:19Z",
       "merged_at": null,
       "author": "kiritoaurora",
       "author_avatar": "https://avatars.githubusercontent.com/u/61142387?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/701",
       "labels": [
         "question",
-        "Stale"
+        "Stale",
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
       ],
       "templates": [
         {
@@ -2230,14 +2303,16 @@
       "state": "open",
       "merged": false,
       "created_at": "2025-12-31T07:03:37Z",
-      "updated_at": "2026-02-19T03:57:59Z",
+      "updated_at": "2026-03-04T16:33:52Z",
       "merged_at": null,
       "author": "AudEarn",
       "author_avatar": "https://avatars.githubusercontent.com/u/193089239?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/695",
       "labels": [
         "Stale",
-        "PR description incomplete"
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
       ],
       "templates": [
         {
@@ -2250,51 +2325,99 @@
       ]
     },
     {
-      "number": 683,
-      "title": "Create builtbymagellan.com.websitehosting.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-12-13T19:38:29Z",
-      "updated_at": "2026-02-16T04:01:19Z",
-      "merged_at": null,
-      "author": "BaptisteLam",
-      "author_avatar": "https://avatars.githubusercontent.com/u/231010613?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/683",
-      "labels": [
-        "Stale",
-        "PR description incomplete"
-      ],
+      "number": 805,
+      "title": "Add Weav custom email Domain Connect template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-04T18:30:55Z",
+      "updated_at": "2026-03-04T18:38:43Z",
+      "merged_at": "2026-03-04T18:38:42Z",
+      "author": "bradynord",
+      "author_avatar": "https://avatars.githubusercontent.com/u/799442?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/805",
+      "labels": [],
       "templates": [
         {
-          "provider_id": "builtbymagellan",
-          "service_id": "com.websitehosting",
-          "filename": "builtbymagellan.com.websitehosting.json",
-          "logo_url": null,
+          "provider_id": "weav",
+          "service_id": "com.weav-custom-email",
+          "filename": "weav.com.weav-custom-email.json",
+          "logo_url": "https://app.weav.com/images/weav.svg",
           "status": "added"
         }
       ]
     },
     {
-      "number": 676,
-      "title": "Add domain authentication configuration for DevOps Stacks",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-12-04T12:54:31Z",
-      "updated_at": "2026-02-16T04:01:21Z",
-      "merged_at": null,
-      "author": "RN-alson",
-      "author_avatar": "https://avatars.githubusercontent.com/u/231432868?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/676",
+      "number": 804,
+      "title": "Maintenance/remove redundant checks pr template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-04T16:02:34Z",
+      "updated_at": "2026-03-04T16:03:40Z",
+      "merged_at": "2026-03-04T16:03:29Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/804",
       "labels": [
-        "question",
-        "Stale"
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
       ],
+      "templates": []
+    },
+    {
+      "number": 803,
+      "title": "Feature: check PR description for structure and test data",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-04T14:15:19Z",
+      "updated_at": "2026-03-04T14:16:38Z",
+      "merged_at": "2026-03-04T14:16:35Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/803",
+      "labels": [],
+      "templates": []
+    },
+    {
+      "number": 801,
+      "title": "feat: add restayway cname connect and test results",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-04T12:07:45Z",
+      "updated_at": "2026-03-04T12:22:26Z",
+      "merged_at": "2026-03-04T12:22:25Z",
+      "author": "salihguru",
+      "author_avatar": "https://avatars.githubusercontent.com/u/76786120?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/801",
+      "labels": [],
       "templates": [
         {
-          "provider_id": "devopstacks",
-          "service_id": "com.email-authentication",
-          "filename": "devopstacks.com.email-authentication.json",
-          "logo_url": null,
+          "provider_id": "restayway",
+          "service_id": "com.cname-connect",
+          "filename": "restayway.com.cname-connect.json",
+          "logo_url": "https://s3.restayway.com/logo/icon-blue-500x500.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 793,
+      "title": "Molted.email configuration",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-02T10:44:06Z",
+      "updated_at": "2026-03-04T11:45:38Z",
+      "merged_at": "2026-03-04T11:45:38Z",
+      "author": "chunkydotdev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1532451?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/793",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "molted",
+          "service_id": "email.moltedemail",
+          "filename": "molted.email.moltedemail.json",
+          "logo_url": "https://molted.email/logo.svg",
           "status": "added"
         }
       ]
@@ -2445,133 +2568,19 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 789,
-      "title": "Add Thallo Website Hosting template (usethallo.com.hosting)",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-27T19:10:52Z",
-      "updated_at": "2026-03-01T01:01:04Z",
-      "merged_at": "2026-03-01T01:01:03Z",
-      "author": "Mrwatsbot",
-      "author_avatar": "https://avatars.githubusercontent.com/u/257218883?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/789",
-      "labels": [
-        "PR description incomplete"
-      ],
-      "templates": [
-        {
-          "provider_id": "usethallo",
-          "service_id": "com.hosting",
-          "filename": "usethallo.com.hosting.json",
-          "logo_url": "https://usethallo.com/logo.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 785,
-      "title": "Add forwardemail.net email hosting template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-25T11:38:46Z",
-      "updated_at": "2026-02-28T11:58:12Z",
-      "merged_at": "2026-02-27T07:41:13Z",
-      "author": "titanism",
-      "author_avatar": "https://avatars.githubusercontent.com/u/101466223?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/785",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "forwardemail",
-          "service_id": "net.email",
-          "filename": "forwardemail.net.email.json",
-          "logo_url": "https://forwardemail.net/img/logo-square.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 788,
-      "title": "feat: Add Ferndesk custom domain configuration",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-27T13:54:33Z",
-      "updated_at": "2026-02-28T09:44:27Z",
-      "merged_at": "2026-02-28T09:44:26Z",
-      "author": "victorbuikem",
-      "author_avatar": "https://avatars.githubusercontent.com/u/67438668?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/788",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "ferndesk",
-          "service_id": "com.custom-domain",
-          "filename": "ferndesk.com.custom-domain.json",
-          "logo_url": "https://static.ferndesk.com/assets/fern-pixel.jpg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 783,
-      "title": "Add webtastic.site hosting template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-24T20:10:22Z",
-      "updated_at": "2026-02-26T11:28:08Z",
-      "merged_at": "2026-02-26T07:13:48Z",
-      "author": "fiskeben",
-      "author_avatar": "https://avatars.githubusercontent.com/u/28291?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/783",
-      "labels": [
-        "PR description incomplete"
-      ],
-      "templates": [
-        {
-          "provider_id": "webtastic",
-          "service_id": "site.hosting",
-          "filename": "webtastic.site.hosting.json",
-          "logo_url": "https://webtastic.site/logo.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 782,
-      "title": "Add TracklySMS white-label domain template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-24T19:40:31Z",
-      "updated_at": "2026-02-25T20:23:24Z",
-      "merged_at": "2026-02-25T20:23:24Z",
-      "author": "ianitstoday",
-      "author_avatar": "https://avatars.githubusercontent.com/u/179533121?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/782",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "tracklysms",
-          "service_id": "com.sms-whitelabel",
-          "filename": "tracklysms.com.sms-whitelabel.json",
-          "logo_url": "https://app.tracklysms.com/logo-dark.svg",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 409,
+        "review_count": 411,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 53,
+        "review_count": 54,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -2597,15 +2606,21 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 32,
+        "review_count": 33,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 13,
+        "review_count": 12,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
+      },
+      {
+        "login": "copilot-pull-request-reviewer[bot]",
+        "review_count": 1,
+        "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+        "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       }
     ]
   },
@@ -5482,6 +5497,15 @@
       "record_count": 6
     },
     {
+      "filename": "molted.email.moltedemail.json",
+      "provider_id": "molted.email",
+      "service_id": "moltedemail",
+      "provider_name": "Molted Email",
+      "service_name": "Molted Email Authentication",
+      "logo_url": "https://molted.email/logo.svg",
+      "record_count": 5
+    },
+    {
       "filename": "moneta.studio.custom-domain-www.json",
       "provider_id": "moneta.studio",
       "service_id": "custom-domain-www",
@@ -6020,6 +6044,15 @@
       "service_name": "Mail",
       "logo_url": "https://resend.com/static/brand/resend-wordmark-black.svg",
       "record_count": 3
+    },
+    {
+      "filename": "restayway.com.cname-connect.json",
+      "provider_id": "restayway.com",
+      "service_id": "cname-connect",
+      "provider_name": "Restayway",
+      "service_name": "Restayway",
+      "logo_url": "https://s3.restayway.com/logo/icon-blue-500x500.png",
+      "record_count": 2
     },
     {
       "filename": "retroliste.com.domain-verification.json",
@@ -6958,6 +6991,15 @@
       "record_count": 1
     },
     {
+      "filename": "weav.com.weav-custom-email.json",
+      "provider_id": "weav.com",
+      "service_id": "weav-custom-email",
+      "provider_name": "Weav",
+      "service_name": "Weav Custom Email",
+      "logo_url": "https://app.weav.com/images/weav.svg",
+      "record_count": 2
+    },
+    {
       "filename": "webflow.com.webflow-basic.json",
       "provider_id": "webflow.com",
       "service_id": "webflow-basic",
@@ -7231,7 +7273,7 @@
   "contributors": [
     {
       "login": "pawel-kow",
-      "contributions": 445,
+      "contributions": 447,
       "avatar_url": "https://avatars.githubusercontent.com/u/28707030?v=4",
       "profile_url": "https://github.com/pawel-kow"
     },

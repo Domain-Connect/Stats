@@ -48507,5 +48507,173 @@
       "submitted_at": "2026-03-03T07:32:32Z",
       "commit_id": "21b7933821a57d5d810d7a48f3c88de35d3d45e9"
     }
+  ],
+  "805": [
+    {
+      "id": 3891234534,
+      "node_id": "PRR_kwDOBQwxY87n74bm",
+      "user": {
+        "login": "pawel-kow",
+        "id": 28707030,
+        "node_id": "MDQ6VXNlcjI4NzA3MDMw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pawel-kow",
+        "html_url": "https://github.com/pawel-kow",
+        "followers_url": "https://api.github.com/users/pawel-kow/followers",
+        "following_url": "https://api.github.com/users/pawel-kow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pawel-kow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pawel-kow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pawel-kow/subscriptions",
+        "organizations_url": "https://api.github.com/users/pawel-kow/orgs",
+        "repos_url": "https://api.github.com/users/pawel-kow/repos",
+        "events_url": "https://api.github.com/users/pawel-kow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pawel-kow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "body": "lgtm",
+      "state": "APPROVED",
+      "html_url": "https://github.com/Domain-Connect/Templates/pull/805#pullrequestreview-3891234534",
+      "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/805",
+      "author_association": "MEMBER",
+      "_links": {
+        "html": {
+          "href": "https://github.com/Domain-Connect/Templates/pull/805#pullrequestreview-3891234534"
+        },
+        "pull_request": {
+          "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/805"
+        }
+      },
+      "submitted_at": "2026-03-04T18:35:37Z",
+      "commit_id": "b04cd83f7794fa13f701d4790dae8ab78bdebaac"
+    }
+  ],
+  "804": [],
+  "803": [],
+  "801": [
+    {
+      "id": 3889055060,
+      "node_id": "PRR_kwDOBQwxY87nzkVU",
+      "user": {
+        "login": "copilot-pull-request-reviewer[bot]",
+        "id": 175728472,
+        "node_id": "BOT_kgDOCnlnWA",
+        "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+        "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+        "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "body": "## Pull request overview\n\nAdds a new Domain Connect template to let Restayway customers connect a custom domain via a CNAME to `cname.restayway.com` and publish the Cloudflare Custom Hostname SSL validation TXT value.\n\n**Changes:**\n- Introduces `restayway.com.cname-connect.json` Domain Connect template metadata (provider/service, logo, description).\n- Adds DNS record set for CNAME routing plus `_cf-custom-hostname` TXT verification.\n\n\n\n\n\n---\n\n💡 <a href=\"/Domain-Connect/Templates/new/master?filename=.github/instructions/*.instructions.md\" class=\"Link--inTextBlock\" target=\"_blank\" rel=\"noopener noreferrer\">Add Copilot custom instructions</a> for smarter, more guided reviews. <a href=\"https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot\" class=\"Link--inTextBlock\" target=\"_blank\" rel=\"noopener noreferrer\">Learn how to get started</a>.",
+      "state": "COMMENTED",
+      "html_url": "https://github.com/Domain-Connect/Templates/pull/801#pullrequestreview-3889055060",
+      "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/801",
+      "author_association": "NONE",
+      "_links": {
+        "html": {
+          "href": "https://github.com/Domain-Connect/Templates/pull/801#pullrequestreview-3889055060"
+        },
+        "pull_request": {
+          "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/801"
+        }
+      },
+      "submitted_at": "2026-03-04T12:11:05Z",
+      "commit_id": "21863e23dd59cf38c60803533a4074973432419c"
+    },
+    {
+      "id": 3889096896,
+      "node_id": "PRR_kwDOBQwxY87nzujA",
+      "user": {
+        "login": "pawel-kow",
+        "id": 28707030,
+        "node_id": "MDQ6VXNlcjI4NzA3MDMw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pawel-kow",
+        "html_url": "https://github.com/pawel-kow",
+        "followers_url": "https://api.github.com/users/pawel-kow/followers",
+        "following_url": "https://api.github.com/users/pawel-kow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pawel-kow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pawel-kow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pawel-kow/subscriptions",
+        "organizations_url": "https://api.github.com/users/pawel-kow/orgs",
+        "repos_url": "https://api.github.com/users/pawel-kow/repos",
+        "events_url": "https://api.github.com/users/pawel-kow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pawel-kow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "body": "all good thank you.\nOn a side note: your example shows you put the full fqdn into host parameter. You should have used \"www\" not \"www.example.com\". Generated RRs are relative to the origin.",
+      "state": "APPROVED",
+      "html_url": "https://github.com/Domain-Connect/Templates/pull/801#pullrequestreview-3889096896",
+      "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/801",
+      "author_association": "MEMBER",
+      "_links": {
+        "html": {
+          "href": "https://github.com/Domain-Connect/Templates/pull/801#pullrequestreview-3889096896"
+        },
+        "pull_request": {
+          "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/801"
+        }
+      },
+      "submitted_at": "2026-03-04T12:19:19Z",
+      "commit_id": "21863e23dd59cf38c60803533a4074973432419c"
+    }
+  ],
+  "793": [
+    {
+      "id": 3888784418,
+      "node_id": "PRR_kwDOBQwxY87nyiQi",
+      "user": {
+        "login": "kerolasa",
+        "id": 572411,
+        "node_id": "MDQ6VXNlcjU3MjQxMQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kerolasa",
+        "html_url": "https://github.com/kerolasa",
+        "followers_url": "https://api.github.com/users/kerolasa/followers",
+        "following_url": "https://api.github.com/users/kerolasa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kerolasa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kerolasa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kerolasa/subscriptions",
+        "organizations_url": "https://api.github.com/users/kerolasa/orgs",
+        "repos_url": "https://api.github.com/users/kerolasa/repos",
+        "events_url": "https://api.github.com/users/kerolasa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kerolasa/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "body": "Looks good to me.",
+      "state": "APPROVED",
+      "html_url": "https://github.com/Domain-Connect/Templates/pull/793#pullrequestreview-3888784418",
+      "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/793",
+      "author_association": "COLLABORATOR",
+      "_links": {
+        "html": {
+          "href": "https://github.com/Domain-Connect/Templates/pull/793#pullrequestreview-3888784418"
+        },
+        "pull_request": {
+          "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/793"
+        }
+      },
+      "submitted_at": "2026-03-04T11:17:47Z",
+      "commit_id": "0dce67f0d6212d8dcf8d94fd1d75d1094bd38a7c"
+    }
   ]
 }
