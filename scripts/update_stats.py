@@ -518,11 +518,16 @@ class StatsGenerator:
 
         return pr_data
 
-    def calculate_pr_activity(self, all_prs: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
+    def calculate_pr_activity(
+        self,
+        all_prs: Dict[str, List[Dict[str, Any]]],
+        template_pr_set: Set[int],
+    ) -> Dict[str, Any]:
         """Calculate PR creation and merge statistics by month.
 
         Args:
             all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
+            template_pr_set: Set of PR numbers that touch at least one template
 
         Returns:
             Dictionary with monthly PR activity
@@ -530,8 +535,11 @@ class StatsGenerator:
         if not self.github_token:
             return {'monthly': [], 'total_merged': 0, 'total_open': 0}
 
-        # Combine all PRs
-        combined_prs = all_prs.get('open', []) + all_prs.get('closed', [])
+        # Combine all PRs, restricting to template PRs
+        combined_prs = [
+            pr for pr in all_prs.get('open', []) + all_prs.get('closed', [])
+            if pr['number'] in template_pr_set
+        ]
 
         # Group by month
         monthly_created = defaultdict(int)
@@ -639,17 +647,114 @@ class StatsGenerator:
         except IOError as e:
             print(f"    - Warning: Could not save PR cache: {e}")
 
+    def _fetch_template_pr_set(
+        self,
+        all_prs: Dict[str, List[Dict[str, Any]]],
+        pr_cache: Dict[int, Dict[str, Any]],
+    ) -> Set[int]:
+        """Return the set of PR numbers that touch at least one template file.
+
+        Uses the GitHub pulls files API per PR.  Results are cached in pr_cache
+        under 'has_templates' (bool) so subsequent runs skip the API call.
+
+        Args:
+            all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
+            pr_cache: Shared per-PR cache dict (mutated in place with new data)
+
+        Returns:
+            Set of PR numbers whose file list contains at least one template JSON
+        """
+        all_pr_list = all_prs.get('open', []) + all_prs.get('closed', [])
+        template_prs: Set[int] = set()
+        cache_hits = 0
+        cache_misses = 0
+
+        print(f"    - Checking template files for {len(all_pr_list)} PRs...")
+
+        for idx, pr in enumerate(all_pr_list, 1):
+            pr_number = pr['number']
+            entry = pr_cache.setdefault(pr_number, {})
+
+            if idx % 100 == 0:
+                print(f"      Progress: {idx}/{len(all_pr_list)} PRs "
+                      f"(hits: {cache_hits}, misses: {cache_misses})...")
+
+            if 'has_templates' in entry:
+                has = entry['has_templates']
+                cache_hits += 1
+            else:
+                files = self._github_api_request(
+                    f"/repos/{self.repo_owner}/{self.repo_name}/pulls/{pr_number}/files"
+                ) or []
+                has = any(
+                    f['filename'].endswith('.json')
+                    and '/' not in f['filename']
+                    and f['filename'] not in self._EXCLUDED_JSON
+                    for f in files
+                )
+                entry['has_templates'] = has
+                cache_misses += 1
+
+            if has:
+                template_prs.add(pr_number)
+
+        print(f"    - Template PR check: {cache_hits} from cache, {cache_misses} from API "
+              f"({len(template_prs)}/{len(all_pr_list)} PRs touch templates)")
+        return template_prs
+
+    def calculate_pr_time_to_merge(
+        self,
+        all_prs: Dict[str, List[Dict[str, Any]]],
+        template_pr_set: Set[int],
+    ) -> List[Dict[str, Any]]:
+        """Calculate average time to merge per month for template PRs.
+
+        Uses created_at and merged_at from the already-fetched PR objects —
+        no additional API calls needed.  Buckets by merged_at month so the
+        chart reflects when the work landed, not when it was opened.
+
+        Args:
+            all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
+            template_pr_set: Set of PR numbers that touch at least one template
+
+        Returns:
+            List of dicts {'month': 'YYYY-MM', 'avg_days': float}
+        """
+        closed_prs = all_prs.get('closed', [])
+        month_days: Dict[str, List[float]] = defaultdict(list)
+
+        for pr in closed_prs:
+            if pr['number'] not in template_pr_set:
+                continue
+            merged_at = pr.get('merged_at')
+            if not merged_at:
+                continue
+            created = datetime.fromisoformat(pr['created_at'].replace('Z', '+00:00'))
+            merged = datetime.fromisoformat(merged_at.replace('Z', '+00:00'))
+            days = (merged - created).total_seconds() / 86400.0
+            month = pr['created_at'][:7]  # YYYY-MM bucket by open date
+            month_days[month].append(days)
+
+        rows = []
+        for month in sorted(month_days.keys()):
+            values = month_days[month]
+            avg = round(sum(values) / len(values), 1) if values else 0.0
+            rows.append({'month': month, 'avg_days': avg})
+
+        return rows
+
     def calculate_pr_comment_activity(
         self,
         all_prs: Dict[str, List[Dict[str, Any]]],
         pr_cache: Dict[int, Dict[str, Any]],
+        template_pr_set: Set[int],
     ) -> List[Dict[str, Any]]:
         """Calculate average non-bot comment count per PR per month.
 
         Fetches issue comments and review comments for each PR, excludes
         comments from bot accounts (login ends with '[bot]'), then computes
         the average (comments + review_comments) per PR grouped by the PR's
-        created_at month.
+        created_at month.  Only template PRs are counted.
 
         Cache behaviour: same pattern as label_events — if 'comment_counts' is
         absent from ALL cached entries this is the first run; fetch for every
@@ -658,6 +763,7 @@ class StatsGenerator:
         Args:
             all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
             pr_cache: Shared per-PR cache dict (mutated in place with new data)
+            template_pr_set: Set of PR numbers that touch at least one template
 
         Returns:
             List of dicts {'month': 'YYYY-MM', 'avg_comments': float}
@@ -665,7 +771,10 @@ class StatsGenerator:
         if not self.github_token:
             return []
 
-        all_pr_list = all_prs.get('open', []) + all_prs.get('closed', [])
+        all_pr_list = [
+            pr for pr in all_prs.get('open', []) + all_prs.get('closed', [])
+            if pr['number'] in template_pr_set
+        ]
         if not all_pr_list:
             return []
 
@@ -730,6 +839,7 @@ class StatsGenerator:
         self,
         all_prs: Dict[str, List[Dict[str, Any]]],
         pr_cache: Dict[int, Dict[str, Any]],
+        template_pr_set: Set[int],
     ) -> List[Dict[str, Any]]:
         """Calculate per-label monthly PR counts using GitHub Issues Events API.
 
@@ -737,7 +847,7 @@ class StatsGenerator:
         applied (including labels that were later removed).  Then counts the
         number of distinct PRs per label per month (using the PR's created_at
         month as the bucket) and returns the data as a list of monthly rows
-        suitable for a multi-series line chart.
+        suitable for a multi-series line chart.  Only template PRs are counted.
 
         Cache behaviour: uses the shared pr_cache dict (keyed by PR number).
         Each entry may contain a 'label_events' key with the list of labeled
@@ -749,6 +859,7 @@ class StatsGenerator:
         Args:
             all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
             pr_cache: Shared per-PR cache dict (mutated in place with new data)
+            template_pr_set: Set of PR numbers that touch at least one template
 
         Returns:
             List of dicts with 'month' and one key per label, e.g.:
@@ -757,7 +868,10 @@ class StatsGenerator:
         if not self.github_token:
             return []
 
-        all_pr_list = all_prs.get('open', []) + all_prs.get('closed', [])
+        all_pr_list = [
+            pr for pr in all_prs.get('open', []) + all_prs.get('closed', [])
+            if pr['number'] in template_pr_set
+        ]
         if not all_pr_list:
             return []
 
@@ -831,12 +945,14 @@ class StatsGenerator:
         self,
         all_prs: Dict[str, List[Dict[str, Any]]],
         pr_cache: Dict[int, Dict[str, Any]],
+        template_pr_set: Set[int],
     ) -> Dict[str, Any]:
         """Get top PR reviewers from GitHub API (with caching).
 
         Args:
             all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
             pr_cache: Shared per-PR cache dict (mutated in place with new data)
+            template_pr_set: Set of PR numbers that touch at least one template
 
         Returns:
             Dictionary with all-time and last 30 days top reviewers
@@ -844,9 +960,12 @@ class StatsGenerator:
         if not self.github_token:
             return {'all_time': [], 'last_30_days': []}
 
-        # Filter for merged PRs only from closed PRs
+        # Filter for merged template PRs only
         closed_prs = all_prs.get('closed', [])
-        merged_prs = [pr for pr in closed_prs if pr.get("merged_at")]
+        merged_prs = [
+            pr for pr in closed_prs
+            if pr.get("merged_at") and pr['number'] in template_pr_set
+        ]
 
         print(f"    - Processing {len(merged_prs)} merged PRs for reviewer data...")
 
@@ -1037,36 +1156,52 @@ class StatsGenerator:
         print("  - Fetching pull request data...")
         all_prs = self.fetch_all_prs_once()
         recent_prs = self.get_pull_requests(all_prs)
-        pr_activity = self.calculate_pr_activity(all_prs)
 
         # Contributor data
         print("  - Fetching contributor data...")
         contributors = self.get_contributors()
 
-        # Load PR cache once; shared by reviewers and label activity
+        # Load PR cache once; shared by all per-PR stats
         pr_cache = self.load_pr_cache()
         cache_dirty = False
 
-        # Top reviewers
+        def _cache_size() -> int:
+            return sum(len(e) for e in pr_cache.values())
+
+        # Determine which PRs touch template files (cached in pr_cache)
+        print("  - Identifying template PRs...")
+        before = _cache_size()
+        template_pr_set = self._fetch_template_pr_set(all_prs, pr_cache)
+        if _cache_size() != before:
+            cache_dirty = True
+
+        # PR activity (template PRs only)
+        pr_activity = self.calculate_pr_activity(all_prs, template_pr_set)
+
+        # Top reviewers (template PRs only)
         print("  - Fetching top reviewers...")
-        pr_cache_before = sum(len(e) for e in pr_cache.values())
-        top_reviewers = self.get_top_reviewers(all_prs, pr_cache)
-        if sum(len(e) for e in pr_cache.values()) != pr_cache_before:
+        before = _cache_size()
+        top_reviewers = self.get_top_reviewers(all_prs, pr_cache, template_pr_set)
+        if _cache_size() != before:
             cache_dirty = True
 
-        # PR label activity
+        # PR label activity (template PRs only)
         print("  - Fetching PR label activity...")
-        pr_cache_before = sum(len(e) for e in pr_cache.values())
-        pr_label_activity = self.calculate_pr_label_activity(all_prs, pr_cache)
-        if sum(len(e) for e in pr_cache.values()) != pr_cache_before:
+        before = _cache_size()
+        pr_label_activity = self.calculate_pr_label_activity(all_prs, pr_cache, template_pr_set)
+        if _cache_size() != before:
             cache_dirty = True
 
-        # PR comment activity
+        # PR comment activity (template PRs only)
         print("  - Fetching PR comment activity...")
-        pr_cache_before = sum(len(e) for e in pr_cache.values())
-        pr_comment_activity = self.calculate_pr_comment_activity(all_prs, pr_cache)
-        if sum(len(e) for e in pr_cache.values()) != pr_cache_before:
+        before = _cache_size()
+        pr_comment_activity = self.calculate_pr_comment_activity(all_prs, pr_cache, template_pr_set)
+        if _cache_size() != before:
             cache_dirty = True
+
+        # PR time to merge (template, merged PRs only — no extra API calls)
+        print("  - Calculating PR time to merge...")
+        pr_time_to_merge = self.calculate_pr_time_to_merge(all_prs, template_pr_set)
 
         # Save cache if anything was added
         if cache_dirty:
@@ -1116,6 +1251,7 @@ class StatsGenerator:
             'templates_growth': growth_data['monthly'],
             'providers_growth': provider_growth_data,
             'pr_activity': pr_activity['monthly'],
+            'pr_time_to_merge': pr_time_to_merge,
             'pr_label_activity': pr_label_activity,
             'pr_comment_activity': pr_comment_activity,
             'record_types': [
