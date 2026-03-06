@@ -78,6 +78,12 @@
                 <div id="pr-activity-chart"></div>
             </div>
 
+            <!-- PR Time to Merge -->
+            <div class="chart-container">
+                <h2>Pull Request Time to Merge</h2>
+                <div id="pr-time-to-merge-chart"></div>
+            </div>
+
             <!-- PR Comment Activity -->
             <div class="chart-container">
                 <h2>Pull Request Comment Activity</h2>
@@ -257,6 +263,7 @@
             renderTemplatesGrowthChart(data.templates_growth);
             renderProvidersGrowthChart(data.providers_growth);
             renderPRActivityChart(data.pr_activity);
+            renderPRTimeToMergeChart(data.pr_time_to_merge);
             renderPRCommentActivityChart(data.pr_comment_activity);
             renderPRLabelActivityChart(data.pr_label_activity);
             renderRecordTypesChart(data.record_types, data.summary.total_templates, data.repository);
@@ -467,6 +474,44 @@
             };
 
             Plotly.newPlot('pr-activity-chart', [trace1, trace2], layout, plotlyConfig);
+        }
+
+        // Render PR Time to Merge chart
+        function renderPRTimeToMergeChart(data) {
+            const el = document.getElementById('pr-time-to-merge-chart');
+            if (!data || data.length === 0) {
+                el.innerHTML = '<p class="no-data">No time-to-merge data available</p>';
+                return;
+            }
+
+            const months = data.map(d => d.month);
+            const avgDays = data.map(d => d.avg_days);
+
+            const trace = {
+                x: months,
+                y: avgDays,
+                name: 'Avg Days to Merge',
+                type: 'bar',
+                marker: { color: '#0b3954' },
+                hovertemplate: '<b>%{x}</b><br>Avg days to merge: %{y}<extra></extra>'
+            };
+
+            const layout = {
+                xaxis: {
+                    title: 'Month',
+                    showgrid: false
+                },
+                yaxis: {
+                    title: 'Avg Days to Merge',
+                    showgrid: true,
+                    gridcolor: '#e0e0e0',
+                    rangemode: 'tozero'
+                },
+                hovermode: 'x unified',
+                margin: { l: 60, r: 40, t: 20, b: 60 }
+            };
+
+            Plotly.newPlot(el, [trace], layout, plotlyConfig);
         }
 
         // Render PR Comment Activity chart
