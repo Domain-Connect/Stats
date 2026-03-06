@@ -78,6 +78,18 @@
                 <div id="pr-activity-chart"></div>
             </div>
 
+            <!-- PR Comment Activity -->
+            <div class="chart-container">
+                <h2>Pull Request Comment Activity</h2>
+                <div id="pr-comment-activity-chart"></div>
+            </div>
+
+            <!-- PR Label Activity -->
+            <div class="chart-container">
+                <h2>Pull Request Label Activity</h2>
+                <div id="pr-label-activity-chart"></div>
+            </div>
+
             <!-- Record Types Distribution -->
             <div class="chart-container">
                 <h2>Record Types Distribution</h2>
@@ -245,6 +257,8 @@
             renderTemplatesGrowthChart(data.templates_growth);
             renderProvidersGrowthChart(data.providers_growth);
             renderPRActivityChart(data.pr_activity);
+            renderPRCommentActivityChart(data.pr_comment_activity);
+            renderPRLabelActivityChart(data.pr_label_activity);
             renderRecordTypesChart(data.record_types, data.summary.total_templates, data.repository);
             renderFeatureUsageCharts(data.feature_usage, data.repository);
             renderTopProvidersTable(data.top_providers, data.repository);
@@ -453,6 +467,102 @@
             };
 
             Plotly.newPlot('pr-activity-chart', [trace1, trace2], layout, plotlyConfig);
+        }
+
+        // Render PR Comment Activity chart
+        function renderPRCommentActivityChart(data) {
+            const el = document.getElementById('pr-comment-activity-chart');
+            if (!data || data.length === 0) {
+                el.innerHTML = '<p class="no-data">No comment data available</p>';
+                return;
+            }
+
+            const months = data.map(d => d.month);
+            const avgComments = data.map(d => d.avg_comments);
+
+            const trace = {
+                x: months,
+                y: avgComments,
+                name: 'Avg Comments / PR',
+                type: 'bar',
+                marker: { color: '#0b3954' },
+                hovertemplate: '<b>%{x}</b><br>Avg comments: %{y}<extra></extra>'
+            };
+
+            const layout = {
+                xaxis: {
+                    title: 'Month',
+                    showgrid: false
+                },
+                yaxis: {
+                    title: 'Avg Comments per PR',
+                    showgrid: true,
+                    gridcolor: '#e0e0e0',
+                    rangemode: 'tozero'
+                },
+                hovermode: 'x unified',
+                legend: {
+                    bgcolor: 'rgba(255,255,255,0.8)',
+                    bordercolor: '#bddae6',
+                    borderwidth: 1
+                },
+                margin: { l: 60, r: 40, t: 20, b: 60 }
+            };
+
+            Plotly.newPlot(el, [trace], layout, plotlyConfig);
+        }
+
+        // Render PR Label Activity chart
+        function renderPRLabelActivityChart(data) {
+            const el = document.getElementById('pr-label-activity-chart');
+            if (!data || data.length === 0) {
+                el.innerHTML = '<p class="no-data">No label data available</p>';
+                return;
+            }
+
+            // Collect all label names (every key except 'month')
+            const labels = Object.keys(data[0]).filter(k => k !== 'month').sort();
+            const months = data.map(d => d.month);
+
+            // Distinct palette cycling through brand + extended colours
+            const palette = [
+                '#03263B', '#ff6663', '#00bfff', '#0b3954', '#bddae6',
+                '#e67e22', '#2ecc71', '#9b59b6', '#e74c3c', '#1abc9c',
+                '#f39c12', '#3498db', '#d35400', '#27ae60', '#8e44ad'
+            ];
+
+            const traces = labels.map((label, i) => ({
+                x: months,
+                y: data.map(d => d[label] || 0),
+                name: label,
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: { color: palette[i % palette.length], width: 2 },
+                marker: { size: 5 }
+            }));
+
+            const layout = {
+                xaxis: {
+                    title: 'Month',
+                    showgrid: true,
+                    gridcolor: '#e0e0e0'
+                },
+                yaxis: {
+                    title: 'Number of PRs',
+                    showgrid: true,
+                    gridcolor: '#e0e0e0',
+                    rangemode: 'tozero'
+                },
+                hovermode: 'x unified',
+                legend: {
+                    bgcolor: 'rgba(255,255,255,0.8)',
+                    bordercolor: '#bddae6',
+                    borderwidth: 1
+                },
+                margin: { l: 60, r: 40, t: 20, b: 60 }
+            };
+
+            Plotly.newPlot(el, traces, layout, plotlyConfig);
         }
 
         // Render Record Types chart
