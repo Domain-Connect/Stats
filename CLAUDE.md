@@ -76,13 +76,24 @@ This document contains guidelines for maintaining and developing the Domain Conn
 3. **Pull Requests Activity**
    - Monthly PRs created vs PRs merged (bar chart)
 
-4. **Record Types Distribution**
+4. **Pull Request Comment Activity**
+   - Bar chart: month on X-axis, average comments per PR on Y-axis (1 decimal)
+   - Counts issue comments + review comments per PR; excludes bot accounts (login ending in `[bot]`)
+   - Fetched via `/issues/{number}/comments` and `/pulls/{number}/comments`, cached under `comment_counts` key (integer total per PR)
+
+5. **Pull Request Label Activity**
+   - Line chart: month on X-axis, number of PRs on Y-axis, each label as a separate data series
+   - Counts distinct PRs per label per month (bucket = PR `created_at` month)
+   - Includes labels ever applied to a PR, even if later removed (uses GitHub Issues Events API `labeled` events)
+   - Data fetched via `/repos/{owner}/{repo}/issues/{number}/events`, cached in `pr_reviews_cache.json` under `label_events` key
+
+6. **Record Types Distribution**
    - Horizontal bar chart showing % of templates containing each DNS record type
    - Count unique record types per template (e.g. 5 CNAMEs in one template counts as 1)
    - Bars show percentage with label "X% (count/total)"
    - Clicking a bar opens GitHub code search for that record type
 
-5. **Feature Usage**
+7. **Feature Usage**
    - Row of donut charts below Record Types Distribution
    - Each donut shows % of templates using a feature:
      - `syncPubKeyDomain` (present and non-empty)
@@ -133,7 +144,10 @@ This document contains guidelines for maintaining and developing the Domain Conn
 - Uses `GITHUB_TOKEN` from environment for authentication
 - Fetches PR data, contributor info, and repository metadata
 - Implements rate limiting and error handling
-- Caches PR review data in `scripts/pr_reviews_cache.json` to avoid repeated API calls
+- Caches per-PR data in `scripts/pr_reviews_cache.json` to avoid repeated API calls
+  - Cache maps PR number → dict with keys: `reviews` (list of review objects), `label_events` (list of labeled-event objects)
+  - Legacy entries (plain list) are migrated on load to `{reviews: [...]}` automatically
+  - **When adding a new cached field:** if the field is absent from ALL cached entries, fetch it for every PR; otherwise fetch only for entries missing that field. Never re-fetch already-cached fields.
 - Cache is automatically updated when new PRs are processed
 - Cache file is committed to repository but can be ignored locally using `git update-index --skip-worktree`
 

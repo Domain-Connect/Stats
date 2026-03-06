@@ -381,7 +381,10 @@ class StatsGenerator:
         prev_template_count = 0
         prev_providers: Set[str] = set()
 
-        for month in all_months:
+        total_months = len(all_months)
+        for idx, month in enumerate(all_months, 1):
+            if idx % 10 == 0 or idx == total_months:
+                print(f"    Snapshotting month {idx}/{total_months}: {month}...")
             snapshot = self._snapshot_at_commit(last_commit[month])
             template_count = len(snapshot)
             providers = {pid for pid in snapshot.values() if pid}
@@ -594,42 +597,246 @@ class StatsGenerator:
 
         return contributor_data
 
-    def load_review_cache(self) -> Dict[int, List[Dict[str, Any]]]:
-        """Load PR review data from cache file.
+    def load_pr_cache(self) -> Dict[int, Dict[str, Any]]:
+        """Load per-PR cached data from cache file.
+
+        The cache maps PR number (int) to a dict that may contain:
+          - 'reviews': list of review objects
+          - 'label_events': list of labeled-event objects
+
+        Legacy entries (where the value is a plain list) are migrated on load
+        to {'reviews': <that list>} so all downstream code sees the new shape.
 
         Returns:
-            Dictionary mapping PR number to list of reviews
+            Dictionary mapping PR number to cached data dict
         """
         if not self.cache_file.exists():
             return {}
 
         try:
             with open(self.cache_file, 'r', encoding='utf-8') as f:
-                cache_data = json.load(f)
-                # Convert string keys back to integers
-                return {int(k): v for k, v in cache_data.items()}
+                raw = json.load(f)
+            result: Dict[int, Dict[str, Any]] = {}
+            for k, v in raw.items():
+                pr_num = int(k)
+                # Migrate legacy format: plain list -> {'reviews': list}
+                result[pr_num] = v if isinstance(v, dict) else {'reviews': v}
+            return result
         except (json.JSONDecodeError, IOError) as e:
-            print(f"    - Warning: Could not load review cache: {e}")
+            print(f"    - Warning: Could not load PR cache: {e}")
             return {}
 
-    def save_review_cache(self, cache: Dict[int, List[Dict[str, Any]]]):
-        """Save PR review data to cache file.
+    def save_pr_cache(self, cache: Dict[int, Dict[str, Any]]):
+        """Save per-PR cached data to cache file.
 
         Args:
-            cache: Dictionary mapping PR number to list of reviews
+            cache: Dictionary mapping PR number to cached data dict
         """
         try:
             with open(self.cache_file, 'w', encoding='utf-8') as f:
                 json.dump(cache, f, indent=2, ensure_ascii=False)
-            print(f"    - Saved review cache to {self.cache_file.name}")
+            print(f"    - Saved PR cache to {self.cache_file.name}")
         except IOError as e:
-            print(f"    - Warning: Could not save review cache: {e}")
+            print(f"    - Warning: Could not save PR cache: {e}")
 
-    def get_top_reviewers(self, all_prs: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
+    def calculate_pr_comment_activity(
+        self,
+        all_prs: Dict[str, List[Dict[str, Any]]],
+        pr_cache: Dict[int, Dict[str, Any]],
+    ) -> List[Dict[str, Any]]:
+        """Calculate average non-bot comment count per PR per month.
+
+        Fetches issue comments and review comments for each PR, excludes
+        comments from bot accounts (login ends with '[bot]'), then computes
+        the average (comments + review_comments) per PR grouped by the PR's
+        created_at month.
+
+        Cache behaviour: same pattern as label_events — if 'comment_counts' is
+        absent from ALL cached entries this is the first run; fetch for every
+        PR.  Otherwise fetch only for entries missing 'comment_counts'.
+
+        Args:
+            all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
+            pr_cache: Shared per-PR cache dict (mutated in place with new data)
+
+        Returns:
+            List of dicts {'month': 'YYYY-MM', 'avg_comments': float}
+        """
+        if not self.github_token:
+            return []
+
+        all_pr_list = all_prs.get('open', []) + all_prs.get('closed', [])
+        if not all_pr_list:
+            return []
+
+        any_cached = any(
+            'comment_counts' in pr_cache.get(pr['number'], {})
+            for pr in all_pr_list
+        )
+
+        print(f"    - Fetching comment counts for {len(all_pr_list)} PRs...")
+        cache_hits = 0
+        cache_misses = 0
+
+        # month -> list of per-PR non-bot comment totals
+        month_totals: Dict[str, List[int]] = defaultdict(list)
+
+        for idx, pr in enumerate(all_pr_list, 1):
+            pr_number = pr['number']
+            month = pr['created_at'][:7]  # YYYY-MM
+
+            if idx % 50 == 0:
+                print(f"      Progress: {idx}/{len(all_pr_list)} PRs processed "
+                      f"(hits: {cache_hits}, misses: {cache_misses})...")
+
+            entry = pr_cache.setdefault(pr_number, {})
+
+            if any_cached and 'comment_counts' in entry:
+                total = entry['comment_counts']
+                cache_hits += 1
+            else:
+                # Fetch issue comments (regular PR comments)
+                issue_comments = self._get_all_paginated(
+                    f"/repos/{self.repo_owner}/{self.repo_name}/issues/{pr_number}/comments"
+                ) or []
+                # Fetch review comments (inline code comments)
+                review_comments = self._get_all_paginated(
+                    f"/repos/{self.repo_owner}/{self.repo_name}/pulls/{pr_number}/comments"
+                ) or []
+
+                def is_bot(comment: Dict[str, Any]) -> bool:
+                    user = comment.get('user') or {}
+                    # GitHub bots either have type='Bot' or a login ending with '[bot]'
+                    return user.get('type') == 'Bot' or user.get('login', '').endswith('[bot]')
+
+                total = sum(1 for c in issue_comments if not is_bot(c)) + \
+                        sum(1 for c in review_comments if not is_bot(c))
+                entry['comment_counts'] = total
+                cache_misses += 1
+
+            month_totals[month].append(total)
+
+        print(f"    - Comment data: {cache_hits} from cache, {cache_misses} from API")
+
+        rows = []
+        for month in sorted(month_totals.keys()):
+            values = month_totals[month]
+            avg = round(sum(values) / len(values), 1) if values else 0.0
+            rows.append({'month': month, 'avg_comments': avg})
+
+        return rows
+
+    def calculate_pr_label_activity(
+        self,
+        all_prs: Dict[str, List[Dict[str, Any]]],
+        pr_cache: Dict[int, Dict[str, Any]],
+    ) -> List[Dict[str, Any]]:
+        """Calculate per-label monthly PR counts using GitHub Issues Events API.
+
+        For each PR, fetches all issue events to find every label that was ever
+        applied (including labels that were later removed).  Then counts the
+        number of distinct PRs per label per month (using the PR's created_at
+        month as the bucket) and returns the data as a list of monthly rows
+        suitable for a multi-series line chart.
+
+        Cache behaviour: uses the shared pr_cache dict (keyed by PR number).
+        Each entry may contain a 'label_events' key with the list of labeled
+        events.  If 'label_events' is absent from ALL cached entries this is
+        assumed to be the first run for this feature and the data is fetched
+        for every PR (cached and non-cached alike).  Otherwise only PRs whose
+        entry lacks 'label_events' are fetched from the API.
+
+        Args:
+            all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
+            pr_cache: Shared per-PR cache dict (mutated in place with new data)
+
+        Returns:
+            List of dicts with 'month' and one key per label, e.g.:
+            [{'month': '2024-01', 'bug': 3, 'enhancement': 1}, ...]
+        """
+        if not self.github_token:
+            return []
+
+        all_pr_list = all_prs.get('open', []) + all_prs.get('closed', [])
+        if not all_pr_list:
+            return []
+
+        # Determine whether any cached entry already has label_events.
+        # If none do, treat this as a first-time run and fetch for all PRs.
+        any_cached_labels = any(
+            'label_events' in pr_cache.get(pr['number'], {})
+            for pr in all_pr_list
+        )
+
+        print(f"    - Fetching label events for {len(all_pr_list)} PRs...")
+        cache_hits = 0
+        cache_misses = 0
+
+        # label -> month -> set of PR numbers
+        label_month_prs: Dict[str, Dict[str, Set[int]]] = defaultdict(lambda: defaultdict(set))
+
+        for idx, pr in enumerate(all_pr_list, 1):
+            pr_number = pr['number']
+            month = pr['created_at'][:7]  # YYYY-MM
+
+            if idx % 50 == 0:
+                print(f"      Progress: {idx}/{len(all_pr_list)} PRs processed "
+                      f"(hits: {cache_hits}, misses: {cache_misses})...")
+
+            entry = pr_cache.setdefault(pr_number, {})
+
+            if any_cached_labels and 'label_events' in entry:
+                labeled_events = entry['label_events']
+                cache_hits += 1
+            else:
+                # Fetch all issue events and keep only 'labeled' events
+                events = self._get_all_paginated(
+                    f"/repos/{self.repo_owner}/{self.repo_name}/issues/{pr_number}/events"
+                )
+                labeled_events = [
+                    e for e in (events or []) if e.get('event') == 'labeled'
+                ]
+                entry['label_events'] = labeled_events
+                cache_misses += 1
+
+            for event in labeled_events:
+                label_name = event.get('label', {}).get('name')
+                if label_name:
+                    label_month_prs[label_name][month].add(pr_number)
+
+        print(f"    - Label event data: {cache_hits} from cache, {cache_misses} from API")
+
+        if not label_month_prs:
+            return []
+
+        # Collect all months across all labels
+        all_months = sorted({
+            month
+            for months in label_month_prs.values()
+            for month in months
+        })
+
+        # Build rows: one row per month, one key per label (0 when no PRs for that label)
+        all_labels = sorted(label_month_prs.keys())
+        rows = []
+        for month in all_months:
+            row: Dict[str, Any] = {'month': month}
+            for label in all_labels:
+                row[label] = len(label_month_prs[label].get(month, set()))
+            rows.append(row)
+
+        return rows
+
+    def get_top_reviewers(
+        self,
+        all_prs: Dict[str, List[Dict[str, Any]]],
+        pr_cache: Dict[int, Dict[str, Any]],
+    ) -> Dict[str, Any]:
         """Get top PR reviewers from GitHub API (with caching).
 
         Args:
             all_prs: Pre-fetched dictionary with 'open' and 'closed' PR lists
+            pr_cache: Shared per-PR cache dict (mutated in place with new data)
 
         Returns:
             Dictionary with all-time and last 30 days top reviewers
@@ -643,8 +850,6 @@ class StatsGenerator:
 
         print(f"    - Processing {len(merged_prs)} merged PRs for reviewer data...")
 
-        # Load review cache
-        review_cache = self.load_review_cache()
         cache_hits = 0
         cache_misses = 0
 
@@ -671,8 +876,9 @@ class StatsGenerator:
                 print(f"      Progress: Processed {idx}/{total_prs} PRs (cache hits: {cache_hits}, misses: {cache_misses})...")
 
             # Check cache first
-            if pr_number in review_cache:
-                reviews = review_cache[pr_number]
+            entry = pr_cache.setdefault(pr_number, {})
+            if 'reviews' in entry:
+                reviews = entry['reviews']
                 cache_hits += 1
             else:
                 # Get reviews from API
@@ -681,7 +887,7 @@ class StatsGenerator:
                 )
                 # Store in cache
                 if reviews is not None:
-                    review_cache[pr_number] = reviews
+                    entry['reviews'] = reviews
                 cache_misses += 1
 
             if reviews:
@@ -740,10 +946,6 @@ class StatsGenerator:
             key=lambda x: x['review_count'],
             reverse=True
         )[:5]
-
-        # Save updated cache
-        if cache_misses > 0:
-            self.save_review_cache(review_cache)
 
         print(f"    - Review data: {cache_hits} from cache, {cache_misses} from API")
 
@@ -841,9 +1043,34 @@ class StatsGenerator:
         print("  - Fetching contributor data...")
         contributors = self.get_contributors()
 
+        # Load PR cache once; shared by reviewers and label activity
+        pr_cache = self.load_pr_cache()
+        cache_dirty = False
+
         # Top reviewers
         print("  - Fetching top reviewers...")
-        top_reviewers = self.get_top_reviewers(all_prs)
+        pr_cache_before = sum(len(e) for e in pr_cache.values())
+        top_reviewers = self.get_top_reviewers(all_prs, pr_cache)
+        if sum(len(e) for e in pr_cache.values()) != pr_cache_before:
+            cache_dirty = True
+
+        # PR label activity
+        print("  - Fetching PR label activity...")
+        pr_cache_before = sum(len(e) for e in pr_cache.values())
+        pr_label_activity = self.calculate_pr_label_activity(all_prs, pr_cache)
+        if sum(len(e) for e in pr_cache.values()) != pr_cache_before:
+            cache_dirty = True
+
+        # PR comment activity
+        print("  - Fetching PR comment activity...")
+        pr_cache_before = sum(len(e) for e in pr_cache.values())
+        pr_comment_activity = self.calculate_pr_comment_activity(all_prs, pr_cache)
+        if sum(len(e) for e in pr_cache.values()) != pr_cache_before:
+            cache_dirty = True
+
+        # Save cache if anything was added
+        if cache_dirty:
+            self.save_pr_cache(pr_cache)
 
         # Top providers
         sorted_providers = sorted(
@@ -889,6 +1116,8 @@ class StatsGenerator:
             'templates_growth': growth_data['monthly'],
             'providers_growth': provider_growth_data,
             'pr_activity': pr_activity['monthly'],
+            'pr_label_activity': pr_label_activity,
+            'pr_comment_activity': pr_comment_activity,
             'record_types': [
                 {'type': rec_type, 'count': count}
                 for rec_type, count in sorted(
