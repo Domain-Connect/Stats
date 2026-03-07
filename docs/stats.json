@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T17:31:54.705142",
+  "generated_at": "2026-03-07T01:03:26.434904",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 534,
     "total_providers": 275,
     "total_merged_prs": 636,
-    "total_open_prs": 14,
+    "total_open_prs": 15,
     "total_contributors": 306,
     "avg_records_per_template": 3.5
   },
@@ -1503,7 +1503,7 @@
     },
     {
       "month": "2026-03",
-      "created": 24,
+      "created": 25,
       "merged": 20
     }
   ],
@@ -2001,11 +2001,11 @@
     {
       "month": "2026-03",
       "AI crap": 1,
-      "Checklist of common problems not complete": 10,
+      "Checklist of common problems not complete": 11,
       "Chores": 0,
-      "PR description incomplete": 11,
+      "PR description incomplete": 12,
       "Stale": 0,
-      "Test links missing": 14,
+      "Test links missing": 15,
       "blocked": 0,
       "duplicate": 0,
       "question": 0
@@ -2398,7 +2398,7 @@
     },
     {
       "month": "2026-03",
-      "avg_comments": 0.8
+      "avg_comments": 0.7
     }
   ],
   "record_types": [
@@ -2724,6 +2724,31 @@
   },
   "recent_prs": [
     {
+      "number": 819,
+      "title": "Update SPF rules in website configuration",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T18:25:17Z",
+      "updated_at": "2026-03-06T18:27:42Z",
+      "merged_at": null,
+      "author": "juliakimura",
+      "author_avatar": "https://avatars.githubusercontent.com/u/42652438?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/819",
+      "labels": [
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "tray",
+          "service_id": "com.br.website",
+          "filename": "tray.com.br.website.json",
+          "logo_url": "https://sitetray.s3.amazonaws.com/wp-content/uploads/2023/01/logo_tray_site-svg.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 816,
       "title": "Update Brevo domain authentication configuration",
       "state": "open",
@@ -2754,14 +2779,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-05T19:01:10Z",
-      "updated_at": "2026-03-06T17:16:58Z",
+      "updated_at": "2026-03-06T23:26:22Z",
       "merged_at": null,
       "author": "dwinchell95",
       "author_avatar": "https://avatars.githubusercontent.com/u/69990681?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/814",
-      "labels": [
-        "Test links missing"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "reviewgrowth",
@@ -3133,6 +3156,42 @@
       ]
     },
     {
+      "number": 821,
+      "title": "Feature/remove corrected labels",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-06T21:42:01Z",
+      "updated_at": "2026-03-06T21:42:33Z",
+      "merged_at": "2026-03-06T21:42:21Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/821",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": []
+    },
+    {
+      "number": 820,
+      "title": "Feature/remove corrected labels",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-06T21:29:05Z",
+      "updated_at": "2026-03-06T21:29:39Z",
+      "merged_at": "2026-03-06T21:29:12Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/820",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": []
+    },
+    {
       "number": 818,
       "title": "REPO CI: remove labels after check fulfilled",
       "state": "closed",
@@ -3333,91 +3392,6 @@
           "service_id": "ai.proxy-cname",
           "filename": "masstranslate.ai.proxy-cname.json",
           "logo_url": "https://masstranslate.ai/masstranslate-logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 723,
-      "title": "Add mimeprotect templates",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-16T20:47:09Z",
-      "updated_at": "2026-03-05T07:50:55Z",
-      "merged_at": "2026-03-05T07:50:55Z",
-      "author": "willhackett",
-      "author_avatar": "https://avatars.githubusercontent.com/u/12025460?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/723",
-      "labels": [
-        "question"
-      ],
-      "templates": [
-        {
-          "provider_id": "mimeprotect",
-          "service_id": "com.bimi",
-          "filename": "mimeprotect.com.bimi.json",
-          "logo_url": "https://mimeprotect.com/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "mimeprotect",
-          "service_id": "com.dmarc",
-          "filename": "mimeprotect.com.dmarc.json",
-          "logo_url": "https://mimeprotect.com/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "mimeprotect",
-          "service_id": "com.domain-verification",
-          "filename": "mimeprotect.com.domain-verification.json",
-          "logo_url": "https://mimeprotect.com/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "mimeprotect",
-          "service_id": "com.mta-sts",
-          "filename": "mimeprotect.com.mta-sts.json",
-          "logo_url": "https://mimeprotect.com/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "mimeprotect",
-          "service_id": "com.spf",
-          "filename": "mimeprotect.com.spf.json",
-          "logo_url": "https://mimeprotect.com/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "mimeprotect",
-          "service_id": "com.tlsrpt",
-          "filename": "mimeprotect.com.tlsrpt.json",
-          "logo_url": "https://mimeprotect.com/logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 800,
-      "title": "Add ContentMetric website hosting template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-04T11:47:44Z",
-      "updated_at": "2026-03-05T07:46:30Z",
-      "merged_at": "2026-03-05T07:46:29Z",
-      "author": "felixlvh",
-      "author_avatar": "https://avatars.githubusercontent.com/u/514064?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/800",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "contentmetric",
-          "service_id": "com.website",
-          "filename": "contentmetric.com.website.json",
-          "logo_url": "https://www.contentmetric.com/logo.svg",
           "status": "added"
         }
       ]
@@ -8288,7 +8262,7 @@
   "contributors": [
     {
       "login": "pawel-kow",
-      "contributions": 448,
+      "contributions": 451,
       "avatar_url": "https://avatars.githubusercontent.com/u/28707030?v=4",
       "profile_url": "https://github.com/pawel-kow"
     },
