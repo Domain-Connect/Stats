@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-07T01:03:26.434904",
+  "generated_at": "2026-03-08T01:08:22.639314",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 534,
-    "total_providers": 275,
-    "total_merged_prs": 636,
+    "total_templates": 536,
+    "total_providers": 277,
+    "total_merged_prs": 638,
     "total_open_prs": 15,
-    "total_contributors": 306,
-    "avg_records_per_template": 3.5
+    "total_contributors": 308,
+    "avg_records_per_template": 3.49
   },
   "templates_growth": [
     {
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 30,
+      "added": 32,
       "deleted": 0,
-      "cumulative": 534
+      "cumulative": 536
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 17,
-      "cumulative": 275
+      "added": 19,
+      "cumulative": 277
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 25,
-      "merged": 20
+      "created": 27,
+      "merged": 22
     }
   ],
   "pr_time_to_merge": [
@@ -2001,14 +2001,14 @@
     {
       "month": "2026-03",
       "AI crap": 1,
-      "Checklist of common problems not complete": 11,
+      "Checklist of common problems not complete": 13,
       "Chores": 0,
-      "PR description incomplete": 12,
+      "PR description incomplete": 14,
       "Stale": 0,
-      "Test links missing": 15,
+      "Test links missing": 17,
       "blocked": 0,
       "duplicate": 0,
-      "question": 0
+      "question": 1
     }
   ],
   "pr_comment_activity": [
@@ -2404,7 +2404,7 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 398
+      "count": 400
     },
     {
       "type": "TXT",
@@ -2630,6 +2630,18 @@
         "template_count": 2
       },
       {
+        "provider_id": "zerocut.gg",
+        "provider_name": "ZeroCut",
+        "logo_url": "https://zerocut.gg/static/logo.png",
+        "template_count": 1
+      },
+      {
+        "provider_id": "reviewgrowth.ai",
+        "provider_name": "ReviewGrowth",
+        "logo_url": "https://reviewgrowth.ai/logo.png",
+        "template_count": 1
+      },
+      {
         "provider_id": "mentionagent.ai",
         "provider_name": "MentionAgent",
         "logo_url": "https://mentionagent.ai/img/logo-square.svg",
@@ -2682,33 +2694,21 @@
         "provider_name": "Restayway",
         "logo_url": "https://s3.restayway.com/logo/icon-blue-500x500.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "molted.email",
-        "provider_name": "Molted Email",
-        "logo_url": "https://molted.email/logo.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "atribu.app",
-        "provider_name": "Atribu",
-        "logo_url": "https://www.atribu.app/brand/atribu-wordmark-square-1024.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 534,
+    "total_templates": 536,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 464
+        "count": 466
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 329
+        "count": 330
       },
       {
         "name": "warnPhishing",
@@ -2718,11 +2718,47 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 131
+        "count": 133
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 827,
+      "title": "Add bot.bot TXT for verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-07T22:49:03Z",
+      "updated_at": "2026-03-07T23:20:10Z",
+      "merged_at": null,
+      "author": "Aminadav",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3584317?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/827",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "boti",
+          "service_id": "bot.landingpage",
+          "filename": "boti.bot.landingpage.json",
+          "logo_url": "https://boti.bot/boti512.png",
+          "status": "modified"
+        },
+        {
+          "provider_id": "boti",
+          "service_id": "bot.send-and-receive-email",
+          "filename": "boti.bot.send-and-receive-email.json",
+          "logo_url": "https://boti.bot/boti512.png",
+          "status": "modified"
+        },
+        {
+          "provider_id": "boti",
+          "service_id": "bot.send-email",
+          "filename": "boti.bot.send-email.json",
+          "logo_url": "https://boti.bot/boti512.png",
+          "status": "modified"
+        }
+      ]
+    },
     {
       "number": 819,
       "title": "Update SPF rules in website configuration",
@@ -2754,13 +2790,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-06T03:32:05Z",
-      "updated_at": "2026-03-06T17:16:07Z",
+      "updated_at": "2026-03-07T08:39:53Z",
       "merged_at": null,
       "author": "parveen-sib",
       "author_avatar": "https://avatars.githubusercontent.com/u/105631366?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/816",
       "labels": [
-        "PR description incomplete",
         "Test links missing"
       ],
       "templates": [
@@ -2770,28 +2805,6 @@
           "filename": "brevo.com.domain-authentication.json",
           "logo_url": "https://static.brevo.com/meetings/assets/brevo_logo.png",
           "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 814,
-      "title": "Add ReviewGrowth.ai custom domain CNAME template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-05T19:01:10Z",
-      "updated_at": "2026-03-06T23:26:22Z",
-      "merged_at": null,
-      "author": "dwinchell95",
-      "author_avatar": "https://avatars.githubusercontent.com/u/69990681?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/814",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "reviewgrowth",
-          "service_id": "ai.custom-domain-cname",
-          "filename": "reviewgrowth.ai.custom-domain-cname.json",
-          "logo_url": null,
-          "status": "added"
         }
       ]
     },
@@ -2853,7 +2866,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-04T08:06:51Z",
-      "updated_at": "2026-03-05T08:00:02Z",
+      "updated_at": "2026-03-07T19:51:51Z",
       "merged_at": null,
       "author": "tonxxd",
       "author_avatar": "https://avatars.githubusercontent.com/u/2827496?v=4",
@@ -2939,15 +2952,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-20T17:15:56Z",
-      "updated_at": "2026-03-05T08:42:38Z",
+      "updated_at": "2026-03-07T12:31:27Z",
       "merged_at": null,
       "author": "AdSimpleGmbH",
       "author_avatar": "https://avatars.githubusercontent.com/u/213583200?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/779",
       "labels": [
         "AI crap",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
         "Test links missing"
       ],
       "templates": [
@@ -3156,6 +3167,120 @@
       ]
     },
     {
+      "number": 826,
+      "title": "IMPROVEMENT: GH JSON schema action only runs on changed files",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-07T19:47:17Z",
+      "updated_at": "2026-03-07T19:47:51Z",
+      "merged_at": "2026-03-07T19:47:24Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/826",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": []
+    },
+    {
+      "number": 822,
+      "title": "Add ZeroCut custom domain template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-07T03:23:10Z",
+      "updated_at": "2026-03-07T19:30:46Z",
+      "merged_at": "2026-03-07T19:30:46Z",
+      "author": "DavidIlie",
+      "author_avatar": "https://avatars.githubusercontent.com/u/47594764?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/822",
+      "labels": [
+        "question"
+      ],
+      "templates": [
+        {
+          "provider_id": "zerocut",
+          "service_id": "gg.custom-domain",
+          "filename": "zerocut.gg.custom-domain.json",
+          "logo_url": "https://zerocut.gg/static/logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 825,
+      "title": "FIX: skip check-description exacution on merge queue",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-07T19:24:11Z",
+      "updated_at": "2026-03-07T19:24:41Z",
+      "merged_at": "2026-03-07T19:24:19Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/825",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": []
+    },
+    {
+      "number": 814,
+      "title": "Add ReviewGrowth.ai custom domain CNAME template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-05T19:01:10Z",
+      "updated_at": "2026-03-07T12:30:35Z",
+      "merged_at": "2026-03-07T12:30:35Z",
+      "author": "dwinchell95",
+      "author_avatar": "https://avatars.githubusercontent.com/u/69990681?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/814",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "reviewgrowth",
+          "service_id": "ai.custom-domain-cname",
+          "filename": "reviewgrowth.ai.custom-domain-cname.json",
+          "logo_url": "https://reviewgrowth.ai/logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 824,
+      "title": "Feature/added test link check",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-07T12:15:29Z",
+      "updated_at": "2026-03-07T12:16:02Z",
+      "merged_at": "2026-03-07T12:15:38Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/824",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": []
+    },
+    {
+      "number": 823,
+      "title": "BUGFIX: check editor link payload better",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-07T12:00:52Z",
+      "updated_at": "2026-03-07T12:01:38Z",
+      "merged_at": "2026-03-07T12:01:25Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/823",
+      "labels": [],
+      "templates": []
+    },
+    {
       "number": 821,
       "title": "Feature/remove corrected labels",
       "state": "closed",
@@ -3230,178 +3355,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 780,
-      "title": "Add 2fifteen.io domain-verification template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-21T23:42:31Z",
-      "updated_at": "2026-03-06T09:02:08Z",
-      "merged_at": "2026-03-06T09:02:07Z",
-      "author": "robbybarnes",
-      "author_avatar": "https://avatars.githubusercontent.com/u/7683472?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/780",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "2fifteen",
-          "service_id": "io.domain-verification",
-          "filename": "2fifteen.io.domain-verification.json",
-          "logo_url": "https://static.2fifteen.io/2FIFTEEN%20TECH%20LOGOS/2Fifteen%20Icon.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 810,
-      "title": "Add Boti (boti.bot) templates: send-email, send-and-receive-email, landingpage",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-05T13:55:06Z",
-      "updated_at": "2026-03-06T08:07:06Z",
-      "merged_at": "2026-03-06T08:07:06Z",
-      "author": "Aminadav",
-      "author_avatar": "https://avatars.githubusercontent.com/u/3584317?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/810",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "boti",
-          "service_id": "bot.landingpage",
-          "filename": "boti.bot.landingpage.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "added"
-        },
-        {
-          "provider_id": "boti",
-          "service_id": "bot.send-and-receive-email",
-          "filename": "boti.bot.send-and-receive-email.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "added"
-        },
-        {
-          "provider_id": "boti",
-          "service_id": "bot.send-email",
-          "filename": "boti.bot.send-email.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 812,
-      "title": "Add BFRI (bfri.pt) custom domain template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-05T16:58:52Z",
-      "updated_at": "2026-03-06T06:17:17Z",
-      "merged_at": "2026-03-06T06:17:17Z",
-      "author": "DiogoDuart3",
-      "author_avatar": "https://avatars.githubusercontent.com/u/31131606?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/812",
-      "labels": [
-        "PR description incomplete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "bfri",
-          "service_id": "pt.custom-domain",
-          "filename": "bfri.pt.custom-domain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 813,
-      "title": "Add Nettingale managed WordPress hosting with SSL template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-05T16:59:59Z",
-      "updated_at": "2026-03-06T06:15:24Z",
-      "merged_at": "2026-03-06T06:15:24Z",
-      "author": "radoslav-stefanov",
-      "author_avatar": "https://avatars.githubusercontent.com/u/23275463?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/813",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "nettingale",
-          "service_id": "com.nettingale-connect-ssl",
-          "filename": "nettingale.com.nettingale-connect-ssl.json",
-          "logo_url": "https://nettingale.com/favicon.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 815,
-      "title": "Add Li-nk.me Template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-05T22:46:43Z",
-      "updated_at": "2026-03-06T06:12:42Z",
-      "merged_at": "2026-03-06T06:12:42Z",
-      "author": "radvansky-tomas",
-      "author_avatar": "https://avatars.githubusercontent.com/u/12473664?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/815",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "li-nk",
-          "service_id": "me.custom-domain-cname",
-          "filename": "li-nk.me.custom-domain-cname.json",
-          "logo_url": "https://li-nk.me/android-chrome-192x192.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 809,
-      "title": "Add MassTranslate translation proxy template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-05T11:46:49Z",
-      "updated_at": "2026-03-05T17:44:06Z",
-      "merged_at": "2026-03-05T17:44:05Z",
-      "author": "abiassi",
-      "author_avatar": "https://avatars.githubusercontent.com/u/36452265?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/809",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "masstranslate",
-          "service_id": "ai.proxy-cname",
-          "filename": "masstranslate.ai.proxy-cname.json",
-          "logo_url": "https://masstranslate.ai/masstranslate-logo.svg",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 413,
+        "review_count": 415,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3433,7 +3393,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 38,
+        "review_count": 39,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -7053,6 +7013,15 @@
       "record_count": 1
     },
     {
+      "filename": "reviewgrowth.ai.custom-domain-cname.json",
+      "provider_id": "reviewgrowth.ai",
+      "service_id": "custom-domain-cname",
+      "provider_name": "ReviewGrowth",
+      "service_name": "ReviewGrowth Custom Domain",
+      "logo_url": "https://reviewgrowth.ai/logo.png",
+      "record_count": 1
+    },
+    {
       "filename": "ricardoneud.com.api-domain.json",
       "provider_id": "ricardoneud.com",
       "service_id": "api-domain",
@@ -8241,6 +8210,15 @@
       "record_count": 1
     },
     {
+      "filename": "zerocut.gg.custom-domain.json",
+      "provider_id": "zerocut.gg",
+      "service_id": "custom-domain",
+      "provider_name": "ZeroCut",
+      "service_name": "ZeroCut Custom Domain",
+      "logo_url": "https://zerocut.gg/static/logo.png",
+      "record_count": 1
+    },
+    {
       "filename": "zoho.com.zmail_hosting.json",
       "provider_id": "zoho.com",
       "service_id": "zmail_hosting",
@@ -8262,7 +8240,7 @@
   "contributors": [
     {
       "login": "pawel-kow",
-      "contributions": 451,
+      "contributions": 455,
       "avatar_url": "https://avatars.githubusercontent.com/u/28707030?v=4",
       "profile_url": "https://github.com/pawel-kow"
     },
