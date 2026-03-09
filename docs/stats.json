@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-08T01:08:22.639314",
+  "generated_at": "2026-03-09T01:08:33.416112",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 536,
-    "total_providers": 277,
-    "total_merged_prs": 638,
+    "total_templates": 537,
+    "total_providers": 278,
+    "total_merged_prs": 640,
     "total_open_prs": 15,
-    "total_contributors": 308,
+    "total_contributors": 309,
     "avg_records_per_template": 3.49
   },
   "templates_growth": [
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 32,
+      "added": 33,
       "deleted": 0,
-      "cumulative": 536
+      "cumulative": 537
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 19,
-      "cumulative": 277
+      "added": 20,
+      "cumulative": 278
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 27,
-      "merged": 22
+      "created": 29,
+      "merged": 24
     }
   ],
   "pr_time_to_merge": [
@@ -2001,11 +2001,11 @@
     {
       "month": "2026-03",
       "AI crap": 1,
-      "Checklist of common problems not complete": 13,
+      "Checklist of common problems not complete": 15,
       "Chores": 0,
-      "PR description incomplete": 14,
+      "PR description incomplete": 16,
       "Stale": 0,
-      "Test links missing": 17,
+      "Test links missing": 19,
       "blocked": 0,
       "duplicate": 0,
       "question": 1
@@ -2404,11 +2404,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 400
+      "count": 401
     },
     {
       "type": "TXT",
-      "count": 230
+      "count": 231
     },
     {
       "type": "A",
@@ -2630,6 +2630,12 @@
         "template_count": 2
       },
       {
+        "provider_id": "leonai.io",
+        "provider_name": "SignFlow by Leon AI",
+        "logo_url": "https://signflow.leonai.io/leonai-logo.png",
+        "template_count": 1
+      },
+      {
         "provider_id": "zerocut.gg",
         "provider_name": "ZeroCut",
         "logo_url": "https://zerocut.gg/static/logo.png",
@@ -2688,27 +2694,21 @@
         "provider_name": "Weav",
         "logo_url": "https://app.weav.com/images/weav.svg",
         "template_count": 1
-      },
-      {
-        "provider_id": "restayway.com",
-        "provider_name": "Restayway",
-        "logo_url": "https://s3.restayway.com/logo/icon-blue-500x500.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 536,
+    "total_templates": 537,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 466
+        "count": 467
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 330
+        "count": 331
       },
       {
         "name": "warnPhishing",
@@ -2718,44 +2718,30 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 133
+        "count": 134
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 827,
-      "title": "Add bot.bot TXT for verification",
+      "number": 829,
+      "title": "Add nimeracp.com.website.json Domain Connect template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-07T22:49:03Z",
-      "updated_at": "2026-03-07T23:20:10Z",
+      "created_at": "2026-03-08T20:21:08Z",
+      "updated_at": "2026-03-08T20:25:28Z",
       "merged_at": null,
-      "author": "Aminadav",
-      "author_avatar": "https://avatars.githubusercontent.com/u/3584317?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/827",
+      "author": "Splicho",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4650700?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/829",
       "labels": [],
       "templates": [
         {
-          "provider_id": "boti",
-          "service_id": "bot.landingpage",
-          "filename": "boti.bot.landingpage.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "boti",
-          "service_id": "bot.send-and-receive-email",
-          "filename": "boti.bot.send-and-receive-email.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "boti",
-          "service_id": "bot.send-email",
-          "filename": "boti.bot.send-email.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "modified"
+          "provider_id": "nimeracp",
+          "service_id": "com.website",
+          "filename": "nimeracp.com.website.json",
+          "logo_url": null,
+          "status": "added"
         }
       ]
     },
@@ -3167,6 +3153,64 @@
       ]
     },
     {
+      "number": 828,
+      "title": "Add template: leonai.io / signflow-custom-domain",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-08T13:15:33Z",
+      "updated_at": "2026-03-08T18:45:39Z",
+      "merged_at": "2026-03-08T18:45:39Z",
+      "author": "LeonAIcoil",
+      "author_avatar": "https://avatars.githubusercontent.com/u/155748436?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/828",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "leonai",
+          "service_id": "io.signflow-custom-domain",
+          "filename": "leonai.io.signflow-custom-domain.json",
+          "logo_url": "https://signflow.leonai.io/leonai-logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 827,
+      "title": "Add bot.bot TXT for verification",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-07T22:49:03Z",
+      "updated_at": "2026-03-08T07:02:07Z",
+      "merged_at": "2026-03-08T07:02:07Z",
+      "author": "Aminadav",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3584317?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/827",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "boti",
+          "service_id": "bot.landingpage",
+          "filename": "boti.bot.landingpage.json",
+          "logo_url": "https://boti.bot/boti512.png",
+          "status": "modified"
+        },
+        {
+          "provider_id": "boti",
+          "service_id": "bot.send-and-receive-email",
+          "filename": "boti.bot.send-and-receive-email.json",
+          "logo_url": "https://boti.bot/boti512.png",
+          "status": "modified"
+        },
+        {
+          "provider_id": "boti",
+          "service_id": "bot.send-email",
+          "filename": "boti.bot.send-email.json",
+          "logo_url": "https://boti.bot/boti512.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 826,
       "title": "IMPROVEMENT: GH JSON schema action only runs on changed files",
       "state": "closed",
@@ -3315,53 +3359,13 @@
         "Test links missing"
       ],
       "templates": []
-    },
-    {
-      "number": 818,
-      "title": "REPO CI: remove labels after check fulfilled",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-06T17:12:35Z",
-      "updated_at": "2026-03-06T17:13:51Z",
-      "merged_at": "2026-03-06T17:13:50Z",
-      "author": "pawel-kow",
-      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/818",
-      "labels": [],
-      "templates": []
-    },
-    {
-      "number": 817,
-      "title": "Add template for mentionagent.ai email service",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-06T10:36:02Z",
-      "updated_at": "2026-03-06T15:50:02Z",
-      "merged_at": "2026-03-06T15:50:02Z",
-      "author": "BuildsbyMatt",
-      "author_avatar": "https://avatars.githubusercontent.com/u/176761426?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/817",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "mentionagent",
-          "service_id": "ai.email",
-          "filename": "mentionagent.ai.email.json",
-          "logo_url": "https://mentionagent.ai/img/logo-square.svg",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 415,
+        "review_count": 417,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3399,7 +3403,7 @@
       },
       {
         "login": "kerolasa",
-        "review_count": 15,
+        "review_count": 14,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3761,7 +3765,7 @@
       "provider_name": "Boti",
       "service_name": "Boti Landing Pages",
       "logo_url": "https://boti.bot/boti512.png",
-      "record_count": 1
+      "record_count": 2
     },
     {
       "filename": "boti.bot.send-and-receive-email.json",
@@ -3770,7 +3774,7 @@
       "provider_name": "Boti",
       "service_name": "Boti Email (Send & Receive)",
       "logo_url": "https://boti.bot/boti512.png",
-      "record_count": 5
+      "record_count": 6
     },
     {
       "filename": "boti.bot.send-email.json",
@@ -3779,7 +3783,7 @@
       "provider_name": "Boti",
       "service_name": "Boti Email (Send Only)",
       "logo_url": "https://boti.bot/boti512.png",
-      "record_count": 4
+      "record_count": 5
     },
     {
       "filename": "brevo.com.domain-authentication.json",
@@ -6012,6 +6016,15 @@
       "service_name": "Leed Generative CMS",
       "logo_url": "https://leed.ai/static/images/logo/leed-light.svg",
       "record_count": 7
+    },
+    {
+      "filename": "leonai.io.signflow-custom-domain.json",
+      "provider_id": "leonai.io",
+      "service_id": "signflow-custom-domain",
+      "provider_name": "SignFlow by Leon AI",
+      "service_name": "SignFlow Custom Domain",
+      "logo_url": "https://signflow.leonai.io/leonai-logo.png",
+      "record_count": 1
     },
     {
       "filename": "lettr.com.mail-send-and-receive.json",
@@ -8305,16 +8318,16 @@
       "profile_url": "https://github.com/twalmsley"
     },
     {
-      "login": "bdickson1-godaddy",
-      "contributions": 18,
-      "avatar_url": "https://avatars.githubusercontent.com/u/54912895?v=4",
-      "profile_url": "https://github.com/bdickson1-godaddy"
-    },
-    {
       "login": "greenreader9",
       "contributions": 18,
       "avatar_url": "https://avatars.githubusercontent.com/u/75644395?v=4",
       "profile_url": "https://github.com/greenreader9"
+    },
+    {
+      "login": "bdickson1-godaddy",
+      "contributions": 18,
+      "avatar_url": "https://avatars.githubusercontent.com/u/54912895?v=4",
+      "profile_url": "https://github.com/bdickson1-godaddy"
     },
     {
       "login": "webtoolbox",
@@ -8329,16 +8342,16 @@
       "profile_url": "https://github.com/Luxaaa"
     },
     {
-      "login": "b805rohit",
-      "contributions": 14,
-      "avatar_url": "https://avatars.githubusercontent.com/u/35255598?v=4",
-      "profile_url": "https://github.com/b805rohit"
-    },
-    {
       "login": "delputnam",
       "contributions": 14,
       "avatar_url": "https://avatars.githubusercontent.com/u/1379730?v=4",
       "profile_url": "https://github.com/delputnam"
+    },
+    {
+      "login": "b805rohit",
+      "contributions": 14,
+      "avatar_url": "https://avatars.githubusercontent.com/u/35255598?v=4",
+      "profile_url": "https://github.com/b805rohit"
     },
     {
       "login": "stabarez",
@@ -8347,16 +8360,16 @@
       "profile_url": "https://github.com/stabarez"
     },
     {
-      "login": "dane-stevens",
-      "contributions": 11,
-      "avatar_url": "https://avatars.githubusercontent.com/u/12450895?v=4",
-      "profile_url": "https://github.com/dane-stevens"
-    },
-    {
       "login": "john-zli",
       "contributions": 11,
       "avatar_url": "https://avatars.githubusercontent.com/u/8244301?v=4",
       "profile_url": "https://github.com/john-zli"
+    },
+    {
+      "login": "dane-stevens",
+      "contributions": 11,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12450895?v=4",
+      "profile_url": "https://github.com/dane-stevens"
     },
     {
       "login": "slxca",
@@ -8407,18 +8420,6 @@
       "profile_url": "https://github.com/TracyFogel"
     },
     {
-      "login": "arya-dos",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/164984012?v=4",
-      "profile_url": "https://github.com/arya-dos"
-    },
-    {
-      "login": "kiranvsr",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/13899484?v=4",
-      "profile_url": "https://github.com/kiranvsr"
-    },
-    {
       "login": "JoaoFSCruz",
       "contributions": 8,
       "avatar_url": "https://avatars.githubusercontent.com/u/26048679?v=4",
@@ -8431,16 +8432,16 @@
       "profile_url": "https://github.com/cmalec"
     },
     {
-      "login": "anish2690",
+      "login": "arya-dos",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
-      "profile_url": "https://github.com/anish2690"
+      "avatar_url": "https://avatars.githubusercontent.com/u/164984012?v=4",
+      "profile_url": "https://github.com/arya-dos"
     },
     {
-      "login": "jonroig",
+      "login": "kiranvsr",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/928215?v=4",
-      "profile_url": "https://github.com/jonroig"
+      "avatar_url": "https://avatars.githubusercontent.com/u/13899484?v=4",
+      "profile_url": "https://github.com/kiranvsr"
     },
     {
       "login": "tombeard",
@@ -8449,22 +8450,28 @@
       "profile_url": "https://github.com/tombeard"
     },
     {
-      "login": "MrExcitingDigits",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
-      "profile_url": "https://github.com/MrExcitingDigits"
-    },
-    {
       "login": "dommholland",
       "contributions": 8,
       "avatar_url": "https://avatars.githubusercontent.com/u/4269710?v=4",
       "profile_url": "https://github.com/dommholland"
     },
     {
-      "login": "FlorentinStafie",
-      "contributions": 7,
-      "avatar_url": "https://avatars.githubusercontent.com/u/30241764?v=4",
-      "profile_url": "https://github.com/FlorentinStafie"
+      "login": "MrExcitingDigits",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
+      "profile_url": "https://github.com/MrExcitingDigits"
+    },
+    {
+      "login": "jonroig",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/928215?v=4",
+      "profile_url": "https://github.com/jonroig"
+    },
+    {
+      "login": "anish2690",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
+      "profile_url": "https://github.com/anish2690"
     },
     {
       "login": "GokulnathMadhivanan",
@@ -8477,6 +8484,12 @@
       "contributions": 7,
       "avatar_url": "https://avatars.githubusercontent.com/u/90657546?v=4",
       "profile_url": "https://github.com/tomnugent"
+    },
+    {
+      "login": "FlorentinStafie",
+      "contributions": 7,
+      "avatar_url": "https://avatars.githubusercontent.com/u/30241764?v=4",
+      "profile_url": "https://github.com/FlorentinStafie"
     },
     {
       "login": "abdulaziz-mohammed",
@@ -8527,16 +8540,16 @@
       "profile_url": "https://github.com/kcooperstein-godaddy"
     },
     {
-      "login": "lyalls-marc",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/107384032?v=4",
-      "profile_url": "https://github.com/lyalls-marc"
-    },
-    {
       "login": "chintans1",
       "contributions": 6,
       "avatar_url": "https://avatars.githubusercontent.com/u/6274806?v=4",
       "profile_url": "https://github.com/chintans1"
+    },
+    {
+      "login": "lyalls-marc",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/107384032?v=4",
+      "profile_url": "https://github.com/lyalls-marc"
     }
   ]
 }
