@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-10T01:02:40.771977",
+  "generated_at": "2026-03-11T01:03:50.226331",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 539,
-    "total_providers": 280,
-    "total_merged_prs": 646,
-    "total_open_prs": 15,
-    "total_contributors": 311,
-    "avg_records_per_template": 3.5
+    "total_templates": 543,
+    "total_providers": 282,
+    "total_merged_prs": 650,
+    "total_open_prs": 16,
+    "total_contributors": 313,
+    "avg_records_per_template": 3.49
   },
   "templates_growth": [
     {
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 35,
+      "added": 39,
       "deleted": 0,
-      "cumulative": 539
+      "cumulative": 543
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 22,
-      "cumulative": 280
+      "added": 24,
+      "cumulative": 282
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 36,
-      "merged": 30
+      "created": 41,
+      "merged": 34
     }
   ],
   "pr_time_to_merge": [
@@ -1886,7 +1886,7 @@
     },
     {
       "month": "2026-03",
-      "avg_days": 0.5
+      "avg_days": 0.6
     }
   ],
   "pr_label_activity": [
@@ -2019,11 +2019,11 @@
     {
       "month": "2026-03",
       "AI crap": 1,
-      "Checklist of common problems not complete": 18,
+      "Checklist of common problems not complete": 22,
       "Chores": 0,
-      "PR description incomplete": 18,
+      "PR description incomplete": 23,
       "Stale": 0,
-      "Test links missing": 25,
+      "Test links missing": 30,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
@@ -2418,17 +2418,17 @@
     },
     {
       "month": "2026-03",
-      "avg_comments": 0.7
+      "avg_comments": 0.6
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 402
+      "count": 405
     },
     {
       "type": "TXT",
-      "count": 233
+      "count": 236
     },
     {
       "type": "A",
@@ -2436,7 +2436,7 @@
     },
     {
       "type": "SPFM",
-      "count": 106
+      "count": 108
     },
     {
       "type": "MX",
@@ -2534,6 +2534,12 @@
         "template_count": 5
       },
       {
+        "provider_id": "Shopify.com",
+        "provider_name": "Shopify",
+        "logo_url": "https://domainconnect.org/wp-content/uploads/2016/08/shopify.png",
+        "template_count": 5
+      },
+      {
         "provider_id": "wpengine.com",
         "provider_name": "WPEngine.com",
         "logo_url": "https://www.domainconnect.org/wp-content/uploads/2018/03/LGO-WPEngine-Horiz-reg-RGB-768x146.png",
@@ -2573,12 +2579,6 @@
         "provider_id": "posthog.com",
         "provider_name": "PostHog",
         "logo_url": "https://posthog.com/brand/posthog-logo.svg",
-        "template_count": 4
-      },
-      {
-        "provider_id": "Shopify.com",
-        "provider_name": "Shopify",
-        "logo_url": "https://domainconnect.org/wp-content/uploads/2016/08/shopify.png",
         "template_count": 4
       },
       {
@@ -2626,6 +2626,12 @@
         "template_count": 3
       },
       {
+        "provider_id": "leonai.io",
+        "provider_name": "SignFlow by Leon AI",
+        "logo_url": "https://signflow.leonai.io/leonai-logo.png",
+        "template_count": 2
+      },
+      {
         "provider_id": "nettingale.com",
         "provider_name": "Nettingale",
         "logo_url": "https://nettingale.com/favicon.svg",
@@ -2650,6 +2656,24 @@
         "template_count": 2
       },
       {
+        "provider_id": "Shopify.com",
+        "provider_name": "Shopify",
+        "logo_url": "https://domainconnect.org/wp-content/uploads/2016/08/shopify.png",
+        "template_count": 1
+      },
+      {
+        "provider_id": "nimeracp.com",
+        "provider_name": "NimeraCP",
+        "logo_url": null,
+        "template_count": 1
+      },
+      {
+        "provider_id": "coreware.app",
+        "provider_name": "Coreware",
+        "logo_url": "https://coreware-app-coreware-production.s3.us-east-1.amazonaws.com/coreware-3/public/COREWARE-LOGOMARK.png",
+        "template_count": 1
+      },
+      {
         "provider_id": "maildesigner365.com",
         "provider_name": "Mail Designer 365",
         "logo_url": "https://my.maildesigner365.com/domain-connect/maildesigner365-logo.svg",
@@ -2659,12 +2683,6 @@
         "provider_id": "mailaura.io",
         "provider_name": "Mailaura",
         "logo_url": "https://mailaura.io/logo.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "leonai.io",
-        "provider_name": "SignFlow by Leon AI",
-        "logo_url": "https://signflow.leonai.io/leonai-logo.png",
         "template_count": 1
       },
       {
@@ -2696,39 +2714,21 @@
         "provider_name": "BFRI",
         "logo_url": null,
         "template_count": 1
-      },
-      {
-        "provider_id": "li-nk.me",
-        "provider_name": "LinkMe",
-        "logo_url": "https://li-nk.me/android-chrome-192x192.png",
-        "template_count": 1
-      },
-      {
-        "provider_id": "masstranslate.ai",
-        "provider_name": "MassTranslate",
-        "logo_url": "https://masstranslate.ai/masstranslate-logo.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "contentmetric.com",
-        "provider_name": "ContentMetric",
-        "logo_url": "https://www.contentmetric.com/logo.svg",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 539,
+    "total_templates": 543,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 469
+        "count": 473
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 333
+        "count": 336
       },
       {
         "name": "warnPhishing",
@@ -2738,76 +2738,102 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 134
+        "count": 135
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 836,
-      "title": "Add template for TXT verification only for Shopify",
+      "number": 841,
+      "title": "Add gethoneybun.com hosting template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-09T20:29:11Z",
-      "updated_at": "2026-03-09T23:59:30Z",
+      "created_at": "2026-03-10T23:20:37Z",
+      "updated_at": "2026-03-10T23:21:16Z",
       "merged_at": null,
-      "author": "max611",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5659685?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/836",
+      "author": "andrewcruz101",
+      "author_avatar": "https://avatars.githubusercontent.com/u/124953895?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/841",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "gethoneybun",
+          "service_id": "com.hosting",
+          "filename": "gethoneybun.com.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 840,
+      "title": "Add spinlab.studio Platform template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-10T09:47:02Z",
+      "updated_at": "2026-03-10T11:36:17Z",
+      "merged_at": null,
+      "author": "SwartZCoding",
+      "author_avatar": "https://avatars.githubusercontent.com/u/39431572?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/840",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "spinlab",
+          "service_id": "studio.casino",
+          "filename": "spinlab.studio.casino.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 839,
+      "title": "Add gethoneybun.com hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-10T06:17:03Z",
+      "updated_at": "2026-03-10T13:45:35Z",
+      "merged_at": null,
+      "author": "andrewcruz101",
+      "author_avatar": "https://avatars.githubusercontent.com/u/124953895?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/839",
       "labels": [
         "Test links missing"
       ],
       "templates": [
         {
-          "provider_id": "shopify",
-          "service_id": "com.txtverification",
-          "filename": "shopify.com.txtverification.json",
+          "provider_id": "gethoneybun",
+          "service_id": "com.hosting",
+          "filename": "gethoneybun.com.hosting.json",
           "logo_url": null,
           "status": "added"
         }
       ]
     },
     {
-      "number": 830,
-      "title": "Add Coreware email verification template",
+      "number": 838,
+      "title": "Add ReviewGuard (y12.ai) review page CNAME template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-09T08:45:24Z",
-      "updated_at": "2026-03-09T21:48:06Z",
+      "created_at": "2026-03-10T03:51:12Z",
+      "updated_at": "2026-03-10T07:30:30Z",
       "merged_at": null,
-      "author": "joshatcoreware",
-      "author_avatar": "https://avatars.githubusercontent.com/u/218769611?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/830",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "coreware",
-          "service_id": "app.emailverification",
-          "filename": "coreware.app.emailverification.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 829,
-      "title": "Add nimeracp.com.website.json Domain Connect template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-08T20:21:08Z",
-      "updated_at": "2026-03-09T07:13:16Z",
-      "merged_at": null,
-      "author": "Splicho",
-      "author_avatar": "https://avatars.githubusercontent.com/u/4650700?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/829",
+      "author": "seefeldmaxwell",
+      "author_avatar": "https://avatars.githubusercontent.com/u/173410174?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/838",
       "labels": [
-        "AI crap"
+        "Test links missing"
       ],
       "templates": [
         {
-          "provider_id": "nimeracp",
-          "service_id": "com.website",
-          "filename": "nimeracp.com.website.json",
+          "provider_id": "y12",
+          "service_id": "ai.reviewguard",
+          "filename": "y12.ai.reviewguard.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3169,6 +3195,96 @@
       ]
     },
     {
+      "number": 836,
+      "title": "Add template for TXT verification only for Shopify",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-09T20:29:11Z",
+      "updated_at": "2026-03-10T15:29:37Z",
+      "merged_at": "2026-03-10T15:29:36Z",
+      "author": "max611",
+      "author_avatar": "https://avatars.githubusercontent.com/u/5659685?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/836",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "shopify",
+          "service_id": "com.txtverification",
+          "filename": "shopify.com.txtverification.json",
+          "logo_url": "https://domainconnect.org/wp-content/uploads/2016/08/shopify.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 829,
+      "title": "Add nimeracp.com.website.json Domain Connect template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-08T20:21:08Z",
+      "updated_at": "2026-03-10T14:53:55Z",
+      "merged_at": "2026-03-10T14:53:55Z",
+      "author": "Splicho",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4650700?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/829",
+      "labels": [
+        "AI crap"
+      ],
+      "templates": [
+        {
+          "provider_id": "nimeracp",
+          "service_id": "com.website",
+          "filename": "nimeracp.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 830,
+      "title": "Add Coreware email verification template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-09T08:45:24Z",
+      "updated_at": "2026-03-10T13:59:22Z",
+      "merged_at": "2026-03-10T13:59:21Z",
+      "author": "joshatcoreware",
+      "author_avatar": "https://avatars.githubusercontent.com/u/218769611?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/830",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "coreware",
+          "service_id": "app.emailverification",
+          "filename": "coreware.app.emailverification.json",
+          "logo_url": "https://coreware-app-coreware-production.s3.us-east-1.amazonaws.com/coreware-3/public/COREWARE-LOGOMARK.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 837,
+      "title": "Add template: leonai.io / signflow-email-dns",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-10T02:55:45Z",
+      "updated_at": "2026-03-10T09:55:06Z",
+      "merged_at": "2026-03-10T09:55:05Z",
+      "author": "LeonAIcoil",
+      "author_avatar": "https://avatars.githubusercontent.com/u/155748436?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/837",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "leonai",
+          "service_id": "io.signflow-email-dns",
+          "filename": "leonai.io.signflow-email-dns.json",
+          "logo_url": "https://signflow.leonai.io/leonai-logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 835,
       "title": "Update boti.bot to have the correct domainconnect dns record",
       "state": "closed",
@@ -3329,119 +3445,19 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 828,
-      "title": "Add template: leonai.io / signflow-custom-domain",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-08T13:15:33Z",
-      "updated_at": "2026-03-08T18:45:39Z",
-      "merged_at": "2026-03-08T18:45:39Z",
-      "author": "LeonAIcoil",
-      "author_avatar": "https://avatars.githubusercontent.com/u/155748436?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/828",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "leonai",
-          "service_id": "io.signflow-custom-domain",
-          "filename": "leonai.io.signflow-custom-domain.json",
-          "logo_url": "https://signflow.leonai.io/leonai-logo.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 827,
-      "title": "Add bot.bot TXT for verification",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-07T22:49:03Z",
-      "updated_at": "2026-03-08T07:02:07Z",
-      "merged_at": "2026-03-08T07:02:07Z",
-      "author": "Aminadav",
-      "author_avatar": "https://avatars.githubusercontent.com/u/3584317?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/827",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "boti",
-          "service_id": "bot.landingpage",
-          "filename": "boti.bot.landingpage.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "boti",
-          "service_id": "bot.send-and-receive-email",
-          "filename": "boti.bot.send-and-receive-email.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "boti",
-          "service_id": "bot.send-email",
-          "filename": "boti.bot.send-email.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 826,
-      "title": "IMPROVEMENT: GH JSON schema action only runs on changed files",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-07T19:47:17Z",
-      "updated_at": "2026-03-07T19:47:51Z",
-      "merged_at": "2026-03-07T19:47:24Z",
-      "author": "pawel-kow",
-      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/826",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": []
-    },
-    {
-      "number": 822,
-      "title": "Add ZeroCut custom domain template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-07T03:23:10Z",
-      "updated_at": "2026-03-07T19:30:46Z",
-      "merged_at": "2026-03-07T19:30:46Z",
-      "author": "DavidIlie",
-      "author_avatar": "https://avatars.githubusercontent.com/u/47594764?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/822",
-      "labels": [
-        "question"
-      ],
-      "templates": [
-        {
-          "provider_id": "zerocut",
-          "service_id": "gg.custom-domain",
-          "filename": "zerocut.gg.custom-domain.json",
-          "logo_url": "https://zerocut.gg/icon.png",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 422,
+        "review_count": 424,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 58,
+        "review_count": 61,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3467,13 +3483,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 44,
+        "review_count": 46,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 15,
+        "review_count": 18,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -4043,6 +4059,15 @@
       "service_name": "Mail",
       "logo_url": "https://cordesk.cc/logo.svg",
       "record_count": 3
+    },
+    {
+      "filename": "coreware.app.emailverification.json",
+      "provider_id": "coreware.app",
+      "service_id": "emailverification",
+      "provider_name": "Coreware",
+      "service_name": "Email Verification",
+      "logo_url": "https://coreware-app-coreware-production.s3.us-east-1.amazonaws.com/coreware-3/public/COREWARE-LOGOMARK.png",
+      "record_count": 4
     },
     {
       "filename": "creativo.ai.landingpages.json",
@@ -6097,6 +6122,15 @@
       "record_count": 1
     },
     {
+      "filename": "leonai.io.signflow-email-dns.json",
+      "provider_id": "leonai.io",
+      "service_id": "signflow-email-dns",
+      "provider_name": "SignFlow by Leon AI",
+      "service_name": "SignFlow Email Authentication",
+      "logo_url": "https://signflow.leonai.io/leonai-logo.png",
+      "record_count": 4
+    },
+    {
       "filename": "lettr.com.mail-send-and-receive.json",
       "provider_id": "lettr.com",
       "service_id": "mail-send-and-receive",
@@ -6652,6 +6686,15 @@
       "provider_name": "Nettingale",
       "service_name": "Managed WordPress Hosting",
       "logo_url": "https://nettingale.com/favicon.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "nimeracp.com.website.json",
+      "provider_id": "nimeracp.com",
+      "service_id": "website",
+      "provider_name": "NimeraCP",
+      "service_name": "NimeraCP Website",
+      "logo_url": null,
       "record_count": 1
     },
     {
@@ -7398,6 +7441,15 @@
       "service_id": "subdomains",
       "provider_name": "Shopify",
       "service_name": "Shopify Subdomain",
+      "logo_url": "https://domainconnect.org/wp-content/uploads/2016/08/shopify.png",
+      "record_count": 1
+    },
+    {
+      "filename": "shopify.com.txtverification.json",
+      "provider_id": "Shopify.com",
+      "service_id": "txtverification",
+      "provider_name": "Shopify",
+      "service_name": "Shopify Domain TXT Verification",
       "logo_url": "https://domainconnect.org/wp-content/uploads/2016/08/shopify.png",
       "record_count": 1
     },
@@ -8406,16 +8458,16 @@
       "profile_url": "https://github.com/twalmsley"
     },
     {
-      "login": "bdickson1-godaddy",
-      "contributions": 18,
-      "avatar_url": "https://avatars.githubusercontent.com/u/54912895?v=4",
-      "profile_url": "https://github.com/bdickson1-godaddy"
-    },
-    {
       "login": "greenreader9",
       "contributions": 18,
       "avatar_url": "https://avatars.githubusercontent.com/u/75644395?v=4",
       "profile_url": "https://github.com/greenreader9"
+    },
+    {
+      "login": "bdickson1-godaddy",
+      "contributions": 18,
+      "avatar_url": "https://avatars.githubusercontent.com/u/54912895?v=4",
+      "profile_url": "https://github.com/bdickson1-godaddy"
     },
     {
       "login": "webtoolbox",
@@ -8430,16 +8482,16 @@
       "profile_url": "https://github.com/Luxaaa"
     },
     {
-      "login": "b805rohit",
-      "contributions": 14,
-      "avatar_url": "https://avatars.githubusercontent.com/u/35255598?v=4",
-      "profile_url": "https://github.com/b805rohit"
-    },
-    {
       "login": "delputnam",
       "contributions": 14,
       "avatar_url": "https://avatars.githubusercontent.com/u/1379730?v=4",
       "profile_url": "https://github.com/delputnam"
+    },
+    {
+      "login": "b805rohit",
+      "contributions": 14,
+      "avatar_url": "https://avatars.githubusercontent.com/u/35255598?v=4",
+      "profile_url": "https://github.com/b805rohit"
     },
     {
       "login": "stabarez",
@@ -8448,16 +8500,16 @@
       "profile_url": "https://github.com/stabarez"
     },
     {
-      "login": "dane-stevens",
-      "contributions": 11,
-      "avatar_url": "https://avatars.githubusercontent.com/u/12450895?v=4",
-      "profile_url": "https://github.com/dane-stevens"
-    },
-    {
       "login": "john-zli",
       "contributions": 11,
       "avatar_url": "https://avatars.githubusercontent.com/u/8244301?v=4",
       "profile_url": "https://github.com/john-zli"
+    },
+    {
+      "login": "dane-stevens",
+      "contributions": 11,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12450895?v=4",
+      "profile_url": "https://github.com/dane-stevens"
     },
     {
       "login": "slxca",
@@ -8508,18 +8560,6 @@
       "profile_url": "https://github.com/TracyFogel"
     },
     {
-      "login": "arya-dos",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/164984012?v=4",
-      "profile_url": "https://github.com/arya-dos"
-    },
-    {
-      "login": "kiranvsr",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/13899484?v=4",
-      "profile_url": "https://github.com/kiranvsr"
-    },
-    {
       "login": "JoaoFSCruz",
       "contributions": 8,
       "avatar_url": "https://avatars.githubusercontent.com/u/26048679?v=4",
@@ -8532,16 +8572,16 @@
       "profile_url": "https://github.com/cmalec"
     },
     {
-      "login": "anish2690",
+      "login": "arya-dos",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
-      "profile_url": "https://github.com/anish2690"
+      "avatar_url": "https://avatars.githubusercontent.com/u/164984012?v=4",
+      "profile_url": "https://github.com/arya-dos"
     },
     {
-      "login": "jonroig",
+      "login": "kiranvsr",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/928215?v=4",
-      "profile_url": "https://github.com/jonroig"
+      "avatar_url": "https://avatars.githubusercontent.com/u/13899484?v=4",
+      "profile_url": "https://github.com/kiranvsr"
     },
     {
       "login": "tombeard",
@@ -8550,16 +8590,28 @@
       "profile_url": "https://github.com/tombeard"
     },
     {
+      "login": "dommholland",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4269710?v=4",
+      "profile_url": "https://github.com/dommholland"
+    },
+    {
       "login": "MrExcitingDigits",
       "contributions": 8,
       "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
       "profile_url": "https://github.com/MrExcitingDigits"
     },
     {
-      "login": "dommholland",
+      "login": "jonroig",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4269710?v=4",
-      "profile_url": "https://github.com/dommholland"
+      "avatar_url": "https://avatars.githubusercontent.com/u/928215?v=4",
+      "profile_url": "https://github.com/jonroig"
+    },
+    {
+      "login": "anish2690",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
+      "profile_url": "https://github.com/anish2690"
     },
     {
       "login": "FlorentinStafie",
@@ -8634,10 +8686,10 @@
       "profile_url": "https://github.com/lyalls-marc"
     },
     {
-      "login": "chintans1",
+      "login": "richard-edens",
       "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/6274806?v=4",
-      "profile_url": "https://github.com/chintans1"
+      "avatar_url": "https://avatars.githubusercontent.com/u/82026336?v=4",
+      "profile_url": "https://github.com/richard-edens"
     }
   ]
 }
