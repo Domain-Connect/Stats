@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-12T01:01:09.907462",
+  "generated_at": "2026-03-13T01:06:36.741154",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 546,
-    "total_providers": 285,
-    "total_merged_prs": 653,
-    "total_open_prs": 17,
-    "total_contributors": 316,
-    "avg_records_per_template": 3.48
+    "total_templates": 549,
+    "total_providers": 287,
+    "total_merged_prs": 655,
+    "total_open_prs": 20,
+    "total_contributors": 318,
+    "avg_records_per_template": 3.47
   },
   "templates_growth": [
     {
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 42,
+      "added": 45,
       "deleted": 0,
-      "cumulative": 546
+      "cumulative": 549
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 27,
-      "cumulative": 285
+      "added": 29,
+      "cumulative": 287
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 47,
-      "merged": 37
+      "created": 52,
+      "merged": 39
     }
   ],
   "pr_time_to_merge": [
@@ -1886,7 +1886,7 @@
     },
     {
       "month": "2026-03",
-      "avg_days": 0.6
+      "avg_days": 0.5
     }
   ],
   "pr_label_activity": [
@@ -2019,11 +2019,11 @@
     {
       "month": "2026-03",
       "AI crap": 1,
-      "Checklist of common problems not complete": 26,
+      "Checklist of common problems not complete": 27,
       "Chores": 0,
-      "PR description incomplete": 28,
+      "PR description incomplete": 30,
       "Stale": 0,
-      "Test links missing": 36,
+      "Test links missing": 40,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
@@ -2424,7 +2424,7 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 408
+      "count": 410
     },
     {
       "type": "TXT",
@@ -2432,7 +2432,7 @@
     },
     {
       "type": "A",
-      "count": 207
+      "count": 208
     },
     {
       "type": "SPFM",
@@ -2626,6 +2626,12 @@
         "template_count": 3
       },
       {
+        "provider_id": "linklyhq.com",
+        "provider_name": "Linkly",
+        "logo_url": "https://linklyhq.com/img/linkly-logo.svg",
+        "template_count": 2
+      },
+      {
         "provider_id": "leonai.io",
         "provider_name": "SignFlow by Leon AI",
         "logo_url": "https://signflow.leonai.io/leonai-logo.png",
@@ -2648,6 +2654,12 @@
         "provider_name": "Magic Pages",
         "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
         "template_count": 2
+      },
+      {
+        "provider_id": "incidentpecker.com",
+        "provider_name": "IncidentPecker",
+        "logo_url": "https://app.incidentpecker.com/favicon.png",
+        "template_count": 1
       },
       {
         "provider_id": "statusdrop.dev",
@@ -2702,28 +2714,16 @@
         "provider_name": "ZeroCut",
         "logo_url": "https://zerocut.gg/icon.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "reviewgrowth.ai",
-        "provider_name": "ReviewGrowth",
-        "logo_url": "https://reviewgrowth.ai/logo.png",
-        "template_count": 1
-      },
-      {
-        "provider_id": "mentionagent.ai",
-        "provider_name": "MentionAgent",
-        "logo_url": "https://mentionagent.ai/img/logo-square.svg",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 546,
+    "total_templates": 549,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 476
+        "count": 479
       },
       {
         "name": "syncRedirectDomain",
@@ -2738,11 +2738,94 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 137
+        "count": 139
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 853,
+      "title": "Add RapidoLinks CNAME and A record templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-13T00:09:17Z",
+      "updated_at": "2026-03-13T00:15:21Z",
+      "merged_at": null,
+      "author": "ftp27",
+      "author_avatar": "https://avatars.githubusercontent.com/u/579162?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/853",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "rapidolinks",
+          "service_id": "com.custom-domain-apex",
+          "filename": "rapidolinks.com.custom-domain-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "rapidolinks",
+          "service_id": "com.custom-domain",
+          "filename": "rapidolinks.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 852,
+      "title": "Add Meteorack hosting Domain Connect templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-12T23:06:37Z",
+      "updated_at": "2026-03-12T23:07:14Z",
+      "merged_at": null,
+      "author": "niknot",
+      "author_avatar": "https://avatars.githubusercontent.com/u/6864645?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/852",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "meteorack",
+          "service_id": "app.hosting-apex-v1",
+          "filename": "meteorack.app.hosting-apex-v1.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "meteorack",
+          "service_id": "app.hosting-subdomain-v1",
+          "filename": "meteorack.app.hosting-subdomain-v1.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 851,
+      "title": "Txt record addition to existing template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-12T19:42:12Z",
+      "updated_at": "2026-03-12T20:07:16Z",
+      "merged_at": null,
+      "author": "Akash4686",
+      "author_avatar": "https://avatars.githubusercontent.com/u/36274335?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/851",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "weblish",
+          "service_id": "io.wordpress",
+          "filename": "weblish.io.wordpress.json",
+          "logo_url": "https://app.weblish.io/logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
     {
       "number": 845,
       "title": "Add ClearCMS website template",
@@ -3220,6 +3303,57 @@
       ]
     },
     {
+      "number": 850,
+      "title": "feat: add IncidentPecker status page template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-12T14:51:46Z",
+      "updated_at": "2026-03-12T14:59:06Z",
+      "merged_at": "2026-03-12T14:59:05Z",
+      "author": "cedi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1952599?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/850",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "incidentpecker",
+          "service_id": "com.status-page",
+          "filename": "incidentpecker.com.status-page.json",
+          "logo_url": "https://app.incidentpecker.com/favicon.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 849,
+      "title": "Add Linkly (linklyhq.com) CNAME and A record templates",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-12T12:46:20Z",
+      "updated_at": "2026-03-12T13:33:17Z",
+      "merged_at": "2026-03-12T13:33:17Z",
+      "author": "chrism2671",
+      "author_avatar": "https://avatars.githubusercontent.com/u/456541?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/849",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "linklyhq",
+          "service_id": "com.a-record",
+          "filename": "linklyhq.com.a-record.json",
+          "logo_url": "https://linklyhq.com/img/linkly-logo.svg",
+          "status": "added"
+        },
+        {
+          "provider_id": "linklyhq",
+          "service_id": "com.cname",
+          "filename": "linklyhq.com.cname.json",
+          "logo_url": "https://linklyhq.com/img/linkly-logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 848,
       "title": "Add StatusDrop custom domain template",
       "state": "closed",
@@ -3393,77 +3527,19 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 835,
-      "title": "Update boti.bot to have the correct domainconnect dns record",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-09T18:33:09Z",
-      "updated_at": "2026-03-09T20:39:25Z",
-      "merged_at": "2026-03-09T20:39:25Z",
-      "author": "Aminadav",
-      "author_avatar": "https://avatars.githubusercontent.com/u/3584317?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/835",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "boti",
-          "service_id": "bot.landingpage",
-          "filename": "boti.bot.landingpage.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "boti",
-          "service_id": "bot.send-and-receive-email",
-          "filename": "boti.bot.send-and-receive-email.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "boti",
-          "service_id": "bot.send-email",
-          "filename": "boti.bot.send-email.json",
-          "logo_url": "https://boti.bot/boti512.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 834,
-      "title": "Add Mail Designer 365 domain authentication template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-09T13:21:15Z",
-      "updated_at": "2026-03-09T14:27:28Z",
-      "merged_at": "2026-03-09T14:26:58Z",
-      "author": "maxsz",
-      "author_avatar": "https://avatars.githubusercontent.com/u/540025?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/834",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "maildesigner365",
-          "service_id": "com.domain-authentication",
-          "filename": "maildesigner365.com.domain-authentication.json",
-          "logo_url": "https://my.maildesigner365.com/domain-connect/maildesigner365-logo.svg",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 427,
+        "review_count": 428,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 61,
+        "review_count": 62,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3489,7 +3565,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 45,
+        "review_count": 44,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -5849,6 +5925,15 @@
       "record_count": 7
     },
     {
+      "filename": "incidentpecker.com.status-page.json",
+      "provider_id": "incidentpecker.com",
+      "service_id": "status-page",
+      "provider_name": "IncidentPecker",
+      "service_name": "Status Page",
+      "logo_url": "https://app.incidentpecker.com/favicon.png",
+      "record_count": 1
+    },
+    {
       "filename": "infinityg.ai.app.json",
       "provider_id": "infinityg.ai",
       "service_id": "app",
@@ -6234,6 +6319,24 @@
       "service_name": "Lindris Email Domain Authentication",
       "logo_url": "https://app.lindris.com/images/logo.png",
       "record_count": 5
+    },
+    {
+      "filename": "linklyhq.com.a-record.json",
+      "provider_id": "linklyhq.com",
+      "service_id": "a-record",
+      "provider_name": "Linkly",
+      "service_name": "Linkly link shortener custom domain (A record)",
+      "logo_url": "https://linklyhq.com/img/linkly-logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "linklyhq.com.cname.json",
+      "provider_id": "linklyhq.com",
+      "service_id": "cname",
+      "provider_name": "Linkly",
+      "service_name": "Linkly link shortener custom domain (CNAME)",
+      "logo_url": "https://linklyhq.com/img/linkly-logo.svg",
+      "record_count": 1
     },
     {
       "filename": "links.tube.domain.json",
