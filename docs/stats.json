@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-13T01:06:36.741154",
+  "generated_at": "2026-03-14T01:05:32.408970",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 549,
-    "total_providers": 287,
-    "total_merged_prs": 655,
+    "total_templates": 553,
+    "total_providers": 290,
+    "total_merged_prs": 659,
     "total_open_prs": 20,
-    "total_contributors": 318,
+    "total_contributors": 320,
     "avg_records_per_template": 3.47
   },
   "templates_growth": [
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 45,
+      "added": 49,
       "deleted": 0,
-      "cumulative": 549
+      "cumulative": 553
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 29,
-      "cumulative": 287
+      "added": 32,
+      "cumulative": 290
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 52,
-      "merged": 39
+      "created": 56,
+      "merged": 43
     }
   ],
   "pr_time_to_merge": [
@@ -2019,16 +2019,16 @@
     {
       "month": "2026-03",
       "AI crap": 1,
-      "Checklist of common problems not complete": 27,
+      "Checklist of common problems not complete": 28,
       "Chores": 0,
-      "PR description incomplete": 30,
+      "PR description incomplete": 33,
       "Stale": 0,
-      "Test links missing": 40,
+      "Test links missing": 43,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
       "question": 1,
-      "schema-error": 1
+      "schema-error": 2
     }
   ],
   "pr_comment_activity": [
@@ -2418,29 +2418,29 @@
     },
     {
       "month": "2026-03",
-      "avg_comments": 0.6
+      "avg_comments": 0.5
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 410
+      "count": 413
     },
     {
       "type": "TXT",
-      "count": 237
+      "count": 240
     },
     {
       "type": "A",
-      "count": 208
+      "count": 209
     },
     {
       "type": "SPFM",
-      "count": 108
+      "count": 110
     },
     {
       "type": "MX",
-      "count": 95
+      "count": 97
     },
     {
       "type": "SRV",
@@ -2626,6 +2626,12 @@
         "template_count": 3
       },
       {
+        "provider_id": "rapidolinks.com",
+        "provider_name": "RapidoLinks",
+        "logo_url": "https://rapidolinks.com/static/icon.svg",
+        "template_count": 2
+      },
+      {
         "provider_id": "linklyhq.com",
         "provider_name": "Linkly",
         "logo_url": "https://linklyhq.com/img/linkly-logo.svg",
@@ -2654,6 +2660,18 @@
         "provider_name": "Magic Pages",
         "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
         "template_count": 2
+      },
+      {
+        "provider_id": "mailglyph.com",
+        "provider_name": "MailGlyph",
+        "logo_url": "https://mailglyph.com/icons/favicon.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "rebelsender.com",
+        "provider_name": "RebelSender",
+        "logo_url": "https://rebelsender.com/logo.svg",
+        "template_count": 1
       },
       {
         "provider_id": "incidentpecker.com",
@@ -2696,39 +2714,21 @@
         "provider_name": "Coreware",
         "logo_url": "https://coreware-app-coreware-production.s3.us-east-1.amazonaws.com/coreware-3/public/COREWARE-LOGOMARK.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "maildesigner365.com",
-        "provider_name": "Mail Designer 365",
-        "logo_url": "https://my.maildesigner365.com/domain-connect/maildesigner365-logo.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "mailaura.io",
-        "provider_name": "Mailaura",
-        "logo_url": "https://mailaura.io/logo.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "zerocut.gg",
-        "provider_name": "ZeroCut",
-        "logo_url": "https://zerocut.gg/icon.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 549,
+    "total_templates": 553,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 479
+        "count": 483
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 338
+        "count": 342
       },
       {
         "name": "warnPhishing",
@@ -2738,35 +2738,57 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 139
+        "count": 140
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 853,
-      "title": "Add RapidoLinks CNAME and A record templates",
+      "number": 857,
+      "title": "Add theqrcode.co QR redirect templates",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-13T00:09:17Z",
-      "updated_at": "2026-03-13T00:15:21Z",
+      "created_at": "2026-03-13T19:21:04Z",
+      "updated_at": "2026-03-13T19:30:56Z",
       "merged_at": null,
-      "author": "ftp27",
-      "author_avatar": "https://avatars.githubusercontent.com/u/579162?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/853",
+      "author": "kylewhirl",
+      "author_avatar": "https://avatars.githubusercontent.com/u/65330257?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/857",
       "labels": [],
       "templates": [
         {
-          "provider_id": "rapidolinks",
-          "service_id": "com.custom-domain-apex",
-          "filename": "rapidolinks.com.custom-domain-apex.json",
+          "provider_id": "theqrcode",
+          "service_id": "co.vercel-qr-a",
+          "filename": "theqrcode.co.vercel-qr-a.json",
           "logo_url": null,
           "status": "added"
         },
         {
-          "provider_id": "rapidolinks",
-          "service_id": "com.custom-domain",
-          "filename": "rapidolinks.com.custom-domain.json",
+          "provider_id": "theqrcode",
+          "service_id": "co.vercel-qr-cname",
+          "filename": "theqrcode.co.vercel-qr-cname.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 856,
+      "title": "Create your.tube.domain.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-13T17:20:48Z",
+      "updated_at": "2026-03-13T17:26:43Z",
+      "merged_at": null,
+      "author": "oshuam",
+      "author_avatar": "https://avatars.githubusercontent.com/u/27817892?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/856",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "your",
+          "service_id": "tube.domain",
+          "filename": "your.tube.domain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2801,28 +2823,6 @@
           "filename": "meteorack.app.hosting-subdomain-v1.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 851,
-      "title": "Txt record addition to existing template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-12T19:42:12Z",
-      "updated_at": "2026-03-12T20:07:16Z",
-      "merged_at": null,
-      "author": "Akash4686",
-      "author_avatar": "https://avatars.githubusercontent.com/u/36274335?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/851",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "weblish",
-          "service_id": "io.wordpress",
-          "filename": "weblish.io.wordpress.json",
-          "logo_url": "https://app.weblish.io/logo.svg",
-          "status": "modified"
         }
       ]
     },
@@ -2883,12 +2883,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-10T09:47:02Z",
-      "updated_at": "2026-03-11T07:20:12Z",
+      "updated_at": "2026-03-13T05:08:12Z",
       "merged_at": null,
       "author": "SwartZCoding",
       "author_avatar": "https://avatars.githubusercontent.com/u/39431572?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/840",
-      "labels": [],
+      "labels": [
+        "question"
+      ],
       "templates": [
         {
           "provider_id": "spinlab",
@@ -2953,12 +2955,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-06T03:32:05Z",
-      "updated_at": "2026-03-09T16:53:03Z",
+      "updated_at": "2026-03-13T05:07:48Z",
       "merged_at": null,
       "author": "parveen-sib",
       "author_avatar": "https://avatars.githubusercontent.com/u/105631366?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/816",
-      "labels": [],
+      "labels": [
+        "blocked"
+      ],
       "templates": [
         {
           "provider_id": "brevo",
@@ -3303,6 +3307,101 @@
       ]
     },
     {
+      "number": 855,
+      "title": "Add MailGlyph's Domain Connect template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-13T15:07:23Z",
+      "updated_at": "2026-03-13T15:35:24Z",
+      "merged_at": "2026-03-13T15:35:24Z",
+      "author": "mmihalev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/5316128?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/855",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mailglyph",
+          "service_id": "com.mail-send-and-receive",
+          "filename": "mailglyph.com.mail-send-and-receive.json",
+          "logo_url": "https://mailglyph.com/icons/favicon.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 851,
+      "title": "Txt record addition to existing template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-12T19:42:12Z",
+      "updated_at": "2026-03-13T05:07:09Z",
+      "merged_at": "2026-03-13T05:07:09Z",
+      "author": "Akash4686",
+      "author_avatar": "https://avatars.githubusercontent.com/u/36274335?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/851",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "weblish",
+          "service_id": "io.wordpress",
+          "filename": "weblish.io.wordpress.json",
+          "logo_url": "https://app.weblish.io/logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 854,
+      "title": "Add rebelsender.com.mail template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-13T03:36:41Z",
+      "updated_at": "2026-03-13T05:05:25Z",
+      "merged_at": "2026-03-13T05:05:25Z",
+      "author": "vibhuis-es",
+      "author_avatar": "https://avatars.githubusercontent.com/u/164148367?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/854",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "rebelsender",
+          "service_id": "com.mail",
+          "filename": "rebelsender.com.mail.json",
+          "logo_url": "https://rebelsender.com/logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 853,
+      "title": "Add RapidoLinks CNAME and A record templates",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-13T00:09:17Z",
+      "updated_at": "2026-03-13T05:02:59Z",
+      "merged_at": "2026-03-13T05:02:59Z",
+      "author": "ftp27",
+      "author_avatar": "https://avatars.githubusercontent.com/u/579162?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/853",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "rapidolinks",
+          "service_id": "com.custom-domain-apex",
+          "filename": "rapidolinks.com.custom-domain-apex.json",
+          "logo_url": "https://rapidolinks.com/static/icon.svg",
+          "status": "added"
+        },
+        {
+          "provider_id": "rapidolinks",
+          "service_id": "com.custom-domain",
+          "filename": "rapidolinks.com.custom-domain.json",
+          "logo_url": "https://rapidolinks.com/static/icon.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 850,
       "title": "feat: add IncidentPecker status page template",
       "state": "closed",
@@ -3437,103 +3536,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 830,
-      "title": "Add Coreware email verification template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-09T08:45:24Z",
-      "updated_at": "2026-03-11T01:54:11Z",
-      "merged_at": "2026-03-10T13:59:21Z",
-      "author": "joshatcoreware",
-      "author_avatar": "https://avatars.githubusercontent.com/u/218769611?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/830",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "coreware",
-          "service_id": "app.emailverification",
-          "filename": "coreware.app.emailverification.json",
-          "logo_url": "https://coreware-app-coreware-production.s3.us-east-1.amazonaws.com/coreware-3/public/COREWARE-LOGOMARK.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 836,
-      "title": "Add template for TXT verification only for Shopify",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-09T20:29:11Z",
-      "updated_at": "2026-03-10T15:29:37Z",
-      "merged_at": "2026-03-10T15:29:36Z",
-      "author": "max611",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5659685?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/836",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "shopify",
-          "service_id": "com.txtverification",
-          "filename": "shopify.com.txtverification.json",
-          "logo_url": "https://domainconnect.org/wp-content/uploads/2016/08/shopify.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 829,
-      "title": "Add nimeracp.com.website.json Domain Connect template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-08T20:21:08Z",
-      "updated_at": "2026-03-10T14:53:55Z",
-      "merged_at": "2026-03-10T14:53:55Z",
-      "author": "Splicho",
-      "author_avatar": "https://avatars.githubusercontent.com/u/4650700?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/829",
-      "labels": [
-        "AI crap"
-      ],
-      "templates": [
-        {
-          "provider_id": "nimeracp",
-          "service_id": "com.website",
-          "filename": "nimeracp.com.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 837,
-      "title": "Add template: leonai.io / signflow-email-dns",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-10T02:55:45Z",
-      "updated_at": "2026-03-10T09:55:06Z",
-      "merged_at": "2026-03-10T09:55:05Z",
-      "author": "LeonAIcoil",
-      "author_avatar": "https://avatars.githubusercontent.com/u/155748436?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/837",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "leonai",
-          "service_id": "io.signflow-email-dns",
-          "filename": "leonai.io.signflow-email-dns.json",
-          "logo_url": "https://signflow.leonai.io/leonai-logo.png",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 428,
+        "review_count": 432,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3565,7 +3574,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 44,
+        "review_count": 48,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -6510,6 +6519,15 @@
       "record_count": 5
     },
     {
+      "filename": "mailglyph.com.mail-send-and-receive.json",
+      "provider_id": "mailglyph.com",
+      "service_id": "mail-send-and-receive",
+      "provider_name": "MailGlyph",
+      "service_name": "Mail (Sending & Receiving)",
+      "logo_url": "https://mailglyph.com/icons/favicon.svg",
+      "record_count": 4
+    },
+    {
       "filename": "mailjet.com.domain-auth.json",
       "provider_id": "mailjet.com",
       "service_id": "domain-auth",
@@ -7149,6 +7167,24 @@
       "record_count": 2
     },
     {
+      "filename": "rapidolinks.com.custom-domain-apex.json",
+      "provider_id": "rapidolinks.com",
+      "service_id": "custom-domain-apex",
+      "provider_name": "RapidoLinks",
+      "service_name": "RapidoLinks Custom Domain (Apex)",
+      "logo_url": "https://rapidolinks.com/static/icon.svg",
+      "record_count": 2
+    },
+    {
+      "filename": "rapidolinks.com.custom-domain.json",
+      "provider_id": "rapidolinks.com",
+      "service_id": "custom-domain",
+      "provider_name": "RapidoLinks",
+      "service_name": "RapidoLinks Custom Domain",
+      "logo_url": "https://rapidolinks.com/static/icon.svg",
+      "record_count": 1
+    },
+    {
       "filename": "readdy.ai.website-test.json",
       "provider_id": "readdy.ai",
       "service_id": "website-test",
@@ -7192,6 +7228,15 @@
       "service_name": "RealtimeCDP Email & Deliverability",
       "logo_url": "https://realtimecdp.io/logo.png",
       "record_count": 3
+    },
+    {
+      "filename": "rebelsender.com.mail.json",
+      "provider_id": "rebelsender.com",
+      "service_id": "mail",
+      "provider_name": "RebelSender",
+      "service_name": "Mail",
+      "logo_url": "https://rebelsender.com/logo.svg",
+      "record_count": 6
     },
     {
       "filename": "redirect.pizza.apex-www.json",
@@ -8271,7 +8316,7 @@
       "provider_name": "Weblish",
       "service_name": "WordPress Hosting",
       "logo_url": "https://app.weblish.io/logo.svg",
-      "record_count": 2
+      "record_count": 3
     },
     {
       "filename": "webomat.at.website-test.json",
