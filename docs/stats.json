@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-14T01:05:32.408970",
+  "generated_at": "2026-03-15T01:17:22.430958",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 553,
-    "total_providers": 290,
-    "total_merged_prs": 659,
-    "total_open_prs": 20,
+    "total_templates": 554,
+    "total_providers": 291,
+    "total_merged_prs": 662,
+    "total_open_prs": 22,
     "total_contributors": 320,
     "avg_records_per_template": 3.47
   },
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 49,
+      "added": 50,
       "deleted": 0,
-      "cumulative": 553
+      "cumulative": 554
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 32,
-      "cumulative": 290
+      "added": 33,
+      "cumulative": 291
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 56,
-      "merged": 43
+      "created": 64,
+      "merged": 46
     }
   ],
   "pr_time_to_merge": [
@@ -2019,16 +2019,16 @@
     {
       "month": "2026-03",
       "AI crap": 1,
-      "Checklist of common problems not complete": 28,
+      "Checklist of common problems not complete": 31,
       "Chores": 0,
-      "PR description incomplete": 33,
+      "PR description incomplete": 36,
       "Stale": 0,
-      "Test links missing": 43,
+      "Test links missing": 50,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 1,
-      "question": 1,
-      "schema-error": 2
+      "filename-error": 2,
+      "question": 2,
+      "schema-error": 4
     }
   ],
   "pr_comment_activity": [
@@ -2418,7 +2418,7 @@
     },
     {
       "month": "2026-03",
-      "avg_comments": 0.5
+      "avg_comments": 0.6
     }
   ],
   "record_types": [
@@ -2432,7 +2432,7 @@
     },
     {
       "type": "A",
-      "count": 209
+      "count": 210
     },
     {
       "type": "SPFM",
@@ -2440,7 +2440,7 @@
     },
     {
       "type": "MX",
-      "count": 97
+      "count": 98
     },
     {
       "type": "SRV",
@@ -2608,12 +2608,6 @@
         "template_count": 6
       },
       {
-        "provider_id": "posthog.com",
-        "provider_name": "PostHog",
-        "logo_url": "https://posthog.com/brand/posthog-logo.svg",
-        "template_count": 4
-      },
-      {
         "provider_id": "boti.bot",
         "provider_name": "Boti",
         "logo_url": "https://boti.bot/boti512.png",
@@ -2660,6 +2654,12 @@
         "provider_name": "Magic Pages",
         "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
         "template_count": 2
+      },
+      {
+        "provider_id": "your.tube",
+        "provider_name": "Your.tube",
+        "logo_url": "https://your.tube/themes/logo.png",
+        "template_count": 1
       },
       {
         "provider_id": "mailglyph.com",
@@ -2718,12 +2718,12 @@
     ]
   },
   "feature_usage": {
-    "total_templates": 553,
+    "total_templates": 554,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 483
+        "count": 484
       },
       {
         "name": "syncRedirectDomain",
@@ -2743,6 +2743,79 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 865,
+      "title": "Add Domain Connect templates for emailr.dev (send, send-receive)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-14T22:02:04Z",
+      "updated_at": "2026-03-14T22:02:36Z",
+      "merged_at": null,
+      "author": "saeedmsdi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3229325?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/865",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "emailr",
+          "service_id": "dev.send-receive",
+          "filename": "emailr.dev.send-receive.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "emailr",
+          "service_id": "dev.send",
+          "filename": "emailr.dev.send.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 863,
+      "title": "Add SendKit email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-14T20:42:03Z",
+      "updated_at": "2026-03-14T21:20:20Z",
+      "merged_at": null,
+      "author": "paulocastellano",
+      "author_avatar": "https://avatars.githubusercontent.com/u/265964?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/863",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sendkit",
+          "service_id": "dev.mail",
+          "filename": "sendkit.dev.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 862,
+      "title": "Add sitenyx.com website-hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-14T20:26:03Z",
+      "updated_at": "2026-03-14T20:38:26Z",
+      "merged_at": null,
+      "author": "reza-ariyan",
+      "author_avatar": "https://avatars.githubusercontent.com/u/16482584?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/862",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sitenyx",
+          "service_id": "com.website-hosting",
+          "filename": "sitenyx.com.website-hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 857,
       "title": "Add theqrcode.co QR redirect templates",
@@ -2767,28 +2840,6 @@
           "provider_id": "theqrcode",
           "service_id": "co.vercel-qr-cname",
           "filename": "theqrcode.co.vercel-qr-cname.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 856,
-      "title": "Create your.tube.domain.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-13T17:20:48Z",
-      "updated_at": "2026-03-13T17:26:43Z",
-      "merged_at": null,
-      "author": "oshuam",
-      "author_avatar": "https://avatars.githubusercontent.com/u/27817892?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/856",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "your",
-          "service_id": "tube.domain",
-          "filename": "your.tube.domain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3307,6 +3358,74 @@
       ]
     },
     {
+      "number": 858,
+      "title": "Update rebelsender.com.mail template to v2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-14T01:45:40Z",
+      "updated_at": "2026-03-14T07:20:18Z",
+      "merged_at": "2026-03-14T07:20:18Z",
+      "author": "vibhuis-es",
+      "author_avatar": "https://avatars.githubusercontent.com/u/164148367?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/858",
+      "labels": [
+        "question"
+      ],
+      "templates": [
+        {
+          "provider_id": "rebelsender",
+          "service_id": "com.mail",
+          "filename": "rebelsender.com.mail.json",
+          "logo_url": "https://rebelsender.com/logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 860,
+      "title": "Update template: leonai.io / signflow-email-dns (v2 record format)",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-14T02:51:28Z",
+      "updated_at": "2026-03-14T06:04:37Z",
+      "merged_at": "2026-03-14T06:04:37Z",
+      "author": "LeonAIcoil",
+      "author_avatar": "https://avatars.githubusercontent.com/u/155748436?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/860",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "leonai",
+          "service_id": "io.signflow-email-dns",
+          "filename": "leonai.io.signflow-email-dns.json",
+          "logo_url": "https://signflow.leonai.io/leonai-logo.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 856,
+      "title": "Create your.tube.domain.json",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-13T17:20:48Z",
+      "updated_at": "2026-03-14T05:56:43Z",
+      "merged_at": "2026-03-14T05:56:43Z",
+      "author": "oshuam",
+      "author_avatar": "https://avatars.githubusercontent.com/u/27817892?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/856",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "your",
+          "service_id": "tube.domain",
+          "filename": "your.tube.domain.json",
+          "logo_url": "https://your.tube/themes/logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 855,
       "title": "Add MailGlyph's Domain Connect template",
       "state": "closed",
@@ -3473,76 +3592,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 843,
-      "title": "update weblish.io.wordpress.json",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-11T01:46:43Z",
-      "updated_at": "2026-03-11T20:19:29Z",
-      "merged_at": "2026-03-11T20:19:29Z",
-      "author": "Akash4686",
-      "author_avatar": "https://avatars.githubusercontent.com/u/36274335?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/843",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "weblish",
-          "service_id": "io.wordpress",
-          "filename": "weblish.io.wordpress.json",
-          "logo_url": "https://app.weblish.io/logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 846,
-      "title": "Split template authoring rules into description in README and checklist in PR template.",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-11T07:17:38Z",
-      "updated_at": "2026-03-11T09:46:41Z",
-      "merged_at": "2026-03-11T09:46:34Z",
-      "author": "pawel-kow",
-      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/846",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "filename-error"
-      ],
-      "templates": []
-    },
-    {
-      "number": 844,
-      "title": "Create codevibe.com.website.json",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-11T04:50:18Z",
-      "updated_at": "2026-03-11T06:24:51Z",
-      "merged_at": "2026-03-11T06:24:51Z",
-      "author": "mcrouch33",
-      "author_avatar": "https://avatars.githubusercontent.com/u/208117156?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/844",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "codevibe",
-          "service_id": "com.website",
-          "filename": "codevibe.com.website.json",
-          "logo_url": "https://codevibe.com/favicon.ico",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 432,
+        "review_count": 435,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3580,7 +3636,7 @@
       },
       {
         "login": "kerolasa",
-        "review_count": 17,
+        "review_count": 16,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -7236,7 +7292,7 @@
       "provider_name": "RebelSender",
       "service_name": "Mail",
       "logo_url": "https://rebelsender.com/logo.svg",
-      "record_count": 6
+      "record_count": 7
     },
     {
       "filename": "redirect.pizza.apex-www.json",
@@ -8479,6 +8535,15 @@
       "service_name": "Xperiencify Custom Domain",
       "logo_url": "https://app.xperiencify.io/images/logo.svg",
       "record_count": 1
+    },
+    {
+      "filename": "your.tube.domain.json",
+      "provider_id": "your.tube",
+      "service_id": "domain",
+      "provider_name": "Your.tube",
+      "service_name": "Your.tube Domain",
+      "logo_url": "https://your.tube/themes/logo.png",
+      "record_count": 2
     },
     {
       "filename": "zeabur.com.email.json",
