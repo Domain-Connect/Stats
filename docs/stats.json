@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-15T01:17:22.430958",
+  "generated_at": "2026-03-16T01:16:50.796808",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 554,
-    "total_providers": 291,
-    "total_merged_prs": 662,
-    "total_open_prs": 22,
-    "total_contributors": 320,
-    "avg_records_per_template": 3.47
+    "total_templates": 556,
+    "total_providers": 293,
+    "total_merged_prs": 664,
+    "total_open_prs": 20,
+    "total_contributors": 322,
+    "avg_records_per_template": 3.46
   },
   "templates_growth": [
     {
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 50,
+      "added": 52,
       "deleted": 0,
-      "cumulative": 554
+      "cumulative": 556
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 33,
-      "cumulative": 291
+      "added": 35,
+      "cumulative": 293
     }
   ],
   "pr_activity": [
@@ -1504,7 +1504,7 @@
     {
       "month": "2026-03",
       "created": 64,
-      "merged": 46
+      "merged": 48
     }
   ],
   "pr_time_to_merge": [
@@ -2424,11 +2424,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 413
+      "count": 414
     },
     {
       "type": "TXT",
-      "count": 240
+      "count": 241
     },
     {
       "type": "A",
@@ -2436,11 +2436,11 @@
     },
     {
       "type": "SPFM",
-      "count": 110
+      "count": 111
     },
     {
       "type": "MX",
-      "count": 98
+      "count": 99
     },
     {
       "type": "SRV",
@@ -2656,6 +2656,18 @@
         "template_count": 2
       },
       {
+        "provider_id": "sitenyx.com",
+        "provider_name": "Sitenyx",
+        "logo_url": "https://sitenyx.com/images/logo.png",
+        "template_count": 1
+      },
+      {
+        "provider_id": "sendkit.dev",
+        "provider_name": "SendKit",
+        "logo_url": "https://cdn.sendkit.dev/domain-connect.png",
+        "template_count": 1
+      },
+      {
         "provider_id": "your.tube",
         "provider_name": "Your.tube",
         "logo_url": "https://your.tube/themes/logo.png",
@@ -2702,33 +2714,21 @@
         "provider_name": "Shopify",
         "logo_url": "https://domainconnect.org/wp-content/uploads/2016/08/shopify.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "nimeracp.com",
-        "provider_name": "NimeraCP",
-        "logo_url": null,
-        "template_count": 1
-      },
-      {
-        "provider_id": "coreware.app",
-        "provider_name": "Coreware",
-        "logo_url": "https://coreware-app-coreware-production.s3.us-east-1.amazonaws.com/coreware-3/public/COREWARE-LOGOMARK.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 554,
+    "total_templates": 556,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 484
+        "count": 486
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 342
+        "count": 344
       },
       {
         "name": "warnPhishing",
@@ -2738,7 +2738,7 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 140
+        "count": 141
       }
     ]
   },
@@ -2767,50 +2767,6 @@
           "provider_id": "emailr",
           "service_id": "dev.send",
           "filename": "emailr.dev.send.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 863,
-      "title": "Add SendKit email template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-14T20:42:03Z",
-      "updated_at": "2026-03-14T21:20:20Z",
-      "merged_at": null,
-      "author": "paulocastellano",
-      "author_avatar": "https://avatars.githubusercontent.com/u/265964?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/863",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sendkit",
-          "service_id": "dev.mail",
-          "filename": "sendkit.dev.mail.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 862,
-      "title": "Add sitenyx.com website-hosting template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-14T20:26:03Z",
-      "updated_at": "2026-03-14T20:38:26Z",
-      "merged_at": null,
-      "author": "reza-ariyan",
-      "author_avatar": "https://avatars.githubusercontent.com/u/16482584?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/862",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sitenyx",
-          "service_id": "com.website-hosting",
-          "filename": "sitenyx.com.website-hosting.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3358,6 +3314,50 @@
       ]
     },
     {
+      "number": 862,
+      "title": "Add sitenyx.com website-hosting template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-14T20:26:03Z",
+      "updated_at": "2026-03-15T15:06:21Z",
+      "merged_at": "2026-03-15T15:06:21Z",
+      "author": "reza-ariyan",
+      "author_avatar": "https://avatars.githubusercontent.com/u/16482584?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/862",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sitenyx",
+          "service_id": "com.website-hosting",
+          "filename": "sitenyx.com.website-hosting.json",
+          "logo_url": "https://sitenyx.com/images/logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 863,
+      "title": "Add SendKit email template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-14T20:42:03Z",
+      "updated_at": "2026-03-15T15:05:16Z",
+      "merged_at": "2026-03-15T15:05:16Z",
+      "author": "paulocastellano",
+      "author_avatar": "https://avatars.githubusercontent.com/u/265964?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/863",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sendkit",
+          "service_id": "dev.mail",
+          "filename": "sendkit.dev.mail.json",
+          "logo_url": "https://cdn.sendkit.dev/domain-connect.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 858,
       "title": "Update rebelsender.com.mail template to v2",
       "state": "closed",
@@ -3541,64 +3541,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 849,
-      "title": "Add Linkly (linklyhq.com) CNAME and A record templates",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-12T12:46:20Z",
-      "updated_at": "2026-03-12T13:33:17Z",
-      "merged_at": "2026-03-12T13:33:17Z",
-      "author": "chrism2671",
-      "author_avatar": "https://avatars.githubusercontent.com/u/456541?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/849",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "linklyhq",
-          "service_id": "com.a-record",
-          "filename": "linklyhq.com.a-record.json",
-          "logo_url": "https://linklyhq.com/img/linkly-logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "linklyhq",
-          "service_id": "com.cname",
-          "filename": "linklyhq.com.cname.json",
-          "logo_url": "https://linklyhq.com/img/linkly-logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 848,
-      "title": "Add StatusDrop custom domain template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-11T17:42:28Z",
-      "updated_at": "2026-03-11T21:29:10Z",
-      "merged_at": "2026-03-11T21:29:10Z",
-      "author": "razvanmacovei",
-      "author_avatar": "https://avatars.githubusercontent.com/u/25197586?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/848",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "statusdrop",
-          "service_id": "dev.status-page",
-          "filename": "statusdrop.dev.status-page.json",
-          "logo_url": "https://statusdrop.dev/logo.png",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 435,
+        "review_count": 437,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3630,7 +3579,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 48,
+        "review_count": 50,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -7610,6 +7559,15 @@
       "record_count": 3
     },
     {
+      "filename": "sendkit.dev.mail.json",
+      "provider_id": "sendkit.dev",
+      "service_id": "mail",
+      "provider_name": "SendKit",
+      "service_name": "Email Sending",
+      "logo_url": "https://cdn.sendkit.dev/domain-connect.png",
+      "record_count": 4
+    },
+    {
       "filename": "sendlayer.com.email.json",
       "provider_id": "sendlayer.com",
       "service_id": "email",
@@ -7725,6 +7683,15 @@
       "service_name": "Sidemail.io Domain Authentication",
       "logo_url": "https://sidemail.io/assets/logo.png",
       "record_count": 2
+    },
+    {
+      "filename": "sitenyx.com.website-hosting.json",
+      "provider_id": "sitenyx.com",
+      "service_id": "website-hosting",
+      "provider_name": "Sitenyx",
+      "service_name": "Sitenyx Website Hosting",
+      "logo_url": "https://sitenyx.com/images/logo.png",
+      "record_count": 1
     },
     {
       "filename": "slickpic.com.website.json",
