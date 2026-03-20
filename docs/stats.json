@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-19T01:11:45.004431",
+  "generated_at": "2026-03-20T01:07:47.116463",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 561,
-    "total_providers": 296,
-    "total_merged_prs": 672,
-    "total_open_prs": 17,
-    "total_contributors": 324,
-    "avg_records_per_template": 3.46
+    "total_templates": 564,
+    "total_providers": 299,
+    "total_merged_prs": 675,
+    "total_open_prs": 19,
+    "total_contributors": 327,
+    "avg_records_per_template": 3.45
   },
   "templates_growth": [
     {
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 57,
+      "added": 60,
       "deleted": 0,
-      "cumulative": 561
+      "cumulative": 564
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 38,
-      "cumulative": 296
+      "added": 41,
+      "cumulative": 299
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 70,
-      "merged": 56
+      "created": 75,
+      "merged": 59
     }
   ],
   "pr_time_to_merge": [
@@ -2018,12 +2018,12 @@
     },
     {
       "month": "2026-03",
-      "AI crap": 1,
-      "Checklist of common problems not complete": 33,
+      "AI crap": 2,
+      "Checklist of common problems not complete": 35,
       "Chores": 0,
-      "PR description incomplete": 39,
+      "PR description incomplete": 41,
       "Stale": 0,
-      "Test links missing": 54,
+      "Test links missing": 59,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 2,
@@ -2418,25 +2418,25 @@
     },
     {
       "month": "2026-03",
-      "avg_comments": 0.5
+      "avg_comments": 0.6
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 416
+      "count": 417
     },
     {
       "type": "TXT",
-      "count": 243
+      "count": 244
     },
     {
       "type": "A",
-      "count": 212
+      "count": 213
     },
     {
       "type": "SPFM",
-      "count": 113
+      "count": 114
     },
     {
       "type": "MX",
@@ -2668,6 +2668,24 @@
         "template_count": 2
       },
       {
+        "provider_id": "seatbeltsecurity.com",
+        "provider_name": "Seatbelt Security",
+        "logo_url": "https://seatbeltsecurity.com/marketing/logo-icon.png",
+        "template_count": 1
+      },
+      {
+        "provider_id": "8s.io",
+        "provider_name": "8s.io",
+        "logo_url": "https://raw.githubusercontent.com/josuegiomexia/8s-domain-connect-onboarding/main/assets/8s.io-logo.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "closehack.dev",
+        "provider_name": "CloseHack",
+        "logo_url": "https://studio.closehack.com/closehack-domain-connect.png",
+        "template_count": 1
+      },
+      {
         "provider_id": "spinlab.studio",
         "provider_name": "Spinlab",
         "logo_url": "https://cdn.spinlab.studio/logo-spinlab.svg",
@@ -2696,39 +2714,21 @@
         "provider_name": "MailGlyph",
         "logo_url": "https://cdn.mailglyph.com/assets/logo.svg",
         "template_count": 1
-      },
-      {
-        "provider_id": "rebelsender.com",
-        "provider_name": "RebelSender",
-        "logo_url": "https://rebelsender.com/logo.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "incidentpecker.com",
-        "provider_name": "IncidentPecker",
-        "logo_url": "https://app.incidentpecker.com/favicon.png",
-        "template_count": 1
-      },
-      {
-        "provider_id": "statusdrop.dev",
-        "provider_name": "StatusDrop",
-        "logo_url": "https://statusdrop.dev/logo.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 561,
+    "total_templates": 564,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 491
+        "count": 494
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 346
+        "count": 348
       },
       {
         "name": "warnPhishing",
@@ -2744,22 +2744,68 @@
   },
   "recent_prs": [
     {
-      "number": 871,
-      "title": "Add seatbeltsecurity.com email authentication template",
+      "number": 877,
+      "title": "Add Transmit (xmit.sh) email template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-18T17:52:50Z",
-      "updated_at": "2026-03-18T21:11:26Z",
+      "created_at": "2026-03-19T22:28:55Z",
+      "updated_at": "2026-03-19T23:04:16Z",
       "merged_at": null,
-      "author": "v-vincere",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5988286?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/871",
+      "author": "beingretrogamer",
+      "author_avatar": "https://avatars.githubusercontent.com/u/168362815?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/877",
       "labels": [],
       "templates": [
         {
-          "provider_id": "seatbeltsecurity",
-          "service_id": "com.email-auth",
-          "filename": "seatbeltsecurity.com.email-auth.json",
+          "provider_id": "xmit",
+          "service_id": "sh.email",
+          "filename": "xmit.sh.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 876,
+      "title": "Add MonPetitBistro.com template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-19T22:24:59Z",
+      "updated_at": "2026-03-19T22:30:36Z",
+      "merged_at": null,
+      "author": "EstebX",
+      "author_avatar": "https://avatars.githubusercontent.com/u/100437198?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/876",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "monpetitbistro",
+          "service_id": "com.website",
+          "filename": "monpetitbistro.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 875,
+      "title": "Add TidyCal CNAME template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-19T18:10:17Z",
+      "updated_at": "2026-03-19T22:56:43Z",
+      "merged_at": null,
+      "author": "marnietave",
+      "author_avatar": "https://avatars.githubusercontent.com/u/10681447?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/875",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "tidycal",
+          "service_id": "com.tidycal.com",
+          "filename": "tidycal.com.tidycal.com.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3214,6 +3260,74 @@
       ]
     },
     {
+      "number": 871,
+      "title": "Add seatbeltsecurity.com email authentication template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-18T17:52:50Z",
+      "updated_at": "2026-03-19T17:51:55Z",
+      "merged_at": "2026-03-19T17:51:55Z",
+      "author": "v-vincere",
+      "author_avatar": "https://avatars.githubusercontent.com/u/5988286?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/871",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "seatbeltsecurity",
+          "service_id": "com.email-auth",
+          "filename": "seatbeltsecurity.com.email-auth.json",
+          "logo_url": "https://seatbeltsecurity.com/marketing/logo-icon.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 874,
+      "title": "Add 8s.io ownership verification template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-19T11:35:38Z",
+      "updated_at": "2026-03-19T17:45:59Z",
+      "merged_at": "2026-03-19T17:45:59Z",
+      "author": "josuegiomexia",
+      "author_avatar": "https://avatars.githubusercontent.com/u/74624915?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/874",
+      "labels": [
+        "AI crap"
+      ],
+      "templates": [
+        {
+          "provider_id": "8s",
+          "service_id": "io.ownership-verification",
+          "filename": "8s.io.ownership-verification.json",
+          "logo_url": "https://raw.githubusercontent.com/josuegiomexia/8s-domain-connect-onboarding/main/assets/8s.io-logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 873,
+      "title": "Add CloseHack website template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-19T04:29:29Z",
+      "updated_at": "2026-03-19T05:17:53Z",
+      "merged_at": "2026-03-19T04:37:18Z",
+      "author": "Nixtown",
+      "author_avatar": "https://avatars.githubusercontent.com/u/70921913?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/873",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "closehack",
+          "service_id": "dev.website",
+          "filename": "closehack.dev.website.json",
+          "logo_url": "https://studio.closehack.com/closehack-domain-connect.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 840,
       "title": "Add spinlab.studio Platform template",
       "state": "closed",
@@ -3375,86 +3489,13 @@
           "status": "modified"
         }
       ]
-    },
-    {
-      "number": 865,
-      "title": "Add Domain Connect templates for emailr.dev (send, send-receive)",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-14T22:02:04Z",
-      "updated_at": "2026-03-16T08:12:36Z",
-      "merged_at": "2026-03-16T08:12:36Z",
-      "author": "saeedmsdi",
-      "author_avatar": "https://avatars.githubusercontent.com/u/3229325?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/865",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "emailr",
-          "service_id": "dev.send-receive",
-          "filename": "emailr.dev.send-receive.json",
-          "logo_url": "https://emailr.dev/black_logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "emailr",
-          "service_id": "dev.send",
-          "filename": "emailr.dev.send.json",
-          "logo_url": "https://emailr.dev/black_logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 862,
-      "title": "Add sitenyx.com website-hosting template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-14T20:26:03Z",
-      "updated_at": "2026-03-15T15:06:21Z",
-      "merged_at": "2026-03-15T15:06:21Z",
-      "author": "reza-ariyan",
-      "author_avatar": "https://avatars.githubusercontent.com/u/16482584?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/862",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sitenyx",
-          "service_id": "com.website-hosting",
-          "filename": "sitenyx.com.website-hosting.json",
-          "logo_url": "https://sitenyx.com/images/logo.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 863,
-      "title": "Add SendKit email template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-14T20:42:03Z",
-      "updated_at": "2026-03-15T15:05:16Z",
-      "merged_at": "2026-03-15T15:05:16Z",
-      "author": "paulocastellano",
-      "author_avatar": "https://avatars.githubusercontent.com/u/265964?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/863",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sendkit",
-          "service_id": "dev.mail",
-          "filename": "sendkit.dev.mail.json",
-          "logo_url": "https://cdn.sendkit.dev/domain-connect.png",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 442,
+        "review_count": 445,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3486,7 +3527,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 51,
+        "review_count": 54,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3521,6 +3562,15 @@
       "provider_name": "2fifteen",
       "service_name": "Domain Verification",
       "logo_url": "https://static.2fifteen.io/2FIFTEEN%20TECH%20LOGOS/2Fifteen%20Icon.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "8s.io.ownership-verification.json",
+      "provider_id": "8s.io",
+      "service_id": "ownership-verification",
+      "provider_name": "8s.io",
+      "service_name": "8s.io Domain Ownership Verification",
+      "logo_url": "https://raw.githubusercontent.com/josuegiomexia/8s-domain-connect-onboarding/main/assets/8s.io-logo.svg",
       "record_count": 1
     },
     {
@@ -3999,6 +4049,15 @@
       "service_name": "Clerk Application",
       "logo_url": null,
       "record_count": 5
+    },
+    {
+      "filename": "closehack.dev.website.json",
+      "provider_id": "closehack.dev",
+      "service_id": "website",
+      "provider_name": "CloseHack",
+      "service_name": "CloseHack Site",
+      "logo_url": "https://studio.closehack.com/closehack-domain-connect.png",
+      "record_count": 1
     },
     {
       "filename": "coda.io.apexdomain.json",
@@ -7338,6 +7397,15 @@
       "service_name": "SagaSoft-xyz",
       "logo_url": "https://sagasoft.xyz/static/media/logo.b4e1e079185540b34b1f.png",
       "record_count": 5
+    },
+    {
+      "filename": "seatbeltsecurity.com.email-auth.json",
+      "provider_id": "seatbeltsecurity.com",
+      "service_id": "email-auth",
+      "provider_name": "Seatbelt Security",
+      "service_name": "Email Authentication",
+      "logo_url": "https://seatbeltsecurity.com/marketing/logo-icon.png",
+      "record_count": 3
     },
     {
       "filename": "secureserver.net.cpanel.json",
