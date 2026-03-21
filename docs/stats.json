@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-20T01:07:47.116463",
+  "generated_at": "2026-03-21T01:03:40.837591",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 564,
-    "total_providers": 299,
-    "total_merged_prs": 675,
+    "total_templates": 567,
+    "total_providers": 302,
+    "total_merged_prs": 678,
     "total_open_prs": 19,
-    "total_contributors": 327,
-    "avg_records_per_template": 3.45
+    "total_contributors": 330,
+    "avg_records_per_template": 3.44
   },
   "templates_growth": [
     {
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 60,
+      "added": 63,
       "deleted": 0,
-      "cumulative": 564
+      "cumulative": 567
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 41,
-      "cumulative": 299
+      "added": 44,
+      "cumulative": 302
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 75,
-      "merged": 59
+      "created": 78,
+      "merged": 62
     }
   ],
   "pr_time_to_merge": [
@@ -2019,11 +2019,11 @@
     {
       "month": "2026-03",
       "AI crap": 2,
-      "Checklist of common problems not complete": 35,
+      "Checklist of common problems not complete": 36,
       "Chores": 0,
-      "PR description incomplete": 41,
+      "PR description incomplete": 43,
       "Stale": 0,
-      "Test links missing": 59,
+      "Test links missing": 62,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 2,
@@ -2424,11 +2424,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 417
+      "count": 420
     },
     {
       "type": "TXT",
-      "count": 244
+      "count": 245
     },
     {
       "type": "A",
@@ -2436,11 +2436,11 @@
     },
     {
       "type": "SPFM",
-      "count": 114
+      "count": 115
     },
     {
       "type": "MX",
-      "count": 101
+      "count": 102
     },
     {
       "type": "SRV",
@@ -2668,6 +2668,24 @@
         "template_count": 2
       },
       {
+        "provider_id": "hietek.com",
+        "provider_name": "Hietek",
+        "logo_url": "https://hietek.com/favicon.png",
+        "template_count": 1
+      },
+      {
+        "provider_id": "xmit.sh",
+        "provider_name": "Transmit",
+        "logo_url": "https://xmit.sh/logo.png",
+        "template_count": 1
+      },
+      {
+        "provider_id": "tidycal.com",
+        "provider_name": "TidyCal",
+        "logo_url": "https://tidycal.com/img/logo-blue.svg",
+        "template_count": 1
+      },
+      {
         "provider_id": "seatbeltsecurity.com",
         "provider_name": "Seatbelt Security",
         "logo_url": "https://seatbeltsecurity.com/marketing/logo-icon.png",
@@ -2696,39 +2714,21 @@
         "provider_name": "Sitenyx",
         "logo_url": "https://sitenyx.com/images/logo.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "sendkit.dev",
-        "provider_name": "SendKit",
-        "logo_url": "https://cdn.sendkit.dev/domain-connect.png",
-        "template_count": 1
-      },
-      {
-        "provider_id": "your.tube",
-        "provider_name": "Your.tube",
-        "logo_url": "https://your.tube/themes/logo.png",
-        "template_count": 1
-      },
-      {
-        "provider_id": "mailglyph.com",
-        "provider_name": "MailGlyph",
-        "logo_url": "https://cdn.mailglyph.com/assets/logo.svg",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 564,
+    "total_templates": 567,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 494
+        "count": 497
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 348
+        "count": 350
       },
       {
         "name": "warnPhishing",
@@ -2738,30 +2738,55 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 142
+        "count": 144
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 877,
-      "title": "Add Transmit (xmit.sh) email template",
+      "number": 880,
+      "title": "Add olitt website template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-19T22:28:55Z",
-      "updated_at": "2026-03-19T23:04:16Z",
+      "created_at": "2026-03-20T11:22:51Z",
+      "updated_at": "2026-03-20T13:29:11Z",
+      "merged_at": null,
+      "author": "max-the-sr-dev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/71072310?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/880",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "olitt",
+          "service_id": "com.website",
+          "filename": "olitt.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 879,
+      "title": "Update Transmit (xmit.sh) email template v2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-20T11:19:26Z",
+      "updated_at": "2026-03-20T11:22:00Z",
       "merged_at": null,
       "author": "beingretrogamer",
       "author_avatar": "https://avatars.githubusercontent.com/u/168362815?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/877",
-      "labels": [],
+      "url": "https://github.com/Domain-Connect/Templates/pull/879",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing"
+      ],
       "templates": [
         {
           "provider_id": "xmit",
           "service_id": "sh.email",
           "filename": "xmit.sh.email.json",
-          "logo_url": null,
-          "status": "added"
+          "logo_url": "https://xmit.sh/logo.png",
+          "status": "modified"
         }
       ]
     },
@@ -2771,7 +2796,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-19T22:24:59Z",
-      "updated_at": "2026-03-19T22:30:36Z",
+      "updated_at": "2026-03-20T10:40:30Z",
       "merged_at": null,
       "author": "EstebX",
       "author_avatar": "https://avatars.githubusercontent.com/u/100437198?v=4",
@@ -2784,28 +2809,6 @@
           "provider_id": "monpetitbistro",
           "service_id": "com.website",
           "filename": "monpetitbistro.com.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 875,
-      "title": "Add TidyCal CNAME template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-19T18:10:17Z",
-      "updated_at": "2026-03-19T22:56:43Z",
-      "merged_at": null,
-      "author": "marnietave",
-      "author_avatar": "https://avatars.githubusercontent.com/u/10681447?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/875",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "tidycal",
-          "service_id": "com.tidycal.com",
-          "filename": "tidycal.com.tidycal.com.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3260,6 +3263,72 @@
       ]
     },
     {
+      "number": 875,
+      "title": "Add TidyCal CNAME template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-19T18:10:17Z",
+      "updated_at": "2026-03-20T17:50:15Z",
+      "merged_at": "2026-03-20T10:34:52Z",
+      "author": "marnietave",
+      "author_avatar": "https://avatars.githubusercontent.com/u/10681447?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/875",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "tidycal",
+          "service_id": "com.tidycal.com",
+          "filename": "tidycal.com.tidycal.com.json",
+          "logo_url": "https://tidycal.com/img/logo-blue.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 877,
+      "title": "Add Transmit (xmit.sh) email template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-19T22:28:55Z",
+      "updated_at": "2026-03-20T11:02:05Z",
+      "merged_at": "2026-03-20T10:59:00Z",
+      "author": "beingretrogamer",
+      "author_avatar": "https://avatars.githubusercontent.com/u/168362815?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/877",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "xmit",
+          "service_id": "sh.email",
+          "filename": "xmit.sh.email.json",
+          "logo_url": "https://xmit.sh/logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 878,
+      "title": "Add hietek.com.landing-page template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-20T10:34:58Z",
+      "updated_at": "2026-03-20T11:02:00Z",
+      "merged_at": "2026-03-20T11:02:00Z",
+      "author": "hadeskers",
+      "author_avatar": "https://avatars.githubusercontent.com/u/16588677?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/878",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "hietek",
+          "service_id": "com.landing-page",
+          "filename": "hietek.com.landing-page.json",
+          "logo_url": "https://hietek.com/favicon.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 871,
       "title": "Add seatbeltsecurity.com email authentication template",
       "state": "closed",
@@ -3416,86 +3485,13 @@
           "status": "modified"
         }
       ]
-    },
-    {
-      "number": 868,
-      "title": "Update sendkit.dev.mail template to v2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-16T12:35:13Z",
-      "updated_at": "2026-03-16T12:56:07Z",
-      "merged_at": "2026-03-16T12:56:07Z",
-      "author": "paulocastellano",
-      "author_avatar": "https://avatars.githubusercontent.com/u/265964?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/868",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sendkit",
-          "service_id": "dev.mail",
-          "filename": "sendkit.dev.mail.json",
-          "logo_url": "https://cdn.sendkit.dev/domain-connect.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 857,
-      "title": "Add theqrcode.co QR redirect templates",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-13T19:21:04Z",
-      "updated_at": "2026-03-16T08:23:41Z",
-      "merged_at": "2026-03-16T08:23:41Z",
-      "author": "kylewhirl",
-      "author_avatar": "https://avatars.githubusercontent.com/u/65330257?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/857",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "theqrcode",
-          "service_id": "co.vercel-qr-a",
-          "filename": "theqrcode.co.vercel-qr-a.json",
-          "logo_url": "https://theqrcode.co/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "theqrcode",
-          "service_id": "co.vercel-qr-cname",
-          "filename": "theqrcode.co.vercel-qr-cname.json",
-          "logo_url": "https://theqrcode.co/logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 866,
-      "title": "Update rebelsender.com.mail template to v3",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-16T02:12:46Z",
-      "updated_at": "2026-03-16T08:12:37Z",
-      "merged_at": "2026-03-16T08:12:36Z",
-      "author": "vibhuis-es",
-      "author_avatar": "https://avatars.githubusercontent.com/u/164148367?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/866",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "rebelsender",
-          "service_id": "com.mail",
-          "filename": "rebelsender.com.mail.json",
-          "logo_url": "https://rebelsender.com/logo.svg",
-          "status": "modified"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 445,
+        "review_count": 448,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3527,7 +3523,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 54,
+        "review_count": 57,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -5752,6 +5748,15 @@
       "record_count": 3
     },
     {
+      "filename": "hietek.com.landing-page.json",
+      "provider_id": "hietek.com",
+      "service_id": "landing-page",
+      "provider_name": "Hietek",
+      "service_name": "Hietek Landing Page",
+      "logo_url": "https://hietek.com/favicon.png",
+      "record_count": 1
+    },
+    {
       "filename": "honeybook.com.custom-domain-prod.json",
       "provider_id": "honeybook.com",
       "service_id": "custom-domain-prod",
@@ -7939,6 +7944,15 @@
       "record_count": 1
     },
     {
+      "filename": "tidycal.com.tidycal.com.json",
+      "provider_id": "tidycal.com",
+      "service_id": "tidycal.com",
+      "provider_name": "TidyCal",
+      "service_name": "TidyCal Scheduling",
+      "logo_url": "https://tidycal.com/img/logo-blue.svg",
+      "record_count": 1
+    },
+    {
       "filename": "tigermail.io.email-send.json",
       "provider_id": "tigermail.io",
       "service_id": "email-send",
@@ -8513,6 +8527,15 @@
       "service_name": "WP Engine Digital Experience Platform",
       "logo_url": "https://www.domainconnect.org/wp-content/uploads/2018/03/LGO-WPEngine-Horiz-reg-RGB-768x146.png",
       "record_count": 1
+    },
+    {
+      "filename": "xmit.sh.email.json",
+      "provider_id": "xmit.sh",
+      "service_id": "email",
+      "provider_name": "Transmit",
+      "service_name": "Email Sending & Receiving",
+      "logo_url": "https://xmit.sh/logo.png",
+      "record_count": 6
     },
     {
       "filename": "xperiencify.io.customdomain.json",
