@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-23T01:12:48.538477",
+  "generated_at": "2026-03-24T01:05:03.683010",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 569,
-    "total_providers": 304,
-    "total_merged_prs": 680,
+    "total_templates": 573,
+    "total_providers": 305,
+    "total_merged_prs": 683,
     "total_open_prs": 22,
-    "total_contributors": 332,
+    "total_contributors": 333,
     "avg_records_per_template": 3.44
   },
   "templates_growth": [
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 65,
+      "added": 69,
       "deleted": 0,
-      "cumulative": 569
+      "cumulative": 573
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 46,
-      "cumulative": 304
+      "added": 47,
+      "cumulative": 305
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 83,
-      "merged": 64
+      "created": 88,
+      "merged": 67
     }
   ],
   "pr_time_to_merge": [
@@ -2018,17 +2018,17 @@
     },
     {
       "month": "2026-03",
-      "AI crap": 2,
-      "Checklist of common problems not complete": 39,
+      "AI crap": 3,
+      "Checklist of common problems not complete": 42,
       "Chores": 0,
-      "PR description incomplete": 46,
+      "PR description incomplete": 49,
       "Stale": 0,
-      "Test links missing": 67,
+      "Test links missing": 72,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 2,
       "question": 2,
-      "schema-error": 5
+      "schema-error": 6
     }
   ],
   "pr_comment_activity": [
@@ -2418,25 +2418,25 @@
     },
     {
       "month": "2026-03",
-      "avg_comments": 0.5
+      "avg_comments": 0.6
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 422
+      "count": 425
     },
     {
       "type": "TXT",
-      "count": 245
+      "count": 246
     },
     {
       "type": "A",
-      "count": 214
+      "count": 215
     },
     {
       "type": "SPFM",
-      "count": 116
+      "count": 117
     },
     {
       "type": "MX",
@@ -2608,6 +2608,12 @@
         "template_count": 6
       },
       {
+        "provider_id": "nashra.ai",
+        "provider_name": "Nashra",
+        "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
+        "template_count": 3
+      },
+      {
         "provider_id": "boti.bot",
         "provider_name": "Boti",
         "logo_url": "https://boti.bot/boti512.png",
@@ -2618,6 +2624,12 @@
         "provider_name": "GrowSurf",
         "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
         "template_count": 3
+      },
+      {
+        "provider_id": "getowlet.ai",
+        "provider_name": "Branch by Getowlet",
+        "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
+        "template_count": 2
       },
       {
         "provider_id": "theqrcode.co",
@@ -2668,12 +2680,6 @@
         "template_count": 2
       },
       {
-        "provider_id": "getowlet.ai",
-        "provider_name": "Branch by Getowlet",
-        "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
-        "template_count": 1
-      },
-      {
         "provider_id": "olitt.com",
         "provider_name": "Olitt",
         "logo_url": "https://s3.olitt.com/static/assets/img/olitt-logo.webp",
@@ -2708,27 +2714,21 @@
         "provider_name": "8s.io",
         "logo_url": "https://raw.githubusercontent.com/josuegiomexia/8s-domain-connect-onboarding/main/assets/8s.io-logo.svg",
         "template_count": 1
-      },
-      {
-        "provider_id": "closehack.dev",
-        "provider_name": "CloseHack",
-        "logo_url": "https://studio.closehack.com/closehack-domain-connect.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 569,
+    "total_templates": 573,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 499
+        "count": 503
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 351
+        "count": 355
       },
       {
         "name": "warnPhishing",
@@ -2738,23 +2738,72 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 144
+        "count": 146
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 890,
+      "title": "Add cashwebdev.com.website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-23T22:29:15Z",
+      "updated_at": "2026-03-23T22:58:04Z",
+      "merged_at": null,
+      "author": "cashcon57",
+      "author_avatar": "https://avatars.githubusercontent.com/u/24542086?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/890",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "cashwebdev",
+          "service_id": "com.website",
+          "filename": "cashwebdev.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 887,
+      "title": "Add template for Bloffee AI Blog Platform",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-23T14:13:25Z",
+      "updated_at": "2026-03-23T18:50:51Z",
+      "merged_at": null,
+      "author": "Dries1971",
+      "author_avatar": "https://avatars.githubusercontent.com/u/174714308?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/887",
+      "labels": [
+        "AI crap"
+      ],
+      "templates": [
+        {
+          "provider_id": "bloffee",
+          "service_id": "com.blog",
+          "filename": "bloffee.com.blog.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 885,
       "title": "Add AuthGravity template",
       "state": "open",
       "merged": false,
       "created_at": "2026-03-22T15:48:53Z",
-      "updated_at": "2026-03-22T15:49:29Z",
+      "updated_at": "2026-03-23T07:22:43Z",
       "merged_at": null,
       "author": "polvi",
       "author_avatar": "https://avatars.githubusercontent.com/u/46035?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/885",
       "labels": [
+        "AI crap",
         "Test links missing"
       ],
       "templates": [
@@ -2812,42 +2861,6 @@
           "provider_id": "delegated",
           "service_id": "to.site",
           "filename": "delegated.to.site.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 881,
-      "title": "add nashra.ai templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-21T11:10:11Z",
-      "updated_at": "2026-03-21T11:27:59Z",
-      "merged_at": null,
-      "author": "saleem-hadad",
-      "author_avatar": "https://avatars.githubusercontent.com/u/12780866?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/881",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "nashra",
-          "service_id": "ai.blog-hosting-root",
-          "filename": "nashra.ai.blog-hosting-root.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "nashra",
-          "service_id": "ai.blog-hosting-subdomain",
-          "filename": "nashra.ai.blog-hosting-subdomain.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "nashra",
-          "service_id": "ai.email-sending",
-          "filename": "nashra.ai.email-sending.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2929,31 +2942,6 @@
           "provider_id": "meteorack",
           "service_id": "app.hosting-subdomain-v1",
           "filename": "meteorack.app.hosting-subdomain-v1.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 845,
-      "title": "Add ClearCMS website template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-11T07:01:38Z",
-      "updated_at": "2026-03-11T07:41:46Z",
-      "merged_at": null,
-      "author": "slavasolutions",
-      "author_avatar": "https://avatars.githubusercontent.com/u/134661922?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/845",
-      "labels": [
-        "PR description incomplete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "clearcms",
-          "service_id": "app.website",
-          "filename": "clearcms.app.website.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3351,6 +3339,86 @@
       ]
     },
     {
+      "number": 888,
+      "title": "Add Branch (getowlet.ai) help-center template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-23T14:14:32Z",
+      "updated_at": "2026-03-23T20:00:29Z",
+      "merged_at": "2026-03-23T20:00:29Z",
+      "author": "therealinvoker",
+      "author_avatar": "https://avatars.githubusercontent.com/u/161081502?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/888",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "getowlet",
+          "service_id": "ai.help-center",
+          "filename": "getowlet.ai.help-center.json",
+          "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 886,
+      "title": "Update rebelsender.com.mail: add all 3 Easy DKIM CNAMEs + BYODKIM group",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-23T13:56:44Z",
+      "updated_at": "2026-03-23T19:27:37Z",
+      "merged_at": "2026-03-23T19:27:36Z",
+      "author": "vibhuis-es",
+      "author_avatar": "https://avatars.githubusercontent.com/u/164148367?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/886",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "rebelsender",
+          "service_id": "com.mail",
+          "filename": "rebelsender.com.mail.json",
+          "logo_url": "https://rebelsender.com/logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 881,
+      "title": "add nashra.ai templates",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-21T11:10:11Z",
+      "updated_at": "2026-03-23T07:17:35Z",
+      "merged_at": "2026-03-23T07:17:35Z",
+      "author": "saleem-hadad",
+      "author_avatar": "https://avatars.githubusercontent.com/u/12780866?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/881",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "nashra",
+          "service_id": "ai.blog-hosting-root",
+          "filename": "nashra.ai.blog-hosting-root.json",
+          "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
+          "status": "added"
+        },
+        {
+          "provider_id": "nashra",
+          "service_id": "ai.blog-hosting-subdomain",
+          "filename": "nashra.ai.blog-hosting-subdomain.json",
+          "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
+          "status": "added"
+        },
+        {
+          "provider_id": "nashra",
+          "service_id": "ai.email-sending",
+          "filename": "nashra.ai.email-sending.json",
+          "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 882,
       "title": "Add Branch (getowlet.ai) email support template",
       "state": "closed",
@@ -3505,81 +3573,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 873,
-      "title": "Add CloseHack website template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T04:29:29Z",
-      "updated_at": "2026-03-19T05:17:53Z",
-      "merged_at": "2026-03-19T04:37:18Z",
-      "author": "Nixtown",
-      "author_avatar": "https://avatars.githubusercontent.com/u/70921913?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/873",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "closehack",
-          "service_id": "dev.website",
-          "filename": "closehack.dev.website.json",
-          "logo_url": "https://studio.closehack.com/closehack-domain-connect.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 840,
-      "title": "Add spinlab.studio Platform template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-10T09:47:02Z",
-      "updated_at": "2026-03-17T21:06:39Z",
-      "merged_at": "2026-03-17T21:06:39Z",
-      "author": "SwartZCoding",
-      "author_avatar": "https://avatars.githubusercontent.com/u/39431572?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/840",
-      "labels": [
-        "question"
-      ],
-      "templates": [
-        {
-          "provider_id": "spinlab",
-          "service_id": "studio.casino",
-          "filename": "spinlab.studio.casino.json",
-          "logo_url": "https://cdn.spinlab.studio/logo-spinlab.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 870,
-      "title": "Update MailGlyph template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-17T14:45:07Z",
-      "updated_at": "2026-03-17T15:35:27Z",
-      "merged_at": "2026-03-17T15:35:26Z",
-      "author": "mmihalev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5316128?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/870",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "mailglyph",
-          "service_id": "com.mail-send-and-receive",
-          "filename": "mailglyph.com.mail-send-and-receive.json",
-          "logo_url": "https://cdn.mailglyph.com/assets/logo.svg",
-          "status": "modified"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 450,
+        "review_count": 453,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3611,7 +3611,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 57,
+        "review_count": 60,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4826,6 +4826,15 @@
       "service_name": "Branch Email Support",
       "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
       "record_count": 5
+    },
+    {
+      "filename": "getowlet.ai.help-center.json",
+      "provider_id": "getowlet.ai",
+      "service_id": "help-center",
+      "provider_name": "Branch by Getowlet",
+      "service_name": "Branch Help Center",
+      "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
+      "record_count": 1
     },
     {
       "filename": "getreadydigital.com.cname-record.json",
@@ -6871,6 +6880,33 @@
       "record_count": 2
     },
     {
+      "filename": "nashra.ai.blog-hosting-root.json",
+      "provider_id": "nashra.ai",
+      "service_id": "blog-hosting-root",
+      "provider_name": "Nashra",
+      "service_name": "Nashra Blog Hosting (Root Domain)",
+      "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "nashra.ai.blog-hosting-subdomain.json",
+      "provider_id": "nashra.ai",
+      "service_id": "blog-hosting-subdomain",
+      "provider_name": "Nashra",
+      "service_name": "Nashra Blog Hosting (Subdomain)",
+      "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "nashra.ai.email-sending.json",
+      "provider_id": "nashra.ai",
+      "service_id": "email-sending",
+      "provider_name": "Nashra",
+      "service_name": "Nashra Email Sending",
+      "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
+      "record_count": 5
+    },
+    {
       "filename": "neo-fin.com.control-panel.json",
       "provider_id": "neo-fin.com",
       "service_id": "control-panel",
@@ -7336,7 +7372,7 @@
       "provider_name": "RebelSender",
       "service_name": "Mail",
       "logo_url": "https://rebelsender.com/logo.svg",
-      "record_count": 6
+      "record_count": 8
     },
     {
       "filename": "redirect.pizza.apex-www.json",
