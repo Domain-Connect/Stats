@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-24T01:05:03.683010",
+  "generated_at": "2026-03-25T01:10:32.272602",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 573,
-    "total_providers": 305,
-    "total_merged_prs": 683,
-    "total_open_prs": 22,
-    "total_contributors": 333,
+    "total_templates": 574,
+    "total_providers": 306,
+    "total_merged_prs": 684,
+    "total_open_prs": 25,
+    "total_contributors": 334,
     "avg_records_per_template": 3.44
   },
   "templates_growth": [
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 69,
+      "added": 70,
       "deleted": 0,
-      "cumulative": 573
+      "cumulative": 574
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 47,
-      "cumulative": 305
+      "added": 48,
+      "cumulative": 306
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 88,
-      "merged": 67
+      "created": 92,
+      "merged": 68
     }
   ],
   "pr_time_to_merge": [
@@ -2019,16 +2019,16 @@
     {
       "month": "2026-03",
       "AI crap": 3,
-      "Checklist of common problems not complete": 42,
+      "Checklist of common problems not complete": 44,
       "Chores": 0,
-      "PR description incomplete": 49,
+      "PR description incomplete": 52,
       "Stale": 0,
-      "Test links missing": 72,
+      "Test links missing": 76,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 2,
+      "filename-error": 3,
       "question": 2,
-      "schema-error": 6
+      "schema-error": 7
     }
   ],
   "pr_comment_activity": [
@@ -2424,11 +2424,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 425
+      "count": 426
     },
     {
       "type": "TXT",
-      "count": 246
+      "count": 247
     },
     {
       "type": "A",
@@ -2436,7 +2436,7 @@
     },
     {
       "type": "SPFM",
-      "count": 117
+      "count": 118
     },
     {
       "type": "MX",
@@ -2680,6 +2680,12 @@
         "template_count": 2
       },
       {
+        "provider_id": "one-email.com",
+        "provider_name": "One-Email",
+        "logo_url": "https://one-email.com/icon.svg",
+        "template_count": 1
+      },
+      {
         "provider_id": "olitt.com",
         "provider_name": "Olitt",
         "logo_url": "https://s3.olitt.com/static/assets/img/olitt-logo.webp",
@@ -2708,27 +2714,21 @@
         "provider_name": "Seatbelt Security",
         "logo_url": "https://seatbeltsecurity.com/marketing/logo-icon.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "8s.io",
-        "provider_name": "8s.io",
-        "logo_url": "https://raw.githubusercontent.com/josuegiomexia/8s-domain-connect-onboarding/main/assets/8s.io-logo.svg",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 573,
+    "total_templates": 574,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 503
+        "count": 504
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 355
+        "count": 356
       },
       {
         "name": "warnPhishing",
@@ -2744,19 +2744,86 @@
   },
   "recent_prs": [
     {
+      "number": 894,
+      "title": "Add PostStack email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-24T21:02:00Z",
+      "updated_at": "2026-03-24T23:37:27Z",
+      "merged_at": null,
+      "author": "miccidk",
+      "author_avatar": "https://avatars.githubusercontent.com/u/62903713?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/894",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "poststack",
+          "service_id": "dev.email",
+          "filename": "poststack.dev.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 893,
+      "title": "Add getisi.ai sendgrid-email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-24T17:13:11Z",
+      "updated_at": "2026-03-24T17:17:40Z",
+      "merged_at": null,
+      "author": "diheinsohn",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7909678?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/893",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "getisi",
+          "service_id": "ai.sendgrid-email",
+          "filename": "getisi.ai.sendgrid-email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 892,
+      "title": "GetHERD PR",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-24T11:40:42Z",
+      "updated_at": "2026-03-24T11:45:45Z",
+      "merged_at": null,
+      "author": "mlfrancis123",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7196787?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/892",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "cms",
+          "service_id": "getherd.ai.site-hosting",
+          "filename": "cms.getherd.ai.site-hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 890,
       "title": "Add cashwebdev.com.website template",
       "state": "open",
       "merged": false,
       "created_at": "2026-03-23T22:29:15Z",
-      "updated_at": "2026-03-23T22:58:04Z",
+      "updated_at": "2026-03-24T22:37:13Z",
       "merged_at": null,
       "author": "cashcon57",
       "author_avatar": "https://avatars.githubusercontent.com/u/24542086?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/890",
-      "labels": [
-        "Test links missing"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "cashwebdev",
@@ -2822,16 +2889,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-21T19:41:53Z",
-      "updated_at": "2026-03-21T19:42:24Z",
+      "updated_at": "2026-03-24T20:39:23Z",
       "merged_at": null,
       "author": "brandythesummit-ai",
       "author_avatar": "https://avatars.githubusercontent.com/u/240205928?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/884",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "thesummit",
@@ -3339,6 +3402,28 @@
       ]
     },
     {
+      "number": 891,
+      "title": "Create one-email.com.email.json",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-24T09:22:21Z",
+      "updated_at": "2026-03-24T09:51:02Z",
+      "merged_at": "2026-03-24T09:51:02Z",
+      "author": "imp02121",
+      "author_avatar": "https://avatars.githubusercontent.com/u/257320131?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/891",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "one-email",
+          "service_id": "com.email",
+          "filename": "one-email.com.email.json",
+          "logo_url": "https://one-email.com/icon.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 888,
       "title": "Add Branch (getowlet.ai) help-center template",
       "state": "closed",
@@ -3549,37 +3634,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 874,
-      "title": "Add 8s.io ownership verification template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T11:35:38Z",
-      "updated_at": "2026-03-19T17:45:59Z",
-      "merged_at": "2026-03-19T17:45:59Z",
-      "author": "josuegiomexia",
-      "author_avatar": "https://avatars.githubusercontent.com/u/74624915?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/874",
-      "labels": [
-        "AI crap"
-      ],
-      "templates": [
-        {
-          "provider_id": "8s",
-          "service_id": "io.ownership-verification",
-          "filename": "8s.io.ownership-verification.json",
-          "logo_url": "https://raw.githubusercontent.com/josuegiomexia/8s-domain-connect-onboarding/main/assets/8s.io-logo.svg",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 453,
+        "review_count": 454,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3611,7 +3672,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 60,
+        "review_count": 61,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -6986,6 +7047,15 @@
       "service_name": "Olitt Website Hosting",
       "logo_url": "https://s3.olitt.com/static/assets/img/olitt-logo.webp",
       "record_count": 2
+    },
+    {
+      "filename": "one-email.com.email.json",
+      "provider_id": "one-email.com",
+      "service_id": "email",
+      "provider_name": "One-Email",
+      "service_name": "One-Email Transactional and Marketing Email",
+      "logo_url": "https://one-email.com/icon.svg",
+      "record_count": 5
     },
     {
       "filename": "onestream.live.web-domain-and-subdomain.json",
