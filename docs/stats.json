@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-25T01:10:32.272602",
+  "generated_at": "2026-03-26T01:16:05.690559",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 574,
-    "total_providers": 306,
-    "total_merged_prs": 684,
-    "total_open_prs": 25,
-    "total_contributors": 334,
+    "total_templates": 580,
+    "total_providers": 312,
+    "total_merged_prs": 690,
+    "total_open_prs": 21,
+    "total_contributors": 340,
     "avg_records_per_template": 3.44
   },
   "templates_growth": [
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 70,
+      "added": 76,
       "deleted": 0,
-      "cumulative": 574
+      "cumulative": 580
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 48,
-      "cumulative": 306
+      "added": 54,
+      "cumulative": 312
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 92,
-      "merged": 68
+      "created": 94,
+      "merged": 74
     }
   ],
   "pr_time_to_merge": [
@@ -1886,7 +1886,7 @@
     },
     {
       "month": "2026-03",
-      "avg_days": 0.6
+      "avg_days": 0.7
     }
   ],
   "pr_label_activity": [
@@ -1895,6 +1895,7 @@
       "AI crap": 0,
       "Checklist of common problems not complete": 0,
       "Chores": 0,
+      "Forged editor links": 0,
       "PR description incomplete": 0,
       "Stale": 1,
       "Test links missing": 0,
@@ -1909,6 +1910,7 @@
       "AI crap": 0,
       "Checklist of common problems not complete": 0,
       "Chores": 0,
+      "Forged editor links": 0,
       "PR description incomplete": 0,
       "Stale": 1,
       "Test links missing": 0,
@@ -1923,6 +1925,7 @@
       "AI crap": 0,
       "Checklist of common problems not complete": 0,
       "Chores": 0,
+      "Forged editor links": 0,
       "PR description incomplete": 0,
       "Stale": 1,
       "Test links missing": 0,
@@ -1937,6 +1940,7 @@
       "AI crap": 0,
       "Checklist of common problems not complete": 0,
       "Chores": 0,
+      "Forged editor links": 0,
       "PR description incomplete": 0,
       "Stale": 1,
       "Test links missing": 0,
@@ -1951,6 +1955,7 @@
       "AI crap": 0,
       "Checklist of common problems not complete": 0,
       "Chores": 0,
+      "Forged editor links": 0,
       "PR description incomplete": 0,
       "Stale": 1,
       "Test links missing": 0,
@@ -1965,6 +1970,7 @@
       "AI crap": 0,
       "Checklist of common problems not complete": 0,
       "Chores": 0,
+      "Forged editor links": 0,
       "PR description incomplete": 0,
       "Stale": 1,
       "Test links missing": 0,
@@ -1979,6 +1985,7 @@
       "AI crap": 1,
       "Checklist of common problems not complete": 1,
       "Chores": 0,
+      "Forged editor links": 0,
       "PR description incomplete": 3,
       "Stale": 3,
       "Test links missing": 1,
@@ -1993,6 +2000,7 @@
       "AI crap": 2,
       "Checklist of common problems not complete": 7,
       "Chores": 1,
+      "Forged editor links": 0,
       "PR description incomplete": 8,
       "Stale": 4,
       "Test links missing": 2,
@@ -2007,6 +2015,7 @@
       "AI crap": 4,
       "Checklist of common problems not complete": 15,
       "Chores": 0,
+      "Forged editor links": 0,
       "PR description incomplete": 21,
       "Stale": 0,
       "Test links missing": 7,
@@ -2019,11 +2028,12 @@
     {
       "month": "2026-03",
       "AI crap": 3,
-      "Checklist of common problems not complete": 44,
+      "Checklist of common problems not complete": 46,
       "Chores": 0,
-      "PR description incomplete": 52,
+      "Forged editor links": 1,
+      "PR description incomplete": 54,
       "Stale": 0,
-      "Test links missing": 76,
+      "Test links missing": 78,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 3,
@@ -2424,19 +2434,19 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 426
+      "count": 431
     },
     {
       "type": "TXT",
-      "count": 247
+      "count": 251
     },
     {
       "type": "A",
-      "count": 215
+      "count": 216
     },
     {
       "type": "SPFM",
-      "count": 118
+      "count": 121
     },
     {
       "type": "MX",
@@ -2620,12 +2630,6 @@
         "template_count": 3
       },
       {
-        "provider_id": "growsurf.com",
-        "provider_name": "GrowSurf",
-        "logo_url": "https://app.growsurf.com/assets/img/logo/iconmark-blue.png",
-        "template_count": 3
-      },
-      {
         "provider_id": "getowlet.ai",
         "provider_name": "Branch by Getowlet",
         "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
@@ -2668,16 +2672,40 @@
         "template_count": 2
       },
       {
-        "provider_id": "readymag.com",
-        "provider_name": "Readymag",
-        "logo_url": "https://public.readym.ag/domain-connect/logo.svg",
-        "template_count": 2
+        "provider_id": "sendcanary.com",
+        "provider_name": "SendCanary",
+        "logo_url": "https://sendcanary.com/logo.svg",
+        "template_count": 1
       },
       {
-        "provider_id": "magicpages.co",
-        "provider_name": "Magic Pages",
-        "logo_url": "https://www.magicpages.co/content/images/2026/02/magic-pages_full-logo_dark-plum.svg",
-        "template_count": 2
+        "provider_id": "bloffee.com",
+        "provider_name": "Bloffee",
+        "logo_url": "https://bloffee.com/bloffee-logo.png",
+        "template_count": 1
+      },
+      {
+        "provider_id": "poststack.dev",
+        "provider_name": "PostStack",
+        "logo_url": "https://poststack.dev/logo.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "thesummit.ai",
+        "provider_name": "Summit Mailguard",
+        "logo_url": "https://mailguard.thesummit.ai/logo.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "cashwebdev.com",
+        "provider_name": "CashWebDev",
+        "logo_url": "https://cashwebdev.com/og-image.png",
+        "template_count": 1
+      },
+      {
+        "provider_id": "getisi.ai",
+        "provider_name": "Isi.ai",
+        "logo_url": "https://app.getisi.ai/logo-icon.png",
+        "template_count": 1
       },
       {
         "provider_id": "one-email.com",
@@ -2696,39 +2724,21 @@
         "provider_name": "Hietek",
         "logo_url": "https://hietek.com/favicon.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "xmit.sh",
-        "provider_name": "Transmit",
-        "logo_url": "https://xmit.sh/logo.png",
-        "template_count": 1
-      },
-      {
-        "provider_id": "tidycal.com",
-        "provider_name": "TidyCal",
-        "logo_url": "https://tidycal.com/img/logo-blue.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "seatbeltsecurity.com",
-        "provider_name": "Seatbelt Security",
-        "logo_url": "https://seatbeltsecurity.com/marketing/logo-icon.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 574,
+    "total_templates": 580,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 504
+        "count": 510
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 356
+        "count": 361
       },
       {
         "name": "warnPhishing",
@@ -2738,50 +2748,31 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 146
+        "count": 147
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 894,
-      "title": "Add PostStack email template",
+      "number": 900,
+      "title": "Add NavScope token claim verification template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-24T21:02:00Z",
-      "updated_at": "2026-03-24T23:37:27Z",
+      "created_at": "2026-03-25T19:56:39Z",
+      "updated_at": "2026-03-25T23:26:54Z",
       "merged_at": null,
-      "author": "miccidk",
-      "author_avatar": "https://avatars.githubusercontent.com/u/62903713?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/894",
-      "labels": [],
+      "author": "NaveenSharma",
+      "author_avatar": "https://avatars.githubusercontent.com/u/369668?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/900",
+      "labels": [
+        "Test links missing",
+        "Forged editor links"
+      ],
       "templates": [
         {
-          "provider_id": "poststack",
-          "service_id": "dev.email",
-          "filename": "poststack.dev.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 893,
-      "title": "Add getisi.ai sendgrid-email template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-24T17:13:11Z",
-      "updated_at": "2026-03-24T17:17:40Z",
-      "merged_at": null,
-      "author": "diheinsohn",
-      "author_avatar": "https://avatars.githubusercontent.com/u/7909678?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/893",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "getisi",
-          "service_id": "ai.sendgrid-email",
-          "filename": "getisi.ai.sendgrid-email.json",
+          "provider_id": "navscope",
+          "service_id": "io.token-claim-verification",
+          "filename": "navscope.io.token-claim-verification.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2813,58 +2804,12 @@
       ]
     },
     {
-      "number": 890,
-      "title": "Add cashwebdev.com.website template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-23T22:29:15Z",
-      "updated_at": "2026-03-24T22:37:13Z",
-      "merged_at": null,
-      "author": "cashcon57",
-      "author_avatar": "https://avatars.githubusercontent.com/u/24542086?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/890",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "cashwebdev",
-          "service_id": "com.website",
-          "filename": "cashwebdev.com.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 887,
-      "title": "Add template for Bloffee AI Blog Platform",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-23T14:13:25Z",
-      "updated_at": "2026-03-23T18:50:51Z",
-      "merged_at": null,
-      "author": "Dries1971",
-      "author_avatar": "https://avatars.githubusercontent.com/u/174714308?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/887",
-      "labels": [
-        "AI crap"
-      ],
-      "templates": [
-        {
-          "provider_id": "bloffee",
-          "service_id": "com.blog",
-          "filename": "bloffee.com.blog.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 885,
       "title": "Add AuthGravity template",
       "state": "open",
       "merged": false,
       "created_at": "2026-03-22T15:48:53Z",
-      "updated_at": "2026-03-23T07:22:43Z",
+      "updated_at": "2026-03-25T13:58:22Z",
       "merged_at": null,
       "author": "polvi",
       "author_avatar": "https://avatars.githubusercontent.com/u/46035?v=4",
@@ -2878,28 +2823,6 @@
           "provider_id": "authgravity",
           "service_id": "org.auth",
           "filename": "authgravity.org.auth.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 884,
-      "title": "Add Summit Mailguard email authentication template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-21T19:41:53Z",
-      "updated_at": "2026-03-24T20:39:23Z",
-      "merged_at": null,
-      "author": "brandythesummit-ai",
-      "author_avatar": "https://avatars.githubusercontent.com/u/240205928?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/884",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "thesummit",
-          "service_id": "ai.email-auth",
-          "filename": "thesummit.ai.email-auth.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3042,13 +2965,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-10T06:17:03Z",
-      "updated_at": "2026-03-10T13:45:35Z",
+      "updated_at": "2026-03-25T09:50:24Z",
       "merged_at": null,
       "author": "andrewcruz101",
       "author_avatar": "https://avatars.githubusercontent.com/u/124953895?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/839",
       "labels": [
-        "Test links missing"
+        "Test links missing",
+        "warnPhishing"
       ],
       "templates": [
         {
@@ -3402,245 +3326,224 @@
       ]
     },
     {
-      "number": 891,
-      "title": "Create one-email.com.email.json",
+      "number": 899,
+      "title": "Add SendCanary DMARC monitoring template",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-03-24T09:22:21Z",
-      "updated_at": "2026-03-24T09:51:02Z",
-      "merged_at": "2026-03-24T09:51:02Z",
-      "author": "imp02121",
-      "author_avatar": "https://avatars.githubusercontent.com/u/257320131?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/891",
+      "created_at": "2026-03-25T14:07:20Z",
+      "updated_at": "2026-03-25T15:11:41Z",
+      "merged_at": "2026-03-25T15:11:40Z",
+      "author": "jotra7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/899",
       "labels": [],
       "templates": [
         {
-          "provider_id": "one-email",
-          "service_id": "com.email",
-          "filename": "one-email.com.email.json",
-          "logo_url": "https://one-email.com/icon.svg",
+          "provider_id": "sendcanary",
+          "service_id": "com.dmarc",
+          "filename": "sendcanary.com.dmarc.json",
+          "logo_url": "https://sendcanary.com/logo.svg",
           "status": "added"
         }
       ]
     },
     {
-      "number": 888,
-      "title": "Add Branch (getowlet.ai) help-center template",
+      "number": 893,
+      "title": "Add getisi.ai sendgrid-email template",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-03-23T14:14:32Z",
-      "updated_at": "2026-03-23T20:00:29Z",
-      "merged_at": "2026-03-23T20:00:29Z",
-      "author": "therealinvoker",
-      "author_avatar": "https://avatars.githubusercontent.com/u/161081502?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/888",
+      "created_at": "2026-03-24T17:13:11Z",
+      "updated_at": "2026-03-25T14:47:11Z",
+      "merged_at": "2026-03-25T08:20:13Z",
+      "author": "diheinsohn",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7909678?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/893",
       "labels": [],
       "templates": [
         {
-          "provider_id": "getowlet",
-          "service_id": "ai.help-center",
-          "filename": "getowlet.ai.help-center.json",
-          "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
+          "provider_id": "getisi",
+          "service_id": "ai.sendgrid-email",
+          "filename": "getisi.ai.sendgrid-email.json",
+          "logo_url": "https://app.getisi.ai/logo-icon.png",
           "status": "added"
         }
       ]
     },
     {
-      "number": 886,
-      "title": "Update rebelsender.com.mail: add all 3 Easy DKIM CNAMEs + BYODKIM group",
+      "number": 887,
+      "title": "Add template for Bloffee AI Blog Platform",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-03-23T13:56:44Z",
-      "updated_at": "2026-03-23T19:27:37Z",
-      "merged_at": "2026-03-23T19:27:36Z",
-      "author": "vibhuis-es",
-      "author_avatar": "https://avatars.githubusercontent.com/u/164148367?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/886",
-      "labels": [],
+      "created_at": "2026-03-23T14:13:25Z",
+      "updated_at": "2026-03-25T13:58:28Z",
+      "merged_at": "2026-03-25T13:58:28Z",
+      "author": "Dries1971",
+      "author_avatar": "https://avatars.githubusercontent.com/u/174714308?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/887",
+      "labels": [
+        "AI crap",
+        "hostRequired"
+      ],
       "templates": [
         {
-          "provider_id": "rebelsender",
-          "service_id": "com.mail",
-          "filename": "rebelsender.com.mail.json",
-          "logo_url": "https://rebelsender.com/logo.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 881,
-      "title": "add nashra.ai templates",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-21T11:10:11Z",
-      "updated_at": "2026-03-23T07:17:35Z",
-      "merged_at": "2026-03-23T07:17:35Z",
-      "author": "saleem-hadad",
-      "author_avatar": "https://avatars.githubusercontent.com/u/12780866?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/881",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "nashra",
-          "service_id": "ai.blog-hosting-root",
-          "filename": "nashra.ai.blog-hosting-root.json",
-          "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "nashra",
-          "service_id": "ai.blog-hosting-subdomain",
-          "filename": "nashra.ai.blog-hosting-subdomain.json",
-          "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
-          "status": "added"
-        },
-        {
-          "provider_id": "nashra",
-          "service_id": "ai.email-sending",
-          "filename": "nashra.ai.email-sending.json",
-          "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
+          "provider_id": "bloffee",
+          "service_id": "com.blog",
+          "filename": "bloffee.com.blog.json",
+          "logo_url": "https://bloffee.com/bloffee-logo.png",
           "status": "added"
         }
       ]
     },
     {
-      "number": 882,
-      "title": "Add Branch (getowlet.ai) email support template",
+      "number": 894,
+      "title": "Add PostStack email template",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-03-21T13:33:21Z",
-      "updated_at": "2026-03-22T22:11:57Z",
-      "merged_at": "2026-03-22T22:11:57Z",
-      "author": "therealinvoker",
-      "author_avatar": "https://avatars.githubusercontent.com/u/161081502?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/882",
-      "labels": [],
+      "created_at": "2026-03-24T21:02:00Z",
+      "updated_at": "2026-03-25T13:56:02Z",
+      "merged_at": "2026-03-25T13:56:02Z",
+      "author": "miccidk",
+      "author_avatar": "https://avatars.githubusercontent.com/u/62903713?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/894",
+      "labels": [
+        "AI crap"
+      ],
       "templates": [
         {
-          "provider_id": "getowlet",
-          "service_id": "ai.email-support",
-          "filename": "getowlet.ai.email-support.json",
-          "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
+          "provider_id": "poststack",
+          "service_id": "dev.email",
+          "filename": "poststack.dev.email.json",
+          "logo_url": "https://poststack.dev/logo.svg",
           "status": "added"
         }
       ]
     },
     {
-      "number": 880,
-      "title": "Add olitt website template",
+      "number": 898,
+      "title": "BUGFIX: verify signature",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-03-20T11:22:51Z",
-      "updated_at": "2026-03-21T09:13:28Z",
-      "merged_at": "2026-03-21T09:13:28Z",
-      "author": "max-the-sr-dev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/71072310?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/880",
+      "created_at": "2026-03-25T13:51:34Z",
+      "updated_at": "2026-03-25T13:53:10Z",
+      "merged_at": "2026-03-25T13:53:01Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/898",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "filename-error"
+      ],
+      "templates": []
+    },
+    {
+      "number": 897,
+      "title": "REPO: GH action to add labels according to template flags",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-25T09:47:38Z",
+      "updated_at": "2026-03-25T09:48:14Z",
+      "merged_at": "2026-03-25T09:47:49Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/897",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "filename-error"
+      ],
+      "templates": []
+    },
+    {
+      "number": 896,
+      "title": "Add signature verification in PR links",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-25T09:17:09Z",
+      "updated_at": "2026-03-25T09:18:20Z",
+      "merged_at": "2026-03-25T09:17:18Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/896",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "filename-error"
+      ],
+      "templates": []
+    },
+    {
+      "number": 884,
+      "title": "Add Summit Mailguard email authentication template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-21T19:41:53Z",
+      "updated_at": "2026-03-25T08:40:23Z",
+      "merged_at": "2026-03-25T08:40:23Z",
+      "author": "brandythesummit-ai",
+      "author_avatar": "https://avatars.githubusercontent.com/u/240205928?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/884",
       "labels": [],
       "templates": [
         {
-          "provider_id": "olitt",
+          "provider_id": "thesummit",
+          "service_id": "ai.email-auth",
+          "filename": "thesummit.ai.email-auth.json",
+          "logo_url": "https://mailguard.thesummit.ai/logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 890,
+      "title": "Add cashwebdev.com.website template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-23T22:29:15Z",
+      "updated_at": "2026-03-25T08:39:33Z",
+      "merged_at": "2026-03-25T08:39:33Z",
+      "author": "cashcon57",
+      "author_avatar": "https://avatars.githubusercontent.com/u/24542086?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/890",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "cashwebdev",
           "service_id": "com.website",
-          "filename": "olitt.com.website.json",
-          "logo_url": "https://s3.olitt.com/static/assets/img/olitt-logo.webp",
+          "filename": "cashwebdev.com.website.json",
+          "logo_url": "https://cashwebdev.com/og-image.png",
           "status": "added"
         }
       ]
     },
     {
-      "number": 875,
-      "title": "Add TidyCal CNAME template",
+      "number": 895,
+      "title": "Add rule to limit exposure of host name variables",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-03-19T18:10:17Z",
-      "updated_at": "2026-03-20T17:50:15Z",
-      "merged_at": "2026-03-20T10:34:52Z",
-      "author": "marnietave",
-      "author_avatar": "https://avatars.githubusercontent.com/u/10681447?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/875",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "tidycal",
-          "service_id": "com.tidycal.com",
-          "filename": "tidycal.com.tidycal.com.json",
-          "logo_url": "https://tidycal.com/img/logo-blue.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 877,
-      "title": "Add Transmit (xmit.sh) email template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T22:28:55Z",
-      "updated_at": "2026-03-20T11:02:05Z",
-      "merged_at": "2026-03-20T10:59:00Z",
-      "author": "beingretrogamer",
-      "author_avatar": "https://avatars.githubusercontent.com/u/168362815?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/877",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "xmit",
-          "service_id": "sh.email",
-          "filename": "xmit.sh.email.json",
-          "logo_url": "https://xmit.sh/logo.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 878,
-      "title": "Add hietek.com.landing-page template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-20T10:34:58Z",
-      "updated_at": "2026-03-20T11:02:00Z",
-      "merged_at": "2026-03-20T11:02:00Z",
-      "author": "hadeskers",
-      "author_avatar": "https://avatars.githubusercontent.com/u/16588677?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/878",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "hietek",
-          "service_id": "com.landing-page",
-          "filename": "hietek.com.landing-page.json",
-          "logo_url": "https://hietek.com/favicon.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 871,
-      "title": "Add seatbeltsecurity.com email authentication template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-18T17:52:50Z",
-      "updated_at": "2026-03-19T17:51:55Z",
-      "merged_at": "2026-03-19T17:51:55Z",
-      "author": "v-vincere",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5988286?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/871",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "seatbeltsecurity",
-          "service_id": "com.email-auth",
-          "filename": "seatbeltsecurity.com.email-auth.json",
-          "logo_url": "https://seatbeltsecurity.com/marketing/logo-icon.png",
-          "status": "added"
-        }
-      ]
+      "created_at": "2026-03-25T08:29:06Z",
+      "updated_at": "2026-03-25T08:29:41Z",
+      "merged_at": "2026-03-25T08:29:17Z",
+      "author": "pawel-kow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/895",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "filename-error"
+      ],
+      "templates": []
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 454,
+        "review_count": 460,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3672,7 +3575,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 61,
+        "review_count": 64,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3980,6 +3883,15 @@
       "record_count": 11
     },
     {
+      "filename": "bloffee.com.blog.json",
+      "provider_id": "bloffee.com",
+      "service_id": "blog",
+      "provider_name": "Bloffee",
+      "service_name": "Bloffee Blog Platform",
+      "logo_url": "https://bloffee.com/bloffee-logo.png",
+      "record_count": 1
+    },
+    {
       "filename": "bluehost.com.email.json",
       "provider_id": "bluehost.com",
       "service_id": "email",
@@ -4113,6 +4025,15 @@
       "service_name": "CariSEO Blog Hosting",
       "logo_url": null,
       "record_count": 1
+    },
+    {
+      "filename": "cashwebdev.com.website.json",
+      "provider_id": "cashwebdev.com",
+      "service_id": "website",
+      "provider_name": "CashWebDev",
+      "service_name": "Website Hosting",
+      "logo_url": "https://cashwebdev.com/og-image.png",
+      "record_count": 5
     },
     {
       "filename": "certdashboard.cloud.mail.json",
@@ -4869,6 +4790,15 @@
       "service_name": "Foundation Domain Configuration",
       "logo_url": "https://getfoundation.com/wp-content/uploads/2023/07/Foundation_logo.png",
       "record_count": 1
+    },
+    {
+      "filename": "getisi.ai.sendgrid-email.json",
+      "provider_id": "getisi.ai",
+      "service_id": "sendgrid-email",
+      "provider_name": "Isi.ai",
+      "service_name": "Isi.ai Email Authentication",
+      "logo_url": "https://app.getisi.ai/logo-icon.png",
+      "record_count": 5
     },
     {
       "filename": "getmoda.io.domain.json",
@@ -7310,6 +7240,15 @@
       "record_count": 1
     },
     {
+      "filename": "poststack.dev.email.json",
+      "provider_id": "poststack.dev",
+      "service_id": "email",
+      "provider_name": "PostStack",
+      "service_name": "PostStack Email",
+      "logo_url": "https://poststack.dev/logo.svg",
+      "record_count": 4
+    },
+    {
       "filename": "pplsi.com.website.json",
       "provider_id": "pplsi.com",
       "service_id": "website",
@@ -7742,6 +7681,15 @@
       "record_count": 2
     },
     {
+      "filename": "sendcanary.com.dmarc.json",
+      "provider_id": "sendcanary.com",
+      "service_id": "dmarc",
+      "provider_name": "SendCanary",
+      "service_name": "DMARC Email Security Monitoring",
+      "logo_url": "https://sendcanary.com/logo.svg",
+      "record_count": 1
+    },
+    {
       "filename": "sender.net.domain-authentication.json",
       "provider_id": "sender.net",
       "service_id": "domain-authentication",
@@ -8154,6 +8102,15 @@
       "service_name": "the qr code co. QR Redirect",
       "logo_url": "https://theqrcode.co/logo.svg",
       "record_count": 1
+    },
+    {
+      "filename": "thesummit.ai.email-auth.json",
+      "provider_id": "thesummit.ai",
+      "service_id": "email-auth",
+      "provider_name": "Summit Mailguard",
+      "service_name": "Email Authentication Setup",
+      "logo_url": "https://mailguard.thesummit.ai/logo.svg",
+      "record_count": 3
     },
     {
       "filename": "tidycal.com.tidycal.com.json",
@@ -8861,7 +8818,7 @@
   "contributors": [
     {
       "login": "pawel-kow",
-      "contributions": 458,
+      "contributions": 464,
       "avatar_url": "https://avatars.githubusercontent.com/u/28707030?v=4",
       "profile_url": "https://github.com/pawel-kow"
     },
@@ -8926,16 +8883,16 @@
       "profile_url": "https://github.com/twalmsley"
     },
     {
-      "login": "greenreader9",
-      "contributions": 18,
-      "avatar_url": "https://avatars.githubusercontent.com/u/75644395?v=4",
-      "profile_url": "https://github.com/greenreader9"
-    },
-    {
       "login": "bdickson1-godaddy",
       "contributions": 18,
       "avatar_url": "https://avatars.githubusercontent.com/u/54912895?v=4",
       "profile_url": "https://github.com/bdickson1-godaddy"
+    },
+    {
+      "login": "greenreader9",
+      "contributions": 18,
+      "avatar_url": "https://avatars.githubusercontent.com/u/75644395?v=4",
+      "profile_url": "https://github.com/greenreader9"
     },
     {
       "login": "webtoolbox",
@@ -8950,16 +8907,16 @@
       "profile_url": "https://github.com/Luxaaa"
     },
     {
-      "login": "delputnam",
-      "contributions": 14,
-      "avatar_url": "https://avatars.githubusercontent.com/u/1379730?v=4",
-      "profile_url": "https://github.com/delputnam"
-    },
-    {
       "login": "b805rohit",
       "contributions": 14,
       "avatar_url": "https://avatars.githubusercontent.com/u/35255598?v=4",
       "profile_url": "https://github.com/b805rohit"
+    },
+    {
+      "login": "delputnam",
+      "contributions": 14,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1379730?v=4",
+      "profile_url": "https://github.com/delputnam"
     },
     {
       "login": "stabarez",
@@ -8968,16 +8925,16 @@
       "profile_url": "https://github.com/stabarez"
     },
     {
-      "login": "john-zli",
-      "contributions": 11,
-      "avatar_url": "https://avatars.githubusercontent.com/u/8244301?v=4",
-      "profile_url": "https://github.com/john-zli"
-    },
-    {
       "login": "dane-stevens",
       "contributions": 11,
       "avatar_url": "https://avatars.githubusercontent.com/u/12450895?v=4",
       "profile_url": "https://github.com/dane-stevens"
+    },
+    {
+      "login": "john-zli",
+      "contributions": 11,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8244301?v=4",
+      "profile_url": "https://github.com/john-zli"
     },
     {
       "login": "slxca",
@@ -9028,18 +8985,6 @@
       "profile_url": "https://github.com/TracyFogel"
     },
     {
-      "login": "JoaoFSCruz",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/26048679?v=4",
-      "profile_url": "https://github.com/JoaoFSCruz"
-    },
-    {
-      "login": "cmalec",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/9370134?v=4",
-      "profile_url": "https://github.com/cmalec"
-    },
-    {
       "login": "arya-dos",
       "contributions": 8,
       "avatar_url": "https://avatars.githubusercontent.com/u/164984012?v=4",
@@ -9052,22 +8997,22 @@
       "profile_url": "https://github.com/kiranvsr"
     },
     {
-      "login": "tombeard",
+      "login": "JoaoFSCruz",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/12370027?v=4",
-      "profile_url": "https://github.com/tombeard"
+      "avatar_url": "https://avatars.githubusercontent.com/u/26048679?v=4",
+      "profile_url": "https://github.com/JoaoFSCruz"
     },
     {
-      "login": "dommholland",
+      "login": "cmalec",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4269710?v=4",
-      "profile_url": "https://github.com/dommholland"
+      "avatar_url": "https://avatars.githubusercontent.com/u/9370134?v=4",
+      "profile_url": "https://github.com/cmalec"
     },
     {
-      "login": "MrExcitingDigits",
+      "login": "anish2690",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
-      "profile_url": "https://github.com/MrExcitingDigits"
+      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
+      "profile_url": "https://github.com/anish2690"
     },
     {
       "login": "jonroig",
@@ -9076,10 +9021,22 @@
       "profile_url": "https://github.com/jonroig"
     },
     {
-      "login": "anish2690",
+      "login": "tombeard",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
-      "profile_url": "https://github.com/anish2690"
+      "avatar_url": "https://avatars.githubusercontent.com/u/12370027?v=4",
+      "profile_url": "https://github.com/tombeard"
+    },
+    {
+      "login": "MrExcitingDigits",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
+      "profile_url": "https://github.com/MrExcitingDigits"
+    },
+    {
+      "login": "dommholland",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4269710?v=4",
+      "profile_url": "https://github.com/dommholland"
     },
     {
       "login": "FlorentinStafie",
@@ -9154,10 +9111,10 @@
       "profile_url": "https://github.com/lyalls-marc"
     },
     {
-      "login": "richard-edens",
+      "login": "chintans1",
       "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/82026336?v=4",
-      "profile_url": "https://github.com/richard-edens"
+      "avatar_url": "https://avatars.githubusercontent.com/u/6274806?v=4",
+      "profile_url": "https://github.com/chintans1"
     }
   ]
 }
