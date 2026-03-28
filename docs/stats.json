@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-27T01:16:02.033514",
+  "generated_at": "2026-03-28T01:09:23.773205",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 586,
-    "total_providers": 316,
-    "total_merged_prs": 695,
+    "total_templates": 589,
+    "total_providers": 319,
+    "total_merged_prs": 701,
     "total_open_prs": 24,
-    "total_contributors": 343,
-    "avg_records_per_template": 3.42
+    "total_contributors": 345,
+    "avg_records_per_template": 3.43
   },
   "templates_growth": [
     {
@@ -568,9 +568,9 @@
     },
     {
       "month": "2026-03",
-      "added": 82,
+      "added": 85,
       "deleted": 0,
-      "cumulative": 586
+      "cumulative": 589
     }
   ],
   "providers_growth": [
@@ -1001,8 +1001,8 @@
     },
     {
       "month": "2026-03",
-      "added": 58,
-      "cumulative": 316
+      "added": 61,
+      "cumulative": 319
     }
   ],
   "pr_activity": [
@@ -1503,8 +1503,8 @@
     },
     {
       "month": "2026-03",
-      "created": 102,
-      "merged": 79
+      "created": 110,
+      "merged": 85
     }
   ],
   "pr_time_to_merge": [
@@ -1903,8 +1903,10 @@
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 0,
+      "no syncPubKeyDomain": 0,
       "question": 0,
       "schema-error": 0,
+      "syncBlock": 0,
       "warnPhishing": 0
     },
     {
@@ -1920,8 +1922,10 @@
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 0,
+      "no syncPubKeyDomain": 0,
       "question": 0,
       "schema-error": 0,
+      "syncBlock": 0,
       "warnPhishing": 0
     },
     {
@@ -1937,8 +1941,10 @@
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 0,
+      "no syncPubKeyDomain": 0,
       "question": 0,
       "schema-error": 0,
+      "syncBlock": 0,
       "warnPhishing": 0
     },
     {
@@ -1954,8 +1960,10 @@
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 0,
+      "no syncPubKeyDomain": 0,
       "question": 0,
       "schema-error": 0,
+      "syncBlock": 0,
       "warnPhishing": 0
     },
     {
@@ -1971,8 +1979,10 @@
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 0,
+      "no syncPubKeyDomain": 0,
       "question": 0,
       "schema-error": 0,
+      "syncBlock": 0,
       "warnPhishing": 0
     },
     {
@@ -1988,8 +1998,10 @@
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 0,
+      "no syncPubKeyDomain": 0,
       "question": 0,
       "schema-error": 0,
+      "syncBlock": 0,
       "warnPhishing": 0
     },
     {
@@ -2005,8 +2017,10 @@
       "duplicate": 2,
       "filename-error": 0,
       "hostRequired": 0,
+      "no syncPubKeyDomain": 0,
       "question": 1,
       "schema-error": 0,
+      "syncBlock": 0,
       "warnPhishing": 0
     },
     {
@@ -2022,8 +2036,10 @@
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 0,
+      "no syncPubKeyDomain": 0,
       "question": 4,
       "schema-error": 0,
+      "syncBlock": 0,
       "warnPhishing": 0
     },
     {
@@ -2039,26 +2055,30 @@
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 0,
+      "no syncPubKeyDomain": 0,
       "question": 2,
       "schema-error": 0,
+      "syncBlock": 0,
       "warnPhishing": 0
     },
     {
       "month": "2026-03",
       "AI crap": 3,
-      "Checklist of common problems not complete": 49,
+      "Checklist of common problems not complete": 52,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 57,
+      "PR description incomplete": 61,
       "Stale": 0,
-      "Test links missing": 85,
+      "Test links missing": 91,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 3,
+      "hostRequired": 7,
+      "no syncPubKeyDomain": 3,
       "question": 2,
       "schema-error": 8,
-      "warnPhishing": 1
+      "syncBlock": 1,
+      "warnPhishing": 4
     }
   ],
   "pr_comment_activity": [
@@ -2454,11 +2474,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 435
+      "count": 438
     },
     {
       "type": "TXT",
-      "count": 252
+      "count": 255
     },
     {
       "type": "A",
@@ -2466,11 +2486,11 @@
     },
     {
       "type": "SPFM",
-      "count": 123
+      "count": 125
     },
     {
       "type": "MX",
-      "count": 105
+      "count": 107
     },
     {
       "type": "SRV",
@@ -2485,12 +2505,12 @@
       "count": 16
     },
     {
-      "type": "APEXCNAME",
+      "type": "NS",
       "count": 5
     },
     {
-      "type": "NS",
-      "count": 5
+      "type": "APEXCNAME",
+      "count": 4
     },
     {
       "type": "CAA",
@@ -2652,7 +2672,7 @@
       {
         "provider_id": "sendcanary.com",
         "provider_name": "SendCanary",
-        "logo_url": "https://sendcanary.com/logo.svg",
+        "logo_url": "https://sendcanary.com/logo.png",
         "template_count": 2
       },
       {
@@ -2704,6 +2724,24 @@
         "template_count": 2
       },
       {
+        "provider_id": "nordiccdn.com",
+        "provider_name": "NordicCDN",
+        "logo_url": "https://nordiccdn.com/images/nordiccdn-logo.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "spinlabstudio.dev",
+        "provider_name": "Spinlab",
+        "logo_url": "https://cdn.spinlab.studio/logo-spinlab.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "authgravity.org",
+        "provider_name": "AuthGravity",
+        "logo_url": "https://authgravity.org/authgravity-logo.png",
+        "template_count": 1
+      },
+      {
         "provider_id": "netweak.com",
         "provider_name": "Netweak",
         "logo_url": "https://netweak.com/img/logo/logo-dark.png",
@@ -2726,39 +2764,21 @@
         "provider_name": "Bloffee",
         "logo_url": "https://bloffee.com/bloffee-logo.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "poststack.dev",
-        "provider_name": "PostStack",
-        "logo_url": "https://poststack.dev/logo.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "thesummit.ai",
-        "provider_name": "Summit Mailguard",
-        "logo_url": "https://mailguard.thesummit.ai/logo.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "cashwebdev.com",
-        "provider_name": "CashWebDev",
-        "logo_url": "https://cashwebdev.com/og-image.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 586,
+    "total_templates": 589,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 516
+        "count": 519
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 363
+        "count": 366
       },
       {
         "name": "warnPhishing",
@@ -2768,11 +2788,81 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 150
+        "count": 154
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 917,
+      "title": "Add Spork status page template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-27T20:45:57Z",
+      "updated_at": "2026-03-27T20:46:29Z",
+      "merged_at": null,
+      "author": "bemiholdings",
+      "author_avatar": "https://avatars.githubusercontent.com/u/119017384?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/917",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "sporkops",
+          "service_id": "com.status-page",
+          "filename": "sporkops.com.status-page.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 916,
+      "title": "Add EmailOctopus domain verification template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-27T15:50:51Z",
+      "updated_at": "2026-03-27T16:12:28Z",
+      "merged_at": null,
+      "author": "rhel-eo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/83471933?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/916",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "emailoctopus",
+          "service_id": "com.domain-verification",
+          "filename": "emailoctopus.com.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 910,
+      "title": "Add SimploMail Domain Connect email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-27T02:18:01Z",
+      "updated_at": "2026-03-27T16:11:12Z",
+      "merged_at": null,
+      "author": "simplyi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/690804?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/910",
+      "labels": [
+        "syncBlock"
+      ],
+      "templates": [
+        {
+          "provider_id": "simplomail",
+          "service_id": "com.email",
+          "filename": "simplomail.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 908,
       "title": "Add Tortus website hosting template",
@@ -2801,67 +2891,17 @@
       ]
     },
     {
-      "number": 907,
-      "title": "Update SendCanary DMARC template to v2: per-domain token in rua/ruf",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T15:32:28Z",
-      "updated_at": "2026-03-26T21:07:02Z",
-      "merged_at": null,
-      "author": "jotra7",
-      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/907",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.dmarc",
-          "filename": "sendcanary.com.dmarc.json",
-          "logo_url": "https://sendcanary.com/logo.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 905,
-      "title": "spinlab.studio.casino: Replace APEXCNAME with CNAME for Cloudflare",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T12:55:21Z",
-      "updated_at": "2026-03-26T16:41:42Z",
-      "merged_at": null,
-      "author": "SwartZCoding",
-      "author_avatar": "https://avatars.githubusercontent.com/u/39431572?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/905",
-      "labels": [
-        "Test links missing",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "spinlab",
-          "service_id": "studio.casino",
-          "filename": "spinlab.studio.casino.json",
-          "logo_url": "https://cdn.spinlab.studio/logo-spinlab.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
       "number": 900,
       "title": "Add NavScope token claim verification template",
       "state": "open",
       "merged": false,
       "created_at": "2026-03-25T19:56:39Z",
-      "updated_at": "2026-03-25T23:26:54Z",
+      "updated_at": "2026-03-27T08:20:46Z",
       "merged_at": null,
       "author": "NaveenSharma",
       "author_avatar": "https://avatars.githubusercontent.com/u/369668?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/900",
-      "labels": [
-        "Test links missing",
-        "Forged editor links"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "navscope",
@@ -2892,31 +2932,6 @@
           "provider_id": "cms",
           "service_id": "getherd.ai.site-hosting",
           "filename": "cms.getherd.ai.site-hosting.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 885,
-      "title": "Add AuthGravity template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-22T15:48:53Z",
-      "updated_at": "2026-03-26T08:00:11Z",
-      "merged_at": null,
-      "author": "polvi",
-      "author_avatar": "https://avatars.githubusercontent.com/u/46035?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/885",
-      "labels": [
-        "AI crap",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "authgravity",
-          "service_id": "org.auth",
-          "filename": "authgravity.org.auth.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3420,6 +3435,149 @@
       ]
     },
     {
+      "number": 913,
+      "title": "Add Nordiccdn.com cdn template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-27T08:20:11Z",
+      "updated_at": "2026-03-27T15:28:06Z",
+      "merged_at": "2026-03-27T15:28:06Z",
+      "author": "Edelskjold",
+      "author_avatar": "https://avatars.githubusercontent.com/u/6057024?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/913",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "nordiccdn",
+          "service_id": "com.cdn-setup",
+          "filename": "nordiccdn.com.cdn-setup.json",
+          "logo_url": "https://nordiccdn.com/images/nordiccdn-logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 915,
+      "title": "Add spinlabstudio.dev casino template (dev environment)",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-27T14:34:04Z",
+      "updated_at": "2026-03-27T15:26:45Z",
+      "merged_at": "2026-03-27T15:26:44Z",
+      "author": "SwartZCoding",
+      "author_avatar": "https://avatars.githubusercontent.com/u/39431572?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/915",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "spinlabstudio",
+          "service_id": "dev.casino",
+          "filename": "spinlabstudio.dev.casino.json",
+          "logo_url": "https://cdn.spinlab.studio/logo-spinlab.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 914,
+      "title": "spinlab.studio.casino: Add Resend email records and syncRedirectDomain",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-27T14:17:07Z",
+      "updated_at": "2026-03-27T14:20:19Z",
+      "merged_at": "2026-03-27T14:20:19Z",
+      "author": "SwartZCoding",
+      "author_avatar": "https://avatars.githubusercontent.com/u/39431572?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/914",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "spinlab",
+          "service_id": "studio.casino",
+          "filename": "spinlab.studio.casino.json",
+          "logo_url": "https://cdn.spinlab.studio/logo-spinlab.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 905,
+      "title": "spinlab.studio.casino: Replace APEXCNAME with CNAME for Cloudflare",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-26T12:55:21Z",
+      "updated_at": "2026-03-27T13:32:26Z",
+      "merged_at": "2026-03-27T13:32:26Z",
+      "author": "SwartZCoding",
+      "author_avatar": "https://avatars.githubusercontent.com/u/39431572?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/905",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "spinlab",
+          "service_id": "studio.casino",
+          "filename": "spinlab.studio.casino.json",
+          "logo_url": "https://cdn.spinlab.studio/logo-spinlab.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 907,
+      "title": "Update SendCanary DMARC template to v2: per-domain token in rua/ruf",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-26T15:32:28Z",
+      "updated_at": "2026-03-27T12:28:49Z",
+      "merged_at": "2026-03-27T12:28:48Z",
+      "author": "jotra7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/907",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sendcanary",
+          "service_id": "com.dmarc",
+          "filename": "sendcanary.com.dmarc.json",
+          "logo_url": "https://sendcanary.com/logo.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 885,
+      "title": "Add AuthGravity template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-22T15:48:53Z",
+      "updated_at": "2026-03-27T05:48:47Z",
+      "merged_at": "2026-03-27T05:48:47Z",
+      "author": "polvi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/46035?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/885",
+      "labels": [
+        "AI crap",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "authgravity",
+          "service_id": "org.auth",
+          "filename": "authgravity.org.auth.json",
+          "logo_url": "https://authgravity.org/authgravity-logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 906,
       "title": "Add netweak.com and netweak.dev status page cname",
       "state": "closed",
@@ -3515,162 +3673,19 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 901,
-      "title": "Add plop.so website template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-26T01:27:37Z",
-      "updated_at": "2026-03-26T01:57:16Z",
-      "merged_at": "2026-03-26T01:57:15Z",
-      "author": "ccarse",
-      "author_avatar": "https://avatars.githubusercontent.com/u/1965943?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/901",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "plop",
-          "service_id": "so.website-apex",
-          "filename": "plop.so.website-apex.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "plop",
-          "service_id": "so.website",
-          "filename": "plop.so.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 899,
-      "title": "Add SendCanary DMARC monitoring template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-25T14:07:20Z",
-      "updated_at": "2026-03-25T15:11:41Z",
-      "merged_at": "2026-03-25T15:11:40Z",
-      "author": "jotra7",
-      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/899",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.dmarc",
-          "filename": "sendcanary.com.dmarc.json",
-          "logo_url": "https://sendcanary.com/logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 893,
-      "title": "Add getisi.ai sendgrid-email template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-24T17:13:11Z",
-      "updated_at": "2026-03-25T14:47:11Z",
-      "merged_at": "2026-03-25T08:20:13Z",
-      "author": "diheinsohn",
-      "author_avatar": "https://avatars.githubusercontent.com/u/7909678?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/893",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "getisi",
-          "service_id": "ai.sendgrid-email",
-          "filename": "getisi.ai.sendgrid-email.json",
-          "logo_url": "https://app.getisi.ai/logo-icon.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 887,
-      "title": "Add template for Bloffee AI Blog Platform",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T14:13:25Z",
-      "updated_at": "2026-03-25T13:58:28Z",
-      "merged_at": "2026-03-25T13:58:28Z",
-      "author": "Dries1971",
-      "author_avatar": "https://avatars.githubusercontent.com/u/174714308?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/887",
-      "labels": [
-        "AI crap",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "bloffee",
-          "service_id": "com.blog",
-          "filename": "bloffee.com.blog.json",
-          "logo_url": "https://bloffee.com/bloffee-logo.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 894,
-      "title": "Add PostStack email template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-24T21:02:00Z",
-      "updated_at": "2026-03-25T13:56:02Z",
-      "merged_at": "2026-03-25T13:56:02Z",
-      "author": "miccidk",
-      "author_avatar": "https://avatars.githubusercontent.com/u/62903713?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/894",
-      "labels": [
-        "AI crap"
-      ],
-      "templates": [
-        {
-          "provider_id": "poststack",
-          "service_id": "dev.email",
-          "filename": "poststack.dev.email.json",
-          "logo_url": "https://poststack.dev/logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 898,
-      "title": "BUGFIX: verify signature",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-25T13:51:34Z",
-      "updated_at": "2026-03-25T13:53:10Z",
-      "merged_at": "2026-03-25T13:53:01Z",
-      "author": "pawel-kow",
-      "author_avatar": "https://avatars.githubusercontent.com/u/28707030?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/898",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "filename-error"
-      ],
-      "templates": []
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 464,
+        "review_count": 469,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 66,
+        "review_count": 69,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3696,13 +3711,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 68,
+        "review_count": 73,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 17,
+        "review_count": 19,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3866,6 +3881,15 @@
       "provider_name": "Atribu",
       "service_name": "Atribu First-Party Tracking",
       "logo_url": "https://www.atribu.app/brand/atribu-wordmark-square-1024.png",
+      "record_count": 1
+    },
+    {
+      "filename": "authgravity.org.auth.json",
+      "provider_id": "authgravity.org",
+      "service_id": "auth",
+      "provider_name": "AuthGravity",
+      "service_name": "AuthGravity Domain",
+      "logo_url": "https://authgravity.org/authgravity-logo.png",
       "record_count": 1
     },
     {
@@ -7091,6 +7115,15 @@
       "record_count": 1
     },
     {
+      "filename": "nordiccdn.com.cdn-setup.json",
+      "provider_id": "nordiccdn.com",
+      "service_id": "cdn-setup",
+      "provider_name": "NordicCDN",
+      "service_name": "NordicCDN CDN Acceleration",
+      "logo_url": "https://nordiccdn.com/images/nordiccdn-logo.svg",
+      "record_count": 3
+    },
+    {
       "filename": "numserver.com.custodian-record.json",
       "provider_id": "numserver.com",
       "service_id": "custodian-record",
@@ -7852,7 +7885,7 @@
       "service_id": "dmarc",
       "provider_name": "SendCanary",
       "service_name": "DMARC Email Security Monitoring",
-      "logo_url": "https://sendcanary.com/logo.svg",
+      "logo_url": "https://sendcanary.com/logo.png",
       "record_count": 1
     },
     {
@@ -8087,7 +8120,16 @@
       "provider_name": "Spinlab",
       "service_name": "Spinlab Casino Platform",
       "logo_url": "https://cdn.spinlab.studio/logo-spinlab.svg",
-      "record_count": 3
+      "record_count": 6
+    },
+    {
+      "filename": "spinlabstudio.dev.casino.json",
+      "provider_id": "spinlabstudio.dev",
+      "service_id": "casino",
+      "provider_name": "Spinlab",
+      "service_name": "Spinlab Casino Platform (Dev)",
+      "logo_url": "https://cdn.spinlab.studio/logo-spinlab.svg",
+      "record_count": 6
     },
     {
       "filename": "spiritt.io.apex-www.json",
