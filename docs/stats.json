@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T01:19:34.138195",
+  "generated_at": "2026-03-30T01:19:48.483345",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 589,
     "total_providers": 319,
     "total_merged_prs": 701,
-    "total_open_prs": 28,
+    "total_open_prs": 30,
     "total_contributors": 345,
     "avg_records_per_template": 3.43
   },
@@ -1503,7 +1503,7 @@
     },
     {
       "month": "2026-03",
-      "created": 116,
+      "created": 118,
       "merged": 85
     }
   ],
@@ -2069,14 +2069,14 @@
       "Forged editor links": 3,
       "PR description incomplete": 65,
       "Stale": 0,
-      "Test links missing": 96,
+      "Test links missing": 97,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 5,
-      "hostRequired": 7,
+      "hostRequired": 9,
       "no syncPubKeyDomain": 3,
       "question": 2,
-      "schema-error": 8,
+      "schema-error": 9,
       "syncBlock": 1,
       "warnPhishing": 4
     }
@@ -2793,6 +2793,66 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 925,
+      "title": "Add Lettermint DNS configuration templates for email and tracking",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-29T11:55:25Z",
+      "updated_at": "2026-03-29T11:55:59Z",
+      "merged_at": null,
+      "author": "bjarn",
+      "author_avatar": "https://avatars.githubusercontent.com/u/14638441?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/925",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "lettermint",
+          "service_id": "co.inbound",
+          "filename": "lettermint.co.inbound.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "lettermint",
+          "service_id": "co.mail",
+          "filename": "lettermint.co.mail.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "lettermint",
+          "service_id": "co.tracking",
+          "filename": "lettermint.co.tracking.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 924,
+      "title": "Add Blocsmith website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-29T07:38:57Z",
+      "updated_at": "2026-03-29T08:18:02Z",
+      "merged_at": null,
+      "author": "pluggyboy",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1712519?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/924",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "blocsmith",
+          "service_id": "io.website",
+          "filename": "blocsmith.io.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 923,
       "title": "Add Peleka email authentication template",
@@ -3808,13 +3868,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 72,
+        "review_count": 71,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 19,
+        "review_count": 18,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
