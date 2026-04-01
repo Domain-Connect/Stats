@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T01:17:47.099985",
+  "generated_at": "2026-04-01T01:24:10.547994",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 601,
     "total_providers": 328,
     "total_merged_prs": 710,
-    "total_open_prs": 23,
+    "total_open_prs": 27,
     "total_contributors": 354,
     "avg_records_per_template": 3.4
   },
@@ -1503,7 +1503,7 @@
     },
     {
       "month": "2026-03",
-      "created": 122,
+      "created": 126,
       "merged": 94
     }
   ],
@@ -2064,12 +2064,12 @@
     {
       "month": "2026-03",
       "AI crap": 3,
-      "Checklist of common problems not complete": 58,
+      "Checklist of common problems not complete": 60,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 68,
+      "PR description incomplete": 70,
       "Stale": 0,
-      "Test links missing": 99,
+      "Test links missing": 102,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 5,
@@ -2652,12 +2652,6 @@
         "template_count": 6
       },
       {
-        "provider_id": "lindo.ai",
-        "provider_name": "Lindo",
-        "logo_url": "https://cdn.ln-cdn.com/image/whitelabel/logo/app.lindo.ai.png",
-        "template_count": 6
-      },
-      {
         "provider_id": "lettermint.co",
         "provider_name": "Lettermint",
         "logo_url": "https://lettermint.co/logo.svg",
@@ -2764,6 +2758,12 @@
         "provider_name": "Spork",
         "logo_url": "https://sporkops.com/favicon.svg",
         "template_count": 1
+      },
+      {
+        "provider_id": "emailoctopus.com",
+        "provider_name": "EmailOctopus",
+        "logo_url": "https://dashboard.emailoctopus.com/logo-domain-connect.png",
+        "template_count": 1
       }
     ]
   },
@@ -2794,12 +2794,106 @@
   },
   "recent_prs": [
     {
+      "number": 933,
+      "title": "Add purple.ai-sendgrid-email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-31T14:02:19Z",
+      "updated_at": "2026-04-01T00:33:50Z",
+      "merged_at": null,
+      "author": "adrianhardy",
+      "author_avatar": "https://avatars.githubusercontent.com/u/2385586?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/933",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "purple",
+          "service_id": "ai.sendgrid-email",
+          "filename": "purple.ai.sendgrid-email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 932,
+      "title": "Add Storehaus (storehaus.ai) custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-31T13:35:23Z",
+      "updated_at": "2026-03-31T13:35:56Z",
+      "merged_at": null,
+      "author": "myoons",
+      "author_avatar": "https://avatars.githubusercontent.com/u/67945103?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/932",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "storehaus",
+          "service_id": "ai.domain",
+          "filename": "storehaus.ai.domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 931,
+      "title": "Add APVISO domain verification template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-31T10:20:27Z",
+      "updated_at": "2026-03-31T10:21:01Z",
+      "merged_at": null,
+      "author": "Majkie",
+      "author_avatar": "https://avatars.githubusercontent.com/u/37813691?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/931",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "apviso",
+          "service_id": "com.domain-verification",
+          "filename": "apviso.com.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 930,
+      "title": "Add Ablazgo domain verification template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-31T04:25:08Z",
+      "updated_at": "2026-03-31T04:35:56Z",
+      "merged_at": null,
+      "author": "wzdave",
+      "author_avatar": "https://avatars.githubusercontent.com/u/6155613?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/930",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "ablazgo",
+          "service_id": "com.domain-verification",
+          "filename": "ablazgo.com.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 929,
       "title": "Switch plop.so apex template from A records to CNAME",
       "state": "open",
       "merged": false,
       "created_at": "2026-03-31T00:02:56Z",
-      "updated_at": "2026-03-31T00:03:26Z",
+      "updated_at": "2026-03-31T09:54:57Z",
       "merged_at": null,
       "author": "ccarse",
       "author_avatar": "https://avatars.githubusercontent.com/u/1965943?v=4",
@@ -2873,7 +2967,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-27T02:18:01Z",
-      "updated_at": "2026-03-30T12:08:01Z",
+      "updated_at": "2026-03-31T20:05:22Z",
       "merged_at": null,
       "author": "simplyi",
       "author_avatar": "https://avatars.githubusercontent.com/u/690804?v=4",
@@ -2974,7 +3068,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-19T22:24:59Z",
-      "updated_at": "2026-03-20T10:40:30Z",
+      "updated_at": "2026-04-01T00:44:37Z",
       "merged_at": null,
       "author": "EstebX",
       "author_avatar": "https://avatars.githubusercontent.com/u/100437198?v=4",
