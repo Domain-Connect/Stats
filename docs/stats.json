@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-01T01:24:10.547994",
+  "generated_at": "2026-04-02T01:14:37.720674",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 601,
-    "total_providers": 328,
-    "total_merged_prs": 710,
+    "total_templates": 604,
+    "total_providers": 330,
+    "total_merged_prs": 715,
     "total_open_prs": 27,
-    "total_contributors": 354,
-    "avg_records_per_template": 3.4
+    "total_contributors": 356,
+    "avg_records_per_template": 3.39
   },
   "templates_growth": [
     {
@@ -568,9 +568,15 @@
     },
     {
       "month": "2026-03",
-      "added": 97,
+      "added": 98,
       "deleted": 0,
-      "cumulative": 601
+      "cumulative": 602
+    },
+    {
+      "month": "2026-04",
+      "added": 2,
+      "deleted": 0,
+      "cumulative": 604
     }
   ],
   "providers_growth": [
@@ -1001,8 +1007,13 @@
     },
     {
       "month": "2026-03",
-      "added": 70,
-      "cumulative": 328
+      "added": 71,
+      "cumulative": 329
+    },
+    {
+      "month": "2026-04",
+      "added": 1,
+      "cumulative": 330
     }
   ],
   "pr_activity": [
@@ -1505,6 +1516,11 @@
       "month": "2026-03",
       "created": 126,
       "merged": 94
+    },
+    {
+      "month": "2026-04",
+      "created": 5,
+      "merged": 5
     }
   ],
   "pr_time_to_merge": [
@@ -1887,6 +1903,10 @@
     {
       "month": "2026-03",
       "avg_days": 0.8
+    },
+    {
+      "month": "2026-04",
+      "avg_days": 0.3
     }
   ],
   "pr_label_activity": [
@@ -2079,6 +2099,25 @@
       "schema-error": 9,
       "syncBlock": 1,
       "warnPhishing": 4
+    },
+    {
+      "month": "2026-04",
+      "AI crap": 0,
+      "Checklist of common problems not complete": 2,
+      "Chores": 0,
+      "Forged editor links": 0,
+      "PR description incomplete": 2,
+      "Stale": 0,
+      "Test links missing": 5,
+      "blocked": 0,
+      "duplicate": 0,
+      "filename-error": 1,
+      "hostRequired": 3,
+      "no syncPubKeyDomain": 0,
+      "question": 0,
+      "schema-error": 1,
+      "syncBlock": 0,
+      "warnPhishing": 0
     }
   ],
   "pr_comment_activity": [
@@ -2469,16 +2508,20 @@
     {
       "month": "2026-03",
       "avg_comments": 0.6
+    },
+    {
+      "month": "2026-04",
+      "avg_comments": 0.2
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 446
+      "count": 449
     },
     {
       "type": "TXT",
-      "count": 261
+      "count": 262
     },
     {
       "type": "A",
@@ -2652,6 +2695,12 @@
         "template_count": 6
       },
       {
+        "provider_id": "getowlet.ai",
+        "provider_name": "Branch by Getowlet",
+        "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
+        "template_count": 3
+      },
+      {
         "provider_id": "lettermint.co",
         "provider_name": "Lettermint",
         "logo_url": "https://lettermint.co/logo.svg",
@@ -2685,12 +2734,6 @@
         "provider_id": "plop.so",
         "provider_name": "plop",
         "logo_url": null,
-        "template_count": 2
-      },
-      {
-        "provider_id": "getowlet.ai",
-        "provider_name": "Branch by Getowlet",
-        "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
         "template_count": 2
       },
       {
@@ -2730,6 +2773,18 @@
         "template_count": 2
       },
       {
+        "provider_id": "elest.io",
+        "provider_name": "Elestio",
+        "logo_url": "https://elest.io/images/elestio.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "apviso.com",
+        "provider_name": "APVISO",
+        "logo_url": "https://apviso.com/logo.svg",
+        "template_count": 1
+      },
+      {
         "provider_id": "strix.ai",
         "provider_name": "Strix",
         "logo_url": "https://app.strix.ai/logo.png",
@@ -2752,33 +2807,21 @@
         "provider_name": "Cendol AI",
         "logo_url": "https://cendol.ai/logo.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "sporkops.com",
-        "provider_name": "Spork",
-        "logo_url": "https://sporkops.com/favicon.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "emailoctopus.com",
-        "provider_name": "EmailOctopus",
-        "logo_url": "https://dashboard.emailoctopus.com/logo-domain-connect.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 601,
+    "total_templates": 604,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 531
+        "count": 534
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 377
+        "count": 380
       },
       {
         "name": "warnPhishing",
@@ -2788,18 +2831,62 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 157
+        "count": 161
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 938,
+      "title": "Add SendCanary BIMI template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T22:55:46Z",
+      "updated_at": "2026-04-01T23:18:06Z",
+      "merged_at": null,
+      "author": "jotra7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/938",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sendcanary",
+          "service_id": "com.bimi",
+          "filename": "sendcanary.com.bimi.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 935,
+      "title": "added template for shopdeck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T12:47:26Z",
+      "updated_at": "2026-04-01T20:46:34Z",
+      "merged_at": null,
+      "author": "rahulranjan-blitz",
+      "author_avatar": "https://avatars.githubusercontent.com/u/111730878?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/935",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "shopdeck",
+          "service_id": "com.website-service-id",
+          "filename": "shopdeck.com.website-service-id.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 933,
       "title": "Add purple.ai-sendgrid-email template",
       "state": "open",
       "merged": false,
       "created_at": "2026-03-31T14:02:19Z",
-      "updated_at": "2026-04-01T00:33:50Z",
+      "updated_at": "2026-04-01T21:08:29Z",
       "merged_at": null,
       "author": "adrianhardy",
       "author_avatar": "https://avatars.githubusercontent.com/u/2385586?v=4",
@@ -2842,34 +2929,12 @@
       ]
     },
     {
-      "number": 931,
-      "title": "Add APVISO domain verification template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-31T10:20:27Z",
-      "updated_at": "2026-03-31T10:21:01Z",
-      "merged_at": null,
-      "author": "Majkie",
-      "author_avatar": "https://avatars.githubusercontent.com/u/37813691?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/931",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "apviso",
-          "service_id": "com.domain-verification",
-          "filename": "apviso.com.domain-verification.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 930,
       "title": "Add Ablazgo domain verification template",
       "state": "open",
       "merged": false,
       "created_at": "2026-03-31T04:25:08Z",
-      "updated_at": "2026-03-31T04:35:56Z",
+      "updated_at": "2026-04-01T01:47:13Z",
       "merged_at": null,
       "author": "wzdave",
       "author_avatar": "https://avatars.githubusercontent.com/u/6155613?v=4",
@@ -2884,30 +2949,6 @@
           "filename": "ablazgo.com.domain-verification.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 929,
-      "title": "Switch plop.so apex template from A records to CNAME",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-31T00:02:56Z",
-      "updated_at": "2026-03-31T09:54:57Z",
-      "merged_at": null,
-      "author": "ccarse",
-      "author_avatar": "https://avatars.githubusercontent.com/u/1965943?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/929",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "plop",
-          "service_id": "so.website-apex",
-          "filename": "plop.so.website-apex.json",
-          "logo_url": null,
-          "status": "modified"
         }
       ]
     },
@@ -3511,6 +3552,124 @@
       ]
     },
     {
+      "number": 937,
+      "title": "Add configuration for Elestio custom domain service",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-01T15:57:00Z",
+      "updated_at": "2026-04-01T20:46:20Z",
+      "merged_at": "2026-04-01T20:46:20Z",
+      "author": "amitshuklabag",
+      "author_avatar": "https://avatars.githubusercontent.com/u/53058928?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/937",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "elest",
+          "service_id": "io.custom",
+          "filename": "elest.io.custom.json",
+          "logo_url": "https://elest.io/images/elestio.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 936,
+      "title": "Add getowlet.ai/plume-blog template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-01T15:02:03Z",
+      "updated_at": "2026-04-01T20:43:43Z",
+      "merged_at": "2026-04-01T20:43:43Z",
+      "author": "therealinvoker",
+      "author_avatar": "https://avatars.githubusercontent.com/u/161081502?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/936",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "getowlet",
+          "service_id": "ai.plume-blog",
+          "filename": "getowlet.ai.plume-blog.json",
+          "logo_url": "https://plume.getowlet.ai/images/logo-mark.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 934,
+      "title": "Update version to 3 and add hostRequired field",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-01T10:45:01Z",
+      "updated_at": "2026-04-01T20:41:22Z",
+      "merged_at": "2026-04-01T20:41:22Z",
+      "author": "whswee-newswav",
+      "author_avatar": "https://avatars.githubusercontent.com/u/43607650?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/934",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "cendol",
+          "service_id": "ai.website",
+          "filename": "cendol.ai.website.json",
+          "logo_url": "https://cendol.ai/logo.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 929,
+      "title": "Switch plop.so apex template from A records to CNAME",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-31T00:02:56Z",
+      "updated_at": "2026-04-01T01:43:37Z",
+      "merged_at": "2026-04-01T01:43:36Z",
+      "author": "ccarse",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1965943?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/929",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "plop",
+          "service_id": "so.website-apex",
+          "filename": "plop.so.website-apex.json",
+          "logo_url": null,
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 931,
+      "title": "Add APVISO domain verification template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-31T10:20:27Z",
+      "updated_at": "2026-04-01T01:42:47Z",
+      "merged_at": "2026-04-01T01:42:47Z",
+      "author": "Majkie",
+      "author_avatar": "https://avatars.githubusercontent.com/u/37813691?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/931",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "apviso",
+          "service_id": "com.domain-verification",
+          "filename": "apviso.com.domain-verification.json",
+          "logo_url": "https://apviso.com/logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 926,
       "title": "Add Strix domain verification template",
       "state": "closed",
@@ -3644,133 +3803,19 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 918,
-      "title": "Add cendol.ai website template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-28T08:09:52Z",
-      "updated_at": "2026-03-30T12:12:12Z",
-      "merged_at": "2026-03-30T12:12:12Z",
-      "author": "whswee-newswav",
-      "author_avatar": "https://avatars.githubusercontent.com/u/43607650?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/918",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "cendol",
-          "service_id": "ai.website",
-          "filename": "cendol.ai.website.json",
-          "logo_url": "https://cendol.ai/logo.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 917,
-      "title": "Add Spork status page template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-27T20:45:57Z",
-      "updated_at": "2026-03-30T12:11:21Z",
-      "merged_at": "2026-03-30T12:11:20Z",
-      "author": "bemiholdings",
-      "author_avatar": "https://avatars.githubusercontent.com/u/119017384?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/917",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "sporkops",
-          "service_id": "com.status-page",
-          "filename": "sporkops.com.status-page.json",
-          "logo_url": "https://sporkops.com/favicon.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 916,
-      "title": "Add EmailOctopus domain verification template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-27T15:50:51Z",
-      "updated_at": "2026-03-30T12:07:23Z",
-      "merged_at": "2026-03-30T12:07:23Z",
-      "author": "rhel-eo",
-      "author_avatar": "https://avatars.githubusercontent.com/u/83471933?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/916",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "emailoctopus",
-          "service_id": "com.domain-verification",
-          "filename": "emailoctopus.com.domain-verification.json",
-          "logo_url": "https://dashboard.emailoctopus.com/logo-domain-connect.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 900,
-      "title": "Add NavScope token claim verification template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-25T19:56:39Z",
-      "updated_at": "2026-03-30T12:06:31Z",
-      "merged_at": "2026-03-30T12:06:31Z",
-      "author": "NaveenSharma",
-      "author_avatar": "https://avatars.githubusercontent.com/u/369668?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/900",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "navscope",
-          "service_id": "io.token-claim-verification",
-          "filename": "navscope.io.token-claim-verification.json",
-          "logo_url": "https://navscope.io/logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 913,
-      "title": "Add Nordiccdn.com cdn template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-27T08:20:11Z",
-      "updated_at": "2026-03-27T15:28:06Z",
-      "merged_at": "2026-03-27T15:28:06Z",
-      "author": "Edelskjold",
-      "author_avatar": "https://avatars.githubusercontent.com/u/6057024?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/913",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "nordiccdn",
-          "service_id": "com.cdn-setup",
-          "filename": "nordiccdn.com.cdn-setup.json",
-          "logo_url": "https://nordiccdn.com/images/nordiccdn-logo.svg",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 477,
+        "review_count": 481,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 70,
+        "review_count": 71,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3796,13 +3841,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 77,
+        "review_count": 78,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 19,
+        "review_count": 20,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3948,6 +3993,15 @@
       "provider_name": "Approximated",
       "service_name": "Subdomain CNAME",
       "logo_url": null,
+      "record_count": 1
+    },
+    {
+      "filename": "apviso.com.domain-verification.json",
+      "provider_id": "apviso.com",
+      "service_id": "domain-verification",
+      "provider_name": "APVISO",
+      "service_name": "Domain Verification",
+      "logo_url": "https://apviso.com/logo.svg",
       "record_count": 1
     },
     {
@@ -4281,7 +4335,7 @@
       "provider_name": "Cendol AI",
       "service_name": "SEO Autopilot",
       "logo_url": "https://cendol.ai/logo.png",
-      "record_count": 1
+      "record_count": 2
     },
     {
       "filename": "certdashboard.cloud.mail.json",
@@ -4788,6 +4842,15 @@
       "record_count": 3
     },
     {
+      "filename": "elest.io.custom.json",
+      "provider_id": "elest.io",
+      "service_id": "custom",
+      "provider_name": "Elestio",
+      "service_name": "Elestio Custom Domain",
+      "logo_url": "https://elest.io/images/elestio.svg",
+      "record_count": 2
+    },
+    {
       "filename": "emailoctopus.com.domain-verification.json",
       "provider_id": "emailoctopus.com",
       "service_id": "domain-verification",
@@ -5082,6 +5145,15 @@
       "provider_name": "Branch by Getowlet",
       "service_name": "Branch Help Center",
       "logo_url": "https://branch.getowlet.ai/images/logo-mark.png",
+      "record_count": 1
+    },
+    {
+      "filename": "getowlet.ai.plume-blog.json",
+      "provider_id": "getowlet.ai",
+      "service_id": "plume-blog",
+      "provider_name": "Plume by Getowlet",
+      "service_name": "Plume Blog",
+      "logo_url": "https://plume.getowlet.ai/images/logo-mark.png",
       "record_count": 1
     },
     {
@@ -7530,7 +7602,7 @@
       "provider_name": "plop",
       "service_name": "plop File Hosting (Apex)",
       "logo_url": null,
-      "record_count": 2
+      "record_count": 1
     },
     {
       "filename": "plop.so.website.json",
@@ -9293,16 +9365,16 @@
       "profile_url": "https://github.com/twalmsley"
     },
     {
-      "login": "greenreader9",
-      "contributions": 18,
-      "avatar_url": "https://avatars.githubusercontent.com/u/75644395?v=4",
-      "profile_url": "https://github.com/greenreader9"
-    },
-    {
       "login": "bdickson1-godaddy",
       "contributions": 18,
       "avatar_url": "https://avatars.githubusercontent.com/u/54912895?v=4",
       "profile_url": "https://github.com/bdickson1-godaddy"
+    },
+    {
+      "login": "greenreader9",
+      "contributions": 18,
+      "avatar_url": "https://avatars.githubusercontent.com/u/75644395?v=4",
+      "profile_url": "https://github.com/greenreader9"
     },
     {
       "login": "webtoolbox",
@@ -9317,16 +9389,16 @@
       "profile_url": "https://github.com/Luxaaa"
     },
     {
-      "login": "delputnam",
-      "contributions": 14,
-      "avatar_url": "https://avatars.githubusercontent.com/u/1379730?v=4",
-      "profile_url": "https://github.com/delputnam"
-    },
-    {
       "login": "b805rohit",
       "contributions": 14,
       "avatar_url": "https://avatars.githubusercontent.com/u/35255598?v=4",
       "profile_url": "https://github.com/b805rohit"
+    },
+    {
+      "login": "delputnam",
+      "contributions": 14,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1379730?v=4",
+      "profile_url": "https://github.com/delputnam"
     },
     {
       "login": "stabarez",
@@ -9335,16 +9407,16 @@
       "profile_url": "https://github.com/stabarez"
     },
     {
-      "login": "john-zli",
-      "contributions": 11,
-      "avatar_url": "https://avatars.githubusercontent.com/u/8244301?v=4",
-      "profile_url": "https://github.com/john-zli"
-    },
-    {
       "login": "dane-stevens",
       "contributions": 11,
       "avatar_url": "https://avatars.githubusercontent.com/u/12450895?v=4",
       "profile_url": "https://github.com/dane-stevens"
+    },
+    {
+      "login": "john-zli",
+      "contributions": 11,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8244301?v=4",
+      "profile_url": "https://github.com/john-zli"
     },
     {
       "login": "slxca",
@@ -9395,18 +9467,6 @@
       "profile_url": "https://github.com/TracyFogel"
     },
     {
-      "login": "JoaoFSCruz",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/26048679?v=4",
-      "profile_url": "https://github.com/JoaoFSCruz"
-    },
-    {
-      "login": "cmalec",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/9370134?v=4",
-      "profile_url": "https://github.com/cmalec"
-    },
-    {
       "login": "arya-dos",
       "contributions": 8,
       "avatar_url": "https://avatars.githubusercontent.com/u/164984012?v=4",
@@ -9419,22 +9479,22 @@
       "profile_url": "https://github.com/kiranvsr"
     },
     {
-      "login": "tombeard",
+      "login": "JoaoFSCruz",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/12370027?v=4",
-      "profile_url": "https://github.com/tombeard"
+      "avatar_url": "https://avatars.githubusercontent.com/u/26048679?v=4",
+      "profile_url": "https://github.com/JoaoFSCruz"
     },
     {
-      "login": "dommholland",
+      "login": "cmalec",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4269710?v=4",
-      "profile_url": "https://github.com/dommholland"
+      "avatar_url": "https://avatars.githubusercontent.com/u/9370134?v=4",
+      "profile_url": "https://github.com/cmalec"
     },
     {
-      "login": "MrExcitingDigits",
+      "login": "anish2690",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
-      "profile_url": "https://github.com/MrExcitingDigits"
+      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
+      "profile_url": "https://github.com/anish2690"
     },
     {
       "login": "jonroig",
@@ -9443,10 +9503,22 @@
       "profile_url": "https://github.com/jonroig"
     },
     {
-      "login": "anish2690",
+      "login": "tombeard",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
-      "profile_url": "https://github.com/anish2690"
+      "avatar_url": "https://avatars.githubusercontent.com/u/12370027?v=4",
+      "profile_url": "https://github.com/tombeard"
+    },
+    {
+      "login": "MrExcitingDigits",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
+      "profile_url": "https://github.com/MrExcitingDigits"
+    },
+    {
+      "login": "dommholland",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4269710?v=4",
+      "profile_url": "https://github.com/dommholland"
     },
     {
       "login": "FlorentinStafie",
@@ -9521,10 +9593,10 @@
       "profile_url": "https://github.com/lyalls-marc"
     },
     {
-      "login": "richard-edens",
+      "login": "chintans1",
       "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/82026336?v=4",
-      "profile_url": "https://github.com/richard-edens"
+      "avatar_url": "https://avatars.githubusercontent.com/u/6274806?v=4",
+      "profile_url": "https://github.com/chintans1"
     }
   ]
 }
