@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-03T01:16:54.543634",
+  "generated_at": "2026-04-04T01:10:59.323039",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 609,
-    "total_providers": 334,
-    "total_merged_prs": 720,
-    "total_open_prs": 25,
-    "total_contributors": 360,
-    "avg_records_per_template": 3.38
+    "total_templates": 610,
+    "total_providers": 335,
+    "total_merged_prs": 723,
+    "total_open_prs": 22,
+    "total_contributors": 361,
+    "avg_records_per_template": 3.39
   },
   "templates_growth": [
     {
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 7,
+      "added": 8,
       "deleted": 0,
-      "cumulative": 609
+      "cumulative": 610
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 5,
-      "cumulative": 334
+      "added": 6,
+      "cumulative": 335
     }
   ],
   "pr_activity": [
@@ -1520,7 +1520,7 @@
     {
       "month": "2026-04",
       "created": 8,
-      "merged": 10
+      "merged": 13
     }
   ],
   "pr_time_to_merge": [
@@ -1902,11 +1902,11 @@
     },
     {
       "month": "2026-03",
-      "avg_days": 0.9
+      "avg_days": 1.2
     },
     {
       "month": "2026-04",
-      "avg_days": 0.3
+      "avg_days": 0.4
     }
   ],
   "pr_label_activity": [
@@ -2517,11 +2517,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 453
+      "count": 454
     },
     {
       "type": "TXT",
-      "count": 265
+      "count": 266
     },
     {
       "type": "A",
@@ -2529,7 +2529,7 @@
     },
     {
       "type": "SPFM",
-      "count": 128
+      "count": 129
     },
     {
       "type": "MX",
@@ -2549,7 +2549,7 @@
     },
     {
       "type": "NS",
-      "count": 5
+      "count": 6
     },
     {
       "type": "APEXCNAME",
@@ -2773,6 +2773,12 @@
         "template_count": 2
       },
       {
+        "provider_id": "brixus365.com",
+        "provider_name": "Brixus365",
+        "logo_url": "https://brixus365.com/favicon.svg",
+        "template_count": 1
+      },
+      {
         "provider_id": "prospectflow.dev",
         "provider_name": "ProspectFlow",
         "logo_url": "https://prospectflow.dev/icon.png",
@@ -2781,7 +2787,7 @@
       {
         "provider_id": "unkey.com",
         "provider_name": "Unkey",
-        "logo_url": "https://unkey.com/logo.png",
+        "logo_url": "https://www.unkey.com/logo-dark.svg",
         "template_count": 1
       },
       {
@@ -2801,27 +2807,21 @@
         "provider_name": "Elestio",
         "logo_url": "https://elest.io/images/elestio.svg",
         "template_count": 1
-      },
-      {
-        "provider_id": "apviso.com",
-        "provider_name": "APVISO",
-        "logo_url": "https://apviso.com/logo.svg",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 609,
+    "total_templates": 610,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 539
+        "count": 540
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 384
+        "count": 386
       },
       {
         "name": "warnPhishing",
@@ -2836,30 +2836,6 @@
     ]
   },
   "recent_prs": [
-    {
-      "number": 941,
-      "title": "Update Unkey template: add syncRedirectDomain and update logo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T16:29:16Z",
-      "updated_at": "2026-04-02T16:35:13Z",
-      "merged_at": null,
-      "author": "Flo4604",
-      "author_avatar": "https://avatars.githubusercontent.com/u/53355483?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/941",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "unkey",
-          "service_id": "com.custom-domain",
-          "filename": "unkey.com.custom-domain.json",
-          "logo_url": "https://unkey.com/logo.png",
-          "status": "modified"
-        }
-      ]
-    },
     {
       "number": 932,
       "title": "Add Storehaus (storehaus.ai) custom domain template",
@@ -2905,30 +2881,6 @@
           "provider_id": "ablazgo",
           "service_id": "com.domain-verification",
           "filename": "ablazgo.com.domain-verification.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 921,
-      "title": "Add Brixus365 email authentication template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-28T23:00:07Z",
-      "updated_at": "2026-04-02T20:54:58Z",
-      "merged_at": null,
-      "author": "amitection",
-      "author_avatar": "https://avatars.githubusercontent.com/u/7465536?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/921",
-      "labels": [
-        "question"
-      ],
-      "templates": [
-        {
-          "provider_id": "brixus365",
-          "service_id": "com.emailauth",
-          "filename": "brixus365.com.emailauth.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3189,30 +3141,6 @@
           "filename": "y12.ai.reviewguard.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 816,
-      "title": "Update Brevo domain authentication configuration",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T03:32:05Z",
-      "updated_at": "2026-04-02T08:55:58Z",
-      "merged_at": null,
-      "author": "parveen-sib",
-      "author_avatar": "https://avatars.githubusercontent.com/u/105631366?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/816",
-      "labels": [
-        "blocked"
-      ],
-      "templates": [
-        {
-          "provider_id": "brevo",
-          "service_id": "com.domain-authentication",
-          "filename": "brevo.com.domain-authentication.json",
-          "logo_url": "https://static.brevo.com/meetings/assets/brevo_logo.png",
-          "status": "modified"
         }
       ]
     },
@@ -3510,6 +3438,78 @@
       ]
     },
     {
+      "number": 941,
+      "title": "Update Unkey template: add syncRedirectDomain and update logo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-02T16:29:16Z",
+      "updated_at": "2026-04-03T16:21:54Z",
+      "merged_at": "2026-04-03T16:17:44Z",
+      "author": "Flo4604",
+      "author_avatar": "https://avatars.githubusercontent.com/u/53355483?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/941",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "unkey",
+          "service_id": "com.custom-domain",
+          "filename": "unkey.com.custom-domain.json",
+          "logo_url": "https://www.unkey.com/logo-dark.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 816,
+      "title": "Update Brevo domain authentication configuration",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-06T03:32:05Z",
+      "updated_at": "2026-04-03T16:15:52Z",
+      "merged_at": "2026-04-03T16:15:51Z",
+      "author": "parveen-sib",
+      "author_avatar": "https://avatars.githubusercontent.com/u/105631366?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/816",
+      "labels": [
+        "blocked"
+      ],
+      "templates": [
+        {
+          "provider_id": "brevo",
+          "service_id": "com.domain-authentication",
+          "filename": "brevo.com.domain-authentication.json",
+          "logo_url": "https://static.brevo.com/meetings/assets/brevo_logo.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 921,
+      "title": "Add Brixus365 email authentication template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-28T23:00:07Z",
+      "updated_at": "2026-04-03T16:11:04Z",
+      "merged_at": "2026-04-03T16:11:04Z",
+      "author": "amitection",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7465536?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/921",
+      "labels": [
+        "question"
+      ],
+      "templates": [
+        {
+          "provider_id": "brixus365",
+          "service_id": "com.emailauth",
+          "filename": "brixus365.com.emailauth.json",
+          "logo_url": "https://brixus365.com/favicon.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 940,
       "title": "Add Unkey custom domain template",
       "state": "closed",
@@ -3529,7 +3529,7 @@
           "provider_id": "unkey",
           "service_id": "com.custom-domain",
           "filename": "unkey.com.custom-domain.json",
-          "logo_url": "https://unkey.com/logo.png",
+          "logo_url": "https://www.unkey.com/logo-dark.svg",
           "status": "added"
         }
       ]
@@ -3669,89 +3669,19 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 934,
-      "title": "Update version to 3 and add hostRequired field",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-01T10:45:01Z",
-      "updated_at": "2026-04-01T20:41:22Z",
-      "merged_at": "2026-04-01T20:41:22Z",
-      "author": "whswee-newswav",
-      "author_avatar": "https://avatars.githubusercontent.com/u/43607650?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/934",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "cendol",
-          "service_id": "ai.website",
-          "filename": "cendol.ai.website.json",
-          "logo_url": "https://cendol.ai/logo.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 929,
-      "title": "Switch plop.so apex template from A records to CNAME",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-31T00:02:56Z",
-      "updated_at": "2026-04-01T01:43:37Z",
-      "merged_at": "2026-04-01T01:43:36Z",
-      "author": "ccarse",
-      "author_avatar": "https://avatars.githubusercontent.com/u/1965943?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/929",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "plop",
-          "service_id": "so.website-apex",
-          "filename": "plop.so.website-apex.json",
-          "logo_url": null,
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 931,
-      "title": "Add APVISO domain verification template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-31T10:20:27Z",
-      "updated_at": "2026-04-01T01:42:47Z",
-      "merged_at": "2026-04-01T01:42:47Z",
-      "author": "Majkie",
-      "author_avatar": "https://avatars.githubusercontent.com/u/37813691?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/931",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "apviso",
-          "service_id": "com.domain-verification",
-          "filename": "apviso.com.domain-verification.json",
-          "logo_url": "https://apviso.com/logo.svg",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 486,
+        "review_count": 489,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 71,
+        "review_count": 72,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3777,7 +3707,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 82,
+        "review_count": 83,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3789,7 +3719,7 @@
       },
       {
         "login": "copilot-pull-request-reviewer[bot]",
-        "review_count": 2,
+        "review_count": 1,
         "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
         "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       }
@@ -4217,7 +4147,16 @@
       "provider_name": "Brevo",
       "service_name": "Brevo Domain Authentication",
       "logo_url": "https://static.brevo.com/meetings/assets/brevo_logo.png",
-      "record_count": 10
+      "record_count": 13
+    },
+    {
+      "filename": "brixus365.com.emailauth.json",
+      "provider_id": "brixus365.com",
+      "service_id": "emailauth",
+      "provider_name": "Brixus365",
+      "service_name": "Email Authentication",
+      "logo_url": "https://brixus365.com/favicon.svg",
+      "record_count": 5
     },
     {
       "filename": "brolve.com.email.json",
@@ -8743,7 +8682,7 @@
       "service_id": "custom-domain",
       "provider_name": "Unkey",
       "service_name": "Unkey Custom Domain",
-      "logo_url": "https://unkey.com/logo.png",
+      "logo_url": "https://www.unkey.com/logo-dark.svg",
       "record_count": 2
     },
     {
