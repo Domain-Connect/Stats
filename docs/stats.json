@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T01:10:59.323039",
+  "generated_at": "2026-04-05T01:19:52.942386",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 610,
     "total_providers": 335,
     "total_merged_prs": 723,
-    "total_open_prs": 22,
+    "total_open_prs": 24,
     "total_contributors": 361,
     "avg_records_per_template": 3.39
   },
@@ -1519,7 +1519,7 @@
     },
     {
       "month": "2026-04",
-      "created": 8,
+      "created": 10,
       "merged": 13
     }
   ],
@@ -2103,12 +2103,12 @@
     {
       "month": "2026-04",
       "AI crap": 0,
-      "Checklist of common problems not complete": 4,
+      "Checklist of common problems not complete": 6,
       "Chores": 0,
-      "Forged editor links": 0,
-      "PR description incomplete": 4,
+      "Forged editor links": 1,
+      "PR description incomplete": 6,
       "Stale": 0,
-      "Test links missing": 8,
+      "Test links missing": 10,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
@@ -2689,12 +2689,6 @@
     ],
     "last_30_days": [
       {
-        "provider_id": "mimeprotect.com",
-        "provider_name": "MimeProtect",
-        "logo_url": "https://mimeprotect.com/logo.svg",
-        "template_count": 6
-      },
-      {
         "provider_id": "sendcanary.com",
         "provider_name": "SendCanary",
         "logo_url": "https://sendcanary.com/logo.png",
@@ -2767,12 +2761,6 @@
         "template_count": 2
       },
       {
-        "provider_id": "nettingale.com",
-        "provider_name": "Nettingale",
-        "logo_url": "https://nettingale.com/favicon.svg",
-        "template_count": 2
-      },
-      {
         "provider_id": "brixus365.com",
         "provider_name": "Brixus365",
         "logo_url": "https://brixus365.com/favicon.svg",
@@ -2807,6 +2795,18 @@
         "provider_name": "Elestio",
         "logo_url": "https://elest.io/images/elestio.svg",
         "template_count": 1
+      },
+      {
+        "provider_id": "apviso.com",
+        "provider_name": "APVISO",
+        "logo_url": "https://apviso.com/logo.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "strix.ai",
+        "provider_name": "Strix",
+        "logo_url": "https://app.strix.ai/logo.png",
+        "template_count": 1
       }
     ]
   },
@@ -2836,6 +2836,50 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 943,
+      "title": "Add TheRedStonee E-Mail Hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-04T14:17:06Z",
+      "updated_at": "2026-04-04T14:57:13Z",
+      "merged_at": null,
+      "author": "theredstonee",
+      "author_avatar": "https://avatars.githubusercontent.com/u/193012863?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/943",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "theredstonee",
+          "service_id": "de.mail-hosting",
+          "filename": "theredstonee.de.mail-hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 942,
+      "title": "Add euromail.dev mail template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-04T11:33:56Z",
+      "updated_at": "2026-04-04T14:00:12Z",
+      "merged_at": null,
+      "author": "lamminpaa",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1034169?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/942",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "euromail",
+          "service_id": "dev.mail",
+          "filename": "euromail.dev.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 932,
       "title": "Add Storehaus (storehaus.ai) custom domain template",
@@ -3305,14 +3349,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-11T00:50:22Z",
-      "updated_at": "2026-03-06T17:21:55Z",
+      "updated_at": "2026-04-04T11:29:58Z",
       "merged_at": null,
       "author": "aomkoyo",
       "author_avatar": "https://avatars.githubusercontent.com/u/59776731?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/763",
       "labels": [
         "question",
-        "PR description incomplete",
         "Test links missing"
       ],
       "templates": [
@@ -3707,21 +3750,15 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 83,
+        "review_count": 80,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 19,
+        "review_count": 17,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
-      },
-      {
-        "login": "copilot-pull-request-reviewer[bot]",
-        "review_count": 1,
-        "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
-        "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       }
     ]
   },
