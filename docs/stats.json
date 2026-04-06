@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T01:19:52.942386",
+  "generated_at": "2026-04-06T01:20:13.002108",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 610,
     "total_providers": 335,
     "total_merged_prs": 723,
-    "total_open_prs": 24,
+    "total_open_prs": 28,
     "total_contributors": 361,
     "avg_records_per_template": 3.39
   },
@@ -1519,7 +1519,7 @@
     },
     {
       "month": "2026-04",
-      "created": 10,
+      "created": 14,
       "merged": 13
     }
   ],
@@ -2103,21 +2103,21 @@
     {
       "month": "2026-04",
       "AI crap": 0,
-      "Checklist of common problems not complete": 6,
+      "Checklist of common problems not complete": 8,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 6,
+      "PR description incomplete": 8,
       "Stale": 0,
-      "Test links missing": 10,
+      "Test links missing": 14,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 5,
+      "hostRequired": 6,
       "no syncPubKeyDomain": 0,
       "question": 0,
       "schema-error": 1,
       "syncBlock": 0,
-      "warnPhishing": 1
+      "warnPhishing": 2
     }
   ],
   "pr_comment_activity": [
@@ -2713,12 +2713,6 @@
         "template_count": 3
       },
       {
-        "provider_id": "boti.bot",
-        "provider_name": "Boti",
-        "logo_url": "https://boti.bot/boti512.png",
-        "template_count": 3
-      },
-      {
         "provider_id": "lolia.link",
         "provider_name": "LoliaFRP",
         "logo_url": "https://r2.lolia.link/public/Lolia.png",
@@ -2807,6 +2801,12 @@
         "provider_name": "Strix",
         "logo_url": "https://app.strix.ai/logo.png",
         "template_count": 1
+      },
+      {
+        "provider_id": "peleka.io",
+        "provider_name": "Peleka",
+        "logo_url": "https://files.peleka.io/assets/images/text-logo.svg",
+        "template_count": 1
       }
     ]
   },
@@ -2836,6 +2836,126 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 947,
+      "title": "Fix SendCanary email-setup SPF: use per-domain token variable",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-06T00:41:39Z",
+      "updated_at": "2026-04-06T01:17:45Z",
+      "merged_at": null,
+      "author": "jotra7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/947",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "sendcanary",
+          "service_id": "com.email-setup",
+          "filename": "sendcanary.com.email-setup.json",
+          "logo_url": "https://sendcanary.com/logo.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 946,
+      "title": "Add TrekMail email hosting configuration",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T17:38:57Z",
+      "updated_at": "2026-04-05T17:54:12Z",
+      "merged_at": null,
+      "author": "loyderhy2",
+      "author_avatar": "https://avatars.githubusercontent.com/u/244529010?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/946",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "trekmail",
+          "service_id": "net.mail_hosting",
+          "filename": "trekmail.net.mail_hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 945,
+      "title": "Add SendCanary DKIM CNAME templates (dkim-1, dkim-2, dkim-3)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T17:38:06Z",
+      "updated_at": "2026-04-05T18:02:56Z",
+      "merged_at": null,
+      "author": "jotra7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/945",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sendcanary",
+          "service_id": "com.dkim-1",
+          "filename": "sendcanary.com.dkim-1.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "sendcanary",
+          "service_id": "com.dkim-2",
+          "filename": "sendcanary.com.dkim-2.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "sendcanary",
+          "service_id": "com.dkim-3",
+          "filename": "sendcanary.com.dkim-3.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 944,
+      "title": "Add files via upload",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T01:56:06Z",
+      "updated_at": "2026-04-05T03:18:20Z",
+      "merged_at": null,
+      "author": "maxgod1",
+      "author_avatar": "https://avatars.githubusercontent.com/u/48208524?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/944",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "forgigs",
+          "service_id": "com.email-sending",
+          "filename": "forgigs.com.email-sending.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "forgigs",
+          "service_id": "com.page-routing-apex",
+          "filename": "forgigs.com.page-routing-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "forgigs",
+          "service_id": "com.page-routing-subdomain",
+          "filename": "forgigs.com.page-routing-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 943,
       "title": "Add TheRedStonee E-Mail Hosting template",
@@ -3194,12 +3314,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-05T15:08:33Z",
-      "updated_at": "2026-03-05T17:35:03Z",
+      "updated_at": "2026-04-05T04:15:21Z",
       "merged_at": null,
       "author": "YosifG",
       "author_avatar": "https://avatars.githubusercontent.com/u/60229348?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/811",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing"
@@ -3220,12 +3341,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-04T19:13:33Z",
-      "updated_at": "2026-03-05T07:58:52Z",
+      "updated_at": "2026-04-05T04:15:23Z",
       "merged_at": null,
       "author": "manukivi",
       "author_avatar": "https://avatars.githubusercontent.com/u/13639298?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/806",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing"
@@ -3272,12 +3394,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-26T22:25:58Z",
-      "updated_at": "2026-03-05T08:00:00Z",
+      "updated_at": "2026-04-05T04:15:25Z",
       "merged_at": null,
       "author": "thiagorussi",
       "author_avatar": "https://avatars.githubusercontent.com/u/60278366?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/787",
       "labels": [
+        "Stale",
         "AI crap",
         "PR description incomplete",
         "Checklist of common problems not complete",
@@ -3306,12 +3429,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-25T10:18:58Z",
-      "updated_at": "2026-03-05T08:00:13Z",
+      "updated_at": "2026-04-05T04:15:26Z",
       "merged_at": null,
       "author": "Anshuman200",
       "author_avatar": "https://avatars.githubusercontent.com/u/75315423?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/784",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing"
@@ -3374,12 +3498,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-10T18:33:54Z",
-      "updated_at": "2026-03-05T16:29:14Z",
+      "updated_at": "2026-04-05T04:15:28Z",
       "merged_at": null,
       "author": "marluciaaraujo149-web",
       "author_avatar": "https://avatars.githubusercontent.com/u/258689530?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/762",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing"
@@ -3407,12 +3532,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-01-15T19:04:24Z",
-      "updated_at": "2026-03-05T08:00:34Z",
+      "updated_at": "2026-04-05T04:15:30Z",
       "merged_at": null,
       "author": "BaptisteLam",
       "author_avatar": "https://avatars.githubusercontent.com/u/231010613?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/718",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing"
@@ -3433,13 +3559,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-01-07T10:54:33Z",
-      "updated_at": "2026-03-05T08:00:55Z",
+      "updated_at": "2026-04-05T04:15:31Z",
       "merged_at": null,
       "author": "kiritoaurora",
       "author_avatar": "https://avatars.githubusercontent.com/u/61142387?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/701",
       "labels": [
         "question",
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing"
@@ -3460,12 +3587,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2025-12-31T07:03:37Z",
-      "updated_at": "2026-03-05T08:01:02Z",
+      "updated_at": "2026-04-05T04:15:33Z",
       "merged_at": null,
       "author": "AudEarn",
       "author_avatar": "https://avatars.githubusercontent.com/u/193089239?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/695",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing"
@@ -3750,13 +3878,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 80,
+        "review_count": 76,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 17,
+        "review_count": 15,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
