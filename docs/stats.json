@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-07T01:18:15.926992",
+  "generated_at": "2026-04-08T01:19:04.335042",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 615,
-    "total_providers": 340,
-    "total_merged_prs": 728,
-    "total_open_prs": 27,
-    "total_contributors": 366,
-    "avg_records_per_template": 3.41
+    "total_templates": 621,
+    "total_providers": 341,
+    "total_merged_prs": 736,
+    "total_open_prs": 24,
+    "total_contributors": 369,
+    "avg_records_per_template": 3.4
   },
   "templates_growth": [
     {
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 13,
+      "added": 19,
       "deleted": 0,
-      "cumulative": 615
+      "cumulative": 621
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 11,
-      "cumulative": 340
+      "added": 12,
+      "cumulative": 341
     }
   ],
   "pr_activity": [
@@ -1519,8 +1519,8 @@
     },
     {
       "month": "2026-04",
-      "created": 18,
-      "merged": 18
+      "created": 23,
+      "merged": 26
     }
   ],
   "pr_time_to_merge": [
@@ -1906,7 +1906,7 @@
     },
     {
       "month": "2026-04",
-      "avg_days": 0.6
+      "avg_days": 0.7
     }
   ],
   "pr_label_activity": [
@@ -2102,20 +2102,20 @@
     },
     {
       "month": "2026-04",
-      "AI crap": 0,
-      "Checklist of common problems not complete": 8,
+      "AI crap": 1,
+      "Checklist of common problems not complete": 11,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 8,
+      "PR description incomplete": 11,
       "Stale": 0,
-      "Test links missing": 16,
+      "Test links missing": 21,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 7,
+      "hostRequired": 9,
       "no syncPubKeyDomain": 0,
       "question": 0,
-      "schema-error": 1,
+      "schema-error": 2,
       "syncBlock": 0,
       "warnPhishing": 3
     }
@@ -2511,29 +2511,29 @@
     },
     {
       "month": "2026-04",
-      "avg_comments": 0.2
+      "avg_comments": 0.5
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 459
+      "count": 465
     },
     {
       "type": "TXT",
-      "count": 269
+      "count": 272
     },
     {
       "type": "A",
-      "count": 219
+      "count": 220
     },
     {
       "type": "SPFM",
-      "count": 133
+      "count": 134
     },
     {
       "type": "MX",
-      "count": 112
+      "count": 114
     },
     {
       "type": "SRV",
@@ -2615,6 +2615,12 @@
         "template_count": 6
       },
       {
+        "provider_id": "sendcanary.com",
+        "provider_name": "SendCanary",
+        "logo_url": "https://sendcanary.com/logo.png",
+        "template_count": 6
+      },
+      {
         "provider_id": "certdashboard.cloud",
         "provider_name": "CertDashboard",
         "logo_url": "https://res.cloudinary.com/dy94cdmsp/image/upload/v1754392054/svgviewer-output_yinzzk.svg",
@@ -2679,12 +2685,6 @@
         "provider_name": "Verkh",
         "logo_url": "https://verkh.io/logo.svg",
         "template_count": 4
-      },
-      {
-        "provider_id": "Zenfolio",
-        "provider_name": "Zenfolio Custom Domain Web Hosting DEVELOPMENT TEMPLATE",
-        "logo_url": "https://zenfolio.com/resources/zenfolio-logo.gif",
-        "template_count": 4
       }
     ],
     "last_30_days": [
@@ -2692,7 +2692,7 @@
         "provider_id": "sendcanary.com",
         "provider_name": "SendCanary",
         "logo_url": "https://sendcanary.com/logo.png",
-        "template_count": 3
+        "template_count": 6
       },
       {
         "provider_id": "getowlet.ai",
@@ -2711,6 +2711,12 @@
         "provider_name": "Nashra",
         "logo_url": "https://app.nashra.ai/images/logo/logo.svg",
         "template_count": 3
+      },
+      {
+        "provider_id": "forgigs.com",
+        "provider_name": "Forgigs",
+        "logo_url": "https://pages.forgigs.com/logo.svg",
+        "template_count": 2
       },
       {
         "provider_id": "lolia.link",
@@ -2749,10 +2755,10 @@
         "template_count": 2
       },
       {
-        "provider_id": "leonai.io",
-        "provider_name": "SignFlow by Leon AI",
-        "logo_url": "https://signflow.leonai.io/leonai-logo.png",
-        "template_count": 2
+        "provider_id": "resend.com",
+        "provider_name": "Resend",
+        "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
+        "template_count": 1
       },
       {
         "provider_id": "dynares.app",
@@ -2801,27 +2807,21 @@
         "provider_name": "Unkey",
         "logo_url": "https://www.unkey.com/logo-dark.svg",
         "template_count": 1
-      },
-      {
-        "provider_id": "purple.ai",
-        "provider_name": "Purple.ai",
-        "logo_url": "https://d1ldbb6wxu8wdm.cloudfront.net/33815c0fcf008942e52db4c68969c433.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 615,
+    "total_templates": 621,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 545
+        "count": 551
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 389
+        "count": 395
       },
       {
         "name": "warnPhishing",
@@ -2831,126 +2831,33 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 163
+        "count": 165
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 950,
-      "title": "Add Resend click tracking domain template",
+      "number": 956,
+      "title": "AuthlyX",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-06T18:29:07Z",
-      "updated_at": "2026-04-06T21:03:47Z",
+      "created_at": "2026-04-07T19:14:48Z",
+      "updated_at": "2026-04-07T22:47:01Z",
       "merged_at": null,
-      "author": "cassiozen",
-      "author_avatar": "https://avatars.githubusercontent.com/u/33676?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/950",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "resend",
-          "service_id": "com.click-tracking",
-          "filename": "resend.com.click-tracking.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 947,
-      "title": "Fix SendCanary email-setup SPF: use per-domain token variable",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-06T00:41:39Z",
-      "updated_at": "2026-04-06T23:05:52Z",
-      "merged_at": null,
-      "author": "jotra7",
-      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/947",
+      "author": "bruuuhoffical",
+      "author_avatar": "https://avatars.githubusercontent.com/u/148368732?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/956",
       "labels": [
-        "question"
-      ],
-      "templates": [
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.email-setup",
-          "filename": "sendcanary.com.email-setup.json",
-          "logo_url": "https://sendcanary.com/logo.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 945,
-      "title": "Add SendCanary DKIM CNAME templates (dkim-1, dkim-2, dkim-3)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-05T17:38:06Z",
-      "updated_at": "2026-04-06T23:19:34Z",
-      "merged_at": null,
-      "author": "jotra7",
-      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/945",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.dkim-1",
-          "filename": "sendcanary.com.dkim-1.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.dkim-2",
-          "filename": "sendcanary.com.dkim-2.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.dkim-3",
-          "filename": "sendcanary.com.dkim-3.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 944,
-      "title": "Add files via upload",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-05T01:56:06Z",
-      "updated_at": "2026-04-06T21:09:29Z",
-      "merged_at": null,
-      "author": "maxgod1",
-      "author_avatar": "https://avatars.githubusercontent.com/u/48208524?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/944",
-      "labels": [
+        "AI crap",
+        "Test links missing",
+        "schema-error",
         "hostRequired"
       ],
       "templates": [
         {
-          "provider_id": "forgigs",
-          "service_id": "com.email-sending",
-          "filename": "forgigs.com.email-sending.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "forgigs",
-          "service_id": "com.page-routing-apex",
-          "filename": "forgigs.com.page-routing-apex.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "forgigs",
-          "service_id": "com.page-routing-subdomain",
-          "filename": "forgigs.com.page-routing-subdomain.json",
+          "provider_id": "authly",
+          "service_id": "cc.api",
+          "filename": "authly.cc.api.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3159,14 +3066,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-19T22:24:59Z",
-      "updated_at": "2026-04-01T00:44:37Z",
+      "updated_at": "2026-04-07T21:19:43Z",
       "merged_at": null,
       "author": "EstebX",
       "author_avatar": "https://avatars.githubusercontent.com/u/100437198?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/876",
-      "labels": [
-        "Test links missing"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "monpetitbistro",
@@ -3344,12 +3249,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-04T08:06:51Z",
-      "updated_at": "2026-03-07T19:51:51Z",
+      "updated_at": "2026-04-07T04:10:32Z",
       "merged_at": null,
       "author": "tonxxd",
       "author_avatar": "https://avatars.githubusercontent.com/u/2827496?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/799",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing"
@@ -3586,6 +3492,218 @@
       ]
     },
     {
+      "number": 955,
+      "title": "Update vercel website template to add apex CNAME record",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T18:42:52Z",
+      "updated_at": "2026-04-07T22:45:18Z",
+      "merged_at": "2026-04-07T22:45:18Z",
+      "author": "elliotdauber",
+      "author_avatar": "https://avatars.githubusercontent.com/u/67391073?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/955",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "vercel",
+          "service_id": "com.website",
+          "filename": "vercel.com.website.json",
+          "logo_url": null,
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 954,
+      "title": "Updates Resend templates to include `click-tracking`",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T16:14:23Z",
+      "updated_at": "2026-04-07T18:22:11Z",
+      "merged_at": "2026-04-07T18:22:10Z",
+      "author": "cassiozen",
+      "author_avatar": "https://avatars.githubusercontent.com/u/33676?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/954",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "resend",
+          "service_id": "com.mail-send-and-receive",
+          "filename": "resend.com.mail-send-and-receive.json",
+          "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
+          "status": "modified"
+        },
+        {
+          "provider_id": "resend",
+          "service_id": "com.mail",
+          "filename": "resend.com.mail.json",
+          "logo_url": "https://resend.com/static/brand/resend-wordmark-black.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 953,
+      "title": "update Elestio custom domain configuration",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T15:10:40Z",
+      "updated_at": "2026-04-07T15:46:52Z",
+      "merged_at": "2026-04-07T15:46:51Z",
+      "author": "amitshuklabag",
+      "author_avatar": "https://avatars.githubusercontent.com/u/53058928?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/953",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "elest",
+          "service_id": "io.custom",
+          "filename": "elest.io.custom.json",
+          "logo_url": "https://elest.io/images/elestio.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 950,
+      "title": "Add Resend click tracking domain template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-06T18:29:07Z",
+      "updated_at": "2026-04-07T14:05:23Z",
+      "merged_at": "2026-04-07T14:05:23Z",
+      "author": "cassiozen",
+      "author_avatar": "https://avatars.githubusercontent.com/u/33676?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/950",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "resend",
+          "service_id": "com.click-tracking",
+          "filename": "resend.com.click-tracking.json",
+          "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 952,
+      "title": "Update theredstonee.de mail-hosting template v2: add DKIM record",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T12:17:39Z",
+      "updated_at": "2026-04-07T12:56:29Z",
+      "merged_at": "2026-04-07T12:56:29Z",
+      "author": "theredstonee",
+      "author_avatar": "https://avatars.githubusercontent.com/u/193012863?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/952",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "theredstonee",
+          "service_id": "de.mail-hosting",
+          "filename": "theredstonee.de.mail-hosting.json",
+          "logo_url": "https://www.theredstonee.de/favicon.jpg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 944,
+      "title": "Add files via upload",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-05T01:56:06Z",
+      "updated_at": "2026-04-07T05:48:25Z",
+      "merged_at": "2026-04-07T05:48:25Z",
+      "author": "maxgod1",
+      "author_avatar": "https://avatars.githubusercontent.com/u/48208524?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/944",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "forgigs",
+          "service_id": "com.connect-apex",
+          "filename": "forgigs.com.connect-apex.json",
+          "logo_url": "https://pages.forgigs.com/logo.svg",
+          "status": "added"
+        },
+        {
+          "provider_id": "forgigs",
+          "service_id": "com.connect-subdomain",
+          "filename": "forgigs.com.connect-subdomain.json",
+          "logo_url": "https://pages.forgigs.com/logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 945,
+      "title": "Add SendCanary DKIM CNAME templates (dkim-1, dkim-2, dkim-3)",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-05T17:38:06Z",
+      "updated_at": "2026-04-07T05:46:08Z",
+      "merged_at": "2026-04-07T05:46:08Z",
+      "author": "jotra7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/945",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sendcanary",
+          "service_id": "com.dkim-1",
+          "filename": "sendcanary.com.dkim-1.json",
+          "logo_url": "https://sendcanary.com/logo.png",
+          "status": "added"
+        },
+        {
+          "provider_id": "sendcanary",
+          "service_id": "com.dkim-2",
+          "filename": "sendcanary.com.dkim-2.json",
+          "logo_url": "https://sendcanary.com/logo.png",
+          "status": "added"
+        },
+        {
+          "provider_id": "sendcanary",
+          "service_id": "com.dkim-3",
+          "filename": "sendcanary.com.dkim-3.json",
+          "logo_url": "https://sendcanary.com/logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 947,
+      "title": "Fix SendCanary email-setup SPF: use per-domain token variable",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-06T00:41:39Z",
+      "updated_at": "2026-04-07T05:45:16Z",
+      "merged_at": "2026-04-07T05:45:16Z",
+      "author": "jotra7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/947",
+      "labels": [
+        "question"
+      ],
+      "templates": [
+        {
+          "provider_id": "sendcanary",
+          "service_id": "com.email-setup",
+          "filename": "sendcanary.com.email-setup.json",
+          "logo_url": "https://sendcanary.com/logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 951,
       "title": "Create dynares.app.landingpage.json",
       "state": "closed",
@@ -3630,198 +3748,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 949,
-      "title": "Add Cirrux Mailbox configuration file",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-06T09:11:22Z",
-      "updated_at": "2026-04-06T21:17:40Z",
-      "merged_at": "2026-04-06T21:17:40Z",
-      "author": "rickpastoor",
-      "author_avatar": "https://avatars.githubusercontent.com/u/149958?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/949",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "cirrux",
-          "service_id": "co.mailbox",
-          "filename": "cirrux.co.mailbox.json",
-          "logo_url": "https://static.cirrux.co/mail/img/favicon/favicon-512.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 948,
-      "title": "Add BongoBot email template (bongo.bot/email)",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-06T05:13:26Z",
-      "updated_at": "2026-04-06T21:16:31Z",
-      "merged_at": "2026-04-06T21:16:30Z",
-      "author": "danieltwinbolt",
-      "author_avatar": "https://avatars.githubusercontent.com/u/254412135?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/948",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "bongo",
-          "service_id": "bot.email",
-          "filename": "bongo.bot.email.json",
-          "logo_url": "https://bongo.bot/logo.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 943,
-      "title": "Add TheRedStonee E-Mail Hosting template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-04T14:17:06Z",
-      "updated_at": "2026-04-06T21:08:18Z",
-      "merged_at": "2026-04-06T21:08:18Z",
-      "author": "theredstonee",
-      "author_avatar": "https://avatars.githubusercontent.com/u/193012863?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/943",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "theredstonee",
-          "service_id": "de.mail-hosting",
-          "filename": "theredstonee.de.mail-hosting.json",
-          "logo_url": "https://www.theredstonee.de/favicon.jpg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 941,
-      "title": "Update Unkey template: add syncRedirectDomain and update logo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-02T16:29:16Z",
-      "updated_at": "2026-04-03T16:21:54Z",
-      "merged_at": "2026-04-03T16:17:44Z",
-      "author": "Flo4604",
-      "author_avatar": "https://avatars.githubusercontent.com/u/53355483?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/941",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "unkey",
-          "service_id": "com.custom-domain",
-          "filename": "unkey.com.custom-domain.json",
-          "logo_url": "https://www.unkey.com/logo-dark.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 816,
-      "title": "Update Brevo domain authentication configuration",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-06T03:32:05Z",
-      "updated_at": "2026-04-03T16:15:52Z",
-      "merged_at": "2026-04-03T16:15:51Z",
-      "author": "parveen-sib",
-      "author_avatar": "https://avatars.githubusercontent.com/u/105631366?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/816",
-      "labels": [
-        "blocked"
-      ],
-      "templates": [
-        {
-          "provider_id": "brevo",
-          "service_id": "com.domain-authentication",
-          "filename": "brevo.com.domain-authentication.json",
-          "logo_url": "https://static.brevo.com/meetings/assets/brevo_logo.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 921,
-      "title": "Add Brixus365 email authentication template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-28T23:00:07Z",
-      "updated_at": "2026-04-03T16:11:04Z",
-      "merged_at": "2026-04-03T16:11:04Z",
-      "author": "amitection",
-      "author_avatar": "https://avatars.githubusercontent.com/u/7465536?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/921",
-      "labels": [
-        "question"
-      ],
-      "templates": [
-        {
-          "provider_id": "brixus365",
-          "service_id": "com.emailauth",
-          "filename": "brixus365.com.emailauth.json",
-          "logo_url": "https://brixus365.com/favicon.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 940,
-      "title": "Add Unkey custom domain template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-02T13:21:55Z",
-      "updated_at": "2026-04-02T16:32:58Z",
-      "merged_at": "2026-04-02T14:42:36Z",
-      "author": "Flo4604",
-      "author_avatar": "https://avatars.githubusercontent.com/u/53355483?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/940",
-      "labels": [
-        "Test links missing",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "unkey",
-          "service_id": "com.custom-domain",
-          "filename": "unkey.com.custom-domain.json",
-          "logo_url": "https://www.unkey.com/logo-dark.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 939,
-      "title": "Add ProspectFlow email authentication template",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-02T03:58:55Z",
-      "updated_at": "2026-04-02T14:44:48Z",
-      "merged_at": "2026-04-02T14:44:48Z",
-      "author": "Mostaysaucin",
-      "author_avatar": "https://avatars.githubusercontent.com/u/204226319?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/939",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "prospectflow",
-          "service_id": "dev.email-auth",
-          "filename": "prospectflow.dev.email-auth.json",
-          "logo_url": "https://prospectflow.dev/icon.png",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 494,
+        "review_count": 502,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3853,7 +3786,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 79,
+        "review_count": 85,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4890,7 +4823,7 @@
       "provider_name": "Elestio",
       "service_name": "Elestio Custom Domain",
       "logo_url": "https://elest.io/images/elestio.svg",
-      "record_count": 2
+      "record_count": 1
     },
     {
       "filename": "emailoctopus.com.domain-verification.json",
@@ -5026,6 +4959,24 @@
       "service_name": "Flock Mail Hosting",
       "logo_url": "https://web.flockmail.com/images/logo/flockmail-logo-dark.svg",
       "record_count": 3
+    },
+    {
+      "filename": "forgigs.com.connect-apex.json",
+      "provider_id": "forgigs.com",
+      "service_id": "connect-apex",
+      "provider_name": "Forgigs",
+      "service_name": "Connect your apex domain to Forgigs",
+      "logo_url": "https://pages.forgigs.com/logo.svg",
+      "record_count": 4
+    },
+    {
+      "filename": "forgigs.com.connect-subdomain.json",
+      "provider_id": "forgigs.com",
+      "service_id": "connect-subdomain",
+      "provider_name": "Forgigs",
+      "service_name": "Connect your subdomain to Forgigs",
+      "logo_url": "https://pages.forgigs.com/logo.svg",
+      "record_count": 4
     },
     {
       "filename": "forwardemail.net.email.json",
@@ -7935,13 +7886,22 @@
       "record_count": 2
     },
     {
+      "filename": "resend.com.click-tracking.json",
+      "provider_id": "resend.com",
+      "service_id": "click-tracking",
+      "provider_name": "Resend",
+      "service_name": "Click Tracking",
+      "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
+      "record_count": 1
+    },
+    {
       "filename": "resend.com.mail-send-and-receive.json",
       "provider_id": "resend.com",
       "service_id": "mail-send-and-receive",
       "provider_name": "Resend",
       "service_name": "Mail (Sending & Receiving)",
       "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
-      "record_count": 4
+      "record_count": 5
     },
     {
       "filename": "resend.com.mail.json",
@@ -7950,7 +7910,7 @@
       "provider_name": "Resend",
       "service_name": "Mail",
       "logo_url": "https://resend.com/static/brand/resend-wordmark-black.svg",
-      "record_count": 3
+      "record_count": 4
     },
     {
       "filename": "restayway.com.cname-connect.json",
@@ -8196,6 +8156,33 @@
       "record_count": 1
     },
     {
+      "filename": "sendcanary.com.dkim-1.json",
+      "provider_id": "sendcanary.com",
+      "service_id": "dkim-1",
+      "provider_name": "SendCanary",
+      "service_name": "DKIM Email Signing (1 record)",
+      "logo_url": "https://sendcanary.com/logo.png",
+      "record_count": 1
+    },
+    {
+      "filename": "sendcanary.com.dkim-2.json",
+      "provider_id": "sendcanary.com",
+      "service_id": "dkim-2",
+      "provider_name": "SendCanary",
+      "service_name": "DKIM Email Signing (2 records)",
+      "logo_url": "https://sendcanary.com/logo.png",
+      "record_count": 2
+    },
+    {
+      "filename": "sendcanary.com.dkim-3.json",
+      "provider_id": "sendcanary.com",
+      "service_id": "dkim-3",
+      "provider_name": "SendCanary",
+      "service_name": "DKIM Email Signing (3 records)",
+      "logo_url": "https://sendcanary.com/logo.png",
+      "record_count": 3
+    },
+    {
       "filename": "sendcanary.com.dmarc.json",
       "provider_id": "sendcanary.com",
       "service_id": "dmarc",
@@ -8209,8 +8196,8 @@
       "provider_id": "sendcanary.com",
       "service_id": "email-setup",
       "provider_name": "SendCanary",
-      "service_name": "Email Security Setup",
-      "logo_url": "https://sendcanary.com/logo.png",
+      "service_name": "Email Security Setup (DMARC + SPF + BIMI)",
+      "logo_url": "https://sendcanary.com/logo.svg",
       "record_count": 3
     },
     {
@@ -8670,7 +8657,7 @@
       "provider_name": "TheRedStonee",
       "service_name": "TheRedStonee E-Mail Hosting",
       "logo_url": "https://www.theredstonee.de/favicon.jpg",
-      "record_count": 5
+      "record_count": 6
     },
     {
       "filename": "thesummit.ai.email-auth.json",
@@ -8994,7 +8981,7 @@
       "provider_name": "Vercel",
       "service_name": "Vercel Websites",
       "logo_url": null,
-      "record_count": 4
+      "record_count": 5
     },
     {
       "filename": "verkh.io.dmarc-reporting.json",
@@ -9662,6 +9649,12 @@
       "profile_url": "https://github.com/csjewell"
     },
     {
+      "login": "jotra7",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "profile_url": "https://github.com/jotra7"
+    },
+    {
       "login": "tauthomas01",
       "contributions": 6,
       "avatar_url": "https://avatars.githubusercontent.com/u/658169?v=4",
@@ -9696,12 +9689,6 @@
       "contributions": 6,
       "avatar_url": "https://avatars.githubusercontent.com/u/107384032?v=4",
       "profile_url": "https://github.com/lyalls-marc"
-    },
-    {
-      "login": "richard-edens",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/82026336?v=4",
-      "profile_url": "https://github.com/richard-edens"
     }
   ]
 }
