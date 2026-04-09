@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-08T01:19:04.335042",
+  "generated_at": "2026-04-09T01:08:51.494731",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 621,
-    "total_providers": 341,
-    "total_merged_prs": 736,
-    "total_open_prs": 24,
-    "total_contributors": 369,
-    "avg_records_per_template": 3.4
+    "total_templates": 623,
+    "total_providers": 342,
+    "total_merged_prs": 737,
+    "total_open_prs": 25,
+    "total_contributors": 370,
+    "avg_records_per_template": 3.39
   },
   "templates_growth": [
     {
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 19,
+      "added": 21,
       "deleted": 0,
-      "cumulative": 621
+      "cumulative": 623
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 12,
-      "cumulative": 341
+      "added": 13,
+      "cumulative": 342
     }
   ],
   "pr_activity": [
@@ -1519,8 +1519,8 @@
     },
     {
       "month": "2026-04",
-      "created": 23,
-      "merged": 26
+      "created": 27,
+      "merged": 27
     }
   ],
   "pr_time_to_merge": [
@@ -1906,7 +1906,7 @@
     },
     {
       "month": "2026-04",
-      "avg_days": 0.7
+      "avg_days": 0.6
     }
   ],
   "pr_label_activity": [
@@ -2103,19 +2103,19 @@
     {
       "month": "2026-04",
       "AI crap": 1,
-      "Checklist of common problems not complete": 11,
+      "Checklist of common problems not complete": 14,
       "Chores": 0,
-      "Forged editor links": 1,
-      "PR description incomplete": 11,
+      "Forged editor links": 2,
+      "PR description incomplete": 14,
       "Stale": 0,
-      "Test links missing": 21,
+      "Test links missing": 25,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 1,
-      "hostRequired": 9,
+      "filename-error": 2,
+      "hostRequired": 10,
       "no syncPubKeyDomain": 0,
       "question": 0,
-      "schema-error": 2,
+      "schema-error": 3,
       "syncBlock": 0,
       "warnPhishing": 3
     }
@@ -2511,13 +2511,13 @@
     },
     {
       "month": "2026-04",
-      "avg_comments": 0.5
+      "avg_comments": 0.6
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 465
+      "count": 467
     },
     {
       "type": "TXT",
@@ -2713,6 +2713,12 @@
         "template_count": 3
       },
       {
+        "provider_id": "buckt.dev",
+        "provider_name": "Buckt",
+        "logo_url": "https://cdn.buckt.dev/logo.png",
+        "template_count": 2
+      },
+      {
         "provider_id": "forgigs.com",
         "provider_name": "Forgigs",
         "logo_url": "https://pages.forgigs.com/logo.svg",
@@ -2801,27 +2807,21 @@
         "provider_name": "ProspectFlow",
         "logo_url": "https://prospectflow.dev/icon.png",
         "template_count": 1
-      },
-      {
-        "provider_id": "unkey.com",
-        "provider_name": "Unkey",
-        "logo_url": "https://www.unkey.com/logo-dark.svg",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 621,
+    "total_templates": 623,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 551
+        "count": 553
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 395
+        "count": 397
       },
       {
         "name": "warnPhishing",
@@ -2831,11 +2831,33 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 165
+        "count": 166
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 959,
+      "title": "Add ATLOS Mail template (atlos.email)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-08T10:11:28Z",
+      "updated_at": "2026-04-08T11:47:52Z",
+      "merged_at": null,
+      "author": "TroldmandenT",
+      "author_avatar": "https://avatars.githubusercontent.com/u/173503392?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/959",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "atlos",
+          "service_id": "email.mail",
+          "filename": "atlos.email.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 956,
       "title": "AuthlyX",
@@ -2869,7 +2891,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-04T11:33:56Z",
-      "updated_at": "2026-04-06T21:06:24Z",
+      "updated_at": "2026-04-08T15:49:16Z",
       "merged_at": null,
       "author": "lamminpaa",
       "author_avatar": "https://avatars.githubusercontent.com/u/1034169?v=4",
@@ -3492,6 +3514,37 @@
       ]
     },
     {
+      "number": 960,
+      "title": "Add Buckt CDN templates (buckt.dev)",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-08T12:14:44Z",
+      "updated_at": "2026-04-08T15:29:10Z",
+      "merged_at": "2026-04-08T15:29:09Z",
+      "author": "joaopcm",
+      "author_avatar": "https://avatars.githubusercontent.com/u/58827242?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/960",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "buckt",
+          "service_id": "dev.acm-validation",
+          "filename": "buckt.dev.acm-validation.json",
+          "logo_url": "https://cdn.buckt.dev/logo.png",
+          "status": "added"
+        },
+        {
+          "provider_id": "buckt",
+          "service_id": "dev.cdn-cname",
+          "filename": "buckt.dev.cdn-cname.json",
+          "logo_url": "https://cdn.buckt.dev/logo.png",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 955,
       "title": "Update vercel website template to add apex CNAME record",
       "state": "closed",
@@ -3726,35 +3779,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 946,
-      "title": "Add TrekMail email hosting configuration",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-05T17:38:57Z",
-      "updated_at": "2026-04-06T21:18:45Z",
-      "merged_at": "2026-04-06T21:18:45Z",
-      "author": "loyderhy2",
-      "author_avatar": "https://avatars.githubusercontent.com/u/244529010?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/946",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "trekmail",
-          "service_id": "net.mail_hosting",
-          "filename": "trekmail.net.mail_hosting.json",
-          "logo_url": "https://trekmail.net/images/Logo.png",
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 502,
+        "review_count": 503,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3786,13 +3817,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 85,
+        "review_count": 81,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 15,
+        "review_count": 14,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -4248,6 +4279,24 @@
       "service_name": "Brolve Email Hosting",
       "logo_url": "https://brolve.com/favicon.ico",
       "record_count": 8
+    },
+    {
+      "filename": "buckt.dev.acm-validation.json",
+      "provider_id": "buckt.dev",
+      "service_id": "acm-validation",
+      "provider_name": "Buckt",
+      "service_name": "Buckt SSL Certificate Validation",
+      "logo_url": "https://cdn.buckt.dev/logo.png",
+      "record_count": 1
+    },
+    {
+      "filename": "buckt.dev.cdn-cname.json",
+      "provider_id": "buckt.dev",
+      "service_id": "cdn-cname",
+      "provider_name": "Buckt",
+      "service_name": "Buckt CDN Domain",
+      "logo_url": "https://cdn.buckt.dev/logo.png",
+      "record_count": 1
     },
     {
       "filename": "canva.com.website-v2.json",
