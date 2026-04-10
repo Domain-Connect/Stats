@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-09T01:08:51.494731",
+  "generated_at": "2026-04-10T01:19:48.354899",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 623,
-    "total_providers": 342,
-    "total_merged_prs": 737,
-    "total_open_prs": 25,
-    "total_contributors": 370,
-    "avg_records_per_template": 3.39
+    "total_templates": 625,
+    "total_providers": 344,
+    "total_merged_prs": 739,
+    "total_open_prs": 29,
+    "total_contributors": 372,
+    "avg_records_per_template": 3.4
   },
   "templates_growth": [
     {
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 21,
+      "added": 23,
       "deleted": 0,
-      "cumulative": 623
+      "cumulative": 625
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 13,
-      "cumulative": 342
+      "added": 15,
+      "cumulative": 344
     }
   ],
   "pr_activity": [
@@ -1519,8 +1519,8 @@
     },
     {
       "month": "2026-04",
-      "created": 27,
-      "merged": 27
+      "created": 34,
+      "merged": 29
     }
   ],
   "pr_time_to_merge": [
@@ -2103,21 +2103,21 @@
     {
       "month": "2026-04",
       "AI crap": 1,
-      "Checklist of common problems not complete": 14,
+      "Checklist of common problems not complete": 20,
       "Chores": 0,
       "Forged editor links": 2,
-      "PR description incomplete": 14,
+      "PR description incomplete": 21,
       "Stale": 0,
-      "Test links missing": 25,
+      "Test links missing": 32,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 2,
-      "hostRequired": 10,
+      "filename-error": 4,
+      "hostRequired": 12,
       "no syncPubKeyDomain": 0,
       "question": 0,
-      "schema-error": 3,
+      "schema-error": 5,
       "syncBlock": 0,
-      "warnPhishing": 3
+      "warnPhishing": 4
     }
   ],
   "pr_comment_activity": [
@@ -2511,17 +2511,17 @@
     },
     {
       "month": "2026-04",
-      "avg_comments": 0.6
+      "avg_comments": 0.5
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 467
+      "count": 468
     },
     {
       "type": "TXT",
-      "count": 272
+      "count": 274
     },
     {
       "type": "A",
@@ -2529,11 +2529,11 @@
     },
     {
       "type": "SPFM",
-      "count": 134
+      "count": 135
     },
     {
       "type": "MX",
-      "count": 114
+      "count": 116
     },
     {
       "type": "SRV",
@@ -2761,6 +2761,18 @@
         "template_count": 2
       },
       {
+        "provider_id": "vidual.app",
+        "provider_name": "Vidual",
+        "logo_url": "https://vidual.app/logo.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "atlos.email",
+        "provider_name": "ATLOS Mail",
+        "logo_url": "https://app.atlos.email/logo-wordmark.svg",
+        "template_count": 1
+      },
+      {
         "provider_id": "resend.com",
         "provider_name": "Resend",
         "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
@@ -2795,33 +2807,21 @@
         "provider_name": "TheRedStonee",
         "logo_url": "https://www.theredstonee.de/favicon.jpg",
         "template_count": 1
-      },
-      {
-        "provider_id": "brixus365.com",
-        "provider_name": "Brixus365",
-        "logo_url": "https://brixus365.com/favicon.svg",
-        "template_count": 1
-      },
-      {
-        "provider_id": "prospectflow.dev",
-        "provider_name": "ProspectFlow",
-        "logo_url": "https://prospectflow.dev/icon.png",
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 623,
+    "total_templates": 625,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 553
+        "count": 555
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 397
+        "count": 399
       },
       {
         "name": "warnPhishing",
@@ -2837,22 +2837,133 @@
   },
   "recent_prs": [
     {
-      "number": 959,
-      "title": "Add ATLOS Mail template (atlos.email)",
+      "number": 967,
+      "title": "Add Valiant AI email sending template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-08T10:11:28Z",
-      "updated_at": "2026-04-08T11:47:52Z",
+      "created_at": "2026-04-09T23:31:36Z",
+      "updated_at": "2026-04-10T00:02:47Z",
+      "merged_at": null,
+      "author": "dennis-autosend",
+      "author_avatar": "https://avatars.githubusercontent.com/u/180860676?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/967",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "valiant",
+          "service_id": "biz.email",
+          "filename": "valiant.biz.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 966,
+      "title": "Add nextcommerce template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T16:40:26Z",
+      "updated_at": "2026-04-09T20:17:46Z",
+      "merged_at": null,
+      "author": "gorsutlame",
+      "author_avatar": "https://avatars.githubusercontent.com/u/15992969?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/966",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "nextcommerce",
+          "service_id": "com.email",
+          "filename": "nextcommerce.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "nextcommerce",
+          "service_id": "com.subdomain",
+          "filename": "nextcommerce.com.subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "nextcommerce",
+          "service_id": "com.website",
+          "filename": "nextcommerce.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 965,
+      "title": "Add template for Zibray Mail email hosting",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T16:25:14Z",
+      "updated_at": "2026-04-09T17:13:17Z",
+      "merged_at": null,
+      "author": "px80004",
+      "author_avatar": "https://avatars.githubusercontent.com/u/253660317?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/965",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "zibray",
+          "service_id": "com.email",
+          "filename": "zibray.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 963,
+      "title": "Update atlos.email.mail template to v2 — add DKIM support",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T09:59:53Z",
+      "updated_at": "2026-04-09T16:20:04Z",
       "merged_at": null,
       "author": "TroldmandenT",
       "author_avatar": "https://avatars.githubusercontent.com/u/173503392?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/959",
+      "url": "https://github.com/Domain-Connect/Templates/pull/963",
       "labels": [],
       "templates": [
         {
           "provider_id": "atlos",
           "service_id": "email.mail",
           "filename": "atlos.email.mail.json",
+          "logo_url": "https://app.atlos.email/logo-wordmark.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 962,
+      "title": "Add sendflow domain connect template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T07:41:41Z",
+      "updated_at": "2026-04-09T07:53:47Z",
+      "merged_at": null,
+      "author": "masudrana921",
+      "author_avatar": "https://avatars.githubusercontent.com/u/171222790?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/962",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "schema-error",
+        "filename-error"
+      ],
+      "templates": [
+        {
+          "provider_id": "mohuls",
+          "service_id": "com.sendflow",
+          "filename": "mohuls.com.sendflow.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3088,7 +3199,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-19T22:24:59Z",
-      "updated_at": "2026-04-07T21:19:43Z",
+      "updated_at": "2026-04-09T18:03:55Z",
       "merged_at": null,
       "author": "EstebX",
       "author_avatar": "https://avatars.githubusercontent.com/u/100437198?v=4",
@@ -3514,6 +3625,50 @@
       ]
     },
     {
+      "number": 964,
+      "title": "Add vidual.app email authentication template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-09T14:52:55Z",
+      "updated_at": "2026-04-09T16:19:26Z",
+      "merged_at": "2026-04-09T16:19:25Z",
+      "author": "WEWBD",
+      "author_avatar": "https://avatars.githubusercontent.com/u/263897324?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/964",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "vidual",
+          "service_id": "app.email-auth",
+          "filename": "vidual.app.email-auth.json",
+          "logo_url": "https://vidual.app/logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 959,
+      "title": "Add ATLOS Mail template (atlos.email)",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-08T10:11:28Z",
+      "updated_at": "2026-04-09T07:27:32Z",
+      "merged_at": "2026-04-09T07:27:32Z",
+      "author": "TroldmandenT",
+      "author_avatar": "https://avatars.githubusercontent.com/u/173503392?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/959",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "atlos",
+          "service_id": "email.mail",
+          "filename": "atlos.email.mail.json",
+          "logo_url": "https://app.atlos.email/logo-wordmark.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 960,
       "title": "Add Buckt CDN templates (buckt.dev)",
       "state": "closed",
@@ -3731,67 +3886,19 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 947,
-      "title": "Fix SendCanary email-setup SPF: use per-domain token variable",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-06T00:41:39Z",
-      "updated_at": "2026-04-07T05:45:16Z",
-      "merged_at": "2026-04-07T05:45:16Z",
-      "author": "jotra7",
-      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/947",
-      "labels": [
-        "question"
-      ],
-      "templates": [
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.email-setup",
-          "filename": "sendcanary.com.email-setup.json",
-          "logo_url": "https://sendcanary.com/logo.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 951,
-      "title": "Create dynares.app.landingpage.json",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-06T20:57:19Z",
-      "updated_at": "2026-04-06T21:19:14Z",
-      "merged_at": "2026-04-06T21:19:14Z",
-      "author": "dtabaran",
-      "author_avatar": "https://avatars.githubusercontent.com/u/219118455?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/951",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "dynares",
-          "service_id": "app.landingpage",
-          "filename": "dynares.app.landingpage.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 503,
+        "review_count": 504,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 72,
+        "review_count": 73,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3817,13 +3924,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 81,
+        "review_count": 80,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 14,
+        "review_count": 12,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -3982,6 +4089,15 @@
       "service_name": "Email Sending",
       "logo_url": "https://arkhq.io/ark-logo.png",
       "record_count": 3
+    },
+    {
+      "filename": "atlos.email.mail.json",
+      "provider_id": "atlos.email",
+      "service_id": "mail",
+      "provider_name": "ATLOS Mail",
+      "service_name": "ATLOS Mail — Email Service",
+      "logo_url": "https://app.atlos.email/logo-wordmark.svg",
+      "record_count": 5
     },
     {
       "filename": "atribu.app.tracking.json",
@@ -9075,6 +9191,15 @@
       "provider_name": "VibeLayer",
       "service_name": "VibeLayer Store Hosting",
       "logo_url": "https://www.vibelayer.ai/logos/logo-dark.svg",
+      "record_count": 3
+    },
+    {
+      "filename": "vidual.app.email-auth.json",
+      "provider_id": "vidual.app",
+      "service_id": "email-auth",
+      "provider_name": "Vidual",
+      "service_name": "Vidual Email Authentication",
+      "logo_url": "https://vidual.app/logo.svg",
       "record_count": 3
     },
     {
