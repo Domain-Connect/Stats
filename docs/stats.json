@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-11T01:14:48.114152",
+  "generated_at": "2026-04-12T01:24:02.240504",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 631,
-    "total_providers": 348,
-    "total_merged_prs": 744,
-    "total_open_prs": 27,
-    "total_contributors": 376,
-    "avg_records_per_template": 3.4
+    "total_templates": 633,
+    "total_providers": 350,
+    "total_merged_prs": 748,
+    "total_open_prs": 26,
+    "total_contributors": 378,
+    "avg_records_per_template": 3.39
   },
   "templates_growth": [
     {
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 29,
+      "added": 31,
       "deleted": 0,
-      "cumulative": 631
+      "cumulative": 633
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 19,
-      "cumulative": 348
+      "added": 21,
+      "cumulative": 350
     }
   ],
   "pr_activity": [
@@ -1519,8 +1519,8 @@
     },
     {
       "month": "2026-04",
-      "created": 37,
-      "merged": 34
+      "created": 42,
+      "merged": 38
     }
   ],
   "pr_time_to_merge": [
@@ -2103,21 +2103,21 @@
     {
       "month": "2026-04",
       "AI crap": 1,
-      "Checklist of common problems not complete": 20,
+      "Checklist of common problems not complete": 22,
       "Chores": 0,
       "Forged editor links": 2,
-      "PR description incomplete": 21,
+      "PR description incomplete": 23,
       "Stale": 0,
-      "Test links missing": 35,
+      "Test links missing": 39,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 12,
-      "no syncPubKeyDomain": 0,
+      "hostRequired": 13,
+      "no syncPubKeyDomain": 1,
       "question": 0,
-      "schema-error": 5,
+      "schema-error": 6,
       "syncBlock": 0,
-      "warnPhishing": 4
+      "warnPhishing": 5
     }
   ],
   "pr_comment_activity": [
@@ -2521,7 +2521,7 @@
     },
     {
       "type": "TXT",
-      "count": 277
+      "count": 279
     },
     {
       "type": "A",
@@ -2529,11 +2529,11 @@
     },
     {
       "type": "SPFM",
-      "count": 138
+      "count": 139
     },
     {
       "type": "MX",
-      "count": 119
+      "count": 120
     },
     {
       "type": "SRV",
@@ -2761,10 +2761,16 @@
         "template_count": 2
       },
       {
-        "provider_id": "linklyhq.com",
-        "provider_name": "Linkly",
-        "logo_url": "https://linklyhq.com/img/linkly-logo.svg",
-        "template_count": 2
+        "provider_id": "aiprospectscout.com",
+        "provider_name": "AI ProspectScout",
+        "logo_url": "https://aisdr-oceanix.lovable.app/placeholder.svg",
+        "template_count": 1
+      },
+      {
+        "provider_id": "hivestatus.cloud",
+        "provider_name": "HiveStatus",
+        "logo_url": "https://static.cdn.hivestatus.cloud/v1/assets/logo.svg",
+        "template_count": 1
       },
       {
         "provider_id": "valiant.biz",
@@ -2801,27 +2807,21 @@
         "provider_name": "Resend",
         "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
         "template_count": 1
-      },
-      {
-        "provider_id": "dynares.app",
-        "provider_name": "dynares",
-        "logo_url": null,
-        "template_count": 1
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 631,
+    "total_templates": 633,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 561
+        "count": 563
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 402
+        "count": 403
       },
       {
         "name": "warnPhishing",
@@ -2837,12 +2837,60 @@
   },
   "recent_prs": [
     {
+      "number": 974,
+      "title": "Add JustEmails email hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-11T18:10:01Z",
+      "updated_at": "2026-04-11T18:52:14Z",
+      "merged_at": null,
+      "author": "digistreetsmain",
+      "author_avatar": "https://avatars.githubusercontent.com/u/227661302?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/974",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "justemails",
+          "service_id": "app.email",
+          "filename": "justemails.app.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 972,
+      "title": "Add Domain Connect Template for SendFlow SaaS (Mohuls Provider)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-11T05:20:45Z",
+      "updated_at": "2026-04-11T05:21:23Z",
+      "merged_at": null,
+      "author": "masudrana921",
+      "author_avatar": "https://avatars.githubusercontent.com/u/171222790?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/972",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "mohuls",
+          "service_id": "sendflow.sendflow",
+          "filename": "mohuls.sendflow.sendflow.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 970,
       "title": "Octara.xyz template",
       "state": "open",
       "merged": false,
       "created_at": "2026-04-10T22:38:51Z",
-      "updated_at": "2026-04-10T22:43:41Z",
+      "updated_at": "2026-04-11T18:43:22Z",
       "merged_at": null,
       "author": "lotus64yt",
       "author_avatar": "https://avatars.githubusercontent.com/u/114228798?v=4",
@@ -2853,80 +2901,6 @@
           "provider_id": "octara",
           "service_id": "xyz.verification",
           "filename": "octara.xyz.verification.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 969,
-      "title": "Add HiveStatus domain verification template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-10T21:08:20Z",
-      "updated_at": "2026-04-10T21:20:33Z",
-      "merged_at": null,
-      "author": "wimwenigerkind",
-      "author_avatar": "https://avatars.githubusercontent.com/u/159561025?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/969",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "hivestatus",
-          "service_id": "cloud.domain-verification",
-          "filename": "hivestatus.cloud.domain-verification.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 963,
-      "title": "Update atlos.email.mail template to v2 — add DKIM support",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T09:59:53Z",
-      "updated_at": "2026-04-10T09:45:24Z",
-      "merged_at": null,
-      "author": "TroldmandenT",
-      "author_avatar": "https://avatars.githubusercontent.com/u/173503392?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/963",
-      "labels": [
-        "Test links missing",
-        "Forged editor links"
-      ],
-      "templates": [
-        {
-          "provider_id": "atlos",
-          "service_id": "email.mail",
-          "filename": "atlos.email.mail.json",
-          "logo_url": "https://app.atlos.email/logo-wordmark.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 962,
-      "title": "Add sendflow domain connect template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T07:41:41Z",
-      "updated_at": "2026-04-10T09:02:56Z",
-      "merged_at": null,
-      "author": "masudrana921",
-      "author_avatar": "https://avatars.githubusercontent.com/u/171222790?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/962",
-      "labels": [
-        "PR description incomplete",
-        "Test links missing",
-        "schema-error",
-        "filename-error"
-      ],
-      "templates": [
-        {
-          "provider_id": "mohuls",
-          "service_id": "com.sendflow",
-          "filename": "mohuls.com.sendflow.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3568,6 +3542,94 @@
       ]
     },
     {
+      "number": 975,
+      "title": "bugfix in resend template with mixed groupIds",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-11T18:19:18Z",
+      "updated_at": "2026-04-11T18:23:53Z",
+      "merged_at": "2026-04-11T18:23:53Z",
+      "author": "cassiozen",
+      "author_avatar": "https://avatars.githubusercontent.com/u/33676?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/975",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "resend",
+          "service_id": "com.mail",
+          "filename": "resend.com.mail.json",
+          "logo_url": "https://resend.com/static/brand/resend-wordmark-black.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 973,
+      "title": "Add aiprospectscout.com mail template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-11T09:12:37Z",
+      "updated_at": "2026-04-11T18:11:32Z",
+      "merged_at": "2026-04-11T18:11:31Z",
+      "author": "markmiller2301",
+      "author_avatar": "https://avatars.githubusercontent.com/u/51961215?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/973",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "aiprospectscout",
+          "service_id": "com.mail",
+          "filename": "aiprospectscout.com.mail.json",
+          "logo_url": "https://aisdr-oceanix.lovable.app/placeholder.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 963,
+      "title": "Update atlos.email.mail template to v2 — add DKIM support",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-09T09:59:53Z",
+      "updated_at": "2026-04-11T18:10:26Z",
+      "merged_at": "2026-04-11T18:10:26Z",
+      "author": "TroldmandenT",
+      "author_avatar": "https://avatars.githubusercontent.com/u/173503392?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/963",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "atlos",
+          "service_id": "email.mail",
+          "filename": "atlos.email.mail.json",
+          "logo_url": "https://app.atlos.email/logo-wordmark.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 969,
+      "title": "Add HiveStatus domain verification template",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-10T21:08:20Z",
+      "updated_at": "2026-04-11T17:43:31Z",
+      "merged_at": "2026-04-11T17:43:31Z",
+      "author": "wimwenigerkind",
+      "author_avatar": "https://avatars.githubusercontent.com/u/159561025?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/969",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "hivestatus",
+          "service_id": "cloud.domain-verification",
+          "filename": "hivestatus.cloud.domain-verification.json",
+          "logo_url": "https://static.cdn.hivestatus.cloud/v1/assets/logo.svg",
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 968,
       "title": "Fix valiant.biz/email: MX/SPF record hosts + root domain support",
       "state": "closed",
@@ -3716,119 +3778,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 959,
-      "title": "Add ATLOS Mail template (atlos.email)",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-08T10:11:28Z",
-      "updated_at": "2026-04-09T07:27:32Z",
-      "merged_at": "2026-04-09T07:27:32Z",
-      "author": "TroldmandenT",
-      "author_avatar": "https://avatars.githubusercontent.com/u/173503392?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/959",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "atlos",
-          "service_id": "email.mail",
-          "filename": "atlos.email.mail.json",
-          "logo_url": "https://app.atlos.email/logo-wordmark.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 960,
-      "title": "Add Buckt CDN templates (buckt.dev)",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-08T12:14:44Z",
-      "updated_at": "2026-04-08T15:29:10Z",
-      "merged_at": "2026-04-08T15:29:09Z",
-      "author": "joaopcm",
-      "author_avatar": "https://avatars.githubusercontent.com/u/58827242?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/960",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "buckt",
-          "service_id": "dev.acm-validation",
-          "filename": "buckt.dev.acm-validation.json",
-          "logo_url": "https://cdn.buckt.dev/logo.png",
-          "status": "added"
-        },
-        {
-          "provider_id": "buckt",
-          "service_id": "dev.cdn-cname",
-          "filename": "buckt.dev.cdn-cname.json",
-          "logo_url": "https://cdn.buckt.dev/logo.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 955,
-      "title": "Update vercel website template to add apex CNAME record",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-07T18:42:52Z",
-      "updated_at": "2026-04-07T22:45:18Z",
-      "merged_at": "2026-04-07T22:45:18Z",
-      "author": "elliotdauber",
-      "author_avatar": "https://avatars.githubusercontent.com/u/67391073?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/955",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "vercel",
-          "service_id": "com.website",
-          "filename": "vercel.com.website.json",
-          "logo_url": null,
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 954,
-      "title": "Updates Resend templates to include `click-tracking`",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-07T16:14:23Z",
-      "updated_at": "2026-04-07T18:22:11Z",
-      "merged_at": "2026-04-07T18:22:10Z",
-      "author": "cassiozen",
-      "author_avatar": "https://avatars.githubusercontent.com/u/33676?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/954",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "resend",
-          "service_id": "com.mail-send-and-receive",
-          "filename": "resend.com.mail-send-and-receive.json",
-          "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
-          "status": "modified"
-        },
-        {
-          "provider_id": "resend",
-          "service_id": "com.mail",
-          "filename": "resend.com.mail.json",
-          "logo_url": "https://resend.com/static/brand/resend-wordmark-black.svg",
-          "status": "modified"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 509,
+        "review_count": 513,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3860,13 +3816,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 82,
+        "review_count": 85,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 13,
+        "review_count": 12,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -3944,6 +3900,15 @@
       "service_name": "AgencyEasy Website Hosting",
       "logo_url": "https://duhwjqfqbngoexbbpzij.supabase.co/storage/v1/object/public/test%20image/logoipsum-415.png",
       "record_count": 3
+    },
+    {
+      "filename": "aiprospectscout.com.mail.json",
+      "provider_id": "aiprospectscout.com",
+      "service_id": "mail",
+      "provider_name": "AI ProspectScout",
+      "service_name": "AI ProspectScout Email",
+      "logo_url": "https://aisdr-oceanix.lovable.app/placeholder.svg",
+      "record_count": 4
     },
     {
       "filename": "amplemarket.com.domain-setup.json",
@@ -4033,7 +3998,7 @@
       "provider_name": "ATLOS Mail",
       "service_name": "ATLOS Mail — Email Service",
       "logo_url": "https://app.atlos.email/logo-wordmark.svg",
-      "record_count": 5
+      "record_count": 6
     },
     {
       "filename": "atribu.app.tracking.json",
@@ -6274,6 +6239,15 @@
       "provider_name": "Hietek",
       "service_name": "Hietek Landing Page",
       "logo_url": "https://hietek.com/favicon.png",
+      "record_count": 1
+    },
+    {
+      "filename": "hivestatus.cloud.domain-verification.json",
+      "provider_id": "hivestatus.cloud",
+      "service_id": "domain-verification",
+      "provider_name": "HiveStatus",
+      "service_name": "Domain Verification",
+      "logo_url": "https://static.cdn.hivestatus.cloud/v1/assets/logo.svg",
       "record_count": 1
     },
     {
