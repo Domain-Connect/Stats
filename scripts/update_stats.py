@@ -245,13 +245,18 @@ class StatsGenerator:
             # means the commit date reflects when code landed on main, not when it
             # was originally authored on a branch, preventing stale-branch snapshots
             # from skewing monthly counts.
+            # %cd (committer date) in UTC via format-tz is used instead of %ad (author
+            # date) to avoid timezone skew: an author in a negative UTC offset can have
+            # a local date that falls in the previous month even though the commit
+            # landed on the server in the current month.
             result = subprocess.run(
-                ["git", "log", "--first-parent", "--date=short", "--name-status",
-                 "--pretty=format:%ad|%H|%an|%ae"],
+                ["git", "log", "--first-parent", "--date=format:%Y-%m-%d", "--name-status",
+                 "--pretty=format:%cd|%H|%an|%ae"],
                 cwd=self.repo_path,
                 capture_output=True,
                 text=True,
-                check=True
+                check=True,
+                env={**__import__('os').environ, "TZ": "UTC"},
             )
 
             commits = []
