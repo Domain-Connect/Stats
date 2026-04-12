@@ -108,15 +108,17 @@ This document contains guidelines for maintaining and developing the Domain Conn
      - `hostRequired` (present and set to `true`)
    - Percentage displayed in center of each donut, clickable to GitHub search
 
-### Top Providers
-- Two tables: All-time and Last 30 days
+### Providers
+- Two tables: All-time and Recently Added (last 30 new providers)
 - Shows provider logo (from first template) to the left of provider name
 - Uses `providerName` from template content (not filename-derived provider ID)
 - Number of templates is a clickable link opening GitHub code search for that `providerId`
+- All-time: sorted by template count descending (top 20)
+- Recently Added: the 20 most recently first-added providers, ordered by first-added date descending; determined via git history (oldest-first traversal to find when each provider_id first appeared)
 
-### Recent Pull Requests
+### Open Pull Requests
 - Table showing: PR number, title, status, labels, open date, GitHub link
-- Content: All open PRs + last 10 merged PRs
+- Content: All open PRs only
 - Each PR shows associated provider/service IDs and logos
 
 ### Top Pull Request Reviewers

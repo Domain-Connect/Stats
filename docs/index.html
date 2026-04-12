@@ -109,12 +109,12 @@
             </div>
         </section>
 
-        <!-- Top Providers -->
+        <!-- Providers -->
         <section class="tables">
-            <h2>Top Providers</h2>
+            <h2>Providers</h2>
             <div class="tables-row">
                 <div class="table-container">
-                    <h3>All Time</h3>
+                    <h3>The most templates</h3>
                     <div class="table-wrapper">
                         <table id="top-providers-all-time">
                             <thead>
@@ -132,7 +132,7 @@
                 </div>
 
                 <div class="table-container">
-                    <h3>Last 30 Days</h3>
+                    <h3>Recently Added (last 20)</h3>
                     <div class="table-wrapper">
                         <table id="top-providers-recent">
                             <thead>
@@ -151,9 +151,9 @@
             </div>
         </section>
 
-        <!-- Recent PRs -->
+        <!-- Open PRs -->
         <section class="recent-prs">
-            <h2>Recent Pull Requests</h2>
+            <h2>Open Pull Requests</h2>
             <div class="table-wrapper">
                 <table id="recent-prs-table">
                     <thead>
@@ -773,14 +773,14 @@
                 });
             }
 
-            // Last 30 days
+            // Recently added
             const recentTable = document.querySelector('#top-providers-recent tbody');
             recentTable.innerHTML = '';
 
-            if (!data.last_30_days || data.last_30_days.length === 0) {
+            if (!data.last_30_added || data.last_30_added.length === 0) {
                 recentTable.innerHTML = '<tr><td colspan="3">No data available</td></tr>';
             } else {
-                data.last_30_days.forEach((provider, index) => {
+                data.last_30_added.forEach((provider, index) => {
                     recentTable.appendChild(renderProviderRow(provider, index));
                 });
             }
@@ -803,14 +803,7 @@
                 const prLink = `<a href="${pr.url}" target="_blank" class="pr-link">#${pr.number}</a>`;
 
                 // Status badge
-                let statusBadge;
-                if (pr.merged) {
-                    statusBadge = '<span class="badge badge-merged">Merged</span>';
-                } else if (pr.state === 'open') {
-                    statusBadge = '<span class="badge badge-open">Open</span>';
-                } else {
-                    statusBadge = '<span class="badge badge-closed">Closed</span>';
-                }
+                const statusBadge = '<span class="badge badge-open">Open</span>';
 
                 // Templates with logos
                 let templatesHtml = '';

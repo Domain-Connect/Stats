@@ -460,13 +460,9 @@ class StatsGenerator:
             return []
 
         open_prs = all_prs.get('open', [])
-        closed_prs = all_prs.get('closed', [])
 
-        # Filter for merged PRs only (last 10 merged)
-        merged_prs = [pr for pr in closed_prs if pr.get("merged_at")][:10]
-
-        # Combine open + recently merged
-        combined_prs = open_prs + merged_prs
+        # Only show open PRs
+        combined_prs = open_prs
 
         # Extract relevant PR information
         pr_data = []
@@ -1219,23 +1215,23 @@ class StatsGenerator:
             reverse=True
         )
 
-        # Last 30 days providers (use providerId from template content)
-        thirty_days_ago = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
+        # Last 30 new providers: find when each provider was first added via git history
+        # Iterate commits oldest-first to find first-seen date per provider
         filename_to_provider = {t['filename']: t['provider_id'] for t in templates if t.get('provider_id')}
-        recent_providers = defaultdict(int)
+        provider_first_seen: Dict[str, str] = {}  # provider_id -> date of first commit adding it
 
-        for commit in commits:
-            if commit['date'] >= thirty_days_ago:
-                for file in commit['files']:
-                    provider_id = filename_to_provider.get(file)
-                    if provider_id:
-                        recent_providers[provider_id] += 1
+        for commit in reversed(commits):  # oldest first
+            for file in commit['files']:
+                provider_id = filename_to_provider.get(file)
+                if provider_id and provider_id not in provider_first_seen:
+                    provider_first_seen[provider_id] = commit['date']
 
-        sorted_recent_providers = sorted(
-            recent_providers.items(),
+        # Sort by first-seen date descending (most recently added providers first)
+        newest_providers = sorted(
+            provider_first_seen.items(),
             key=lambda x: x[1],
             reverse=True
-        )
+        )[:20]
 
         # Compile statistics
         stats = {
@@ -1277,14 +1273,15 @@ class StatsGenerator:
                     }
                     for provider, count in sorted_providers[:20]
                 ],
-                'last_30_days': [
+                'last_30_added': [
                     {
                         'provider_id': provider,
                         'provider_name': provider_meta.get(provider, {}).get('name', provider),
                         'logo_url': provider_meta.get(provider, {}).get('logo_url'),
-                        'template_count': count
+                        'template_count': provider_template_count.get(provider, 0),
+                        'first_added': first_added
                     }
-                    for provider, count in sorted_recent_providers[:20]
+                    for provider, first_added in newest_providers
                 ]
             },
             'feature_usage': {
