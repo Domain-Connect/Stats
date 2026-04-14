@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-13T01:25:38.447922",
+  "generated_at": "2026-04-14T01:24:04.905995",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 635,
-    "total_providers": 352,
-    "total_merged_prs": 750,
+    "total_templates": 639,
+    "total_providers": 354,
+    "total_merged_prs": 754,
     "total_open_prs": 25,
-    "total_contributors": 380,
-    "avg_records_per_template": 3.4
+    "total_contributors": 381,
+    "avg_records_per_template": 3.38
   },
   "templates_growth": [
     {
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 34,
+      "added": 38,
       "deleted": 0,
-      "cumulative": 635
+      "cumulative": 639
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 24,
-      "cumulative": 352
+      "added": 26,
+      "cumulative": 354
     }
   ],
   "pr_activity": [
@@ -1519,8 +1519,8 @@
     },
     {
       "month": "2026-04",
-      "created": 44,
-      "merged": 40
+      "created": 48,
+      "merged": 44
     }
   ],
   "pr_time_to_merge": [
@@ -1906,7 +1906,7 @@
     },
     {
       "month": "2026-04",
-      "avg_days": 0.7
+      "avg_days": 0.6
     }
   ],
   "pr_label_activity": [
@@ -2108,11 +2108,11 @@
       "Forged editor links": 2,
       "PR description incomplete": 25,
       "Stale": 0,
-      "Test links missing": 41,
+      "Test links missing": 43,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 5,
-      "hostRequired": 14,
+      "hostRequired": 15,
       "no syncPubKeyDomain": 1,
       "question": 0,
       "schema-error": 7,
@@ -2511,17 +2511,17 @@
     },
     {
       "month": "2026-04",
-      "avg_comments": 0.5
+      "avg_comments": 0.4
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 473
+      "count": 475
     },
     {
       "type": "TXT",
-      "count": 281
+      "count": 283
     },
     {
       "type": "A",
@@ -2597,6 +2597,12 @@
         "template_count": 8
       },
       {
+        "provider_id": "sendcanary.com",
+        "provider_name": "SendCanary",
+        "logo_url": "https://sendcanary.com/logo.png",
+        "template_count": 8
+      },
+      {
         "provider_id": "getreadydigital.com",
         "provider_name": "GetReadyDigital",
         "logo_url": "https://getreadydigital.com/wp-content/uploads/2023/04/cropped-GR-Logo-Favicon-192x192.png",
@@ -2612,12 +2618,6 @@
         "provider_id": "mimeprotect.com",
         "provider_name": "MimeProtect",
         "logo_url": "https://mimeprotect.com/logo.svg",
-        "template_count": 6
-      },
-      {
-        "provider_id": "sendcanary.com",
-        "provider_name": "SendCanary",
-        "logo_url": "https://sendcanary.com/logo.png",
         "template_count": 6
       },
       {
@@ -2688,6 +2688,20 @@
       }
     ],
     "last_30_added": [
+      {
+        "provider_id": "holydocs.com",
+        "provider_name": "HolyDocs",
+        "logo_url": "https://holydocs.com/favicon.svg",
+        "template_count": 1,
+        "first_added": "2026-04-13"
+      },
+      {
+        "provider_id": "happyuptime.com",
+        "provider_name": "Happy Uptime",
+        "logo_url": "https://happyuptime.com/happyuptime-logo.svg",
+        "template_count": 1,
+        "first_added": "2026-04-13"
+      },
       {
         "provider_id": "justemails.app",
         "provider_name": "JustEmails",
@@ -2813,35 +2827,21 @@
         "logo_url": "https://brixus365.com/favicon.svg",
         "template_count": 1,
         "first_added": "2026-04-03"
-      },
-      {
-        "provider_id": "shopdeck.com",
-        "provider_name": "ShopDeck",
-        "logo_url": "https://pro.shopdeck.com/logo192.png",
-        "template_count": 1,
-        "first_added": "2026-04-02"
-      },
-      {
-        "provider_id": "purple.ai",
-        "provider_name": "Purple.ai",
-        "logo_url": "https://d1ldbb6wxu8wdm.cloudfront.net/33815c0fcf008942e52db4c68969c433.png",
-        "template_count": 1,
-        "first_added": "2026-04-02"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 635,
+    "total_templates": 639,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 565
+        "count": 569
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 405
+        "count": 408
       },
       {
         "name": "warnPhishing",
@@ -2851,30 +2851,30 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 167
+        "count": 169
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 979,
-      "title": "Add HolyDocs custom domain template",
+      "number": 981,
+      "title": "Add SendCloud domain Template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-12T20:10:11Z",
-      "updated_at": "2026-04-12T21:22:24Z",
+      "created_at": "2026-04-13T09:59:46Z",
+      "updated_at": "2026-04-13T10:16:44Z",
       "merged_at": null,
-      "author": "seangeng",
-      "author_avatar": "https://avatars.githubusercontent.com/u/4632305?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/979",
+      "author": "crazzfeng",
+      "author_avatar": "https://avatars.githubusercontent.com/u/36906421?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/981",
       "labels": [
-        "hostRequired"
+        "Test links missing"
       ],
       "templates": [
         {
-          "provider_id": "holydocs",
-          "service_id": "com.custom-domain",
-          "filename": "holydocs.com.custom-domain.json",
+          "provider_id": "aurorasendcloud",
+          "service_id": "com.email-auth",
+          "filename": "aurorasendcloud.com.email-auth.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3547,7 +3547,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 515,
+        "review_count": 519,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3579,7 +3579,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 83,
+        "review_count": 84,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -5969,6 +5969,15 @@
       "record_count": 2
     },
     {
+      "filename": "happyuptime.com.status-page.json",
+      "provider_id": "happyuptime.com",
+      "service_id": "status-page",
+      "provider_name": "Happy Uptime",
+      "service_name": "Status Page",
+      "logo_url": "https://happyuptime.com/happyuptime-logo.svg",
+      "record_count": 1
+    },
+    {
       "filename": "hauberk.app.domain-verification.json",
       "provider_id": "hauberk.app",
       "service_id": "domain-verification",
@@ -6011,6 +6020,15 @@
       "provider_name": "HiveStatus",
       "service_name": "Domain Verification",
       "logo_url": "https://static.cdn.hivestatus.cloud/v1/assets/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "holydocs.com.custom-domain.json",
+      "provider_id": "holydocs.com",
+      "service_id": "custom-domain",
+      "provider_name": "HolyDocs",
+      "service_name": "HolyDocs Custom Domain",
+      "logo_url": "https://holydocs.com/favicon.svg",
       "record_count": 1
     },
     {
@@ -8084,6 +8102,24 @@
       "record_count": 3
     },
     {
+      "filename": "sendcanary.com.lockdown.json",
+      "provider_id": "sendcanary.com",
+      "service_id": "lockdown",
+      "provider_name": "SendCanary",
+      "service_name": "Non-Sending Domain Lockdown",
+      "logo_url": "https://sendcanary.com/logo.png",
+      "record_count": 2
+    },
+    {
+      "filename": "sendcanary.com.revert-lockdown.json",
+      "provider_id": "sendcanary.com",
+      "service_id": "revert-lockdown",
+      "provider_name": "SendCanary",
+      "service_name": "Revert Domain Lockdown",
+      "logo_url": "https://sendcanary.com/logo.png",
+      "record_count": 2
+    },
+    {
       "filename": "sender.net.domain-authentication.json",
       "provider_id": "sender.net",
       "service_id": "domain-authentication",
@@ -9448,22 +9484,10 @@
       "profile_url": "https://github.com/astrutzenberg-godaddy"
     },
     {
-      "login": "apxcarter",
+      "login": "TracyFogel",
       "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/135069364?v=4",
-      "profile_url": "https://github.com/apxcarter"
-    },
-    {
-      "login": "imgerson",
-      "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/3615268?v=4",
-      "profile_url": "https://github.com/imgerson"
-    },
-    {
-      "login": "thoag-godaddy",
-      "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/89269158?v=4",
-      "profile_url": "https://github.com/thoag-godaddy"
+      "avatar_url": "https://avatars.githubusercontent.com/u/16194195?v=4",
+      "profile_url": "https://github.com/TracyFogel"
     },
     {
       "login": "jeevan-getmoda",
@@ -9472,10 +9496,22 @@
       "profile_url": "https://github.com/jeevan-getmoda"
     },
     {
-      "login": "TracyFogel",
+      "login": "thoag-godaddy",
       "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/16194195?v=4",
-      "profile_url": "https://github.com/TracyFogel"
+      "avatar_url": "https://avatars.githubusercontent.com/u/89269158?v=4",
+      "profile_url": "https://github.com/thoag-godaddy"
+    },
+    {
+      "login": "imgerson",
+      "contributions": 9,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3615268?v=4",
+      "profile_url": "https://github.com/imgerson"
+    },
+    {
+      "login": "apxcarter",
+      "contributions": 9,
+      "avatar_url": "https://avatars.githubusercontent.com/u/135069364?v=4",
+      "profile_url": "https://github.com/apxcarter"
     },
     {
       "login": "arya-dos",
@@ -9502,22 +9538,22 @@
       "profile_url": "https://github.com/cmalec"
     },
     {
-      "login": "anish2690",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
-      "profile_url": "https://github.com/anish2690"
-    },
-    {
-      "login": "jonroig",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/928215?v=4",
-      "profile_url": "https://github.com/jonroig"
-    },
-    {
       "login": "tombeard",
       "contributions": 8,
       "avatar_url": "https://avatars.githubusercontent.com/u/12370027?v=4",
       "profile_url": "https://github.com/tombeard"
+    },
+    {
+      "login": "dommholland",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4269710?v=4",
+      "profile_url": "https://github.com/dommholland"
+    },
+    {
+      "login": "anish2690",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
+      "profile_url": "https://github.com/anish2690"
     },
     {
       "login": "MrExcitingDigits",
@@ -9526,10 +9562,16 @@
       "profile_url": "https://github.com/MrExcitingDigits"
     },
     {
-      "login": "dommholland",
+      "login": "jotra7",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4269710?v=4",
-      "profile_url": "https://github.com/dommholland"
+      "avatar_url": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "profile_url": "https://github.com/jotra7"
+    },
+    {
+      "login": "jonroig",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/928215?v=4",
+      "profile_url": "https://github.com/jonroig"
     },
     {
       "login": "FlorentinStafie",
@@ -9542,6 +9584,12 @@
       "contributions": 7,
       "avatar_url": "https://avatars.githubusercontent.com/u/91722266?v=4",
       "profile_url": "https://github.com/GokulnathMadhivanan"
+    },
+    {
+      "login": "kerolasa",
+      "contributions": 7,
+      "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
+      "profile_url": "https://github.com/kerolasa"
     },
     {
       "login": "tomnugent",
@@ -9562,42 +9610,6 @@
       "profile_url": "https://github.com/pernydev"
     },
     {
-      "login": "csjewell",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/67483?v=4",
-      "profile_url": "https://github.com/csjewell"
-    },
-    {
-      "login": "jotra7",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4241654?v=4",
-      "profile_url": "https://github.com/jotra7"
-    },
-    {
-      "login": "tauthomas01",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/658169?v=4",
-      "profile_url": "https://github.com/tauthomas01"
-    },
-    {
-      "login": "elementortzvi",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/46862560?v=4",
-      "profile_url": "https://github.com/elementortzvi"
-    },
-    {
-      "login": "alanxuan-houzz",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/54787010?v=4",
-      "profile_url": "https://github.com/alanxuan-houzz"
-    },
-    {
-      "login": "fgorodishter-godaddy",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/77742018?v=4",
-      "profile_url": "https://github.com/fgorodishter-godaddy"
-    },
-    {
       "login": "kcooperstein-godaddy",
       "contributions": 6,
       "avatar_url": "https://avatars.githubusercontent.com/u/79287885?v=4",
@@ -9608,6 +9620,30 @@
       "contributions": 6,
       "avatar_url": "https://avatars.githubusercontent.com/u/107384032?v=4",
       "profile_url": "https://github.com/lyalls-marc"
+    },
+    {
+      "login": "richard-edens",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/82026336?v=4",
+      "profile_url": "https://github.com/richard-edens"
+    },
+    {
+      "login": "mr-brik",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3754435?v=4",
+      "profile_url": "https://github.com/mr-brik"
+    },
+    {
+      "login": "jatinw3nuts",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/166693649?v=4",
+      "profile_url": "https://github.com/jatinw3nuts"
+    },
+    {
+      "login": "fgorodishter-godaddy",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/77742018?v=4",
+      "profile_url": "https://github.com/fgorodishter-godaddy"
     }
   ]
 }
