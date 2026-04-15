@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-14T01:24:04.905995",
+  "generated_at": "2026-04-15T01:20:24.702861",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 639,
-    "total_providers": 354,
-    "total_merged_prs": 754,
-    "total_open_prs": 25,
-    "total_contributors": 381,
-    "avg_records_per_template": 3.38
+    "total_templates": 643,
+    "total_providers": 357,
+    "total_merged_prs": 757,
+    "total_open_prs": 26,
+    "total_contributors": 384,
+    "avg_records_per_template": 3.39
   },
   "templates_growth": [
     {
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 38,
+      "added": 42,
       "deleted": 0,
-      "cumulative": 639
+      "cumulative": 643
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 26,
-      "cumulative": 354
+      "added": 29,
+      "cumulative": 357
     }
   ],
   "pr_activity": [
@@ -1519,8 +1519,8 @@
     },
     {
       "month": "2026-04",
-      "created": 48,
-      "merged": 44
+      "created": 53,
+      "merged": 47
     }
   ],
   "pr_time_to_merge": [
@@ -2108,16 +2108,16 @@
       "Forged editor links": 2,
       "PR description incomplete": 25,
       "Stale": 0,
-      "Test links missing": 43,
+      "Test links missing": 47,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 5,
-      "hostRequired": 15,
+      "hostRequired": 19,
       "no syncPubKeyDomain": 1,
       "question": 0,
       "schema-error": 7,
       "syncBlock": 0,
-      "warnPhishing": 5
+      "warnPhishing": 6
     }
   ],
   "pr_comment_activity": [
@@ -2517,23 +2517,23 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 475
+      "count": 479
     },
     {
       "type": "TXT",
-      "count": 283
+      "count": 284
     },
     {
       "type": "A",
-      "count": 221
+      "count": 222
     },
     {
       "type": "SPFM",
-      "count": 140
+      "count": 141
     },
     {
       "type": "MX",
-      "count": 121
+      "count": 122
     },
     {
       "type": "SRV",
@@ -2689,6 +2689,27 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "wegic.ai",
+        "provider_name": "WEGIC",
+        "logo_url": "https://cdn.wegic.ai/assets/logo.png",
+        "template_count": 2,
+        "first_added": "2026-04-14"
+      },
+      {
+        "provider_id": "imagine.bo",
+        "provider_name": "imagine.bo",
+        "logo_url": "https://app.imagine.bo/logo.png",
+        "template_count": 1,
+        "first_added": "2026-04-14"
+      },
+      {
+        "provider_id": "aurorasendcloud.com",
+        "provider_name": "sendcloud",
+        "logo_url": "https://www.aurorasendcloud.com/logo_simple.svg",
+        "template_count": 1,
+        "first_added": "2026-04-14"
+      },
+      {
         "provider_id": "holydocs.com",
         "provider_name": "HolyDocs",
         "logo_url": "https://holydocs.com/favicon.svg",
@@ -2806,42 +2827,21 @@
         "logo_url": "https://static.cirrux.co/mail/img/favicon/favicon-512.png",
         "template_count": 1,
         "first_added": "2026-04-06"
-      },
-      {
-        "provider_id": "trekmail.net",
-        "provider_name": "TrekMail",
-        "logo_url": "https://trekmail.net/images/Logo.png",
-        "template_count": 1,
-        "first_added": "2026-04-06"
-      },
-      {
-        "provider_id": "dynares.app",
-        "provider_name": "dynares",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-04-06"
-      },
-      {
-        "provider_id": "brixus365.com",
-        "provider_name": "Brixus365",
-        "logo_url": "https://brixus365.com/favicon.svg",
-        "template_count": 1,
-        "first_added": "2026-04-03"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 639,
+    "total_templates": 643,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 569
+        "count": 573
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 408
+        "count": 411
       },
       {
         "name": "warnPhishing",
@@ -2851,30 +2851,64 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 169
+        "count": 171
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 981,
-      "title": "Add SendCloud domain Template",
+      "number": 990,
+      "title": "Update Resend templates with optional CAA record",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-13T09:59:46Z",
-      "updated_at": "2026-04-13T10:16:44Z",
+      "created_at": "2026-04-14T16:10:44Z",
+      "updated_at": "2026-04-14T18:24:34Z",
       "merged_at": null,
-      "author": "crazzfeng",
-      "author_avatar": "https://avatars.githubusercontent.com/u/36906421?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/981",
-      "labels": [
-        "Test links missing"
-      ],
+      "author": "cassiozen",
+      "author_avatar": "https://avatars.githubusercontent.com/u/33676?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/990",
+      "labels": [],
       "templates": [
         {
-          "provider_id": "aurorasendcloud",
-          "service_id": "com.email-auth",
-          "filename": "aurorasendcloud.com.email-auth.json",
+          "provider_id": "resend",
+          "service_id": "com.click-tracking",
+          "filename": "resend.com.click-tracking.json",
+          "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
+          "status": "modified"
+        },
+        {
+          "provider_id": "resend",
+          "service_id": "com.mail-send-and-receive",
+          "filename": "resend.com.mail-send-and-receive.json",
+          "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
+          "status": "modified"
+        },
+        {
+          "provider_id": "resend",
+          "service_id": "com.mail",
+          "filename": "resend.com.mail.json",
+          "logo_url": "https://resend.com/static/brand/resend-wordmark-black.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 989,
+      "title": "Add Axene Mailer email sending template (mail.axene.io)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-14T13:59:29Z",
+      "updated_at": "2026-04-14T14:08:06Z",
+      "merged_at": null,
+      "author": "Raccoon254",
+      "author_avatar": "https://avatars.githubusercontent.com/u/108453222?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/989",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mail",
+          "service_id": "axene.io.email",
+          "filename": "mail.axene.io.email.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3547,7 +3581,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 519,
+        "review_count": 522,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3579,7 +3613,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 84,
+        "review_count": 85,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3771,6 +3805,15 @@
       "service_name": "Atribu First-Party Tracking",
       "logo_url": "https://www.atribu.app/brand/atribu-wordmark-square-1024.png",
       "record_count": 1
+    },
+    {
+      "filename": "aurorasendcloud.com.email-auth.json",
+      "provider_id": "aurorasendcloud.com",
+      "service_id": "email-auth",
+      "provider_name": "sendcloud",
+      "service_name": "SendCloud Email Sending Authentication",
+      "logo_url": "https://www.aurorasendcloud.com/logo_simple.svg",
+      "record_count": 9
     },
     {
       "filename": "authgravity.org.auth.json",
@@ -6173,6 +6216,15 @@
       "provider_name": "ID4me Identity Agent",
       "service_name": "Identity Registration",
       "logo_url": "https://id4me.org/wp-content/uploads/2018/03/ID4me_logo_2c_pos_rgb.png",
+      "record_count": 2
+    },
+    {
+      "filename": "imagine.bo.custom-domain.json",
+      "provider_id": "imagine.bo",
+      "service_id": "custom-domain",
+      "provider_name": "imagine.bo",
+      "service_name": "Custom Domain",
+      "logo_url": "https://app.imagine.bo/logo.png",
       "record_count": 2
     },
     {
@@ -9117,6 +9169,24 @@
       "service_name": "Weebly site",
       "logo_url": "https://cdn-uc.editmysite.com/checkout/assets/images/emails/weebly.png",
       "record_count": 2
+    },
+    {
+      "filename": "wegic.ai.website-apex.json",
+      "provider_id": "wegic.ai",
+      "service_id": "website-apex",
+      "provider_name": "WEGIC",
+      "service_name": "WEGIC Websites",
+      "logo_url": "https://cdn.wegic.ai/assets/logo.png",
+      "record_count": 2
+    },
+    {
+      "filename": "wegic.ai.website-subdomain.json",
+      "provider_id": "wegic.ai",
+      "service_id": "website-subdomain",
+      "provider_name": "WEGIC",
+      "service_name": "WEGIC Websites",
+      "logo_url": "https://cdn.wegic.ai/assets/logo.png",
+      "record_count": 1
     },
     {
       "filename": "wisestamp.com.website.json",
