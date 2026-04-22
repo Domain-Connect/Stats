@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-21T01:23:41.367619",
+  "generated_at": "2026-04-22T01:22:05.538449",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 655,
-    "total_providers": 366,
-    "total_merged_prs": 770,
-    "total_open_prs": 33,
-    "total_contributors": 393,
-    "avg_records_per_template": 3.36
+    "total_templates": 672,
+    "total_providers": 373,
+    "total_merged_prs": 779,
+    "total_open_prs": 22,
+    "total_contributors": 399,
+    "avg_records_per_template": 3.33
   },
   "templates_growth": [
     {
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 54,
+      "added": 71,
       "deleted": 0,
-      "cumulative": 655
+      "cumulative": 672
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 38,
-      "cumulative": 366
+      "added": 45,
+      "cumulative": 373
     }
   ],
   "pr_activity": [
@@ -1519,8 +1519,8 @@
     },
     {
       "month": "2026-04",
-      "created": 87,
-      "merged": 61
+      "created": 89,
+      "merged": 70
     }
   ],
   "pr_time_to_merge": [
@@ -1906,7 +1906,7 @@
     },
     {
       "month": "2026-04",
-      "avg_days": 0.7
+      "avg_days": 1.0
     }
   ],
   "pr_label_activity": [
@@ -2112,7 +2112,7 @@
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 6,
-      "hostRequired": 29,
+      "hostRequired": 30,
       "no syncPubKeyDomain": 2,
       "question": 0,
       "schema-error": 10,
@@ -2517,23 +2517,23 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 489
+      "count": 495
     },
     {
       "type": "TXT",
-      "count": 287
+      "count": 294
     },
     {
       "type": "A",
-      "count": 226
+      "count": 230
     },
     {
       "type": "SPFM",
-      "count": 143
+      "count": 146
     },
     {
       "type": "MX",
-      "count": 122
+      "count": 126
     },
     {
       "type": "SRV",
@@ -2541,7 +2541,7 @@
     },
     {
       "type": "AAAA",
-      "count": 16
+      "count": 17
     },
     {
       "type": "REDIR301",
@@ -2583,6 +2583,12 @@
         "provider_name": "SecureServer",
         "logo_url": null,
         "template_count": 12
+      },
+      {
+        "provider_id": "domainbridge.io",
+        "provider_name": "DomainBridge",
+        "logo_url": "https://domainbridge.io/logo.svg",
+        "template_count": 10
       },
       {
         "provider_id": "sendcanary.com",
@@ -2634,7 +2640,7 @@
       },
       {
         "provider_id": "nextcommerce.com",
-        "provider_name": "NextCommerce",
+        "provider_name": "Next Commerce",
         "logo_url": "https://nextcommerce-public-assets.s3.us-east-1.amazonaws.com/final-logo-dark-stroked-md.png",
         "template_count": 5
       },
@@ -2679,15 +2685,58 @@
         "provider_name": "Public Internet",
         "logo_url": "https://www.public-internet.co.uk/images/site-logo-2020.svg",
         "template_count": 4
-      },
-      {
-        "provider_id": "posthog.com",
-        "provider_name": "PostHog",
-        "logo_url": "https://posthog.com/brand/posthog-logo.svg",
-        "template_count": 4
       }
     ],
     "last_30_added": [
+      {
+        "provider_id": "sentroy.com",
+        "provider_name": "Sentroy",
+        "logo_url": "https://sentroy.com/business/sentroy-logo-light.png",
+        "template_count": 1,
+        "first_added": "2026-04-21"
+      },
+      {
+        "provider_id": "flowapt.com",
+        "provider_name": "Flowapt",
+        "logo_url": "https://app.flowiq.live/original_logo.png",
+        "template_count": 2,
+        "first_added": "2026-04-21"
+      },
+      {
+        "provider_id": "storekin.com",
+        "provider_name": "StoreKin",
+        "logo_url": null,
+        "template_count": 1,
+        "first_added": "2026-04-21"
+      },
+      {
+        "provider_id": "domainbridge.io",
+        "provider_name": "DomainBridge",
+        "logo_url": "https://domainbridge.io/logo.svg",
+        "template_count": 10,
+        "first_added": "2026-04-21"
+      },
+      {
+        "provider_id": "app.referralhero.com",
+        "provider_name": "ReferralHero",
+        "logo_url": "https://app.referralhero.com/rh_logo.png",
+        "template_count": 1,
+        "first_added": "2026-04-21"
+      },
+      {
+        "provider_id": "dev.referralhero.com",
+        "provider_name": "ReferralHero",
+        "logo_url": "https://dev.referralhero.com/rh_logo.png",
+        "template_count": 1,
+        "first_added": "2026-04-21"
+      },
+      {
+        "provider_id": "keychain.com",
+        "provider_name": "Keychain",
+        "logo_url": null,
+        "template_count": 1,
+        "first_added": "2026-04-21"
+      },
       {
         "provider_id": "mail.axene.io",
         "provider_name": "Axene Mailer",
@@ -2778,70 +2827,21 @@
         "logo_url": "https://holydocs.com/favicon.svg",
         "template_count": 1,
         "first_added": "2026-04-13"
-      },
-      {
-        "provider_id": "happyuptime.com",
-        "provider_name": "Happy Uptime",
-        "logo_url": "https://happyuptime.com/happyuptime-logo.svg",
-        "template_count": 1,
-        "first_added": "2026-04-13"
-      },
-      {
-        "provider_id": "justemails.app",
-        "provider_name": "JustEmails",
-        "logo_url": "https://justemails.app/icon.svg",
-        "template_count": 1,
-        "first_added": "2026-04-12"
-      },
-      {
-        "provider_id": "octara.xyz",
-        "provider_name": "Octara",
-        "logo_url": "https://octara.xyz/favicon.svg",
-        "template_count": 1,
-        "first_added": "2026-04-12"
-      },
-      {
-        "provider_id": "hivestatus.cloud",
-        "provider_name": "HiveStatus",
-        "logo_url": "https://static.cdn.hivestatus.cloud/v1/assets/logo.svg",
-        "template_count": 1,
-        "first_added": "2026-04-11"
-      },
-      {
-        "provider_id": "aiprospectscout.com",
-        "provider_name": "AI ProspectScout",
-        "logo_url": "https://aisdr-oceanix.lovable.app/placeholder.svg",
-        "template_count": 1,
-        "first_added": "2026-04-11"
-      },
-      {
-        "provider_id": "nextcommerce.com",
-        "provider_name": "NextCommerce",
-        "logo_url": "https://nextcommerce-public-assets.s3.us-east-1.amazonaws.com/final-logo-dark-stroked-md.png",
-        "template_count": 5,
-        "first_added": "2026-04-10"
-      },
-      {
-        "provider_id": "simplomail.com",
-        "provider_name": "SimploMail",
-        "logo_url": "https://simplomail.com/assets/simplomail-logo-B61Jcr54.png",
-        "template_count": 1,
-        "first_added": "2026-04-10"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 655,
+    "total_templates": 672,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 585
+        "count": 602
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 425
+        "count": 439
       },
       {
         "name": "warnPhishing",
@@ -2851,52 +2851,30 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 175
+        "count": 179
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 1024,
-      "title": "Add Keychain Blog Hosting configuration file",
+      "number": 1026,
+      "title": "feat(leed.ai): upgrade template to v2 for Workers architecture",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-20T11:42:41Z",
-      "updated_at": "2026-04-20T14:21:10Z",
+      "created_at": "2026-04-21T17:45:32Z",
+      "updated_at": "2026-04-21T19:54:49Z",
       "merged_at": null,
-      "author": "shashwatnauti",
-      "author_avatar": "https://avatars.githubusercontent.com/u/155512534?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1024",
+      "author": "kingmesal",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7671761?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1026",
       "labels": [],
       "templates": [
         {
-          "provider_id": "keychain",
-          "service_id": "com.blog-hosting",
-          "filename": "keychain.com.blog-hosting.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1021,
-      "title": "add StoreKin, StoreKin Storefront",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-19T13:57:58Z",
-      "updated_at": "2026-04-19T13:58:37Z",
-      "merged_at": null,
-      "author": "Bhcfg",
-      "author_avatar": "https://avatars.githubusercontent.com/u/127054592?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1021",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "storekin",
-          "service_id": "com.website",
-          "filename": "storekin.com.website.json",
-          "logo_url": null,
-          "status": "added"
+          "provider_id": "leed",
+          "service_id": "ai.generative-cms",
+          "filename": "leed.ai.generative-cms.json",
+          "logo_url": "https://leed.ai/static/images/logo/leed-light.svg",
+          "status": "modified"
         }
       ]
     },
@@ -2906,7 +2884,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-19T11:15:03Z",
-      "updated_at": "2026-04-20T04:15:38Z",
+      "updated_at": "2026-04-21T17:57:29Z",
       "merged_at": null,
       "author": "sohel-cse",
       "author_avatar": "https://avatars.githubusercontent.com/u/7112809?v=4",
@@ -2931,50 +2909,6 @@
           "provider_id": "mailbluster",
           "service_id": "com.sender-verification-smtp2go",
           "filename": "mailbluster.com.sender-verification-smtp2go.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1018,
-      "title": "CloudFlare Key added",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-19T07:14:57Z",
-      "updated_at": "2026-04-19T07:48:29Z",
-      "merged_at": null,
-      "author": "markmiller2301",
-      "author_avatar": "https://avatars.githubusercontent.com/u/51961215?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1018",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "aiprospectscout",
-          "service_id": "com.mail",
-          "filename": "aiprospectscout.com.mail.json",
-          "logo_url": "https://aisdr-oceanix.lovable.app/placeholder.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 1017,
-      "title": "Add flowapt.com.email-receive template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-18T14:48:15Z",
-      "updated_at": "2026-04-18T14:48:51Z",
-      "merged_at": null,
-      "author": "MattFlowapt",
-      "author_avatar": "https://avatars.githubusercontent.com/u/187672330?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1017",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "flowapt",
-          "service_id": "com.email-receive",
-          "filename": "flowapt.com.email-receive.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3009,50 +2943,6 @@
       ]
     },
     {
-      "number": 1015,
-      "title": "Add flowapt.com.email template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-18T13:19:08Z",
-      "updated_at": "2026-04-18T13:27:56Z",
-      "merged_at": null,
-      "author": "MattFlowapt",
-      "author_avatar": "https://avatars.githubusercontent.com/u/187672330?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1015",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "flowapt",
-          "service_id": "com.email",
-          "filename": "flowapt.com.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1014,
-      "title": "add Sentroy, Sentroy Email",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-18T09:23:42Z",
-      "updated_at": "2026-04-20T09:11:40Z",
-      "merged_at": null,
-      "author": "arasors",
-      "author_avatar": "https://avatars.githubusercontent.com/u/83857485?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1014",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sentroy",
-          "service_id": "com.email-setup",
-          "filename": "sentroy.com.email-setup.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1012,
       "title": "Add Ruhanix Creations Publish Template",
       "state": "open",
@@ -3080,93 +2970,6 @@
       ]
     },
     {
-      "number": 1008,
-      "title": "Add 10 DomainBridge templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-16T18:38:55Z",
-      "updated_at": "2026-04-18T03:36:01Z",
-      "merged_at": null,
-      "author": "domainbridge",
-      "author_avatar": "https://avatars.githubusercontent.com/u/276203446?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1008",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "domainbridge",
-          "service_id": "io.a-record",
-          "filename": "domainbridge.io.a-record.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "domainbridge",
-          "service_id": "io.aaaa-record",
-          "filename": "domainbridge.io.aaaa-record.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "domainbridge",
-          "service_id": "io.dkim-txt",
-          "filename": "domainbridge.io.dkim-txt.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "domainbridge",
-          "service_id": "io.dkim",
-          "filename": "domainbridge.io.dkim.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "domainbridge",
-          "service_id": "io.dmarc",
-          "filename": "domainbridge.io.dmarc.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "domainbridge",
-          "service_id": "io.mx",
-          "filename": "domainbridge.io.mx.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "domainbridge",
-          "service_id": "io.spf",
-          "filename": "domainbridge.io.spf.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "domainbridge",
-          "service_id": "io.subdomain",
-          "filename": "domainbridge.io.subdomain.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "domainbridge",
-          "service_id": "io.verify",
-          "filename": "domainbridge.io.verify.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "domainbridge",
-          "service_id": "io.website",
-          "filename": "domainbridge.io.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1005,
       "title": "Add 10 DomainBridge templates",
       "state": "open",
@@ -3185,101 +2988,70 @@
           "provider_id": "domainbridge",
           "service_id": "io.a-record",
           "filename": "domainbridge.io.a-record.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.aaaa-record",
           "filename": "domainbridge.io.aaaa-record.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.dkim-txt",
           "filename": "domainbridge.io.dkim-txt.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.dkim",
           "filename": "domainbridge.io.dkim.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.dmarc",
           "filename": "domainbridge.io.dmarc.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.mx",
           "filename": "domainbridge.io.mx.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.spf",
           "filename": "domainbridge.io.spf.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.subdomain",
           "filename": "domainbridge.io.subdomain.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.verify",
           "filename": "domainbridge.io.verify.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.website",
           "filename": "domainbridge.io.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1003,
-      "title": "Add ReferralHero custom domain template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-16T14:24:11Z",
-      "updated_at": "2026-04-20T19:32:40Z",
-      "merged_at": null,
-      "author": "nishchay-gupta",
-      "author_avatar": "https://avatars.githubusercontent.com/u/179159444?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1003",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "app",
-          "service_id": "referralhero.com.custom_domain",
-          "filename": "app.referralhero.com.custom_domain.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "dev",
-          "service_id": "referralhero.com.custom_domain",
-          "filename": "dev.referralhero.com.custom_domain.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         }
       ]
@@ -3307,70 +3079,70 @@
           "provider_id": "domainbridge",
           "service_id": "io.a-record",
           "filename": "domainbridge.io.a-record.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.aaaa-record",
           "filename": "domainbridge.io.aaaa-record.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.dkim-txt",
           "filename": "domainbridge.io.dkim-txt.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.dkim",
           "filename": "domainbridge.io.dkim.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.dmarc",
           "filename": "domainbridge.io.dmarc.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.mx",
           "filename": "domainbridge.io.mx.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.spf",
           "filename": "domainbridge.io.spf.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.subdomain",
           "filename": "domainbridge.io.subdomain.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.verify",
           "filename": "domainbridge.io.verify.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         },
         {
           "provider_id": "domainbridge",
           "service_id": "io.website",
           "filename": "domainbridge.io.website.json",
-          "logo_url": null,
+          "logo_url": "https://domainbridge.io/logo.svg",
           "status": "added"
         }
       ]
@@ -3768,24 +3540,6 @@
       ]
     },
     {
-      "number": 765,
-      "title": "Add storefront custom domain configuration for Shopi.lk",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-11T10:38:55Z",
-      "updated_at": "2026-04-06T04:22:14Z",
-      "merged_at": null,
-      "author": "ruzny-ramzan",
-      "author_avatar": "https://avatars.githubusercontent.com/u/193292134?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/765",
-      "labels": [
-        "Stale",
-        "AI crap",
-        "Test links missing"
-      ],
-      "templates": []
-    },
-    {
       "number": 763,
       "title": "Add groupId to DNS records for verification",
       "state": "open",
@@ -3809,129 +3563,13 @@
           "status": "modified"
         }
       ]
-    },
-    {
-      "number": 762,
-      "title": "Add Rocketflow tracking page templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-10T18:33:54Z",
-      "updated_at": "2026-04-05T04:15:28Z",
-      "merged_at": null,
-      "author": "marluciaaraujo149-web",
-      "author_avatar": "https://avatars.githubusercontent.com/u/258689530?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/762",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "rflowcdn",
-          "service_id": "com.tracking-root",
-          "filename": "rflowcdn.com.tracking-root.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "rflowcdn",
-          "service_id": "com.tracking-subdomain",
-          "filename": "rflowcdn.com.tracking-subdomain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 718,
-      "title": "Add website hosting configuration for Magellan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-15T19:04:24Z",
-      "updated_at": "2026-04-05T04:15:30Z",
-      "merged_at": null,
-      "author": "BaptisteLam",
-      "author_avatar": "https://avatars.githubusercontent.com/u/231010613?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/718",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "builtbymagellan",
-          "service_id": "com.website",
-          "filename": "builtbymagellan.com.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 701,
-      "title": "domain connect template for uspeedo.com",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-07T10:54:33Z",
-      "updated_at": "2026-04-05T04:15:31Z",
-      "merged_at": null,
-      "author": "kiritoaurora",
-      "author_avatar": "https://avatars.githubusercontent.com/u/61142387?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/701",
-      "labels": [
-        "question",
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "uspeedo",
-          "service_id": "com.email",
-          "filename": "uspeedo.com.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 695,
-      "title": "Add inb.so subdomain configuration file",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-12-31T07:03:37Z",
-      "updated_at": "2026-04-05T04:15:33Z",
-      "merged_at": null,
-      "author": "AudEarn",
-      "author_avatar": "https://avatars.githubusercontent.com/u/193089239?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/695",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "inb",
-          "service_id": "so.subdomain",
-          "filename": "inb.so.subdomain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 535,
+        "review_count": 544,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3963,7 +3601,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 86,
+        "review_count": 94,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4092,6 +3730,15 @@
       "service_name": "QuicklyLaunch Sites",
       "logo_url": "https://www.straightarrow.com.ph/hubfs/QuicklyLaunch%202.0/Dark%20QL.png",
       "record_count": 2
+    },
+    {
+      "filename": "app.referralhero.com.custom_domain.json",
+      "provider_id": "app.referralhero.com",
+      "service_id": "custom_domain",
+      "provider_name": "ReferralHero",
+      "service_name": "Custom Domain",
+      "logo_url": "https://app.referralhero.com/rh_logo.png",
+      "record_count": 3
     },
     {
       "filename": "app.unbounce.com.site.json",
@@ -4796,6 +4443,15 @@
       "record_count": 1
     },
     {
+      "filename": "dev.referralhero.com.custom_domain.json",
+      "provider_id": "dev.referralhero.com",
+      "service_id": "custom_domain",
+      "provider_name": "ReferralHero",
+      "service_name": "Custom Domain",
+      "logo_url": "https://dev.referralhero.com/rh_logo.png",
+      "record_count": 3
+    },
+    {
       "filename": "dmarceye.com.dmarceye-setup.json",
       "provider_id": "dmarceye.com",
       "service_id": "dmarceye-setup",
@@ -4830,6 +4486,96 @@
       "service_name": "Domain Verification",
       "logo_url": "https://dockify.io/logo.svg",
       "record_count": 1
+    },
+    {
+      "filename": "domainbridge.io.a-record.json",
+      "provider_id": "domainbridge.io",
+      "service_id": "a-record",
+      "provider_name": "DomainBridge",
+      "service_name": "A Record",
+      "logo_url": "https://domainbridge.io/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "domainbridge.io.aaaa-record.json",
+      "provider_id": "domainbridge.io",
+      "service_id": "aaaa-record",
+      "provider_name": "DomainBridge",
+      "service_name": "AAAA Record",
+      "logo_url": "https://domainbridge.io/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "domainbridge.io.dkim-txt.json",
+      "provider_id": "domainbridge.io",
+      "service_id": "dkim-txt",
+      "provider_name": "DomainBridge",
+      "service_name": "DKIM Record (TXT)",
+      "logo_url": "https://domainbridge.io/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "domainbridge.io.dkim.json",
+      "provider_id": "domainbridge.io",
+      "service_id": "dkim",
+      "provider_name": "DomainBridge",
+      "service_name": "DKIM Record (CNAME)",
+      "logo_url": "https://domainbridge.io/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "domainbridge.io.dmarc.json",
+      "provider_id": "domainbridge.io",
+      "service_id": "dmarc",
+      "provider_name": "DomainBridge",
+      "service_name": "DMARC Record",
+      "logo_url": "https://domainbridge.io/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "domainbridge.io.mx.json",
+      "provider_id": "domainbridge.io",
+      "service_id": "mx",
+      "provider_name": "DomainBridge",
+      "service_name": "MX Records",
+      "logo_url": "https://domainbridge.io/logo.svg",
+      "record_count": 5
+    },
+    {
+      "filename": "domainbridge.io.spf.json",
+      "provider_id": "domainbridge.io",
+      "service_id": "spf",
+      "provider_name": "DomainBridge",
+      "service_name": "SPF Record",
+      "logo_url": "https://domainbridge.io/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "domainbridge.io.subdomain.json",
+      "provider_id": "domainbridge.io",
+      "service_id": "subdomain",
+      "provider_name": "DomainBridge",
+      "service_name": "Subdomain CNAME Pointing",
+      "logo_url": "https://domainbridge.io/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "domainbridge.io.verify.json",
+      "provider_id": "domainbridge.io",
+      "service_id": "verify",
+      "provider_name": "DomainBridge",
+      "service_name": "Domain Verification (TXT)",
+      "logo_url": "https://domainbridge.io/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "domainbridge.io.website.json",
+      "provider_id": "domainbridge.io",
+      "service_id": "website",
+      "provider_name": "DomainBridge",
+      "service_name": "Website Hosting (A + CNAME www)",
+      "logo_url": "https://domainbridge.io/logo.svg",
+      "record_count": 3
     },
     {
       "filename": "domainconnect.org.dynamicdns-v2.json",
@@ -5207,6 +4953,24 @@
       "provider_name": "Flock Mail",
       "service_name": "Flock Mail Hosting",
       "logo_url": "https://web.flockmail.com/images/logo/flockmail-logo-dark.svg",
+      "record_count": 3
+    },
+    {
+      "filename": "flowapt.com.email-receive.json",
+      "provider_id": "flowapt.com",
+      "service_id": "email-receive",
+      "provider_name": "Flowapt",
+      "service_name": "Flowapt Email (Receiving)",
+      "logo_url": "https://app.flowiq.live/original_logo.png",
+      "record_count": 1
+    },
+    {
+      "filename": "flowapt.com.email.json",
+      "provider_id": "flowapt.com",
+      "service_id": "email",
+      "provider_name": "Flowapt",
+      "service_name": "Flowapt Email",
+      "logo_url": "https://app.flowiq.live/original_logo.png",
       "record_count": 3
     },
     {
@@ -6785,6 +6549,15 @@
       "record_count": 2
     },
     {
+      "filename": "keychain.com.blog-hosting.json",
+      "provider_id": "keychain.com",
+      "service_id": "blog-hosting",
+      "provider_name": "Keychain",
+      "service_name": "Keychain Blog Hosting",
+      "logo_url": null,
+      "record_count": 1
+    },
+    {
       "filename": "kismet.travel.ai-proxy.json",
       "provider_id": "kismet.travel",
       "service_id": "ai-proxy",
@@ -7652,7 +7425,7 @@
       "filename": "nextcommerce.com.email.json",
       "provider_id": "nextcommerce.com",
       "service_id": "email",
-      "provider_name": "NextCommerce",
+      "provider_name": "Next Commerce",
       "service_name": "Connect Email Sending Domain",
       "logo_url": "https://nextcommerce-public-assets.s3.us-east-1.amazonaws.com/final-logo-dark-stroked-md.png",
       "record_count": 3
@@ -7670,7 +7443,7 @@
       "filename": "nextcommerce.com.subdomain.json",
       "provider_id": "nextcommerce.com",
       "service_id": "subdomain",
-      "provider_name": "NextCommerce",
+      "provider_name": "Next Commerce",
       "service_name": "Connect Store Sub Domain",
       "logo_url": "https://nextcommerce-public-assets.s3.us-east-1.amazonaws.com/final-logo-dark-stroked-md.png",
       "record_count": 1
@@ -7688,10 +7461,10 @@
       "filename": "nextcommerce.com.website.json",
       "provider_id": "nextcommerce.com",
       "service_id": "website",
-      "provider_name": "NextCommerce",
+      "provider_name": "Next Commerce",
       "service_name": "Connect Store Domain",
       "logo_url": "https://nextcommerce-public-assets.s3.us-east-1.amazonaws.com/final-logo-dark-stroked-md.png",
-      "record_count": 2
+      "record_count": 1
     },
     {
       "filename": "nimeracp.com.website.json",
@@ -8675,6 +8448,15 @@
       "record_count": 3
     },
     {
+      "filename": "sentroy.com.email-setup.json",
+      "provider_id": "sentroy.com",
+      "service_id": "email-setup",
+      "provider_name": "Sentroy",
+      "service_name": "Sentroy Email",
+      "logo_url": "https://sentroy.com/business/sentroy-logo-light.png",
+      "record_count": 5
+    },
+    {
       "filename": "seocrown.ai.seocrown-edge-cache.json",
       "provider_id": "seocrown.ai",
       "service_id": "seocrown-edge-cache",
@@ -8933,6 +8715,15 @@
       "provider_name": "StatusDrop",
       "service_name": "StatusDrop Custom Domain",
       "logo_url": "https://statusdrop.dev/logo.png",
+      "record_count": 2
+    },
+    {
+      "filename": "storekin.com.website.json",
+      "provider_id": "storekin.com",
+      "service_id": "website",
+      "provider_name": "StoreKin",
+      "service_name": "StoreKin Storefront",
+      "logo_url": null,
       "record_count": 2
     },
     {
