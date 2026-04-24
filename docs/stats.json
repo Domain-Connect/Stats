@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-23T01:27:13.491561",
+  "generated_at": "2026-04-24T01:26:29.197204",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 675,
-    "total_providers": 374,
-    "total_merged_prs": 781,
-    "total_open_prs": 22,
-    "total_contributors": 400,
+    "total_templates": 677,
+    "total_providers": 375,
+    "total_merged_prs": 785,
+    "total_open_prs": 20,
+    "total_contributors": 401,
     "avg_records_per_template": 3.34
   },
   "templates_growth": [
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 74,
+      "added": 76,
       "deleted": 0,
-      "cumulative": 675
+      "cumulative": 677
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 46,
-      "cumulative": 374
+      "added": 47,
+      "cumulative": 375
     }
   ],
   "pr_activity": [
@@ -1519,8 +1519,8 @@
     },
     {
       "month": "2026-04",
-      "created": 93,
-      "merged": 72
+      "created": 96,
+      "merged": 76
     }
   ],
   "pr_time_to_merge": [
@@ -2113,22 +2113,22 @@
     {
       "month": "2026-04",
       "AI crap": 1,
-      "Checklist of common problems not complete": 38,
+      "Checklist of common problems not complete": 40,
       "Chores": 0,
-      "Forged editor links": 2,
-      "PR description incomplete": 40,
+      "Forged editor links": 3,
+      "PR description incomplete": 42,
       "Stale": 0,
-      "Test links missing": 74,
-      "automerge-possible": 1,
+      "Test links missing": 77,
+      "automerge-possible": 2,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 6,
-      "hostRequired": 31,
+      "hostRequired": 32,
       "no syncPubKeyDomain": 3,
       "question": 1,
       "schema-error": 10,
       "syncBlock": 1,
-      "warnPhishing": 8
+      "warnPhishing": 9
     }
   ],
   "pr_comment_activity": [
@@ -2528,11 +2528,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 498
+      "count": 499
     },
     {
       "type": "TXT",
-      "count": 297
+      "count": 299
     },
     {
       "type": "A",
@@ -2540,11 +2540,11 @@
     },
     {
       "type": "SPFM",
-      "count": 149
+      "count": 150
     },
     {
       "type": "MX",
-      "count": 127
+      "count": 128
     },
     {
       "type": "SRV",
@@ -2700,6 +2700,13 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "titanaudits.com",
+        "provider_name": "InstantDMARC",
+        "logo_url": "https://img.plasmic.app/img-optimizer/v1/img?src=https%3A%2F%2Fimg.plasmic.app%2Fimg-optimizer%2Fv1%2Fimg%2F8e5e377d6700a6e005cda1483ddd5e1f.png&w=384&q=75&f=webp",
+        "template_count": 1,
+        "first_added": "2026-04-23"
+      },
+      {
         "provider_id": "mailbluster.com",
         "provider_name": "MailBluster",
         "logo_url": "https://mailbluster.com/wp-content/themes/mailbluster/resources/assets/images/mailbluster-logo.svg",
@@ -2831,23 +2838,16 @@
         "logo_url": "https://app.imagine.bo/logo.png",
         "template_count": 1,
         "first_added": "2026-04-14"
-      },
-      {
-        "provider_id": "aurorasendcloud.com",
-        "provider_name": "sendcloud",
-        "logo_url": "https://www.aurorasendcloud.com/logo_simple.svg",
-        "template_count": 1,
-        "first_added": "2026-04-14"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 675,
+    "total_templates": 677,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 605
+        "count": 607
       },
       {
         "name": "syncRedirectDomain",
@@ -2862,7 +2862,7 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 178
+        "count": 179
       }
     ]
   },
@@ -2891,55 +2891,6 @@
           "filename": "storypages.ai.site-and-email.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1030,
-      "title": "Add nettingale connect email",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-22T12:15:20Z",
-      "updated_at": "2026-04-22T19:50:42Z",
-      "merged_at": null,
-      "author": "radoslav-stefanov",
-      "author_avatar": "https://avatars.githubusercontent.com/u/23275463?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1030",
-      "labels": [
-        "question",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "nettingale",
-          "service_id": "com.nettingale-connect-email",
-          "filename": "nettingale.com.nettingale-connect-email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1026,
-      "title": "feat(leed.ai): upgrade template to v2 for Workers architecture",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-21T17:45:32Z",
-      "updated_at": "2026-04-22T19:15:45Z",
-      "merged_at": null,
-      "author": "kingmesal",
-      "author_avatar": "https://avatars.githubusercontent.com/u/7671761?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1026",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "leed",
-          "service_id": "ai.generative-cms",
-          "filename": "leed.ai.generative-cms.json",
-          "logo_url": "https://leed.ai/static/images/logo/leed-light.svg",
-          "status": "modified"
         }
       ]
     },
@@ -3571,7 +3522,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 546,
+        "review_count": 550,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3603,7 +3554,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 93,
+        "review_count": 96,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -7415,6 +7366,15 @@
       "record_count": 3
     },
     {
+      "filename": "nettingale.com.nettingale-connect-email.json",
+      "provider_id": "nettingale.com",
+      "service_id": "nettingale-connect-email",
+      "provider_name": "Nettingale",
+      "service_name": "Nettingale Email Sending",
+      "logo_url": "https://nettingale.com/favicon.svg",
+      "record_count": 6
+    },
+    {
       "filename": "nettingale.com.nettingale-connect-ssl.json",
       "provider_id": "nettingale.com",
       "service_id": "nettingale-connect-ssl",
@@ -8981,6 +8941,15 @@
       "record_count": 3
     },
     {
+      "filename": "titanaudits.com.security.json",
+      "provider_id": "titanaudits.com",
+      "service_id": "security",
+      "provider_name": "InstantDMARC",
+      "service_name": "InstantDMARC 1-Click Deliverability",
+      "logo_url": "https://img.plasmic.app/img-optimizer/v1/img?src=https%3A%2F%2Fimg.plasmic.app%2Fimg-optimizer%2Fv1%2Fimg%2F8e5e377d6700a6e005cda1483ddd5e1f.png&w=384&q=75&f=webp",
+      "record_count": 1
+    },
+    {
       "filename": "tosend.com.mail.json",
       "provider_id": "tosend.com",
       "service_id": "mail",
@@ -9928,22 +9897,10 @@
       "profile_url": "https://github.com/anish2690"
     },
     {
-      "login": "pernydev",
-      "contributions": 7,
-      "avatar_url": "https://avatars.githubusercontent.com/u/83672513?v=4",
-      "profile_url": "https://github.com/pernydev"
-    },
-    {
       "login": "FlorentinStafie",
       "contributions": 7,
       "avatar_url": "https://avatars.githubusercontent.com/u/30241764?v=4",
       "profile_url": "https://github.com/FlorentinStafie"
-    },
-    {
-      "login": "abdulaziz-mohammed",
-      "contributions": 7,
-      "avatar_url": "https://avatars.githubusercontent.com/u/55058438?v=4",
-      "profile_url": "https://github.com/abdulaziz-mohammed"
     },
     {
       "login": "GokulnathMadhivanan",
@@ -9958,40 +9915,52 @@
       "profile_url": "https://github.com/tomnugent"
     },
     {
-      "login": "lyalls-marc",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/107384032?v=4",
-      "profile_url": "https://github.com/lyalls-marc"
+      "login": "abdulaziz-mohammed",
+      "contributions": 7,
+      "avatar_url": "https://avatars.githubusercontent.com/u/55058438?v=4",
+      "profile_url": "https://github.com/abdulaziz-mohammed"
     },
     {
-      "login": "mr-brik",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/3754435?v=4",
-      "profile_url": "https://github.com/mr-brik"
+      "login": "pernydev",
+      "contributions": 7,
+      "avatar_url": "https://avatars.githubusercontent.com/u/83672513?v=4",
+      "profile_url": "https://github.com/pernydev"
     },
     {
-      "login": "jatinw3nuts",
+      "login": "csjewell",
       "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/166693649?v=4",
-      "profile_url": "https://github.com/jatinw3nuts"
+      "avatar_url": "https://avatars.githubusercontent.com/u/67483?v=4",
+      "profile_url": "https://github.com/csjewell"
     },
     {
-      "login": "richard-edens",
+      "login": "tauthomas01",
       "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/82026336?v=4",
-      "profile_url": "https://github.com/richard-edens"
+      "avatar_url": "https://avatars.githubusercontent.com/u/658169?v=4",
+      "profile_url": "https://github.com/tauthomas01"
     },
     {
-      "login": "JoaoBarrosJunho",
+      "login": "elementortzvi",
       "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/51545505?v=4",
-      "profile_url": "https://github.com/JoaoBarrosJunho"
+      "avatar_url": "https://avatars.githubusercontent.com/u/46862560?v=4",
+      "profile_url": "https://github.com/elementortzvi"
     },
     {
-      "login": "chintans1",
+      "login": "alanxuan-houzz",
       "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/6274806?v=4",
-      "profile_url": "https://github.com/chintans1"
+      "avatar_url": "https://avatars.githubusercontent.com/u/54787010?v=4",
+      "profile_url": "https://github.com/alanxuan-houzz"
+    },
+    {
+      "login": "fgorodishter-godaddy",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/77742018?v=4",
+      "profile_url": "https://github.com/fgorodishter-godaddy"
+    },
+    {
+      "login": "kcooperstein-godaddy",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/79287885?v=4",
+      "profile_url": "https://github.com/kcooperstein-godaddy"
     }
   ]
 }
