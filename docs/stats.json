@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-25T01:20:00.952773",
+  "generated_at": "2026-04-26T01:29:11.040652",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 678,
-    "total_providers": 376,
-    "total_merged_prs": 786,
-    "total_open_prs": 24,
-    "total_contributors": 401,
-    "avg_records_per_template": 3.34
+    "total_templates": 680,
+    "total_providers": 377,
+    "total_merged_prs": 788,
+    "total_open_prs": 22,
+    "total_contributors": 402,
+    "avg_records_per_template": 3.33
   },
   "templates_growth": [
     {
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 77,
+      "added": 79,
       "deleted": 0,
-      "cumulative": 678
+      "cumulative": 680
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 48,
-      "cumulative": 376
+      "added": 49,
+      "cumulative": 377
     }
   ],
   "pr_activity": [
@@ -1520,7 +1520,7 @@
     {
       "month": "2026-04",
       "created": 101,
-      "merged": 77
+      "merged": 79
     }
   ],
   "pr_time_to_merge": [
@@ -2532,7 +2532,7 @@
     },
     {
       "type": "TXT",
-      "count": 300
+      "count": 302
     },
     {
       "type": "A",
@@ -2605,7 +2605,7 @@
         "provider_id": "sendcanary.com",
         "provider_name": "SendCanary",
         "logo_url": "https://sendcanary.com/logo.png",
-        "template_count": 9
+        "template_count": 10
       },
       {
         "provider_id": "hubspot.com",
@@ -2699,6 +2699,13 @@
       }
     ],
     "last_30_added": [
+      {
+        "provider_id": "cyberalarm.police.uk",
+        "provider_name": "Police CyberAlarm",
+        "logo_url": "https://member.cyberalarm.police.uk/favicon/web-app-manifest-512x512.png",
+        "template_count": 1,
+        "first_added": "2026-04-25"
+      },
       {
         "provider_id": "zibpost.com",
         "provider_name": "ZibPost",
@@ -2831,28 +2838,21 @@
         "logo_url": "https://engage.figuro.la/images/figuroLogo.webp",
         "template_count": 1,
         "first_added": "2026-04-15"
-      },
-      {
-        "provider_id": "wegic.ai",
-        "provider_name": "WEGIC",
-        "logo_url": "https://cdn.wegic.ai/assets/logo.png",
-        "template_count": 2,
-        "first_added": "2026-04-14"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 678,
+    "total_templates": 680,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 608
+        "count": 610
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 443
+        "count": 444
       },
       {
         "name": "warnPhishing",
@@ -2873,14 +2873,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-24T16:20:21Z",
-      "updated_at": "2026-04-24T16:20:58Z",
+      "updated_at": "2026-04-26T01:12:18Z",
       "merged_at": null,
       "author": "nass6976",
       "author_avatar": "https://avatars.githubusercontent.com/u/245085406?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1039",
       "labels": [
-        "PR description incomplete",
-        "Test links missing",
         "no syncPubKeyDomain"
       ],
       "templates": [
@@ -2911,115 +2909,6 @@
           "filename": "titanaudits.com.security-tls.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1038,
-      "title": "Add police cyberalarm uk domain TXT record verification",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-24T15:17:56Z",
-      "updated_at": "2026-04-24T15:18:32Z",
-      "merged_at": null,
-      "author": "jaalsh",
-      "author_avatar": "https://avatars.githubusercontent.com/u/14910254?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1038",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "cyberalarm",
-          "service_id": "police.uk.domain-verification",
-          "filename": "cyberalarm.police.uk.domain-verification.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1036,
-      "title": "SendCanary templates: add dkim-txt + refresh descriptions + OnApply fixes",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-24T02:06:12Z",
-      "updated_at": "2026-04-24T02:26:19Z",
-      "merged_at": null,
-      "author": "jotra7",
-      "author_avatar": "https://avatars.githubusercontent.com/u/4241654?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1036",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.bimi",
-          "filename": "sendcanary.com.bimi.json",
-          "logo_url": "https://sendcanary.com/logo.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.dkim-1",
-          "filename": "sendcanary.com.dkim-1.json",
-          "logo_url": "https://sendcanary.com/logo.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.dkim-2",
-          "filename": "sendcanary.com.dkim-2.json",
-          "logo_url": "https://sendcanary.com/logo.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.dkim-3",
-          "filename": "sendcanary.com.dkim-3.json",
-          "logo_url": "https://sendcanary.com/logo.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.dkim-txt",
-          "filename": "sendcanary.com.dkim-txt.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.dmarc",
-          "filename": "sendcanary.com.dmarc.json",
-          "logo_url": "https://sendcanary.com/logo.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.email-setup",
-          "filename": "sendcanary.com.email-setup.json",
-          "logo_url": "https://sendcanary.com/logo.svg",
-          "status": "modified"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.lockdown",
-          "filename": "sendcanary.com.lockdown.json",
-          "logo_url": "https://sendcanary.com/logo.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.revert-lockdown",
-          "filename": "sendcanary.com.revert-lockdown.json",
-          "logo_url": "https://sendcanary.com/logo.png",
-          "status": "modified"
-        },
-        {
-          "provider_id": "sendcanary",
-          "service_id": "com.spf",
-          "filename": "sendcanary.com.spf.json",
-          "logo_url": "https://sendcanary.com/logo.png",
-          "status": "modified"
         }
       ]
     },
@@ -3629,12 +3518,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-10T06:17:03Z",
-      "updated_at": "2026-03-25T09:50:24Z",
+      "updated_at": "2026-04-25T04:13:40Z",
       "merged_at": null,
       "author": "andrewcruz101",
       "author_avatar": "https://avatars.githubusercontent.com/u/124953895?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/839",
       "labels": [
+        "Stale",
         "Test links missing",
         "warnPhishing"
       ],
@@ -3703,7 +3593,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 551,
+        "review_count": 553,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3735,13 +3625,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 91,
+        "review_count": 89,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 10,
+        "review_count": 9,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -4521,6 +4411,15 @@
       "service_name": "Customer.io Email",
       "logo_url": "https://cdp-prod-us-cio-hydra-assets-us.customer.io/assets/images/logos/logo-forest.e11e5daf4d9ed5cc6860.svg",
       "record_count": 4
+    },
+    {
+      "filename": "cyberalarm.police.uk.domain-verification.json",
+      "provider_id": "cyberalarm.police.uk",
+      "service_id": "domain-verification",
+      "provider_name": "Police CyberAlarm",
+      "service_name": "Domain Verification",
+      "logo_url": "https://member.cyberalarm.police.uk/favicon/web-app-manifest-512x512.png",
+      "record_count": 1
     },
     {
       "filename": "darkstrata.io.domain-verification.json",
@@ -8510,6 +8409,15 @@
       "record_count": 3
     },
     {
+      "filename": "sendcanary.com.dkim-txt.json",
+      "provider_id": "sendcanary.com",
+      "service_id": "dkim-txt",
+      "provider_name": "SendCanary",
+      "service_name": "DKIM Email Signing (TXT record)",
+      "logo_url": "https://sendcanary.com/logo.png",
+      "record_count": 1
+    },
+    {
       "filename": "sendcanary.com.dmarc.json",
       "provider_id": "sendcanary.com",
       "service_id": "dmarc",
@@ -9991,6 +9899,12 @@
       "profile_url": "https://github.com/slxca"
     },
     {
+      "login": "jotra7",
+      "contributions": 10,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "profile_url": "https://github.com/jotra7"
+    },
+    {
       "login": "apxcarter",
       "contributions": 9,
       "avatar_url": "https://avatars.githubusercontent.com/u/135069364?v=4",
@@ -10001,12 +9915,6 @@
       "contributions": 9,
       "avatar_url": "https://avatars.githubusercontent.com/u/3615268?v=4",
       "profile_url": "https://github.com/imgerson"
-    },
-    {
-      "login": "jotra7",
-      "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4241654?v=4",
-      "profile_url": "https://github.com/jotra7"
     },
     {
       "login": "thoag-godaddy",
