@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T01:29:11.040652",
+  "generated_at": "2026-04-27T01:29:53.858890",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -1519,7 +1519,7 @@
     },
     {
       "month": "2026-04",
-      "created": 101,
+      "created": 103,
       "merged": 79
     }
   ],
@@ -2113,13 +2113,13 @@
     {
       "month": "2026-04",
       "AI crap": 1,
-      "Checklist of common problems not complete": 41,
+      "Checklist of common problems not complete": 42,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 44,
+      "PR description incomplete": 45,
       "Stale": 0,
-      "Test links missing": 80,
-      "automerge-possible": 4,
+      "Test links missing": 82,
+      "automerge-possible": 5,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 6,
@@ -2868,6 +2868,52 @@
   },
   "recent_prs": [
     {
+      "number": 1041,
+      "title": "Add novu.co domain connect flow",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-26T11:58:59Z",
+      "updated_at": "2026-04-26T12:02:49Z",
+      "merged_at": null,
+      "author": "scopsy",
+      "author_avatar": "https://avatars.githubusercontent.com/u/8872447?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1041",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "novu",
+          "service_id": "co.inbound-email",
+          "filename": "novu.co.inbound-email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1040,
+      "title": "Add PYRX CRM (Synapse CEP) email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-26T09:30:40Z",
+      "updated_at": "2026-04-26T10:23:40Z",
+      "merged_at": null,
+      "author": "tautobot",
+      "author_avatar": "https://avatars.githubusercontent.com/u/104911723?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1040",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "pyrx",
+          "service_id": "tech.mail",
+          "filename": "pyrx.tech.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1039,
       "title": "Add dynamic InstantDMARC templates",
       "state": "open",
@@ -3379,12 +3425,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-26T19:01:36Z",
-      "updated_at": "2026-03-26T19:02:11Z",
+      "updated_at": "2026-04-26T04:39:20Z",
       "merged_at": null,
       "author": "nmvalletta77",
       "author_avatar": "https://avatars.githubusercontent.com/u/5414110?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/908",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -3486,33 +3533,6 @@
       ]
     },
     {
-      "number": 841,
-      "title": "Add gethoneybun.com hosting template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-10T23:20:37Z",
-      "updated_at": "2026-04-10T04:23:56Z",
-      "merged_at": null,
-      "author": "andrewcruz101",
-      "author_avatar": "https://avatars.githubusercontent.com/u/124953895?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/841",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "gethoneybun",
-          "service_id": "com.hosting",
-          "filename": "gethoneybun.com.hosting.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 839,
       "title": "Add gethoneybun.com hosting template",
       "state": "open",
@@ -3533,31 +3553,6 @@
           "provider_id": "gethoneybun",
           "service_id": "com.hosting",
           "filename": "gethoneybun.com.hosting.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 838,
-      "title": "Add ReviewGuard (y12.ai) review page CNAME template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-10T03:51:12Z",
-      "updated_at": "2026-04-10T04:23:58Z",
-      "merged_at": null,
-      "author": "seefeldmaxwell",
-      "author_avatar": "https://avatars.githubusercontent.com/u/173410174?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/838",
-      "labels": [
-        "Stale",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "y12",
-          "service_id": "ai.reviewguard",
-          "filename": "y12.ai.reviewguard.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3625,13 +3620,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 89,
+        "review_count": 84,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 9,
+        "review_count": 6,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
