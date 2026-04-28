@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-27T01:29:53.858890",
+  "generated_at": "2026-04-28T01:50:20.956737",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 680,
-    "total_providers": 377,
-    "total_merged_prs": 788,
+    "total_templates": 682,
+    "total_providers": 379,
+    "total_merged_prs": 790,
     "total_open_prs": 22,
-    "total_contributors": 402,
+    "total_contributors": 404,
     "avg_records_per_template": 3.33
   },
   "templates_growth": [
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 79,
+      "added": 81,
       "deleted": 0,
-      "cumulative": 680
+      "cumulative": 682
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 49,
-      "cumulative": 377
+      "added": 51,
+      "cumulative": 379
     }
   ],
   "pr_activity": [
@@ -1519,8 +1519,8 @@
     },
     {
       "month": "2026-04",
-      "created": 103,
-      "merged": 79
+      "created": 107,
+      "merged": 81
     }
   ],
   "pr_time_to_merge": [
@@ -2116,10 +2116,10 @@
       "Checklist of common problems not complete": 42,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 45,
+      "PR description incomplete": 46,
       "Stale": 0,
-      "Test links missing": 82,
-      "automerge-possible": 5,
+      "Test links missing": 86,
+      "automerge-possible": 6,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 6,
@@ -2528,11 +2528,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 499
+      "count": 500
     },
     {
       "type": "TXT",
-      "count": 302
+      "count": 303
     },
     {
       "type": "A",
@@ -2540,11 +2540,11 @@
     },
     {
       "type": "SPFM",
-      "count": 151
+      "count": 152
     },
     {
       "type": "MX",
-      "count": 129
+      "count": 130
     },
     {
       "type": "SRV",
@@ -2700,6 +2700,20 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "pyrx.tech",
+        "provider_name": "PYRX CRM (Synapse CEP)",
+        "logo_url": "https://synapse-api.pyrx.tech/images/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-04-27"
+      },
+      {
+        "provider_id": "novu.co",
+        "provider_name": "Novu",
+        "logo_url": "https://dashboard.novu.co/images/novu-logo-dark.svg",
+        "template_count": 1,
+        "first_added": "2026-04-27"
+      },
+      {
         "provider_id": "cyberalarm.police.uk",
         "provider_name": "Police CyberAlarm",
         "logo_url": "https://member.cyberalarm.police.uk/favicon/web-app-manifest-512x512.png",
@@ -2824,35 +2838,21 @@
         "logo_url": "https://monpetitbistro.com/logo-mpb.svg",
         "template_count": 1,
         "first_added": "2026-04-15"
-      },
-      {
-        "provider_id": "tiide.app",
-        "provider_name": "Tiide",
-        "logo_url": "https://tiide.app/img/logo-blue.svg",
-        "template_count": 1,
-        "first_added": "2026-04-15"
-      },
-      {
-        "provider_id": "figuro.la",
-        "provider_name": "Figuro",
-        "logo_url": "https://engage.figuro.la/images/figuroLogo.webp",
-        "template_count": 1,
-        "first_added": "2026-04-15"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 680,
+    "total_templates": 682,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 610
+        "count": 612
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 444
+        "count": 445
       },
       {
         "name": "warnPhishing",
@@ -2868,46 +2868,100 @@
   },
   "recent_prs": [
     {
-      "number": 1041,
-      "title": "Add novu.co domain connect flow",
+      "number": 1046,
+      "title": "Add Notealy SES domain template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-26T11:58:59Z",
-      "updated_at": "2026-04-26T12:02:49Z",
+      "created_at": "2026-04-28T00:13:36Z",
+      "updated_at": "2026-04-28T00:14:19Z",
       "merged_at": null,
-      "author": "scopsy",
-      "author_avatar": "https://avatars.githubusercontent.com/u/8872447?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1041",
-      "labels": [],
+      "author": "rssilverioo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/104869030?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1046",
+      "labels": [
+        "Test links missing",
+        "automerge-possible"
+      ],
       "templates": [
         {
-          "provider_id": "novu",
-          "service_id": "co.inbound-email",
-          "filename": "novu.co.inbound-email.json",
+          "provider_id": "notealy",
+          "service_id": "com.ses-domain",
+          "filename": "notealy.com.ses-domain.json",
           "logo_url": null,
           "status": "added"
         }
       ]
     },
     {
-      "number": 1040,
-      "title": "Add PYRX CRM (Synapse CEP) email template",
+      "number": 1045,
+      "title": "Add mailtactic.com email service",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-26T09:30:40Z",
-      "updated_at": "2026-04-26T10:23:40Z",
+      "created_at": "2026-04-27T20:51:30Z",
+      "updated_at": "2026-04-27T21:00:36Z",
       "merged_at": null,
-      "author": "tautobot",
-      "author_avatar": "https://avatars.githubusercontent.com/u/104911723?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1040",
+      "author": "farirat",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1020111?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1045",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mailtactic",
+          "service_id": "com.email",
+          "filename": "mailtactic.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1044,
+      "title": "add NeedTexting, 5 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-27T19:49:51Z",
+      "updated_at": "2026-04-27T19:50:33Z",
+      "merged_at": null,
+      "author": "JChapman2",
+      "author_avatar": "https://avatars.githubusercontent.com/u/9326606?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1044",
       "labels": [
-        "automerge-possible"
+        "PR description incomplete",
+        "Test links missing"
       ],
       "templates": [
         {
-          "provider_id": "pyrx",
-          "service_id": "tech.mail",
-          "filename": "pyrx.tech.mail.json",
+          "provider_id": "needtexting",
+          "service_id": "com.needdonors.site",
+          "filename": "needtexting.com.needdonors.site.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "needtexting",
+          "service_id": "com.needinbox.email",
+          "filename": "needtexting.com.needinbox.email.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "needtexting",
+          "service_id": "com.needpolling.email",
+          "filename": "needtexting.com.needpolling.email.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "needtexting",
+          "service_id": "com.needvotes.site",
+          "filename": "needtexting.com.needvotes.site.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "needtexting",
+          "service_id": "com.needwebpage.site",
+          "filename": "needtexting.com.needwebpage.site.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2919,7 +2973,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-24T16:20:21Z",
-      "updated_at": "2026-04-26T01:12:18Z",
+      "updated_at": "2026-04-27T11:57:34Z",
       "merged_at": null,
       "author": "nass6976",
       "author_avatar": "https://avatars.githubusercontent.com/u/245085406?v=4",
@@ -3500,39 +3554,6 @@
       ]
     },
     {
-      "number": 852,
-      "title": "Add Meteorack hosting Domain Connect templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-12T23:06:37Z",
-      "updated_at": "2026-04-12T04:25:15Z",
-      "merged_at": null,
-      "author": "niknot",
-      "author_avatar": "https://avatars.githubusercontent.com/u/6864645?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/852",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "meteorack",
-          "service_id": "app.hosting-apex-v1",
-          "filename": "meteorack.app.hosting-apex-v1.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "meteorack",
-          "service_id": "app.hosting-subdomain-v1",
-          "filename": "meteorack.app.hosting-subdomain-v1.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 839,
       "title": "Add gethoneybun.com hosting template",
       "state": "open",
@@ -3588,7 +3609,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 553,
+        "review_count": 555,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3620,7 +3641,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 84,
+        "review_count": 86,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -7549,6 +7570,15 @@
       "record_count": 3
     },
     {
+      "filename": "novu.co.inbound-email.json",
+      "provider_id": "novu.co",
+      "service_id": "inbound-email",
+      "provider_name": "Novu",
+      "service_name": "Inbound Email",
+      "logo_url": "https://dashboard.novu.co/images/novu-logo-dark.svg",
+      "record_count": 1
+    },
+    {
       "filename": "numserver.com.custodian-record.json",
       "provider_id": "numserver.com",
       "service_id": "custodian-record",
@@ -7933,6 +7963,15 @@
       "provider_name": "Purple.ai",
       "service_name": "Purple.ai Email Domain Authentication",
       "logo_url": "https://d1ldbb6wxu8wdm.cloudfront.net/33815c0fcf008942e52db4c68969c433.png",
+      "record_count": 4
+    },
+    {
+      "filename": "pyrx.tech.mail.json",
+      "provider_id": "pyrx.tech",
+      "service_id": "mail",
+      "provider_name": "PYRX CRM (Synapse CEP)",
+      "service_name": "PYRX Email Configuration",
+      "logo_url": "https://synapse-api.pyrx.tech/images/logo.svg",
       "record_count": 4
     },
     {
