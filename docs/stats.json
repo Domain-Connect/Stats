@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-29T01:53:22.672311",
+  "generated_at": "2026-04-30T01:52:06.007355",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 687,
-    "total_providers": 384,
-    "total_merged_prs": 796,
-    "total_open_prs": 24,
-    "total_contributors": 408,
+    "total_templates": 689,
+    "total_providers": 385,
+    "total_merged_prs": 800,
+    "total_open_prs": 23,
+    "total_contributors": 409,
     "avg_records_per_template": 3.32
   },
   "templates_growth": [
@@ -574,9 +574,9 @@
     },
     {
       "month": "2026-04",
-      "added": 86,
+      "added": 88,
       "deleted": 0,
-      "cumulative": 687
+      "cumulative": 689
     }
   ],
   "providers_growth": [
@@ -1012,8 +1012,8 @@
     },
     {
       "month": "2026-04",
-      "added": 56,
-      "cumulative": 384
+      "added": 57,
+      "cumulative": 385
     }
   ],
   "pr_activity": [
@@ -1519,8 +1519,8 @@
     },
     {
       "month": "2026-04",
-      "created": 115,
-      "merged": 87
+      "created": 118,
+      "merged": 91
     }
   ],
   "pr_time_to_merge": [
@@ -2118,7 +2118,7 @@
       "Forged editor links": 3,
       "PR description incomplete": 49,
       "Stale": 0,
-      "Test links missing": 91,
+      "Test links missing": 92,
       "automerge-possible": 9,
       "blocked": 0,
       "duplicate": 0,
@@ -2528,11 +2528,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 504
+      "count": 505
     },
     {
       "type": "TXT",
-      "count": 304
+      "count": 306
     },
     {
       "type": "A",
@@ -2700,6 +2700,13 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "xellux.com",
+        "provider_name": "Xellux",
+        "logo_url": "https://cdn-edge.xellux.com/i/73f312de-3ea8-4063-8b6d-85af107d5b99-rem-0f395230",
+        "template_count": 1,
+        "first_added": "2026-04-29"
+      },
+      {
         "provider_id": "studio360.art",
         "provider_name": "studio360",
         "logo_url": "https://studio360.art/admin/favicon.ico",
@@ -2831,28 +2838,21 @@
         "logo_url": "https://mail.axene.io/email-assets/logo.png",
         "template_count": 1,
         "first_added": "2026-04-20"
-      },
-      {
-        "provider_id": "streamnode.io",
-        "provider_name": "Streamnode",
-        "logo_url": "https://streamnode.io/assets/www/images/logos/logo.svg",
-        "template_count": 1,
-        "first_added": "2026-04-20"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 687,
+    "total_templates": 689,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 617
+        "count": 619
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 450
+        "count": 452
       },
       {
         "name": "warnPhishing",
@@ -2868,46 +2868,22 @@
   },
   "recent_prs": [
     {
-      "number": 1054,
-      "title": "Add Resend SSO domain template",
+      "number": 1056,
+      "title": "Add Send in Italy domain authentication template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-28T21:23:22Z",
-      "updated_at": "2026-04-28T21:32:28Z",
+      "created_at": "2026-04-29T13:31:45Z",
+      "updated_at": "2026-04-29T22:36:17Z",
       "merged_at": null,
-      "author": "cassiozen",
-      "author_avatar": "https://avatars.githubusercontent.com/u/33676?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1054",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "resend",
-          "service_id": "com.sso",
-          "filename": "resend.com.sso.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1053,
-      "title": "Add Xellux domain verification template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-28T20:14:23Z",
-      "updated_at": "2026-04-28T20:15:56Z",
-      "merged_at": null,
-      "author": "can-yigit",
-      "author_avatar": "https://avatars.githubusercontent.com/u/159456018?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1053",
+      "author": "wc-thomas",
+      "author_avatar": "https://avatars.githubusercontent.com/u/149667225?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1056",
       "labels": [],
       "templates": [
         {
-          "provider_id": "xellux",
-          "service_id": "com.domain-verification",
-          "filename": "xellux.com.domain-verification.json",
+          "provider_id": "sendinitaly",
+          "service_id": "com.domain-authentication",
+          "filename": "sendinitaly.com.domain-authentication.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2951,7 +2927,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-28T00:13:36Z",
-      "updated_at": "2026-04-28T00:14:19Z",
+      "updated_at": "2026-04-29T05:58:14Z",
       "merged_at": null,
       "author": "rssilverioo",
       "author_avatar": "https://avatars.githubusercontent.com/u/104869030?v=4",
@@ -3029,14 +3005,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-24T16:20:21Z",
-      "updated_at": "2026-04-28T19:07:27Z",
+      "updated_at": "2026-04-29T06:25:54Z",
       "merged_at": null,
       "author": "nass6976",
       "author_avatar": "https://avatars.githubusercontent.com/u/245085406?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1039",
-      "labels": [
-        "Test links missing"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "titanaudits",
@@ -3666,7 +3640,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 561,
+        "review_count": 565,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3698,13 +3672,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 92,
+        "review_count": 88,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 6,
+        "review_count": 5,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -8239,6 +8213,15 @@
       "record_count": 4
     },
     {
+      "filename": "resend.com.sso.json",
+      "provider_id": "resend.com",
+      "service_id": "sso",
+      "provider_name": "Resend",
+      "service_name": "SSO",
+      "logo_url": "https://cdn.resend.com/brand/resend-wordmark-black.svg",
+      "record_count": 1
+    },
+    {
       "filename": "restayway.com.cname-connect.json",
       "provider_id": "restayway.com",
       "service_id": "cname-connect",
@@ -9760,6 +9743,15 @@
       "record_count": 1
     },
     {
+      "filename": "xellux.com.domain-verification.json",
+      "provider_id": "xellux.com",
+      "service_id": "domain-verification",
+      "provider_name": "Xellux",
+      "service_name": "Domain Verification",
+      "logo_url": "https://cdn-edge.xellux.com/i/73f312de-3ea8-4063-8b6d-85af107d5b99-rem-0f395230",
+      "record_count": 2
+    },
+    {
       "filename": "xmit.sh.email.json",
       "provider_id": "xmit.sh",
       "service_id": "email",
@@ -10167,6 +10159,12 @@
       "profile_url": "https://github.com/csjewell"
     },
     {
+      "login": "chintans1",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6274806?v=4",
+      "profile_url": "https://github.com/chintans1"
+    },
+    {
       "login": "tauthomas01",
       "contributions": 6,
       "avatar_url": "https://avatars.githubusercontent.com/u/658169?v=4",
@@ -10189,12 +10187,6 @@
       "contributions": 6,
       "avatar_url": "https://avatars.githubusercontent.com/u/77742018?v=4",
       "profile_url": "https://github.com/fgorodishter-godaddy"
-    },
-    {
-      "login": "kcooperstein-godaddy",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/79287885?v=4",
-      "profile_url": "https://github.com/kcooperstein-godaddy"
     }
   ]
 }
