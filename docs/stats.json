@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T01:31:39.500358",
+  "generated_at": "2026-05-03T01:47:20.493862",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 699,
     "total_providers": 391,
     "total_merged_prs": 808,
-    "total_open_prs": 22,
+    "total_open_prs": 24,
     "total_contributors": 415,
     "avg_records_per_template": 3.31
   },
@@ -1535,7 +1535,7 @@
     },
     {
       "month": "2026-05",
-      "created": 4,
+      "created": 6,
       "merged": 8
     }
   ],
@@ -2153,18 +2153,18 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 2,
+      "Checklist of common problems not complete": 4,
       "Chores": 0,
-      "Forged editor links": 0,
-      "PR description incomplete": 2,
+      "Forged editor links": 1,
+      "PR description incomplete": 4,
       "Stale": 0,
-      "Test links missing": 4,
+      "Test links missing": 6,
       "automerge-possible": 0,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 0,
-      "no syncPubKeyDomain": 0,
+      "no syncPubKeyDomain": 1,
       "question": 0,
       "schema-error": 0,
       "syncBlock": 0,
@@ -2911,6 +2911,52 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1067,
+      "title": "Update kixo.io email-sending logo to SVG",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-02T17:32:47Z",
+      "updated_at": "2026-05-02T18:13:47Z",
+      "merged_at": null,
+      "author": "kixoio",
+      "author_avatar": "https://avatars.githubusercontent.com/u/275306134?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1067",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "kixo",
+          "service_id": "io.email-sending",
+          "filename": "kixo.io.email-sending.json",
+          "logo_url": "https://kixo.io/icon.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1066,
+      "title": "Add Elevayt website hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-02T06:46:41Z",
+      "updated_at": "2026-05-02T11:53:42Z",
+      "merged_at": null,
+      "author": "aditya-elevayt",
+      "author_avatar": "https://avatars.githubusercontent.com/u/279660409?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1066",
+      "labels": [
+        "no syncPubKeyDomain"
+      ],
+      "templates": [
+        {
+          "provider_id": "elevayt",
+          "service_id": "in.website",
+          "filename": "elevayt.in.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1060,
       "title": "Add Traaaction service provider — affiliate tracking CNAME template",
@@ -3685,7 +3731,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 92,
+        "review_count": 87,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
