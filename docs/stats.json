@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T01:47:20.493862",
+  "generated_at": "2026-05-04T01:47:44.533507",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 699,
     "total_providers": 391,
     "total_merged_prs": 808,
-    "total_open_prs": 24,
+    "total_open_prs": 28,
     "total_contributors": 415,
     "avg_records_per_template": 3.31
   },
@@ -1535,7 +1535,7 @@
     },
     {
       "month": "2026-05",
-      "created": 6,
+      "created": 10,
       "merged": 8
     }
   ],
@@ -2153,13 +2153,13 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 4,
+      "Checklist of common problems not complete": 6,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 4,
+      "PR description incomplete": 6,
       "Stale": 0,
-      "Test links missing": 6,
-      "automerge-possible": 0,
+      "Test links missing": 9,
+      "automerge-possible": 3,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
@@ -2167,7 +2167,7 @@
       "no syncPubKeyDomain": 1,
       "question": 0,
       "schema-error": 0,
-      "syncBlock": 0,
+      "syncBlock": 1,
       "warnPhishing": 0
     }
   ],
@@ -2912,6 +2912,105 @@
   },
   "recent_prs": [
     {
+      "number": 1071,
+      "title": "Add Red Bricks Site template (launchpad.rbos.app/rbos-site)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-03T13:57:01Z",
+      "updated_at": "2026-05-03T13:57:38Z",
+      "merged_at": null,
+      "author": "redbricksdata-api",
+      "author_avatar": "https://avatars.githubusercontent.com/u/227180308?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1071",
+      "labels": [
+        "syncBlock",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "launchpad",
+          "service_id": "rbos.app.rbos-site",
+          "filename": "launchpad.rbos.app.rbos-site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1070,
+      "title": "Add files via upload",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-03T09:00:34Z",
+      "updated_at": "2026-05-03T14:26:53Z",
+      "merged_at": null,
+      "author": "deepak8781",
+      "author_avatar": "https://avatars.githubusercontent.com/u/21244247?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1070",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "neevjob",
+          "service_id": "com.agent-email-inbox",
+          "filename": "neevjob.com.agent-email-inbox.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1069,
+      "title": "Update mentionagent.ai.email.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-03T08:41:41Z",
+      "updated_at": "2026-05-03T08:49:49Z",
+      "merged_at": null,
+      "author": "BuildsbyMatt",
+      "author_avatar": "https://avatars.githubusercontent.com/u/176761426?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1069",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "mentionagent",
+          "service_id": "ai.email",
+          "filename": "mentionagent.ai.email.json",
+          "logo_url": "https://mentionagent.ai/img/logo-square.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1068,
+      "title": "breachme.ai: fix syncPubKeyDomain prefix (Cloudflare verifier returns 502)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-03T04:03:42Z",
+      "updated_at": "2026-05-03T04:18:33Z",
+      "merged_at": null,
+      "author": "Gilayos",
+      "author_avatar": "https://avatars.githubusercontent.com/u/88515535?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1068",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "breachme",
+          "service_id": "ai.domain-verification",
+          "filename": "breachme.ai.domain-verification.json",
+          "logo_url": "https://breachme.ai/logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 1067,
       "title": "Update kixo.io email-sending logo to SVG",
       "state": "open",
@@ -2963,15 +3062,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-30T12:36:32Z",
-      "updated_at": "2026-04-30T12:37:11Z",
+      "updated_at": "2026-05-03T18:02:47Z",
       "merged_at": null,
       "author": "Whiskerweb",
       "author_avatar": "https://avatars.githubusercontent.com/u/159827370?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1060",
       "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
         "hostRequired"
       ],
       "templates": [
@@ -3044,7 +3140,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-28T00:13:36Z",
-      "updated_at": "2026-04-29T05:58:14Z",
+      "updated_at": "2026-05-03T05:58:32Z",
       "merged_at": null,
       "author": "rssilverioo",
       "author_avatar": "https://avatars.githubusercontent.com/u/104869030?v=4",
@@ -3731,13 +3827,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 87,
+        "review_count": 84,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 4,
+        "review_count": 3,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
