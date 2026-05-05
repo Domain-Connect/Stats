@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-04T01:47:44.533507",
+  "generated_at": "2026-05-05T01:48:22.735820",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 699,
-    "total_providers": 391,
-    "total_merged_prs": 808,
-    "total_open_prs": 28,
-    "total_contributors": 415,
+    "total_templates": 701,
+    "total_providers": 393,
+    "total_merged_prs": 812,
+    "total_open_prs": 24,
+    "total_contributors": 417,
     "avg_records_per_template": 3.31
   },
   "templates_growth": [
@@ -580,9 +580,9 @@
     },
     {
       "month": "2026-05",
-      "added": 10,
+      "added": 12,
       "deleted": 0,
-      "cumulative": 699
+      "cumulative": 701
     }
   ],
   "providers_growth": [
@@ -1023,8 +1023,8 @@
     },
     {
       "month": "2026-05",
-      "added": 6,
-      "cumulative": 391
+      "added": 8,
+      "cumulative": 393
     }
   ],
   "pr_activity": [
@@ -1536,7 +1536,7 @@
     {
       "month": "2026-05",
       "created": 10,
-      "merged": 8
+      "merged": 12
     }
   ],
   "pr_time_to_merge": [
@@ -1802,7 +1802,7 @@
     },
     {
       "month": "2023-09",
-      "avg_days": 4.1
+      "avg_days": 4.2
     },
     {
       "month": "2023-10",
@@ -1926,7 +1926,7 @@
     },
     {
       "month": "2026-05",
-      "avg_days": 0.1
+      "avg_days": 0.8
     }
   ],
   "pr_label_activity": [
@@ -2572,11 +2572,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 508
+      "count": 509
     },
     {
       "type": "TXT",
-      "count": 316
+      "count": 317
     },
     {
       "type": "A",
@@ -2584,11 +2584,11 @@
     },
     {
       "type": "SPFM",
-      "count": 158
+      "count": 159
     },
     {
       "type": "MX",
-      "count": 133
+      "count": 134
     },
     {
       "type": "SRV",
@@ -2744,6 +2744,20 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "neevjob.com",
+        "provider_name": "NeevJob ATS",
+        "logo_url": "https://neevjob.com/logo.png",
+        "template_count": 1,
+        "first_added": "2026-05-04"
+      },
+      {
+        "provider_id": "elevayt.in",
+        "provider_name": "Elevayt",
+        "logo_url": "https://www.elevayt.in/icon.png",
+        "template_count": 1,
+        "first_added": "2026-05-04"
+      },
+      {
         "provider_id": "sendinitaly.com",
         "provider_name": "Send in Italy",
         "logo_url": "https://app.sendinitaly.com/assets/logo-domain-connect.png",
@@ -2774,7 +2788,7 @@
       {
         "provider_id": "kixo.io",
         "provider_name": "Kixo",
-        "logo_url": "https://kixo.io/icon.png",
+        "logo_url": "https://kixo.io/kixo-icon-dark.svg",
         "template_count": 1,
         "first_added": "2026-05-01"
       },
@@ -2868,30 +2882,16 @@
         "logo_url": "https://mailbluster.com/wp-content/themes/mailbluster/resources/assets/images/mailbluster-logo.svg",
         "template_count": 3,
         "first_added": "2026-04-22"
-      },
-      {
-        "provider_id": "sentroy.com",
-        "provider_name": "Sentroy",
-        "logo_url": "https://sentroy.com/business/sentroy-logo-light.png",
-        "template_count": 1,
-        "first_added": "2026-04-21"
-      },
-      {
-        "provider_id": "flowapt.com",
-        "provider_name": "Flowapt",
-        "logo_url": "https://app.flowiq.live/original_logo.png",
-        "template_count": 2,
-        "first_added": "2026-04-21"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 699,
+    "total_templates": 701,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 629
+        "count": 630
       },
       {
         "name": "syncRedirectDomain",
@@ -2917,13 +2917,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-03T13:57:01Z",
-      "updated_at": "2026-05-03T13:57:38Z",
+      "updated_at": "2026-05-04T12:52:07Z",
       "merged_at": null,
       "author": "redbricksdata-api",
       "author_avatar": "https://avatars.githubusercontent.com/u/227180308?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1071",
       "labels": [
-        "syncBlock",
+        "question",
         "automerge-possible"
       ],
       "templates": [
@@ -2933,54 +2933,6 @@
           "filename": "launchpad.rbos.app.rbos-site.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1070,
-      "title": "Add files via upload",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-03T09:00:34Z",
-      "updated_at": "2026-05-03T14:26:53Z",
-      "merged_at": null,
-      "author": "deepak8781",
-      "author_avatar": "https://avatars.githubusercontent.com/u/21244247?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1070",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "neevjob",
-          "service_id": "com.agent-email-inbox",
-          "filename": "neevjob.com.agent-email-inbox.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1069,
-      "title": "Update mentionagent.ai.email.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-03T08:41:41Z",
-      "updated_at": "2026-05-03T08:49:49Z",
-      "merged_at": null,
-      "author": "BuildsbyMatt",
-      "author_avatar": "https://avatars.githubusercontent.com/u/176761426?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1069",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "mentionagent",
-          "service_id": "ai.email",
-          "filename": "mentionagent.ai.email.json",
-          "logo_url": "https://mentionagent.ai/img/logo-square.svg",
-          "status": "modified"
         }
       ]
     },
@@ -3011,63 +2963,18 @@
       ]
     },
     {
-      "number": 1067,
-      "title": "Update kixo.io email-sending logo to SVG",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-02T17:32:47Z",
-      "updated_at": "2026-05-02T18:13:47Z",
-      "merged_at": null,
-      "author": "kixoio",
-      "author_avatar": "https://avatars.githubusercontent.com/u/275306134?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1067",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "kixo",
-          "service_id": "io.email-sending",
-          "filename": "kixo.io.email-sending.json",
-          "logo_url": "https://kixo.io/icon.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 1066,
-      "title": "Add Elevayt website hosting template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-02T06:46:41Z",
-      "updated_at": "2026-05-02T11:53:42Z",
-      "merged_at": null,
-      "author": "aditya-elevayt",
-      "author_avatar": "https://avatars.githubusercontent.com/u/279660409?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1066",
-      "labels": [
-        "no syncPubKeyDomain"
-      ],
-      "templates": [
-        {
-          "provider_id": "elevayt",
-          "service_id": "in.website",
-          "filename": "elevayt.in.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1060,
       "title": "Add Traaaction service provider — affiliate tracking CNAME template",
       "state": "open",
       "merged": false,
       "created_at": "2026-04-30T12:36:32Z",
-      "updated_at": "2026-05-03T18:02:47Z",
+      "updated_at": "2026-05-04T07:14:17Z",
       "merged_at": null,
       "author": "Whiskerweb",
       "author_avatar": "https://avatars.githubusercontent.com/u/159827370?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1060",
       "labels": [
+        "question",
         "hostRequired"
       ],
       "templates": [
@@ -3086,12 +2993,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-30T05:01:49Z",
-      "updated_at": "2026-05-01T10:56:40Z",
+      "updated_at": "2026-05-04T05:45:11Z",
       "merged_at": null,
       "author": "joshatcoreware",
       "author_avatar": "https://avatars.githubusercontent.com/u/218769611?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1058",
-      "labels": [],
+      "labels": [
+        "hostRequired"
+      ],
       "templates": [
         {
           "provider_id": "coreware",
@@ -3136,24 +3045,21 @@
     },
     {
       "number": 1046,
-      "title": "Add Notealy SES domain template",
+      "title": "Add Notealy domain template",
       "state": "open",
       "merged": false,
       "created_at": "2026-04-28T00:13:36Z",
-      "updated_at": "2026-05-03T05:58:32Z",
+      "updated_at": "2026-05-04T17:40:41Z",
       "merged_at": null,
       "author": "rssilverioo",
       "author_avatar": "https://avatars.githubusercontent.com/u/104869030?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1046",
-      "labels": [
-        "Test links missing",
-        "automerge-possible"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "notealy",
-          "service_id": "com.ses-domain",
-          "filename": "notealy.com.ses-domain.json",
+          "service_id": "com.email-domain",
+          "filename": "notealy.com.email-domain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3795,7 +3701,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 573,
+        "review_count": 577,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3827,7 +3733,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 84,
+        "review_count": 88,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -5053,6 +4959,15 @@
       "provider_name": "Elestio",
       "service_name": "Elestio Custom Domain",
       "logo_url": "https://elest.io/images/elestio.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "elevayt.in.website.json",
+      "provider_id": "elevayt.in",
+      "service_id": "website",
+      "provider_name": "Elevayt",
+      "service_name": "Elevayt Website",
+      "logo_url": "https://www.elevayt.in/icon.png",
       "record_count": 1
     },
     {
@@ -6825,7 +6740,7 @@
       "service_id": "email-sending",
       "provider_name": "Kixo",
       "service_name": "Kixo email sending",
-      "logo_url": "https://kixo.io/icon.png",
+      "logo_url": "https://kixo.io/kixo-icon-dark.svg",
       "record_count": 6
     },
     {
@@ -7655,6 +7570,15 @@
       "service_name": "NavScope Token Claim Verification",
       "logo_url": "https://navscope.io/logo.svg",
       "record_count": 1
+    },
+    {
+      "filename": "neevjob.com.agent-email-inbox.json",
+      "provider_id": "neevjob.com",
+      "service_id": "agent-email-inbox",
+      "provider_name": "NeevJob ATS",
+      "service_name": "Agent Email Inbox",
+      "logo_url": "https://neevjob.com/logo.png",
+      "record_count": 5
     },
     {
       "filename": "nelavio.com.ownership-verification.json",
