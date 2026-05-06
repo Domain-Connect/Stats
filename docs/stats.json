@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-05T01:48:22.735820",
+  "generated_at": "2026-05-06T01:47:21.565666",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 701,
-    "total_providers": 393,
-    "total_merged_prs": 812,
-    "total_open_prs": 24,
-    "total_contributors": 417,
+    "total_templates": 704,
+    "total_providers": 396,
+    "total_merged_prs": 816,
+    "total_open_prs": 23,
+    "total_contributors": 419,
     "avg_records_per_template": 3.31
   },
   "templates_growth": [
@@ -580,9 +580,9 @@
     },
     {
       "month": "2026-05",
-      "added": 12,
+      "added": 15,
       "deleted": 0,
-      "cumulative": 701
+      "cumulative": 704
     }
   ],
   "providers_growth": [
@@ -1023,8 +1023,8 @@
     },
     {
       "month": "2026-05",
-      "added": 8,
-      "cumulative": 393
+      "added": 11,
+      "cumulative": 396
     }
   ],
   "pr_activity": [
@@ -1535,8 +1535,8 @@
     },
     {
       "month": "2026-05",
-      "created": 10,
-      "merged": 12
+      "created": 13,
+      "merged": 16
     }
   ],
   "pr_time_to_merge": [
@@ -1802,7 +1802,7 @@
     },
     {
       "month": "2023-09",
-      "avg_days": 4.2
+      "avg_days": 4.1
     },
     {
       "month": "2023-10",
@@ -1922,7 +1922,7 @@
     },
     {
       "month": "2026-04",
-      "avg_days": 1.0
+      "avg_days": 1.1
     },
     {
       "month": "2026-05",
@@ -2153,12 +2153,12 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 6,
+      "Checklist of common problems not complete": 7,
       "Chores": 0,
       "Forged editor links": 1,
       "PR description incomplete": 6,
       "Stale": 0,
-      "Test links missing": 9,
+      "Test links missing": 11,
       "automerge-possible": 3,
       "blocked": 0,
       "duplicate": 0,
@@ -2566,21 +2566,21 @@
     },
     {
       "month": "2026-05",
-      "avg_comments": 0.2
+      "avg_comments": 0.5
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 509
+      "count": 511
     },
     {
       "type": "TXT",
-      "count": 317
+      "count": 319
     },
     {
       "type": "A",
-      "count": 235
+      "count": 237
     },
     {
       "type": "SPFM",
@@ -2588,7 +2588,7 @@
     },
     {
       "type": "MX",
-      "count": 134
+      "count": 135
     },
     {
       "type": "SRV",
@@ -2744,6 +2744,27 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "notealy.com",
+        "provider_name": "Notealy",
+        "logo_url": "https://www.notealy.com/images/logo-brand-notealy.svg",
+        "template_count": 1,
+        "first_added": "2026-05-05"
+      },
+      {
+        "provider_id": "launchpad.rbos.app",
+        "provider_name": "Red Bricks",
+        "logo_url": "https://launchpad.rbos.app/red-bricks-logo-square.svg",
+        "template_count": 1,
+        "first_added": "2026-05-05"
+      },
+      {
+        "provider_id": "fineartform.com",
+        "provider_name": "Fine Art Form",
+        "logo_url": "https://www.fineartform.com/static/images/brand/icon-faf.png",
+        "template_count": 1,
+        "first_added": "2026-05-05"
+      },
+      {
         "provider_id": "neevjob.com",
         "provider_name": "NeevJob ATS",
         "logo_url": "https://neevjob.com/logo.png",
@@ -2795,7 +2816,7 @@
       {
         "provider_id": "borghq.io",
         "provider_name": "Odin by Borg",
-        "logo_url": "https://odin.borghq.io/logo-full.svg",
+        "logo_url": "https://odin.borghq.io/logo-full-light-mode.svg",
         "template_count": 1,
         "first_added": "2026-05-01"
       },
@@ -2861,42 +2882,21 @@
         "logo_url": "https://member.cyberalarm.police.uk/favicon/web-app-manifest-512x512.png",
         "template_count": 1,
         "first_added": "2026-04-25"
-      },
-      {
-        "provider_id": "zibpost.com",
-        "provider_name": "ZibPost",
-        "logo_url": "https://zibpost.com/favicon.svg",
-        "template_count": 1,
-        "first_added": "2026-04-23"
-      },
-      {
-        "provider_id": "titanaudits.com",
-        "provider_name": "InstantDMARC",
-        "logo_url": "https://img.plasmic.app/img-optimizer/v1/img/8e5e377d6700a6e005cda1483ddd5e1f.png",
-        "template_count": 5,
-        "first_added": "2026-04-23"
-      },
-      {
-        "provider_id": "mailbluster.com",
-        "provider_name": "MailBluster",
-        "logo_url": "https://mailbluster.com/wp-content/themes/mailbluster/resources/assets/images/mailbluster-logo.svg",
-        "template_count": 3,
-        "first_added": "2026-04-22"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 701,
+    "total_templates": 704,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 630
+        "count": 633
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 461
+        "count": 464
       },
       {
         "name": "warnPhishing",
@@ -2912,27 +2912,31 @@
   },
   "recent_prs": [
     {
-      "number": 1071,
-      "title": "Add Red Bricks Site template (launchpad.rbos.app/rbos-site)",
+      "number": 1074,
+      "title": "Add missing DMARC record to PostHog email verification templates",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-03T13:57:01Z",
-      "updated_at": "2026-05-04T12:52:07Z",
+      "created_at": "2026-05-05T18:47:24Z",
+      "updated_at": "2026-05-05T23:15:26Z",
       "merged_at": null,
-      "author": "redbricksdata-api",
-      "author_avatar": "https://avatars.githubusercontent.com/u/227180308?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1071",
-      "labels": [
-        "question",
-        "automerge-possible"
-      ],
+      "author": "rafaeelaudibert",
+      "author_avatar": "https://avatars.githubusercontent.com/u/32079912?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1074",
+      "labels": [],
       "templates": [
         {
-          "provider_id": "launchpad",
-          "service_id": "rbos.app.rbos-site",
-          "filename": "launchpad.rbos.app.rbos-site.json",
-          "logo_url": null,
-          "status": "added"
+          "provider_id": "posthog",
+          "service_id": "com.email-verification-eu",
+          "filename": "posthog.com.email-verification-eu.json",
+          "logo_url": "https://posthog.com/brand/posthog-logo.svg",
+          "status": "modified"
+        },
+        {
+          "provider_id": "posthog",
+          "service_id": "com.email-verification-us",
+          "filename": "posthog.com.email-verification-us.json",
+          "logo_url": "https://posthog.com/brand/posthog-logo.svg",
+          "status": "modified"
         }
       ]
     },
@@ -2993,7 +2997,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-30T05:01:49Z",
-      "updated_at": "2026-05-04T05:45:11Z",
+      "updated_at": "2026-05-05T15:54:34Z",
       "merged_at": null,
       "author": "joshatcoreware",
       "author_avatar": "https://avatars.githubusercontent.com/u/218769611?v=4",
@@ -3038,28 +3042,6 @@
           "provider_id": "fieldplan",
           "service_id": "ai.site-hosting",
           "filename": "fieldplan.ai.site-hosting.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1046,
-      "title": "Add Notealy domain template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-28T00:13:36Z",
-      "updated_at": "2026-05-04T17:40:41Z",
-      "merged_at": null,
-      "author": "rssilverioo",
-      "author_avatar": "https://avatars.githubusercontent.com/u/104869030?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1046",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "notealy",
-          "service_id": "com.email-domain",
-          "filename": "notealy.com.email-domain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3677,13 +3659,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-11T00:50:22Z",
-      "updated_at": "2026-04-04T11:29:58Z",
+      "updated_at": "2026-05-05T04:36:54Z",
       "merged_at": null,
       "author": "aomkoyo",
       "author_avatar": "https://avatars.githubusercontent.com/u/59776731?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/763",
       "labels": [
         "question",
+        "Stale",
         "Test links missing"
       ],
       "templates": [
@@ -3701,13 +3684,13 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 577,
+        "review_count": 580,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 74,
+        "review_count": 75,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3733,13 +3716,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 88,
+        "review_count": 91,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 3,
+        "review_count": 4,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -4184,7 +4167,7 @@
       "service_id": "domain-verification",
       "provider_name": "Odin by Borg",
       "service_name": "Mjolnir Domain Verification",
-      "logo_url": "https://odin.borghq.io/logo-full.svg",
+      "logo_url": "https://odin.borghq.io/logo-full-light-mode.svg",
       "record_count": 1
     },
     {
@@ -5095,6 +5078,15 @@
       "service_name": "Figuro Engage",
       "logo_url": "https://engage.figuro.la/images/figuroLogo.webp",
       "record_count": 1
+    },
+    {
+      "filename": "fineartform.com.custom-domain.json",
+      "provider_id": "fineartform.com",
+      "service_id": "custom-domain",
+      "provider_name": "Fine Art Form",
+      "service_name": "Custom Domain - Fine Art Form Portfolio",
+      "logo_url": "https://www.fineartform.com/static/images/brand/icon-faf.png",
+      "record_count": 3
     },
     {
       "filename": "fix-it.ai.reverse-proxy.json",
@@ -6744,6 +6736,15 @@
       "record_count": 6
     },
     {
+      "filename": "launchpad.rbos.app.rbos-site.json",
+      "provider_id": "launchpad.rbos.app",
+      "service_id": "rbos-site",
+      "provider_name": "Red Bricks",
+      "service_name": "Red Bricks Site",
+      "logo_url": "https://launchpad.rbos.app/red-bricks-logo-square.svg",
+      "record_count": 2
+    },
+    {
       "filename": "leadconnectorhq.com.cname-record.json",
       "provider_id": "leadconnectorhq.com",
       "service_id": "cname-record",
@@ -7722,6 +7723,15 @@
       "provider_name": "NordicCDN",
       "service_name": "NordicCDN CDN Acceleration",
       "logo_url": "https://nordiccdn.com/images/nordiccdn-logo.svg",
+      "record_count": 3
+    },
+    {
+      "filename": "notealy.com.email-domain.json",
+      "provider_id": "notealy.com",
+      "service_id": "email-domain",
+      "provider_name": "Notealy",
+      "service_name": "Notealy Email Domain",
+      "logo_url": "https://www.notealy.com/images/logo-brand-notealy.svg",
       "record_count": 3
     },
     {
