@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T01:47:21.565666",
+  "generated_at": "2026-05-07T01:51:48.922492",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 704,
     "total_providers": 396,
     "total_merged_prs": 816,
-    "total_open_prs": 23,
+    "total_open_prs": 25,
     "total_contributors": 419,
     "avg_records_per_template": 3.31
   },
@@ -1535,7 +1535,7 @@
     },
     {
       "month": "2026-05",
-      "created": 13,
+      "created": 16,
       "merged": 16
     }
   ],
@@ -2156,10 +2156,10 @@
       "Checklist of common problems not complete": 7,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 6,
+      "PR description incomplete": 7,
       "Stale": 0,
-      "Test links missing": 11,
-      "automerge-possible": 3,
+      "Test links missing": 13,
+      "automerge-possible": 4,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
@@ -2566,7 +2566,7 @@
     },
     {
       "month": "2026-05",
-      "avg_comments": 0.5
+      "avg_comments": 0.4
     }
   ],
   "record_types": [
@@ -2912,12 +2912,96 @@
   },
   "recent_prs": [
     {
+      "number": 1079,
+      "title": "add MeSquared Marketing, Email sending authentication",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T22:53:40Z",
+      "updated_at": "2026-05-06T23:26:55Z",
+      "merged_at": null,
+      "author": "rmach816",
+      "author_avatar": "https://avatars.githubusercontent.com/u/210041732?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1079",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mesquared",
+          "service_id": "ai.email-marketing",
+          "filename": "mesquared.ai.email-marketing.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1078,
+      "title": "add DataCops, First-party tracking",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T16:41:53Z",
+      "updated_at": "2026-05-06T16:42:33Z",
+      "merged_at": null,
+      "author": "simulsarker007",
+      "author_avatar": "https://avatars.githubusercontent.com/u/79377744?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1078",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "joindatacops",
+          "service_id": "com.firstparty",
+          "filename": "joindatacops.com.firstparty.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1077,
+      "title": "CyberAlarm: Change from TXT to CNAME domain ownership verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T15:34:57Z",
+      "updated_at": "2026-05-06T16:19:30Z",
+      "merged_at": null,
+      "author": "jaalsh",
+      "author_avatar": "https://avatars.githubusercontent.com/u/14910254?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1077",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "cyberalarm",
+          "service_id": "police.uk.domain-verification",
+          "filename": "cyberalarm.police.uk.domain-verification.json",
+          "logo_url": "https://member.cyberalarm.police.uk/favicon/web-app-manifest-512x512.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1076,
+      "title": "update Sentroy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T07:21:52Z",
+      "updated_at": "2026-05-07T01:31:10Z",
+      "merged_at": null,
+      "author": "arasors",
+      "author_avatar": "https://avatars.githubusercontent.com/u/83857485?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1076",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": []
+    },
+    {
       "number": 1074,
       "title": "Add missing DMARC record to PostHog email verification templates",
       "state": "open",
       "merged": false,
       "created_at": "2026-05-05T18:47:24Z",
-      "updated_at": "2026-05-05T23:15:26Z",
+      "updated_at": "2026-05-06T17:16:29Z",
       "merged_at": null,
       "author": "rafaeelaudibert",
       "author_avatar": "https://avatars.githubusercontent.com/u/32079912?v=4",
@@ -3602,32 +3686,6 @@
       ]
     },
     {
-      "number": 879,
-      "title": "Update Transmit (xmit.sh) email template v2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-20T11:19:26Z",
-      "updated_at": "2026-04-20T04:37:29Z",
-      "merged_at": null,
-      "author": "beingretrogamer",
-      "author_avatar": "https://avatars.githubusercontent.com/u/168362815?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/879",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "xmit",
-          "service_id": "sh.email",
-          "filename": "xmit.sh.email.json",
-          "logo_url": "https://xmit.sh/logo.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
       "number": 839,
       "title": "Add gethoneybun.com hosting template",
       "state": "open",
@@ -3716,7 +3774,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 91,
+        "review_count": 86,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
