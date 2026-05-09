@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T01:55:35.034673",
+  "generated_at": "2026-05-09T01:50:45.925200",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 704,
     "total_providers": 396,
     "total_merged_prs": 816,
-    "total_open_prs": 26,
+    "total_open_prs": 31,
     "total_contributors": 419,
     "avg_records_per_template": 3.31
   },
@@ -1535,7 +1535,7 @@
     },
     {
       "month": "2026-05",
-      "created": 17,
+      "created": 22,
       "merged": 16
     }
   ],
@@ -2153,17 +2153,17 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 8,
+      "Checklist of common problems not complete": 9,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 8,
+      "PR description incomplete": 9,
       "Stale": 0,
-      "Test links missing": 13,
-      "automerge-possible": 5,
+      "Test links missing": 17,
+      "automerge-possible": 7,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 0,
+      "hostRequired": 3,
       "no syncPubKeyDomain": 1,
       "question": 0,
       "schema-error": 0,
@@ -2912,6 +2912,147 @@
   },
   "recent_prs": [
     {
+      "number": 1085,
+      "title": "Add Temple storefront Domain Connect templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T22:28:18Z",
+      "updated_at": "2026-05-08T22:41:14Z",
+      "merged_at": null,
+      "author": "addyfeatx-lab",
+      "author_avatar": "https://avatars.githubusercontent.com/u/261129747?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1085",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "getemple",
+          "service_id": "com.storefront-apex",
+          "filename": "getemple.com.storefront-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "getemple",
+          "service_id": "com.storefront-subdomain",
+          "filename": "getemple.com.storefront-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1084,
+      "title": "Dub, 3 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T21:15:12Z",
+      "updated_at": "2026-05-08T21:34:47Z",
+      "merged_at": null,
+      "author": "pepeladeira",
+      "author_avatar": "https://avatars.githubusercontent.com/u/57876830?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1084",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "dub",
+          "service_id": "co.email",
+          "filename": "dub.co.email.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "dub",
+          "service_id": "co.links-apex",
+          "filename": "dub.co.links-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "dub",
+          "service_id": "co.links-subdomain",
+          "filename": "dub.co.links-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1083,
+      "title": "Add magitch.app custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T17:53:03Z",
+      "updated_at": "2026-05-08T17:53:44Z",
+      "merged_at": null,
+      "author": "magitch",
+      "author_avatar": "https://avatars.githubusercontent.com/u/205615116?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1083",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "magitch",
+          "service_id": "app.customdomain",
+          "filename": "magitch.app.customdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1082,
+      "title": "_dcpubkeyv1.cybertemp.xyz is published and signing is RSA-SHA256",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T13:40:20Z",
+      "updated_at": "2026-05-08T13:56:49Z",
+      "merged_at": null,
+      "author": "sexfrance",
+      "author_avatar": "https://avatars.githubusercontent.com/u/171455258?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1082",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "cybertemp",
+          "service_id": "xyz.email",
+          "filename": "cybertemp.xyz.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1081,
+      "title": "Update Apex Sales Mailgun sync domains",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T11:18:44Z",
+      "updated_at": "2026-05-08T11:51:39Z",
+      "merged_at": null,
+      "author": "Guluzada",
+      "author_avatar": "https://avatars.githubusercontent.com/u/226024729?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1081",
+      "labels": [
+        "Test links missing",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "apexsales",
+          "service_id": "ai.mailgun",
+          "filename": "apexsales.ai.mailgun.json",
+          "logo_url": "https://caspiansol.com/assets/caspian-new-logo-ibH7uW8J.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 1080,
       "title": "Add any.market.store.json",
       "state": "open",
@@ -3025,7 +3166,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-05T18:47:24Z",
-      "updated_at": "2026-05-06T17:16:29Z",
+      "updated_at": "2026-05-08T13:55:09Z",
       "merged_at": null,
       "author": "rafaeelaudibert",
       "author_avatar": "https://avatars.githubusercontent.com/u/32079912?v=4",
@@ -3533,12 +3674,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-07T19:14:48Z",
-      "updated_at": "2026-04-07T22:47:01Z",
+      "updated_at": "2026-05-08T04:31:04Z",
       "merged_at": null,
       "author": "bruuuhoffical",
       "author_avatar": "https://avatars.githubusercontent.com/u/148368732?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/956",
       "labels": [
+        "Stale",
         "AI crap",
         "Test links missing",
         "schema-error",
@@ -3798,7 +3940,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 78,
+        "review_count": 77,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
