@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-10T01:50:54.768813",
+  "generated_at": "2026-05-11T01:58:24.985305",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 712,
-    "total_providers": 401,
-    "total_merged_prs": 822,
-    "total_open_prs": 26,
+    "total_templates": 715,
+    "total_providers": 404,
+    "total_merged_prs": 826,
+    "total_open_prs": 24,
     "total_contributors": 420,
     "avg_records_per_template": 3.3
   },
@@ -580,9 +580,9 @@
     },
     {
       "month": "2026-05",
-      "added": 23,
+      "added": 26,
       "deleted": 0,
-      "cumulative": 712
+      "cumulative": 715
     }
   ],
   "providers_growth": [
@@ -1023,8 +1023,8 @@
     },
     {
       "month": "2026-05",
-      "added": 16,
-      "cumulative": 401
+      "added": 19,
+      "cumulative": 404
     }
   ],
   "pr_activity": [
@@ -1535,8 +1535,8 @@
     },
     {
       "month": "2026-05",
-      "created": 24,
-      "merged": 22
+      "created": 27,
+      "merged": 26
     }
   ],
   "pr_time_to_merge": [
@@ -1926,7 +1926,7 @@
     },
     {
       "month": "2026-05",
-      "avg_days": 1.0
+      "avg_days": 1.3
     }
   ],
   "pr_label_activity": [
@@ -2153,16 +2153,16 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 9,
+      "Checklist of common problems not complete": 10,
       "Chores": 0,
       "Forged editor links": 2,
-      "PR description incomplete": 11,
+      "PR description incomplete": 12,
       "Stale": 0,
-      "Test links missing": 19,
-      "automerge-possible": 7,
+      "Test links missing": 22,
+      "automerge-possible": 8,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 0,
+      "filename-error": 1,
       "hostRequired": 3,
       "no syncPubKeyDomain": 1,
       "question": 0,
@@ -2572,19 +2572,19 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 515
+      "count": 517
     },
     {
       "type": "TXT",
-      "count": 322
+      "count": 324
     },
     {
       "type": "A",
-      "count": 241
+      "count": 242
     },
     {
       "type": "SPFM",
-      "count": 161
+      "count": 162
     },
     {
       "type": "MX",
@@ -2744,6 +2744,27 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "emilytics.com",
+        "provider_name": "Emilytics",
+        "logo_url": "https://emilytics.com/emilytics-icon.png",
+        "template_count": 1,
+        "first_added": "2026-05-11"
+      },
+      {
+        "provider_id": "mesquared.ai",
+        "provider_name": "MeSquared Marketing",
+        "logo_url": "https://marketing.mesquared.ai/branding/mesquared-logo.svg",
+        "template_count": 1,
+        "first_added": "2026-05-11"
+      },
+      {
+        "provider_id": "bundly.innolope.com",
+        "provider_name": "Bundly",
+        "logo_url": "https://bundly.innolope.com/icon.svg",
+        "template_count": 1,
+        "first_added": "2026-05-10"
+      },
+      {
         "provider_id": "cybertemp.xyz",
         "provider_name": "CyberTemp",
         "logo_url": "https://cybertemp.xyz/icon.png",
@@ -2861,42 +2882,21 @@
         "logo_url": "https://cdn-edge.xellux.com/i/73f312de-3ea8-4063-8b6d-85af107d5b99-rem-0f395230",
         "template_count": 1,
         "first_added": "2026-04-29"
-      },
-      {
-        "provider_id": "studio360.art",
-        "provider_name": "studio360",
-        "logo_url": "https://studio360.art/admin/favicon.ico",
-        "template_count": 1,
-        "first_added": "2026-04-28"
-      },
-      {
-        "provider_id": "mailtactic.com",
-        "provider_name": "Mailtactic",
-        "logo_url": "https://cdn.mailtactic.com/public/logos/512b-260427.png",
-        "template_count": 1,
-        "first_added": "2026-04-28"
-      },
-      {
-        "provider_id": "ruhanixcreations.in",
-        "provider_name": "Ruhanix",
-        "logo_url": "https://ruhanixcreations.in/logo.png",
-        "template_count": 1,
-        "first_added": "2026-04-28"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 712,
+    "total_templates": 715,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 641
+        "count": 644
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 472
+        "count": 475
       },
       {
         "name": "warnPhishing",
@@ -2912,22 +2912,48 @@
   },
   "recent_prs": [
     {
-      "number": 1087,
-      "title": "add Bundly, Bundly Bundle",
+      "number": 1090,
+      "title": "Add Drite Studio hosting verification template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-09T22:10:07Z",
-      "updated_at": "2026-05-09T22:16:34Z",
+      "created_at": "2026-05-11T00:51:33Z",
+      "updated_at": "2026-05-11T01:11:51Z",
       "merged_at": null,
-      "author": "innolope-dev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/80577497?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1087",
+      "author": "TinnerKun",
+      "author_avatar": "https://avatars.githubusercontent.com/u/45807795?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1090",
       "labels": [],
       "templates": [
         {
-          "provider_id": "bundly",
-          "service_id": "innolope.com.bundle",
-          "filename": "bundly.innolope.com.bundle.json",
+          "provider_id": "dritestudio",
+          "service_id": "co.th.hosting-domain-verification",
+          "filename": "dritestudio.co.th.hosting-domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1088,
+      "title": "Add Genitor template (genitor.net.web.json)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-10T06:02:32Z",
+      "updated_at": "2026-05-10T06:03:07Z",
+      "merged_at": null,
+      "author": "hemidirasim",
+      "author_avatar": "https://avatars.githubusercontent.com/u/25175153?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1088",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "genitor",
+          "service_id": "net.web",
+          "filename": "genitor.net.web.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2990,28 +3016,6 @@
       ]
     },
     {
-      "number": 1079,
-      "title": "add MeSquared Marketing, Email sending authentication",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-06T22:53:40Z",
-      "updated_at": "2026-05-06T23:26:55Z",
-      "merged_at": null,
-      "author": "rmach816",
-      "author_avatar": "https://avatars.githubusercontent.com/u/210041732?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1079",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "mesquared",
-          "service_id": "ai.email-marketing",
-          "filename": "mesquared.ai.email-marketing.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1078,
       "title": "add DataCops, First-party tracking",
       "state": "open",
@@ -3034,28 +3038,6 @@
           "filename": "joindatacops.com.firstparty.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1077,
-      "title": "CyberAlarm: Change from TXT to CNAME domain ownership verification",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-06T15:34:57Z",
-      "updated_at": "2026-05-06T16:19:30Z",
-      "merged_at": null,
-      "author": "jaalsh",
-      "author_avatar": "https://avatars.githubusercontent.com/u/14910254?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1077",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "cyberalarm",
-          "service_id": "police.uk.domain-verification",
-          "filename": "cyberalarm.police.uk.domain-verification.json",
-          "logo_url": "https://member.cyberalarm.police.uk/favicon/web-app-manifest-512x512.png",
-          "status": "modified"
         }
       ]
     },
@@ -3696,32 +3678,6 @@
       ]
     },
     {
-      "number": 839,
-      "title": "Add gethoneybun.com hosting template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-10T06:17:03Z",
-      "updated_at": "2026-04-25T04:13:40Z",
-      "merged_at": null,
-      "author": "andrewcruz101",
-      "author_avatar": "https://avatars.githubusercontent.com/u/124953895?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/839",
-      "labels": [
-        "Stale",
-        "Test links missing",
-        "warnPhishing"
-      ],
-      "templates": [
-        {
-          "provider_id": "gethoneybun",
-          "service_id": "com.hosting",
-          "filename": "gethoneybun.com.hosting.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 763,
       "title": "Add groupId to DNS records for verification",
       "state": "open",
@@ -3752,7 +3708,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 586,
+        "review_count": 590,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3784,13 +3740,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 82,
+        "review_count": 81,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 3,
+        "review_count": 2,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       }
@@ -4336,6 +4292,15 @@
       "service_name": "Ruhanix Website Builder",
       "logo_url": "https://ruhanixcreations.in/logo.png",
       "record_count": 2
+    },
+    {
+      "filename": "bundly.innolope.com.bundle.json",
+      "provider_id": "bundly.innolope.com",
+      "service_id": "bundle",
+      "provider_name": "Bundly",
+      "service_name": "Bundly Bundle",
+      "logo_url": "https://bundly.innolope.com/icon.svg",
+      "record_count": 5
     },
     {
       "filename": "canva.com.website-v2.json",
@@ -5092,6 +5057,15 @@
       "service_name": "emailr Mail",
       "logo_url": "https://emailr.dev/black_logo.svg",
       "record_count": 4
+    },
+    {
+      "filename": "emilytics.com.gsc-verify.json",
+      "provider_id": "emilytics.com",
+      "service_id": "gsc-verify",
+      "provider_name": "Emilytics",
+      "service_name": "Emilytics Search Console Verification",
+      "logo_url": "https://emilytics.com/emilytics-icon.png",
+      "record_count": 1
     },
     {
       "filename": "everinbox.domain-auth-tracking.json",
@@ -7486,6 +7460,15 @@
       "service_name": "MentionAgent Email Sending & Receiving",
       "logo_url": "https://mentionagent.ai/img/logo-square.svg",
       "record_count": 6
+    },
+    {
+      "filename": "mesquared.ai.email-marketing.json",
+      "provider_id": "mesquared.ai",
+      "service_id": "email-marketing",
+      "provider_name": "MeSquared Marketing",
+      "service_name": "Email sending authentication",
+      "logo_url": "https://marketing.mesquared.ai/branding/mesquared-logo.svg",
+      "record_count": 4
     },
     {
       "filename": "microsoft.com.dpoo.json",
