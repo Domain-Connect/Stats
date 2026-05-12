@@ -93986,7 +93986,49 @@
         "performed_via_github_app": null
       }
     ],
-    "comment_counts": 0
+    "comment_counts": 0,
+    "reviews": [
+      {
+        "id": 4267230394,
+        "node_id": "PRR_kwDOBQwxY87-WMS6",
+        "user": {
+          "login": "pawel-kow",
+          "id": 28707030,
+          "node_id": "MDQ6VXNlcjI4NzA3MDMw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pawel-kow",
+          "html_url": "https://github.com/pawel-kow",
+          "followers_url": "https://api.github.com/users/pawel-kow/followers",
+          "following_url": "https://api.github.com/users/pawel-kow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pawel-kow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pawel-kow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pawel-kow/subscriptions",
+          "organizations_url": "https://api.github.com/users/pawel-kow/orgs",
+          "repos_url": "https://api.github.com/users/pawel-kow/repos",
+          "events_url": "https://api.github.com/users/pawel-kow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pawel-kow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "APPROVED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1086#pullrequestreview-4267230394",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1086",
+        "author_association": "MEMBER",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1086#pullrequestreview-4267230394"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1086"
+          }
+        },
+        "submitted_at": "2026-05-11T20:38:42Z",
+        "commit_id": "906e6f030729c6d947c9914dc7c081a8a66d7471"
+      }
+    ]
   },
   "1090": {
     "has_templates": true,
@@ -94027,7 +94069,89 @@
         "performed_via_github_app": null
       }
     ],
-    "comment_counts": 0
+    "comment_counts": 0,
+    "reviews": [
+      {
+        "id": 4260192833,
+        "node_id": "PRR_kwDOBQwxY8797WJB",
+        "user": {
+          "login": "copilot-pull-request-reviewer[bot]",
+          "id": 175728472,
+          "node_id": "BOT_kgDOCnlnWA",
+          "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+          "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+          "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "## Pull request overview\n\nAdds a new Domain Connect template for Drite Studio to verify hosting domain ownership by publishing a provider-scoped TXT verification token.\n\n**Changes:**\n- Introduces a new `dritestudio.co.th` template for the `hosting-domain-verification` service.\n- Adds a single TXT record at `_drite-verify` containing `drite-domain-verification=%verification_token%` to support ownership verification.\n\n\n\n\n\n---\n\n💡 <a href=\"/Domain-Connect/Templates/new/master?filename=.github/instructions/*.instructions.md\" class=\"Link--inTextBlock\" target=\"_blank\" rel=\"noopener noreferrer\">Add Copilot custom instructions</a> for smarter, more guided reviews. <a href=\"https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot\" class=\"Link--inTextBlock\" target=\"_blank\" rel=\"noopener noreferrer\">Learn how to get started</a>.",
+        "state": "COMMENTED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1090#pullrequestreview-4260192833",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1090",
+        "author_association": "CONTRIBUTOR",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1090#pullrequestreview-4260192833"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1090"
+          }
+        },
+        "submitted_at": "2026-05-11T00:54:15Z",
+        "commit_id": "610085ca1b6ec865524c4008800bee188c72ce4f"
+      },
+      {
+        "id": 4267235519,
+        "node_id": "PRR_kwDOBQwxY87-WNi_",
+        "user": {
+          "login": "pawel-kow",
+          "id": 28707030,
+          "node_id": "MDQ6VXNlcjI4NzA3MDMw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pawel-kow",
+          "html_url": "https://github.com/pawel-kow",
+          "followers_url": "https://api.github.com/users/pawel-kow/followers",
+          "following_url": "https://api.github.com/users/pawel-kow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pawel-kow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pawel-kow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pawel-kow/subscriptions",
+          "organizations_url": "https://api.github.com/users/pawel-kow/orgs",
+          "repos_url": "https://api.github.com/users/pawel-kow/repos",
+          "events_url": "https://api.github.com/users/pawel-kow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pawel-kow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "APPROVED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1090#pullrequestreview-4267235519",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1090",
+        "author_association": "MEMBER",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1090#pullrequestreview-4267235519"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1090"
+          }
+        },
+        "submitted_at": "2026-05-11T20:39:30Z",
+        "commit_id": "358848ea0279d39b655289b6bc5f77b685933b5e"
+      }
+    ]
   },
   "1088": {
     "has_templates": true,

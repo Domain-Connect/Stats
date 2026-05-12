@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-11T01:58:24.985305",
+  "generated_at": "2026-05-12T01:55:29.790473",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 715,
-    "total_providers": 404,
-    "total_merged_prs": 826,
-    "total_open_prs": 24,
+    "total_templates": 718,
+    "total_providers": 406,
+    "total_merged_prs": 828,
+    "total_open_prs": 21,
     "total_contributors": 420,
-    "avg_records_per_template": 3.3
+    "avg_records_per_template": 3.29
   },
   "templates_growth": [
     {
@@ -580,9 +580,9 @@
     },
     {
       "month": "2026-05",
-      "added": 26,
+      "added": 29,
       "deleted": 0,
-      "cumulative": 715
+      "cumulative": 718
     }
   ],
   "providers_growth": [
@@ -1023,8 +1023,8 @@
     },
     {
       "month": "2026-05",
-      "added": 19,
-      "cumulative": 404
+      "added": 21,
+      "cumulative": 406
     }
   ],
   "pr_activity": [
@@ -1536,7 +1536,7 @@
     {
       "month": "2026-05",
       "created": 27,
-      "merged": 26
+      "merged": 28
     }
   ],
   "pr_time_to_merge": [
@@ -2572,19 +2572,19 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 517
+      "count": 518
     },
     {
       "type": "TXT",
-      "count": 324
+      "count": 326
     },
     {
       "type": "A",
-      "count": 242
+      "count": 243
     },
     {
       "type": "SPFM",
-      "count": 162
+      "count": 163
     },
     {
       "type": "MX",
@@ -2758,6 +2758,20 @@
         "first_added": "2026-05-11"
       },
       {
+        "provider_id": "leadprospecting.ai",
+        "provider_name": "LeadProspecting AI",
+        "logo_url": "https://www.leadprospecting.ai/logo.png",
+        "template_count": 2,
+        "first_added": "2026-05-11"
+      },
+      {
+        "provider_id": "dritestudio.co.th",
+        "provider_name": "Drite Studio",
+        "logo_url": "https://dritestudio.co.th/img/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-05-11"
+      },
+      {
         "provider_id": "bundly.innolope.com",
         "provider_name": "Bundly",
         "logo_url": "https://bundly.innolope.com/icon.svg",
@@ -2868,35 +2882,21 @@
         "logo_url": "https://kixo.io/kixo-icon-dark.svg",
         "template_count": 1,
         "first_added": "2026-05-01"
-      },
-      {
-        "provider_id": "borghq.io",
-        "provider_name": "Odin by Borg",
-        "logo_url": "https://odin.borghq.io/logo-full-light-mode.svg",
-        "template_count": 1,
-        "first_added": "2026-05-01"
-      },
-      {
-        "provider_id": "xellux.com",
-        "provider_name": "Xellux",
-        "logo_url": "https://cdn-edge.xellux.com/i/73f312de-3ea8-4063-8b6d-85af107d5b99-rem-0f395230",
-        "template_count": 1,
-        "first_added": "2026-04-29"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 715,
+    "total_templates": 718,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 644
+        "count": 647
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 475
+        "count": 476
       },
       {
         "name": "warnPhishing",
@@ -2911,28 +2911,6 @@
     ]
   },
   "recent_prs": [
-    {
-      "number": 1090,
-      "title": "Add Drite Studio hosting verification template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-11T00:51:33Z",
-      "updated_at": "2026-05-11T01:11:51Z",
-      "merged_at": null,
-      "author": "TinnerKun",
-      "author_avatar": "https://avatars.githubusercontent.com/u/45807795?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1090",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "dritestudio",
-          "service_id": "co.th.hosting-domain-verification",
-          "filename": "dritestudio.co.th.hosting-domain-verification.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
     {
       "number": 1088,
       "title": "Add Genitor template (genitor.net.web.json)",
@@ -2954,37 +2932,6 @@
           "provider_id": "genitor",
           "service_id": "net.web",
           "filename": "genitor.net.web.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1086,
-      "title": "Add LeadProspecting AI templates (website + email)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-09T09:06:35Z",
-      "updated_at": "2026-05-09T15:55:04Z",
-      "merged_at": null,
-      "author": "BlackSheap",
-      "author_avatar": "https://avatars.githubusercontent.com/u/18684971?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1086",
-      "labels": [
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "leadprospecting",
-          "service_id": "ai.email",
-          "filename": "leadprospecting.ai.email.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "leadprospecting",
-          "service_id": "ai.website",
-          "filename": "leadprospecting.ai.website.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3650,34 +3597,6 @@
       ]
     },
     {
-      "number": 908,
-      "title": "Add Tortus website hosting template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T19:01:36Z",
-      "updated_at": "2026-04-26T04:39:20Z",
-      "merged_at": null,
-      "author": "nmvalletta77",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5414110?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/908",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "warnPhishing"
-      ],
-      "templates": [
-        {
-          "provider_id": "tortus",
-          "service_id": "io.connect-site",
-          "filename": "tortus.io.connect-site.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 763,
       "title": "Add groupId to DNS records for verification",
       "state": "open",
@@ -3708,7 +3627,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 590,
+        "review_count": 592,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3732,7 +3651,7 @@
       },
       {
         "login": "copilot-pull-request-reviewer[bot]",
-        "review_count": 3,
+        "review_count": 4,
         "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
         "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       }
@@ -3740,7 +3659,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 81,
+        "review_count": 79,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3749,6 +3668,12 @@
         "review_count": 2,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
+      },
+      {
+        "login": "copilot-pull-request-reviewer[bot]",
+        "review_count": 1,
+        "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+        "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       }
     ]
   },
@@ -4804,6 +4729,15 @@
       "provider_name": "DomChekr",
       "service_name": "Domain Check",
       "logo_url": "https://www.domchekr.com/logo.png",
+      "record_count": 1
+    },
+    {
+      "filename": "dritestudio.co.th.hosting-domain-verification.json",
+      "provider_id": "dritestudio.co.th",
+      "service_id": "hosting-domain-verification",
+      "provider_name": "Drite Studio",
+      "service_name": "Hosting Domain Verification",
+      "logo_url": "https://dritestudio.co.th/img/logo.svg",
       "record_count": 1
     },
     {
@@ -6965,6 +6899,24 @@
       "service_name": "Leadpages Custom Domain (Test)",
       "logo_url": "https://my.leadpagestest.net/static/current/img/logos/logo_icon.svg",
       "record_count": 1
+    },
+    {
+      "filename": "leadprospecting.ai.email.json",
+      "provider_id": "leadprospecting.ai",
+      "service_id": "email",
+      "provider_name": "LeadProspecting AI",
+      "service_name": "LPAI Email Authentication (SPF + DMARC)",
+      "logo_url": "https://www.leadprospecting.ai/logo.png",
+      "record_count": 2
+    },
+    {
+      "filename": "leadprospecting.ai.website.json",
+      "provider_id": "leadprospecting.ai",
+      "service_id": "website",
+      "provider_name": "LeadProspecting AI",
+      "service_name": "LPAI Client Website",
+      "logo_url": "https://www.leadprospecting.ai/logo.png",
+      "record_count": 2
     },
     {
       "filename": "leed.ai.generative-cms.json",
