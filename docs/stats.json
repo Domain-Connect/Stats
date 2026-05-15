@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-14T02:01:59.644705",
+  "generated_at": "2026-05-15T02:00:46.596602",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 720,
-    "total_providers": 408,
-    "total_merged_prs": 831,
-    "total_open_prs": 22,
-    "total_contributors": 420,
+    "total_templates": 724,
+    "total_providers": 411,
+    "total_merged_prs": 834,
+    "total_open_prs": 21,
+    "total_contributors": 421,
     "avg_records_per_template": 3.29
   },
   "templates_growth": [
@@ -580,9 +580,9 @@
     },
     {
       "month": "2026-05",
-      "added": 31,
+      "added": 35,
       "deleted": 0,
-      "cumulative": 720
+      "cumulative": 724
     }
   ],
   "providers_growth": [
@@ -1023,8 +1023,8 @@
     },
     {
       "month": "2026-05",
-      "added": 23,
-      "cumulative": 408
+      "added": 26,
+      "cumulative": 411
     }
   ],
   "pr_activity": [
@@ -1535,8 +1535,8 @@
     },
     {
       "month": "2026-05",
-      "created": 32,
-      "merged": 31
+      "created": 34,
+      "merged": 34
     }
   ],
   "pr_time_to_merge": [
@@ -2153,20 +2153,20 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 11,
+      "Checklist of common problems not complete": 12,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 14,
+      "PR description incomplete": 15,
       "Stale": 0,
-      "Test links missing": 27,
-      "automerge-possible": 11,
+      "Test links missing": 28,
+      "automerge-possible": 12,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 4,
-      "no syncPubKeyDomain": 1,
+      "hostRequired": 5,
+      "no syncPubKeyDomain": 2,
       "question": 1,
-      "schema-error": 0,
+      "schema-error": 1,
       "syncBlock": 1,
       "warnPhishing": 0
     }
@@ -2572,11 +2572,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 519
+      "count": 522
     },
     {
       "type": "TXT",
-      "count": 327
+      "count": 329
     },
     {
       "type": "A",
@@ -2584,15 +2584,15 @@
     },
     {
       "type": "SPFM",
-      "count": 164
+      "count": 165
     },
     {
       "type": "MX",
-      "count": 136
+      "count": 137
     },
     {
       "type": "SRV",
-      "count": 22
+      "count": 23
     },
     {
       "type": "AAAA",
@@ -2744,6 +2744,27 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "vohtrah.com",
+        "provider_name": "Vohtrah",
+        "logo_url": "https://vohtrah.com/logo.svg",
+        "template_count": 2,
+        "first_added": "2026-05-15"
+      },
+      {
+        "provider_id": "instanto",
+        "provider_name": "Instanto",
+        "logo_url": "https://instanto.site/images/logo.png",
+        "template_count": 1,
+        "first_added": "2026-05-14"
+      },
+      {
+        "provider_id": "diamondhost.tw",
+        "provider_name": "DiamondHost",
+        "logo_url": "https://r2.diamondhost.tw/logo.png",
+        "template_count": 1,
+        "first_added": "2026-05-14"
+      },
+      {
         "provider_id": "proofly.ae",
         "provider_name": "Proofly",
         "logo_url": "https://proofly.ae/logo.png",
@@ -2861,42 +2882,21 @@
         "logo_url": "https://www.elevayt.in/icon.png",
         "template_count": 1,
         "first_added": "2026-05-04"
-      },
-      {
-        "provider_id": "sendinitaly.com",
-        "provider_name": "Send in Italy",
-        "logo_url": "https://app.sendinitaly.com/assets/logo-domain-connect.png",
-        "template_count": 1,
-        "first_added": "2026-05-01"
-      },
-      {
-        "provider_id": "nelavio.com",
-        "provider_name": "Nelavio",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-05-01"
-      },
-      {
-        "provider_id": "smtpfa.st",
-        "provider_name": "SMTPfast",
-        "logo_url": "https://smtpfa.st/logo.png",
-        "template_count": 1,
-        "first_added": "2026-05-01"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 720,
+    "total_templates": 724,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 649
+        "count": 653
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 477
+        "count": 480
       },
       {
         "name": "warnPhishing",
@@ -2906,30 +2906,34 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 183
+        "count": 185
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 1095,
-      "title": "Add Domain Connect template for Instanto",
+      "number": 1097,
+      "title": "Add listblast.mailgun-email template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-13T00:03:28Z",
-      "updated_at": "2026-05-13T00:09:43Z",
+      "created_at": "2026-05-14T18:57:00Z",
+      "updated_at": "2026-05-14T18:57:38Z",
       "merged_at": null,
-      "author": "jcon-droid",
-      "author_avatar": "https://avatars.githubusercontent.com/u/269976793?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1095",
+      "author": "mallelavamshi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/92425635?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1097",
       "labels": [
-        "hostRequired"
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "schema-error",
+        "no syncPubKeyDomain"
       ],
       "templates": [
         {
-          "provider_id": "instanto",
-          "service_id": "connect-domain",
-          "filename": "instanto.connect-domain.json",
+          "provider_id": "listblast",
+          "service_id": "mailgun-email",
+          "filename": "listblast.mailgun-email.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2956,32 +2960,6 @@
           "provider_id": "appointshub",
           "service_id": "com.booking",
           "filename": "appointshub.com.booking.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1091,
-      "title": "Add diamondhost.tw.minecraft-hosting.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-12T10:11:14Z",
-      "updated_at": "2026-05-13T09:00:55Z",
-      "merged_at": null,
-      "author": "cheerawab",
-      "author_avatar": "https://avatars.githubusercontent.com/u/174237051?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1091",
-      "labels": [
-        "question",
-        "Test links missing",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "diamondhost",
-          "service_id": "tw.minecraft-hosting",
-          "filename": "diamondhost.tw.minecraft-hosting.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3652,7 +3630,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 595,
+        "review_count": 598,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3676,7 +3654,7 @@
       },
       {
         "login": "copilot-pull-request-reviewer[bot]",
-        "review_count": 4,
+        "review_count": 5,
         "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
         "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       }
@@ -3689,16 +3667,16 @@
         "profile_url": "https://github.com/pawel-kow"
       },
       {
+        "login": "copilot-pull-request-reviewer[bot]",
+        "review_count": 2,
+        "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+        "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
+      },
+      {
         "login": "kerolasa",
         "review_count": 2,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
-      },
-      {
-        "login": "copilot-pull-request-reviewer[bot]",
-        "review_count": 1,
-        "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
-        "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       }
     ]
   },
@@ -4593,6 +4571,15 @@
       "service_name": "Custom Domain",
       "logo_url": "https://dev.referralhero.com/rh_logo.png",
       "record_count": 3
+    },
+    {
+      "filename": "diamondhost.tw.minecraft-hosting.json",
+      "provider_id": "diamondhost.tw",
+      "service_id": "minecraft-hosting",
+      "provider_name": "DiamondHost",
+      "service_name": "Minecraft Hosting",
+      "logo_url": "https://r2.diamondhost.tw/logo.png",
+      "record_count": 1
     },
     {
       "filename": "dmarceye.com.dmarceye-setup.json",
@@ -6681,6 +6668,15 @@
       "service_name": "Webhosting on Informaten.com",
       "logo_url": "https://informaten.com/logo_dark.png",
       "record_count": 3
+    },
+    {
+      "filename": "instanto.connect-domain.json",
+      "provider_id": "instanto",
+      "service_id": "connect-domain",
+      "provider_name": "Instanto",
+      "service_name": "Connect Domain to Instanto",
+      "logo_url": "https://instanto.site/images/logo.png",
+      "record_count": 1
     },
     {
       "filename": "ironshield.cloud.domain-protection.json",
@@ -9777,6 +9773,24 @@
       "service_name": "Connect Custom Domain",
       "logo_url": "https://public.assets.vnytros.dev/vnytros_logo.svg",
       "record_count": 3
+    },
+    {
+      "filename": "vohtrah.com.email-sender.json",
+      "provider_id": "vohtrah.com",
+      "service_id": "email-sender",
+      "provider_name": "Vohtrah",
+      "service_name": "Email sender authentication",
+      "logo_url": "https://vohtrah.com/logo.svg",
+      "record_count": 8
+    },
+    {
+      "filename": "vohtrah.com.lead-magnet.json",
+      "provider_id": "vohtrah.com",
+      "service_id": "lead-magnet",
+      "provider_name": "Vohtrah",
+      "service_name": "Lead magnet custom domain",
+      "logo_url": "https://vohtrah.com/logo.svg",
+      "record_count": 2
     },
     {
       "filename": "vulnalyze.com.domain-verification.json",

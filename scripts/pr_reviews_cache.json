@@ -94573,7 +94573,49 @@
         "performed_via_github_app": null
       }
     ],
-    "comment_counts": 0
+    "comment_counts": 0,
+    "reviews": [
+      {
+        "id": 4287236160,
+        "node_id": "PRR_kwDOBQwxY87_ighA",
+        "user": {
+          "login": "pawel-kow",
+          "id": 28707030,
+          "node_id": "MDQ6VXNlcjI4NzA3MDMw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pawel-kow",
+          "html_url": "https://github.com/pawel-kow",
+          "followers_url": "https://api.github.com/users/pawel-kow/followers",
+          "following_url": "https://api.github.com/users/pawel-kow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pawel-kow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pawel-kow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pawel-kow/subscriptions",
+          "organizations_url": "https://api.github.com/users/pawel-kow/orgs",
+          "repos_url": "https://api.github.com/users/pawel-kow/repos",
+          "events_url": "https://api.github.com/users/pawel-kow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pawel-kow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "APPROVED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1095#pullrequestreview-4287236160",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1095",
+        "author_association": "MEMBER",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1095#pullrequestreview-4287236160"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1095"
+          }
+        },
+        "submitted_at": "2026-05-14T04:21:58Z",
+        "commit_id": "963326b723c975d7784d1136a7624c1eb2d8b82f"
+      }
+    ]
   },
   "1094": {
     "has_templates": true,
@@ -94795,7 +94837,369 @@
         "performed_via_github_app": null
       }
     ],
-    "comment_counts": 3
+    "comment_counts": 3,
+    "reviews": [
+      {
+        "id": 4271294879,
+        "node_id": "PRR_kwDOBQwxY87-lsmf",
+        "user": {
+          "login": "copilot-pull-request-reviewer[bot]",
+          "id": 175728472,
+          "node_id": "BOT_kgDOCnlnWA",
+          "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+          "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+          "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "## Pull request overview\n\nAdds a new Domain Connect template intended to help Diamond Hosting customers configure Minecraft DNS via an SRV record.\n\n**Changes:**\n- Introduces `diamondhost.tw.minecraft-hosting.json` with a single SRV record pointing to a configurable target/port.\n- Configures synchronous flow metadata (`syncPubKeyDomain`, `syncRedirectDomain`) and template branding fields.\n\n\n\n\n\n---\n\n💡 <a href=\"/Domain-Connect/Templates/new/master?filename=.github/instructions/*.instructions.md\" class=\"Link--inTextBlock\" target=\"_blank\" rel=\"noopener noreferrer\">Add Copilot custom instructions</a> for smarter, more guided reviews. <a href=\"https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot\" class=\"Link--inTextBlock\" target=\"_blank\" rel=\"noopener noreferrer\">Learn how to get started</a>.",
+        "state": "COMMENTED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4271294879",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091",
+        "author_association": "CONTRIBUTOR",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4271294879"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091"
+          }
+        },
+        "submitted_at": "2026-05-12T10:14:55Z",
+        "commit_id": "f32950ba55d7276cd7b0a34c38645f3f3a364d67"
+      },
+      {
+        "id": 4271360155,
+        "node_id": "PRR_kwDOBQwxY87-l8ib",
+        "user": {
+          "login": "copilot-pull-request-reviewer[bot]",
+          "id": 175728472,
+          "node_id": "BOT_kgDOCnlnWA",
+          "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+          "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+          "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "## Pull request overview\n\nCopilot reviewed 1 out of 1 changed files in this pull request and generated 2 comments.\n\n\n\n",
+        "state": "COMMENTED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4271360155",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091",
+        "author_association": "CONTRIBUTOR",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4271360155"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091"
+          }
+        },
+        "submitted_at": "2026-05-12T10:24:48Z",
+        "commit_id": "29050a18e019a554e1cb5dd4468352f0cd21c561"
+      },
+      {
+        "id": 4271391603,
+        "node_id": "PRR_kwDOBQwxY87-mENz",
+        "user": {
+          "login": "cheerawab",
+          "id": 174237051,
+          "node_id": "U_kgDOCmKlew",
+          "avatar_url": "https://avatars.githubusercontent.com/u/174237051?u=be683a0bc920041c5ab27c3c2614bcea43f2165d&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cheerawab",
+          "html_url": "https://github.com/cheerawab",
+          "followers_url": "https://api.github.com/users/cheerawab/followers",
+          "following_url": "https://api.github.com/users/cheerawab/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cheerawab/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cheerawab/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cheerawab/subscriptions",
+          "organizations_url": "https://api.github.com/users/cheerawab/orgs",
+          "repos_url": "https://api.github.com/users/cheerawab/repos",
+          "events_url": "https://api.github.com/users/cheerawab/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cheerawab/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "COMMENTED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4271391603",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091",
+        "author_association": "CONTRIBUTOR",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4271391603"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091"
+          }
+        },
+        "submitted_at": "2026-05-12T10:29:13Z",
+        "commit_id": "29050a18e019a554e1cb5dd4468352f0cd21c561"
+      },
+      {
+        "id": 4275007077,
+        "node_id": "PRR_kwDOBQwxY87-z25l",
+        "user": {
+          "login": "pawel-kow",
+          "id": 28707030,
+          "node_id": "MDQ6VXNlcjI4NzA3MDMw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pawel-kow",
+          "html_url": "https://github.com/pawel-kow",
+          "followers_url": "https://api.github.com/users/pawel-kow/followers",
+          "following_url": "https://api.github.com/users/pawel-kow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pawel-kow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pawel-kow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pawel-kow/subscriptions",
+          "organizations_url": "https://api.github.com/users/pawel-kow/orgs",
+          "repos_url": "https://api.github.com/users/pawel-kow/repos",
+          "events_url": "https://api.github.com/users/pawel-kow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pawel-kow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "COMMENTED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4275007077",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091",
+        "author_association": "MEMBER",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4275007077"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091"
+          }
+        },
+        "submitted_at": "2026-05-12T18:14:59Z",
+        "commit_id": "29050a18e019a554e1cb5dd4468352f0cd21c561"
+      },
+      {
+        "id": 4275009795,
+        "node_id": "PRR_kwDOBQwxY87-z3kD",
+        "user": {
+          "login": "pawel-kow",
+          "id": 28707030,
+          "node_id": "MDQ6VXNlcjI4NzA3MDMw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pawel-kow",
+          "html_url": "https://github.com/pawel-kow",
+          "followers_url": "https://api.github.com/users/pawel-kow/followers",
+          "following_url": "https://api.github.com/users/pawel-kow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pawel-kow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pawel-kow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pawel-kow/subscriptions",
+          "organizations_url": "https://api.github.com/users/pawel-kow/orgs",
+          "repos_url": "https://api.github.com/users/pawel-kow/repos",
+          "events_url": "https://api.github.com/users/pawel-kow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pawel-kow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "APPROVED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4275009795",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091",
+        "author_association": "MEMBER",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4275009795"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091"
+          }
+        },
+        "submitted_at": "2026-05-12T18:15:26Z",
+        "commit_id": "29050a18e019a554e1cb5dd4468352f0cd21c561"
+      },
+      {
+        "id": 4275016085,
+        "node_id": "PRR_kwDOBQwxY87-z5GV",
+        "user": {
+          "login": "pawel-kow",
+          "id": 28707030,
+          "node_id": "MDQ6VXNlcjI4NzA3MDMw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pawel-kow",
+          "html_url": "https://github.com/pawel-kow",
+          "followers_url": "https://api.github.com/users/pawel-kow/followers",
+          "following_url": "https://api.github.com/users/pawel-kow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pawel-kow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pawel-kow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pawel-kow/subscriptions",
+          "organizations_url": "https://api.github.com/users/pawel-kow/orgs",
+          "repos_url": "https://api.github.com/users/pawel-kow/repos",
+          "events_url": "https://api.github.com/users/pawel-kow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pawel-kow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "COMMENTED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4275016085",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091",
+        "author_association": "MEMBER",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4275016085"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091"
+          }
+        },
+        "submitted_at": "2026-05-12T18:16:29Z",
+        "commit_id": "29050a18e019a554e1cb5dd4468352f0cd21c561"
+      },
+      {
+        "id": 4279886667,
+        "node_id": "PRR_kwDOBQwxY87_GeNL",
+        "user": {
+          "login": "cheerawab",
+          "id": 174237051,
+          "node_id": "U_kgDOCmKlew",
+          "avatar_url": "https://avatars.githubusercontent.com/u/174237051?u=be683a0bc920041c5ab27c3c2614bcea43f2165d&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cheerawab",
+          "html_url": "https://github.com/cheerawab",
+          "followers_url": "https://api.github.com/users/cheerawab/followers",
+          "following_url": "https://api.github.com/users/cheerawab/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cheerawab/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cheerawab/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cheerawab/subscriptions",
+          "organizations_url": "https://api.github.com/users/cheerawab/orgs",
+          "repos_url": "https://api.github.com/users/cheerawab/repos",
+          "events_url": "https://api.github.com/users/cheerawab/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cheerawab/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "COMMENTED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4279886667",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091",
+        "author_association": "CONTRIBUTOR",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4279886667"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091"
+          }
+        },
+        "submitted_at": "2026-05-13T08:46:40Z",
+        "commit_id": "29050a18e019a554e1cb5dd4468352f0cd21c561"
+      },
+      {
+        "id": 4287229104,
+        "node_id": "PRR_kwDOBQwxY87_ieyw",
+        "user": {
+          "login": "pawel-kow",
+          "id": 28707030,
+          "node_id": "MDQ6VXNlcjI4NzA3MDMw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pawel-kow",
+          "html_url": "https://github.com/pawel-kow",
+          "followers_url": "https://api.github.com/users/pawel-kow/followers",
+          "following_url": "https://api.github.com/users/pawel-kow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pawel-kow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pawel-kow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pawel-kow/subscriptions",
+          "organizations_url": "https://api.github.com/users/pawel-kow/orgs",
+          "repos_url": "https://api.github.com/users/pawel-kow/repos",
+          "events_url": "https://api.github.com/users/pawel-kow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pawel-kow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "COMMENTED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4287229104",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091",
+        "author_association": "MEMBER",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4287229104"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091"
+          }
+        },
+        "submitted_at": "2026-05-14T04:19:47Z",
+        "commit_id": "29050a18e019a554e1cb5dd4468352f0cd21c561"
+      },
+      {
+        "id": 4288692189,
+        "node_id": "PRR_kwDOBQwxY87_oD_d",
+        "user": {
+          "login": "cheerawab",
+          "id": 174237051,
+          "node_id": "U_kgDOCmKlew",
+          "avatar_url": "https://avatars.githubusercontent.com/u/174237051?u=be683a0bc920041c5ab27c3c2614bcea43f2165d&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cheerawab",
+          "html_url": "https://github.com/cheerawab",
+          "followers_url": "https://api.github.com/users/cheerawab/followers",
+          "following_url": "https://api.github.com/users/cheerawab/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cheerawab/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cheerawab/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cheerawab/subscriptions",
+          "organizations_url": "https://api.github.com/users/cheerawab/orgs",
+          "repos_url": "https://api.github.com/users/cheerawab/repos",
+          "events_url": "https://api.github.com/users/cheerawab/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cheerawab/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "COMMENTED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4288692189",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091",
+        "author_association": "CONTRIBUTOR",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1091#pullrequestreview-4288692189"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1091"
+          }
+        },
+        "submitted_at": "2026-05-14T09:06:08Z",
+        "commit_id": "29050a18e019a554e1cb5dd4468352f0cd21c561"
+      }
+    ]
   },
   "1093": {
     "has_templates": true,
@@ -95137,5 +95541,304 @@
       }
     ],
     "comment_counts": 1
+  },
+  "1097": {
+    "has_templates": true,
+    "label_events": [
+      {
+        "id": 25543735092,
+        "node_id": "LE_lADOBQwxY88AAAABCSZ7DM8AAAAF8oZ3NA",
+        "url": "https://api.github.com/repos/Domain-Connect/Templates/issues/events/25543735092",
+        "actor": {
+          "login": "github-actions[bot]",
+          "id": 41898282,
+          "node_id": "MDM6Qm90NDE4OTgyODI=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+          "html_url": "https://github.com/apps/github-actions",
+          "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "event": "labeled",
+        "commit_id": null,
+        "commit_url": null,
+        "created_at": "2026-05-14T18:57:14Z",
+        "label": {
+          "name": "no syncPubKeyDomain",
+          "color": "dec6e3"
+        },
+        "performed_via_github_app": null
+      },
+      {
+        "id": 25543737738,
+        "node_id": "LE_lADOBQwxY88AAAABCSZ7DM8AAAAF8oaBig",
+        "url": "https://api.github.com/repos/Domain-Connect/Templates/issues/events/25543737738",
+        "actor": {
+          "login": "github-actions[bot]",
+          "id": 41898282,
+          "node_id": "MDM6Qm90NDE4OTgyODI=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+          "html_url": "https://github.com/apps/github-actions",
+          "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "event": "labeled",
+        "commit_id": null,
+        "commit_url": null,
+        "created_at": "2026-05-14T18:57:17Z",
+        "label": {
+          "name": "Checklist of common problems not complete",
+          "color": "FBCA04"
+        },
+        "performed_via_github_app": null
+      },
+      {
+        "id": 25543738671,
+        "node_id": "LE_lADOBQwxY88AAAABCSZ7DM8AAAAF8oaFLw",
+        "url": "https://api.github.com/repos/Domain-Connect/Templates/issues/events/25543738671",
+        "actor": {
+          "login": "github-actions[bot]",
+          "id": 41898282,
+          "node_id": "MDM6Qm90NDE4OTgyODI=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+          "html_url": "https://github.com/apps/github-actions",
+          "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "event": "labeled",
+        "commit_id": null,
+        "commit_url": null,
+        "created_at": "2026-05-14T18:57:18Z",
+        "label": {
+          "name": "PR description incomplete",
+          "color": "F9D0C4"
+        },
+        "performed_via_github_app": null
+      },
+      {
+        "id": 25543739591,
+        "node_id": "LE_lADOBQwxY88AAAABCSZ7DM8AAAAF8oaIxw",
+        "url": "https://api.github.com/repos/Domain-Connect/Templates/issues/events/25543739591",
+        "actor": {
+          "login": "github-actions[bot]",
+          "id": 41898282,
+          "node_id": "MDM6Qm90NDE4OTgyODI=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+          "html_url": "https://github.com/apps/github-actions",
+          "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "event": "labeled",
+        "commit_id": null,
+        "commit_url": null,
+        "created_at": "2026-05-14T18:57:20Z",
+        "label": {
+          "name": "Test links missing",
+          "color": "C5DEF5"
+        },
+        "performed_via_github_app": null
+      },
+      {
+        "id": 25543744092,
+        "node_id": "LE_lADOBQwxY88AAAABCSZ7DM8AAAAF8oaaXA",
+        "url": "https://api.github.com/repos/Domain-Connect/Templates/issues/events/25543744092",
+        "actor": {
+          "login": "github-actions[bot]",
+          "id": 41898282,
+          "node_id": "MDM6Qm90NDE4OTgyODI=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+          "html_url": "https://github.com/apps/github-actions",
+          "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "event": "labeled",
+        "commit_id": null,
+        "commit_url": null,
+        "created_at": "2026-05-14T18:57:28Z",
+        "label": {
+          "name": "schema-error",
+          "color": "b60205"
+        },
+        "performed_via_github_app": null
+      }
+    ],
+    "comment_counts": 0
+  },
+  "1096": {
+    "has_templates": true,
+    "reviews": [
+      {
+        "id": 4294468125,
+        "node_id": "PRR_kwDOBQwxY87_-GId",
+        "user": {
+          "login": "pawel-kow",
+          "id": 28707030,
+          "node_id": "MDQ6VXNlcjI4NzA3MDMw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pawel-kow",
+          "html_url": "https://github.com/pawel-kow",
+          "followers_url": "https://api.github.com/users/pawel-kow/followers",
+          "following_url": "https://api.github.com/users/pawel-kow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pawel-kow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pawel-kow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pawel-kow/subscriptions",
+          "organizations_url": "https://api.github.com/users/pawel-kow/orgs",
+          "repos_url": "https://api.github.com/users/pawel-kow/repos",
+          "events_url": "https://api.github.com/users/pawel-kow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pawel-kow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "",
+        "state": "APPROVED",
+        "html_url": "https://github.com/Domain-Connect/Templates/pull/1096#pullrequestreview-4294468125",
+        "pull_request_url": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1096",
+        "author_association": "MEMBER",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Domain-Connect/Templates/pull/1096#pullrequestreview-4294468125"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Domain-Connect/Templates/pulls/1096"
+          }
+        },
+        "submitted_at": "2026-05-15T00:50:46Z",
+        "commit_id": "5866f6f253480b769456d6792e748f789b1503bf"
+      }
+    ],
+    "label_events": [
+      {
+        "id": 25535854461,
+        "node_id": "LE_lADOBQwxY88AAAABCRHoxM8AAAAF8g43fQ",
+        "url": "https://api.github.com/repos/Domain-Connect/Templates/issues/events/25535854461",
+        "actor": {
+          "login": "github-actions[bot]",
+          "id": 41898282,
+          "node_id": "MDM6Qm90NDE4OTgyODI=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+          "html_url": "https://github.com/apps/github-actions",
+          "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "event": "labeled",
+        "commit_id": null,
+        "commit_url": null,
+        "created_at": "2026-05-14T15:27:58Z",
+        "label": {
+          "name": "hostRequired",
+          "color": "dec6e3"
+        },
+        "performed_via_github_app": null
+      },
+      {
+        "id": 25535863381,
+        "node_id": "LE_lADOBQwxY88AAAABCRHoxM8AAAAF8g5aVQ",
+        "url": "https://api.github.com/repos/Domain-Connect/Templates/issues/events/25535863381",
+        "actor": {
+          "login": "github-actions[bot]",
+          "id": 41898282,
+          "node_id": "MDM6Qm90NDE4OTgyODI=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+          "html_url": "https://github.com/apps/github-actions",
+          "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "event": "labeled",
+        "commit_id": null,
+        "commit_url": null,
+        "created_at": "2026-05-14T15:28:12Z",
+        "label": {
+          "name": "automerge-possible",
+          "color": "10faab"
+        },
+        "performed_via_github_app": null
+      }
+    ],
+    "comment_counts": 0
   }
 }
