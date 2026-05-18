@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-17T01:56:32.091131",
+  "generated_at": "2026-05-18T02:07:43.415882",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 724,
-    "total_providers": 411,
-    "total_merged_prs": 834,
-    "total_open_prs": 22,
+    "total_templates": 727,
+    "total_providers": 414,
+    "total_merged_prs": 837,
+    "total_open_prs": 21,
     "total_contributors": 421,
     "avg_records_per_template": 3.29
   },
@@ -580,9 +580,9 @@
     },
     {
       "month": "2026-05",
-      "added": 35,
+      "added": 38,
       "deleted": 0,
-      "cumulative": 724
+      "cumulative": 727
     }
   ],
   "providers_growth": [
@@ -1023,8 +1023,8 @@
     },
     {
       "month": "2026-05",
-      "added": 26,
-      "cumulative": 411
+      "added": 29,
+      "cumulative": 414
     }
   ],
   "pr_activity": [
@@ -1535,8 +1535,8 @@
     },
     {
       "month": "2026-05",
-      "created": 35,
-      "merged": 34
+      "created": 39,
+      "merged": 37
     }
   ],
   "pr_time_to_merge": [
@@ -1926,7 +1926,7 @@
     },
     {
       "month": "2026-05",
-      "avg_days": 1.3
+      "avg_days": 1.2
     }
   ],
   "pr_label_activity": [
@@ -2153,17 +2153,17 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 12,
+      "Checklist of common problems not complete": 16,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 15,
+      "PR description incomplete": 19,
       "Stale": 0,
-      "Test links missing": 29,
-      "automerge-possible": 12,
+      "Test links missing": 33,
+      "automerge-possible": 13,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 1,
-      "hostRequired": 5,
+      "filename-error": 2,
+      "hostRequired": 6,
       "no syncPubKeyDomain": 2,
       "question": 1,
       "schema-error": 1,
@@ -2572,11 +2572,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 522
+      "count": 524
     },
     {
       "type": "TXT",
-      "count": 329
+      "count": 331
     },
     {
       "type": "A",
@@ -2584,11 +2584,11 @@
     },
     {
       "type": "SPFM",
-      "count": 165
+      "count": 166
     },
     {
       "type": "MX",
-      "count": 137
+      "count": 138
     },
     {
       "type": "SRV",
@@ -2744,6 +2744,27 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "crawlfix.ai",
+        "provider_name": "Crawlfix",
+        "logo_url": "https://crawlfix.ai/brand/crawlfix-logo.png",
+        "template_count": 1,
+        "first_added": "2026-05-17"
+      },
+      {
+        "provider_id": "achene.app",
+        "provider_name": "Achene",
+        "logo_url": "https://achene.app/favicon-light.svg",
+        "template_count": 1,
+        "first_added": "2026-05-17"
+      },
+      {
+        "provider_id": "novantt.com",
+        "provider_name": "Novantt",
+        "logo_url": "https://www.novantt.com/images/novantt-logo.svg",
+        "template_count": 1,
+        "first_added": "2026-05-17"
+      },
+      {
         "provider_id": "vohtrah.com",
         "provider_name": "Vohtrah",
         "logo_url": "https://vohtrah.com/logo.svg",
@@ -2861,42 +2882,21 @@
         "logo_url": "https://launchpad.rbos.app/red-bricks-logo-square.svg",
         "template_count": 1,
         "first_added": "2026-05-05"
-      },
-      {
-        "provider_id": "fineartform.com",
-        "provider_name": "Fine Art Form",
-        "logo_url": "https://www.fineartform.com/static/images/brand/icon-faf.png",
-        "template_count": 1,
-        "first_added": "2026-05-05"
-      },
-      {
-        "provider_id": "neevjob.com",
-        "provider_name": "NeevJob ATS",
-        "logo_url": "https://neevjob.com/logo.png",
-        "template_count": 1,
-        "first_added": "2026-05-04"
-      },
-      {
-        "provider_id": "elevayt.in",
-        "provider_name": "Elevayt",
-        "logo_url": "https://www.elevayt.in/icon.png",
-        "template_count": 1,
-        "first_added": "2026-05-04"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 724,
+    "total_templates": 727,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 653
+        "count": 656
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 480
+        "count": 483
       },
       {
         "name": "warnPhishing",
@@ -2906,11 +2906,36 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 185
+        "count": 186
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 1101,
+      "title": "Email Marketing DKIM/SPF - domainconnect.mail.codexsuit.com",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-17T17:12:18Z",
+      "updated_at": "2026-05-17T17:14:20Z",
+      "merged_at": null,
+      "author": "gcompanydev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1101",
+      "labels": [
+        "Test links missing",
+        "filename-error"
+      ],
+      "templates": [
+        {
+          "provider_id": "codexsuit",
+          "service_id": "com.emailDkim",
+          "filename": "codexsuit.com.emailDkim.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1098,
       "title": "Add Gizmo Domain Connect templates",
@@ -3310,12 +3335,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-16T16:38:35Z",
-      "updated_at": "2026-04-16T16:39:12Z",
+      "updated_at": "2026-05-17T05:05:33Z",
       "merged_at": null,
       "author": "domainbridge",
       "author_avatar": "https://avatars.githubusercontent.com/u/276203446?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1005",
       "labels": [
+        "Stale",
         "Test links missing"
       ],
       "templates": [
@@ -3588,58 +3614,6 @@
       ]
     },
     {
-      "number": 932,
-      "title": "Add Storehaus (storehaus.ai) custom domain template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-31T13:35:23Z",
-      "updated_at": "2026-05-01T05:03:20Z",
-      "merged_at": null,
-      "author": "myoons",
-      "author_avatar": "https://avatars.githubusercontent.com/u/67945103?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/932",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "storehaus",
-          "service_id": "ai.domain",
-          "filename": "storehaus.ai.domain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 930,
-      "title": "Add Ablazgo domain verification template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-31T04:25:08Z",
-      "updated_at": "2026-05-01T05:03:21Z",
-      "merged_at": null,
-      "author": "wzdave",
-      "author_avatar": "https://avatars.githubusercontent.com/u/6155613?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/930",
-      "labels": [
-        "Stale",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "ablazgo",
-          "service_id": "com.domain-verification",
-          "filename": "ablazgo.com.domain-verification.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 763,
       "title": "Add groupId to DNS records for verification",
       "state": "open",
@@ -3670,7 +3644,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 598,
+        "review_count": 601,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3702,7 +3676,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 69,
+        "review_count": 68,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3765,6 +3739,15 @@
       "service_name": "Website and Mail",
       "logo_url": "https://domainconnect.org/wp-content/uploads/2017/06/about.me_-300x53.png",
       "record_count": 5
+    },
+    {
+      "filename": "achene.app.customdomain.json",
+      "provider_id": "achene.app",
+      "service_id": "customdomain",
+      "provider_name": "Achene",
+      "service_name": "Achene Custom Domain",
+      "logo_url": "https://achene.app/favicon-light.svg",
+      "record_count": 1
     },
     {
       "filename": "acymailing.com.acymailer.json",
@@ -4503,6 +4486,15 @@
       "service_name": "Email Verification",
       "logo_url": "https://coreware-app-coreware-production.s3.us-east-1.amazonaws.com/coreware-3/public/COREWARE-LOGOMARK.png",
       "record_count": 4
+    },
+    {
+      "filename": "crawlfix.ai.domain-verification.json",
+      "provider_id": "crawlfix.ai",
+      "service_id": "domain-verification",
+      "provider_name": "Crawlfix",
+      "service_name": "Domain Verification",
+      "logo_url": "https://crawlfix.ai/brand/crawlfix-logo.png",
+      "record_count": 1
     },
     {
       "filename": "creativo.ai.landingpages.json",
@@ -7878,6 +7870,15 @@
       "service_name": "Notealy Email Domain",
       "logo_url": "https://www.notealy.com/images/logo-brand-notealy.svg",
       "record_count": 3
+    },
+    {
+      "filename": "novantt.com.email-sending.json",
+      "provider_id": "novantt.com",
+      "service_id": "email-sending",
+      "provider_name": "Novantt",
+      "service_name": "Novantt Email Sending",
+      "logo_url": "https://www.novantt.com/images/novantt-logo.svg",
+      "record_count": 7
     },
     {
       "filename": "novu.co.inbound-email.json",
