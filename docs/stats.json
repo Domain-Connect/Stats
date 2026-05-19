@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T02:07:43.415882",
+  "generated_at": "2026-05-19T02:07:04.472427",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 727,
     "total_providers": 414,
     "total_merged_prs": 837,
-    "total_open_prs": 21,
+    "total_open_prs": 27,
     "total_contributors": 421,
     "avg_records_per_template": 3.29
   },
@@ -1535,7 +1535,7 @@
     },
     {
       "month": "2026-05",
-      "created": 39,
+      "created": 47,
       "merged": 37
     }
   ],
@@ -2156,13 +2156,13 @@
       "Checklist of common problems not complete": 16,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 19,
+      "PR description incomplete": 20,
       "Stale": 0,
-      "Test links missing": 33,
-      "automerge-possible": 13,
+      "Test links missing": 40,
+      "automerge-possible": 17,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 2,
+      "filename-error": 4,
       "hostRequired": 6,
       "no syncPubKeyDomain": 2,
       "question": 1,
@@ -2912,16 +2912,136 @@
   },
   "recent_prs": [
     {
-      "number": 1101,
-      "title": "Email Marketing DKIM/SPF - domainconnect.mail.codexsuit.com",
+      "number": 1110,
+      "title": "Add DiscoverWorthy managed-hosting template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-17T17:12:18Z",
-      "updated_at": "2026-05-17T17:14:20Z",
+      "created_at": "2026-05-18T21:36:56Z",
+      "updated_at": "2026-05-18T21:50:42Z",
+      "merged_at": null,
+      "author": "travis-sansome-discoverworthy",
+      "author_avatar": "https://avatars.githubusercontent.com/u/259183260?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1110",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "discoverworthy",
+          "service_id": "com.managed-hosting",
+          "filename": "discoverworthy.com.managed-hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1109,
+      "title": "Add configuration for CodexSuit email service",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T16:36:38Z",
+      "updated_at": "2026-05-18T16:37:18Z",
       "merged_at": null,
       "author": "gcompanydev",
       "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1101",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1109",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "codexsuit",
+          "service_id": "com.mail",
+          "filename": "codexsuit.com.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1108,
+      "title": "Add configuration for CodexSuit email service",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T16:24:32Z",
+      "updated_at": "2026-05-18T16:32:29Z",
+      "merged_at": null,
+      "author": "gcompanydev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1108",
+      "labels": [
+        "Test links missing",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "codexsuit",
+          "service_id": "com.mail",
+          "filename": "codexsuit.com.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1107,
+      "title": "Add DKIM/SPF configuration for CodexSuit email service",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T16:06:38Z",
+      "updated_at": "2026-05-18T16:10:36Z",
+      "merged_at": null,
+      "author": "gcompanydev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1107",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "codexsuit",
+          "service_id": "com.emaildkim",
+          "filename": "codexsuit.com.emaildkim.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1106,
+      "title": "Add DKIM/SPF configuration for CodexSuit email service",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T15:28:19Z",
+      "updated_at": "2026-05-18T15:29:13Z",
+      "merged_at": null,
+      "author": "gcompanydev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1106",
+      "labels": [
+        "Test links missing",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "codexsuit",
+          "service_id": "com.emaildkim",
+          "filename": "codexsuit.com.emaildkim.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1105,
+      "title": "Add configuration for CodexSuit email service",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T15:24:57Z",
+      "updated_at": "2026-05-18T15:25:44Z",
+      "merged_at": null,
+      "author": "gcompanydev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1105",
       "labels": [
         "Test links missing",
         "filename-error"
@@ -2929,8 +3049,32 @@
       "templates": [
         {
           "provider_id": "codexsuit",
-          "service_id": "com.emailDkim",
-          "filename": "codexsuit.com.emailDkim.json",
+          "service_id": "domainconnect.email",
+          "filename": "codexsuit.domainconnect.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1103,
+      "title": "Add jetemail.com.outbound-domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T09:37:43Z",
+      "updated_at": "2026-05-18T20:33:45Z",
+      "merged_at": null,
+      "author": "jetemail",
+      "author_avatar": "https://avatars.githubusercontent.com/u/172550771?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1103",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "jetemail",
+          "service_id": "com.outbound-domain",
+          "filename": "jetemail.com.outbound-domain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3008,15 +3152,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-12T22:38:51Z",
-      "updated_at": "2026-05-12T22:39:26Z",
+      "updated_at": "2026-05-18T14:00:43Z",
       "merged_at": null,
       "author": "shad0wlan",
       "author_avatar": "https://avatars.githubusercontent.com/u/80920175?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1094",
       "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
+        "hostRequired"
       ],
       "templates": [
         {
@@ -3060,14 +3202,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-06T16:41:53Z",
-      "updated_at": "2026-05-09T07:53:28Z",
+      "updated_at": "2026-05-18T16:28:37Z",
       "merged_at": null,
       "author": "simulsarker007",
       "author_avatar": "https://avatars.githubusercontent.com/u/79377744?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1078",
       "labels": [
-        "PR description incomplete",
-        "Test links missing",
         "automerge-possible"
       ],
       "templates": [
@@ -3308,12 +3448,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-17T12:07:56Z",
-      "updated_at": "2026-04-17T12:14:44Z",
+      "updated_at": "2026-05-18T05:38:47Z",
       "merged_at": null,
       "author": "ruhanixcreations",
       "author_avatar": "https://avatars.githubusercontent.com/u/221896339?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1012",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Test links missing",
         "schema-error",
