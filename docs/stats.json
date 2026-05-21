@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T02:05:52.572360",
+  "generated_at": "2026-05-21T02:05:37.219584",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 733,
     "total_providers": 420,
     "total_merged_prs": 844,
-    "total_open_prs": 24,
+    "total_open_prs": 29,
     "total_contributors": 422,
     "avg_records_per_template": 3.29
   },
@@ -1535,7 +1535,7 @@
     },
     {
       "month": "2026-05",
-      "created": 56,
+      "created": 64,
       "merged": 44
     }
   ],
@@ -2118,7 +2118,7 @@
       "Forged editor links": 3,
       "PR description incomplete": 70,
       "Stale": 0,
-      "Test links missing": 101,
+      "Test links missing": 102,
       "automerge-possible": 0,
       "blocked": 0,
       "duplicate": 0,
@@ -2153,17 +2153,17 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 21,
+      "Checklist of common problems not complete": 24,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 25,
+      "PR description incomplete": 29,
       "Stale": 0,
-      "Test links missing": 46,
-      "automerge-possible": 17,
+      "Test links missing": 53,
+      "automerge-possible": 20,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 11,
+      "hostRequired": 15,
       "no syncPubKeyDomain": 4,
       "question": 1,
       "schema-error": 1,
@@ -2566,7 +2566,7 @@
     },
     {
       "month": "2026-05",
-      "avg_comments": 0.3
+      "avg_comments": 0.2
     }
   ],
   "record_types": [
@@ -2912,6 +2912,194 @@
   },
   "recent_prs": [
     {
+      "number": 1127,
+      "title": "Add DeepCurrent Mailgun outreach template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-20T23:40:49Z",
+      "updated_at": "2026-05-21T00:04:42Z",
+      "merged_at": null,
+      "author": "ulmoai",
+      "author_avatar": "https://avatars.githubusercontent.com/u/206221336?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1127",
+      "labels": [
+        "Test links missing",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "deepcurrent",
+          "service_id": "app.mailgun-outreach",
+          "filename": "deepcurrent.app.mailgun-outreach.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1126,
+      "title": "Update template: treadcommand.com / custom-domain v2 — Cloudflare for SaaS migration",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-20T23:29:25Z",
+      "updated_at": "2026-05-20T23:29:58Z",
+      "merged_at": null,
+      "author": "CuriousKal",
+      "author_avatar": "https://avatars.githubusercontent.com/u/207044274?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1126",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "treadcommand",
+          "service_id": "com.custom-domain",
+          "filename": "treadcommand.com.custom-domain.json",
+          "logo_url": "https://www.treadcommand.com/logo.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1125,
+      "title": "Add new redirect domains for inbound email service",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-20T14:50:03Z",
+      "updated_at": "2026-05-20T15:03:56Z",
+      "merged_at": null,
+      "author": "scopsy",
+      "author_avatar": "https://avatars.githubusercontent.com/u/8872447?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1125",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "novu",
+          "service_id": "co.inbound-email",
+          "filename": "novu.co.inbound-email.json",
+          "logo_url": "https://dashboard.novu.co/images/novu-logo-dark.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1124,
+      "title": "Update syncPubKeyDomain to achene.app",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-20T14:24:56Z",
+      "updated_at": "2026-05-20T15:51:04Z",
+      "merged_at": null,
+      "author": "PeteJStewart",
+      "author_avatar": "https://avatars.githubusercontent.com/u/12816382?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1124",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "achene",
+          "service_id": "app.customdomain",
+          "filename": "achene.app.customdomain.json",
+          "logo_url": "https://achene.app/favicon-light.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1123,
+      "title": "Add Ivy's Studio Website custom-domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-20T11:18:24Z",
+      "updated_at": "2026-05-20T11:19:07Z",
+      "merged_at": null,
+      "author": "kennyxsx",
+      "author_avatar": "https://avatars.githubusercontent.com/u/249901283?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1123",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "studio",
+          "service_id": "ivy-s.de.custom-domain",
+          "filename": "studio.ivy-s.de.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1122,
+      "title": "add bce.email, bce.email inbound email",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-20T10:46:14Z",
+      "updated_at": "2026-05-20T11:02:00Z",
+      "merged_at": null,
+      "author": "earonesty",
+      "author_avatar": "https://avatars.githubusercontent.com/u/50769?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1122",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "bce",
+          "service_id": "email.bceemail",
+          "filename": "bce.email.bceemail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1121,
+      "title": "add StoryPages, StoryPages Website (subdomain), StoryPages Website (apex only), StoryPages Website (apex + www), StoryPages Email Authentication",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-20T08:45:10Z",
+      "updated_at": "2026-05-20T08:59:02Z",
+      "merged_at": null,
+      "author": "el-benito-sp",
+      "author_avatar": "https://avatars.githubusercontent.com/u/278276863?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1121",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "storypages",
+          "service_id": "ai.email",
+          "filename": "storypages.ai.email.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "storypages",
+          "service_id": "ai.site-root-www",
+          "filename": "storypages.ai.site-root-www.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "storypages",
+          "service_id": "ai.site-root",
+          "filename": "storypages.ai.site-root.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "storypages",
+          "service_id": "ai.site-subdomain",
+          "filename": "storypages.ai.site-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1119,
       "title": "Add EnigmaSuite (enigmasuite.com) service templates",
       "state": "open",
@@ -2941,52 +3129,6 @@
           "provider_id": "enigmasuite",
           "service_id": "com.domain-ownership",
           "filename": "enigmasuite.com.domain-ownership.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1111,
-      "title": "add StoryPages, StoryPages Website (subdomain), StoryPages Website (apex only), StoryPages Website (apex + www), StoryPages Email Authentication",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-19T10:54:48Z",
-      "updated_at": "2026-05-19T10:55:32Z",
-      "merged_at": null,
-      "author": "el-benito-sp",
-      "author_avatar": "https://avatars.githubusercontent.com/u/278276863?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1111",
-      "labels": [
-        "Test links missing",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "storypages",
-          "service_id": "ai.email",
-          "filename": "storypages.ai.email.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "storypages",
-          "service_id": "ai.site-root-www",
-          "filename": "storypages.ai.site-root-www.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "storypages",
-          "service_id": "ai.site-root",
-          "filename": "storypages.ai.site-root.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "storypages",
-          "service_id": "ai.site-subdomain",
-          "filename": "storypages.ai.site-subdomain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3707,45 +3849,19 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 763,
-      "title": "Add groupId to DNS records for verification",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-11T00:50:22Z",
-      "updated_at": "2026-05-05T04:36:54Z",
-      "merged_at": null,
-      "author": "aomkoyo",
-      "author_avatar": "https://avatars.githubusercontent.com/u/59776731?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/763",
-      "labels": [
-        "question",
-        "Stale",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "furimoe",
-          "service_id": "com.domain-verification",
-          "filename": "furimoe.com.domain-verification.json",
-          "logo_url": null,
-          "status": "modified"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 607,
+        "review_count": 608,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "kerolasa",
-        "review_count": 76,
+        "review_count": 75,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3771,7 +3887,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 75,
+        "review_count": 73,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
