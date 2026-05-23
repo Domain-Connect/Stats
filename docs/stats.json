@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-22T02:07:47.394004",
+  "generated_at": "2026-05-23T01:56:29.450646",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 740,
-    "total_providers": 424,
-    "total_merged_prs": 851,
+    "total_templates": 744,
+    "total_providers": 426,
+    "total_merged_prs": 857,
     "total_open_prs": 26,
     "total_contributors": 423,
-    "avg_records_per_template": 3.28
+    "avg_records_per_template": 3.29
   },
   "templates_growth": [
     {
@@ -580,9 +580,9 @@
     },
     {
       "month": "2026-05",
-      "added": 51,
+      "added": 55,
       "deleted": 0,
-      "cumulative": 740
+      "cumulative": 744
     }
   ],
   "providers_growth": [
@@ -1023,8 +1023,8 @@
     },
     {
       "month": "2026-05",
-      "added": 39,
-      "cumulative": 424
+      "added": 41,
+      "cumulative": 426
     }
   ],
   "pr_activity": [
@@ -1535,8 +1535,8 @@
     },
     {
       "month": "2026-05",
-      "created": 68,
-      "merged": 51
+      "created": 74,
+      "merged": 57
     }
   ],
   "pr_time_to_merge": [
@@ -1926,7 +1926,7 @@
     },
     {
       "month": "2026-05",
-      "avg_days": 1.5
+      "avg_days": 1.4
     }
   ],
   "pr_label_activity": [
@@ -2153,20 +2153,20 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 26,
+      "Checklist of common problems not complete": 27,
       "Chores": 0,
       "Forged editor links": 4,
-      "PR description incomplete": 31,
+      "PR description incomplete": 32,
       "Stale": 0,
-      "Test links missing": 56,
-      "automerge-possible": 22,
+      "Test links missing": 61,
+      "automerge-possible": 24,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 4,
-      "hostRequired": 16,
+      "filename-error": 5,
+      "hostRequired": 17,
       "no syncPubKeyDomain": 4,
       "question": 1,
-      "schema-error": 1,
+      "schema-error": 2,
       "syncBlock": 1,
       "warnPhishing": 0
     }
@@ -2572,23 +2572,23 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 534
+      "count": 536
     },
     {
       "type": "TXT",
-      "count": 337
+      "count": 340
     },
     {
       "type": "A",
-      "count": 248
+      "count": 249
     },
     {
       "type": "SPFM",
-      "count": 168
+      "count": 170
     },
     {
       "type": "MX",
-      "count": 140
+      "count": 143
     },
     {
       "type": "SRV",
@@ -2631,7 +2631,7 @@
         "provider_id": "godaddy.com",
         "provider_name": "GoDaddy",
         "logo_url": "https://www.domainconnect.org/wp-content/uploads/2020/02/godaddy_logo_new.png",
-        "template_count": 12
+        "template_count": 13
       },
       {
         "provider_id": "secureserver.net",
@@ -2744,6 +2744,20 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "keplars.com",
+        "provider_name": "Keplars",
+        "logo_url": "https://cdn.keplersmail.com/keplars-logo-main.svg",
+        "template_count": 1,
+        "first_added": "2026-05-22"
+      },
+      {
+        "provider_id": "studio.ivy-s.de",
+        "provider_name": "Ivy's Studio",
+        "logo_url": "https://studio.ivy-s.de/static/brand-logo-256.png",
+        "template_count": 1,
+        "first_added": "2026-05-22"
+      },
+      {
         "provider_id": "permanu.com",
         "provider_name": "Deploy by Permanu",
         "logo_url": null,
@@ -2838,7 +2852,7 @@
         "provider_id": "vohtrah.com",
         "provider_name": "Vohtrah",
         "logo_url": "https://vohtrah.com/logo.svg",
-        "template_count": 2,
+        "template_count": 3,
         "first_added": "2026-05-15"
       },
       {
@@ -2868,35 +2882,21 @@
         "logo_url": "https://app.addresstwo.com/assets/images/adTwoAccessBarLogo.png",
         "template_count": 1,
         "first_added": "2026-05-12"
-      },
-      {
-        "provider_id": "emilytics.com",
-        "provider_name": "Emilytics",
-        "logo_url": "https://emilytics.com/emilytics-icon.png",
-        "template_count": 1,
-        "first_added": "2026-05-11"
-      },
-      {
-        "provider_id": "mesquared.ai",
-        "provider_name": "MeSquared Marketing",
-        "logo_url": "https://marketing.mesquared.ai/branding/mesquared-logo.svg",
-        "template_count": 1,
-        "first_added": "2026-05-11"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 740,
+    "total_templates": 744,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 669
+        "count": 673
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 495
+        "count": 498
       },
       {
         "name": "warnPhishing",
@@ -2906,64 +2906,88 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 190
+        "count": 191
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 1131,
-      "title": "Vohtrah, 2 templates",
+      "number": 1137,
+      "title": "Campaign Deputy Templates",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-21T19:34:27Z",
-      "updated_at": "2026-05-21T19:35:01Z",
+      "created_at": "2026-05-22T19:30:35Z",
+      "updated_at": "2026-05-22T19:40:39Z",
       "merged_at": null,
-      "author": "vohtrah",
-      "author_avatar": "https://avatars.githubusercontent.com/u/281778665?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1131",
-      "labels": [
-        "hostRequired",
-        "automerge-possible"
-      ],
+      "author": "joshbartley",
+      "author_avatar": "https://avatars.githubusercontent.com/u/5738532?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1137",
+      "labels": [],
       "templates": [
         {
-          "provider_id": "vohtrah",
-          "service_id": "com.lead-magnet",
-          "filename": "vohtrah.com.lead-magnet.json",
-          "logo_url": "https://vohtrah.com/logo.svg",
-          "status": "modified"
+          "provider_id": "campaigndeputy",
+          "service_id": "app.email-delegated",
+          "filename": "campaigndeputy.app.email-delegated.json",
+          "logo_url": null,
+          "status": "added"
         },
         {
-          "provider_id": "vohtrah",
-          "service_id": "com.mailgun-sender",
-          "filename": "vohtrah.com.mailgun-sender.json",
+          "provider_id": "campaigndeputy",
+          "service_id": "app.email-full",
+          "filename": "campaigndeputy.app.email-full.json",
           "logo_url": null,
           "status": "added"
         }
       ]
     },
     {
-      "number": 1130,
-      "title": "New template: keplars.com / email",
+      "number": 1134,
+      "title": "Update treadcommand.com template to v3: dual CNAME (www + apex)",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-21T16:44:54Z",
-      "updated_at": "2026-05-21T17:14:12Z",
+      "created_at": "2026-05-22T18:29:44Z",
+      "updated_at": "2026-05-22T18:30:17Z",
       "merged_at": null,
-      "author": "debojyoti452",
-      "author_avatar": "https://avatars.githubusercontent.com/u/20729878?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1130",
+      "author": "CuriousKal",
+      "author_avatar": "https://avatars.githubusercontent.com/u/207044274?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1134",
       "labels": [
-        "automerge-possible"
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "schema-error"
       ],
       "templates": [
         {
-          "provider_id": "keplars",
-          "service_id": "com.email",
-          "filename": "keplars.com.email.json",
-          "logo_url": null,
-          "status": "added"
+          "provider_id": "treadcommand",
+          "service_id": "com.custom-domain",
+          "filename": "treadcommand.com.custom-domain.json",
+          "logo_url": "https://www.treadcommand.com/logo.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1133,
+      "title": "Add TXT record and change Vercel IP",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-22T14:15:40Z",
+      "updated_at": "2026-05-22T14:16:36Z",
+      "merged_at": null,
+      "author": "alex-matatov-am",
+      "author_avatar": "https://avatars.githubusercontent.com/u/282554495?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1133",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "any",
+          "service_id": "market.store",
+          "filename": "any.market.store.json",
+          "logo_url": "https://us.any.market/icons/logo.svg",
+          "status": "modified"
         }
       ]
     },
@@ -3009,30 +3033,6 @@
           "provider_id": "deepcurrent",
           "service_id": "app.mailgun-outreach",
           "filename": "deepcurrent.app.mailgun-outreach.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1123,
-      "title": "Add Ivy's Studio Website custom-domain template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-20T11:18:24Z",
-      "updated_at": "2026-05-20T11:19:07Z",
-      "merged_at": null,
-      "author": "kennyxsx",
-      "author_avatar": "https://avatars.githubusercontent.com/u/249901283?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1123",
-      "labels": [
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "studio",
-          "service_id": "ivy-s.de.custom-domain",
-          "filename": "studio.ivy-s.de.custom-domain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3770,7 +3770,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 615,
+        "review_count": 619,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3802,7 +3802,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 71,
+        "review_count": 73,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -5640,6 +5640,15 @@
       "record_count": 2
     },
     {
+      "filename": "godaddy.com.ans-registration.json",
+      "provider_id": "godaddy.com",
+      "service_id": "ans-registration",
+      "provider_name": "GoDaddy",
+      "service_name": "Agent Name Service Registration",
+      "logo_url": "https://www.domainconnect.org/wp-content/uploads/2020/02/godaddy_logo_new.png",
+      "record_count": 3
+    },
+    {
       "filename": "godaddy.com.cpanel.json",
       "provider_id": "godaddy.com",
       "service_id": "cpanel",
@@ -6963,6 +6972,15 @@
       "record_count": 20
     },
     {
+      "filename": "keplars.com.email.json",
+      "provider_id": "keplars.com",
+      "service_id": "email",
+      "provider_name": "Keplars",
+      "service_name": "Email",
+      "logo_url": "https://cdn.keplersmail.com/keplars-logo-main.svg",
+      "record_count": 5
+    },
+    {
       "filename": "keyauth.cc.api-custom-domains.json",
       "provider_id": "keyauth.cc",
       "service_id": "api-custom-domains",
@@ -7410,7 +7428,7 @@
       "provider_name": "Axene Mailer",
       "service_name": "Axene Mailer - Transactional and Marketing Email",
       "logo_url": "https://mail.axene.io/email-assets/logo.png",
-      "record_count": 5
+      "record_count": 7
     },
     {
       "filename": "mail.dishis.tech.ditmail.json",
@@ -9474,6 +9492,15 @@
       "record_count": 1
     },
     {
+      "filename": "studio.ivy-s.de.custom-domain.json",
+      "provider_id": "studio.ivy-s.de",
+      "service_id": "custom-domain",
+      "provider_name": "Ivy's Studio",
+      "service_name": "Website",
+      "logo_url": "https://studio.ivy-s.de/static/brand-logo-256.png",
+      "record_count": 2
+    },
+    {
       "filename": "studio360.art.website.json",
       "provider_id": "studio360.art",
       "service_id": "website",
@@ -10072,9 +10099,18 @@
       "provider_id": "vohtrah.com",
       "service_id": "lead-magnet",
       "provider_name": "Vohtrah",
-      "service_name": "Lead magnet custom domain",
+      "service_name": "Subdomain connection",
       "logo_url": "https://vohtrah.com/logo.svg",
       "record_count": 2
+    },
+    {
+      "filename": "vohtrah.com.mailgun-sender.json",
+      "provider_id": "vohtrah.com",
+      "service_id": "mailgun-sender",
+      "provider_name": "Vohtrah",
+      "service_name": "Email authentication",
+      "logo_url": "https://vohtrah.com/logo.svg",
+      "record_count": 9
     },
     {
       "filename": "vulnalyze.com.domain-verification.json",
