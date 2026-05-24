@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T01:56:29.450646",
+  "generated_at": "2026-05-24T02:03:52.132982",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 744,
     "total_providers": 426,
     "total_merged_prs": 857,
-    "total_open_prs": 26,
+    "total_open_prs": 27,
     "total_contributors": 423,
     "avg_records_per_template": 3.29
   },
@@ -1535,7 +1535,7 @@
     },
     {
       "month": "2026-05",
-      "created": 74,
+      "created": 77,
       "merged": 57
     }
   ],
@@ -2153,20 +2153,20 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 27,
+      "Checklist of common problems not complete": 29,
       "Chores": 0,
       "Forged editor links": 4,
-      "PR description incomplete": 32,
+      "PR description incomplete": 34,
       "Stale": 0,
-      "Test links missing": 61,
-      "automerge-possible": 24,
+      "Test links missing": 64,
+      "automerge-possible": 25,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 5,
-      "hostRequired": 17,
+      "hostRequired": 19,
       "no syncPubKeyDomain": 4,
       "question": 1,
-      "schema-error": 2,
+      "schema-error": 4,
       "syncBlock": 1,
       "warnPhishing": 0
     }
@@ -2912,6 +2912,54 @@
   },
   "recent_prs": [
     {
+      "number": 1140,
+      "title": "Add Reeva.me mail template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-23T04:52:33Z",
+      "updated_at": "2026-05-23T06:05:40Z",
+      "merged_at": null,
+      "author": "shukiv",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7959559?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1140",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "reeva",
+          "service_id": "me.mail",
+          "filename": "reeva.me.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1138,
+      "title": "Add usecortana.ai tracking pixel configuration",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-23T02:06:35Z",
+      "updated_at": "2026-05-23T02:36:37Z",
+      "merged_at": null,
+      "author": "mateiparvu",
+      "author_avatar": "https://avatars.githubusercontent.com/u/149692796?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1138",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "usecortana",
+          "service_id": "ai.tracking-pixel",
+          "filename": "usecortana.ai.tracking-pixel.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1137,
       "title": "Campaign Deputy Templates",
       "state": "open",
@@ -2973,14 +3021,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-22T14:15:40Z",
-      "updated_at": "2026-05-22T14:16:36Z",
+      "updated_at": "2026-05-23T08:18:52Z",
       "merged_at": null,
       "author": "alex-matatov-am",
       "author_avatar": "https://avatars.githubusercontent.com/u/282554495?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1133",
-      "labels": [
-        "Test links missing"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "any",
@@ -3716,45 +3762,19 @@
       ]
     },
     {
-      "number": 956,
-      "title": "AuthlyX",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T19:14:48Z",
-      "updated_at": "2026-05-08T04:31:04Z",
-      "merged_at": null,
-      "author": "bruuuhoffical",
-      "author_avatar": "https://avatars.githubusercontent.com/u/148368732?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/956",
-      "labels": [
-        "Stale",
-        "AI crap",
-        "Test links missing",
-        "schema-error",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "authly",
-          "service_id": "cc.api",
-          "filename": "authly.cc.api.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 942,
       "title": "Add euromail.dev mail template",
       "state": "open",
       "merged": false,
       "created_at": "2026-04-04T11:33:56Z",
-      "updated_at": "2026-04-22T11:50:46Z",
+      "updated_at": "2026-05-23T04:58:11Z",
       "merged_at": null,
       "author": "lamminpaa",
       "author_avatar": "https://avatars.githubusercontent.com/u/1034169?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/942",
-      "labels": [],
+      "labels": [
+        "Stale"
+      ],
       "templates": [
         {
           "provider_id": "euromail",
@@ -3802,7 +3822,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 73,
+        "review_count": 69,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
