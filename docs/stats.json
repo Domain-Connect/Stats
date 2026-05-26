@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T02:12:08.232712",
+  "generated_at": "2026-05-26T02:02:50.343642",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 744,
     "total_providers": 426,
     "total_merged_prs": 857,
-    "total_open_prs": 29,
+    "total_open_prs": 36,
     "total_contributors": 423,
     "avg_records_per_template": 3.29
   },
@@ -1535,7 +1535,7 @@
     },
     {
       "month": "2026-05",
-      "created": 79,
+      "created": 91,
       "merged": 57
     }
   ],
@@ -2153,22 +2153,22 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 30,
+      "Checklist of common problems not complete": 37,
       "Chores": 0,
-      "Forged editor links": 4,
-      "PR description incomplete": 35,
+      "Forged editor links": 7,
+      "PR description incomplete": 42,
       "Stale": 0,
-      "Test links missing": 65,
-      "automerge-possible": 25,
+      "Test links missing": 75,
+      "automerge-possible": 29,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 5,
-      "hostRequired": 21,
-      "no syncPubKeyDomain": 4,
+      "hostRequired": 23,
+      "no syncPubKeyDomain": 5,
       "question": 1,
       "schema-error": 4,
       "syncBlock": 1,
-      "warnPhishing": 0
+      "warnPhishing": 1
     }
   ],
   "pr_comment_activity": [
@@ -2911,6 +2911,188 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1152,
+      "title": "Fix: emailr.dev templates — move SPFM from apex to Mail-From subdomain (v2)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-25T22:39:02Z",
+      "updated_at": "2026-05-25T22:56:18Z",
+      "merged_at": null,
+      "author": "saeedmsdi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3229325?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1152",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "emailr",
+          "service_id": "dev.send-receive",
+          "filename": "emailr.dev.send-receive.json",
+          "logo_url": "https://emailr.dev/black_logo.svg",
+          "status": "modified"
+        },
+        {
+          "provider_id": "emailr",
+          "service_id": "dev.send",
+          "filename": "emailr.dev.send.json",
+          "logo_url": "https://emailr.dev/black_logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1150,
+      "title": "Create godrivv.com.routing.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-25T21:47:23Z",
+      "updated_at": "2026-05-25T22:07:48Z",
+      "merged_at": null,
+      "author": "waizuali69-cyber",
+      "author_avatar": "https://avatars.githubusercontent.com/u/277059642?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1150",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "godrivv",
+          "service_id": "com.routing",
+          "filename": "godrivv.com.routing.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1149,
+      "title": "Add OpenLen custom-domain templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-25T21:39:42Z",
+      "updated_at": "2026-05-25T22:14:31Z",
+      "merged_at": null,
+      "author": "orbita-pos",
+      "author_avatar": "https://avatars.githubusercontent.com/u/244853016?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1149",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "openlen",
+          "service_id": "com.custom-domain-apex",
+          "filename": "openlen.com.custom-domain-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "openlen",
+          "service_id": "com.custom-domain-subdomain",
+          "filename": "openlen.com.custom-domain-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1148,
+      "title": "Add restorehub.net.widget-domain-verify template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-25T21:27:38Z",
+      "updated_at": "2026-05-25T22:28:12Z",
+      "merged_at": null,
+      "author": "alphajew420",
+      "author_avatar": "https://avatars.githubusercontent.com/u/145304696?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1148",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "restorehub",
+          "service_id": "net.widget-domain-verify",
+          "filename": "restorehub.net.widget-domain-verify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1147,
+      "title": "Add saleya.app custom-domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-25T19:17:52Z",
+      "updated_at": "2026-05-25T19:18:26Z",
+      "merged_at": null,
+      "author": "roboshopspb",
+      "author_avatar": "https://avatars.githubusercontent.com/u/91343879?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1147",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "saleya",
+          "service_id": "app.custom-domain",
+          "filename": "saleya.app.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1145,
+      "title": "Add StoryPages site-subdomain-root template (subdomain + root redirect)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-25T11:34:13Z",
+      "updated_at": "2026-05-25T12:22:03Z",
+      "merged_at": null,
+      "author": "el-benito-sp",
+      "author_avatar": "https://avatars.githubusercontent.com/u/278276863?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1145",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "storypages",
+          "service_id": "ai.site-subdomain-root",
+          "filename": "storypages.ai.site-subdomain-root.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1143,
+      "title": "Add InvestorHub email setup templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-25T05:42:31Z",
+      "updated_at": "2026-05-25T06:57:32Z",
+      "merged_at": null,
+      "author": "c20020207",
+      "author_avatar": "https://avatars.githubusercontent.com/u/43771303?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1143",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "investorhub",
+          "service_id": "com.email-setup-apex",
+          "filename": "investorhub.com.email-setup-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "investorhub",
+          "service_id": "com.email-setup",
+          "filename": "investorhub.com.email-setup.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1142,
       "title": "Add Domain Connect template for unhid.ai",
@@ -3877,7 +4059,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 68,
+        "review_count": 66,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
