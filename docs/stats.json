@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-26T02:02:50.343642",
+  "generated_at": "2026-05-27T02:11:28.145942",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 744,
-    "total_providers": 426,
-    "total_merged_prs": 857,
-    "total_open_prs": 36,
-    "total_contributors": 423,
-    "avg_records_per_template": 3.29
+    "total_templates": 753,
+    "total_providers": 431,
+    "total_merged_prs": 864,
+    "total_open_prs": 31,
+    "total_contributors": 424,
+    "avg_records_per_template": 3.32
   },
   "templates_growth": [
     {
@@ -580,9 +580,9 @@
     },
     {
       "month": "2026-05",
-      "added": 55,
+      "added": 64,
       "deleted": 0,
-      "cumulative": 744
+      "cumulative": 753
     }
   ],
   "providers_growth": [
@@ -1023,8 +1023,8 @@
     },
     {
       "month": "2026-05",
-      "added": 41,
-      "cumulative": 426
+      "added": 46,
+      "cumulative": 431
     }
   ],
   "pr_activity": [
@@ -1535,8 +1535,8 @@
     },
     {
       "month": "2026-05",
-      "created": 91,
-      "merged": 57
+      "created": 93,
+      "merged": 64
     }
   ],
   "pr_time_to_merge": [
@@ -1926,7 +1926,7 @@
     },
     {
       "month": "2026-05",
-      "avg_days": 1.4
+      "avg_days": 1.5
     }
   ],
   "pr_label_activity": [
@@ -2156,14 +2156,14 @@
       "Checklist of common problems not complete": 37,
       "Chores": 0,
       "Forged editor links": 7,
-      "PR description incomplete": 42,
+      "PR description incomplete": 43,
       "Stale": 0,
-      "Test links missing": 75,
+      "Test links missing": 77,
       "automerge-possible": 29,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 5,
-      "hostRequired": 23,
+      "hostRequired": 24,
       "no syncPubKeyDomain": 5,
       "question": 1,
       "schema-error": 4,
@@ -2572,23 +2572,23 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 536
+      "count": 545
     },
     {
       "type": "TXT",
-      "count": 340
+      "count": 347
     },
     {
       "type": "A",
-      "count": 249
+      "count": 251
     },
     {
       "type": "SPFM",
-      "count": 170
+      "count": 173
     },
     {
       "type": "MX",
-      "count": 143
+      "count": 146
     },
     {
       "type": "SRV",
@@ -2604,7 +2604,7 @@
     },
     {
       "type": "NS",
-      "count": 6
+      "count": 7
     },
     {
       "type": "APEXCNAME",
@@ -2706,6 +2706,12 @@
         "template_count": 5
       },
       {
+        "provider_id": "storypages.ai",
+        "provider_name": "StoryPages",
+        "logo_url": "https://platform.storypages.ai/_next/static/media/storypages-logo.2dfb6f9c.png",
+        "template_count": 5
+      },
+      {
         "provider_id": "titanaudits.com",
         "provider_name": "InstantDMARC",
         "logo_url": "https://img.plasmic.app/img-optimizer/v1/img/8e5e377d6700a6e005cda1483ddd5e1f.png",
@@ -2734,15 +2740,44 @@
         "provider_name": "Leadpages",
         "logo_url": "https://my.leadpages.net/static/current/img/logos/logo_icon.svg",
         "template_count": 4
-      },
-      {
-        "provider_id": "mailerlite.com",
-        "provider_name": "MailerLite",
-        "logo_url": null,
-        "template_count": 4
       }
     ],
     "last_30_added": [
+      {
+        "provider_id": "campaigndeputy.app",
+        "provider_name": "Campaign Deputy",
+        "logo_url": "https://cdn.campaigndeputy.com/img/logo_2026.png",
+        "template_count": 2,
+        "first_added": "2026-05-26"
+      },
+      {
+        "provider_id": "usecortana.ai",
+        "provider_name": "Cortana",
+        "logo_url": "https://app.usecortana.ai/icon.png",
+        "template_count": 1,
+        "first_added": "2026-05-26"
+      },
+      {
+        "provider_id": "reeva.me",
+        "provider_name": "Reeva.me",
+        "logo_url": "https://app.reeva.me/auth-bg.png",
+        "template_count": 1,
+        "first_added": "2026-05-26"
+      },
+      {
+        "provider_id": "unhid.ai",
+        "provider_name": "Unhid",
+        "logo_url": "https://www.unhid.ai/logo.png",
+        "template_count": 1,
+        "first_added": "2026-05-26"
+      },
+      {
+        "provider_id": "investorhub.com",
+        "provider_name": "InvestorHub",
+        "logo_url": "https://investorhub.com/logo.svg",
+        "template_count": 2,
+        "first_added": "2026-05-26"
+      },
       {
         "provider_id": "keplars.com",
         "provider_name": "Keplars",
@@ -2768,7 +2803,7 @@
         "provider_id": "storypages.ai",
         "provider_name": "StoryPages",
         "logo_url": "https://platform.storypages.ai/_next/static/media/storypages-logo.2dfb6f9c.png",
-        "template_count": 4,
+        "template_count": 5,
         "first_added": "2026-05-21"
       },
       {
@@ -2847,56 +2882,21 @@
         "logo_url": "https://www.novantt.com/images/novantt-logo.svg",
         "template_count": 1,
         "first_added": "2026-05-17"
-      },
-      {
-        "provider_id": "vohtrah.com",
-        "provider_name": "Vohtrah",
-        "logo_url": "https://vohtrah.com/logo.svg",
-        "template_count": 3,
-        "first_added": "2026-05-15"
-      },
-      {
-        "provider_id": "instanto",
-        "provider_name": "Instanto",
-        "logo_url": "https://instanto.site/images/logo.png",
-        "template_count": 1,
-        "first_added": "2026-05-14"
-      },
-      {
-        "provider_id": "diamondhost.tw",
-        "provider_name": "DiamondHost",
-        "logo_url": "https://r2.diamondhost.tw/logo.png",
-        "template_count": 1,
-        "first_added": "2026-05-14"
-      },
-      {
-        "provider_id": "proofly.ae",
-        "provider_name": "Proofly",
-        "logo_url": "https://proofly.ae/logo.png",
-        "template_count": 1,
-        "first_added": "2026-05-12"
-      },
-      {
-        "provider_id": "addresstwo.com",
-        "provider_name": "AddressTwo",
-        "logo_url": "https://app.addresstwo.com/assets/images/adTwoAccessBarLogo.png",
-        "template_count": 1,
-        "first_added": "2026-05-12"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 744,
+    "total_templates": 753,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 673
+        "count": 682
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 498
+        "count": 505
       },
       {
         "name": "warnPhishing",
@@ -2906,11 +2906,64 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 191
+        "count": 194
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 1156,
+      "title": "Add Commercit storefront templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-26T20:01:37Z",
+      "updated_at": "2026-05-26T21:28:08Z",
+      "merged_at": null,
+      "author": "niknot",
+      "author_avatar": "https://avatars.githubusercontent.com/u/6864645?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1156",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "commercit",
+          "service_id": "com.storefront-apex",
+          "filename": "commercit.com.storefront-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "commercit",
+          "service_id": "com.storefront-subdomain",
+          "filename": "commercit.com.storefront-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1155,
+      "title": "Add Mailtosh sending-domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-26T02:14:15Z",
+      "updated_at": "2026-05-26T02:23:03Z",
+      "merged_at": null,
+      "author": "xaviergong3515",
+      "author_avatar": "https://avatars.githubusercontent.com/u/77560342?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1155",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mailtosh",
+          "service_id": "com.sending-domain",
+          "filename": "mailtosh.com.sending-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1152,
       "title": "Fix: emailr.dev templates — move SPFM from apex to Mail-From subdomain (v2)",
@@ -3043,189 +3096,6 @@
       ]
     },
     {
-      "number": 1145,
-      "title": "Add StoryPages site-subdomain-root template (subdomain + root redirect)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-25T11:34:13Z",
-      "updated_at": "2026-05-25T12:22:03Z",
-      "merged_at": null,
-      "author": "el-benito-sp",
-      "author_avatar": "https://avatars.githubusercontent.com/u/278276863?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1145",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "storypages",
-          "service_id": "ai.site-subdomain-root",
-          "filename": "storypages.ai.site-subdomain-root.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1143,
-      "title": "Add InvestorHub email setup templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-25T05:42:31Z",
-      "updated_at": "2026-05-25T06:57:32Z",
-      "merged_at": null,
-      "author": "c20020207",
-      "author_avatar": "https://avatars.githubusercontent.com/u/43771303?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1143",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "investorhub",
-          "service_id": "com.email-setup-apex",
-          "filename": "investorhub.com.email-setup-apex.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "investorhub",
-          "service_id": "com.email-setup",
-          "filename": "investorhub.com.email-setup.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1142,
-      "title": "Add Domain Connect template for unhid.ai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-24T15:50:56Z",
-      "updated_at": "2026-05-24T15:51:30Z",
-      "merged_at": null,
-      "author": "simplyi",
-      "author_avatar": "https://avatars.githubusercontent.com/u/690804?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1142",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "unhid",
-          "service_id": "ai.website",
-          "filename": "unhid.ai.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1141,
-      "title": "Add templates for furimoe.com (domain-verification, figura-server)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-24T13:00:09Z",
-      "updated_at": "2026-05-24T14:24:09Z",
-      "merged_at": null,
-      "author": "aomkoyo",
-      "author_avatar": "https://avatars.githubusercontent.com/u/59776731?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1141",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "furimoe",
-          "service_id": "com.domain-verification",
-          "filename": "furimoe.com.domain-verification.json",
-          "logo_url": null,
-          "status": "modified"
-        },
-        {
-          "provider_id": "furimoe",
-          "service_id": "com.figura-server",
-          "filename": "furimoe.com.figura-server.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1140,
-      "title": "Add Reeva.me mail template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-23T04:52:33Z",
-      "updated_at": "2026-05-24T14:24:46Z",
-      "merged_at": null,
-      "author": "shukiv",
-      "author_avatar": "https://avatars.githubusercontent.com/u/7959559?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1140",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "reeva",
-          "service_id": "me.mail",
-          "filename": "reeva.me.mail.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1138,
-      "title": "Add usecortana.ai tracking pixel configuration",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-23T02:06:35Z",
-      "updated_at": "2026-05-23T02:36:37Z",
-      "merged_at": null,
-      "author": "mateiparvu",
-      "author_avatar": "https://avatars.githubusercontent.com/u/149692796?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1138",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "usecortana",
-          "service_id": "ai.tracking-pixel",
-          "filename": "usecortana.ai.tracking-pixel.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1137,
-      "title": "Campaign Deputy Templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-22T19:30:35Z",
-      "updated_at": "2026-05-22T19:40:39Z",
-      "merged_at": null,
-      "author": "joshbartley",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5738532?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1137",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "campaigndeputy",
-          "service_id": "app.email-delegated",
-          "filename": "campaigndeputy.app.email-delegated.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "campaigndeputy",
-          "service_id": "app.email-full",
-          "filename": "campaigndeputy.app.email-full.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1134,
       "title": "Update treadcommand.com template to v3: dual CNAME (www + apex)",
       "state": "open",
@@ -3258,7 +3128,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-22T14:15:40Z",
-      "updated_at": "2026-05-24T09:09:36Z",
+      "updated_at": "2026-05-26T16:53:18Z",
       "merged_at": null,
       "author": "alex-matatov-am",
       "author_avatar": "https://avatars.githubusercontent.com/u/282554495?v=4",
@@ -4027,7 +3897,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 619,
+        "review_count": 626,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4059,7 +3929,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 66,
+        "review_count": 73,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4662,6 +4532,24 @@
       "service_name": "Bundly Bundle",
       "logo_url": "https://bundly.innolope.com/icon.svg",
       "record_count": 5
+    },
+    {
+      "filename": "campaigndeputy.app.email-delegated.json",
+      "provider_id": "campaigndeputy.app",
+      "service_id": "email-delegated",
+      "provider_name": "Campaign Deputy",
+      "service_name": "Campaign Deputy Email (with e. subdomain delegation)",
+      "logo_url": "https://cdn.campaigndeputy.com/img/logo_2026.png",
+      "record_count": 13
+    },
+    {
+      "filename": "campaigndeputy.app.email-full.json",
+      "provider_id": "campaigndeputy.app",
+      "service_id": "email-full",
+      "provider_name": "Campaign Deputy",
+      "service_name": "Campaign Deputy Email (all records)",
+      "logo_url": "https://cdn.campaigndeputy.com/img/logo_2026.png",
+      "record_count": 11
     },
     {
       "filename": "canva.com.website-v2.json",
@@ -5712,9 +5600,18 @@
       "provider_id": "furimoe.com",
       "service_id": "domain-verification",
       "provider_name": "Furimoe",
-      "service_name": "Domain Verification",
-      "logo_url": null,
+      "service_name": "Furimoe Domain Verification",
+      "logo_url": "https://cdn.masuru.in.th/storage/furimoe/furimoe-logo-2x1.webp",
       "record_count": 1
+    },
+    {
+      "filename": "furimoe.com.figura-server.json",
+      "provider_id": "furimoe.com",
+      "service_id": "figura-server",
+      "provider_name": "Furimoe",
+      "service_name": "Furimoe Figura Server",
+      "logo_url": "https://cdn.masuru.in.th/storage/furimoe/furimoe-logo-2x1.webp",
+      "record_count": 2
     },
     {
       "filename": "gearlaunch.com.website.json",
@@ -7137,6 +7034,24 @@
       "service_name": "Connect Domain to Instanto",
       "logo_url": "https://instanto.site/images/logo.png",
       "record_count": 1
+    },
+    {
+      "filename": "investorhub.com.email-setup-apex.json",
+      "provider_id": "investorhub.com",
+      "service_id": "email-setup-apex",
+      "provider_name": "InvestorHub",
+      "service_name": "InvestorHub (apex domain)",
+      "logo_url": "https://investorhub.com/logo.svg",
+      "record_count": 8
+    },
+    {
+      "filename": "investorhub.com.email-setup.json",
+      "provider_id": "investorhub.com",
+      "service_id": "email-setup",
+      "provider_name": "InvestorHub",
+      "service_name": "InvestorHub",
+      "logo_url": "https://investorhub.com/logo.svg",
+      "record_count": 8
     },
     {
       "filename": "ironshield.cloud.domain-protection.json",
@@ -8912,6 +8827,15 @@
       "record_count": 1
     },
     {
+      "filename": "reeva.me.mail.json",
+      "provider_id": "reeva.me",
+      "service_id": "mail",
+      "provider_name": "Reeva.me",
+      "service_name": "Reeva Mail",
+      "logo_url": "https://app.reeva.me/auth-bg.png",
+      "record_count": 7
+    },
+    {
       "filename": "relume.io.publish.json",
       "provider_id": "relume.io",
       "service_id": "publish",
@@ -9713,6 +9637,15 @@
       "record_count": 1
     },
     {
+      "filename": "storypages.ai.site-subdomain-root.json",
+      "provider_id": "storypages.ai",
+      "service_id": "site-subdomain-root",
+      "provider_name": "StoryPages",
+      "service_name": "StoryPages Website (subdomain + root redirect)",
+      "logo_url": "https://platform.storypages.ai/_next/static/media/storypages-logo.2dfb6f9c.png",
+      "record_count": 2
+    },
+    {
       "filename": "storypages.ai.site-subdomain.json",
       "provider_id": "storypages.ai",
       "service_id": "site-subdomain",
@@ -10136,6 +10069,15 @@
       "record_count": 8
     },
     {
+      "filename": "unhid.ai.website.json",
+      "provider_id": "unhid.ai",
+      "service_id": "website",
+      "provider_name": "Unhid",
+      "service_name": "Unhid AI Prerendering",
+      "logo_url": "https://www.unhid.ai/logo.png",
+      "record_count": 2
+    },
+    {
       "filename": "unkey.com.custom-domain.json",
       "provider_id": "unkey.com",
       "service_id": "custom-domain",
@@ -10152,6 +10094,15 @@
       "service_name": "Domain Setup",
       "logo_url": "https://upronix.com/domain-connect/logo.png",
       "record_count": 1
+    },
+    {
+      "filename": "usecortana.ai.tracking-pixel.json",
+      "provider_id": "usecortana.ai",
+      "service_id": "tracking-pixel",
+      "provider_name": "Cortana",
+      "service_name": "First-Party Tracking Pixel",
+      "logo_url": "https://app.usecortana.ai/icon.png",
+      "record_count": 2
     },
     {
       "filename": "userdashboard.pixely.com.arecord.json",
