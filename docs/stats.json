@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T02:11:28.145942",
+  "generated_at": "2026-05-28T01:54:02.678674",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 753,
     "total_providers": 431,
     "total_merged_prs": 864,
-    "total_open_prs": 31,
+    "total_open_prs": 32,
     "total_contributors": 424,
     "avg_records_per_template": 3.32
   },
@@ -1535,7 +1535,7 @@
     },
     {
       "month": "2026-05",
-      "created": 93,
+      "created": 94,
       "merged": 64
     }
   ],
@@ -2159,7 +2159,7 @@
       "PR description incomplete": 43,
       "Stale": 0,
       "Test links missing": 77,
-      "automerge-possible": 29,
+      "automerge-possible": 30,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 5,
@@ -2912,6 +2912,30 @@
   },
   "recent_prs": [
     {
+      "number": 1157,
+      "title": "Add Resend domain verification template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-27T18:12:33Z",
+      "updated_at": "2026-05-27T18:13:14Z",
+      "merged_at": null,
+      "author": "cassiozen",
+      "author_avatar": "https://avatars.githubusercontent.com/u/33676?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1157",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "resend",
+          "service_id": "com.domain-verification",
+          "filename": "resend.com.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1156,
       "title": "Add Commercit storefront templates",
       "state": "open",
@@ -2948,7 +2972,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-26T02:14:15Z",
-      "updated_at": "2026-05-26T02:23:03Z",
+      "updated_at": "2026-05-27T03:20:26Z",
       "merged_at": null,
       "author": "xaviergong3515",
       "author_avatar": "https://avatars.githubusercontent.com/u/77560342?v=4",
@@ -3128,12 +3152,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-22T14:15:40Z",
-      "updated_at": "2026-05-26T16:53:18Z",
+      "updated_at": "2026-05-27T07:22:24Z",
       "merged_at": null,
       "author": "alex-matatov-am",
       "author_avatar": "https://avatars.githubusercontent.com/u/282554495?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1133",
-      "labels": [],
+      "labels": [
+        "Test links missing"
+      ],
       "templates": [
         {
           "provider_id": "any",
@@ -3929,7 +3955,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 73,
+        "review_count": 71,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
