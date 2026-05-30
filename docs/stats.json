@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-29T02:03:13.448817",
+  "generated_at": "2026-05-30T01:57:32.554135",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 762,
-    "total_providers": 437,
-    "total_merged_prs": 873,
-    "total_open_prs": 25,
+    "total_templates": 763,
+    "total_providers": 438,
+    "total_merged_prs": 875,
+    "total_open_prs": 24,
     "total_contributors": 424,
     "avg_records_per_template": 3.31
   },
@@ -580,9 +580,9 @@
     },
     {
       "month": "2026-05",
-      "added": 73,
+      "added": 74,
       "deleted": 0,
-      "cumulative": 762
+      "cumulative": 763
     }
   ],
   "providers_growth": [
@@ -1023,8 +1023,8 @@
     },
     {
       "month": "2026-05",
-      "added": 52,
-      "cumulative": 437
+      "added": 53,
+      "cumulative": 438
     }
   ],
   "pr_activity": [
@@ -1535,8 +1535,8 @@
     },
     {
       "month": "2026-05",
-      "created": 97,
-      "merged": 73
+      "created": 100,
+      "merged": 75
     }
   ],
   "pr_time_to_merge": [
@@ -1926,7 +1926,7 @@
     },
     {
       "month": "2026-05",
-      "avg_days": 1.6
+      "avg_days": 1.7
     }
   ],
   "pr_label_activity": [
@@ -2153,13 +2153,13 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 37,
+      "Checklist of common problems not complete": 39,
       "Chores": 0,
       "Forged editor links": 7,
-      "PR description incomplete": 44,
+      "PR description incomplete": 47,
       "Stale": 0,
-      "Test links missing": 78,
-      "automerge-possible": 31,
+      "Test links missing": 81,
+      "automerge-possible": 33,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 6,
@@ -2572,11 +2572,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 551
+      "count": 552
     },
     {
       "type": "TXT",
-      "count": 353
+      "count": 354
     },
     {
       "type": "A",
@@ -2744,6 +2744,13 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "weweb.io",
+        "provider_name": "WeWeb",
+        "logo_url": "https://weweb-public.s3.us-east-1.amazonaws.com/weweb-logo-icon-black.svg",
+        "template_count": 1,
+        "first_added": "2026-05-29"
+      },
+      {
         "provider_id": "saleya.app",
         "provider_name": "Saleya",
         "logo_url": "https://saleya.app/apple-touch-icon.png",
@@ -2875,28 +2882,21 @@
         "logo_url": "https://cdn.codexsuit.com/frontend-contents/logos/codex/codex.svg",
         "template_count": 1,
         "first_added": "2026-05-19"
-      },
-      {
-        "provider_id": "jetemail.com",
-        "provider_name": "JetEmail",
-        "logo_url": "https://cdn.jetemail.com/assets/images/logo.svg",
-        "template_count": 1,
-        "first_added": "2026-05-19"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 762,
+    "total_templates": 763,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 691
+        "count": 692
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 510
+        "count": 511
       },
       {
         "name": "warnPhishing",
@@ -2906,30 +2906,30 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 197
+        "count": 198
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 1160,
-      "title": "Add WeWeb.io custom-domain template",
+      "number": 1163,
+      "title": "Create sendcorex.com.email.json",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-28T22:13:58Z",
-      "updated_at": "2026-05-28T22:21:45Z",
+      "created_at": "2026-05-29T06:24:59Z",
+      "updated_at": "2026-05-29T06:46:13Z",
       "merged_at": null,
-      "author": "weweb-adriengarcia",
-      "author_avatar": "https://avatars.githubusercontent.com/u/200087228?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1160",
+      "author": "marcossantosfl",
+      "author_avatar": "https://avatars.githubusercontent.com/u/56878202?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1163",
       "labels": [
-        "hostRequired"
+        "automerge-possible"
       ],
       "templates": [
         {
-          "provider_id": "weweb",
-          "service_id": "io.hosting",
-          "filename": "weweb.io.hosting.json",
+          "provider_id": "sendcorex",
+          "service_id": "com.email",
+          "filename": "sendcorex.com.email.json",
           "logo_url": null,
           "status": "added"
         }
@@ -2941,7 +2941,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-28T16:35:58Z",
-      "updated_at": "2026-05-28T16:45:43Z",
+      "updated_at": "2026-05-29T06:18:13Z",
       "merged_at": null,
       "author": "ATOM00blue",
       "author_avatar": "https://avatars.githubusercontent.com/u/219721791?v=4",
@@ -2982,30 +2982,6 @@
           "service_id": "com.custom-domain",
           "filename": "treadcommand.com.custom-domain.json",
           "logo_url": "https://www.treadcommand.com/logo.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 1133,
-      "title": "Add TXT record and change Vercel IP",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-22T14:15:40Z",
-      "updated_at": "2026-05-27T07:22:24Z",
-      "merged_at": null,
-      "author": "alex-matatov-am",
-      "author_avatar": "https://avatars.githubusercontent.com/u/282554495?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1133",
-      "labels": [
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "any",
-          "service_id": "market.store",
-          "filename": "any.market.store.json",
-          "logo_url": "https://us.any.market/icons/logo.svg",
           "status": "modified"
         }
       ]
@@ -3263,16 +3239,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-10T06:02:32Z",
-      "updated_at": "2026-05-10T06:03:07Z",
+      "updated_at": "2026-05-29T17:01:46Z",
       "merged_at": null,
       "author": "hemidirasim",
       "author_avatar": "https://avatars.githubusercontent.com/u/25175153?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1088",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "genitor",
@@ -3364,12 +3336,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-28T15:31:20Z",
-      "updated_at": "2026-04-28T15:32:02Z",
+      "updated_at": "2026-05-29T05:44:36Z",
       "merged_at": null,
       "author": "dmitrigrabov",
       "author_avatar": "https://avatars.githubusercontent.com/u/102119?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1050",
       "labels": [
+        "Stale",
         "Test links missing",
         "hostRequired"
       ],
@@ -3396,12 +3369,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-27T19:49:51Z",
-      "updated_at": "2026-04-28T18:51:34Z",
+      "updated_at": "2026-05-29T05:44:37Z",
       "merged_at": null,
       "author": "JChapman2",
       "author_avatar": "https://avatars.githubusercontent.com/u/9326606?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1044",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Test links missing"
       ],
@@ -3736,7 +3710,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 635,
+        "review_count": 637,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3768,7 +3742,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 74,
+        "review_count": 72,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3911,7 +3885,7 @@
       "provider_name": "Any Market",
       "service_name": "Store Custom Domain",
       "logo_url": "https://us.any.market/icons/logo.svg",
-      "record_count": 2
+      "record_count": 3
     },
     {
       "filename": "apexsales.ai.mailgun.json",
@@ -10401,6 +10375,15 @@
       "service_name": "WEGIC Websites",
       "logo_url": "https://cdn.wegic.ai/assets/logo.png",
       "record_count": 1
+    },
+    {
+      "filename": "weweb.io.hosting.json",
+      "provider_id": "weweb.io",
+      "service_id": "hosting",
+      "provider_name": "WeWeb",
+      "service_name": "WeWeb Hosting",
+      "logo_url": "https://weweb-public.s3.us-east-1.amazonaws.com/weweb-logo-icon-black.svg",
+      "record_count": 2
     },
     {
       "filename": "wisestamp.com.website.json",
