@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T02:32:51.950857",
+  "generated_at": "2026-06-03T02:39:11.707382",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 772,
     "total_providers": 446,
     "total_merged_prs": 885,
-    "total_open_prs": 21,
+    "total_open_prs": 23,
     "total_contributors": 425,
     "avg_records_per_template": 3.34
   },
@@ -1551,7 +1551,7 @@
     },
     {
       "month": "2026-06",
-      "created": 5,
+      "created": 8,
       "merged": 1
     }
   ],
@@ -2193,17 +2193,17 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 1,
+      "Checklist of common problems not complete": 3,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 2,
+      "PR description incomplete": 5,
       "Stale": 0,
-      "Test links missing": 4,
-      "automerge-possible": 1,
+      "Test links missing": 7,
+      "automerge-possible": 2,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 1,
+      "hostRequired": 3,
       "no syncPubKeyDomain": 1,
       "question": 0,
       "schema-error": 0,
@@ -2610,7 +2610,7 @@
     },
     {
       "month": "2026-06",
-      "avg_comments": 0.0
+      "avg_comments": 0.1
     }
   ],
   "record_types": [
@@ -2955,6 +2955,79 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1176,
+      "title": "Add SecondPage custom-domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-02T20:54:44Z",
+      "updated_at": "2026-06-02T21:02:42Z",
+      "merged_at": null,
+      "author": "chanj45",
+      "author_avatar": "https://avatars.githubusercontent.com/u/42654962?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1176",
+      "labels": [
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "secondpage",
+          "service_id": "cc.custom-domain",
+          "filename": "secondpage.cc.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1175,
+      "title": "add KonvoAI, Custom email domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-02T15:09:09Z",
+      "updated_at": "2026-06-02T15:21:43Z",
+      "merged_at": null,
+      "author": "gerardatkonvo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/217971832?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1175",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "konvoai",
+          "service_id": "com.email",
+          "filename": "konvoai.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1174,
+      "title": "Update byteseats.com.storefront: add Cloudflare ownership TXT record",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-02T02:58:58Z",
+      "updated_at": "2026-06-02T03:09:15Z",
+      "merged_at": null,
+      "author": "nader-bytesai",
+      "author_avatar": "https://avatars.githubusercontent.com/u/233369226?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1174",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "byteseats",
+          "service_id": "com.storefront",
+          "filename": "byteseats.com.storefront.json",
+          "logo_url": "https://static.trybytes.ai/bytes-new-logo.png",
+          "status": "modified"
+        }
+      ]
+    },
     {
       "number": 1173,
       "title": "Add hostaria.cloud wordpress-hostaria template",
@@ -3305,12 +3378,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-03T04:03:42Z",
-      "updated_at": "2026-05-03T04:18:33Z",
+      "updated_at": "2026-06-02T06:08:09Z",
       "merged_at": null,
       "author": "Gilayos",
       "author_avatar": "https://avatars.githubusercontent.com/u/88515535?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1068",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing"
@@ -3486,34 +3560,6 @@
           "service_id": "com.connect",
           "filename": "website-boost.com.connect.json",
           "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1012,
-      "title": "Add Ruhanix Creations Publish Template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-17T12:07:56Z",
-      "updated_at": "2026-05-18T05:38:47Z",
-      "merged_at": null,
-      "author": "ruhanixcreations",
-      "author_avatar": "https://avatars.githubusercontent.com/u/221896339?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1012",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing",
-        "schema-error",
-        "filename-error"
-      ],
-      "templates": [
-        {
-          "provider_id": "builder",
-          "service_id": "ruhanixcreations.in.publish",
-          "filename": "builder.ruhanixcreations.in.publish.json",
-          "logo_url": "https://ruhanixcreations.in/logo.png",
           "status": "added"
         }
       ]
