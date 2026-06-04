@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T02:39:11.707382",
+  "generated_at": "2026-06-04T02:35:42.526618",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 772,
     "total_providers": 446,
     "total_merged_prs": 885,
-    "total_open_prs": 23,
+    "total_open_prs": 29,
     "total_contributors": 425,
     "avg_records_per_template": 3.34
   },
@@ -1551,7 +1551,7 @@
     },
     {
       "month": "2026-06",
-      "created": 8,
+      "created": 15,
       "merged": 1
     }
   ],
@@ -2193,22 +2193,22 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 3,
+      "Checklist of common problems not complete": 4,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 5,
+      "PR description incomplete": 8,
       "Stale": 0,
-      "Test links missing": 7,
-      "automerge-possible": 2,
+      "Test links missing": 13,
+      "automerge-possible": 5,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 3,
-      "no syncPubKeyDomain": 1,
+      "hostRequired": 6,
+      "no syncPubKeyDomain": 2,
       "question": 0,
       "schema-error": 0,
-      "syncBlock": 0,
-      "warnPhishing": 0
+      "syncBlock": 1,
+      "warnPhishing": 1
     }
   ],
   "pr_comment_activity": [
@@ -2956,18 +2956,198 @@
   },
   "recent_prs": [
     {
+      "number": 1183,
+      "title": "Add domain ownership verification TXT record to Brixus365 template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-03T21:20:05Z",
+      "updated_at": "2026-06-03T21:27:41Z",
+      "merged_at": null,
+      "author": "amitection",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7465536?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1183",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "brixus365",
+          "service_id": "com.emailauth",
+          "filename": "brixus365.com.emailauth.json",
+          "logo_url": "https://brixus365.com/favicon.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1182,
+      "title": "Create zblocks.app.website.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-03T18:33:11Z",
+      "updated_at": "2026-06-03T18:33:46Z",
+      "merged_at": null,
+      "author": "ZinkoSoft",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7664290?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1182",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "zblocks",
+          "service_id": "app.website",
+          "filename": "zblocks.app.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1181,
+      "title": "Specific, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-03T17:52:06Z",
+      "updated_at": "2026-06-03T18:16:58Z",
+      "merged_at": null,
+      "author": "fabianlindfors",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4345277?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1181",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "specific",
+          "service_id": "dev.custom-domain-apex",
+          "filename": "specific.dev.custom-domain-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "specific",
+          "service_id": "dev.custom-domain-cname",
+          "filename": "specific.dev.custom-domain-cname.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1180,
+      "title": "Add Deepbluework email templates (email-setup + email with DKIM/DMARC/BIMI)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-03T14:34:28Z",
+      "updated_at": "2026-06-03T18:17:59Z",
+      "merged_at": null,
+      "author": "dbwcanalhas",
+      "author_avatar": "https://avatars.githubusercontent.com/u/98639341?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1180",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "deepbluework",
+          "service_id": "email-setup",
+          "filename": "deepbluework.email-setup.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "deepbluework",
+          "service_id": "email",
+          "filename": "deepbluework.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1179,
+      "title": "Add DirectIQ mail template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-03T12:32:47Z",
+      "updated_at": "2026-06-03T13:38:48Z",
+      "merged_at": null,
+      "author": "iljas-directiq",
+      "author_avatar": "https://avatars.githubusercontent.com/u/129504639?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1179",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "directiq",
+          "service_id": "com.mail",
+          "filename": "directiq.com.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1178,
+      "title": "Add linklyhq.com.cname-cloudflare (Cloudflare for SaaS CNAME)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-03T12:14:14Z",
+      "updated_at": "2026-06-03T12:29:38Z",
+      "merged_at": null,
+      "author": "chrism2671",
+      "author_avatar": "https://avatars.githubusercontent.com/u/456541?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1178",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "linklyhq",
+          "service_id": "com.cname-cloudflare",
+          "filename": "linklyhq.com.cname-cloudflare.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1177,
+      "title": "Add furlough.ai.custom-domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-03T03:34:16Z",
+      "updated_at": "2026-06-03T03:34:49Z",
+      "merged_at": null,
+      "author": "RogueZach",
+      "author_avatar": "https://avatars.githubusercontent.com/u/76545253?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1177",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "furlough",
+          "service_id": "ai.custom-domain",
+          "filename": "furlough.ai.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1176,
       "title": "Add SecondPage custom-domain template",
       "state": "open",
       "merged": false,
       "created_at": "2026-06-02T20:54:44Z",
-      "updated_at": "2026-06-02T21:02:42Z",
+      "updated_at": "2026-06-03T04:31:58Z",
       "merged_at": null,
       "author": "chanj45",
       "author_avatar": "https://avatars.githubusercontent.com/u/42654962?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1176",
       "labels": [
-        "Test links missing",
         "hostRequired"
       ],
       "templates": [
@@ -3536,35 +3716,6 @@
       ]
     },
     {
-      "number": 1016,
-      "title": "Create website-boost.com.connect.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-18T14:25:12Z",
-      "updated_at": "2026-05-19T05:34:45Z",
-      "merged_at": null,
-      "author": "website-boost",
-      "author_avatar": "https://avatars.githubusercontent.com/u/276099053?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1016",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing",
-        "schema-error",
-        "hostRequired",
-        "syncBlock"
-      ],
-      "templates": [
-        {
-          "provider_id": "website-boost",
-          "service_id": "com.connect",
-          "filename": "website-boost.com.connect.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 942,
       "title": "Add euromail.dev mail template",
       "state": "open",
@@ -3625,7 +3776,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 74,
+        "review_count": 70,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
