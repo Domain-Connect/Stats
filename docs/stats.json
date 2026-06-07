@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-06T02:01:00.224424",
+  "generated_at": "2026-06-07T02:29:02.165748",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 772,
-    "total_providers": 446,
-    "total_merged_prs": 885,
-    "total_open_prs": 35,
-    "total_contributors": 425,
+    "total_templates": 775,
+    "total_providers": 449,
+    "total_merged_prs": 891,
+    "total_open_prs": 31,
+    "total_contributors": 426,
     "avg_records_per_template": 3.34
   },
   "templates_growth": [
@@ -586,9 +586,9 @@
     },
     {
       "month": "2026-06",
-      "added": 1,
+      "added": 4,
       "deleted": 0,
-      "cumulative": 772
+      "cumulative": 775
     }
   ],
   "providers_growth": [
@@ -1034,8 +1034,8 @@
     },
     {
       "month": "2026-06",
-      "added": 1,
-      "cumulative": 446
+      "added": 4,
+      "cumulative": 449
     }
   ],
   "pr_activity": [
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 21,
-      "merged": 1
+      "created": 23,
+      "merged": 7
     }
   ],
   "pr_time_to_merge": [
@@ -1946,7 +1946,7 @@
     },
     {
       "month": "2026-06",
-      "avg_days": 0.1
+      "avg_days": 3.3
     }
   ],
   "pr_label_activity": [
@@ -2193,17 +2193,17 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 6,
+      "Checklist of common problems not complete": 7,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 11,
+      "PR description incomplete": 13,
       "Stale": 0,
-      "Test links missing": 17,
-      "automerge-possible": 7,
+      "Test links missing": 19,
+      "automerge-possible": 8,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 7,
+      "hostRequired": 8,
       "no syncPubKeyDomain": 3,
       "question": 0,
       "schema-error": 1,
@@ -2610,29 +2610,29 @@
     },
     {
       "month": "2026-06",
-      "avg_comments": 0.0
+      "avg_comments": 0.1
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 556
+      "count": 558
     },
     {
       "type": "TXT",
-      "count": 359
+      "count": 360
     },
     {
       "type": "A",
-      "count": 259
+      "count": 260
     },
     {
       "type": "SPFM",
-      "count": 179
+      "count": 180
     },
     {
       "type": "MX",
-      "count": 151
+      "count": 152
     },
     {
       "type": "SRV",
@@ -2788,6 +2788,27 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "hostaria.cloud",
+        "provider_name": "Hostaria",
+        "logo_url": "https://hostaria.cloud/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-06-06"
+      },
+      {
+        "provider_id": "daveloper.ai",
+        "provider_name": "Daveloper",
+        "logo_url": null,
+        "template_count": 1,
+        "first_added": "2026-06-06"
+      },
+      {
+        "provider_id": "konvoai.com",
+        "provider_name": "KonvoAI",
+        "logo_url": "https://k2.konvoai.com/favicon.svg",
+        "template_count": 1,
+        "first_added": "2026-06-06"
+      },
+      {
         "provider_id": "keta.lol",
         "provider_name": "keta.lol",
         "logo_url": "https://keta.lol/logo.svg",
@@ -2905,42 +2926,21 @@
         "logo_url": "https://app.usecortana.ai/icon.png",
         "template_count": 1,
         "first_added": "2026-05-26"
-      },
-      {
-        "provider_id": "reeva.me",
-        "provider_name": "Reeva.me",
-        "logo_url": "https://app.reeva.me/auth-bg.png",
-        "template_count": 1,
-        "first_added": "2026-05-26"
-      },
-      {
-        "provider_id": "unhid.ai",
-        "provider_name": "Unhid",
-        "logo_url": "https://www.unhid.ai/logo.png",
-        "template_count": 1,
-        "first_added": "2026-05-26"
-      },
-      {
-        "provider_id": "investorhub.com",
-        "provider_name": "InvestorHub",
-        "logo_url": "https://investorhub.com/logo.svg",
-        "template_count": 2,
-        "first_added": "2026-05-26"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 772,
+    "total_templates": 775,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 701
+        "count": 704
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 520
+        "count": 523
       },
       {
         "name": "warnPhishing",
@@ -2950,11 +2950,37 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 199
+        "count": 200
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 1191,
+      "title": "Add crossly.net.storefront-subdomain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-07T00:01:42Z",
+      "updated_at": "2026-06-07T00:05:45Z",
+      "merged_at": null,
+      "author": "alphajew420",
+      "author_avatar": "https://avatars.githubusercontent.com/u/145304696?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1191",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "crossly",
+          "service_id": "net.storefront-subdomain",
+          "filename": "crossly.net.storefront-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1189,
       "title": "Vohtrah, 2 templates",
@@ -3321,124 +3347,6 @@
           "filename": "secondpage.cc.custom-domain.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1175,
-      "title": "add KonvoAI, Custom email domain",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-02T15:09:09Z",
-      "updated_at": "2026-06-02T15:21:43Z",
-      "merged_at": null,
-      "author": "gerardatkonvo",
-      "author_avatar": "https://avatars.githubusercontent.com/u/217971832?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1175",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "konvoai",
-          "service_id": "com.email",
-          "filename": "konvoai.com.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1174,
-      "title": "Update byteseats.com.storefront: add Cloudflare ownership TXT record",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-02T02:58:58Z",
-      "updated_at": "2026-06-02T03:09:15Z",
-      "merged_at": null,
-      "author": "nader-bytesai",
-      "author_avatar": "https://avatars.githubusercontent.com/u/233369226?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1174",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "byteseats",
-          "service_id": "com.storefront",
-          "filename": "byteseats.com.storefront.json",
-          "logo_url": "https://static.trybytes.ai/bytes-new-logo.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 1173,
-      "title": "Add hostaria.cloud wordpress-hostaria template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-01T13:47:15Z",
-      "updated_at": "2026-06-01T13:53:32Z",
-      "merged_at": null,
-      "author": "dreasy-dev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/64146397?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1173",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "hostaria",
-          "service_id": "cloud.wordpress-hostaria",
-          "filename": "hostaria.cloud.wordpress-hostaria.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1172,
-      "title": "add Daveloper, Daveloper Website",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-01T13:45:24Z",
-      "updated_at": "2026-06-01T13:56:01Z",
-      "merged_at": null,
-      "author": "meetdave3",
-      "author_avatar": "https://avatars.githubusercontent.com/u/15693697?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1172",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "daveloper",
-          "service_id": "ai.website",
-          "filename": "daveloper.ai.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1171,
-      "title": "Update AddressTwo Mailgun Sync Domains",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-01T07:11:06Z",
-      "updated_at": "2026-06-01T07:25:07Z",
-      "merged_at": null,
-      "author": "AddressTwo",
-      "author_avatar": "https://avatars.githubusercontent.com/u/283943328?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1171",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "addresstwo",
-          "service_id": "com.mailgun",
-          "filename": "addresstwo.com.mailgun.json",
-          "logo_url": "https://app.addresstwo.com/assets/images/adTwoAccessBarLogo.png",
-          "status": "modified"
         }
       ]
     },
@@ -3910,7 +3818,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 647,
+        "review_count": 653,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3942,7 +3850,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 67,
+        "review_count": 73,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4547,7 +4455,7 @@
       "provider_name": "Bytes",
       "service_name": "Bytes AI Storefront",
       "logo_url": "https://static.trybytes.ai/bytes-new-logo.png",
-      "record_count": 1
+      "record_count": 2
     },
     {
       "filename": "campaigndeputy.app.email-delegated.json",
@@ -4880,6 +4788,15 @@
       "provider_name": "DarkStrata",
       "service_name": "Domain Verification",
       "logo_url": "https://cdn.darkstrata.io/assets/logos/darkstrata_square_256.png",
+      "record_count": 1
+    },
+    {
+      "filename": "daveloper.ai.website.json",
+      "provider_id": "daveloper.ai",
+      "service_id": "website",
+      "provider_name": "Daveloper",
+      "service_name": "Daveloper Website",
+      "logo_url": null,
       "record_count": 1
     },
     {
@@ -6890,6 +6807,15 @@
       "record_count": 1
     },
     {
+      "filename": "hostaria.cloud.wordpress-hostaria.json",
+      "provider_id": "hostaria.cloud",
+      "service_id": "wordpress-hostaria",
+      "provider_name": "Hostaria",
+      "service_name": "WordPress managed",
+      "logo_url": "https://hostaria.cloud/logo.svg",
+      "record_count": 2
+    },
+    {
       "filename": "hostmonster.com.email.json",
       "provider_id": "hostmonster.com",
       "service_id": "email",
@@ -7311,6 +7237,15 @@
       "service_name": "Kixo email sending",
       "logo_url": "https://kixo.io/kixo-icon-dark.svg",
       "record_count": 6
+    },
+    {
+      "filename": "konvoai.com.email.json",
+      "provider_id": "konvoai.com",
+      "service_id": "email",
+      "provider_name": "KonvoAI",
+      "service_name": "Custom email domain",
+      "logo_url": "https://k2.konvoai.com/favicon.svg",
+      "record_count": 5
     },
     {
       "filename": "launchpad.rbos.app.rbos-site.json",
