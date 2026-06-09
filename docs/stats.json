@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T02:33:41.191078",
+  "generated_at": "2026-06-09T01:57:56.259637",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -8,8 +8,8 @@
   "summary": {
     "total_templates": 790,
     "total_providers": 457,
-    "total_merged_prs": 903,
-    "total_open_prs": 21,
+    "total_merged_prs": 904,
+    "total_open_prs": 24,
     "total_contributors": 428,
     "avg_records_per_template": 3.32
   },
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 26,
-      "merged": 19
+      "created": 30,
+      "merged": 20
     }
   ],
   "pr_time_to_merge": [
@@ -1946,7 +1946,7 @@
     },
     {
       "month": "2026-06",
-      "avg_days": 3.2
+      "avg_days": 3.1
     }
   ],
   "pr_label_activity": [
@@ -2196,14 +2196,14 @@
       "Checklist of common problems not complete": 8,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 14,
+      "PR description incomplete": 15,
       "Stale": 0,
-      "Test links missing": 20,
-      "automerge-possible": 9,
+      "Test links missing": 23,
+      "automerge-possible": 11,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 9,
+      "hostRequired": 10,
       "no syncPubKeyDomain": 3,
       "question": 0,
       "schema-error": 1,
@@ -2610,7 +2610,7 @@
     },
     {
       "month": "2026-06",
-      "avg_comments": 0.1
+      "avg_comments": 0.2
     }
   ],
   "record_types": [
@@ -2956,24 +2956,111 @@
   },
   "recent_prs": [
     {
-      "number": 1192,
-      "title": "Update Drin email template DKIM host",
+      "number": 1198,
+      "title": "Add cloudcat.me.connect-site template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-07T15:18:31Z",
-      "updated_at": "2026-06-07T19:24:00Z",
+      "created_at": "2026-06-08T14:11:15Z",
+      "updated_at": "2026-06-08T14:55:37Z",
       "merged_at": null,
-      "author": "ATOM00blue",
-      "author_avatar": "https://avatars.githubusercontent.com/u/219721791?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1192",
+      "author": "joergd",
+      "author_avatar": "https://avatars.githubusercontent.com/u/5681?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1198",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "cloudcat",
+          "service_id": "me.connect-site",
+          "filename": "cloudcat.me.connect-site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1197,
+      "title": "Apollo Signal, 3 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-08T12:11:52Z",
+      "updated_at": "2026-06-08T12:35:17Z",
+      "merged_at": null,
+      "author": "Tihan-Nico",
+      "author_avatar": "https://avatars.githubusercontent.com/u/132669484?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1197",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "apollodeploy",
+          "service_id": "com.signal-click-tracking",
+          "filename": "apollodeploy.com.signal-click-tracking.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "apollodeploy",
+          "service_id": "com.signal-sending-cname",
+          "filename": "apollodeploy.com.signal-sending-cname.json",
+          "logo_url": "https://apollodeploy.com/favicon.ico",
+          "status": "modified"
+        },
+        {
+          "provider_id": "apollodeploy",
+          "service_id": "com.signal-sending",
+          "filename": "apollodeploy.com.signal-sending.json",
+          "logo_url": "https://apollodeploy.com/favicon.ico",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1196,
+      "title": "update KonvoAI Custom email domain to Resend single-TXT DKIM (v2)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-08T11:41:24Z",
+      "updated_at": "2026-06-08T11:42:05Z",
+      "merged_at": null,
+      "author": "gerardatkonvo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/217971832?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1196",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "konvoai",
+          "service_id": "com.email",
+          "filename": "konvoai.com.email.json",
+          "logo_url": "https://k2.konvoai.com/favicon.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1195,
+      "title": "Add dmarcdkim.com domain connect template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-08T10:47:53Z",
+      "updated_at": "2026-06-08T22:46:09Z",
+      "merged_at": null,
+      "author": "wivern-co-uk",
+      "author_avatar": "https://avatars.githubusercontent.com/u/2115473?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1195",
       "labels": [],
       "templates": [
         {
-          "provider_id": "drin",
-          "service_id": "run.email",
-          "filename": "drin.run.email.json",
-          "logo_url": "https://app.drin.run/icon.svg",
-          "status": "modified"
+          "provider_id": "dmarcdkim",
+          "service_id": "com.dmarc-dashboard",
+          "filename": "dmarcdkim.com.dmarc-dashboard.json",
+          "logo_url": null,
+          "status": "added"
         }
       ]
     },
@@ -3554,7 +3641,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 665,
+        "review_count": 666,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3586,7 +3673,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 85,
+        "review_count": 80,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
