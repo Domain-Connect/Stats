@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T02:10:13.266058",
+  "generated_at": "2026-06-11T02:33:44.467673",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 794,
     "total_providers": 460,
     "total_merged_prs": 909,
-    "total_open_prs": 22,
+    "total_open_prs": 30,
     "total_contributors": 428,
     "avg_records_per_template": 3.31
   },
@@ -1551,7 +1551,7 @@
     },
     {
       "month": "2026-06",
-      "created": 33,
+      "created": 41,
       "merged": 25
     }
   ],
@@ -2193,20 +2193,20 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 8,
+      "Checklist of common problems not complete": 9,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 15,
+      "PR description incomplete": 16,
       "Stale": 0,
-      "Test links missing": 25,
-      "automerge-possible": 13,
+      "Test links missing": 30,
+      "automerge-possible": 15,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 11,
+      "hostRequired": 14,
       "no syncPubKeyDomain": 3,
       "question": 0,
-      "schema-error": 1,
+      "schema-error": 2,
       "syncBlock": 1,
       "warnPhishing": 2
     }
@@ -2610,7 +2610,7 @@
     },
     {
       "month": "2026-06",
-      "avg_comments": 0.2
+      "avg_comments": 0.1
     }
   ],
   "record_types": [
@@ -2956,12 +2956,206 @@
   },
   "recent_prs": [
     {
+      "number": 1209,
+      "title": "Add email sending configuration for TalentCafe",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-11T02:19:39Z",
+      "updated_at": "2026-06-11T02:30:14Z",
+      "merged_at": null,
+      "author": "bluefire2121",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4358275?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1209",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "talentcafe",
+          "service_id": "net.email-sending",
+          "filename": "talentcafe.net.email-sending.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1208,
+      "title": "Update sendcorex.com.email.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-11T02:00:45Z",
+      "updated_at": "2026-06-11T02:06:54Z",
+      "merged_at": null,
+      "author": "marcossantosfl",
+      "author_avatar": "https://avatars.githubusercontent.com/u/56878202?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1208",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "sendcorex",
+          "service_id": "com.email",
+          "filename": "sendcorex.com.email.json",
+          "logo_url": "https://sendcorex.com/assets/logo/sendcorex-logo-dark.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1207,
+      "title": "add-coldpost-ai-tracking",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T15:58:51Z",
+      "updated_at": "2026-06-10T15:59:37Z",
+      "merged_at": null,
+      "author": "Metawise-labs",
+      "author_avatar": "https://avatars.githubusercontent.com/u/285112018?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1207",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "coldpost",
+          "service_id": "ai.tracking",
+          "filename": "coldpost.ai.tracking.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1206,
+      "title": "Sitesplaced Template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T09:45:25Z",
+      "updated_at": "2026-06-10T09:49:14Z",
+      "merged_at": null,
+      "author": "Manan-Agrawal-2003",
+      "author_avatar": "https://avatars.githubusercontent.com/u/261853468?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1206",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sitesplaced",
+          "service_id": "com.hosting",
+          "filename": "sitesplaced.com.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1205,
+      "title": "Add Cavuno templates (cavuno.com: boards, boardsapex)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T09:05:35Z",
+      "updated_at": "2026-06-10T09:14:29Z",
+      "merged_at": null,
+      "author": "AlphaBravoIndia",
+      "author_avatar": "https://avatars.githubusercontent.com/u/17310043?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1205",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "cavuno",
+          "service_id": "com.boards",
+          "filename": "cavuno.com.boards.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "cavuno",
+          "service_id": "com.boardsapex",
+          "filename": "cavuno.com.boardsapex.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1204,
+      "title": "Update 10ashara.com.lms template to v2 with domain verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T08:58:27Z",
+      "updated_at": "2026-06-10T09:10:53Z",
+      "merged_at": null,
+      "author": "samehdoush",
+      "author_avatar": "https://avatars.githubusercontent.com/u/48515888?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1204",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "10ashara",
+          "service_id": "com.lms",
+          "filename": "10ashara.com.lms.json",
+          "logo_url": "https://cdn.10ashara.com/home_logolight_filehome-logolight-fileashara-logosvgwebp.webp",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1203,
+      "title": "add Wayfront, Wayfront Email Sending Domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T07:12:39Z",
+      "updated_at": "2026-06-10T07:13:10Z",
+      "merged_at": null,
+      "author": "kg-bot",
+      "author_avatar": "https://avatars.githubusercontent.com/u/5282920?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1203",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "wayfront",
+          "service_id": "com.email-domain",
+          "filename": "wayfront.com.email-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1202,
+      "title": "add Wayfront, Wayfront Custom Workspace Domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T07:11:56Z",
+      "updated_at": "2026-06-10T07:12:32Z",
+      "merged_at": null,
+      "author": "kg-bot",
+      "author_avatar": "https://avatars.githubusercontent.com/u/5282920?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1202",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "wayfront",
+          "service_id": "com.custom-domain",
+          "filename": "wayfront.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1201,
       "title": "add ImprovMX, Email Forwarding",
       "state": "open",
       "merged": false,
       "created_at": "2026-06-10T01:22:11Z",
-      "updated_at": "2026-06-10T01:46:51Z",
+      "updated_at": "2026-06-10T15:27:50Z",
       "merged_at": null,
       "author": "m-tse",
       "author_avatar": "https://avatars.githubusercontent.com/u/1315979?v=4",
@@ -3626,13 +3820,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 81,
+        "review_count": 79,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "copilot-pull-request-reviewer[bot]",
-        "review_count": 3,
+        "review_count": 2,
         "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
         "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       }
