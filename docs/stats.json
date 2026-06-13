@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-12T02:16:36.597698",
+  "generated_at": "2026-06-13T02:09:19.981575",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 806,
-    "total_providers": 469,
-    "total_merged_prs": 922,
-    "total_open_prs": 23,
+    "total_templates": 807,
+    "total_providers": 470,
+    "total_merged_prs": 923,
+    "total_open_prs": 24,
     "total_contributors": 430,
     "avg_records_per_template": 3.31
   },
@@ -586,9 +586,9 @@
     },
     {
       "month": "2026-06",
-      "added": 35,
+      "added": 36,
       "deleted": 0,
-      "cumulative": 806
+      "cumulative": 807
     }
   ],
   "providers_growth": [
@@ -1034,8 +1034,8 @@
     },
     {
       "month": "2026-06",
-      "added": 24,
-      "cumulative": 469
+      "added": 25,
+      "cumulative": 470
     }
   ],
   "pr_activity": [
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 47,
-      "merged": 38
+      "created": 49,
+      "merged": 39
     }
   ],
   "pr_time_to_merge": [
@@ -1946,7 +1946,7 @@
     },
     {
       "month": "2026-06",
-      "avg_days": 2.0
+      "avg_days": 1.9
     }
   ],
   "pr_label_activity": [
@@ -2147,7 +2147,7 @@
       "Forged editor links": 3,
       "PR description incomplete": 70,
       "Stale": 0,
-      "Test links missing": 102,
+      "Test links missing": 101,
       "automerge-possible": 0,
       "blocked": 0,
       "duplicate": 0,
@@ -2205,21 +2205,21 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 12,
+      "Checklist of common problems not complete": 13,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 19,
+      "PR description incomplete": 21,
       "Stale": 0,
-      "Test links missing": 35,
+      "Test links missing": 37,
       "automerge-possible": 16,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 16,
+      "hostRequired": 17,
       "new review needed": 2,
-      "no syncPubKeyDomain": 3,
+      "no syncPubKeyDomain": 4,
       "question": 0,
-      "schema-error": 2,
+      "schema-error": 3,
       "syncBlock": 1,
       "warnPhishing": 3
     }
@@ -2629,23 +2629,23 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 577
+      "count": 578
     },
     {
       "type": "TXT",
-      "count": 379
+      "count": 380
     },
     {
       "type": "A",
-      "count": 266
+      "count": 267
     },
     {
       "type": "SPFM",
-      "count": 188
+      "count": 189
     },
     {
       "type": "MX",
-      "count": 160
+      "count": 161
     },
     {
       "type": "SRV",
@@ -2801,6 +2801,13 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "brhost.az",
+        "provider_name": "BRHost",
+        "logo_url": "https://brhost.az/brhost-logo.svg",
+        "template_count": 1,
+        "first_added": "2026-06-12"
+      },
+      {
         "provider_id": "wayfront.com",
         "provider_name": "Wayfront",
         "logo_url": "https://wayfront.com/assets/brand/wayfront.png",
@@ -2932,23 +2939,16 @@
         "logo_url": "https://apollodeploy.com/favicon.ico",
         "template_count": 2,
         "first_added": "2026-06-07"
-      },
-      {
-        "provider_id": "specific.dev",
-        "provider_name": "Specific",
-        "logo_url": "https://specific.dev/icon.svg",
-        "template_count": 2,
-        "first_added": "2026-06-07"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 806,
+    "total_templates": 807,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 735
+        "count": 736
       },
       {
         "name": "syncRedirectDomain",
@@ -2968,6 +2968,58 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1219,
+      "title": "Add HiBubo proxy template (hibubo.ai.proxy)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-12T22:51:47Z",
+      "updated_at": "2026-06-12T22:52:29Z",
+      "merged_at": null,
+      "author": "liondada",
+      "author_avatar": "https://avatars.githubusercontent.com/u/25395931?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1219",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "schema-error",
+        "no syncPubKeyDomain"
+      ],
+      "templates": [
+        {
+          "provider_id": "hibubo",
+          "service_id": "ai.proxy",
+          "filename": "hibubo.ai.proxy.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1218,
+      "title": "Add pixdeliver.com.custom-domain.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-12T11:25:34Z",
+      "updated_at": "2026-06-12T11:34:49Z",
+      "merged_at": null,
+      "author": "patimio66",
+      "author_avatar": "https://avatars.githubusercontent.com/u/78798236?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1218",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "pixdeliver",
+          "service_id": "com.custom-domain",
+          "filename": "pixdeliver.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1217,
       "title": "Add Destaff (destaff.ai) mailgun-sync template",
@@ -2991,32 +3043,6 @@
           "provider_id": "destaff",
           "service_id": "ai.mailgun-sync",
           "filename": "destaff.ai.mailgun-sync.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1213,
-      "title": "Add brhost.az email template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-11T13:56:29Z",
-      "updated_at": "2026-06-11T14:11:12Z",
-      "merged_at": null,
-      "author": "Umid-ismayilov",
-      "author_avatar": "https://avatars.githubusercontent.com/u/49947736?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1213",
-      "labels": [
-        "PR description incomplete",
-        "Test links missing",
-        "new review needed"
-      ],
-      "templates": [
-        {
-          "provider_id": "brhost",
-          "service_id": "az.email",
-          "filename": "brhost.az.email.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3644,7 +3670,7 @@
       },
       {
         "login": "kerolasa",
-        "review_count": 75,
+        "review_count": 76,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -3670,7 +3696,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 89,
+        "review_count": 90,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4240,6 +4266,15 @@
       "service_name": "Brevo Domain Authentication",
       "logo_url": "https://static.brevo.com/meetings/assets/brevo_logo.png",
       "record_count": 13
+    },
+    {
+      "filename": "brhost.az.email.json",
+      "provider_id": "brhost.az",
+      "service_id": "email",
+      "provider_name": "BRHost",
+      "service_name": "BRHost Email",
+      "logo_url": "https://brhost.az/brhost-logo.svg",
+      "record_count": 9
     },
     {
       "filename": "brixus365.com.emailauth.json",
