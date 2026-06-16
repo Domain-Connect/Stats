@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-15T02:37:02.776600",
+  "generated_at": "2026-06-16T02:38:44.170742",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 810,
-    "total_providers": 471,
-    "total_merged_prs": 924,
-    "total_open_prs": 27,
+    "total_templates": 812,
+    "total_providers": 473,
+    "total_merged_prs": 927,
+    "total_open_prs": 25,
     "total_contributors": 430,
-    "avg_records_per_template": 3.31
+    "avg_records_per_template": 3.3
   },
   "templates_growth": [
     {
@@ -586,9 +586,9 @@
     },
     {
       "month": "2026-06",
-      "added": 39,
+      "added": 41,
       "deleted": 0,
-      "cumulative": 810
+      "cumulative": 812
     }
   ],
   "providers_growth": [
@@ -1034,8 +1034,8 @@
     },
     {
       "month": "2026-06",
-      "added": 26,
-      "cumulative": 471
+      "added": 28,
+      "cumulative": 473
     }
   ],
   "pr_activity": [
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 56,
-      "merged": 40
+      "created": 57,
+      "merged": 43
     }
   ],
   "pr_time_to_merge": [
@@ -1946,7 +1946,7 @@
     },
     {
       "month": "2026-06",
-      "avg_days": 1.9
+      "avg_days": 1.8
     }
   ],
   "pr_label_activity": [
@@ -1967,6 +1967,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
+      "review issues": 0,
       "schema-error": 0,
       "syncBlock": 0,
       "warnPhishing": 0
@@ -1988,6 +1989,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
+      "review issues": 0,
       "schema-error": 0,
       "syncBlock": 0,
       "warnPhishing": 0
@@ -2009,6 +2011,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
+      "review issues": 0,
       "schema-error": 0,
       "syncBlock": 0,
       "warnPhishing": 0
@@ -2030,6 +2033,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
+      "review issues": 0,
       "schema-error": 0,
       "syncBlock": 0,
       "warnPhishing": 0
@@ -2051,6 +2055,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
+      "review issues": 0,
       "schema-error": 0,
       "syncBlock": 0,
       "warnPhishing": 0
@@ -2072,6 +2077,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
+      "review issues": 0,
       "schema-error": 0,
       "syncBlock": 0,
       "warnPhishing": 0
@@ -2093,6 +2099,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 1,
+      "review issues": 0,
       "schema-error": 0,
       "syncBlock": 0,
       "warnPhishing": 0
@@ -2114,6 +2121,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 4,
+      "review issues": 0,
       "schema-error": 0,
       "syncBlock": 0,
       "warnPhishing": 0
@@ -2135,6 +2143,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 2,
+      "review issues": 0,
       "schema-error": 0,
       "syncBlock": 0,
       "warnPhishing": 0
@@ -2156,6 +2165,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 3,
       "question": 2,
+      "review issues": 0,
       "schema-error": 9,
       "syncBlock": 1,
       "warnPhishing": 4
@@ -2177,6 +2187,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 4,
       "question": 1,
+      "review issues": 0,
       "schema-error": 11,
       "syncBlock": 1,
       "warnPhishing": 9
@@ -2198,6 +2209,7 @@
       "new review needed": 0,
       "no syncPubKeyDomain": 6,
       "question": 1,
+      "review issues": 0,
       "schema-error": 4,
       "syncBlock": 1,
       "warnPhishing": 1
@@ -2210,15 +2222,16 @@
       "Forged editor links": 0,
       "PR description incomplete": 26,
       "Stale": 0,
-      "Test links missing": 42,
+      "Test links missing": 43,
       "automerge-possible": 18,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
       "hostRequired": 19,
-      "new review needed": 2,
+      "new review needed": 3,
       "no syncPubKeyDomain": 7,
       "question": 0,
+      "review issues": 1,
       "schema-error": 4,
       "syncBlock": 1,
       "warnPhishing": 5
@@ -2633,7 +2646,7 @@
     },
     {
       "type": "TXT",
-      "count": 383
+      "count": 385
     },
     {
       "type": "A",
@@ -2641,7 +2654,7 @@
     },
     {
       "type": "SPFM",
-      "count": 189
+      "count": 190
     },
     {
       "type": "MX",
@@ -2801,6 +2814,20 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "beeranked.online",
+        "provider_name": "BeeRanked",
+        "logo_url": "https://beeranked.online/android-chrome-512.png",
+        "template_count": 1,
+        "first_added": "2026-06-15"
+      },
+      {
+        "provider_id": "sendypop.com",
+        "provider_name": "SendyPOP",
+        "logo_url": "https://sendypop.com/assets/sendypop-icon.svg",
+        "template_count": 1,
+        "first_added": "2026-06-15"
+      },
+      {
         "provider_id": "rejectzero.com",
         "provider_name": "RejectZero",
         "logo_url": "https://rejectzero.com/public_9a9a_42ab50d35a9c4975ac4b2e1401292b9e.png",
@@ -2925,35 +2952,21 @@
         "logo_url": "https://secondpage.cc/brand/secondpage-p2.svg",
         "template_count": 1,
         "first_added": "2026-06-07"
-      },
-      {
-        "provider_id": "deepbluework",
-        "provider_name": "Deepbluework",
-        "logo_url": "https://app.deepbluework.com/logo.png",
-        "template_count": 2,
-        "first_added": "2026-06-07"
-      },
-      {
-        "provider_id": "zblocks.app",
-        "provider_name": "zblocks",
-        "logo_url": "https://zblocks.app/logo.png",
-        "template_count": 1,
-        "first_added": "2026-06-07"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 810,
+    "total_templates": 812,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 739
+        "count": 741
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 552
+        "count": 553
       },
       {
         "name": "warnPhishing",
@@ -2963,58 +2976,11 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 211
+        "count": 212
       }
     ]
   },
   "recent_prs": [
-    {
-      "number": 1231,
-      "title": "add BeeRanked, BeeRanked Content",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-15T00:40:42Z",
-      "updated_at": "2026-06-15T00:41:19Z",
-      "merged_at": null,
-      "author": "BeeRankedOnline",
-      "author_avatar": "https://avatars.githubusercontent.com/u/293671991?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1231",
-      "labels": [
-        "hostRequired",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "beeranked",
-          "service_id": "online.content",
-          "filename": "beeranked.online.content.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1229,
-      "title": "add SendyPOP, SendyPOP Email",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-14T21:55:24Z",
-      "updated_at": "2026-06-14T21:56:04Z",
-      "merged_at": null,
-      "author": "pabloverdina",
-      "author_avatar": "https://avatars.githubusercontent.com/u/212434809?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1229",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "sendypop",
-          "service_id": "com.sendypop-email",
-          "filename": "sendypop.com.sendypop-email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
     {
       "number": 1226,
       "title": "Create theelevateagent.com.agentsite.json",
@@ -3074,15 +3040,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-13T07:07:01Z",
-      "updated_at": "2026-06-13T07:22:39Z",
+      "updated_at": "2026-06-16T02:27:59Z",
       "merged_at": null,
       "author": "bloodchen",
       "author_avatar": "https://avatars.githubusercontent.com/u/31466551?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1221",
       "labels": [
-        "Test links missing",
-        "no syncPubKeyDomain",
-        "warnPhishing"
+        "Test links missing"
       ],
       "templates": [
         {
@@ -3561,12 +3525,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-15T15:22:50Z",
-      "updated_at": "2026-05-15T15:23:38Z",
+      "updated_at": "2026-06-15T06:42:28Z",
       "merged_at": null,
       "author": "jklinehamer",
       "author_avatar": "https://avatars.githubusercontent.com/u/121138902?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1098",
       "labels": [
+        "Stale",
         "Test links missing"
       ],
       "templates": [
@@ -3705,7 +3670,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 686,
+        "review_count": 689,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3737,7 +3702,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 88,
+        "review_count": 91,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4081,6 +4046,15 @@
       "provider_name": "Beagle Security (Staging)",
       "service_name": "Domain Ownership Verification (Staging)",
       "logo_url": "https://cdn.beaglesecurity.com/assets/brand/svg/beagle-blue.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "beeranked.online.content.json",
+      "provider_id": "beeranked.online",
+      "service_id": "content",
+      "provider_name": "BeeRanked",
+      "service_name": "BeeRanked Content",
+      "logo_url": "https://beeranked.online/android-chrome-512.png",
       "record_count": 1
     },
     {
@@ -7888,7 +7862,7 @@
       "provider_name": "Mailtosh",
       "service_name": "Mailtosh sending domain verification",
       "logo_url": "https://mailtosh.com/logo.svg",
-      "record_count": 5
+      "record_count": 3
     },
     {
       "filename": "masstranslate.ai.proxy-cname.json",
@@ -9500,6 +9474,15 @@
       "service_name": "Sendmarc Email Security",
       "logo_url": "https://portal.sendmarc.com/img/light-bg-transparent.svg",
       "record_count": 14
+    },
+    {
+      "filename": "sendypop.com.sendypop-email.json",
+      "provider_id": "sendypop.com",
+      "service_id": "sendypop-email",
+      "provider_name": "SendyPOP",
+      "service_name": "SendyPOP Email",
+      "logo_url": "https://sendypop.com/assets/sendypop-icon.svg",
+      "record_count": 3
     },
     {
       "filename": "sentro.ph.website.json",
