@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-16T02:38:44.170742",
+  "generated_at": "2026-06-17T02:36:41.605525",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 812,
-    "total_providers": 473,
-    "total_merged_prs": 927,
-    "total_open_prs": 25,
+    "total_templates": 816,
+    "total_providers": 477,
+    "total_merged_prs": 932,
+    "total_open_prs": 24,
     "total_contributors": 430,
     "avg_records_per_template": 3.3
   },
@@ -586,9 +586,9 @@
     },
     {
       "month": "2026-06",
-      "added": 41,
+      "added": 45,
       "deleted": 0,
-      "cumulative": 812
+      "cumulative": 816
     }
   ],
   "providers_growth": [
@@ -1034,8 +1034,8 @@
     },
     {
       "month": "2026-06",
-      "added": 28,
-      "cumulative": 473
+      "added": 32,
+      "cumulative": 477
     }
   ],
   "pr_activity": [
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 57,
-      "merged": 43
+      "created": 61,
+      "merged": 48
     }
   ],
   "pr_time_to_merge": [
@@ -2217,22 +2217,22 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 16,
+      "Checklist of common problems not complete": 19,
       "Chores": 0,
-      "Forged editor links": 0,
-      "PR description incomplete": 26,
+      "Forged editor links": 1,
+      "PR description incomplete": 30,
       "Stale": 0,
-      "Test links missing": 43,
-      "automerge-possible": 18,
+      "Test links missing": 47,
+      "automerge-possible": 21,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 19,
+      "hostRequired": 21,
       "new review needed": 3,
       "no syncPubKeyDomain": 7,
       "question": 0,
       "review issues": 1,
-      "schema-error": 4,
+      "schema-error": 5,
       "syncBlock": 1,
       "warnPhishing": 5
     }
@@ -2642,11 +2642,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 578
+      "count": 581
     },
     {
       "type": "TXT",
-      "count": 385
+      "count": 389
     },
     {
       "type": "A",
@@ -2654,11 +2654,11 @@
     },
     {
       "type": "SPFM",
-      "count": 190
+      "count": 191
     },
     {
       "type": "MX",
-      "count": 161
+      "count": 162
     },
     {
       "type": "SRV",
@@ -2814,6 +2814,34 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "pixdeliver.com",
+        "provider_name": "PixDeliver",
+        "logo_url": "https://pixdeliver.com/logo-black.svg",
+        "template_count": 1,
+        "first_added": "2026-06-16"
+      },
+      {
+        "provider_id": "sixuse.com",
+        "provider_name": "Sixuse",
+        "logo_url": null,
+        "template_count": 1,
+        "first_added": "2026-06-16"
+      },
+      {
+        "provider_id": "minimo.it",
+        "provider_name": "Minimo",
+        "logo_url": null,
+        "template_count": 1,
+        "first_added": "2026-06-16"
+      },
+      {
+        "provider_id": "draft2live.ai",
+        "provider_name": "Draft2Live",
+        "logo_url": "https://draft2live.ai/logo-domain-connect.svg",
+        "template_count": 1,
+        "first_added": "2026-06-16"
+      },
+      {
         "provider_id": "beeranked.online",
         "provider_name": "BeeRanked",
         "logo_url": "https://beeranked.online/android-chrome-512.png",
@@ -2924,49 +2952,21 @@
         "logo_url": "https://storix-ai.com/branding/storix-default-logo.png",
         "template_count": 2,
         "first_added": "2026-06-09"
-      },
-      {
-        "provider_id": "emajl.io",
-        "provider_name": "emajl",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-06-07"
-      },
-      {
-        "provider_id": "groceryio.com",
-        "provider_name": "GroceryIO",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-06-07"
-      },
-      {
-        "provider_id": "directiq.com",
-        "provider_name": "DirectIQ",
-        "logo_url": "https://directiq.com/directiq-logo.svg",
-        "template_count": 1,
-        "first_added": "2026-06-07"
-      },
-      {
-        "provider_id": "secondpage.cc",
-        "provider_name": "SecondPage",
-        "logo_url": "https://secondpage.cc/brand/secondpage-p2.svg",
-        "template_count": 1,
-        "first_added": "2026-06-07"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 812,
+    "total_templates": 816,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 741
+        "count": 745
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 553
+        "count": 556
       },
       {
         "name": "warnPhishing",
@@ -2976,11 +2976,36 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 212
+        "count": 214
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 1236,
+      "title": "add Convee website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-17T01:43:25Z",
+      "updated_at": "2026-06-17T01:45:11Z",
+      "merged_at": null,
+      "author": "Convee-app",
+      "author_avatar": "https://avatars.githubusercontent.com/u/294330298?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1236",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "convee",
+          "service_id": "app.website",
+          "filename": "convee.app.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1226,
       "title": "Create theelevateagent.com.agentsite.json",
@@ -3035,30 +3060,6 @@
       ]
     },
     {
-      "number": 1221,
-      "title": "Add Sixuse custom domain mail template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-13T07:07:01Z",
-      "updated_at": "2026-06-16T02:27:59Z",
-      "merged_at": null,
-      "author": "bloodchen",
-      "author_avatar": "https://avatars.githubusercontent.com/u/31466551?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1221",
-      "labels": [
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "sixuse",
-          "service_id": "com.mail",
-          "filename": "sixuse.com.mail.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1219,
       "title": "Add HiBubo proxy template (hibubo.ai.proxy)",
       "state": "open",
@@ -3081,31 +3082,6 @@
           "provider_id": "hibubo",
           "service_id": "ai.proxy",
           "filename": "hibubo.ai.proxy.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1218,
-      "title": "Add pixdeliver.com.custom-domain.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-12T11:25:34Z",
-      "updated_at": "2026-06-13T12:51:18Z",
-      "merged_at": null,
-      "author": "patimio66",
-      "author_avatar": "https://avatars.githubusercontent.com/u/78798236?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1218",
-      "labels": [
-        "hostRequired",
-        "review issues"
-      ],
-      "templates": [
-        {
-          "provider_id": "pixdeliver",
-          "service_id": "com.custom-domain",
-          "filename": "pixdeliver.com.custom-domain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3670,7 +3646,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 689,
+        "review_count": 694,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3702,7 +3678,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 91,
+        "review_count": 93,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -5019,6 +4995,15 @@
       "service_name": "Domain Check",
       "logo_url": "https://www.domchekr.com/logo.png",
       "record_count": 1
+    },
+    {
+      "filename": "draft2live.ai.blog.json",
+      "provider_id": "draft2live.ai",
+      "service_id": "blog",
+      "provider_name": "Draft2Live",
+      "service_name": "Draft2Live Hosted Blog",
+      "logo_url": "https://draft2live.ai/logo-domain-connect.svg",
+      "record_count": 2
     },
     {
       "filename": "drin.run.email.json",
@@ -8018,6 +8003,15 @@
       "record_count": 1
     },
     {
+      "filename": "minimo.it.mail.json",
+      "provider_id": "minimo.it",
+      "service_id": "mail",
+      "provider_name": "Minimo",
+      "service_name": "Email",
+      "logo_url": null,
+      "record_count": 5
+    },
+    {
       "filename": "molted.email.moltedemail.json",
       "provider_id": "molted.email",
       "service_id": "moltedemail",
@@ -8583,6 +8577,15 @@
       "service_name": "Permanu App Domain",
       "logo_url": null,
       "record_count": 4
+    },
+    {
+      "filename": "pixdeliver.com.custom-domain.json",
+      "provider_id": "pixdeliver.com",
+      "service_id": "custom-domain",
+      "provider_name": "PixDeliver",
+      "service_name": "Custom domain",
+      "logo_url": "https://pixdeliver.com/logo-black.svg",
+      "record_count": 2
     },
     {
       "filename": "platelink.dev.domain.json",
@@ -9627,6 +9630,15 @@
       "service_name": "SitesPlaced Website & Store",
       "logo_url": "https://sitesplaced.com/logo.png",
       "record_count": 3
+    },
+    {
+      "filename": "sixuse.com.mail.json",
+      "provider_id": "sixuse.com",
+      "service_id": "mail",
+      "provider_name": "Sixuse",
+      "service_name": "Sixuse Custom Domain Mail",
+      "logo_url": null,
+      "record_count": 5
     },
     {
       "filename": "slickpic.com.website.json",
