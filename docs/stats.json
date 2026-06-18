@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-17T02:36:41.605525",
+  "generated_at": "2026-06-18T02:34:04.873286",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 816,
-    "total_providers": 477,
-    "total_merged_prs": 932,
-    "total_open_prs": 24,
+    "total_templates": 818,
+    "total_providers": 479,
+    "total_merged_prs": 934,
+    "total_open_prs": 25,
     "total_contributors": 430,
     "avg_records_per_template": 3.3
   },
@@ -586,9 +586,9 @@
     },
     {
       "month": "2026-06",
-      "added": 45,
+      "added": 47,
       "deleted": 0,
-      "cumulative": 816
+      "cumulative": 818
     }
   ],
   "providers_growth": [
@@ -1034,8 +1034,8 @@
     },
     {
       "month": "2026-06",
-      "added": 32,
-      "cumulative": 477
+      "added": 34,
+      "cumulative": 479
     }
   ],
   "pr_activity": [
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 61,
-      "merged": 48
+      "created": 65,
+      "merged": 50
     }
   ],
   "pr_time_to_merge": [
@@ -1946,7 +1946,7 @@
     },
     {
       "month": "2026-06",
-      "avg_days": 1.8
+      "avg_days": 1.7
     }
   ],
   "pr_label_activity": [
@@ -2217,17 +2217,17 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 19,
+      "Checklist of common problems not complete": 20,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 30,
+      "PR description incomplete": 32,
       "Stale": 0,
-      "Test links missing": 47,
-      "automerge-possible": 21,
+      "Test links missing": 50,
+      "automerge-possible": 23,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 21,
+      "hostRequired": 22,
       "new review needed": 3,
       "no syncPubKeyDomain": 7,
       "question": 0,
@@ -2642,11 +2642,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 581
+      "count": 582
     },
     {
       "type": "TXT",
-      "count": 389
+      "count": 390
     },
     {
       "type": "A",
@@ -2654,11 +2654,11 @@
     },
     {
       "type": "SPFM",
-      "count": 191
+      "count": 192
     },
     {
       "type": "MX",
-      "count": 162
+      "count": 163
     },
     {
       "type": "SRV",
@@ -2814,6 +2814,20 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "convee.app",
+        "provider_name": "Convee",
+        "logo_url": "https://convee.app/favicon.svg",
+        "template_count": 1,
+        "first_added": "2026-06-17"
+      },
+      {
+        "provider_id": "mailkube.com",
+        "provider_name": "Mailkube",
+        "logo_url": "https://cdn.mailkube.com/public/logos/domainconnect/packv1.png",
+        "template_count": 1,
+        "first_added": "2026-06-17"
+      },
+      {
         "provider_id": "pixdeliver.com",
         "provider_name": "PixDeliver",
         "logo_url": "https://pixdeliver.com/logo-black.svg",
@@ -2938,35 +2952,21 @@
         "logo_url": null,
         "template_count": 1,
         "first_added": "2026-06-09"
-      },
-      {
-        "provider_id": "dmarcdkim.com",
-        "provider_name": "DmarcDkim.com",
-        "logo_url": "https://dmarcdkim.com/dmarcdkim-logo.svg",
-        "template_count": 1,
-        "first_added": "2026-06-09"
-      },
-      {
-        "provider_id": "storix-ai.com",
-        "provider_name": "Storix",
-        "logo_url": "https://storix-ai.com/branding/storix-default-logo.png",
-        "template_count": 2,
-        "first_added": "2026-06-09"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 816,
+    "total_templates": 818,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 745
+        "count": 747
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 556
+        "count": 558
       },
       {
         "name": "warnPhishing",
@@ -2976,22 +2976,46 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 214
+        "count": 215
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 1236,
-      "title": "add Convee website template",
+      "number": 1240,
+      "title": "add Tellam, Email sending",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-17T01:43:25Z",
-      "updated_at": "2026-06-17T01:45:11Z",
+      "created_at": "2026-06-18T01:36:17Z",
+      "updated_at": "2026-06-18T02:01:36Z",
+      "merged_at": null,
+      "author": "mewc",
+      "author_avatar": "https://avatars.githubusercontent.com/u/15105417?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1240",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "tellam",
+          "service_id": "app.email",
+          "filename": "tellam.app.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1239,
+      "title": "Update Convee website target host to connect.convee-dns.com",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-17T23:43:06Z",
+      "updated_at": "2026-06-17T23:52:36Z",
       "merged_at": null,
       "author": "Convee-app",
       "author_avatar": "https://avatars.githubusercontent.com/u/294330298?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1236",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1239",
       "labels": [
         "hostRequired",
         "automerge-possible"
@@ -3001,6 +3025,28 @@
           "provider_id": "convee",
           "service_id": "app.website",
           "filename": "convee.app.website.json",
+          "logo_url": "https://convee.app/favicon.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1238,
+      "title": "Add sendix.dev.mail.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-17T23:05:36Z",
+      "updated_at": "2026-06-17T23:37:34Z",
+      "merged_at": null,
+      "author": "SendixDev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/294641776?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1238",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sendix",
+          "service_id": "dev.mail",
+          "filename": "sendix.dev.mail.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3564,33 +3610,6 @@
       ]
     },
     {
-      "number": 1068,
-      "title": "breachme.ai: fix syncPubKeyDomain prefix (Cloudflare verifier returns 502)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-03T04:03:42Z",
-      "updated_at": "2026-06-02T06:08:09Z",
-      "merged_at": null,
-      "author": "Gilayos",
-      "author_avatar": "https://avatars.githubusercontent.com/u/88515535?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1068",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "breachme",
-          "service_id": "ai.domain-verification",
-          "filename": "breachme.ai.domain-verification.json",
-          "logo_url": "https://breachme.ai/logo.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
       "number": 1060,
       "title": "Add Traaaction service provider — affiliate tracking CNAME template",
       "state": "open",
@@ -3646,7 +3665,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 694,
+        "review_count": 696,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3678,7 +3697,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 93,
+        "review_count": 95,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4607,6 +4626,15 @@
       "provider_name": "ContentMetric",
       "service_name": "ContentMetric Website Hosting",
       "logo_url": "https://www.contentmetric.com/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "convee.app.website.json",
+      "provider_id": "convee.app",
+      "service_id": "website",
+      "provider_name": "Convee",
+      "service_name": "Funnels",
+      "logo_url": "https://convee.app/favicon.svg",
       "record_count": 1
     },
     {
@@ -7812,6 +7840,15 @@
       "service_name": "Mailjet Email Service",
       "logo_url": "http://staging-public.mailjet.com/_assets/Mailjet-logo-yellow.png",
       "record_count": 1
+    },
+    {
+      "filename": "mailkube.com.email.json",
+      "provider_id": "mailkube.com",
+      "service_id": "email",
+      "provider_name": "Mailkube",
+      "service_name": "Mailkube Email Authentication",
+      "logo_url": "https://cdn.mailkube.com/public/logos/domainconnect/packv1.png",
+      "record_count": 5
     },
     {
       "filename": "mailrelay.com.email.json",
