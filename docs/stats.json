@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T02:34:04.873286",
+  "generated_at": "2026-06-19T02:50:23.501478",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 818,
     "total_providers": 479,
     "total_merged_prs": 934,
-    "total_open_prs": 25,
+    "total_open_prs": 31,
     "total_contributors": 430,
     "avg_records_per_template": 3.3
   },
@@ -1551,7 +1551,7 @@
     },
     {
       "month": "2026-06",
-      "created": 65,
+      "created": 79,
       "merged": 50
     }
   ],
@@ -2217,17 +2217,17 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 20,
+      "Checklist of common problems not complete": 26,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 32,
+      "PR description incomplete": 38,
       "Stale": 0,
-      "Test links missing": 50,
-      "automerge-possible": 23,
+      "Test links missing": 63,
+      "automerge-possible": 26,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 22,
+      "hostRequired": 25,
       "new review needed": 3,
       "no syncPubKeyDomain": 7,
       "question": 0,
@@ -2982,6 +2982,152 @@
   },
   "recent_prs": [
     {
+      "number": 1254,
+      "title": "Add Senderz mail template (senderz.app.mail.json)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-19T00:06:49Z",
+      "updated_at": "2026-06-19T00:24:01Z",
+      "merged_at": null,
+      "author": "appdever01",
+      "author_avatar": "https://avatars.githubusercontent.com/u/154071744?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1254",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "senderz",
+          "service_id": "app.mail",
+          "filename": "senderz.app.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1253,
+      "title": "add letterbook mail server and portal",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T20:09:08Z",
+      "updated_at": "2026-06-18T20:14:33Z",
+      "merged_at": null,
+      "author": "Ethan-Hou1117",
+      "author_avatar": "https://avatars.githubusercontent.com/u/100500816?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1253",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "letterbook",
+          "service_id": "ai.forwarding-replies",
+          "filename": "letterbook.ai.forwarding-replies.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "letterbook",
+          "service_id": "ai.portal",
+          "filename": "letterbook.ai.portal.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1251,
+      "title": "Patch cname",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T13:10:40Z",
+      "updated_at": "2026-06-18T13:27:34Z",
+      "merged_at": null,
+      "author": "pratikkhulge-blitz",
+      "author_avatar": "https://avatars.githubusercontent.com/u/170920752?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1251",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "shopdeck",
+          "service_id": "com.website-service-id",
+          "filename": "shopdeck.com.website-service-id.json",
+          "logo_url": "https://pro.shopdeck.com/logo192.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1249,
+      "title": "Add email configuration and update DMARC settings",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T09:38:32Z",
+      "updated_at": "2026-06-18T09:39:11Z",
+      "merged_at": null,
+      "author": "milleniumishere",
+      "author_avatar": "https://avatars.githubusercontent.com/u/60817254?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1249",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "smailor",
+          "service_id": "com.email-setup",
+          "filename": "smailor.com.email-setup.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1242,
+      "title": "draft2live.ai.blog: add DCV delegation CNAME for SSL cert issuance",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T06:06:12Z",
+      "updated_at": "2026-06-18T06:11:37Z",
+      "merged_at": null,
+      "author": "Luka-Hrachov",
+      "author_avatar": "https://avatars.githubusercontent.com/u/141435837?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1242",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "draft2live",
+          "service_id": "ai.blog",
+          "filename": "draft2live.ai.blog.json",
+          "logo_url": "https://draft2live.ai/logo-domain-connect.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1241,
+      "title": "Add Hermes Domain Connect Template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T05:56:08Z",
+      "updated_at": "2026-06-18T06:16:38Z",
+      "merged_at": null,
+      "author": "Lstsk",
+      "author_avatar": "https://avatars.githubusercontent.com/u/94779681?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1241",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "tryhermes",
+          "service_id": "dev.sending-domain",
+          "filename": "tryhermes.dev.sending-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1240,
       "title": "add Tellam, Email sending",
       "state": "open",
@@ -3448,12 +3594,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-18T16:24:32Z",
-      "updated_at": "2026-05-18T16:32:29Z",
+      "updated_at": "2026-06-18T06:15:04Z",
       "merged_at": null,
       "author": "gcompanydev",
       "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1108",
       "labels": [
+        "Stale",
         "Test links missing",
         "automerge-possible"
       ],
@@ -3473,12 +3620,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-18T16:06:38Z",
-      "updated_at": "2026-05-19T06:14:06Z",
+      "updated_at": "2026-06-18T06:15:06Z",
       "merged_at": null,
       "author": "gcompanydev",
       "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1107",
       "labels": [
+        "Stale",
         "Test links missing"
       ],
       "templates": [
@@ -3497,12 +3645,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-18T15:28:19Z",
-      "updated_at": "2026-05-18T15:29:13Z",
+      "updated_at": "2026-06-18T06:15:08Z",
       "merged_at": null,
       "author": "gcompanydev",
       "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1106",
       "labels": [
+        "Stale",
         "Test links missing",
         "automerge-possible"
       ],
@@ -3522,12 +3671,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-18T15:24:57Z",
-      "updated_at": "2026-05-18T15:25:44Z",
+      "updated_at": "2026-06-18T06:15:10Z",
       "merged_at": null,
       "author": "gcompanydev",
       "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1105",
       "labels": [
+        "Stale",
         "Test links missing",
         "filename-error"
       ],
@@ -3697,7 +3847,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 95,
+        "review_count": 88,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
