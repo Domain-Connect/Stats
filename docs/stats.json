@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-19T02:50:23.501478",
+  "generated_at": "2026-06-20T02:10:32.435371",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 818,
-    "total_providers": 479,
-    "total_merged_prs": 934,
-    "total_open_prs": 31,
+    "total_templates": 824,
+    "total_providers": 484,
+    "total_merged_prs": 942,
+    "total_open_prs": 24,
     "total_contributors": 430,
     "avg_records_per_template": 3.3
   },
@@ -586,9 +586,9 @@
     },
     {
       "month": "2026-06",
-      "added": 47,
+      "added": 53,
       "deleted": 0,
-      "cumulative": 818
+      "cumulative": 824
     }
   ],
   "providers_growth": [
@@ -1034,8 +1034,8 @@
     },
     {
       "month": "2026-06",
-      "added": 34,
-      "cumulative": 479
+      "added": 39,
+      "cumulative": 484
     }
   ],
   "pr_activity": [
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 79,
-      "merged": 50
+      "created": 82,
+      "merged": 58
     }
   ],
   "pr_time_to_merge": [
@@ -1946,7 +1946,7 @@
     },
     {
       "month": "2026-06",
-      "avg_days": 1.7
+      "avg_days": 1.6
     }
   ],
   "pr_label_activity": [
@@ -2220,21 +2220,21 @@
       "Checklist of common problems not complete": 26,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 38,
+      "PR description incomplete": 40,
       "Stale": 0,
-      "Test links missing": 63,
-      "automerge-possible": 26,
+      "Test links missing": 64,
+      "automerge-possible": 27,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 25,
+      "hostRequired": 27,
       "new review needed": 3,
-      "no syncPubKeyDomain": 7,
+      "no syncPubKeyDomain": 8,
       "question": 0,
-      "review issues": 1,
+      "review issues": 2,
       "schema-error": 5,
       "syncBlock": 1,
-      "warnPhishing": 5
+      "warnPhishing": 6
     }
   ],
   "pr_comment_activity": [
@@ -2636,17 +2636,17 @@
     },
     {
       "month": "2026-06",
-      "avg_comments": 0.1
+      "avg_comments": 0.2
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 582
+      "count": 586
     },
     {
       "type": "TXT",
-      "count": 390
+      "count": 394
     },
     {
       "type": "A",
@@ -2654,11 +2654,11 @@
     },
     {
       "type": "SPFM",
-      "count": 192
+      "count": 195
     },
     {
       "type": "MX",
-      "count": 163
+      "count": 165
     },
     {
       "type": "SRV",
@@ -2814,6 +2814,41 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "tellam.app",
+        "provider_name": "Tellam",
+        "logo_url": "https://tellam.app/android-icon-192x192.png",
+        "template_count": 1,
+        "first_added": "2026-06-19"
+      },
+      {
+        "provider_id": "tryhermes.dev",
+        "provider_name": "Hermes",
+        "logo_url": "https://tryhermes.dev/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-06-19"
+      },
+      {
+        "provider_id": "letterbook.ai",
+        "provider_name": "Letterbook",
+        "logo_url": "https://app.letterbook.ai/letterbook-logo-dark-favicon.svg",
+        "template_count": 2,
+        "first_added": "2026-06-19"
+      },
+      {
+        "provider_id": "amabrik.com",
+        "provider_name": "Amabrik",
+        "logo_url": "https://amabrik.com/logo.png",
+        "template_count": 1,
+        "first_added": "2026-06-19"
+      },
+      {
+        "provider_id": "senderz.app",
+        "provider_name": "Senderz",
+        "logo_url": "https://senderz.app/logo-text-primary.png",
+        "template_count": 1,
+        "first_added": "2026-06-19"
+      },
+      {
         "provider_id": "convee.app",
         "provider_name": "Convee",
         "logo_url": "https://convee.app/favicon.svg",
@@ -2917,56 +2952,21 @@
         "logo_url": "https://coldpost.ai/logo.png",
         "template_count": 1,
         "first_added": "2026-06-11"
-      },
-      {
-        "provider_id": "talentcafe.net",
-        "provider_name": "TalentCafe",
-        "logo_url": "https://talentcafe.net/logo.png",
-        "template_count": 2,
-        "first_added": "2026-06-11"
-      },
-      {
-        "provider_id": "appnest.ing",
-        "provider_name": "AppNest",
-        "logo_url": "https://appnest.ing/favicon.svg",
-        "template_count": 1,
-        "first_added": "2026-06-11"
-      },
-      {
-        "provider_id": "mrch.in",
-        "provider_name": "mrch.in",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-06-11"
-      },
-      {
-        "provider_id": "migrationtool.fr",
-        "provider_name": "MigrationTOOL",
-        "logo_url": "https://migrationtool.fr/favicon.ico",
-        "template_count": 1,
-        "first_added": "2026-06-11"
-      },
-      {
-        "provider_id": "cloudcat.me",
-        "provider_name": "CloudCat",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-06-09"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 818,
+    "total_templates": 824,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 747
+        "count": 753
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 558
+        "count": 564
       },
       {
         "name": "warnPhishing",
@@ -2976,84 +2976,33 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 215
+        "count": 216
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 1254,
-      "title": "Add Senderz mail template (senderz.app.mail.json)",
+      "number": 1258,
+      "title": "Create grapecloud.eu.website.json",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-19T00:06:49Z",
-      "updated_at": "2026-06-19T00:24:01Z",
+      "created_at": "2026-06-19T20:12:55Z",
+      "updated_at": "2026-06-19T21:41:57Z",
       "merged_at": null,
-      "author": "appdever01",
-      "author_avatar": "https://avatars.githubusercontent.com/u/154071744?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1254",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "senderz",
-          "service_id": "app.mail",
-          "filename": "senderz.app.mail.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1253,
-      "title": "add letterbook mail server and portal",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T20:09:08Z",
-      "updated_at": "2026-06-18T20:14:33Z",
-      "merged_at": null,
-      "author": "Ethan-Hou1117",
-      "author_avatar": "https://avatars.githubusercontent.com/u/100500816?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1253",
+      "author": "kimaah",
+      "author_avatar": "https://avatars.githubusercontent.com/u/70794496?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1258",
       "labels": [
         "hostRequired",
-        "automerge-possible"
+        "review issues"
       ],
       "templates": [
         {
-          "provider_id": "letterbook",
-          "service_id": "ai.forwarding-replies",
-          "filename": "letterbook.ai.forwarding-replies.json",
+          "provider_id": "grapecloud",
+          "service_id": "eu.website",
+          "filename": "grapecloud.eu.website.json",
           "logo_url": null,
           "status": "added"
-        },
-        {
-          "provider_id": "letterbook",
-          "service_id": "ai.portal",
-          "filename": "letterbook.ai.portal.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1251,
-      "title": "Patch cname",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T13:10:40Z",
-      "updated_at": "2026-06-18T13:27:34Z",
-      "merged_at": null,
-      "author": "pratikkhulge-blitz",
-      "author_avatar": "https://avatars.githubusercontent.com/u/170920752?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1251",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "shopdeck",
-          "service_id": "com.website-service-id",
-          "filename": "shopdeck.com.website-service-id.json",
-          "logo_url": "https://pro.shopdeck.com/logo192.png",
-          "status": "modified"
         }
       ]
     },
@@ -3063,12 +3012,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-18T09:38:32Z",
-      "updated_at": "2026-06-18T09:39:11Z",
+      "updated_at": "2026-06-19T16:47:33Z",
       "merged_at": null,
       "author": "milleniumishere",
       "author_avatar": "https://avatars.githubusercontent.com/u/60817254?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1249",
-      "labels": [],
+      "labels": [
+        "review issues"
+      ],
       "templates": [
         {
           "provider_id": "smailor",
@@ -3080,114 +3031,20 @@
       ]
     },
     {
-      "number": 1242,
-      "title": "draft2live.ai.blog: add DCV delegation CNAME for SSL cert issuance",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T06:06:12Z",
-      "updated_at": "2026-06-18T06:11:37Z",
-      "merged_at": null,
-      "author": "Luka-Hrachov",
-      "author_avatar": "https://avatars.githubusercontent.com/u/141435837?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1242",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "draft2live",
-          "service_id": "ai.blog",
-          "filename": "draft2live.ai.blog.json",
-          "logo_url": "https://draft2live.ai/logo-domain-connect.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 1241,
-      "title": "Add Hermes Domain Connect Template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T05:56:08Z",
-      "updated_at": "2026-06-18T06:16:38Z",
-      "merged_at": null,
-      "author": "Lstsk",
-      "author_avatar": "https://avatars.githubusercontent.com/u/94779681?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1241",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "tryhermes",
-          "service_id": "dev.sending-domain",
-          "filename": "tryhermes.dev.sending-domain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1240,
-      "title": "add Tellam, Email sending",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T01:36:17Z",
-      "updated_at": "2026-06-18T02:01:36Z",
-      "merged_at": null,
-      "author": "mewc",
-      "author_avatar": "https://avatars.githubusercontent.com/u/15105417?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1240",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "tellam",
-          "service_id": "app.email",
-          "filename": "tellam.app.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1239,
-      "title": "Update Convee website target host to connect.convee-dns.com",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-17T23:43:06Z",
-      "updated_at": "2026-06-17T23:52:36Z",
-      "merged_at": null,
-      "author": "Convee-app",
-      "author_avatar": "https://avatars.githubusercontent.com/u/294330298?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1239",
-      "labels": [
-        "hostRequired",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "convee",
-          "service_id": "app.website",
-          "filename": "convee.app.website.json",
-          "logo_url": "https://convee.app/favicon.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
       "number": 1238,
       "title": "Add sendix.dev.mail.json",
       "state": "open",
       "merged": false,
       "created_at": "2026-06-17T23:05:36Z",
-      "updated_at": "2026-06-17T23:37:34Z",
+      "updated_at": "2026-06-19T23:40:36Z",
       "merged_at": null,
       "author": "SendixDev",
       "author_avatar": "https://avatars.githubusercontent.com/u/294641776?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1238",
-      "labels": [],
+      "labels": [
+        "automerge-possible",
+        "new review needed"
+      ],
       "templates": [
         {
           "provider_id": "sendix",
@@ -3559,12 +3416,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-19T23:02:55Z",
-      "updated_at": "2026-05-19T23:07:55Z",
+      "updated_at": "2026-06-19T06:35:32Z",
       "merged_at": null,
       "author": "krammstein",
       "author_avatar": "https://avatars.githubusercontent.com/u/4204051?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1119",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -3760,32 +3618,6 @@
       ]
     },
     {
-      "number": 1060,
-      "title": "Add Traaaction service provider — affiliate tracking CNAME template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-30T12:36:32Z",
-      "updated_at": "2026-06-04T06:13:24Z",
-      "merged_at": null,
-      "author": "Whiskerweb",
-      "author_avatar": "https://avatars.githubusercontent.com/u/159827370?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1060",
-      "labels": [
-        "question",
-        "Stale",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "traaaction",
-          "service_id": "com.cname",
-          "filename": "traaaction.com.cname.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1058,
       "title": "Add coreware.app Website DNS template",
       "state": "open",
@@ -3815,7 +3647,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 696,
+        "review_count": 704,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3847,7 +3679,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 88,
+        "review_count": 96,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3958,6 +3790,15 @@
       "service_name": "AI ProspectScout Email",
       "logo_url": "https://aisdr-oceanix.lovable.app/placeholder.svg",
       "record_count": 4
+    },
+    {
+      "filename": "amabrik.com.site-verification.json",
+      "provider_id": "amabrik.com",
+      "service_id": "site-verification",
+      "provider_name": "Amabrik",
+      "service_name": "Amabrik Site Verification",
+      "logo_url": "https://amabrik.com/logo.png",
+      "record_count": 1
     },
     {
       "filename": "amplemarket.com.domain-setup.json",
@@ -5181,7 +5022,7 @@
       "provider_name": "Draft2Live",
       "service_name": "Draft2Live Hosted Blog",
       "logo_url": "https://draft2live.ai/logo-domain-connect.svg",
-      "record_count": 2
+      "record_count": 3
     },
     {
       "filename": "drin.run.email.json",
@@ -7587,6 +7428,24 @@
       "record_count": 4
     },
     {
+      "filename": "letterbook.ai.forwarding-replies.json",
+      "provider_id": "letterbook.ai",
+      "service_id": "forwarding-replies",
+      "provider_name": "Letterbook",
+      "service_name": "Forwarding replies",
+      "logo_url": "https://app.letterbook.ai/letterbook-logo-dark-favicon.svg",
+      "record_count": 3
+    },
+    {
+      "filename": "letterbook.ai.portal.json",
+      "provider_id": "letterbook.ai",
+      "service_id": "portal",
+      "provider_name": "Letterbook",
+      "service_name": "Portal custom domain",
+      "logo_url": "https://app.letterbook.ai/letterbook-logo-dark-favicon.svg",
+      "record_count": 1
+    },
+    {
       "filename": "lettermint.co.inbound.json",
       "provider_id": "lettermint.co",
       "service_id": "inbound",
@@ -9612,6 +9471,15 @@
       "record_count": 3
     },
     {
+      "filename": "senderz.app.mail.json",
+      "provider_id": "senderz.app",
+      "service_id": "mail",
+      "provider_name": "Senderz",
+      "service_name": "Mail",
+      "logo_url": "https://senderz.app/logo-text-primary.png",
+      "record_count": 6
+    },
+    {
       "filename": "sendgrid.com.domain-auth-manual.json",
       "provider_id": "sendgrid.com",
       "service_id": "domain-auth-manual",
@@ -10197,6 +10065,15 @@
       "record_count": 1
     },
     {
+      "filename": "tellam.app.email.json",
+      "provider_id": "tellam.app",
+      "service_id": "email",
+      "provider_name": "Tellam",
+      "service_name": "Email sending",
+      "logo_url": "https://tellam.app/android-icon-192x192.png",
+      "record_count": 3
+    },
+    {
       "filename": "testhireez.com.hireez-landing-page-test.json",
       "provider_id": "testhireez.com",
       "service_id": "hireez-landing-page-test",
@@ -10464,6 +10341,15 @@
       "provider_name": "Trustifi",
       "service_name": "Domain proof of ownership for configuring Trustifi Email Services - Staging",
       "logo_url": "https://stagebe.trustifi.com/api/o/v1/assets/logo-transparent.png",
+      "record_count": 6
+    },
+    {
+      "filename": "tryhermes.dev.sending-domain.json",
+      "provider_id": "tryhermes.dev",
+      "service_id": "sending-domain",
+      "provider_name": "Hermes",
+      "service_name": "Hermes Sending Domain",
+      "logo_url": "https://tryhermes.dev/logo.svg",
       "record_count": 6
     },
     {
@@ -11226,7 +11112,7 @@
   "contributors": [
     {
       "login": "pawel-kow",
-      "contributions": 471,
+      "contributions": 472,
       "avatar_url": "https://avatars.githubusercontent.com/u/28707030?v=4",
       "profile_url": "https://github.com/pawel-kow"
     },
