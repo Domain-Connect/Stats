@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-20T02:10:32.435371",
+  "generated_at": "2026-06-21T02:34:29.322996",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 824,
-    "total_providers": 484,
-    "total_merged_prs": 942,
-    "total_open_prs": 24,
+    "total_templates": 825,
+    "total_providers": 485,
+    "total_merged_prs": 943,
+    "total_open_prs": 27,
     "total_contributors": 430,
     "avg_records_per_template": 3.3
   },
@@ -586,9 +586,9 @@
     },
     {
       "month": "2026-06",
-      "added": 53,
+      "added": 54,
       "deleted": 0,
-      "cumulative": 824
+      "cumulative": 825
     }
   ],
   "providers_growth": [
@@ -1034,8 +1034,8 @@
     },
     {
       "month": "2026-06",
-      "added": 39,
-      "cumulative": 484
+      "added": 40,
+      "cumulative": 485
     }
   ],
   "pr_activity": [
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 82,
-      "merged": 58
+      "created": 86,
+      "merged": 59
     }
   ],
   "pr_time_to_merge": [
@@ -2217,24 +2217,24 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 26,
+      "Checklist of common problems not complete": 27,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 40,
+      "PR description incomplete": 43,
       "Stale": 0,
-      "Test links missing": 64,
-      "automerge-possible": 27,
+      "Test links missing": 66,
+      "automerge-possible": 29,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 27,
+      "hostRequired": 29,
       "new review needed": 3,
       "no syncPubKeyDomain": 8,
       "question": 0,
       "review issues": 2,
       "schema-error": 5,
       "syncBlock": 1,
-      "warnPhishing": 6
+      "warnPhishing": 7
     }
   ],
   "pr_comment_activity": [
@@ -2642,11 +2642,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 586
+      "count": 587
     },
     {
       "type": "TXT",
-      "count": 394
+      "count": 395
     },
     {
       "type": "A",
@@ -2654,7 +2654,7 @@
     },
     {
       "type": "SPFM",
-      "count": 195
+      "count": 196
     },
     {
       "type": "MX",
@@ -2814,6 +2814,13 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "sendix.dev",
+        "provider_name": "Sendix",
+        "logo_url": "https://sendix.dev/brand/sendix-wordmark.svg",
+        "template_count": 1,
+        "first_added": "2026-06-20"
+      },
+      {
         "provider_id": "tellam.app",
         "provider_name": "Tellam",
         "logo_url": "https://tellam.app/android-icon-192x192.png",
@@ -2945,28 +2952,21 @@
         "logo_url": "https://improvmx-public-assets.s3.eu-west-3.amazonaws.com/improvmx_logo.svg",
         "template_count": 1,
         "first_added": "2026-06-11"
-      },
-      {
-        "provider_id": "coldpost.ai",
-        "provider_name": "COLDPOST",
-        "logo_url": "https://coldpost.ai/logo.png",
-        "template_count": 1,
-        "first_added": "2026-06-11"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 824,
+    "total_templates": 825,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 753
+        "count": 754
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 564
+        "count": 565
       },
       {
         "name": "warnPhishing",
@@ -2981,6 +2981,104 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1262,
+      "title": "Add bytxt.co hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-21T00:54:20Z",
+      "updated_at": "2026-06-21T01:14:42Z",
+      "merged_at": null,
+      "author": "azuaco",
+      "author_avatar": "https://avatars.githubusercontent.com/u/285055977?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1262",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "bytxt",
+          "service_id": "co.hosting",
+          "filename": "bytxt.co.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1261,
+      "title": "Create www.simpleurl.tech.branded-subdomain.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-20T16:17:15Z",
+      "updated_at": "2026-06-20T16:18:48Z",
+      "merged_at": null,
+      "author": "SimpleURL-Tech",
+      "author_avatar": "https://avatars.githubusercontent.com/u/287363081?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1261",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "simpleurl",
+          "service_id": "tech.branded-subdomain",
+          "filename": "simpleurl.tech.branded-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1260,
+      "title": "Add Ulama custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-20T15:02:58Z",
+      "updated_at": "2026-06-20T15:42:26Z",
+      "merged_at": null,
+      "author": "miky9585",
+      "author_avatar": "https://avatars.githubusercontent.com/u/17646742?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1260",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "ulama",
+          "service_id": "ai.customdomain",
+          "filename": "ulama.ai.customdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1259,
+      "title": "add AsterMD, AsterMD Custom Domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-20T10:49:10Z",
+      "updated_at": "2026-06-20T10:49:42Z",
+      "merged_at": null,
+      "author": "raunak-cispl1",
+      "author_avatar": "https://avatars.githubusercontent.com/u/72799540?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1259",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "astermd",
+          "service_id": "com.domain-setup",
+          "filename": "astermd.com.domain-setup.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1258,
       "title": "Create grapecloud.eu.website.json",
@@ -3012,44 +3110,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-18T09:38:32Z",
-      "updated_at": "2026-06-19T16:47:33Z",
+      "updated_at": "2026-06-20T15:59:36Z",
       "merged_at": null,
       "author": "milleniumishere",
       "author_avatar": "https://avatars.githubusercontent.com/u/60817254?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1249",
       "labels": [
-        "review issues"
+        "Test links missing",
+        "new review needed"
       ],
       "templates": [
         {
           "provider_id": "smailor",
           "service_id": "com.email-setup",
           "filename": "smailor.com.email-setup.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1238,
-      "title": "Add sendix.dev.mail.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-17T23:05:36Z",
-      "updated_at": "2026-06-19T23:40:36Z",
-      "merged_at": null,
-      "author": "SendixDev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/294641776?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1238",
-      "labels": [
-        "automerge-possible",
-        "new review needed"
-      ],
-      "templates": [
-        {
-          "provider_id": "sendix",
-          "service_id": "dev.mail",
-          "filename": "sendix.dev.mail.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3391,12 +3465,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-20T23:40:49Z",
-      "updated_at": "2026-05-21T00:04:42Z",
+      "updated_at": "2026-06-20T05:49:09Z",
       "merged_at": null,
       "author": "ulmoai",
       "author_avatar": "https://avatars.githubusercontent.com/u/206221336?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1127",
       "labels": [
+        "Stale",
         "Test links missing",
         "automerge-possible"
       ],
@@ -3647,7 +3722,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 704,
+        "review_count": 705,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3679,7 +3754,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 96,
+        "review_count": 90,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -9504,6 +9579,15 @@
       "provider_name": "Send in Italy",
       "service_name": "Send in Italy Domain Authentication",
       "logo_url": "https://app.sendinitaly.com/assets/logo-domain-connect.png",
+      "record_count": 5
+    },
+    {
+      "filename": "sendix.dev.mail.json",
+      "provider_id": "sendix.dev",
+      "service_id": "mail",
+      "provider_name": "Sendix",
+      "service_name": "Mail",
+      "logo_url": "https://sendix.dev/brand/sendix-wordmark.svg",
       "record_count": 5
     },
     {
