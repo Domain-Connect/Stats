@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-21T02:34:29.322996",
+  "generated_at": "2026-06-22T02:38:49.037592",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 825,
-    "total_providers": 485,
-    "total_merged_prs": 943,
-    "total_open_prs": 27,
-    "total_contributors": 430,
+    "total_templates": 830,
+    "total_providers": 490,
+    "total_merged_prs": 948,
+    "total_open_prs": 23,
+    "total_contributors": 431,
     "avg_records_per_template": 3.3
   },
   "templates_growth": [
@@ -586,9 +586,9 @@
     },
     {
       "month": "2026-06",
-      "added": 54,
+      "added": 59,
       "deleted": 0,
-      "cumulative": 825
+      "cumulative": 830
     }
   ],
   "providers_growth": [
@@ -1034,8 +1034,8 @@
     },
     {
       "month": "2026-06",
-      "added": 40,
-      "cumulative": 485
+      "added": 45,
+      "cumulative": 490
     }
   ],
   "pr_activity": [
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 86,
-      "merged": 59
+      "created": 88,
+      "merged": 64
     }
   ],
   "pr_time_to_merge": [
@@ -2223,7 +2223,7 @@
       "PR description incomplete": 43,
       "Stale": 0,
       "Test links missing": 66,
-      "automerge-possible": 29,
+      "automerge-possible": 30,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
@@ -2642,11 +2642,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 587
+      "count": 590
     },
     {
       "type": "TXT",
-      "count": 395
+      "count": 399
     },
     {
       "type": "A",
@@ -2654,11 +2654,11 @@
     },
     {
       "type": "SPFM",
-      "count": 196
+      "count": 197
     },
     {
       "type": "MX",
-      "count": 165
+      "count": 166
     },
     {
       "type": "SRV",
@@ -2678,7 +2678,7 @@
     },
     {
       "type": "APEXCNAME",
-      "count": 6
+      "count": 7
     },
     {
       "type": "CAA",
@@ -2814,6 +2814,41 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "shipmail.to",
+        "provider_name": "Shipmail",
+        "logo_url": "https://shipmail.to/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-06-22"
+      },
+      {
+        "provider_id": "simpleurl.tech",
+        "provider_name": "SimpleURL",
+        "logo_url": "https://www.simpleurl.tech/favicon.ico",
+        "template_count": 1,
+        "first_added": "2026-06-21"
+      },
+      {
+        "provider_id": "ulama.ai",
+        "provider_name": "Ulama",
+        "logo_url": "https://ulama.ai/assets/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-06-21"
+      },
+      {
+        "provider_id": "bytxt.co",
+        "provider_name": "bytxt",
+        "logo_url": "https://www.bytxt.co/assets/brandmark.png",
+        "template_count": 1,
+        "first_added": "2026-06-21"
+      },
+      {
+        "provider_id": "astermd.com",
+        "provider_name": "AsterMD",
+        "logo_url": "https://www.astermd.com/logo-cf.svg",
+        "template_count": 1,
+        "first_added": "2026-06-21"
+      },
+      {
         "provider_id": "sendix.dev",
         "provider_name": "Sendix",
         "logo_url": "https://sendix.dev/brand/sendix-wordmark.svg",
@@ -2917,56 +2952,21 @@
         "logo_url": "https://rejectzero.com/public_9a9a_42ab50d35a9c4975ac4b2e1401292b9e.png",
         "template_count": 3,
         "first_added": "2026-06-13"
-      },
-      {
-        "provider_id": "brhost.az",
-        "provider_name": "BRHost",
-        "logo_url": "https://brhost.az/brhost-logo.svg",
-        "template_count": 1,
-        "first_added": "2026-06-12"
-      },
-      {
-        "provider_id": "wayfront.com",
-        "provider_name": "Wayfront",
-        "logo_url": "https://wayfront.com/assets/brand/wayfront.png",
-        "template_count": 2,
-        "first_added": "2026-06-11"
-      },
-      {
-        "provider_id": "cavuno.com",
-        "provider_name": "Cavuno",
-        "logo_url": "https://cavuno.com/images/favicon/android-chrome-192x192.png",
-        "template_count": 2,
-        "first_added": "2026-06-11"
-      },
-      {
-        "provider_id": "sitesplaced.com",
-        "provider_name": "SitesPlaced",
-        "logo_url": "https://sitesplaced.com/logo.png",
-        "template_count": 1,
-        "first_added": "2026-06-11"
-      },
-      {
-        "provider_id": "improvmx.com",
-        "provider_name": "ImprovMX",
-        "logo_url": "https://improvmx-public-assets.s3.eu-west-3.amazonaws.com/improvmx_logo.svg",
-        "template_count": 1,
-        "first_added": "2026-06-11"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 825,
+    "total_templates": 830,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 754
+        "count": 759
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 565
+        "count": 569
       },
       {
         "name": "warnPhishing",
@@ -2976,106 +2976,30 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 216
+        "count": 218
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 1262,
-      "title": "Add bytxt.co hosting template",
+      "number": 1266,
+      "title": "Update bytxt.co hosting template to v2 (delegated DCV)",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-21T00:54:20Z",
-      "updated_at": "2026-06-21T01:14:42Z",
+      "created_at": "2026-06-21T22:05:06Z",
+      "updated_at": "2026-06-21T22:05:37Z",
       "merged_at": null,
       "author": "azuaco",
       "author_avatar": "https://avatars.githubusercontent.com/u/285055977?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1262",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "automerge-possible"
-      ],
+      "url": "https://github.com/Domain-Connect/Templates/pull/1266",
+      "labels": [],
       "templates": [
         {
           "provider_id": "bytxt",
           "service_id": "co.hosting",
           "filename": "bytxt.co.hosting.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1261,
-      "title": "Create www.simpleurl.tech.branded-subdomain.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-20T16:17:15Z",
-      "updated_at": "2026-06-20T16:18:48Z",
-      "merged_at": null,
-      "author": "SimpleURL-Tech",
-      "author_avatar": "https://avatars.githubusercontent.com/u/287363081?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1261",
-      "labels": [
-        "hostRequired",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "simpleurl",
-          "service_id": "tech.branded-subdomain",
-          "filename": "simpleurl.tech.branded-subdomain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1260,
-      "title": "Add Ulama custom domain template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-20T15:02:58Z",
-      "updated_at": "2026-06-20T15:42:26Z",
-      "merged_at": null,
-      "author": "miky9585",
-      "author_avatar": "https://avatars.githubusercontent.com/u/17646742?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1260",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "ulama",
-          "service_id": "ai.customdomain",
-          "filename": "ulama.ai.customdomain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1259,
-      "title": "add AsterMD, AsterMD Custom Domain",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-20T10:49:10Z",
-      "updated_at": "2026-06-20T10:49:42Z",
-      "merged_at": null,
-      "author": "raunak-cispl1",
-      "author_avatar": "https://avatars.githubusercontent.com/u/72799540?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1259",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "astermd",
-          "service_id": "com.domain-setup",
-          "filename": "astermd.com.domain-setup.json",
-          "logo_url": null,
-          "status": "added"
+          "logo_url": "https://www.bytxt.co/assets/brandmark.png",
+          "status": "modified"
         }
       ]
     },
@@ -3110,7 +3034,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-18T09:38:32Z",
-      "updated_at": "2026-06-20T15:59:36Z",
+      "updated_at": "2026-06-21T08:57:40Z",
       "merged_at": null,
       "author": "milleniumishere",
       "author_avatar": "https://avatars.githubusercontent.com/u/60817254?v=4",
@@ -3443,12 +3367,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-21T14:11:23Z",
-      "updated_at": "2026-05-21T15:46:30Z",
+      "updated_at": "2026-06-21T06:22:33Z",
       "merged_at": null,
       "author": "NovalogicHolding",
       "author_avatar": "https://avatars.githubusercontent.com/u/264263566?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1129",
-      "labels": [],
+      "labels": [
+        "Stale"
+      ],
       "templates": [
         {
           "provider_id": "novantt",
@@ -3691,38 +3617,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 1058,
-      "title": "Add coreware.app Website DNS template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-30T05:01:49Z",
-      "updated_at": "2026-06-05T05:53:31Z",
-      "merged_at": null,
-      "author": "joshatcoreware",
-      "author_avatar": "https://avatars.githubusercontent.com/u/218769611?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1058",
-      "labels": [
-        "Stale",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "coreware",
-          "service_id": "app.websitedns",
-          "filename": "coreware.app.websitedns.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 705,
+        "review_count": 708,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3754,9 +3655,15 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 90,
+        "review_count": 89,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
+      },
+      {
+        "login": "github-actions[bot]",
+        "review_count": 2,
+        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+        "profile_url": "https://github.com/apps/github-actions"
       },
       {
         "login": "copilot-pull-request-reviewer[bot]",
@@ -4009,6 +3916,15 @@
       "service_name": "Email Sending",
       "logo_url": "https://arkhq.io/ark-logo.png",
       "record_count": 3
+    },
+    {
+      "filename": "astermd.com.domain-setup.json",
+      "provider_id": "astermd.com",
+      "service_id": "domain-setup",
+      "provider_name": "AsterMD",
+      "service_name": "AsterMD Custom Domain",
+      "logo_url": "https://www.astermd.com/logo-cf.svg",
+      "record_count": 2
     },
     {
       "filename": "atlos.email.mail.json",
@@ -4413,6 +4329,15 @@
       "provider_name": "Bytes",
       "service_name": "Bytes AI Storefront",
       "logo_url": "https://static.trybytes.ai/bytes-new-logo.png",
+      "record_count": 2
+    },
+    {
+      "filename": "bytxt.co.hosting.json",
+      "provider_id": "bytxt.co",
+      "service_id": "hosting",
+      "provider_name": "bytxt",
+      "service_name": "bytxt website hosting",
+      "logo_url": "https://www.bytxt.co/assets/brandmark.png",
       "record_count": 2
     },
     {
@@ -9654,6 +9579,15 @@
       "record_count": 1
     },
     {
+      "filename": "shipmail.to.email.json",
+      "provider_id": "shipmail.to",
+      "service_id": "email",
+      "provider_name": "Shipmail",
+      "service_name": "Shipmail Email",
+      "logo_url": "https://shipmail.to/logo.svg",
+      "record_count": 4
+    },
+    {
       "filename": "shopdeck.com.website-service-id.json",
       "provider_id": "shopdeck.com",
       "service_id": "website-service-id",
@@ -9742,6 +9676,15 @@
       "service_name": "Sidemail.io Domain Authentication",
       "logo_url": "https://sidemail.io/assets/logo.png",
       "record_count": 2
+    },
+    {
+      "filename": "simpleurl.tech.branded-subdomain.json",
+      "provider_id": "simpleurl.tech",
+      "service_id": "branded-subdomain",
+      "provider_name": "SimpleURL",
+      "service_name": "SimpleURL Branded Domains",
+      "logo_url": "https://www.simpleurl.tech/favicon.ico",
+      "record_count": 1
     },
     {
       "filename": "simplomail.com.email.json",
@@ -10473,6 +10416,15 @@
       "record_count": 2
     },
     {
+      "filename": "ulama.ai.customdomain.json",
+      "provider_id": "ulama.ai",
+      "service_id": "customdomain",
+      "provider_name": "Ulama",
+      "service_name": "Ulama Custom Domain",
+      "logo_url": "https://ulama.ai/assets/logo.svg",
+      "record_count": 2
+    },
+    {
       "filename": "unbox.so.email-setup.json",
       "provider_id": "unbox.so",
       "service_id": "email-setup",
@@ -11196,7 +11148,7 @@
   "contributors": [
     {
       "login": "pawel-kow",
-      "contributions": 472,
+      "contributions": 478,
       "avatar_url": "https://avatars.githubusercontent.com/u/28707030?v=4",
       "profile_url": "https://github.com/pawel-kow"
     },
