@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T02:38:49.037592",
+  "generated_at": "2026-06-23T02:04:41.564557",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 830,
     "total_providers": 490,
     "total_merged_prs": 948,
-    "total_open_prs": 23,
+    "total_open_prs": 28,
     "total_contributors": 431,
     "avg_records_per_template": 3.3
   },
@@ -1551,7 +1551,7 @@
     },
     {
       "month": "2026-06",
-      "created": 88,
+      "created": 94,
       "merged": 64
     }
   ],
@@ -2220,21 +2220,21 @@
       "Checklist of common problems not complete": 27,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 43,
+      "PR description incomplete": 45,
       "Stale": 0,
-      "Test links missing": 66,
-      "automerge-possible": 30,
+      "Test links missing": 71,
+      "automerge-possible": 31,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 1,
-      "hostRequired": 29,
+      "filename-error": 3,
+      "hostRequired": 31,
       "new review needed": 3,
       "no syncPubKeyDomain": 8,
       "question": 0,
       "review issues": 2,
-      "schema-error": 5,
+      "schema-error": 7,
       "syncBlock": 1,
-      "warnPhishing": 7
+      "warnPhishing": 8
     }
   ],
   "pr_comment_activity": [
@@ -2982,6 +2982,132 @@
   },
   "recent_prs": [
     {
+      "number": 1276,
+      "title": "Add xnying.xyz dns testing templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-22T22:48:52Z",
+      "updated_at": "2026-06-22T22:49:36Z",
+      "merged_at": null,
+      "author": "cxy62226",
+      "author_avatar": "https://avatars.githubusercontent.com/u/295971628?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1276",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "xnying",
+          "service_id": "xyz.dns-test",
+          "filename": "xnying.xyz.dns-test.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "xnying",
+          "service_id": "xyz.test-delegation",
+          "filename": "xnying.xyz.test-delegation.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1274,
+      "title": "Add justad.justad-tracking template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-22T21:45:43Z",
+      "updated_at": "2026-06-22T22:14:00Z",
+      "merged_at": null,
+      "author": "justadrepo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/224558080?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1274",
+      "labels": [
+        "filename-error",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "justad",
+          "service_id": "justad-tracking",
+          "filename": "justad.justad-tracking.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1273,
+      "title": "Update Shipmail Domain Connect logo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-22T15:29:11Z",
+      "updated_at": "2026-06-22T15:31:21Z",
+      "merged_at": null,
+      "author": "jcoulaud",
+      "author_avatar": "https://avatars.githubusercontent.com/u/15197490?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1273",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "shipmail",
+          "service_id": "to.email",
+          "filename": "shipmail.to.email.json",
+          "logo_url": "https://shipmail.to/logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1272,
+      "title": "Add unitops.app.portal template (signed-sync CNAME)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-22T03:33:59Z",
+      "updated_at": "2026-06-22T03:44:26Z",
+      "merged_at": null,
+      "author": "neilberkman",
+      "author_avatar": "https://avatars.githubusercontent.com/u/37657?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1272",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "unitops",
+          "service_id": "app.portal",
+          "filename": "unitops.app.portal.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1271,
+      "title": "Add consent.vn domain-verify template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-22T03:29:53Z",
+      "updated_at": "2026-06-22T03:48:44Z",
+      "merged_at": null,
+      "author": "codihaus",
+      "author_avatar": "https://avatars.githubusercontent.com/u/68498487?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1271",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "consent",
+          "service_id": "vn.domain-verify",
+          "filename": "consent.vn.domain-verify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1266,
       "title": "Update bytxt.co hosting template to v2 (delegated DCV)",
       "state": "open",
@@ -3034,13 +3160,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-18T09:38:32Z",
-      "updated_at": "2026-06-21T08:57:40Z",
+      "updated_at": "2026-06-22T07:29:49Z",
       "merged_at": null,
       "author": "milleniumishere",
       "author_avatar": "https://avatars.githubusercontent.com/u/60817254?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1249",
       "labels": [
-        "Test links missing",
         "new review needed"
       ],
       "templates": [
