@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T02:04:41.564557",
+  "generated_at": "2026-06-24T02:07:13.775916",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -8,8 +8,8 @@
   "summary": {
     "total_templates": 830,
     "total_providers": 490,
-    "total_merged_prs": 948,
-    "total_open_prs": 28,
+    "total_merged_prs": 949,
+    "total_open_prs": 35,
     "total_contributors": 431,
     "avg_records_per_template": 3.3
   },
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 94,
-      "merged": 64
+      "created": 103,
+      "merged": 65
     }
   ],
   "pr_time_to_merge": [
@@ -1946,7 +1946,7 @@
     },
     {
       "month": "2026-06",
-      "avg_days": 1.6
+      "avg_days": 1.5
     }
   ],
   "pr_label_activity": [
@@ -2217,24 +2217,24 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 27,
+      "Checklist of common problems not complete": 29,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 45,
+      "PR description incomplete": 47,
       "Stale": 0,
-      "Test links missing": 71,
-      "automerge-possible": 31,
+      "Test links missing": 77,
+      "automerge-possible": 35,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 3,
-      "hostRequired": 31,
+      "hostRequired": 33,
       "new review needed": 3,
-      "no syncPubKeyDomain": 8,
+      "no syncPubKeyDomain": 9,
       "question": 0,
       "review issues": 2,
       "schema-error": 7,
       "syncBlock": 1,
-      "warnPhishing": 8
+      "warnPhishing": 10
     }
   ],
   "pr_comment_activity": [
@@ -2636,7 +2636,7 @@
     },
     {
       "month": "2026-06",
-      "avg_comments": 0.2
+      "avg_comments": 0.1
     }
   ],
   "record_types": [
@@ -2816,7 +2816,7 @@
       {
         "provider_id": "shipmail.to",
         "provider_name": "Shipmail",
-        "logo_url": "https://shipmail.to/logo.svg",
+        "logo_url": "https://shipmail.to/domain-connect-logo.svg",
         "template_count": 1,
         "first_added": "2026-06-22"
       },
@@ -2982,6 +2982,203 @@
   },
   "recent_prs": [
     {
+      "number": 1285,
+      "title": "gofarther.dev email template (Amazon SES DKIM + DMARC)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-23T21:21:10Z",
+      "updated_at": "2026-06-23T21:54:54Z",
+      "merged_at": null,
+      "author": "canias7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/260366526?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1285",
+      "labels": [
+        "no syncPubKeyDomain",
+        "warnPhishing"
+      ],
+      "templates": [
+        {
+          "provider_id": "gofarther",
+          "service_id": "dev.email",
+          "filename": "gofarther.dev.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1284,
+      "title": "wesender.nl.email.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-23T18:15:28Z",
+      "updated_at": "2026-06-23T18:19:07Z",
+      "merged_at": null,
+      "author": "hallojerrynl",
+      "author_avatar": "https://avatars.githubusercontent.com/u/198613250?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1284",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "wesender",
+          "service_id": "nl.email",
+          "filename": "wesender.nl.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1283,
+      "title": "Add Mailercloud email authentication template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-23T11:27:42Z",
+      "updated_at": "2026-06-23T11:33:37Z",
+      "merged_at": null,
+      "author": "arunkvinam",
+      "author_avatar": "https://avatars.githubusercontent.com/u/87002538?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1283",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mailercloud",
+          "service_id": "com.email-auth",
+          "filename": "mailercloud.com.email-auth.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1282,
+      "title": "Unitops domain connect",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-23T11:07:22Z",
+      "updated_at": "2026-06-23T11:08:44Z",
+      "merged_at": null,
+      "author": "crova",
+      "author_avatar": "https://avatars.githubusercontent.com/u/13876051?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1282",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "unitops",
+          "service_id": "app.portal",
+          "filename": "unitops.app.portal.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1281,
+      "title": "Add Moxi page template (moxi.fan.page.json)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-23T10:00:25Z",
+      "updated_at": "2026-06-23T10:01:11Z",
+      "merged_at": null,
+      "author": "feralclo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/215260152?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1281",
+      "labels": [
+        "Test links missing",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "moxi",
+          "service_id": "fan.page",
+          "filename": "moxi.fan.page.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1280,
+      "title": "Add ulama.ai.customdomain-apex template (apex A record)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-23T08:24:04Z",
+      "updated_at": "2026-06-23T08:29:03Z",
+      "merged_at": null,
+      "author": "miky9585",
+      "author_avatar": "https://avatars.githubusercontent.com/u/17646742?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1280",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "ulama",
+          "service_id": "ai.customdomain-apex",
+          "filename": "ulama.ai.customdomain-apex.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1279,
+      "title": "Fix ulama.ai.customdomain: subdomain-only CNAME with hostRequired",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-23T08:23:02Z",
+      "updated_at": "2026-06-23T08:23:49Z",
+      "merged_at": null,
+      "author": "miky9585",
+      "author_avatar": "https://avatars.githubusercontent.com/u/17646742?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1279",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "ulama",
+          "service_id": "ai.customdomain",
+          "filename": "ulama.ai.customdomain.json",
+          "logo_url": "https://ulama.ai/assets/logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1278,
+      "title": "Add domainemaildoctor.com templates (email-spf, email-dmarc)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-23T05:09:22Z",
+      "updated_at": "2026-06-23T05:33:33Z",
+      "merged_at": null,
+      "author": "tandokheng",
+      "author_avatar": "https://avatars.githubusercontent.com/u/232015718?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1278",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "domainemaildoctor",
+          "service_id": "com.email-dmarc",
+          "filename": "domainemaildoctor.com.email-dmarc.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "domainemaildoctor",
+          "service_id": "com.email-spf",
+          "filename": "domainemaildoctor.com.email-spf.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1276,
       "title": "Add xnying.xyz dns testing templates",
       "state": "open",
@@ -3016,13 +3213,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-22T21:45:43Z",
-      "updated_at": "2026-06-22T22:14:00Z",
+      "updated_at": "2026-06-23T05:53:36Z",
       "merged_at": null,
       "author": "justadrepo",
       "author_avatar": "https://avatars.githubusercontent.com/u/224558080?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1274",
       "labels": [
-        "filename-error",
         "hostRequired"
       ],
       "templates": [
@@ -3032,30 +3228,6 @@
           "filename": "justad.justad-tracking.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1273,
-      "title": "Update Shipmail Domain Connect logo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-22T15:29:11Z",
-      "updated_at": "2026-06-22T15:31:21Z",
-      "merged_at": null,
-      "author": "jcoulaud",
-      "author_avatar": "https://avatars.githubusercontent.com/u/15197490?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1273",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "shipmail",
-          "service_id": "to.email",
-          "filename": "shipmail.to.email.json",
-          "logo_url": "https://shipmail.to/logo.svg",
-          "status": "modified"
         }
       ]
     },
@@ -3786,7 +3958,7 @@
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 2,
+        "review_count": 3,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -9709,7 +9881,7 @@
       "service_id": "email",
       "provider_name": "Shipmail",
       "service_name": "Shipmail Email",
-      "logo_url": "https://shipmail.to/logo.svg",
+      "logo_url": "https://shipmail.to/domain-connect-logo.svg",
       "record_count": 4
     },
     {
