@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-26T02:08:44.699471",
+  "generated_at": "2026-06-27T02:03:28.239961",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 842,
-    "total_providers": 497,
-    "total_merged_prs": 961,
-    "total_open_prs": 30,
+    "total_templates": 844,
+    "total_providers": 499,
+    "total_merged_prs": 963,
+    "total_open_prs": 31,
     "total_contributors": 431,
     "avg_records_per_template": 3.29
   },
@@ -586,9 +586,9 @@
     },
     {
       "month": "2026-06",
-      "added": 71,
+      "added": 73,
       "deleted": 0,
-      "cumulative": 842
+      "cumulative": 844
     }
   ],
   "providers_growth": [
@@ -1034,8 +1034,8 @@
     },
     {
       "month": "2026-06",
-      "added": 52,
-      "cumulative": 497
+      "added": 54,
+      "cumulative": 499
     }
   ],
   "pr_activity": [
@@ -1551,8 +1551,8 @@
     },
     {
       "month": "2026-06",
-      "created": 111,
-      "merged": 77
+      "created": 114,
+      "merged": 79
     }
   ],
   "pr_time_to_merge": [
@@ -2217,19 +2217,19 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 29,
+      "Checklist of common problems not complete": 30,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 50,
+      "PR description incomplete": 51,
       "Stale": 0,
-      "Test links missing": 84,
-      "automerge-possible": 36,
+      "Test links missing": 86,
+      "automerge-possible": 37,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 3,
       "hostRequired": 33,
       "new review needed": 3,
-      "no syncPubKeyDomain": 9,
+      "no syncPubKeyDomain": 10,
       "question": 0,
       "review issues": 2,
       "schema-error": 7,
@@ -2642,11 +2642,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 595
+      "count": 596
     },
     {
       "type": "TXT",
-      "count": 405
+      "count": 407
     },
     {
       "type": "A",
@@ -2654,11 +2654,11 @@
     },
     {
       "type": "SPFM",
-      "count": 200
+      "count": 201
     },
     {
       "type": "MX",
-      "count": 167
+      "count": 168
     },
     {
       "type": "SRV",
@@ -2814,6 +2814,20 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "gofarther.dev",
+        "provider_name": "Go Farther",
+        "logo_url": null,
+        "template_count": 1,
+        "first_added": "2026-06-26"
+      },
+      {
+        "provider_id": "mailblastr.com",
+        "provider_name": "MailBlastr",
+        "logo_url": "https://www.mailblastr.com/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-06-26"
+      },
+      {
         "provider_id": "domainemaildoctor.com",
         "provider_name": "Domain Email Doctor",
         "logo_url": "https://domainemaildoctor.com/icon.svg",
@@ -2938,35 +2952,21 @@
         "logo_url": "https://senderz.app/logo-text-primary.png",
         "template_count": 1,
         "first_added": "2026-06-19"
-      },
-      {
-        "provider_id": "convee.app",
-        "provider_name": "Convee",
-        "logo_url": "https://convee.app/favicon.svg",
-        "template_count": 1,
-        "first_added": "2026-06-17"
-      },
-      {
-        "provider_id": "mailkube.com",
-        "provider_name": "Mailkube",
-        "logo_url": "https://cdn.mailkube.com/public/logos/domainconnect/packv1.png",
-        "template_count": 1,
-        "first_added": "2026-06-17"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 842,
+    "total_templates": 844,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 771
+        "count": 773
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 578
+        "count": 580
       },
       {
         "name": "warnPhishing",
@@ -2981,6 +2981,93 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1296,
+      "title": "Adding getfernand.com.email.json template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T12:49:44Z",
+      "updated_at": "2026-06-26T12:50:34Z",
+      "merged_at": null,
+      "author": "cnicodeme",
+      "author_avatar": "https://avatars.githubusercontent.com/u/317142?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1296",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "getfernand",
+          "service_id": "com.email",
+          "filename": "getfernand.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1295,
+      "title": "Modulify, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T09:53:16Z",
+      "updated_at": "2026-06-26T10:06:25Z",
+      "merged_at": null,
+      "author": "bfzli",
+      "author_avatar": "https://avatars.githubusercontent.com/u/72983346?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1295",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "modulify",
+          "service_id": "ai.connect-www",
+          "filename": "modulify.ai.connect-www.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "modulify",
+          "service_id": "ai.connect",
+          "filename": "modulify.ai.connect.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1294,
+      "title": "Added rvn-app.com branded site template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T04:19:57Z",
+      "updated_at": "2026-06-26T04:20:34Z",
+      "merged_at": null,
+      "author": "revynmedia",
+      "author_avatar": "https://avatars.githubusercontent.com/u/293404464?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1294",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "no syncPubKeyDomain"
+      ],
+      "templates": [
+        {
+          "provider_id": "revynmedia",
+          "service_id": "com.branded-site",
+          "filename": "revynmedia.com.branded-site.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "rvn-app",
+          "service_id": "com.branded-site",
+          "filename": "rvn-app.com.branded-site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1293,
       "title": "Add mailblastr.com domain-verification + mail-send-and-receive templates",
@@ -3014,28 +3101,6 @@
       ]
     },
     {
-      "number": 1292,
-      "title": "Add mailblastr.com.email template (Amazon SES email sending)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-25T19:15:31Z",
-      "updated_at": "2026-06-25T19:47:03Z",
-      "merged_at": null,
-      "author": "shekhu10",
-      "author_avatar": "https://avatars.githubusercontent.com/u/30194614?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1292",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "mailblastr",
-          "service_id": "com.email",
-          "filename": "mailblastr.com.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1288,
       "title": "Add Nex Mail Domain Connect template (#1274)",
       "state": "open",
@@ -3055,31 +3120,6 @@
           "service_id": "email.mail",
           "filename": "nexudo.email.mail.json",
           "logo_url": "https://cdn.nexudo.email/nex-mail-public/brand/logo.png",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1285,
-      "title": "gofarther.dev email template (Amazon SES DKIM + DMARC)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-23T21:21:10Z",
-      "updated_at": "2026-06-25T15:10:55Z",
-      "merged_at": null,
-      "author": "canias7",
-      "author_avatar": "https://avatars.githubusercontent.com/u/260366526?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1285",
-      "labels": [
-        "no syncPubKeyDomain",
-        "warnPhishing"
-      ],
-      "templates": [
-        {
-          "provider_id": "gofarther",
-          "service_id": "dev.email",
-          "filename": "gofarther.dev.email.json",
-          "logo_url": null,
           "status": "added"
         }
       ]
@@ -3215,13 +3255,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-18T09:38:32Z",
-      "updated_at": "2026-06-25T18:06:42Z",
+      "updated_at": "2026-06-26T13:19:00Z",
       "merged_at": null,
       "author": "milleniumishere",
       "author_avatar": "https://avatars.githubusercontent.com/u/60817254?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1249",
       "labels": [
-        "Test links missing",
         "automerge-possible",
         "new review needed"
       ],
@@ -3805,7 +3844,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 716,
+        "review_count": 718,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3829,7 +3868,7 @@
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 6,
+        "review_count": 7,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       }
@@ -3837,13 +3876,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 90,
+        "review_count": 92,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 6,
+        "review_count": 7,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -6845,6 +6884,15 @@
       "record_count": 4
     },
     {
+      "filename": "gofarther.dev.email.json",
+      "provider_id": "gofarther.dev",
+      "service_id": "email",
+      "provider_name": "Go Farther",
+      "service_name": "Go Farther — send email from your domain (Sendra)",
+      "logo_url": null,
+      "record_count": 4
+    },
+    {
       "filename": "goodroots.work.caa_management.json",
       "provider_id": "goodroots.work",
       "service_id": "caa_management",
@@ -7941,6 +7989,15 @@
       "service_name": "Email Sending Authentication",
       "logo_url": "https://mailaura.io/logo.svg",
       "record_count": 6
+    },
+    {
+      "filename": "mailblastr.com.email.json",
+      "provider_id": "mailblastr.com",
+      "service_id": "email",
+      "provider_name": "MailBlastr",
+      "service_name": "MailBlastr Email Sending",
+      "logo_url": "https://www.mailblastr.com/logo.svg",
+      "record_count": 3
     },
     {
       "filename": "mailbluster.com.sender-verification-postmark.json",
