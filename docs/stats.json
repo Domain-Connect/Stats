@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T02:14:29.705122",
+  "generated_at": "2026-06-29T02:14:12.952800",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 851,
     "total_providers": 502,
     "total_merged_prs": 969,
-    "total_open_prs": 32,
+    "total_open_prs": 36,
     "total_contributors": 431,
     "avg_records_per_template": 3.3
   },
@@ -1551,7 +1551,7 @@
     },
     {
       "month": "2026-06",
-      "created": 121,
+      "created": 125,
       "merged": 85
     }
   ],
@@ -2217,19 +2217,19 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 33,
+      "Checklist of common problems not complete": 34,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 55,
+      "PR description incomplete": 58,
       "Stale": 0,
-      "Test links missing": 92,
+      "Test links missing": 95,
       "automerge-possible": 39,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 3,
-      "hostRequired": 35,
+      "hostRequired": 37,
       "new review needed": 3,
-      "no syncPubKeyDomain": 11,
+      "no syncPubKeyDomain": 12,
       "question": 0,
       "review issues": 3,
       "schema-error": 7,
@@ -2982,6 +2982,103 @@
   },
   "recent_prs": [
     {
+      "number": 1307,
+      "title": "add TensorHost, TensorHost Email",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-28T16:48:50Z",
+      "updated_at": "2026-06-28T16:49:24Z",
+      "merged_at": null,
+      "author": "michaelwetyyy",
+      "author_avatar": "https://avatars.githubusercontent.com/u/64970902?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1307",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "tensorhost",
+          "service_id": "com.email",
+          "filename": "tensorhost.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1306,
+      "title": "Add WorkRun custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-28T06:59:31Z",
+      "updated_at": "2026-06-28T07:03:30Z",
+      "merged_at": null,
+      "author": "WFXAustralia",
+      "author_avatar": "https://avatars.githubusercontent.com/u/265914767?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1306",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "workrun",
+          "service_id": "app.custom-domain",
+          "filename": "workrun.app.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1305,
+      "title": "Update gofarther.dev.email to v2 — self-hosted mail server records",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-28T03:21:42Z",
+      "updated_at": "2026-06-28T03:55:37Z",
+      "merged_at": null,
+      "author": "canias7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/260366526?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1305",
+      "labels": [
+        "no syncPubKeyDomain"
+      ],
+      "templates": [
+        {
+          "provider_id": "gofarther",
+          "service_id": "dev.email",
+          "filename": "gofarther.dev.email.json",
+          "logo_url": null,
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1304,
+      "title": "add HotDAM, HotDAM Newsletter",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-28T03:10:27Z",
+      "updated_at": "2026-06-28T03:11:26Z",
+      "merged_at": null,
+      "author": "bmzero",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1192516?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1304",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "hotdam",
+          "service_id": "media.hotdam-newsletter",
+          "filename": "hotdam.media.hotdam-newsletter.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1303,
       "title": "add CloudBac, CloudBac Custom Domain",
       "state": "open",
@@ -3090,13 +3187,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-27T02:30:33Z",
-      "updated_at": "2026-06-27T18:53:57Z",
+      "updated_at": "2026-06-28T03:09:16Z",
       "merged_at": null,
       "author": "shekhu10",
       "author_avatar": "https://avatars.githubusercontent.com/u/30194614?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1297",
       "labels": [
-        "review issues"
+        "hostRequired",
+        "new review needed"
       ],
       "templates": [
         {
@@ -3892,7 +3990,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 87,
+        "review_count": 85,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
