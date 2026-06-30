@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T02:14:12.952800",
+  "generated_at": "2026-06-30T02:08:49.992911",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 851,
     "total_providers": 502,
     "total_merged_prs": 969,
-    "total_open_prs": 36,
+    "total_open_prs": 38,
     "total_contributors": 431,
     "avg_records_per_template": 3.3
   },
@@ -1551,7 +1551,7 @@
     },
     {
       "month": "2026-06",
-      "created": 125,
+      "created": 128,
       "merged": 85
     }
   ],
@@ -2217,17 +2217,17 @@
     {
       "month": "2026-06",
       "AI crap": 0,
-      "Checklist of common problems not complete": 34,
+      "Checklist of common problems not complete": 36,
       "Chores": 0,
-      "Forged editor links": 1,
-      "PR description incomplete": 58,
+      "Forged editor links": 2,
+      "PR description incomplete": 61,
       "Stale": 0,
-      "Test links missing": 95,
+      "Test links missing": 98,
       "automerge-possible": 39,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 3,
-      "hostRequired": 37,
+      "hostRequired": 38,
       "new review needed": 3,
       "no syncPubKeyDomain": 12,
       "question": 0,
@@ -2982,6 +2982,90 @@
   },
   "recent_prs": [
     {
+      "number": 1310,
+      "title": "feat(everinbox): add subdomain sending templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-29T19:45:46Z",
+      "updated_at": "2026-06-29T20:01:17Z",
+      "merged_at": null,
+      "author": "gbretas",
+      "author_avatar": "https://avatars.githubusercontent.com/u/18703762?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1310",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "everinbox",
+          "service_id": "domain-auth-subdomain",
+          "filename": "everinbox.domain-auth-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "everinbox",
+          "service_id": "domain-auth-tracking-subdomain",
+          "filename": "everinbox.domain-auth-tracking-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "everinbox",
+          "service_id": "domain-auth-tracking",
+          "filename": "everinbox.domain-auth-tracking.json",
+          "logo_url": "https://everinbox.com.br/everinbox-logo-dark.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1309,
+      "title": "reeva.me.mail v2: add MTA-STS/TLS-RPT records + variable DKIM algorithm",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-29T17:28:30Z",
+      "updated_at": "2026-06-29T17:51:56Z",
+      "merged_at": null,
+      "author": "shukiv",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7959559?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1309",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "reeva",
+          "service_id": "me.mail",
+          "filename": "reeva.me.mail.json",
+          "logo_url": "https://app.reeva.me/auth-bg.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1308,
+      "title": "Add Brimble custom domain template (brimble.io.domain)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-29T15:26:20Z",
+      "updated_at": "2026-06-29T15:40:52Z",
+      "merged_at": null,
+      "author": "pipethedev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/54484130?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1308",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "brimble",
+          "service_id": "io.domain",
+          "filename": "brimble.io.domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1307,
       "title": "add TensorHost, TensorHost Email",
       "state": "open",
@@ -3130,7 +3214,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-27T15:43:01Z",
-      "updated_at": "2026-06-27T18:49:26Z",
+      "updated_at": "2026-06-29T21:05:22Z",
       "merged_at": null,
       "author": "appdever01",
       "author_avatar": "https://avatars.githubusercontent.com/u/154071744?v=4",
@@ -3270,13 +3354,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-23T11:27:42Z",
-      "updated_at": "2026-06-25T15:09:01Z",
+      "updated_at": "2026-06-29T17:29:50Z",
       "merged_at": null,
       "author": "arunkvinam",
       "author_avatar": "https://avatars.githubusercontent.com/u/87002538?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1283",
       "labels": [
-        "review issues"
+        "new review needed"
       ],
       "templates": [
         {
@@ -3319,14 +3403,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-22T21:45:43Z",
-      "updated_at": "2026-06-25T15:05:07Z",
+      "updated_at": "2026-06-29T22:18:26Z",
       "merged_at": null,
       "author": "justadrepo",
       "author_avatar": "https://avatars.githubusercontent.com/u/224558080?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1274",
       "labels": [
         "hostRequired",
-        "review issues"
+        "new review needed"
       ],
       "templates": [
         {
@@ -3919,35 +4003,6 @@
           "provider_id": "usegizmo",
           "service_id": "com.mail",
           "filename": "usegizmo.com.mail.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1097,
-      "title": "Add listblast.mailgun-email template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-14T18:57:00Z",
-      "updated_at": "2026-06-14T06:10:26Z",
-      "merged_at": null,
-      "author": "mallelavamshi",
-      "author_avatar": "https://avatars.githubusercontent.com/u/92425635?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1097",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "schema-error",
-        "no syncPubKeyDomain"
-      ],
-      "templates": [
-        {
-          "provider_id": "listblast",
-          "service_id": "mailgun-email",
-          "filename": "listblast.mailgun-email.json",
           "logo_url": null,
           "status": "added"
         }
