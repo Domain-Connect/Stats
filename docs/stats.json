@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T02:06:02.443854",
+  "generated_at": "2026-07-03T01:50:35.511112",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -8,9 +8,9 @@
   "summary": {
     "total_templates": 862,
     "total_providers": 510,
-    "total_merged_prs": 983,
-    "total_open_prs": 30,
-    "total_contributors": 431,
+    "total_merged_prs": 982,
+    "total_open_prs": 37,
+    "total_contributors": 430,
     "avg_records_per_template": 3.3
   },
   "templates_growth": [
@@ -1557,8 +1557,8 @@
     },
     {
       "month": "2026-05",
-      "created": 105,
-      "merged": 84
+      "created": 104,
+      "merged": 83
     },
     {
       "month": "2026-06",
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 5,
+      "created": 12,
       "merged": 4
     }
   ],
@@ -2215,12 +2215,12 @@
     {
       "month": "2026-05",
       "AI crap": 0,
-      "Checklist of common problems not complete": 42,
+      "Checklist of common problems not complete": 41,
       "Chores": 0,
       "Forged editor links": 8,
-      "PR description incomplete": 49,
+      "PR description incomplete": 48,
       "Stale": 0,
-      "Test links missing": 86,
+      "Test links missing": 85,
       "automerge-possible": 35,
       "blocked": 0,
       "duplicate": 0,
@@ -2259,24 +2259,24 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 1,
+      "Checklist of common problems not complete": 4,
       "Chores": 0,
-      "Forged editor links": 0,
-      "PR description incomplete": 1,
+      "Forged editor links": 1,
+      "PR description incomplete": 4,
       "Stale": 0,
-      "Test links missing": 4,
-      "automerge-possible": 3,
+      "Test links missing": 7,
+      "automerge-possible": 5,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 1,
+      "hostRequired": 5,
       "new review needed": 0,
-      "no syncPubKeyDomain": 0,
+      "no syncPubKeyDomain": 1,
       "question": 0,
       "review issues": 0,
-      "schema-error": 0,
+      "schema-error": 1,
       "syncBlock": 0,
-      "warnPhishing": 0
+      "warnPhishing": 1
     }
   ],
   "pr_comment_activity": [
@@ -3028,6 +3028,186 @@
   },
   "recent_prs": [
     {
+      "number": 1324,
+      "title": "Add template: superspice.xyz / wall (Superspice Agent Front Door)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-03T01:40:03Z",
+      "updated_at": "2026-07-03T01:45:50Z",
+      "merged_at": null,
+      "author": "sashakhxn",
+      "author_avatar": "https://avatars.githubusercontent.com/u/23634573?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1324",
+      "labels": [
+        "Checklist of common problems not complete",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "superspice",
+          "service_id": "xyz.wall",
+          "filename": "superspice.xyz.wall.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1323,
+      "title": "add Connect Domain, Website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-02T23:47:22Z",
+      "updated_at": "2026-07-02T23:48:10Z",
+      "merged_at": null,
+      "author": "ever-just",
+      "author_avatar": "https://avatars.githubusercontent.com/u/191728806?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1323",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "connectdomain",
+          "service_id": "app.website",
+          "filename": "connectdomain.app.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1322,
+      "title": "Add agentcollect.com.email-whitelabel (SendGrid white-label sending, sync flow)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-02T23:08:21Z",
+      "updated_at": "2026-07-02T23:09:03Z",
+      "merged_at": null,
+      "author": "wwwidr",
+      "author_avatar": "https://avatars.githubusercontent.com/u/49525595?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1322",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "agentcollect",
+          "service_id": "com.email-whitelabel",
+          "filename": "agentcollect.com.email-whitelabel.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1321,
+      "title": "Add Anypost templates (mail, tracking)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-02T18:30:03Z",
+      "updated_at": "2026-07-02T18:30:45Z",
+      "merged_at": null,
+      "author": "danhstevens",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1061040?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1321",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "anypost",
+          "service_id": "com.mail",
+          "filename": "anypost.com.mail.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "anypost",
+          "service_id": "com.tracking",
+          "filename": "anypost.com.tracking.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1320,
+      "title": "Update valiant.biz.email (v3): add open/click tracking CNAME",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-02T14:54:51Z",
+      "updated_at": "2026-07-02T15:13:06Z",
+      "merged_at": null,
+      "author": "dennis-autosend",
+      "author_avatar": "https://avatars.githubusercontent.com/u/180860676?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1320",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "valiant",
+          "service_id": "biz.email",
+          "filename": "valiant.biz.email.json",
+          "logo_url": "https://app.valiant.biz/valiant-logo.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1319,
+      "title": "Create clonadorpro.com.cloaker.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-02T13:20:37Z",
+      "updated_at": "2026-07-02T13:21:13Z",
+      "merged_at": null,
+      "author": "kaitohotmart-afk",
+      "author_avatar": "https://avatars.githubusercontent.com/u/246487750?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1319",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "no syncPubKeyDomain",
+        "warnPhishing"
+      ],
+      "templates": [
+        {
+          "provider_id": "clonadorpro",
+          "service_id": "com.cloaker",
+          "filename": "clonadorpro.com.cloaker.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1318,
+      "title": "Add template: xonark.com.aeo (Xona AEO — sync flow, single CNAME)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-02T07:03:53Z",
+      "updated_at": "2026-07-02T07:15:08Z",
+      "merged_at": null,
+      "author": "JunfengJia",
+      "author_avatar": "https://avatars.githubusercontent.com/u/314264?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1318",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "xonark",
+          "service_id": "com.aeo",
+          "filename": "xonark.com.aeo.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1317,
       "title": "Create fommo.ai.website.json",
       "state": "open",
@@ -3640,12 +3820,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-01T06:09:51Z",
-      "updated_at": "2026-06-01T06:10:21Z",
+      "updated_at": "2026-07-02T05:27:24Z",
       "merged_at": null,
       "author": "hrconsultnj",
       "author_avatar": "https://avatars.githubusercontent.com/u/120684337?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1170",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -3855,7 +4036,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 736,
+        "review_count": 735,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
