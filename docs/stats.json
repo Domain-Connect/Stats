@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-04T01:49:37.082466",
+  "generated_at": "2026-07-05T01:54:56.027519",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 871,
-    "total_providers": 517,
-    "total_merged_prs": 990,
-    "total_open_prs": 33,
+    "total_templates": 874,
+    "total_providers": 519,
+    "total_merged_prs": 993,
+    "total_open_prs": 29,
     "total_contributors": 430,
-    "avg_records_per_template": 3.29
+    "avg_records_per_template": 3.3
   },
   "templates_growth": [
     {
@@ -592,9 +592,9 @@
     },
     {
       "month": "2026-07",
-      "added": 11,
+      "added": 14,
       "deleted": 0,
-      "cumulative": 871
+      "cumulative": 874
     }
   ],
   "providers_growth": [
@@ -1045,8 +1045,8 @@
     },
     {
       "month": "2026-07",
-      "added": 8,
-      "cumulative": 517
+      "added": 10,
+      "cumulative": 519
     }
   ],
   "pr_activity": [
@@ -1567,8 +1567,8 @@
     },
     {
       "month": "2026-07",
-      "created": 16,
-      "merged": 12
+      "created": 19,
+      "merged": 15
     }
   ],
   "pr_time_to_merge": [
@@ -1966,7 +1966,7 @@
     },
     {
       "month": "2026-07",
-      "avg_days": 0.7
+      "avg_days": 0.8
     }
   ],
   "pr_label_activity": [
@@ -2259,24 +2259,24 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 5,
+      "Checklist of common problems not complete": 7,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 5,
+      "PR description incomplete": 7,
       "Stale": 0,
-      "Test links missing": 10,
-      "automerge-possible": 6,
+      "Test links missing": 13,
+      "automerge-possible": 7,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 6,
+      "hostRequired": 7,
       "new review needed": 0,
       "no syncPubKeyDomain": 1,
       "question": 0,
       "review issues": 0,
       "schema-error": 1,
       "syncBlock": 0,
-      "warnPhishing": 1
+      "warnPhishing": 2
     }
   ],
   "pr_comment_activity": [
@@ -2688,11 +2688,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 615
+      "count": 617
     },
     {
       "type": "TXT",
-      "count": 423
+      "count": 425
     },
     {
       "type": "A",
@@ -2700,11 +2700,11 @@
     },
     {
       "type": "SPFM",
-      "count": 211
+      "count": 213
     },
     {
       "type": "MX",
-      "count": 176
+      "count": 178
     },
     {
       "type": "SRV",
@@ -2860,6 +2860,20 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "swarmixai.com",
+        "provider_name": "Swarmix AI",
+        "logo_url": "https://swarmixai.com/icon.png",
+        "template_count": 1,
+        "first_added": "2026-07-04"
+      },
+      {
+        "provider_id": "reallyquickemails.com",
+        "provider_name": "ReallyQuickEmails",
+        "logo_url": "https://app.reallyquickemails.com/logo-rqe.svg",
+        "template_count": 1,
+        "first_added": "2026-07-04"
+      },
+      {
         "provider_id": "mylocalpress.com",
         "provider_name": "My Local Press",
         "logo_url": "https://mylocalpress.com/favicon-light.svg",
@@ -2984,35 +2998,21 @@
         "logo_url": "https://modulify.ai/logo.svg",
         "template_count": 2,
         "first_added": "2026-06-27"
-      },
-      {
-        "provider_id": "gofarther.dev",
-        "provider_name": "Go Farther",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-06-26"
-      },
-      {
-        "provider_id": "mailblastr.com",
-        "provider_name": "MailBlastr",
-        "logo_url": "https://www.mailblastr.com/logo.svg",
-        "template_count": 4,
-        "first_added": "2026-06-26"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 871,
+    "total_templates": 874,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 800
+        "count": 803
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 603
+        "count": 606
       },
       {
         "name": "warnPhishing",
@@ -3022,11 +3022,87 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 231
+        "count": 232
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 1331,
+      "title": "limrun: add entry for domain verification for sso",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-04T19:55:46Z",
+      "updated_at": "2026-07-04T19:58:01Z",
+      "merged_at": null,
+      "author": "muvaf",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7584126?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1331",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "limrun",
+          "service_id": "com.domain-verification",
+          "filename": "limrun.com.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1330,
+      "title": "Create flowtag.dev.status-page.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-04T18:31:17Z",
+      "updated_at": "2026-07-04T19:06:43Z",
+      "merged_at": null,
+      "author": "imqwertyc",
+      "author_avatar": "https://avatars.githubusercontent.com/u/167351530?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1330",
+      "labels": [
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "flowtag",
+          "service_id": "dev.status-page-apex",
+          "filename": "flowtag.dev.status-page-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "flowtag",
+          "service_id": "dev.status-page-subdomain",
+          "filename": "flowtag.dev.status-page-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1329,
+      "title": "Add reply.cv.email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-04T09:38:48Z",
+      "updated_at": "2026-07-04T11:14:54Z",
+      "merged_at": null,
+      "author": "feelthefusion",
+      "author_avatar": "https://avatars.githubusercontent.com/u/116035054?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1329",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "reply",
+          "service_id": "cv.email",
+          "filename": "reply.cv.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1328,
       "title": "Add template: refyning.ai.sites (Refyning Sites)",
@@ -3047,52 +3123,6 @@
           "provider_id": "refyning",
           "service_id": "ai.sites",
           "filename": "refyning.ai.sites.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1327,
-      "title": "add Swarmix AI, Swarmix AI verified sending domain",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-03T22:42:28Z",
-      "updated_at": "2026-07-03T23:05:24Z",
-      "merged_at": null,
-      "author": "fhajjej-ship-it",
-      "author_avatar": "https://avatars.githubusercontent.com/u/257253922?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1327",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "swarmixai",
-          "service_id": "com.resend-sending",
-          "filename": "swarmixai.com.resend-sending.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1326,
-      "title": "Add reallyquickemails.com.email-sending template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-03T17:09:19Z",
-      "updated_at": "2026-07-03T17:09:57Z",
-      "merged_at": null,
-      "author": "harold18m",
-      "author_avatar": "https://avatars.githubusercontent.com/u/118697566?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1326",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "reallyquickemails",
-          "service_id": "com.email-sending",
-          "filename": "reallyquickemails.com.email-sending.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3173,31 +3203,6 @@
           "provider_id": "clonadorpro",
           "service_id": "com.cloaker",
           "filename": "clonadorpro.com.cloaker.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1314,
-      "title": "Add seatbeltsecurity.com.m365-dkim template (Microsoft 365 DKIM selector CNAMEs)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T15:53:49Z",
-      "updated_at": "2026-07-03T04:23:17Z",
-      "merged_at": null,
-      "author": "v-vincere",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5988286?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1314",
-      "labels": [
-        "question",
-        "review issues"
-      ],
-      "templates": [
-        {
-          "provider_id": "seatbeltsecurity",
-          "service_id": "com.m365-dkim",
-          "filename": "seatbeltsecurity.com.m365-dkim.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3822,116 +3827,13 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 1108,
-      "title": "Add configuration for CodexSuit email service",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-18T16:24:32Z",
-      "updated_at": "2026-06-18T06:15:04Z",
-      "merged_at": null,
-      "author": "gcompanydev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1108",
-      "labels": [
-        "Stale",
-        "Test links missing",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "codexsuit",
-          "service_id": "com.mail",
-          "filename": "codexsuit.com.mail.json",
-          "logo_url": "https://cdn.codexsuit.com/frontend-contents/logos/codex/codex.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1107,
-      "title": "Add DKIM/SPF configuration for CodexSuit email service",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-18T16:06:38Z",
-      "updated_at": "2026-06-18T06:15:06Z",
-      "merged_at": null,
-      "author": "gcompanydev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1107",
-      "labels": [
-        "Stale",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "codexsuit",
-          "service_id": "com.emaildkim",
-          "filename": "codexsuit.com.emaildkim.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1106,
-      "title": "Add DKIM/SPF configuration for CodexSuit email service",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-18T15:28:19Z",
-      "updated_at": "2026-06-18T06:15:08Z",
-      "merged_at": null,
-      "author": "gcompanydev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1106",
-      "labels": [
-        "Stale",
-        "Test links missing",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "codexsuit",
-          "service_id": "com.emaildkim",
-          "filename": "codexsuit.com.emaildkim.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1105,
-      "title": "Add configuration for CodexSuit email service",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-18T15:24:57Z",
-      "updated_at": "2026-06-18T06:15:10Z",
-      "merged_at": null,
-      "author": "gcompanydev",
-      "author_avatar": "https://avatars.githubusercontent.com/u/105878838?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1105",
-      "labels": [
-        "Stale",
-        "Test links missing",
-        "filename-error"
-      ],
-      "templates": [
-        {
-          "provider_id": "codexsuit",
-          "service_id": "domainconnect.email",
-          "filename": "codexsuit.domainconnect.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 743,
+        "review_count": 746,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3963,7 +3865,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 97,
+        "review_count": 100,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3972,6 +3874,12 @@
         "review_count": 15,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
+      },
+      {
+        "login": "copilot-pull-request-reviewer[bot]",
+        "review_count": 1,
+        "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+        "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       }
     ]
   },
@@ -9476,6 +9384,15 @@
       "record_count": 8
     },
     {
+      "filename": "reallyquickemails.com.email-sending.json",
+      "provider_id": "reallyquickemails.com",
+      "service_id": "email-sending",
+      "provider_name": "ReallyQuickEmails",
+      "service_name": "ReallyQuickEmails Email Sending (AWS SES)",
+      "logo_url": "https://app.reallyquickemails.com/logo-rqe.svg",
+      "record_count": 8
+    },
+    {
       "filename": "realtimecdp.io.email-setup.json",
       "provider_id": "realtimecdp.io",
       "service_id": "email-setup",
@@ -9780,6 +9697,15 @@
       "service_name": "Saleya Custom Domain",
       "logo_url": "https://saleya.app/apple-touch-icon.png",
       "record_count": 1
+    },
+    {
+      "filename": "seatbeltsecurity.com.dkim.json",
+      "provider_id": "seatbeltsecurity.com",
+      "service_id": "dkim",
+      "provider_name": "Seatbelt Security",
+      "service_name": "DKIM Email Signing",
+      "logo_url": "https://seatbeltsecurity.com/marketing/seatbelt-logo-dc.png",
+      "record_count": 2
     },
     {
       "filename": "seatbeltsecurity.com.email-auth.json",
@@ -10653,6 +10579,15 @@
       "service_name": "Supertape site",
       "logo_url": "https://svgshare.com/i/15HY.svg",
       "record_count": 2
+    },
+    {
+      "filename": "swarmixai.com.resend-sending.json",
+      "provider_id": "swarmixai.com",
+      "service_id": "resend-sending",
+      "provider_name": "Swarmix AI",
+      "service_name": "Swarmix AI verified sending domain",
+      "logo_url": "https://swarmixai.com/icon.png",
+      "record_count": 3
     },
     {
       "filename": "talentcafe.net.email-sending.json",
