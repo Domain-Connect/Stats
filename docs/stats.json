@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T01:54:56.027519",
+  "generated_at": "2026-07-06T02:02:14.298752",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 19,
+      "created": 20,
       "merged": 15
     }
   ],
@@ -2264,19 +2264,19 @@
       "Forged editor links": 1,
       "PR description incomplete": 7,
       "Stale": 0,
-      "Test links missing": 13,
-      "automerge-possible": 7,
+      "Test links missing": 14,
+      "automerge-possible": 8,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 7,
       "new review needed": 0,
-      "no syncPubKeyDomain": 1,
+      "no syncPubKeyDomain": 2,
       "question": 0,
       "review issues": 0,
       "schema-error": 1,
       "syncBlock": 0,
-      "warnPhishing": 2
+      "warnPhishing": 3
     }
   ],
   "pr_comment_activity": [
@@ -3028,6 +3028,30 @@
   },
   "recent_prs": [
     {
+      "number": 1332,
+      "title": "add Apex Insights, Website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-05T23:35:54Z",
+      "updated_at": "2026-07-05T23:53:10Z",
+      "merged_at": null,
+      "author": "Dilosaurus",
+      "author_avatar": "https://avatars.githubusercontent.com/u/117863497?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1332",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "getapexinsights",
+          "service_id": "com.website",
+          "filename": "getapexinsights.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1331,
       "title": "limrun: add entry for domain verification for sso",
       "state": "open",
@@ -3638,12 +3662,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-04T17:38:40Z",
-      "updated_at": "2026-06-04T20:25:43Z",
+      "updated_at": "2026-07-05T05:32:35Z",
       "merged_at": null,
       "author": "jakeolvr94-hash",
       "author_avatar": "https://avatars.githubusercontent.com/u/242385425?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1186",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -3666,12 +3691,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-04T09:41:33Z",
-      "updated_at": "2026-06-04T09:42:10Z",
+      "updated_at": "2026-07-05T05:32:37Z",
       "merged_at": null,
       "author": "ersanyus",
       "author_avatar": "https://avatars.githubusercontent.com/u/192884236?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1184",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing"
@@ -3787,42 +3813,6 @@
           "provider_id": "deepcurrent",
           "service_id": "app.mailgun-outreach",
           "filename": "deepcurrent.app.mailgun-outreach.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1119,
-      "title": "Add EnigmaSuite (enigmasuite.com) service templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-19T23:02:55Z",
-      "updated_at": "2026-06-19T06:35:32Z",
-      "merged_at": null,
-      "author": "krammstein",
-      "author_avatar": "https://avatars.githubusercontent.com/u/4204051?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1119",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "no syncPubKeyDomain",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "enigmasuite",
-          "service_id": "com.custom-domain",
-          "filename": "enigmasuite.com.custom-domain.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "enigmasuite",
-          "service_id": "com.domain-ownership",
-          "filename": "enigmasuite.com.domain-ownership.json",
           "logo_url": null,
           "status": "added"
         }
