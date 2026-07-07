@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T02:02:14.298752",
+  "generated_at": "2026-07-07T01:57:10.584011",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -8,8 +8,8 @@
   "summary": {
     "total_templates": 874,
     "total_providers": 519,
-    "total_merged_prs": 993,
-    "total_open_prs": 29,
+    "total_merged_prs": 994,
+    "total_open_prs": 31,
     "total_contributors": 430,
     "avg_records_per_template": 3.3
   },
@@ -1567,8 +1567,8 @@
     },
     {
       "month": "2026-07",
-      "created": 20,
-      "merged": 15
+      "created": 24,
+      "merged": 16
     }
   ],
   "pr_time_to_merge": [
@@ -1966,7 +1966,7 @@
     },
     {
       "month": "2026-07",
-      "avg_days": 0.8
+      "avg_days": 1.0
     }
   ],
   "pr_label_activity": [
@@ -2259,24 +2259,24 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 7,
+      "Checklist of common problems not complete": 8,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 7,
+      "PR description incomplete": 9,
       "Stale": 0,
-      "Test links missing": 14,
-      "automerge-possible": 8,
+      "Test links missing": 18,
+      "automerge-possible": 11,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 7,
+      "hostRequired": 8,
       "new review needed": 0,
       "no syncPubKeyDomain": 2,
       "question": 0,
       "review issues": 0,
       "schema-error": 1,
       "syncBlock": 0,
-      "warnPhishing": 3
+      "warnPhishing": 4
     }
   ],
   "pr_comment_activity": [
@@ -2692,7 +2692,7 @@
     },
     {
       "type": "TXT",
-      "count": 425
+      "count": 426
     },
     {
       "type": "A",
@@ -2700,7 +2700,7 @@
     },
     {
       "type": "SPFM",
-      "count": 213
+      "count": 214
     },
     {
       "type": "MX",
@@ -3028,6 +3028,102 @@
   },
   "recent_prs": [
     {
+      "number": 1336,
+      "title": "add zaSend, Email sending",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-06T23:00:15Z",
+      "updated_at": "2026-07-06T23:12:53Z",
+      "merged_at": null,
+      "author": "lr2bmail",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1407965?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1336",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "zasend",
+          "service_id": "com.email",
+          "filename": "zasend.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1335,
+      "title": "Add template: trunktransfer.com",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-06T16:56:13Z",
+      "updated_at": "2026-07-06T17:44:16Z",
+      "merged_at": null,
+      "author": "iskfm",
+      "author_avatar": "https://avatars.githubusercontent.com/u/30890609?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1335",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "trunktransfer",
+          "service_id": "com.custom-domain",
+          "filename": "trunktransfer.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1334,
+      "title": "Add template: mailsoftly.com.email-auth.json (Mailsoftly email authentication)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-06T12:51:35Z",
+      "updated_at": "2026-07-06T14:21:39Z",
+      "merged_at": null,
+      "author": "mailsoftly-dev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/300470534?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1334",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "mailsoftly",
+          "service_id": "com.email-auth",
+          "filename": "mailsoftly.com.email-auth.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1333,
+      "title": "add Postboi, Postboi domain verification (DKIM)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-06T10:39:02Z",
+      "updated_at": "2026-07-06T14:57:47Z",
+      "merged_at": null,
+      "author": "darbymanning",
+      "author_avatar": "https://avatars.githubusercontent.com/u/8170676?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1333",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "postboi",
+          "service_id": "email.dkim",
+          "filename": "postboi.email.dkim.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1332,
       "title": "add Apex Insights, Website",
       "state": "open",
@@ -3149,32 +3245,6 @@
           "filename": "refyning.ai.sites.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1325,
-      "title": "Update godaddy.com.aab: add SPF, DKIM, and DMARC records",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-03T11:13:30Z",
-      "updated_at": "2026-07-03T11:14:03Z",
-      "merged_at": null,
-      "author": "rkorin-godaddy",
-      "author_avatar": "https://avatars.githubusercontent.com/u/112121904?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1325",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "godaddy",
-          "service_id": "com.aab",
-          "filename": "godaddy.com.aab.json",
-          "logo_url": "https://www.domainconnect.org/wp-content/uploads/2020/02/godaddy_logo_new.png",
-          "status": "modified"
         }
       ]
     },
@@ -3791,32 +3861,6 @@
           "status": "modified"
         }
       ]
-    },
-    {
-      "number": 1127,
-      "title": "Add DeepCurrent Mailgun outreach template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-20T23:40:49Z",
-      "updated_at": "2026-06-20T05:49:09Z",
-      "merged_at": null,
-      "author": "ulmoai",
-      "author_avatar": "https://avatars.githubusercontent.com/u/206221336?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1127",
-      "labels": [
-        "Stale",
-        "Test links missing",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "deepcurrent",
-          "service_id": "app.mailgun-outreach",
-          "filename": "deepcurrent.app.mailgun-outreach.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
@@ -3835,7 +3879,7 @@
       },
       {
         "login": "wdbaker-godaddy",
-        "review_count": 39,
+        "review_count": 40,
         "avatar_url": "https://avatars.githubusercontent.com/u/83673606?v=4",
         "profile_url": "https://github.com/wdbaker-godaddy"
       },
@@ -3855,7 +3899,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 100,
+        "review_count": 94,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3864,6 +3908,12 @@
         "review_count": 15,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
+      },
+      {
+        "login": "wdbaker-godaddy",
+        "review_count": 1,
+        "avatar_url": "https://avatars.githubusercontent.com/u/83673606?v=4",
+        "profile_url": "https://github.com/wdbaker-godaddy"
       },
       {
         "login": "copilot-pull-request-reviewer[bot]",
@@ -6095,7 +6145,7 @@
       "provider_name": "GoDaddy",
       "service_name": "Airo App Builder",
       "logo_url": "https://www.domainconnect.org/wp-content/uploads/2020/02/godaddy_logo_new.png",
-      "record_count": 3
+      "record_count": 7
     },
     {
       "filename": "godaddy.com.aab_subdomain.json",
