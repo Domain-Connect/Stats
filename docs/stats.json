@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-08T01:27:44.907299",
+  "generated_at": "2026-07-09T01:49:22.474243",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 880,
-    "total_providers": 525,
-    "total_merged_prs": 1000,
-    "total_open_prs": 30,
+    "total_templates": 903,
+    "total_providers": 531,
+    "total_merged_prs": 1008,
+    "total_open_prs": 27,
     "total_contributors": 431,
-    "avg_records_per_template": 3.31
+    "avg_records_per_template": 3.26
   },
   "templates_growth": [
     {
@@ -592,9 +592,9 @@
     },
     {
       "month": "2026-07",
-      "added": 20,
+      "added": 43,
       "deleted": 0,
-      "cumulative": 880
+      "cumulative": 903
     }
   ],
   "providers_growth": [
@@ -1045,8 +1045,8 @@
     },
     {
       "month": "2026-07",
-      "added": 16,
-      "cumulative": 525
+      "added": 22,
+      "cumulative": 531
     }
   ],
   "pr_activity": [
@@ -1567,8 +1567,8 @@
     },
     {
       "month": "2026-07",
-      "created": 30,
-      "merged": 22
+      "created": 35,
+      "merged": 30
     }
   ],
   "pr_time_to_merge": [
@@ -2259,24 +2259,24 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 9,
+      "Checklist of common problems not complete": 12,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 11,
+      "PR description incomplete": 15,
       "Stale": 0,
-      "Test links missing": 20,
-      "automerge-possible": 14,
+      "Test links missing": 24,
+      "automerge-possible": 16,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 11,
+      "hostRequired": 15,
       "new review needed": 0,
-      "no syncPubKeyDomain": 3,
+      "no syncPubKeyDomain": 4,
       "question": 0,
-      "review issues": 0,
-      "schema-error": 1,
+      "review issues": 1,
+      "schema-error": 2,
       "syncBlock": 0,
-      "warnPhishing": 4
+      "warnPhishing": 5
     }
   ],
   "pr_comment_activity": [
@@ -2682,29 +2682,29 @@
     },
     {
       "month": "2026-07",
-      "avg_comments": 0.0
+      "avg_comments": 0.1
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 620
+      "count": 632
     },
     {
       "type": "TXT",
-      "count": 430
+      "count": 435
     },
     {
       "type": "A",
-      "count": 281
+      "count": 285
     },
     {
       "type": "SPFM",
-      "count": 217
+      "count": 220
     },
     {
       "type": "MX",
-      "count": 181
+      "count": 184
     },
     {
       "type": "SRV",
@@ -2712,11 +2712,11 @@
     },
     {
       "type": "AAAA",
-      "count": 20
+      "count": 21
     },
     {
       "type": "REDIR301",
-      "count": 16
+      "count": 18
     },
     {
       "type": "NS",
@@ -2724,11 +2724,11 @@
     },
     {
       "type": "APEXCNAME",
-      "count": 6
+      "count": 7
     },
     {
       "type": "CAA",
-      "count": 5
+      "count": 6
     },
     {
       "type": "REDIR302",
@@ -2742,6 +2742,12 @@
         "provider_name": "Entri",
         "logo_url": "https://cdn.goentri.com/logo.svg",
         "template_count": 77
+      },
+      {
+        "provider_id": "customdomain.ai",
+        "provider_name": "Customdomain",
+        "logo_url": "https://customdomain.ai/logo.svg",
+        "template_count": 18
       },
       {
         "provider_id": "godaddy.com",
@@ -2850,15 +2856,51 @@
         "provider_name": "WPEngine.com",
         "logo_url": "https://www.domainconnect.org/wp-content/uploads/2018/03/LGO-WPEngine-Horiz-reg-RGB-768x146.png",
         "template_count": 5
-      },
-      {
-        "provider_id": "ehjzny.com",
-        "provider_name": "Ehjzny",
-        "logo_url": "https://ehjzny.com/img/logo/full.png",
-        "template_count": 4
       }
     ],
     "last_30_added": [
+      {
+        "provider_id": "customdomain.ai",
+        "provider_name": "Customdomain",
+        "logo_url": "https://customdomain.ai/logo.svg",
+        "template_count": 18,
+        "first_added": "2026-07-08"
+      },
+      {
+        "provider_id": "jently.io",
+        "provider_name": "Jently",
+        "logo_url": "https://jently.io/brand/icon-gradient.svg",
+        "template_count": 1,
+        "first_added": "2026-07-08"
+      },
+      {
+        "provider_id": "seobrothers.com",
+        "provider_name": "SEO Brothers",
+        "logo_url": "https://platform.seobrothers.com/favicon.svg",
+        "template_count": 1,
+        "first_added": "2026-07-08"
+      },
+      {
+        "provider_id": "usemeep.com",
+        "provider_name": "Meep",
+        "logo_url": "https://usemeep.com/favicon.svg",
+        "template_count": 1,
+        "first_added": "2026-07-08"
+      },
+      {
+        "provider_id": "mystdio.com",
+        "provider_name": "MyStdio",
+        "logo_url": "https://mystdio.com/mystudio-logo.png",
+        "template_count": 1,
+        "first_added": "2026-07-08"
+      },
+      {
+        "provider_id": "seekpages.com",
+        "provider_name": "SeekPages",
+        "logo_url": "https://app.seekpages.com/logo-full.svg",
+        "template_count": 1,
+        "first_added": "2026-07-08"
+      },
       {
         "provider_id": "getapexinsights.com",
         "provider_name": "Apex Insights",
@@ -2956,63 +2998,21 @@
         "logo_url": "https://anypost.com/brand/wordmark.svg",
         "template_count": 2,
         "first_added": "2026-07-03"
-      },
-      {
-        "provider_id": "agentcollect.com",
-        "provider_name": "AgentCollect",
-        "logo_url": "https://agentcollect.com/logo-512.png",
-        "template_count": 1,
-        "first_added": "2026-07-03"
-      },
-      {
-        "provider_id": "replyplex.com",
-        "provider_name": "ReplyPlex",
-        "logo_url": "https://replyplex.com/logo.svg",
-        "template_count": 1,
-        "first_added": "2026-07-01"
-      },
-      {
-        "provider_id": "vantapanel.com",
-        "provider_name": "Vanta Panel",
-        "logo_url": "https://vantapanel.com/assets/icon-512.png",
-        "template_count": 1,
-        "first_added": "2026-06-30"
-      },
-      {
-        "provider_id": "cloudbac.org",
-        "provider_name": "CloudBac",
-        "logo_url": "https://app-sites.cloudbac.com/cloudbac-symbol.svg",
-        "template_count": 1,
-        "first_added": "2026-06-30"
-      },
-      {
-        "provider_id": "hotdam.media",
-        "provider_name": "HotDAM",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-06-30"
-      },
-      {
-        "provider_id": "mailercloud.com",
-        "provider_name": "Mailercloud",
-        "logo_url": "https://www.mailercloud.com/mailercloud-logo.png",
-        "template_count": 1,
-        "first_added": "2026-06-30"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 880,
+    "total_templates": 903,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 809
+        "count": 832
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 612
+        "count": 618
       },
       {
         "name": "warnPhishing",
@@ -3022,82 +3022,60 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 232
+        "count": 237
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 1342,
-      "title": "Add seobrothers.com.whitelabel template",
+      "number": 1347,
+      "title": "Add Nouncify brand profile template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-08T00:54:30Z",
-      "updated_at": "2026-07-08T00:59:45Z",
+      "created_at": "2026-07-08T23:54:56Z",
+      "updated_at": "2026-07-08T23:55:27Z",
       "merged_at": null,
-      "author": "adambate",
-      "author_avatar": "https://avatars.githubusercontent.com/u/59623638?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1342",
+      "author": "nouncify",
+      "author_avatar": "https://avatars.githubusercontent.com/u/60084125?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1347",
       "labels": [
         "PR description incomplete",
+        "Checklist of common problems not complete",
         "Test links missing",
-        "hostRequired",
-        "automerge-possible"
+        "schema-error"
       ],
       "templates": [
         {
-          "provider_id": "seobrothers",
-          "service_id": "com.whitelabel",
-          "filename": "seobrothers.com.whitelabel.json",
+          "provider_id": "nouncify",
+          "service_id": "brand-profile",
+          "filename": "nouncify.brand-profile.json",
           "logo_url": null,
           "status": "added"
         }
       ]
     },
     {
-      "number": 1341,
-      "title": "Add jently.io email template",
+      "number": 1344,
+      "title": "add Ploro, App hosting",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-08T00:38:46Z",
-      "updated_at": "2026-07-08T00:39:29Z",
+      "created_at": "2026-07-08T10:42:12Z",
+      "updated_at": "2026-07-08T13:54:54Z",
       "merged_at": null,
-      "author": "ozkanbolukbas",
-      "author_avatar": "https://avatars.githubusercontent.com/u/27885722?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1341",
+      "author": "benarmstead",
+      "author_avatar": "https://avatars.githubusercontent.com/u/70973680?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1344",
       "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "jently",
-          "service_id": "io.email",
-          "filename": "jently.io.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1340,
-      "title": "add Customdomain, Custom domain",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T22:23:06Z",
-      "updated_at": "2026-07-07T22:23:53Z",
-      "merged_at": null,
-      "author": "ever-just",
-      "author_avatar": "https://avatars.githubusercontent.com/u/191728806?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1340",
-      "labels": [
+        "no syncPubKeyDomain",
+        "warnPhishing",
         "hostRequired",
-        "automerge-possible"
+        "review issues"
       ],
       "templates": [
         {
-          "provider_id": "customdomain",
-          "service_id": "ai.customdomain",
-          "filename": "customdomain.ai.customdomain.json",
+          "provider_id": "ploro",
+          "service_id": "dev.hosting",
+          "filename": "ploro.dev.hosting.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3109,13 +3087,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-07T15:24:34Z",
-      "updated_at": "2026-07-07T16:18:12Z",
+      "updated_at": "2026-07-08T13:53:54Z",
       "merged_at": null,
       "author": "grega91",
       "author_avatar": "https://avatars.githubusercontent.com/u/445787?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1339",
       "labels": [
-        "no syncPubKeyDomain"
+        "no syncPubKeyDomain",
+        "review issues"
       ],
       "templates": [
         {
@@ -3128,40 +3107,19 @@
       ]
     },
     {
-      "number": 1338,
-      "title": "New template: seekpages.com.customdomain (SeekPages)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T15:03:51Z",
-      "updated_at": "2026-07-07T15:04:24Z",
-      "merged_at": null,
-      "author": "bensps",
-      "author_avatar": "https://avatars.githubusercontent.com/u/59742905?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1338",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "seekpages",
-          "service_id": "com.customdomain",
-          "filename": "seekpages.com.customdomain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1337,
       "title": "add Swivu, Swivu Site",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-07T13:59:39Z",
-      "updated_at": "2026-07-07T14:03:24Z",
+      "updated_at": "2026-07-08T13:48:00Z",
       "merged_at": null,
       "author": "ahabalikhan",
       "author_avatar": "https://avatars.githubusercontent.com/u/58568549?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1337",
       "labels": [
-        "hostRequired"
+        "hostRequired",
+        "review issues"
       ],
       "templates": [
         {
@@ -3179,13 +3137,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-06T16:56:13Z",
-      "updated_at": "2026-07-06T17:44:16Z",
+      "updated_at": "2026-07-08T13:46:35Z",
       "merged_at": null,
       "author": "iskfm",
       "author_avatar": "https://avatars.githubusercontent.com/u/30890609?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1335",
       "labels": [
-        "hostRequired"
+        "hostRequired",
+        "review issues"
       ],
       "templates": [
         {
@@ -3249,32 +3208,6 @@
           "provider_id": "refyning",
           "service_id": "ai.sites",
           "filename": "refyning.ai.sites.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1323,
-      "title": "add Customdomain, Website",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-02T23:47:22Z",
-      "updated_at": "2026-07-08T01:04:51Z",
-      "merged_at": null,
-      "author": "ever-just",
-      "author_avatar": "https://avatars.githubusercontent.com/u/191728806?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1323",
-      "labels": [
-        "question",
-        "automerge-possible",
-        "new review needed"
-      ],
-      "templates": [
-        {
-          "provider_id": "customdomain",
-          "service_id": "ai.website",
-          "filename": "customdomain.ai.website.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3685,13 +3618,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-07T00:01:42Z",
-      "updated_at": "2026-07-07T15:11:00Z",
+      "updated_at": "2026-07-08T04:41:39Z",
       "merged_at": null,
       "author": "alphajew420",
       "author_avatar": "https://avatars.githubusercontent.com/u/145304696?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1191",
       "labels": [
-        "Stale",
         "Test links missing",
         "hostRequired"
       ],
@@ -3849,7 +3781,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 748,
+        "review_count": 752,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3867,7 +3799,7 @@
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 19,
+        "review_count": 25,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -3881,13 +3813,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 84,
+        "review_count": 87,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 19,
+        "review_count": 25,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -4976,6 +4908,168 @@
       "service_name": "Crevado Online Portfolio",
       "logo_url": "https://cdn.crevado.com/images/domain_connect.png",
       "record_count": 2
+    },
+    {
+      "filename": "customdomain.ai.apex-a.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "apex-a",
+      "provider_name": "Customdomain",
+      "service_name": "Point apex (A record)",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.apex-aaaa.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "apex-aaaa",
+      "provider_name": "Customdomain",
+      "service_name": "Point apex (IPv6)",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.apex-cname.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "apex-cname",
+      "provider_name": "Customdomain",
+      "service_name": "Point apex (flatten-capable hosts)",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.apex-www.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "apex-www",
+      "provider_name": "Customdomain",
+      "service_name": "Point apex + www",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 2
+    },
+    {
+      "filename": "customdomain.ai.caa.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "caa",
+      "provider_name": "Customdomain",
+      "service_name": "Authorize SSL issuance (CAA)",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 2
+    },
+    {
+      "filename": "customdomain.ai.connect-verified.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "connect-verified",
+      "provider_name": "Customdomain",
+      "service_name": "Connect + verify (one step)",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 2
+    },
+    {
+      "filename": "customdomain.ai.customdomain.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "customdomain",
+      "provider_name": "Customdomain",
+      "service_name": "Custom domain",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.email-dkim.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "email-dkim",
+      "provider_name": "Customdomain",
+      "service_name": "Email DKIM",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.email-dmarc.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "email-dmarc",
+      "provider_name": "Customdomain",
+      "service_name": "Email DMARC",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.email-full.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "email-full",
+      "provider_name": "Customdomain",
+      "service_name": "Full email setup",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 4
+    },
+    {
+      "filename": "customdomain.ai.email-mx.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "email-mx",
+      "provider_name": "Customdomain",
+      "service_name": "Email MX",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.email-spf.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "email-spf",
+      "provider_name": "Customdomain",
+      "service_name": "Email SPF (merge)",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.redirect.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "redirect",
+      "provider_name": "Customdomain",
+      "service_name": "Forward this domain",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.subdomain.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "subdomain",
+      "provider_name": "Customdomain",
+      "service_name": "Point a subdomain",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.verify.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "verify",
+      "provider_name": "Customdomain",
+      "service_name": "Verify domain ownership",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.website.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "website",
+      "provider_name": "Customdomain",
+      "service_name": "Website",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 2
+    },
+    {
+      "filename": "customdomain.ai.wildcard.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "wildcard",
+      "provider_name": "Customdomain",
+      "service_name": "Point all subdomains (wildcard)",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "customdomain.ai.www.json",
+      "provider_id": "customdomain.ai",
+      "service_id": "www",
+      "provider_name": "Customdomain",
+      "service_name": "Point www",
+      "logo_url": "https://customdomain.ai/logo.svg",
+      "record_count": 1
     },
     {
       "filename": "customer.io.email.json",
@@ -7480,6 +7574,15 @@
       "record_count": 2
     },
     {
+      "filename": "jently.io.email.json",
+      "provider_id": "jently.io",
+      "service_id": "email",
+      "provider_name": "Jently",
+      "service_name": "Jently E-mail Sending",
+      "logo_url": "https://jently.io/brand/icon-gradient.svg",
+      "record_count": 3
+    },
+    {
       "filename": "jerseywatch.com.website.json",
       "provider_id": "jerseywatch.com",
       "service_id": "website",
@@ -8639,6 +8742,15 @@
       "service_name": "SHOPLINE Site",
       "logo_url": "https://img.myshopline.com/image/store/2001028614/1653529992529/d64da099ff214118b8f1be25495a93db.png?w=1181&h=525",
       "record_count": 2
+    },
+    {
+      "filename": "mystdio.com.portal.json",
+      "provider_id": "mystdio.com",
+      "service_id": "portal",
+      "provider_name": "MyStdio",
+      "service_name": "MyStdio Client Portal",
+      "logo_url": "https://mystdio.com/mystudio-logo.png",
+      "record_count": 1
     },
     {
       "filename": "nashra.ai.blog-hosting-root.json",
@@ -9901,6 +10013,15 @@
       "record_count": 2
     },
     {
+      "filename": "seekpages.com.customdomain.json",
+      "provider_id": "seekpages.com",
+      "service_id": "customdomain",
+      "provider_name": "SeekPages",
+      "service_name": "SeekPages Custom Domain",
+      "logo_url": "https://app.seekpages.com/logo-full.svg",
+      "record_count": 2
+    },
+    {
       "filename": "seguno.com.domain-authentication.json",
       "provider_id": "Seguno.com",
       "service_id": "domain-authentication",
@@ -10133,6 +10254,15 @@
       "service_name": "Sentroy Email",
       "logo_url": "https://sentroy.com/business/sentroy-logo-light.png",
       "record_count": 5
+    },
+    {
+      "filename": "seobrothers.com.whitelabel.json",
+      "provider_id": "seobrothers.com",
+      "service_id": "whitelabel",
+      "provider_name": "SEO Brothers",
+      "service_name": "White-label client portal",
+      "logo_url": "https://platform.seobrothers.com/favicon.svg",
+      "record_count": 1
     },
     {
       "filename": "seocrown.ai.seocrown-edge-cache.json",
@@ -11087,6 +11217,15 @@
       "service_name": "First-Party Tracking Pixel",
       "logo_url": "https://app.usecortana.ai/icon.png",
       "record_count": 2
+    },
+    {
+      "filename": "usemeep.com.site.json",
+      "provider_id": "usemeep.com",
+      "service_id": "site",
+      "provider_name": "Meep",
+      "service_name": "Meep Website",
+      "logo_url": "https://usemeep.com/favicon.svg",
+      "record_count": 1
     },
     {
       "filename": "userdashboard.pixely.com.arecord.json",
