@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-09T01:49:22.474243",
+  "generated_at": "2026-07-10T01:48:17.827989",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 903,
-    "total_providers": 531,
-    "total_merged_prs": 1008,
-    "total_open_prs": 27,
+    "total_templates": 904,
+    "total_providers": 532,
+    "total_merged_prs": 1009,
+    "total_open_prs": 33,
     "total_contributors": 431,
     "avg_records_per_template": 3.26
   },
@@ -592,9 +592,9 @@
     },
     {
       "month": "2026-07",
-      "added": 43,
+      "added": 44,
       "deleted": 0,
-      "cumulative": 903
+      "cumulative": 904
     }
   ],
   "providers_growth": [
@@ -1045,8 +1045,8 @@
     },
     {
       "month": "2026-07",
-      "added": 22,
-      "cumulative": 531
+      "added": 23,
+      "cumulative": 532
     }
   ],
   "pr_activity": [
@@ -1567,8 +1567,8 @@
     },
     {
       "month": "2026-07",
-      "created": 35,
-      "merged": 30
+      "created": 42,
+      "merged": 31
     }
   ],
   "pr_time_to_merge": [
@@ -2262,16 +2262,16 @@
       "Checklist of common problems not complete": 12,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 15,
+      "PR description incomplete": 16,
       "Stale": 0,
-      "Test links missing": 24,
+      "Test links missing": 30,
       "automerge-possible": 16,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 15,
+      "hostRequired": 17,
       "new review needed": 0,
-      "no syncPubKeyDomain": 4,
+      "no syncPubKeyDomain": 5,
       "question": 0,
       "review issues": 1,
       "schema-error": 2,
@@ -2682,17 +2682,17 @@
     },
     {
       "month": "2026-07",
-      "avg_comments": 0.1
+      "avg_comments": 0.0
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 632
+      "count": 633
     },
     {
       "type": "TXT",
-      "count": 435
+      "count": 436
     },
     {
       "type": "A",
@@ -2860,6 +2860,13 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "trunktransfer.com",
+        "provider_name": "TrunkTransfer",
+        "logo_url": "https://trunktransfer.com/logo.png",
+        "template_count": 1,
+        "first_added": "2026-07-09"
+      },
+      {
         "provider_id": "customdomain.ai",
         "provider_name": "Customdomain",
         "logo_url": "https://customdomain.ai/logo.svg",
@@ -2991,28 +2998,21 @@
         "logo_url": null,
         "template_count": 1,
         "first_added": "2026-07-03"
-      },
-      {
-        "provider_id": "anypost.com",
-        "provider_name": "Anypost",
-        "logo_url": "https://anypost.com/brand/wordmark.svg",
-        "template_count": 2,
-        "first_added": "2026-07-03"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 903,
+    "total_templates": 904,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 832
+        "count": 833
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 618
+        "count": 619
       },
       {
         "name": "warnPhishing",
@@ -3022,27 +3022,224 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 237
+        "count": 238
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 1355,
+      "title": "add Ermaz, Ermaz Website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T22:24:34Z",
+      "updated_at": "2026-07-09T23:19:04Z",
+      "merged_at": null,
+      "author": "mulukenermiasdata-boop",
+      "author_avatar": "https://avatars.githubusercontent.com/u/296287428?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1355",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "ermaz",
+          "service_id": "app.website",
+          "filename": "ermaz.app.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1354,
+      "title": "Add template: xonark.com.aeoapex (Xona AEO — apex/root-domain connects, APEXCNAME)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T22:04:54Z",
+      "updated_at": "2026-07-09T22:12:45Z",
+      "merged_at": null,
+      "author": "JunfengJia",
+      "author_avatar": "https://avatars.githubusercontent.com/u/314264?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1354",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "xonark",
+          "service_id": "com.aeoapex",
+          "filename": "xonark.com.aeoapex.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1353,
+      "title": "Add cnames.dev Domain Connect templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T18:49:38Z",
+      "updated_at": "2026-07-09T19:19:50Z",
+      "merged_at": null,
+      "author": "saeedmsdi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3229325?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1353",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "cnames",
+          "service_id": "dev.apex-only",
+          "filename": "cnames.dev.apex-only.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "cnames",
+          "service_id": "dev.apex",
+          "filename": "cnames.dev.apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "cnames",
+          "service_id": "dev.custom-domain",
+          "filename": "cnames.dev.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1352,
+      "title": "Enhance email setup configuration with DMARC and relay host updates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T17:33:00Z",
+      "updated_at": "2026-07-09T17:35:46Z",
+      "merged_at": null,
+      "author": "milleniumishere",
+      "author_avatar": "https://avatars.githubusercontent.com/u/60817254?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1352",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": []
+    },
+    {
+      "number": 1351,
+      "title": "Add template tooldrop.app.website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T16:37:04Z",
+      "updated_at": "2026-07-09T16:37:37Z",
+      "merged_at": null,
+      "author": "daveosterjr",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3987130?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1351",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "tooldrop",
+          "service_id": "app.website",
+          "filename": "tooldrop.app.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1350,
+      "title": "add Hoversite, Hoversite Hosting",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T08:58:24Z",
+      "updated_at": "2026-07-09T09:23:08Z",
+      "merged_at": null,
+      "author": "untilhamza",
+      "author_avatar": "https://avatars.githubusercontent.com/u/46571439?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1350",
+      "labels": [
+        "no syncPubKeyDomain"
+      ],
+      "templates": [
+        {
+          "provider_id": "hoversite",
+          "service_id": "build.hosting",
+          "filename": "hoversite.build.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1349,
+      "title": "add template: vProxy Cloud Game Cloud",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T07:12:33Z",
+      "updated_at": "2026-07-09T07:23:08Z",
+      "merged_at": null,
+      "author": "FanYueee",
+      "author_avatar": "https://avatars.githubusercontent.com/u/84763600?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1349",
+      "labels": [
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "vproxy",
+          "service_id": "cloud.gamecloud-bedrock",
+          "filename": "vproxy.cloud.gamecloud-bedrock.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "vproxy",
+          "service_id": "cloud.gamecloud-java",
+          "filename": "vproxy.cloud.gamecloud-java.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1348,
+      "title": "Add files via upload - NoReply template for verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T04:09:57Z",
+      "updated_at": "2026-07-09T04:10:29Z",
+      "merged_at": null,
+      "author": "vincyirl",
+      "author_avatar": "https://avatars.githubusercontent.com/u/160569137?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1348",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "noreply",
+          "service_id": "so.ses",
+          "filename": "noreply.so.ses.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1347,
       "title": "Add Nouncify brand profile template",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-08T23:54:56Z",
-      "updated_at": "2026-07-08T23:55:27Z",
+      "updated_at": "2026-07-09T22:39:23Z",
       "merged_at": null,
       "author": "nouncify",
       "author_avatar": "https://avatars.githubusercontent.com/u/60084125?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1347",
       "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "schema-error"
+        "hostRequired"
       ],
       "templates": [
         {
@@ -3112,45 +3309,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-07T13:59:39Z",
-      "updated_at": "2026-07-08T13:48:00Z",
+      "updated_at": "2026-07-09T14:49:14Z",
       "merged_at": null,
       "author": "ahabalikhan",
       "author_avatar": "https://avatars.githubusercontent.com/u/58568549?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1337",
       "labels": [
         "hostRequired",
-        "review issues"
+        "new review needed"
       ],
       "templates": [
         {
           "provider_id": "swivu",
           "service_id": "site",
           "filename": "swivu.site.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1335,
-      "title": "Add template: trunktransfer.com",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-06T16:56:13Z",
-      "updated_at": "2026-07-08T13:46:35Z",
-      "merged_at": null,
-      "author": "iskfm",
-      "author_avatar": "https://avatars.githubusercontent.com/u/30890609?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1335",
-      "labels": [
-        "hostRequired",
-        "review issues"
-      ],
-      "templates": [
-        {
-          "provider_id": "trunktransfer",
-          "service_id": "com.custom-domain",
-          "filename": "trunktransfer.com.custom-domain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3781,7 +3953,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 752,
+        "review_count": 753,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -3813,7 +3985,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 87,
+        "review_count": 83,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -11082,6 +11254,15 @@
       "service_name": "Tribefii Site Setup",
       "logo_url": "https://app.tribefii.com/Images/tribefii250x250.png",
       "record_count": 2
+    },
+    {
+      "filename": "trunktransfer.com.custom-domain.json",
+      "provider_id": "trunktransfer.com",
+      "service_id": "custom-domain",
+      "provider_name": "TrunkTransfer",
+      "service_name": "TrunkTransfer Custom Domain",
+      "logo_url": "https://trunktransfer.com/logo.png",
+      "record_count": 3
     },
     {
       "filename": "trustifi.com.dpoo.json",
