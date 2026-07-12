@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T01:27:16.493470",
+  "generated_at": "2026-07-12T01:29:11.294185",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 916,
     "total_providers": 540,
     "total_merged_prs": 1018,
-    "total_open_prs": 35,
+    "total_open_prs": 42,
     "total_contributors": 433,
     "avg_records_per_template": 3.24
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 53,
+      "created": 60,
       "merged": 40
     }
   ],
@@ -2259,24 +2259,24 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 15,
+      "Checklist of common problems not complete": 19,
       "Chores": 0,
-      "Forged editor links": 1,
-      "PR description incomplete": 19,
+      "Forged editor links": 2,
+      "PR description incomplete": 22,
       "Stale": 0,
-      "Test links missing": 36,
-      "automerge-possible": 17,
+      "Test links missing": 40,
+      "automerge-possible": 20,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
       "hostRequired": 19,
       "new review needed": 0,
-      "no syncPubKeyDomain": 7,
+      "no syncPubKeyDomain": 8,
       "question": 0,
       "review issues": 2,
-      "schema-error": 2,
-      "syncBlock": 0,
-      "warnPhishing": 8
+      "schema-error": 3,
+      "syncBlock": 1,
+      "warnPhishing": 9
     }
   ],
   "pr_comment_activity": [
@@ -3028,23 +3028,188 @@
   },
   "recent_prs": [
     {
+      "number": 1373,
+      "title": "Add nextsurplus.com email-authentication template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-11T19:48:16Z",
+      "updated_at": "2026-07-11T19:48:53Z",
+      "merged_at": null,
+      "author": "bmoss2015",
+      "author_avatar": "https://avatars.githubusercontent.com/u/239225296?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1373",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "schema-error",
+        "syncBlock"
+      ],
+      "templates": [
+        {
+          "provider_id": "nextsurplus",
+          "service_id": "com.email-authentication",
+          "filename": "nextsurplus.com.email-authentication.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1372,
+      "title": "Maillogic domain verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-11T14:27:02Z",
+      "updated_at": "2026-07-11T14:38:21Z",
+      "merged_at": null,
+      "author": "s3t-dux",
+      "author_avatar": "https://avatars.githubusercontent.com/u/213898210?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1372",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "maillogic",
+          "service_id": "io.domain-verification",
+          "filename": "maillogic.io.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1371,
+      "title": "Add files via upload",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-11T13:45:05Z",
+      "updated_at": "2026-07-11T14:13:39Z",
+      "merged_at": null,
+      "author": "huangfeihong-cloud",
+      "author_avatar": "https://avatars.githubusercontent.com/u/259803467?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1371",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "mailname",
+          "service_id": "top.email",
+          "filename": "mailname.top.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1370,
+      "title": "Add auridigital.com.email.json (Amazon SES email authentication)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-11T12:19:48Z",
+      "updated_at": "2026-07-11T12:44:00Z",
+      "merged_at": null,
+      "author": "travelpro85",
+      "author_avatar": "https://avatars.githubusercontent.com/u/62023957?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1370",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "auridigital",
+          "service_id": "com.email",
+          "filename": "auridigital.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1369,
+      "title": "add VibeHost, VibeHost Custom Domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-11T12:09:59Z",
+      "updated_at": "2026-07-11T12:10:36Z",
+      "merged_at": null,
+      "author": "sangnekk",
+      "author_avatar": "https://avatars.githubusercontent.com/u/85666619?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1369",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "vibehost",
+          "service_id": "vn.hosting",
+          "filename": "vibehost.vn.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1368,
+      "title": "Add dnsdoctor.dev.domainverify template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-11T10:45:53Z",
+      "updated_at": "2026-07-11T10:46:25Z",
+      "merged_at": null,
+      "author": "KayF",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1151420?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1368",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "dnsdoctor",
+          "service_id": "dev.domainverify",
+          "filename": "dnsdoctor.dev.domainverify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1367,
+      "title": "Add benchkey.com resend-email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-11T05:20:22Z",
+      "updated_at": "2026-07-11T05:25:51Z",
+      "merged_at": null,
+      "author": "Joeymaniz95",
+      "author_avatar": "https://avatars.githubusercontent.com/u/261822152?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1367",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "benchkey",
+          "service_id": "com.resend-email",
+          "filename": "benchkey.com.resend-email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1366,
       "title": "Add nexusbuild.ai hosting template",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-11T00:16:03Z",
-      "updated_at": "2026-07-11T00:16:38Z",
+      "updated_at": "2026-07-11T15:40:01Z",
       "merged_at": null,
       "author": "madisonbratina",
       "author_avatar": "https://avatars.githubusercontent.com/u/48964785?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1366",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "no syncPubKeyDomain",
-        "warnPhishing"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "nexusbuild",
@@ -3119,7 +3284,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-10T15:22:46Z",
-      "updated_at": "2026-07-10T17:54:29Z",
+      "updated_at": "2026-07-11T16:40:51Z",
       "merged_at": null,
       "author": "twinkalp10",
       "author_avatar": "https://avatars.githubusercontent.com/u/100406717?v=4",
@@ -3273,16 +3438,24 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-09T17:33:00Z",
-      "updated_at": "2026-07-10T05:40:19Z",
+      "updated_at": "2026-07-11T10:14:49Z",
       "merged_at": null,
       "author": "milleniumishere",
       "author_avatar": "https://avatars.githubusercontent.com/u/60817254?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1352",
       "labels": [
         "automerge-possible",
-        "review issues"
+        "new review needed"
       ],
-      "templates": []
+      "templates": [
+        {
+          "provider_id": "smailor",
+          "service_id": "com.email-setup",
+          "filename": "smailor.com.email-setup.json",
+          "logo_url": "https://smailor.com/logo.png",
+          "status": "modified"
+        }
+      ]
     },
     {
       "number": 1349,
@@ -3390,11 +3563,11 @@
     },
     {
       "number": 1330,
-      "title": "Create flowtag.dev.status-page.json",
+      "title": "Add flowtag.dev statuspage templates",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-04T18:31:17Z",
-      "updated_at": "2026-07-04T19:06:43Z",
+      "updated_at": "2026-07-11T07:58:49Z",
       "merged_at": null,
       "author": "imqwertyc",
       "author_avatar": "https://avatars.githubusercontent.com/u/167351530?v=4",
@@ -3713,15 +3886,7 @@
         "Test links missing",
         "automerge-possible"
       ],
-      "templates": [
-        {
-          "provider_id": "theelevateagent",
-          "service_id": "com.agentsite",
-          "filename": "theelevateagent.com.agentsite.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
+      "templates": []
     },
     {
       "number": 1225,
@@ -4045,7 +4210,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 92,
+        "review_count": 79,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
