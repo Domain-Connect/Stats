@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-12T01:29:11.294185",
+  "generated_at": "2026-07-13T01:30:08.551646",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 916,
-    "total_providers": 540,
-    "total_merged_prs": 1018,
-    "total_open_prs": 42,
+    "total_templates": 917,
+    "total_providers": 541,
+    "total_merged_prs": 1019,
+    "total_open_prs": 48,
     "total_contributors": 433,
     "avg_records_per_template": 3.24
   },
@@ -592,9 +592,9 @@
     },
     {
       "month": "2026-07",
-      "added": 56,
+      "added": 57,
       "deleted": 0,
-      "cumulative": 916
+      "cumulative": 917
     }
   ],
   "providers_growth": [
@@ -1045,8 +1045,8 @@
     },
     {
       "month": "2026-07",
-      "added": 31,
-      "cumulative": 540
+      "added": 32,
+      "cumulative": 541
     }
   ],
   "pr_activity": [
@@ -1567,8 +1567,8 @@
     },
     {
       "month": "2026-07",
-      "created": 60,
-      "merged": 40
+      "created": 67,
+      "merged": 41
     }
   ],
   "pr_time_to_merge": [
@@ -1966,7 +1966,7 @@
     },
     {
       "month": "2026-07",
-      "avg_days": 1.1
+      "avg_days": 1.2
     }
   ],
   "pr_label_activity": [
@@ -2259,24 +2259,24 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 19,
+      "Checklist of common problems not complete": 23,
       "Chores": 0,
       "Forged editor links": 2,
-      "PR description incomplete": 22,
+      "PR description incomplete": 26,
       "Stale": 0,
-      "Test links missing": 40,
-      "automerge-possible": 20,
+      "Test links missing": 46,
+      "automerge-possible": 22,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 0,
-      "hostRequired": 19,
+      "filename-error": 1,
+      "hostRequired": 22,
       "new review needed": 0,
-      "no syncPubKeyDomain": 8,
+      "no syncPubKeyDomain": 11,
       "question": 0,
       "review issues": 2,
       "schema-error": 3,
       "syncBlock": 1,
-      "warnPhishing": 9
+      "warnPhishing": 10
     }
   ],
   "pr_comment_activity": [
@@ -2682,17 +2682,17 @@
     },
     {
       "month": "2026-07",
-      "avg_comments": 0.1
+      "avg_comments": 0.0
     }
   ],
   "record_types": [
     {
       "type": "CNAME",
-      "count": 640
+      "count": 641
     },
     {
       "type": "TXT",
-      "count": 437
+      "count": 438
     },
     {
       "type": "A",
@@ -2860,6 +2860,13 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "ploro.dev",
+        "provider_name": "Ploro",
+        "logo_url": "https://ploro.dev/favicon.ico",
+        "template_count": 1,
+        "first_added": "2026-07-12"
+      },
+      {
         "provider_id": "swivu",
         "provider_name": "Swivu",
         "logo_url": "https://documents.swivu.com/favicon.png",
@@ -2991,28 +2998,21 @@
         "logo_url": "https://zasend.com/static/assets/logos/zasend-domain-connect.svg",
         "template_count": 1,
         "first_added": "2026-07-07"
-      },
-      {
-        "provider_id": "reply.cv",
-        "provider_name": "reply.cv",
-        "logo_url": "https://reply.cv/icon-512.png",
-        "template_count": 1,
-        "first_added": "2026-07-07"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 916,
+    "total_templates": 917,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 845
+        "count": 846
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 630
+        "count": 631
       },
       {
         "name": "warnPhishing",
@@ -3022,11 +3022,200 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 241
+        "count": 242
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 1380,
+      "title": "add Hikyak, Hikyak Email DNS",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T01:23:48Z",
+      "updated_at": "2026-07-13T01:24:39Z",
+      "merged_at": null,
+      "author": "nirantioluwa",
+      "author_avatar": "https://avatars.githubusercontent.com/u/204346347?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1380",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "hikyak",
+          "service_id": "com.email",
+          "filename": "hikyak.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1379,
+      "title": "Add and update NextuneSolutions cloud template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T18:32:45Z",
+      "updated_at": "2026-07-12T18:38:17Z",
+      "merged_at": null,
+      "author": "lewismunene020",
+      "author_avatar": "https://avatars.githubusercontent.com/u/98200048?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1379",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "nextunesolutions",
+          "service_id": "com.cloud-application-domain",
+          "filename": "nextunesolutions.com.cloud-application-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1378,
+      "title": "Add MallOne storefront template (mallone.ug.storefront)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T16:28:09Z",
+      "updated_at": "2026-07-12T16:28:39Z",
+      "merged_at": null,
+      "author": "nakisisageorge",
+      "author_avatar": "https://avatars.githubusercontent.com/u/55050232?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1378",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "filename-error"
+      ],
+      "templates": [
+        {
+          "provider_id": "mallone",
+          "service_id": "ug.storefront",
+          "filename": "mallone.ug.storefront.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1377,
+      "title": "add CodeLoom AI, CodeLoom AI App Hosting",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T15:26:43Z",
+      "updated_at": "2026-07-12T15:27:16Z",
+      "merged_at": null,
+      "author": "covenantsoftworksenterprise-boop",
+      "author_avatar": "https://avatars.githubusercontent.com/u/304070166?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1377",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "no syncPubKeyDomain",
+        "warnPhishing"
+      ],
+      "templates": [
+        {
+          "provider_id": "codeloomai",
+          "service_id": "com.hosting",
+          "filename": "codeloomai.com.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1376,
+      "title": "Add DoDomain templates (dodomain.io): custom-subdomain-cname and domain-verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T14:09:55Z",
+      "updated_at": "2026-07-12T14:10:32Z",
+      "merged_at": null,
+      "author": "BSalaeddin",
+      "author_avatar": "https://avatars.githubusercontent.com/u/15094821?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1376",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "dodomain",
+          "service_id": "io.custom-subdomain-cname",
+          "filename": "dodomain.io.custom-subdomain-cname.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "dodomain",
+          "service_id": "io.domain-verification",
+          "filename": "dodomain.io.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1375,
+      "title": "Add template zend24.com.ses-email (Zend24 - Amazon SES sending domain)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T12:19:48Z",
+      "updated_at": "2026-07-12T12:20:25Z",
+      "merged_at": null,
+      "author": "franrtorres77",
+      "author_avatar": "https://avatars.githubusercontent.com/u/2893810?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1375",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "no syncPubKeyDomain"
+      ],
+      "templates": [
+        {
+          "provider_id": "zend24",
+          "service_id": "com.ses-email",
+          "filename": "zend24.com.ses-email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1374,
+      "title": "Add auridigital.com.hostname.json (website/funnel CNAME)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T07:35:53Z",
+      "updated_at": "2026-07-12T09:41:48Z",
+      "merged_at": null,
+      "author": "travelpro85",
+      "author_avatar": "https://avatars.githubusercontent.com/u/62023957?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1374",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "auridigital",
+          "service_id": "com.hostname",
+          "filename": "auridigital.com.hostname.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1373,
       "title": "Add nextsurplus.com email-authentication template",
@@ -3061,7 +3250,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-11T14:27:02Z",
-      "updated_at": "2026-07-11T14:38:21Z",
+      "updated_at": "2026-07-12T11:15:52Z",
       "merged_at": null,
       "author": "s3t-dux",
       "author_avatar": "https://avatars.githubusercontent.com/u/213898210?v=4",
@@ -3081,19 +3270,18 @@
     },
     {
       "number": 1371,
-      "title": "Add files via upload",
+      "title": "Add Mailname email template (mailname.top / email) ",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-11T13:45:05Z",
-      "updated_at": "2026-07-11T14:13:39Z",
+      "updated_at": "2026-07-12T13:31:34Z",
       "merged_at": null,
       "author": "huangfeihong-cloud",
       "author_avatar": "https://avatars.githubusercontent.com/u/259803467?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1371",
       "labels": [
-        "PR description incomplete",
-        "Test links missing",
-        "automerge-possible"
+        "hostRequired",
+        "review issues"
       ],
       "templates": [
         {
@@ -3359,7 +3547,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-10T12:33:34Z",
-      "updated_at": "2026-07-10T12:39:29Z",
+      "updated_at": "2026-07-12T23:03:49Z",
       "merged_at": null,
       "author": "SendixDev",
       "author_avatar": "https://avatars.githubusercontent.com/u/294641776?v=4",
@@ -3438,14 +3626,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-09T17:33:00Z",
-      "updated_at": "2026-07-11T10:14:49Z",
+      "updated_at": "2026-07-12T10:10:36Z",
       "merged_at": null,
       "author": "milleniumishere",
       "author_avatar": "https://avatars.githubusercontent.com/u/60817254?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1352",
       "labels": [
         "automerge-possible",
-        "new review needed"
+        "review issues"
       ],
       "templates": [
         {
@@ -3506,31 +3694,6 @@
           "provider_id": "noreply",
           "service_id": "so.ses",
           "filename": "noreply.so.ses.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1344,
-      "title": "add Ploro, App hosting",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T10:42:12Z",
-      "updated_at": "2026-07-10T11:40:43Z",
-      "merged_at": null,
-      "author": "benarmstead",
-      "author_avatar": "https://avatars.githubusercontent.com/u/70973680?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1344",
-      "labels": [
-        "hostRequired",
-        "new review needed"
-      ],
-      "templates": [
-        {
-          "provider_id": "ploro",
-          "service_id": "dev.hosting",
-          "filename": "ploro.dev.hosting.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3886,7 +4049,15 @@
         "Test links missing",
         "automerge-possible"
       ],
-      "templates": []
+      "templates": [
+        {
+          "provider_id": "theelevateagent",
+          "service_id": "com.agentsite",
+          "filename": "theelevateagent.com.agentsite.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
     },
     {
       "number": 1225,
@@ -3949,12 +4120,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-11T21:41:39Z",
-      "updated_at": "2026-06-11T21:42:10Z",
+      "updated_at": "2026-07-12T04:48:00Z",
       "merged_at": null,
       "author": "fafsfafaf",
       "author_avatar": "https://avatars.githubusercontent.com/u/222014972?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1217",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -3977,12 +4149,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-08T12:11:52Z",
-      "updated_at": "2026-06-11T06:23:39Z",
+      "updated_at": "2026-07-12T04:48:02Z",
       "merged_at": null,
       "author": "Tihan-Nico",
       "author_avatar": "https://avatars.githubusercontent.com/u/132669484?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1197",
       "labels": [
+        "Stale",
         "Test links missing"
       ],
       "templates": [
@@ -4178,7 +4351,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 762,
+        "review_count": 763,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -9751,6 +9924,15 @@
       "service_name": "plop File Hosting",
       "logo_url": null,
       "record_count": 1
+    },
+    {
+      "filename": "ploro.dev.hosting.json",
+      "provider_id": "ploro.dev",
+      "service_id": "hosting",
+      "provider_name": "Ploro",
+      "service_name": "App hosting",
+      "logo_url": "https://ploro.dev/favicon.ico",
+      "record_count": 4
     },
     {
       "filename": "po6.com.email-forwarding.json",
