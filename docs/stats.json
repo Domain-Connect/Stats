@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T01:30:08.551646",
+  "generated_at": "2026-07-14T01:19:25.988216",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 917,
     "total_providers": 541,
     "total_merged_prs": 1019,
-    "total_open_prs": 48,
+    "total_open_prs": 54,
     "total_contributors": 433,
     "avg_records_per_template": 3.24
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 67,
+      "created": 73,
       "merged": 41
     }
   ],
@@ -2259,22 +2259,22 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 23,
+      "Checklist of common problems not complete": 24,
       "Chores": 0,
       "Forged editor links": 2,
-      "PR description incomplete": 26,
+      "PR description incomplete": 29,
       "Stale": 0,
-      "Test links missing": 46,
-      "automerge-possible": 22,
+      "Test links missing": 50,
+      "automerge-possible": 23,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 22,
+      "hostRequired": 23,
       "new review needed": 0,
       "no syncPubKeyDomain": 11,
       "question": 0,
       "review issues": 2,
-      "schema-error": 3,
+      "schema-error": 4,
       "syncBlock": 1,
       "warnPhishing": 10
     }
@@ -3028,6 +3028,153 @@
   },
   "recent_prs": [
     {
+      "number": 1386,
+      "title": "Add BitsPath Business Email template (bitspath.com.business-email)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T21:41:58Z",
+      "updated_at": "2026-07-13T22:05:42Z",
+      "merged_at": null,
+      "author": "nirjhar",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1380153?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1386",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "bitspath",
+          "service_id": "com.business-email",
+          "filename": "bitspath.com.business-email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1385,
+      "title": "add Game Axiom, Domain Verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T17:59:04Z",
+      "updated_at": "2026-07-13T17:59:42Z",
+      "merged_at": null,
+      "author": "jlsegb",
+      "author_avatar": "https://avatars.githubusercontent.com/u/38519634?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1385",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "gameaxiom",
+          "service_id": "com.domain-verification",
+          "filename": "gameaxiom.com.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1384,
+      "title": "add Modulora, Modulora domain verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T13:03:15Z",
+      "updated_at": "2026-07-13T13:17:23Z",
+      "merged_at": null,
+      "author": "jal-co",
+      "author_avatar": "https://avatars.githubusercontent.com/u/20596508?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1384",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "modulora",
+          "service_id": "dev.domain-verification",
+          "filename": "modulora.dev.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1383,
+      "title": "add OneBookPlus, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T10:09:51Z",
+      "updated_at": "2026-07-13T10:31:50Z",
+      "merged_at": null,
+      "author": "corporatebishal",
+      "author_avatar": "https://avatars.githubusercontent.com/u/16434318?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1383",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "onebookplus",
+          "service_id": "com.website-apex",
+          "filename": "onebookplus.com.website-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "onebookplus",
+          "service_id": "com.website",
+          "filename": "onebookplus.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1382,
+      "title": "Add skrybo.com email service template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T07:43:49Z",
+      "updated_at": "2026-07-13T07:47:40Z",
+      "merged_at": null,
+      "author": "SelmiAbderrahim",
+      "author_avatar": "https://avatars.githubusercontent.com/u/65101059?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1382",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "skrybo",
+          "service_id": "com.email",
+          "filename": "skrybo.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1381,
+      "title": "Add nanimail.com.email.json (new template)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T04:33:08Z",
+      "updated_at": "2026-07-13T04:33:58Z",
+      "merged_at": null,
+      "author": "nanimail-ops",
+      "author_avatar": "https://avatars.githubusercontent.com/u/304258597?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1381",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "nanimail",
+          "service_id": "com.email",
+          "filename": "nanimail.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1380,
       "title": "add Hikyak, Hikyak Email DNS",
       "state": "open",
@@ -3222,18 +3369,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-11T19:48:16Z",
-      "updated_at": "2026-07-11T19:48:53Z",
+      "updated_at": "2026-07-13T13:52:49Z",
       "merged_at": null,
       "author": "bmoss2015",
       "author_avatar": "https://avatars.githubusercontent.com/u/239225296?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1373",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "schema-error",
-        "syncBlock"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "nextsurplus",
@@ -3516,7 +3657,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-10T13:38:42Z",
-      "updated_at": "2026-07-10T15:31:12Z",
+      "updated_at": "2026-07-13T11:52:38Z",
       "merged_at": null,
       "author": "darbymanning",
       "author_avatar": "https://avatars.githubusercontent.com/u/8170676?v=4",
@@ -3572,11 +3713,11 @@
     },
     {
       "number": 1359,
-      "title": "Add advancedsending cname",
+      "title": "Add advancedsending templates: cname + domain-authentication",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-10T12:03:35Z",
-      "updated_at": "2026-07-10T12:16:02Z",
+      "updated_at": "2026-07-13T20:22:47Z",
       "merged_at": null,
       "author": "adrianaleonte",
       "author_avatar": "https://avatars.githubusercontent.com/u/6931989?v=4",
@@ -3589,6 +3730,13 @@
           "provider_id": "advancedsending",
           "service_id": "com.cname",
           "filename": "advancedsending.com.cname.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "advancedsending",
+          "service_id": "com.domain-authentication",
+          "filename": "advancedsending.com.domain-authentication.json",
           "logo_url": null,
           "status": "added"
         }
@@ -4092,12 +4240,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-12T22:51:47Z",
-      "updated_at": "2026-06-12T22:52:29Z",
+      "updated_at": "2026-07-13T04:55:25Z",
       "merged_at": null,
       "author": "liondada",
       "author_avatar": "https://avatars.githubusercontent.com/u/25395931?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1219",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -4383,7 +4532,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 79,
+        "review_count": 78,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
