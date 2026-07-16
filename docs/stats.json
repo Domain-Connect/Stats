@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-15T01:16:49.393850",
+  "generated_at": "2026-07-16T01:26:03.608825",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 947,
-    "total_providers": 563,
-    "total_merged_prs": 1046,
-    "total_open_prs": 35,
-    "total_contributors": 436,
+    "total_templates": 952,
+    "total_providers": 568,
+    "total_merged_prs": 1051,
+    "total_open_prs": 37,
+    "total_contributors": 437,
     "avg_records_per_template": 3.25
   },
   "templates_growth": [
@@ -592,9 +592,9 @@
     },
     {
       "month": "2026-07",
-      "added": 87,
+      "added": 92,
       "deleted": 0,
-      "cumulative": 947
+      "cumulative": 952
     }
   ],
   "providers_growth": [
@@ -1045,8 +1045,8 @@
     },
     {
       "month": "2026-07",
-      "added": 54,
-      "cumulative": 563
+      "added": 59,
+      "cumulative": 568
     }
   ],
   "pr_activity": [
@@ -1567,8 +1567,8 @@
     },
     {
       "month": "2026-07",
-      "created": 82,
-      "merged": 68
+      "created": 89,
+      "merged": 73
     }
   ],
   "pr_time_to_merge": [
@@ -1966,7 +1966,7 @@
     },
     {
       "month": "2026-07",
-      "avg_days": 1.9
+      "avg_days": 1.8
     }
   ],
   "pr_label_activity": [
@@ -2259,22 +2259,22 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 28,
+      "Checklist of common problems not complete": 30,
       "Chores": 0,
       "Forged editor links": 2,
-      "PR description incomplete": 35,
+      "PR description incomplete": 38,
       "Stale": 0,
-      "Test links missing": 59,
-      "automerge-possible": 26,
+      "Test links missing": 63,
+      "automerge-possible": 30,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 3,
-      "hostRequired": 26,
+      "hostRequired": 27,
       "new review needed": 0,
       "no syncPubKeyDomain": 12,
       "question": 0,
       "review issues": 3,
-      "schema-error": 4,
+      "schema-error": 5,
       "syncBlock": 2,
       "warnPhishing": 11
     }
@@ -2688,23 +2688,23 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 658
+      "count": 661
     },
     {
       "type": "TXT",
-      "count": 460
+      "count": 464
     },
     {
       "type": "A",
-      "count": 298
+      "count": 299
     },
     {
       "type": "SPFM",
-      "count": 234
+      "count": 236
     },
     {
       "type": "MX",
-      "count": 198
+      "count": 199
     },
     {
       "type": "SRV",
@@ -2860,6 +2860,41 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "mailname.top",
+        "provider_name": "Mailname",
+        "logo_url": "https://mailname.top/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-07-15"
+      },
+      {
+        "provider_id": "caskstack.com",
+        "provider_name": "CaskStack",
+        "logo_url": "https://caskstack.com/favicon.svg",
+        "template_count": 1,
+        "first_added": "2026-07-15"
+      },
+      {
+        "provider_id": "nept.cloud",
+        "provider_name": "Nept Cloud",
+        "logo_url": "https://nept.cloud/icon.svg",
+        "template_count": 1,
+        "first_added": "2026-07-15"
+      },
+      {
+        "provider_id": "getpie.com",
+        "provider_name": "Pie",
+        "logo_url": "https://ai.getpie.info/logo.png",
+        "template_count": 1,
+        "first_added": "2026-07-15"
+      },
+      {
+        "provider_id": "cataloghub.in",
+        "provider_name": "CatalogHub",
+        "logo_url": "https://cataloghub.in/lovable-uploads/b3316a01-8a3e-471d-a288-212bef5dccd6.png",
+        "template_count": 1,
+        "first_added": "2026-07-15"
+      },
+      {
         "provider_id": "auridigital.com",
         "provider_name": "Auri Digital",
         "logo_url": "https://auridigital.com/logo.png",
@@ -2963,56 +2998,21 @@
         "logo_url": "https://vibehost.vn/image.png",
         "template_count": 1,
         "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "nextsurplus.com",
-        "provider_name": "Next Surplus",
-        "logo_url": "https://nextsurplus.com/logo.png",
-        "template_count": 1,
-        "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "nextunesolutions.com",
-        "provider_name": "Nextune Solutions",
-        "logo_url": "https://www.nextunesolutions.com/logo.png",
-        "template_count": 1,
-        "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "skrybo.com",
-        "provider_name": "Skrybo",
-        "logo_url": "https://skrybo.com/brand/skrybo-logo.svg",
-        "template_count": 1,
-        "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "onebookplus.com",
-        "provider_name": "OneBookPlus",
-        "logo_url": null,
-        "template_count": 2,
-        "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "modulora.dev",
-        "provider_name": "Modulora",
-        "logo_url": "https://modulora.dev/logo.png",
-        "template_count": 1,
-        "first_added": "2026-07-14"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 947,
+    "total_templates": 952,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 876
+        "count": 881
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 658
+        "count": 661
       },
       {
         "name": "warnPhishing",
@@ -3022,18 +3022,90 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 249
+        "count": 251
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 1404,
+      "title": "Add spidee.ai.custom-domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T01:01:35Z",
+      "updated_at": "2026-07-16T01:05:48Z",
+      "merged_at": null,
+      "author": "ThusharaJ",
+      "author_avatar": "https://avatars.githubusercontent.com/u/12082405?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1404",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "spidee",
+          "service_id": "ai.custom-domain",
+          "filename": "spidee.ai.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1403,
+      "title": "add Repliqo, Repliqo inbox domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T00:10:34Z",
+      "updated_at": "2026-07-16T00:12:58Z",
+      "merged_at": null,
+      "author": "dagurleo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/9977094?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1403",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "repliqo",
+          "service_id": "app.inbox-domain",
+          "filename": "repliqo.app.inbox-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1400,
+      "title": "Add MiniLaunch site template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T16:12:28Z",
+      "updated_at": "2026-07-15T16:13:12Z",
+      "merged_at": null,
+      "author": "himasaman",
+      "author_avatar": "https://avatars.githubusercontent.com/u/118947661?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1400",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "minilaunch",
+          "service_id": "app.site",
+          "filename": "minilaunch.app.site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1392,
       "title": "Add VeloCMS templates (velocms.org / connect, connect-apex)",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-14T12:30:29Z",
-      "updated_at": "2026-07-14T22:18:12Z",
+      "updated_at": "2026-07-15T21:52:46Z",
       "merged_at": null,
       "author": "muharremyurtsever",
       "author_avatar": "https://avatars.githubusercontent.com/u/174323786?v=4",
@@ -3246,31 +3318,6 @@
           "provider_id": "zend24",
           "service_id": "com.ses-email",
           "filename": "zend24.com.ses-email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1371,
-      "title": "Add Mailname email template (mailname.top / email) ",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-11T13:45:05Z",
-      "updated_at": "2026-07-12T13:31:34Z",
-      "merged_at": null,
-      "author": "huangfeihong-cloud",
-      "author_avatar": "https://avatars.githubusercontent.com/u/259803467?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1371",
-      "labels": [
-        "hostRequired",
-        "review issues"
-      ],
-      "templates": [
-        {
-          "provider_id": "mailname",
-          "service_id": "top.email",
-          "filename": "mailname.top.email.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3902,12 +3949,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-04T20:59:34Z",
-      "updated_at": "2026-06-14T11:02:32Z",
+      "updated_at": "2026-07-15T04:22:43Z",
       "merged_at": null,
       "author": "jakeduncan-tbd",
       "author_avatar": "https://avatars.githubusercontent.com/u/282897881?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1187",
       "labels": [
+        "Stale",
         "no syncPubKeyDomain",
         "warnPhishing",
         "hostRequired",
@@ -4040,7 +4088,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 780,
+        "review_count": 785,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4058,7 +4106,7 @@
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 35,
+        "review_count": 37,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -4072,13 +4120,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 95,
+        "review_count": 97,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 35,
+        "review_count": 37,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -4897,6 +4945,24 @@
       "service_name": "Website Hosting",
       "logo_url": "https://cashwebdev.com/og-image.png",
       "record_count": 5
+    },
+    {
+      "filename": "caskstack.com.email-auth.json",
+      "provider_id": "caskstack.com",
+      "service_id": "email-auth",
+      "provider_name": "CaskStack",
+      "service_name": "CaskStack Email Authentication",
+      "logo_url": "https://caskstack.com/favicon.svg",
+      "record_count": 3
+    },
+    {
+      "filename": "cataloghub.in.customdomain.json",
+      "provider_id": "cataloghub.in",
+      "service_id": "customdomain",
+      "provider_name": "CatalogHub",
+      "service_name": "CatalogHub Custom Domain",
+      "logo_url": "https://cataloghub.in/lovable-uploads/b3316a01-8a3e-471d-a288-212bef5dccd6.png",
+      "record_count": 4
     },
     {
       "filename": "cavuno.com.boards.json",
@@ -6507,6 +6573,15 @@
       "provider_name": "Plume by Getowlet",
       "service_name": "Plume Blog",
       "logo_url": "https://plume.getowlet.ai/images/logo-mark.png",
+      "record_count": 1
+    },
+    {
+      "filename": "getpie.com.aiwebsite.json",
+      "provider_id": "getpie.com",
+      "service_id": "aiwebsite",
+      "provider_name": "Pie",
+      "service_name": "Pie AI Website",
+      "logo_url": "https://ai.getpie.info/logo.png",
       "record_count": 1
     },
     {
@@ -8814,6 +8889,15 @@
       "record_count": 1
     },
     {
+      "filename": "mailname.top.email.json",
+      "provider_id": "mailname.top",
+      "service_id": "email",
+      "provider_name": "Mailname",
+      "service_name": "Mailname Email",
+      "logo_url": "https://mailname.top/logo.svg",
+      "record_count": 5
+    },
+    {
       "filename": "mailrelay.com.email.json",
       "provider_id": "mailrelay.com",
       "service_id": "email",
@@ -9243,6 +9327,15 @@
       "provider_name": "NeoFin",
       "service_name": "Control Panel",
       "logo_url": "https://neo-fin.com/static/dist/img/new_logo.svg",
+      "record_count": 3
+    },
+    {
+      "filename": "nept.cloud.hosting.json",
+      "provider_id": "nept.cloud",
+      "service_id": "hosting",
+      "provider_name": "Nept Cloud",
+      "service_name": "Nept Cloud custom domain",
+      "logo_url": "https://nept.cloud/icon.svg",
       "record_count": 3
     },
     {
@@ -12624,7 +12717,7 @@
   "contributors": [
     {
       "login": "pawel-kow",
-      "contributions": 482,
+      "contributions": 483,
       "avatar_url": "https://avatars.githubusercontent.com/u/28707030?v=4",
       "profile_url": "https://github.com/pawel-kow"
     },
