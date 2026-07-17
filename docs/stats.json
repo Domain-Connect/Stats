@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T01:26:03.608825",
+  "generated_at": "2026-07-17T01:28:57.710195",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 952,
     "total_providers": 568,
     "total_merged_prs": 1051,
-    "total_open_prs": 37,
+    "total_open_prs": 42,
     "total_contributors": 437,
     "avg_records_per_template": 3.25
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 89,
+      "created": 94,
       "merged": 73
     }
   ],
@@ -2259,17 +2259,17 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 30,
+      "Checklist of common problems not complete": 33,
       "Chores": 0,
       "Forged editor links": 2,
-      "PR description incomplete": 38,
+      "PR description incomplete": 41,
       "Stale": 0,
-      "Test links missing": 63,
+      "Test links missing": 66,
       "automerge-possible": 30,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 3,
-      "hostRequired": 27,
+      "hostRequired": 29,
       "new review needed": 0,
       "no syncPubKeyDomain": 12,
       "question": 0,
@@ -2682,7 +2682,7 @@
     },
     {
       "month": "2026-07",
-      "avg_comments": 0.0
+      "avg_comments": 0.1
     }
   ],
   "record_types": [
@@ -3028,6 +3028,121 @@
   },
   "recent_prs": [
     {
+      "number": 1409,
+      "title": "Add gallerydeals.com custom-domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T22:11:19Z",
+      "updated_at": "2026-07-16T22:45:24Z",
+      "merged_at": null,
+      "author": "makegravity",
+      "author_avatar": "https://avatars.githubusercontent.com/u/58840785?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1409",
+      "labels": [
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "gallerydeals",
+          "service_id": "com.custom-domain",
+          "filename": "gallerydeals.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1408,
+      "title": "Add FatMail email service configuration",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T17:54:47Z",
+      "updated_at": "2026-07-16T18:19:19Z",
+      "merged_at": null,
+      "author": "COMPLEXWASTAKEN",
+      "author_avatar": "https://avatars.githubusercontent.com/u/167404873?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1408",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "fatmail",
+          "service_id": "beer.mail",
+          "filename": "fatmail.beer.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1407,
+      "title": "Add clarflow.com.funnels template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T11:08:13Z",
+      "updated_at": "2026-07-16T11:09:49Z",
+      "merged_at": null,
+      "author": "ViditJain123",
+      "author_avatar": "https://avatars.githubusercontent.com/u/84613629?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1407",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "clarflow",
+          "service_id": "com.funnels",
+          "filename": "clarflow.com.funnels.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1406,
+      "title": "Update VibeHost template logo and TTL",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T09:50:04Z",
+      "updated_at": "2026-07-16T10:19:43Z",
+      "merged_at": null,
+      "author": "sangnekk",
+      "author_avatar": "https://avatars.githubusercontent.com/u/85666619?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1406",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "vibehost",
+          "service_id": "vn.hosting",
+          "filename": "vibehost.vn.hosting.json",
+          "logo_url": "https://vibehost.vn/image.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1405,
+      "title": "Add Vane rewards and email onboarding template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T06:02:43Z",
+      "updated_at": "2026-07-16T07:16:43Z",
+      "merged_at": null,
+      "author": "Donaid-Ngai",
+      "author_avatar": "https://avatars.githubusercontent.com/u/275404888?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1405",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "vane",
+          "service_id": "promo.onboarding",
+          "filename": "vane.promo.onboarding.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1404,
       "title": "Add spidee.ai.custom-domain template",
       "state": "open",
@@ -3081,7 +3196,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-15T16:12:28Z",
-      "updated_at": "2026-07-15T16:13:12Z",
+      "updated_at": "2026-07-16T01:52:16Z",
       "merged_at": null,
       "author": "himasaman",
       "author_avatar": "https://avatars.githubusercontent.com/u/118947661?v=4",
@@ -4120,7 +4235,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 97,
+        "review_count": 92,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
