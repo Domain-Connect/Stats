@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-17T01:28:57.710195",
+  "generated_at": "2026-07-18T01:20:58.901382",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 952,
-    "total_providers": 568,
-    "total_merged_prs": 1051,
-    "total_open_prs": 42,
+    "total_templates": 958,
+    "total_providers": 574,
+    "total_merged_prs": 1058,
+    "total_open_prs": 44,
     "total_contributors": 437,
     "avg_records_per_template": 3.25
   },
@@ -592,9 +592,9 @@
     },
     {
       "month": "2026-07",
-      "added": 92,
+      "added": 98,
       "deleted": 0,
-      "cumulative": 952
+      "cumulative": 958
     }
   ],
   "providers_growth": [
@@ -1045,8 +1045,8 @@
     },
     {
       "month": "2026-07",
-      "added": 59,
-      "cumulative": 568
+      "added": 65,
+      "cumulative": 574
     }
   ],
   "pr_activity": [
@@ -1567,8 +1567,8 @@
     },
     {
       "month": "2026-07",
-      "created": 94,
-      "merged": 73
+      "created": 103,
+      "merged": 80
     }
   ],
   "pr_time_to_merge": [
@@ -1966,7 +1966,7 @@
     },
     {
       "month": "2026-07",
-      "avg_days": 1.8
+      "avg_days": 1.7
     }
   ],
   "pr_label_activity": [
@@ -2259,22 +2259,22 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 33,
+      "Checklist of common problems not complete": 34,
       "Chores": 0,
       "Forged editor links": 2,
-      "PR description incomplete": 41,
+      "PR description incomplete": 44,
       "Stale": 0,
-      "Test links missing": 66,
-      "automerge-possible": 30,
+      "Test links missing": 70,
+      "automerge-possible": 34,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 3,
-      "hostRequired": 29,
+      "filename-error": 4,
+      "hostRequired": 32,
       "new review needed": 0,
       "no syncPubKeyDomain": 12,
       "question": 0,
       "review issues": 3,
-      "schema-error": 5,
+      "schema-error": 6,
       "syncBlock": 2,
       "warnPhishing": 11
     }
@@ -2688,23 +2688,23 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 661
+      "count": 665
     },
     {
       "type": "TXT",
-      "count": 464
+      "count": 467
     },
     {
       "type": "A",
-      "count": 299
+      "count": 301
     },
     {
       "type": "SPFM",
-      "count": 236
+      "count": 238
     },
     {
       "type": "MX",
-      "count": 199
+      "count": 201
     },
     {
       "type": "SRV",
@@ -2860,6 +2860,48 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "minilaunch.app",
+        "provider_name": "MiniLaunch",
+        "logo_url": null,
+        "template_count": 1,
+        "first_added": "2026-07-17"
+      },
+      {
+        "provider_id": "repliqo.app",
+        "provider_name": "Repliqo",
+        "logo_url": "https://repliqo.app/repliqo.png",
+        "template_count": 1,
+        "first_added": "2026-07-17"
+      },
+      {
+        "provider_id": "spidee.ai",
+        "provider_name": "Spidee",
+        "logo_url": "https://spidee.ai/logo.png",
+        "template_count": 1,
+        "first_added": "2026-07-17"
+      },
+      {
+        "provider_id": "fatmail.beer",
+        "provider_name": "FatMail",
+        "logo_url": "https://fatmail.beer/icon-512.png",
+        "template_count": 1,
+        "first_added": "2026-07-17"
+      },
+      {
+        "provider_id": "vane.promo",
+        "provider_name": "Vane",
+        "logo_url": "https://vane.promo/favicon.ico",
+        "template_count": 1,
+        "first_added": "2026-07-17"
+      },
+      {
+        "provider_id": "clarflow.com",
+        "provider_name": "Clarflow",
+        "logo_url": "https://cdn.prd.clarflow.com/email/clarflow-logo-square.png",
+        "template_count": 1,
+        "first_added": "2026-07-17"
+      },
+      {
         "provider_id": "mailname.top",
         "provider_name": "Mailname",
         "logo_url": "https://mailname.top/logo.svg",
@@ -2956,63 +2998,21 @@
         "logo_url": "https://connect.advancedsending.com/static/logo.svg",
         "template_count": 2,
         "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "franchisesystems.ai",
-        "provider_name": "Franchise Systems AI",
-        "logo_url": "https://app.franchisesystems.ai/logo.svg",
-        "template_count": 1,
-        "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "reloop.sh",
-        "provider_name": "Reloop",
-        "logo_url": "https://reloop.sh/icon.svg",
-        "template_count": 1,
-        "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "convertly.sh",
-        "provider_name": "Convertly",
-        "logo_url": "https://convertly.sh/logomark-color.png",
-        "template_count": 1,
-        "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "nexusbuild.ai",
-        "provider_name": "NexusBuild",
-        "logo_url": "https://nexusbuild.ai/apple-icon.png",
-        "template_count": 1,
-        "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "dnsdoctor.dev",
-        "provider_name": "DNS Doctor",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-07-14"
-      },
-      {
-        "provider_id": "vibehost.vn",
-        "provider_name": "VibeHost",
-        "logo_url": "https://vibehost.vn/image.png",
-        "template_count": 1,
-        "first_added": "2026-07-14"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 952,
+    "total_templates": 958,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 881
+        "count": 887
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 661
+        "count": 667
       },
       {
         "name": "warnPhishing",
@@ -3022,193 +3022,257 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 251
+        "count": 252
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 1418,
+      "title": "Zaroz Cloud, 3 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T00:36:53Z",
+      "updated_at": "2026-07-18T00:37:25Z",
+      "merged_at": null,
+      "author": "Stay1444",
+      "author_avatar": "https://avatars.githubusercontent.com/u/36738990?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1418",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "zaroz",
+          "service_id": "cloud.factorio-srv",
+          "filename": "zaroz.cloud.factorio-srv.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "zaroz",
+          "service_id": "cloud.fivem-srv",
+          "filename": "zaroz.cloud.fivem-srv.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "zaroz",
+          "service_id": "cloud.minecraft-srv",
+          "filename": "zaroz.cloud.minecraft-srv.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1417,
+      "title": "Interfere domain config",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T23:13:46Z",
+      "updated_at": "2026-07-17T23:17:54Z",
+      "merged_at": null,
+      "author": "vv1ktor",
+      "author_avatar": "https://avatars.githubusercontent.com/u/35867666?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1417",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "interfere",
+          "service_id": "domains.tracking-domain",
+          "filename": "interfere.domains.tracking-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1416,
+      "title": "Talkingunicorn.email email setup template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T22:31:46Z",
+      "updated_at": "2026-07-17T22:32:24Z",
+      "merged_at": null,
+      "author": "TalkingUnicornAI",
+      "author_avatar": "https://avatars.githubusercontent.com/u/306141036?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1416",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "talkingunicorn",
+          "service_id": "email.email-setup",
+          "filename": "talkingunicorn.email.email-setup.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1415,
+      "title": "Add homshi.com website template (signed sync flow)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T18:12:22Z",
+      "updated_at": "2026-07-17T18:12:57Z",
+      "merged_at": null,
+      "author": "robplant1991-crypto",
+      "author_avatar": "https://avatars.githubusercontent.com/u/238499133?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1415",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "homshi",
+          "service_id": "com.website",
+          "filename": "homshi.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1414,
+      "title": "Add prontuno.com template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T14:24:03Z",
+      "updated_at": "2026-07-17T16:16:16Z",
+      "merged_at": null,
+      "author": "tubiz",
+      "author_avatar": "https://avatars.githubusercontent.com/u/602184?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1414",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "prontuno",
+          "service_id": "com.email",
+          "filename": "prontuno.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1413,
+      "title": "Maillogic email sending",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T06:45:30Z",
+      "updated_at": "2026-07-17T06:46:15Z",
+      "merged_at": null,
+      "author": "s3t-dux",
+      "author_avatar": "https://avatars.githubusercontent.com/u/213898210?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1413",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "maillogic",
+          "service_id": "io.email-sending",
+          "filename": "maillogic.io.email-sending.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1412,
+      "title": "add MailLogic, Email Forwarding",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T04:13:32Z",
+      "updated_at": "2026-07-17T04:14:13Z",
+      "merged_at": null,
+      "author": "s3t-dux",
+      "author_avatar": "https://avatars.githubusercontent.com/u/213898210?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1412",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "maillogic",
+          "service_id": "io.email-forwarding",
+          "filename": "maillogic.io.email-forwarding.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1411,
+      "title": "Add plicklistings.com.website-email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T02:20:07Z",
+      "updated_at": "2026-07-17T03:32:54Z",
+      "merged_at": null,
+      "author": "graygillman",
+      "author_avatar": "https://avatars.githubusercontent.com/u/155269856?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1411",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "plicklistings",
+          "service_id": "com.website-email",
+          "filename": "plicklistings.com.website-email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1410,
+      "title": "Add plicklistings.com.website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T02:19:29Z",
+      "updated_at": "2026-07-17T03:32:53Z",
+      "merged_at": null,
+      "author": "graygillman",
+      "author_avatar": "https://avatars.githubusercontent.com/u/155269856?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1410",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "plicklistings",
+          "service_id": "com.website",
+          "filename": "plicklistings.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1409,
       "title": "Add gallerydeals.com custom-domain template",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-16T22:11:19Z",
-      "updated_at": "2026-07-16T22:45:24Z",
+      "updated_at": "2026-07-17T03:38:56Z",
       "merged_at": null,
       "author": "makegravity",
       "author_avatar": "https://avatars.githubusercontent.com/u/58840785?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1409",
       "labels": [
-        "Test links missing",
-        "hostRequired"
+        "new review needed"
       ],
       "templates": [
         {
           "provider_id": "gallerydeals",
           "service_id": "com.custom-domain",
           "filename": "gallerydeals.com.custom-domain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1408,
-      "title": "Add FatMail email service configuration",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T17:54:47Z",
-      "updated_at": "2026-07-16T18:19:19Z",
-      "merged_at": null,
-      "author": "COMPLEXWASTAKEN",
-      "author_avatar": "https://avatars.githubusercontent.com/u/167404873?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1408",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "fatmail",
-          "service_id": "beer.mail",
-          "filename": "fatmail.beer.mail.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1407,
-      "title": "Add clarflow.com.funnels template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T11:08:13Z",
-      "updated_at": "2026-07-16T11:09:49Z",
-      "merged_at": null,
-      "author": "ViditJain123",
-      "author_avatar": "https://avatars.githubusercontent.com/u/84613629?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1407",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "clarflow",
-          "service_id": "com.funnels",
-          "filename": "clarflow.com.funnels.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1406,
-      "title": "Update VibeHost template logo and TTL",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T09:50:04Z",
-      "updated_at": "2026-07-16T10:19:43Z",
-      "merged_at": null,
-      "author": "sangnekk",
-      "author_avatar": "https://avatars.githubusercontent.com/u/85666619?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1406",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "vibehost",
-          "service_id": "vn.hosting",
-          "filename": "vibehost.vn.hosting.json",
-          "logo_url": "https://vibehost.vn/image.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 1405,
-      "title": "Add Vane rewards and email onboarding template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T06:02:43Z",
-      "updated_at": "2026-07-16T07:16:43Z",
-      "merged_at": null,
-      "author": "Donaid-Ngai",
-      "author_avatar": "https://avatars.githubusercontent.com/u/275404888?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1405",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "vane",
-          "service_id": "promo.onboarding",
-          "filename": "vane.promo.onboarding.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1404,
-      "title": "Add spidee.ai.custom-domain template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T01:01:35Z",
-      "updated_at": "2026-07-16T01:05:48Z",
-      "merged_at": null,
-      "author": "ThusharaJ",
-      "author_avatar": "https://avatars.githubusercontent.com/u/12082405?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1404",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "spidee",
-          "service_id": "ai.custom-domain",
-          "filename": "spidee.ai.custom-domain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1403,
-      "title": "add Repliqo, Repliqo inbox domain",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T00:10:34Z",
-      "updated_at": "2026-07-16T00:12:58Z",
-      "merged_at": null,
-      "author": "dagurleo",
-      "author_avatar": "https://avatars.githubusercontent.com/u/9977094?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1403",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "repliqo",
-          "service_id": "app.inbox-domain",
-          "filename": "repliqo.app.inbox-domain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1400,
-      "title": "Add MiniLaunch site template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-15T16:12:28Z",
-      "updated_at": "2026-07-16T01:52:16Z",
-      "merged_at": null,
-      "author": "himasaman",
-      "author_avatar": "https://avatars.githubusercontent.com/u/118947661?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1400",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "minilaunch",
-          "service_id": "app.site",
-          "filename": "minilaunch.app.site.json",
           "logo_url": null,
           "status": "added"
         }
@@ -4203,7 +4267,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 785,
+        "review_count": 792,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4214,16 +4278,16 @@
         "profile_url": "https://github.com/kerolasa"
       },
       {
+        "login": "github-actions[bot]",
+        "review_count": 40,
+        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+        "profile_url": "https://github.com/apps/github-actions"
+      },
+      {
         "login": "wdbaker-godaddy",
         "review_count": 40,
         "avatar_url": "https://avatars.githubusercontent.com/u/83673606?v=4",
         "profile_url": "https://github.com/wdbaker-godaddy"
-      },
-      {
-        "login": "github-actions[bot]",
-        "review_count": 37,
-        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-        "profile_url": "https://github.com/apps/github-actions"
       },
       {
         "login": "arnoldblinn",
@@ -4235,13 +4299,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 92,
+        "review_count": 97,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 37,
+        "review_count": 40,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -5177,6 +5241,15 @@
       "service_name": "Cirrux Mail",
       "logo_url": "https://static.cirrux.co/mail/img/favicon/favicon-512.png",
       "record_count": 8
+    },
+    {
+      "filename": "clarflow.com.funnels.json",
+      "provider_id": "clarflow.com",
+      "service_id": "funnels",
+      "provider_name": "Clarflow",
+      "service_name": "Funnel hosting",
+      "logo_url": "https://cdn.prd.clarflow.com/email/clarflow-logo-square.png",
+      "record_count": 2
     },
     {
       "filename": "cleanwiz.email-setup.json",
@@ -6338,6 +6411,15 @@
       "service_name": "Hosting and Mail",
       "logo_url": "https://fastdomain-cdn.com/media/app/fastdomain/live/static/media/src/common/assets/images/brand/fd/logo.png",
       "record_count": 20
+    },
+    {
+      "filename": "fatmail.beer.mail.json",
+      "provider_id": "fatmail.beer",
+      "service_id": "mail",
+      "provider_name": "FatMail",
+      "service_name": "FatMail Email",
+      "logo_url": "https://fatmail.beer/icon-512.png",
+      "record_count": 6
     },
     {
       "filename": "ferndesk.com.custom-domain.json",
@@ -9211,6 +9293,15 @@
       "record_count": 1
     },
     {
+      "filename": "minilaunch.app.site.json",
+      "provider_id": "minilaunch.app",
+      "service_id": "site",
+      "provider_name": "MiniLaunch",
+      "service_name": "MiniLaunch custom domain",
+      "logo_url": null,
+      "record_count": 2
+    },
+    {
       "filename": "minimo.it.mail.json",
       "provider_id": "minimo.it",
       "service_id": "mail",
@@ -10417,6 +10508,15 @@
       "record_count": 7
     },
     {
+      "filename": "repliqo.app.inbox-domain.json",
+      "provider_id": "repliqo.app",
+      "service_id": "inbox-domain",
+      "provider_name": "Repliqo",
+      "service_name": "Repliqo inbox domain",
+      "logo_url": "https://repliqo.app/repliqo.png",
+      "record_count": 4
+    },
+    {
       "filename": "replit.com.website.json",
       "provider_id": "replit.com",
       "service_id": "website",
@@ -11317,6 +11417,15 @@
       "record_count": 1
     },
     {
+      "filename": "spidee.ai.custom-domain.json",
+      "provider_id": "spidee.ai",
+      "service_id": "custom-domain",
+      "provider_name": "Spidee",
+      "service_name": "Connect your domain to your Spidee site",
+      "logo_url": "https://spidee.ai/logo.png",
+      "record_count": 2
+    },
+    {
       "filename": "spinlab.studio.casino.json",
       "provider_id": "spinlab.studio",
       "service_id": "casino",
@@ -12154,6 +12263,15 @@
       "record_count": 4
     },
     {
+      "filename": "vane.promo.onboarding.json",
+      "provider_id": "vane.promo",
+      "service_id": "onboarding",
+      "provider_name": "Vane",
+      "service_name": "Vane Rewards and Email",
+      "logo_url": "https://vane.promo/favicon.ico",
+      "record_count": 4
+    },
+    {
       "filename": "vantapanel.com.hosting.json",
       "provider_id": "vantapanel.com",
       "service_id": "hosting",
@@ -12249,7 +12367,7 @@
       "service_id": "hosting",
       "provider_name": "VibeHost",
       "service_name": "VibeHost Custom Domain",
-      "logo_url": "https://vibehost.vn/image.png",
+      "logo_url": "https://vibehost.vn/image.svg",
       "record_count": 1
     },
     {
