@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T01:20:58.901382",
+  "generated_at": "2026-07-19T01:27:12.575598",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 958,
     "total_providers": 574,
     "total_merged_prs": 1058,
-    "total_open_prs": 44,
+    "total_open_prs": 49,
     "total_contributors": 437,
     "avg_records_per_template": 3.25
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 103,
+      "created": 110,
       "merged": 80
     }
   ],
@@ -2259,17 +2259,17 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 34,
+      "Checklist of common problems not complete": 36,
       "Chores": 0,
       "Forged editor links": 2,
-      "PR description incomplete": 44,
+      "PR description incomplete": 47,
       "Stale": 0,
-      "Test links missing": 70,
-      "automerge-possible": 34,
+      "Test links missing": 74,
+      "automerge-possible": 36,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 32,
+      "hostRequired": 36,
       "new review needed": 0,
       "no syncPubKeyDomain": 12,
       "question": 0,
@@ -3028,12 +3028,174 @@
   },
   "recent_prs": [
     {
+      "number": 1425,
+      "title": "Add Lucitech managed site template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-19T01:10:28Z",
+      "updated_at": "2026-07-19T01:11:01Z",
+      "merged_at": null,
+      "author": "ChristopherBrand",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3753271?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1425",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "lucitech",
+          "service_id": "net.managed-site",
+          "filename": "lucitech.net.managed-site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1424,
+      "title": "Add custom domain templates for softalon.com",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T21:30:29Z",
+      "updated_at": "2026-07-18T21:53:40Z",
+      "merged_at": null,
+      "author": "repovic",
+      "author_avatar": "https://avatars.githubusercontent.com/u/65650667?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1424",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "softalon",
+          "service_id": "com.apex-custom-domain",
+          "filename": "softalon.com.apex-custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "softalon",
+          "service_id": "com.subdomain-custom-domain",
+          "filename": "softalon.com.subdomain-custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1422,
+      "title": "add Church Flow, Church Flow Portal",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T16:26:40Z",
+      "updated_at": "2026-07-18T16:27:22Z",
+      "merged_at": null,
+      "author": "Ivydevdre",
+      "author_avatar": "https://avatars.githubusercontent.com/u/160653776?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1422",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "church-flow",
+          "service_id": "com.portal",
+          "filename": "church-flow.com.portal.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1421,
+      "title": "add Saiton, Saiton website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T13:11:47Z",
+      "updated_at": "2026-07-18T13:12:33Z",
+      "merged_at": null,
+      "author": "ivo9999",
+      "author_avatar": "https://avatars.githubusercontent.com/u/122401692?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1421",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "getsaiton",
+          "service_id": "com.saiton",
+          "filename": "getsaiton.com.saiton.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1420,
+      "title": "add CoDuck, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T08:05:38Z",
+      "updated_at": "2026-07-18T08:06:09Z",
+      "merged_at": null,
+      "author": "LiamBMX",
+      "author_avatar": "https://avatars.githubusercontent.com/u/102465227?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1420",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "coduck",
+          "service_id": "ai.hosting-apex",
+          "filename": "coduck.ai.hosting-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "coduck",
+          "service_id": "ai.hosting-subdomain",
+          "filename": "coduck.ai.hosting-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1419,
+      "title": "Add inbox-works.com mail template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T01:40:29Z",
+      "updated_at": "2026-07-18T02:05:52Z",
+      "merged_at": null,
+      "author": "masanori-iwata",
+      "author_avatar": "https://avatars.githubusercontent.com/u/131421893?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1419",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "inbox-works",
+          "service_id": "com.mail",
+          "filename": "inbox-works.com.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1418,
       "title": "Zaroz Cloud, 3 templates",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-18T00:36:53Z",
-      "updated_at": "2026-07-18T00:37:25Z",
+      "updated_at": "2026-07-18T10:22:20Z",
       "merged_at": null,
       "author": "Stay1444",
       "author_avatar": "https://avatars.githubusercontent.com/u/36738990?v=4",
@@ -3593,14 +3755,16 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-09T17:33:00Z",
-      "updated_at": "2026-07-12T10:10:36Z",
+      "updated_at": "2026-07-18T13:12:57Z",
       "merged_at": null,
       "author": "milleniumishere",
       "author_avatar": "https://avatars.githubusercontent.com/u/60817254?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1352",
       "labels": [
-        "automerge-possible",
-        "review issues"
+        "Test links missing",
+        "schema-error",
+        "filename-error",
+        "new review needed"
       ],
       "templates": [
         {
@@ -4229,34 +4393,6 @@
           "provider_id": "furlough",
           "service_id": "ai.custom-domain",
           "filename": "furlough.ai.custom-domain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1170,
-      "title": "add Mailometer, Mailometer Email",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-01T06:09:51Z",
-      "updated_at": "2026-07-02T05:27:24Z",
-      "merged_at": null,
-      "author": "hrconsultnj",
-      "author_avatar": "https://avatars.githubusercontent.com/u/120684337?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1170",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "no syncPubKeyDomain"
-      ],
-      "templates": [
-        {
-          "provider_id": "mailometer",
-          "service_id": "com.mail",
-          "filename": "mailometer.com.mail.json",
           "logo_url": null,
           "status": "added"
         }
