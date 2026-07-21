@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T01:54:03.831648",
+  "generated_at": "2026-07-21T01:26:29.047800",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 978,
     "total_providers": 589,
     "total_merged_prs": 1075,
-    "total_open_prs": 34,
+    "total_open_prs": 42,
     "total_contributors": 439,
     "avg_records_per_template": 3.24
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 113,
+      "created": 121,
       "merged": 97
     }
   ],
@@ -2259,23 +2259,23 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 37,
+      "Checklist of common problems not complete": 40,
       "Chores": 0,
-      "Forged editor links": 2,
-      "PR description incomplete": 48,
+      "Forged editor links": 3,
+      "PR description incomplete": 51,
       "Stale": 0,
-      "Test links missing": 76,
-      "automerge-possible": 37,
+      "Test links missing": 82,
+      "automerge-possible": 40,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 38,
+      "hostRequired": 41,
       "new review needed": 0,
       "no syncPubKeyDomain": 12,
       "question": 0,
       "review issues": 3,
-      "schema-error": 7,
-      "syncBlock": 2,
+      "schema-error": 8,
+      "syncBlock": 3,
       "warnPhishing": 11
     }
   ],
@@ -3028,20 +3028,223 @@
   },
   "recent_prs": [
     {
+      "number": 1436,
+      "title": "Add DoDomain templates (dodomain.io): custom-subdomain-cname and domain-verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T01:14:01Z",
+      "updated_at": "2026-07-21T01:17:54Z",
+      "merged_at": null,
+      "author": "BSalaeddin",
+      "author_avatar": "https://avatars.githubusercontent.com/u/15094821?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1436",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "dodomain",
+          "service_id": "io.custom-subdomain-cname",
+          "filename": "dodomain.io.custom-subdomain-cname.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "dodomain",
+          "service_id": "io.domain-verification",
+          "filename": "dodomain.io.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1435,
+      "title": "Add InboxMail email-forwarding template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T15:27:57Z",
+      "updated_at": "2026-07-20T15:34:16Z",
+      "merged_at": null,
+      "author": "zenderock",
+      "author_avatar": "https://avatars.githubusercontent.com/u/149311683?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1435",
+      "labels": [
+        "syncBlock",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "useinbox",
+          "service_id": "email.email-forwarding",
+          "filename": "useinbox.email.email-forwarding.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1434,
+      "title": "Add Foundax storefront template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T12:21:37Z",
+      "updated_at": "2026-07-20T12:31:59Z",
+      "merged_at": null,
+      "author": "sancenruan",
+      "author_avatar": "https://avatars.githubusercontent.com/u/187078163?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1434",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "foundax",
+          "service_id": "com.storefront",
+          "filename": "foundax.com.storefront.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1433,
+      "title": "Add configuration for Crescendo Email Service",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T12:05:07Z",
+      "updated_at": "2026-07-20T12:20:13Z",
+      "merged_at": null,
+      "author": "AnkitArsh19",
+      "author_avatar": "https://avatars.githubusercontent.com/u/94040432?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1433",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "crescendo",
+          "service_id": "run.email",
+          "filename": "crescendo.run.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1432,
+      "title": "Add combined MailLogic email forwarding and sending template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T11:11:47Z",
+      "updated_at": "2026-07-20T11:16:42Z",
+      "merged_at": null,
+      "author": "s3t-dux",
+      "author_avatar": "https://avatars.githubusercontent.com/u/213898210?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1432",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "maillogic",
+          "service_id": "io.email",
+          "filename": "maillogic.io.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1431,
+      "title": "Update Convertly Image CDN logo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T10:05:56Z",
+      "updated_at": "2026-07-20T10:19:05Z",
+      "merged_at": null,
+      "author": "riandredev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/137506800?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1431",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "convertly",
+          "service_id": "sh.image-cdn",
+          "filename": "convertly.sh.image-cdn.json",
+          "logo_url": "https://convertly.sh/logomark-color.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1430,
+      "title": "Add knola.ai website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T07:25:22Z",
+      "updated_at": "2026-07-20T07:25:57Z",
+      "merged_at": null,
+      "author": "viddyoze",
+      "author_avatar": "https://avatars.githubusercontent.com/u/15088093?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1430",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "knola",
+          "service_id": "ai.website",
+          "filename": "knola.ai.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1429,
+      "title": "Add notdeploy studio Production and Sandbox customer hostname templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T02:35:10Z",
+      "updated_at": "2026-07-20T08:04:42Z",
+      "merged_at": null,
+      "author": "chibataku0815",
+      "author_avatar": "https://avatars.githubusercontent.com/u/12694161?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1429",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "notdeploy",
+          "service_id": "studio.customer-hostname-sandbox",
+          "filename": "notdeploy.studio.customer-hostname-sandbox.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "notdeploy",
+          "service_id": "studio.customer-hostname",
+          "filename": "notdeploy.studio.customer-hostname.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1419,
       "title": "Add inbox-works.com mail template",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-18T01:40:29Z",
-      "updated_at": "2026-07-18T02:05:52Z",
+      "updated_at": "2026-07-20T08:56:28Z",
       "merged_at": null,
       "author": "masanori-iwata",
       "author_avatar": "https://avatars.githubusercontent.com/u/131421893?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1419",
       "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
+        "automerge-possible"
       ],
       "templates": [
         {
@@ -3744,12 +3947,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-19T20:12:55Z",
-      "updated_at": "2026-06-19T21:41:57Z",
+      "updated_at": "2026-07-20T05:01:28Z",
       "merged_at": null,
       "author": "kimaah",
       "author_avatar": "https://avatars.githubusercontent.com/u/70794496?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1258",
       "labels": [
+        "Stale",
         "hostRequired",
         "review issues"
       ],
@@ -4059,7 +4263,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 102,
+        "review_count": 101,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
