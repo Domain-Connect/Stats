@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T01:26:29.047800",
+  "generated_at": "2026-07-22T01:25:07.861948",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 978,
     "total_providers": 589,
     "total_merged_prs": 1075,
-    "total_open_prs": 42,
+    "total_open_prs": 48,
     "total_contributors": 439,
     "avg_records_per_template": 3.24
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 121,
+      "created": 129,
       "merged": 97
     }
   ],
@@ -3028,6 +3028,203 @@
   },
   "recent_prs": [
     {
+      "number": 1446,
+      "title": "Allow fork-PR checkout in pull_request_target workflows",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T00:03:04Z",
+      "updated_at": "2026-07-22T00:03:04Z",
+      "merged_at": null,
+      "author": "JMJBILLINGS",
+      "author_avatar": "https://avatars.githubusercontent.com/u/272277961?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1446",
+      "labels": [],
+      "templates": []
+    },
+    {
+      "number": 1444,
+      "title": "Add jmjbillings.com ar-sending template (Postmark AR email)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T21:13:06Z",
+      "updated_at": "2026-07-21T22:59:30Z",
+      "merged_at": null,
+      "author": "JMJBILLINGS",
+      "author_avatar": "https://avatars.githubusercontent.com/u/272277961?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1444",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "jmjbillings",
+          "service_id": "com.ar-sending",
+          "filename": "jmjbillings.com.ar-sending.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1443,
+      "title": "Add heybrand.ai page-subdomain and page-apex templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T19:11:31Z",
+      "updated_at": "2026-07-21T19:11:31Z",
+      "merged_at": null,
+      "author": "emabellor",
+      "author_avatar": "https://avatars.githubusercontent.com/u/6153669?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1443",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "heybrand",
+          "service_id": "ai.page-apex",
+          "filename": "heybrand.ai.page-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "heybrand",
+          "service_id": "ai.page-subdomain",
+          "filename": "heybrand.ai.page-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1442,
+      "title": "Add domain verification configuration for CtxLay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T18:53:10Z",
+      "updated_at": "2026-07-21T18:53:10Z",
+      "merged_at": null,
+      "author": "reouvenm",
+      "author_avatar": "https://avatars.githubusercontent.com/u/302629496?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1442",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "ctxlay",
+          "service_id": "ai.domain-verification",
+          "filename": "ctxlay.ai.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1441,
+      "title": "Add naia.today pages template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T14:04:52Z",
+      "updated_at": "2026-07-21T14:04:52Z",
+      "merged_at": null,
+      "author": "arielvdl",
+      "author_avatar": "https://avatars.githubusercontent.com/u/40357582?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1441",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "naia",
+          "service_id": "today.pages",
+          "filename": "naia.today.pages.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1440,
+      "title": "Add bubix.app.custom template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T13:32:44Z",
+      "updated_at": "2026-07-21T14:04:06Z",
+      "merged_at": null,
+      "author": "SiberCoder",
+      "author_avatar": "https://avatars.githubusercontent.com/u/8211801?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1440",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "bubix",
+          "service_id": "app.custom",
+          "filename": "bubix.app.custom.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1439,
+      "title": "Add Kangarua DMARC template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T10:18:14Z",
+      "updated_at": "2026-07-21T10:29:28Z",
+      "merged_at": null,
+      "author": "scelen",
+      "author_avatar": "https://avatars.githubusercontent.com/u/30460631?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1439",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "kangarua",
+          "service_id": "net.dmarc",
+          "filename": "kangarua.net.dmarc.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1438,
+      "title": "Add binsrsites.com website template (signed sync flow)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T05:19:42Z",
+      "updated_at": "2026-07-21T05:19:42Z",
+      "merged_at": null,
+      "author": "AryashDubey",
+      "author_avatar": "https://avatars.githubusercontent.com/u/70095055?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1438",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "binsrsites",
+          "service_id": "com.website",
+          "filename": "binsrsites.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1437,
+      "title": "Add contactcloud365.com.email (AlphaOutreach email sending)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T03:54:42Z",
+      "updated_at": "2026-07-21T04:02:56Z",
+      "merged_at": null,
+      "author": "netpediaweb",
+      "author_avatar": "https://avatars.githubusercontent.com/u/159089811?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1437",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "contactcloud365",
+          "service_id": "com.email",
+          "filename": "contactcloud365.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1436,
       "title": "Add DoDomain templates (dodomain.io): custom-subdomain-cname and domain-verification",
       "state": "open",
@@ -4169,62 +4366,6 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 1186,
-      "title": "Create olvr.pro.connect.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-04T17:38:40Z",
-      "updated_at": "2026-07-05T05:32:35Z",
-      "merged_at": null,
-      "author": "jakeolvr94-hash",
-      "author_avatar": "https://avatars.githubusercontent.com/u/242385425?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1186",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "schema-error",
-        "filename-error"
-      ],
-      "templates": [
-        {
-          "provider_id": "olvr",
-          "service_id": "pro.connect",
-          "filename": "olvr.pro.connect.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1184,
-      "title": "Add peloran.com.email template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-04T09:41:33Z",
-      "updated_at": "2026-07-05T05:32:37Z",
-      "merged_at": null,
-      "author": "ersanyus",
-      "author_avatar": "https://avatars.githubusercontent.com/u/192884236?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1184",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "peloran",
-          "service_id": "com.email",
-          "filename": "peloran.com.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
@@ -4263,13 +4404,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 101,
+        "review_count": 98,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 47,
+        "review_count": 45,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
