@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T01:25:07.861948",
+  "generated_at": "2026-07-23T01:45:29.667418",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 978,
     "total_providers": 589,
     "total_merged_prs": 1075,
-    "total_open_prs": 48,
+    "total_open_prs": 53,
     "total_contributors": 439,
     "avg_records_per_template": 3.24
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 129,
+      "created": 134,
       "merged": 97
     }
   ],
@@ -3028,6 +3028,116 @@
   },
   "recent_prs": [
     {
+      "number": 1451,
+      "title": "Add Oezer Mail Purelymail template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T22:59:58Z",
+      "updated_at": "2026-07-22T22:59:58Z",
+      "merged_at": null,
+      "author": "Borekobama",
+      "author_avatar": "https://avatars.githubusercontent.com/u/100217477?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1451",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mail",
+          "service_id": "oezer.ch.purelymail",
+          "filename": "mail.oezer.ch.purelymail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1450,
+      "title": "add Base Layer, Base Layer Website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T16:58:41Z",
+      "updated_at": "2026-07-22T21:51:09Z",
+      "merged_at": null,
+      "author": "snowmanai-ops",
+      "author_avatar": "https://avatars.githubusercontent.com/u/234724153?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1450",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "baselayerai",
+          "service_id": "io.website",
+          "filename": "baselayerai.io.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1449,
+      "title": "Add enwella.com clinic-website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T15:15:16Z",
+      "updated_at": "2026-07-22T15:24:07Z",
+      "merged_at": null,
+      "author": "vshaveyko",
+      "author_avatar": "https://avatars.githubusercontent.com/u/10478693?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1449",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "enwella",
+          "service_id": "com.clinic-website",
+          "filename": "enwella.com.clinic-website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1448,
+      "title": "Add Recruitly SendGrid email-authentication template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T10:23:17Z",
+      "updated_at": "2026-07-22T14:29:27Z",
+      "merged_at": null,
+      "author": "willgary",
+      "author_avatar": "https://avatars.githubusercontent.com/u/66531981?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1448",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "recruitly",
+          "service_id": "io.sendgrid-email-auth",
+          "filename": "recruitly.io.sendgrid-email-auth.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1447,
+      "title": "Add groupId to optional DKIM records in godaddy.com.aab.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T05:55:59Z",
+      "updated_at": "2026-07-22T05:55:59Z",
+      "merged_at": null,
+      "author": "rkorin-godaddy",
+      "author_avatar": "https://avatars.githubusercontent.com/u/112121904?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1447",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "godaddy",
+          "service_id": "com.aab",
+          "filename": "godaddy.com.aab.json",
+          "logo_url": "https://www.domainconnect.org/wp-content/uploads/2020/02/godaddy_logo_new.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 1446,
       "title": "Allow fork-PR checkout in pull_request_target workflows",
       "state": "open",
@@ -4118,12 +4228,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-22T03:33:59Z",
-      "updated_at": "2026-06-22T03:44:26Z",
+      "updated_at": "2026-07-22T04:42:32Z",
       "merged_at": null,
       "author": "neilberkman",
       "author_avatar": "https://avatars.githubusercontent.com/u/37657?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1272",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Test links missing",
         "hostRequired"
