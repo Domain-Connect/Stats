@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T01:45:29.667418",
+  "generated_at": "2026-07-24T01:29:37.867510",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -8,9 +8,9 @@
   "summary": {
     "total_templates": 978,
     "total_providers": 589,
-    "total_merged_prs": 1075,
-    "total_open_prs": 53,
-    "total_contributors": 439,
+    "total_merged_prs": 1076,
+    "total_open_prs": 62,
+    "total_contributors": 440,
     "avg_records_per_template": 3.24
   },
   "templates_growth": [
@@ -1537,8 +1537,8 @@
     },
     {
       "month": "2026-01",
-      "created": 42,
-      "merged": 33
+      "created": 43,
+      "merged": 34
     },
     {
       "month": "2026-02",
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 134,
+      "created": 143,
       "merged": 97
     }
   ],
@@ -1942,7 +1942,7 @@
     },
     {
       "month": "2026-01",
-      "avg_days": 6.2
+      "avg_days": 6.1
     },
     {
       "month": "2026-02",
@@ -2658,7 +2658,7 @@
     },
     {
       "month": "2026-01",
-      "avg_comments": 2.4
+      "avg_comments": 2.5
     },
     {
       "month": "2026-02",
@@ -3027,6 +3027,204 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1460,
+      "title": "Add Fastworkload custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T22:37:28Z",
+      "updated_at": "2026-07-23T22:40:07Z",
+      "merged_at": null,
+      "author": "erikgaas",
+      "author_avatar": "https://avatars.githubusercontent.com/u/2773725?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1460",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "fastworkload",
+          "service_id": "com.custom-domain",
+          "filename": "fastworkload.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1459,
+      "title": "Update mailkube.com email template to v2: SPF + return-path MX on send.host",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T22:14:20Z",
+      "updated_at": "2026-07-23T22:26:24Z",
+      "merged_at": null,
+      "author": "farirat",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1020111?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1459",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mailkube",
+          "service_id": "com.email",
+          "filename": "mailkube.com.email.json",
+          "logo_url": "https://cdn.mailkube.com/public/logos/domainconnect/packv1.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1458,
+      "title": "Add Clerk secondary email records",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T21:47:28Z",
+      "updated_at": "2026-07-23T21:47:29Z",
+      "merged_at": null,
+      "author": "jescalan",
+      "author_avatar": "https://avatars.githubusercontent.com/u/556932?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1458",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "clerk",
+          "service_id": "com.app",
+          "filename": "clerk.com.app.json",
+          "logo_url": null,
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1457,
+      "title": "add TradeInIndia, Expert Paper Trading Platform",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T19:14:24Z",
+      "updated_at": "2026-07-23T19:14:24Z",
+      "merged_at": null,
+      "author": "wiyuga",
+      "author_avatar": "https://avatars.githubusercontent.com/u/44395969?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1457",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "tradeinindia",
+          "service_id": "live.expertpt",
+          "filename": "tradeinindia.live.expertpt.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1456,
+      "title": "Add golemor.com storefront template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T15:07:07Z",
+      "updated_at": "2026-07-23T15:07:07Z",
+      "merged_at": null,
+      "author": "tcimerman",
+      "author_avatar": "https://avatars.githubusercontent.com/u/163124420?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1456",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "golemor",
+          "service_id": "com.storefront",
+          "filename": "golemor.com.storefront.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1455,
+      "title": "Add krynox.net.domain-verification template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T13:19:52Z",
+      "updated_at": "2026-07-23T13:19:52Z",
+      "merged_at": null,
+      "author": "fahmikemal",
+      "author_avatar": "https://avatars.githubusercontent.com/u/293118598?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1455",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "krynox",
+          "service_id": "net.domain-verification",
+          "filename": "krynox.net.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1454,
+      "title": "add JetEmail, JetEmail Marketing Sending Domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T09:54:15Z",
+      "updated_at": "2026-07-23T09:56:52Z",
+      "merged_at": null,
+      "author": "jetemail",
+      "author_avatar": "https://avatars.githubusercontent.com/u/172550771?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1454",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "jetemail",
+          "service_id": "com.marketing-domain",
+          "filename": "jetemail.com.marketing-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1453,
+      "title": "Add template sendscape.ai.email",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T09:46:05Z",
+      "updated_at": "2026-07-23T09:46:05Z",
+      "merged_at": null,
+      "author": "digitalscapemy",
+      "author_avatar": "https://avatars.githubusercontent.com/u/185621250?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1453",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sendscape",
+          "service_id": "ai.email",
+          "filename": "sendscape.ai.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1452,
+      "title": "Update reloop.sh.email-setup to version 2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T06:25:00Z",
+      "updated_at": "2026-07-23T08:11:37Z",
+      "merged_at": null,
+      "author": "twinkalp10",
+      "author_avatar": "https://avatars.githubusercontent.com/u/100406717?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1452",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "reloop",
+          "service_id": "sh.email-setup",
+          "filename": "reloop.sh.email-setup.json",
+          "logo_url": "https://reloop.sh/icon.svg",
+          "status": "modified"
+        }
+      ]
+    },
     {
       "number": 1451,
       "title": "Add Oezer Mail Purelymail template",
@@ -4489,7 +4687,7 @@
       },
       {
         "login": "kerolasa",
-        "review_count": 75,
+        "review_count": 76,
         "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
         "profile_url": "https://github.com/kerolasa"
       },
@@ -4521,7 +4719,7 @@
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 45,
+        "review_count": 44,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
