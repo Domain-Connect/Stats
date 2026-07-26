@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T01:29:27.874237",
+  "generated_at": "2026-07-26T01:43:33.869762",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 997,
     "total_providers": 604,
     "total_merged_prs": 1097,
-    "total_open_prs": 43,
+    "total_open_prs": 45,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 145,
+      "created": 147,
       "merged": 118
     }
   ],
@@ -2269,7 +2269,7 @@
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 42,
+      "hostRequired": 43,
       "new review needed": 0,
       "no syncPubKeyDomain": 13,
       "question": 0,
@@ -3028,6 +3028,52 @@
   },
   "recent_prs": [
     {
+      "number": 1465,
+      "title": "Add primage.com.br custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-25T14:58:37Z",
+      "updated_at": "2026-07-25T14:59:17Z",
+      "merged_at": null,
+      "author": "ElioBonfim",
+      "author_avatar": "https://avatars.githubusercontent.com/u/6935169?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1465",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "primage",
+          "service_id": "com.br.custom",
+          "filename": "primage.com.br.custom.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1464,
+      "title": "Add apex A records to TalentCafe web hosting template (v2)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-25T02:13:14Z",
+      "updated_at": "2026-07-25T02:13:54Z",
+      "merged_at": null,
+      "author": "bluefire2121",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4358275?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1464",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "talentcafe",
+          "service_id": "net.web-hosting",
+          "filename": "talentcafe.net.web-hosting.json",
+          "logo_url": "https://talentcafe.net/logo.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 1463,
       "title": "Create lucaledger.net.portal.json",
       "state": "open",
@@ -3085,15 +3131,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-23T09:46:05Z",
-      "updated_at": "2026-07-24T12:13:54Z",
+      "updated_at": "2026-07-25T02:10:51Z",
       "merged_at": null,
       "author": "digitalscapemy",
       "author_avatar": "https://avatars.githubusercontent.com/u/185621250?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1453",
       "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
+        "automerge-possible"
       ],
       "templates": [
         {
@@ -3204,13 +3248,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T21:13:06Z",
-      "updated_at": "2026-07-24T12:15:19Z",
+      "updated_at": "2026-07-25T17:14:07Z",
       "merged_at": null,
       "author": "JMJBILLINGS",
       "author_avatar": "https://avatars.githubusercontent.com/u/272277961?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1444",
       "labels": [
-        "Test links missing",
         "hostRequired"
       ],
       "templates": [
@@ -4309,13 +4352,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 111,
+        "review_count": 103,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 53,
+        "review_count": 50,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
