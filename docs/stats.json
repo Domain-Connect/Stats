@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T01:43:33.869762",
+  "generated_at": "2026-07-27T01:50:31.303061",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 997,
     "total_providers": 604,
     "total_merged_prs": 1097,
-    "total_open_prs": 45,
+    "total_open_prs": 48,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 147,
+      "created": 150,
       "merged": 118
     }
   ],
@@ -2259,17 +2259,17 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 42,
+      "Checklist of common problems not complete": 43,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 53,
+      "PR description incomplete": 55,
       "Stale": 0,
-      "Test links missing": 84,
+      "Test links missing": 87,
       "automerge-possible": 42,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 43,
+      "hostRequired": 44,
       "new review needed": 0,
       "no syncPubKeyDomain": 13,
       "question": 0,
@@ -3028,6 +3028,88 @@
   },
   "recent_prs": [
     {
+      "number": 1468,
+      "title": "Add Render custom domain templates (render.com)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-26T19:52:00Z",
+      "updated_at": "2026-07-26T20:14:18Z",
+      "merged_at": null,
+      "author": "anurag",
+      "author_avatar": "https://avatars.githubusercontent.com/u/59905?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1468",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "render",
+          "service_id": "com.custom-domain-apex-a",
+          "filename": "render.com.custom-domain-apex-a.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "render",
+          "service_id": "com.custom-domain-apex",
+          "filename": "render.com.custom-domain-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "render",
+          "service_id": "com.custom-domain-subdomain",
+          "filename": "render.com.custom-domain-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1467,
+      "title": "Add digitaltec-solutions.de newsletter-domain-auth template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-26T19:43:55Z",
+      "updated_at": "2026-07-26T19:55:42Z",
+      "merged_at": null,
+      "author": "BlackBottHD",
+      "author_avatar": "https://avatars.githubusercontent.com/u/16281455?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1467",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "digitaltec-solutions",
+          "service_id": "de.newsletter-domain-auth",
+          "filename": "digitaltec-solutions.de.newsletter-domain-auth.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1466,
+      "title": "Add syncBlock: false to crescendo.run/email template for Cloudflare sync flow compatibility",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-26T15:46:08Z",
+      "updated_at": "2026-07-26T16:54:10Z",
+      "merged_at": null,
+      "author": "AnkitArsh19",
+      "author_avatar": "https://avatars.githubusercontent.com/u/94040432?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1466",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "crescendo",
+          "service_id": "run.email",
+          "filename": "crescendo.run.email.json",
+          "logo_url": "https://app.crescendo.run/logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 1465,
       "title": "Add primage.com.br custom domain template",
       "state": "open",
@@ -3304,7 +3386,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T18:53:10Z",
-      "updated_at": "2026-07-24T12:21:15Z",
+      "updated_at": "2026-07-26T06:19:17Z",
       "merged_at": null,
       "author": "reouvenm",
       "author_avatar": "https://avatars.githubusercontent.com/u/302629496?v=4",
@@ -4352,13 +4434,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 103,
+        "review_count": 101,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 50,
+        "review_count": 49,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
