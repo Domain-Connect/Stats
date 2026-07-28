@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T01:50:31.303061",
+  "generated_at": "2026-07-28T01:25:25.752759",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 997,
     "total_providers": 604,
     "total_merged_prs": 1097,
-    "total_open_prs": 48,
+    "total_open_prs": 49,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 150,
+      "created": 153,
       "merged": 118
     }
   ],
@@ -2262,21 +2262,21 @@
       "Checklist of common problems not complete": 43,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 55,
+      "PR description incomplete": 56,
       "Stale": 0,
-      "Test links missing": 87,
-      "automerge-possible": 42,
+      "Test links missing": 89,
+      "automerge-possible": 43,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 44,
+      "hostRequired": 45,
       "new review needed": 0,
-      "no syncPubKeyDomain": 13,
+      "no syncPubKeyDomain": 14,
       "question": 0,
       "review issues": 3,
-      "schema-error": 8,
+      "schema-error": 9,
       "syncBlock": 3,
-      "warnPhishing": 12
+      "warnPhishing": 13
     }
   ],
   "pr_comment_activity": [
@@ -3028,6 +3028,78 @@
   },
   "recent_prs": [
     {
+      "number": 1471,
+      "title": "add Faivelo, Faivelo Email",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T14:29:52Z",
+      "updated_at": "2026-07-27T14:34:56Z",
+      "merged_at": null,
+      "author": "ethannschwartz",
+      "author_avatar": "https://avatars.githubusercontent.com/u/96845694?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1471",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "faivelo",
+          "service_id": "com.email",
+          "filename": "faivelo.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1470,
+      "title": "Add Webloo custom-domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T11:39:36Z",
+      "updated_at": "2026-07-27T16:49:04Z",
+      "merged_at": null,
+      "author": "rpastorelli",
+      "author_avatar": "https://avatars.githubusercontent.com/u/134214045?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1470",
+      "labels": [
+        "no syncPubKeyDomain",
+        "warnPhishing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "webloo",
+          "service_id": "com.br.custom-domain",
+          "filename": "webloo.com.br.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1469,
+      "title": "add LeadApe, Email authentication (SPF + DMARC)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T10:05:38Z",
+      "updated_at": "2026-07-27T10:06:34Z",
+      "merged_at": null,
+      "author": "tranquilsoftware",
+      "author_avatar": "https://avatars.githubusercontent.com/u/53103851?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1469",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "leadape",
+          "service_id": "io.outreach",
+          "filename": "leadape.io.outreach.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1468,
       "title": "Add Render custom domain templates (render.com)",
       "state": "open",
@@ -3330,7 +3402,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T21:13:06Z",
-      "updated_at": "2026-07-25T17:14:07Z",
+      "updated_at": "2026-07-27T19:51:57Z",
       "merged_at": null,
       "author": "JMJBILLINGS",
       "author_avatar": "https://avatars.githubusercontent.com/u/272277961?v=4",
@@ -3434,7 +3506,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T10:18:14Z",
-      "updated_at": "2026-07-24T12:16:08Z",
+      "updated_at": "2026-07-27T07:04:39Z",
       "merged_at": null,
       "author": "scelen",
       "author_avatar": "https://avatars.githubusercontent.com/u/30460631?v=4",
@@ -4277,74 +4349,6 @@
       ]
     },
     {
-      "number": 1217,
-      "title": "Add Destaff (destaff.ai) mailgun-sync template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-11T21:41:39Z",
-      "updated_at": "2026-07-12T04:48:00Z",
-      "merged_at": null,
-      "author": "fafsfafaf",
-      "author_avatar": "https://avatars.githubusercontent.com/u/222014972?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1217",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "warnPhishing",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "destaff",
-          "service_id": "ai.mailgun-sync",
-          "filename": "destaff.ai.mailgun-sync.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1197,
-      "title": "Apollo Signal, 3 templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-08T12:11:52Z",
-      "updated_at": "2026-07-12T04:48:02Z",
-      "merged_at": null,
-      "author": "Tihan-Nico",
-      "author_avatar": "https://avatars.githubusercontent.com/u/132669484?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1197",
-      "labels": [
-        "Stale",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "apollodeploy",
-          "service_id": "com.signal-click-tracking",
-          "filename": "apollodeploy.com.signal-click-tracking.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "apollodeploy",
-          "service_id": "com.signal-sending-cname",
-          "filename": "apollodeploy.com.signal-sending-cname.json",
-          "logo_url": "https://apollodeploy.com/favicon.ico",
-          "status": "modified"
-        },
-        {
-          "provider_id": "apollodeploy",
-          "service_id": "com.signal-sending",
-          "filename": "apollodeploy.com.signal-sending.json",
-          "logo_url": "https://apollodeploy.com/favicon.ico",
-          "status": "modified"
-        }
-      ]
-    },
-    {
       "number": 1191,
       "title": "Add crossly.net.storefront-subdomain template",
       "state": "open",
@@ -4434,13 +4438,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 101,
+        "review_count": 97,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 49,
+        "review_count": 46,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
