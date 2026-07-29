@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T01:25:25.752759",
+  "generated_at": "2026-07-29T01:25:47.622967",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 997,
     "total_providers": 604,
     "total_merged_prs": 1097,
-    "total_open_prs": 49,
+    "total_open_prs": 52,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 153,
+      "created": 156,
       "merged": 118
     }
   ],
@@ -2264,12 +2264,12 @@
       "Forged editor links": 3,
       "PR description incomplete": 56,
       "Stale": 0,
-      "Test links missing": 89,
+      "Test links missing": 90,
       "automerge-possible": 43,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 45,
+      "hostRequired": 46,
       "new review needed": 0,
       "no syncPubKeyDomain": 14,
       "question": 0,
@@ -3028,12 +3028,88 @@
   },
   "recent_prs": [
     {
+      "number": 1474,
+      "title": "Add Mailfully mail template (mailfully.com.mail.json)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T18:50:39Z",
+      "updated_at": "2026-07-28T18:51:20Z",
+      "merged_at": null,
+      "author": "gbourne1",
+      "author_avatar": "https://avatars.githubusercontent.com/u/13002533?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1474",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mailfully",
+          "service_id": "com.mail",
+          "filename": "mailfully.com.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1473,
+      "title": "Add xposureapp portfolio",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T15:20:02Z",
+      "updated_at": "2026-07-28T15:20:32Z",
+      "merged_at": null,
+      "author": "MattiaPun",
+      "author_avatar": "https://avatars.githubusercontent.com/u/46904691?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1473",
+      "labels": [
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "xposureapp",
+          "service_id": "net.portfolio-apex",
+          "filename": "xposureapp.net.portfolio-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "xposureapp",
+          "service_id": "net.portfolio",
+          "filename": "xposureapp.net.portfolio.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1472,
+      "title": "add Lockally, Lockally Email",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T03:08:34Z",
+      "updated_at": "2026-07-28T03:09:04Z",
+      "merged_at": null,
+      "author": "ucheigwedinma",
+      "author_avatar": "https://avatars.githubusercontent.com/u/116019021?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1472",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "lockally",
+          "service_id": "com.email",
+          "filename": "lockally.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1471,
       "title": "add Faivelo, Faivelo Email",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-27T14:29:52Z",
-      "updated_at": "2026-07-27T14:34:56Z",
+      "updated_at": "2026-07-28T14:51:12Z",
       "merged_at": null,
       "author": "ethannschwartz",
       "author_avatar": "https://avatars.githubusercontent.com/u/96845694?v=4",
@@ -3285,7 +3361,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-23T09:46:05Z",
-      "updated_at": "2026-07-25T02:10:51Z",
+      "updated_at": "2026-07-28T11:12:56Z",
       "merged_at": null,
       "author": "digitalscapemy",
       "author_avatar": "https://avatars.githubusercontent.com/u/185621250?v=4",
@@ -3402,7 +3478,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T21:13:06Z",
-      "updated_at": "2026-07-27T19:51:57Z",
+      "updated_at": "2026-07-28T18:29:02Z",
       "merged_at": null,
       "author": "JMJBILLINGS",
       "author_avatar": "https://avatars.githubusercontent.com/u/272277961?v=4",
@@ -4107,12 +4183,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-27T14:52:20Z",
-      "updated_at": "2026-06-27T14:53:08Z",
+      "updated_at": "2026-07-28T04:38:11Z",
       "merged_at": null,
       "author": "mgthompo1",
       "author_avatar": "https://avatars.githubusercontent.com/u/220517399?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1298",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -4272,12 +4349,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-14T04:44:08Z",
-      "updated_at": "2026-06-27T07:09:08Z",
+      "updated_at": "2026-07-28T04:38:14Z",
       "merged_at": null,
       "author": "simonvassalo1999",
       "author_avatar": "https://avatars.githubusercontent.com/u/285300388?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1226",
       "labels": [
+        "Stale",
         "Test links missing",
         "automerge-possible"
       ],
