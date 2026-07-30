@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T01:25:47.622967",
+  "generated_at": "2026-07-30T01:19:05.450831",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 997,
     "total_providers": 604,
     "total_merged_prs": 1097,
-    "total_open_prs": 52,
+    "total_open_prs": 61,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 156,
+      "created": 170,
       "merged": 118
     }
   ],
@@ -2259,24 +2259,24 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 43,
+      "Checklist of common problems not complete": 44,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 56,
+      "PR description incomplete": 61,
       "Stale": 0,
-      "Test links missing": 90,
-      "automerge-possible": 43,
+      "Test links missing": 101,
+      "automerge-possible": 47,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 46,
+      "hostRequired": 52,
       "new review needed": 0,
-      "no syncPubKeyDomain": 14,
+      "no syncPubKeyDomain": 15,
       "question": 0,
       "review issues": 3,
       "schema-error": 9,
       "syncBlock": 3,
-      "warnPhishing": 13
+      "warnPhishing": 14
     }
   ],
   "pr_comment_activity": [
@@ -3028,6 +3028,280 @@
   },
   "recent_prs": [
     {
+      "number": 1488,
+      "title": "Add Custom Domain Kit custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T00:10:04Z",
+      "updated_at": "2026-07-30T00:52:54Z",
+      "merged_at": null,
+      "author": "antscript",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7564672?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1488",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "customdomainkit",
+          "service_id": "com.custom-domain",
+          "filename": "customdomainkit.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1487,
+      "title": "Add HollaEx custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T21:23:48Z",
+      "updated_at": "2026-07-29T21:24:26Z",
+      "merged_at": null,
+      "author": "kycfeel",
+      "author_avatar": "https://avatars.githubusercontent.com/u/22075051?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1487",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "hollaex",
+          "service_id": "com.custom-domain",
+          "filename": "hollaex.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1486,
+      "title": "Add MailRift email service configuration",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T20:07:23Z",
+      "updated_at": "2026-07-29T20:09:25Z",
+      "merged_at": null,
+      "author": "Pablo-Wynistorf",
+      "author_avatar": "https://avatars.githubusercontent.com/u/89579477?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1486",
+      "labels": [
+        "no syncPubKeyDomain",
+        "warnPhishing"
+      ],
+      "templates": [
+        {
+          "provider_id": "mailrift",
+          "service_id": "io.email",
+          "filename": "mailrift.io.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1485,
+      "title": "add FormsVS, Domínio próprio no FormsVS",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T15:39:14Z",
+      "updated_at": "2026-07-29T15:41:15Z",
+      "merged_at": null,
+      "author": "licosa",
+      "author_avatar": "https://avatars.githubusercontent.com/u/239246335?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1485",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "formsvs",
+          "service_id": "com.custom-domain",
+          "filename": "formsvs.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1484,
+      "title": "Add Lettermint DNS configuration v2 template for email with managed D…",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T15:09:21Z",
+      "updated_at": "2026-07-29T15:10:18Z",
+      "merged_at": null,
+      "author": "bjarn",
+      "author_avatar": "https://avatars.githubusercontent.com/u/14638441?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1484",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "lettermint",
+          "service_id": "co.mail-v2",
+          "filename": "lettermint.co.mail-v2.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1482,
+      "title": "added new domain connect template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T12:23:12Z",
+      "updated_at": "2026-07-29T12:24:07Z",
+      "merged_at": null,
+      "author": "ReturnofMatrix",
+      "author_avatar": "https://avatars.githubusercontent.com/u/115244467?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1482",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "bharatgo",
+          "service_id": "com.storefront",
+          "filename": "bharatgo.com.storefront.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1481,
+      "title": "Add puestin storefront templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T11:53:24Z",
+      "updated_at": "2026-07-29T12:05:35Z",
+      "merged_at": null,
+      "author": "lmenezes",
+      "author_avatar": "https://avatars.githubusercontent.com/u/750074?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1481",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "puestin",
+          "service_id": "com.connect-apex",
+          "filename": "puestin.com.connect-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "puestin",
+          "service_id": "com.connect-subdomain",
+          "filename": "puestin.com.connect-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1480,
+      "title": "add otterdeploy, Connect a custom domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T09:31:32Z",
+      "updated_at": "2026-07-29T09:32:16Z",
+      "merged_at": null,
+      "author": "artzkaizen",
+      "author_avatar": "https://avatars.githubusercontent.com/u/121627078?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1480",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "otterdeploy",
+          "service_id": "com.connect",
+          "filename": "otterdeploy.com.connect.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1478,
+      "title": "Add Trust1 Product Review SES template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T03:55:06Z",
+      "updated_at": "2026-07-29T03:57:10Z",
+      "merged_at": null,
+      "author": "pamts",
+      "author_avatar": "https://avatars.githubusercontent.com/u/215444743?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1478",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "trust1",
+          "service_id": "io.product-review-ses",
+          "filename": "trust1.io.product-review-ses.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1476,
+      "title": "add Wasied, Wasied website custom domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T02:34:51Z",
+      "updated_at": "2026-07-29T03:04:17Z",
+      "merged_at": null,
+      "author": "wasied",
+      "author_avatar": "https://avatars.githubusercontent.com/u/72105771?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1476",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "wasied",
+          "service_id": "com.site",
+          "filename": "wasied.com.site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1475,
+      "title": "Add template: out.win / outwin-email (Outwin email sending setup)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T01:45:40Z",
+      "updated_at": "2026-07-29T01:46:11Z",
+      "merged_at": null,
+      "author": "megazoor",
+      "author_avatar": "https://avatars.githubusercontent.com/u/24616413?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1475",
+      "labels": [
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "out",
+          "service_id": "win.outwin-email",
+          "filename": "out.win.outwin-email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1474,
       "title": "Add Mailfully mail template (mailfully.com.mail.json)",
       "state": "open",
@@ -3055,7 +3329,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-28T15:20:02Z",
-      "updated_at": "2026-07-28T15:20:32Z",
+      "updated_at": "2026-07-29T11:34:49Z",
       "merged_at": null,
       "author": "MattiaPun",
       "author_avatar": "https://avatars.githubusercontent.com/u/46904691?v=4",
@@ -3105,11 +3379,11 @@
     },
     {
       "number": 1471,
-      "title": "add Faivelo, Faivelo Email",
+      "title": "Add configuration for Faivelo Mail Hosting service",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-27T14:29:52Z",
-      "updated_at": "2026-07-28T14:51:12Z",
+      "updated_at": "2026-07-29T13:46:09Z",
       "merged_at": null,
       "author": "ethannschwartz",
       "author_avatar": "https://avatars.githubusercontent.com/u/96845694?v=4",
@@ -4158,12 +4432,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-28T16:48:50Z",
-      "updated_at": "2026-06-28T16:49:24Z",
+      "updated_at": "2026-07-29T04:41:56Z",
       "merged_at": null,
       "author": "michaelwetyyy",
       "author_avatar": "https://avatars.githubusercontent.com/u/64970902?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1307",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Test links missing"
       ],
@@ -4364,63 +4639,6 @@
           "provider_id": "theelevateagent",
           "service_id": "com.agentsite",
           "filename": "theelevateagent.com.agentsite.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1225,
-      "title": "Add shiply.now.cname template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-14T04:21:43Z",
-      "updated_at": "2026-07-14T04:23:03Z",
-      "merged_at": null,
-      "author": "stevejford",
-      "author_avatar": "https://avatars.githubusercontent.com/u/69082246?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1225",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "no syncPubKeyDomain"
-      ],
-      "templates": [
-        {
-          "provider_id": "shiply",
-          "service_id": "now.cname",
-          "filename": "shiply.now.cname.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1219,
-      "title": "Add HiBubo proxy template (hibubo.ai.proxy)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-12T22:51:47Z",
-      "updated_at": "2026-07-13T04:55:25Z",
-      "merged_at": null,
-      "author": "liondada",
-      "author_avatar": "https://avatars.githubusercontent.com/u/25395931?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1219",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "schema-error",
-        "no syncPubKeyDomain"
-      ],
-      "templates": [
-        {
-          "provider_id": "hibubo",
-          "service_id": "ai.proxy",
-          "filename": "hibubo.ai.proxy.json",
           "logo_url": null,
           "status": "added"
         }
