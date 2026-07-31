@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T01:19:05.450831",
+  "generated_at": "2026-07-31T01:45:32.940711",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 997,
     "total_providers": 604,
     "total_merged_prs": 1097,
-    "total_open_prs": 61,
+    "total_open_prs": 66,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -1567,7 +1567,7 @@
     },
     {
       "month": "2026-07",
-      "created": 170,
+      "created": 176,
       "merged": 118
     }
   ],
@@ -2259,19 +2259,19 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 44,
+      "Checklist of common problems not complete": 45,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 61,
+      "PR description incomplete": 63,
       "Stale": 0,
-      "Test links missing": 101,
-      "automerge-possible": 47,
+      "Test links missing": 106,
+      "automerge-possible": 50,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 52,
+      "hostRequired": 55,
       "new review needed": 0,
-      "no syncPubKeyDomain": 15,
+      "no syncPubKeyDomain": 16,
       "question": 0,
       "review issues": 3,
       "schema-error": 9,
@@ -3028,6 +3028,174 @@
   },
   "recent_prs": [
     {
+      "number": 1494,
+      "title": "StorM, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T00:28:22Z",
+      "updated_at": "2026-07-31T00:32:38Z",
+      "merged_at": null,
+      "author": "knstormapps",
+      "author_avatar": "https://avatars.githubusercontent.com/u/157762937?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1494",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "stormapplications",
+          "service_id": "com.storefront-apex",
+          "filename": "stormapplications.com.storefront-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "stormapplications",
+          "service_id": "com.storefront-subdomain",
+          "filename": "stormapplications.com.storefront-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1493,
+      "title": "Add yousend.app.email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T18:52:05Z",
+      "updated_at": "2026-07-30T19:38:57Z",
+      "merged_at": null,
+      "author": "SidahmedSeg",
+      "author_avatar": "https://avatars.githubusercontent.com/u/34067006?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1493",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "yousend",
+          "service_id": "app.email",
+          "filename": "yousend.app.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1492,
+      "title": "Add eusend.dev mail template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T16:25:56Z",
+      "updated_at": "2026-07-30T16:36:19Z",
+      "merged_at": null,
+      "author": "sivertbjo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/64668223?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1492",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "eusend",
+          "service_id": "dev.mail",
+          "filename": "eusend.dev.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1491,
+      "title": "Add Fingerprint custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T13:06:14Z",
+      "updated_at": "2026-07-30T13:21:39Z",
+      "merged_at": null,
+      "author": "ozy-s",
+      "author_avatar": "https://avatars.githubusercontent.com/u/191480710?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1491",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "fingerprint",
+          "service_id": "com.custom-subdomain",
+          "filename": "fingerprint.com.custom-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1490,
+      "title": "Kernstatt, 3 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T05:25:03Z",
+      "updated_at": "2026-07-30T05:25:33Z",
+      "merged_at": null,
+      "author": "edudavidblaesing",
+      "author_avatar": "https://avatars.githubusercontent.com/u/184784020?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1490",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "kernstatt",
+          "service_id": "de.custom-domain-apex",
+          "filename": "kernstatt.de.custom-domain-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "kernstatt",
+          "service_id": "de.custom-domain",
+          "filename": "kernstatt.de.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "kernstatt",
+          "service_id": "de.mail-sending",
+          "filename": "kernstatt.de.mail-sending.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1489,
+      "title": "Add Liha Sitebase custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T05:18:06Z",
+      "updated_at": "2026-07-30T05:18:46Z",
+      "merged_at": null,
+      "author": "sakuyasann",
+      "author_avatar": "https://avatars.githubusercontent.com/u/74348427?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1489",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "liha",
+          "service_id": "dev.sitebase",
+          "filename": "liha.dev.sitebase.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1488,
       "title": "Add Custom Domain Kit custom domain template",
       "state": "open",
@@ -3686,12 +3854,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-22T15:15:16Z",
-      "updated_at": "2026-07-24T17:57:00Z",
+      "updated_at": "2026-07-31T00:15:09Z",
       "merged_at": null,
       "author": "vshaveyko",
       "author_avatar": "https://avatars.githubusercontent.com/u/10478693?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1449",
-      "labels": [],
+      "labels": [
+        "Test links missing"
+      ],
       "templates": [
         {
           "provider_id": "enwella",
@@ -3830,14 +4000,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T13:32:44Z",
-      "updated_at": "2026-07-24T12:15:21Z",
+      "updated_at": "2026-07-30T12:08:55Z",
       "merged_at": null,
       "author": "SiberCoder",
       "author_avatar": "https://avatars.githubusercontent.com/u/8211801?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1440",
       "labels": [
-        "PR description incomplete",
-        "Test links missing",
         "hostRequired"
       ],
       "templates": [
@@ -4394,12 +4562,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-29T19:45:46Z",
-      "updated_at": "2026-06-29T20:01:17Z",
+      "updated_at": "2026-07-30T04:28:15Z",
       "merged_at": null,
       "author": "gbretas",
       "author_avatar": "https://avatars.githubusercontent.com/u/18703762?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1310",
       "labels": [
+        "Stale",
         "Test links missing"
       ],
       "templates": [
@@ -4487,12 +4656,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-26T04:19:57Z",
-      "updated_at": "2026-06-30T03:05:10Z",
+      "updated_at": "2026-07-30T04:28:17Z",
       "merged_at": null,
       "author": "revynmedia",
       "author_avatar": "https://avatars.githubusercontent.com/u/293404464?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1294",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -4668,34 +4838,6 @@
           "status": "added"
         }
       ]
-    },
-    {
-      "number": 1187,
-      "title": "Add olvr.pro / connect template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-04T20:59:34Z",
-      "updated_at": "2026-07-15T04:22:43Z",
-      "merged_at": null,
-      "author": "jakeduncan-tbd",
-      "author_avatar": "https://avatars.githubusercontent.com/u/282897881?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1187",
-      "labels": [
-        "Stale",
-        "no syncPubKeyDomain",
-        "warnPhishing",
-        "hostRequired",
-        "review issues"
-      ],
-      "templates": [
-        {
-          "provider_id": "olvr",
-          "service_id": "pro.connect",
-          "filename": "olvr.pro.connect.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
     }
   ],
   "top_reviewers": {
@@ -4734,7 +4876,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 97,
+        "review_count": 87,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
