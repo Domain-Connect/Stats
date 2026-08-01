@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-31T01:45:32.940711",
+  "generated_at": "2026-08-01T01:47:18.395834",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 997,
-    "total_providers": 604,
-    "total_merged_prs": 1097,
-    "total_open_prs": 66,
+    "total_templates": 998,
+    "total_providers": 605,
+    "total_merged_prs": 1098,
+    "total_open_prs": 72,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -592,9 +592,9 @@
     },
     {
       "month": "2026-07",
-      "added": 137,
+      "added": 138,
       "deleted": 0,
-      "cumulative": 997
+      "cumulative": 998
     }
   ],
   "providers_growth": [
@@ -1045,8 +1045,8 @@
     },
     {
       "month": "2026-07",
-      "added": 95,
-      "cumulative": 604
+      "added": 96,
+      "cumulative": 605
     }
   ],
   "pr_activity": [
@@ -1567,8 +1567,8 @@
     },
     {
       "month": "2026-07",
-      "created": 176,
-      "merged": 118
+      "created": 183,
+      "merged": 119
     }
   ],
   "pr_time_to_merge": [
@@ -2259,22 +2259,22 @@
     {
       "month": "2026-07",
       "AI crap": 0,
-      "Checklist of common problems not complete": 45,
+      "Checklist of common problems not complete": 46,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 63,
+      "PR description incomplete": 66,
       "Stale": 0,
-      "Test links missing": 106,
+      "Test links missing": 112,
       "automerge-possible": 50,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 4,
-      "hostRequired": 55,
+      "hostRequired": 57,
       "new review needed": 0,
       "no syncPubKeyDomain": 16,
       "question": 0,
       "review issues": 3,
-      "schema-error": 9,
+      "schema-error": 10,
       "syncBlock": 3,
       "warnPhishing": 14
     }
@@ -2688,11 +2688,11 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 697
+      "count": 698
     },
     {
       "type": "TXT",
-      "count": 492
+      "count": 493
     },
     {
       "type": "A",
@@ -2700,11 +2700,11 @@
     },
     {
       "type": "SPFM",
-      "count": 247
+      "count": 248
     },
     {
       "type": "MX",
-      "count": 209
+      "count": 210
     },
     {
       "type": "SRV",
@@ -2860,6 +2860,13 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "faivelo.com",
+        "provider_name": "Faivelo",
+        "logo_url": "https://faivelo.com/logo.png",
+        "template_count": 1,
+        "first_added": "2026-07-31"
+      },
+      {
         "provider_id": "inbox-works.com",
         "provider_name": "Inbox Works",
         "logo_url": "https://app.inbox-works.com/brand/inbox-works-logo.svg",
@@ -2991,28 +2998,21 @@
         "logo_url": "https://church-flow.com/branding/monogram.svg",
         "template_count": 1,
         "first_added": "2026-07-19"
-      },
-      {
-        "provider_id": "lnkflow.io",
-        "provider_name": "LnkFlow",
-        "logo_url": "https://app.lnkflow.io/favicon.svg",
-        "template_count": 1,
-        "first_added": "2026-07-19"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 997,
+    "total_templates": 998,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 926
+        "count": 927
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 700
+        "count": 701
       },
       {
         "name": "warnPhishing",
@@ -3027,6 +3027,164 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1501,
+      "title": "Add BuckCRM email sending template (buckcrm.com.email)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T20:05:53Z",
+      "updated_at": "2026-07-31T20:10:51Z",
+      "merged_at": null,
+      "author": "Shaaban234",
+      "author_avatar": "https://avatars.githubusercontent.com/u/149418555?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1501",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "buckcrm",
+          "service_id": "com.email",
+          "filename": "buckcrm.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1500,
+      "title": "Add configuration for Grundy dominio-unificado service",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T20:05:01Z",
+      "updated_at": "2026-07-31T20:51:08Z",
+      "merged_at": null,
+      "author": "fnavarroe18",
+      "author_avatar": "https://avatars.githubusercontent.com/u/276437444?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1500",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "grundy",
+          "service_id": "app.dominio-unificado",
+          "filename": "grundy.app.dominio-unificado.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1499,
+      "title": "Add novard.de ownership-verification template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T18:37:24Z",
+      "updated_at": "2026-07-31T19:21:30Z",
+      "merged_at": null,
+      "author": "JohannesLks",
+      "author_avatar": "https://avatars.githubusercontent.com/u/74617774?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1499",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "novard",
+          "service_id": "de.ownership-verification",
+          "filename": "novard.de.ownership-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1498,
+      "title": "Add Instant Custom Domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T12:17:48Z",
+      "updated_at": "2026-07-31T12:47:43Z",
+      "merged_at": null,
+      "author": "iranzithierry",
+      "author_avatar": "https://avatars.githubusercontent.com/u/115815954?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1498",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "instant",
+          "service_id": "rw.custom",
+          "filename": "instant.rw.custom.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1497,
+      "title": "Add solstral.com.website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T11:14:46Z",
+      "updated_at": "2026-07-31T13:58:59Z",
+      "merged_at": null,
+      "author": "ianbensley",
+      "author_avatar": "https://avatars.githubusercontent.com/u/68986780?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1497",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "solstral",
+          "service_id": "com.website",
+          "filename": "solstral.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1496,
+      "title": "Add ListingCopilot.io Website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T04:34:33Z",
+      "updated_at": "2026-07-31T05:02:58Z",
+      "merged_at": null,
+      "author": "jasonzhao3",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3674355?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1496",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "listingcopilot",
+          "service_id": "io.website",
+          "filename": "listingcopilot.io.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1495,
+      "title": "Add jettapp.ca agent-website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T02:20:58Z",
+      "updated_at": "2026-07-31T02:29:56Z",
+      "merged_at": null,
+      "author": "jibsta210",
+      "author_avatar": "https://avatars.githubusercontent.com/u/273816943?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1495",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "jettapp",
+          "service_id": "ca.agent-website",
+          "filename": "jettapp.ca.agent-website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1494,
       "title": "StorM, 2 templates",
@@ -3064,14 +3222,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T18:52:05Z",
-      "updated_at": "2026-07-30T19:38:57Z",
+      "updated_at": "2026-07-31T17:39:47Z",
       "merged_at": null,
       "author": "SidahmedSeg",
       "author_avatar": "https://avatars.githubusercontent.com/u/34067006?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1493",
       "labels": [
-        "PR description incomplete",
-        "Test links missing",
         "automerge-possible"
       ],
       "templates": [
@@ -3546,28 +3702,6 @@
       ]
     },
     {
-      "number": 1471,
-      "title": "Add configuration for Faivelo Mail Hosting service",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T14:29:52Z",
-      "updated_at": "2026-07-29T13:46:09Z",
-      "merged_at": null,
-      "author": "ethannschwartz",
-      "author_avatar": "https://avatars.githubusercontent.com/u/96845694?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1471",
-      "labels": [],
-      "templates": [
-        {
-          "provider_id": "faivelo",
-          "service_id": "com.email",
-          "filename": "faivelo.com.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1470,
       "title": "Add Webloo custom-domain template",
       "state": "open",
@@ -3623,7 +3757,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-26T19:52:00Z",
-      "updated_at": "2026-07-26T20:14:18Z",
+      "updated_at": "2026-07-31T17:51:58Z",
       "merged_at": null,
       "author": "anurag",
       "author_avatar": "https://avatars.githubusercontent.com/u/59905?v=4",
@@ -3854,14 +3988,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-22T15:15:16Z",
-      "updated_at": "2026-07-31T00:15:09Z",
+      "updated_at": "2026-07-31T12:59:06Z",
       "merged_at": null,
       "author": "vshaveyko",
       "author_avatar": "https://avatars.githubusercontent.com/u/10478693?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1449",
-      "labels": [
-        "Test links missing"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "enwella",
@@ -3922,7 +4054,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T21:13:06Z",
-      "updated_at": "2026-07-28T18:29:02Z",
+      "updated_at": "2026-07-31T13:58:11Z",
       "merged_at": null,
       "author": "JMJBILLINGS",
       "author_avatar": "https://avatars.githubusercontent.com/u/272277961?v=4",
@@ -4844,7 +4976,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 818,
+        "review_count": 819,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4876,13 +5008,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 87,
+        "review_count": 84,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 46,
+        "review_count": 45,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -7060,6 +7192,15 @@
       "service_name": "Bubble.io Custom Domain",
       "logo_url": "https://ezdomain.io/logo.png",
       "record_count": 2
+    },
+    {
+      "filename": "faivelo.com.email.json",
+      "provider_id": "faivelo.com",
+      "service_id": "email",
+      "provider_name": "Faivelo",
+      "service_name": "Faivelo Email",
+      "logo_url": "https://faivelo.com/logo.png",
+      "record_count": 11
     },
     {
       "filename": "fastdomain.com.email.json",
