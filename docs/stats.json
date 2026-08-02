@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T01:47:18.395834",
+  "generated_at": "2026-08-02T01:32:07.774731",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 998,
     "total_providers": 605,
     "total_merged_prs": 1098,
-    "total_open_prs": 72,
+    "total_open_prs": 75,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -1569,6 +1569,11 @@
       "month": "2026-07",
       "created": 183,
       "merged": 119
+    },
+    {
+      "month": "2026-08",
+      "created": 3,
+      "merged": 0
     }
   ],
   "pr_time_to_merge": [
@@ -2277,6 +2282,28 @@
       "schema-error": 10,
       "syncBlock": 3,
       "warnPhishing": 14
+    },
+    {
+      "month": "2026-08",
+      "AI crap": 0,
+      "Checklist of common problems not complete": 0,
+      "Chores": 0,
+      "Forged editor links": 0,
+      "PR description incomplete": 1,
+      "Stale": 0,
+      "Test links missing": 2,
+      "automerge-possible": 3,
+      "blocked": 0,
+      "duplicate": 0,
+      "filename-error": 0,
+      "hostRequired": 2,
+      "new review needed": 0,
+      "no syncPubKeyDomain": 0,
+      "question": 0,
+      "review issues": 0,
+      "schema-error": 0,
+      "syncBlock": 0,
+      "warnPhishing": 0
     }
   ],
   "pr_comment_activity": [
@@ -2683,6 +2710,10 @@
     {
       "month": "2026-07",
       "avg_comments": 0.1
+    },
+    {
+      "month": "2026-08",
+      "avg_comments": 0.0
     }
   ],
   "record_types": [
@@ -3028,6 +3059,89 @@
   },
   "recent_prs": [
     {
+      "number": 1504,
+      "title": "Update Peleka domain auth JSON: increment version, replace SPF with mail_from CNAME, add essential flag to DMARC",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T01:21:16Z",
+      "updated_at": "2026-08-02T01:22:19Z",
+      "merged_at": null,
+      "author": "pelekahq",
+      "author_avatar": "https://avatars.githubusercontent.com/u/262636680?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1504",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "peleka",
+          "service_id": "io.domain-auth",
+          "filename": "peleka.io.domain-auth.json",
+          "logo_url": "https://files.peleka.io/assets/images/text-logo.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1503,
+      "title": "Add RedAgents templates (blog, website)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T22:59:30Z",
+      "updated_at": "2026-08-01T23:00:15Z",
+      "merged_at": null,
+      "author": "ExDocs",
+      "author_avatar": "https://avatars.githubusercontent.com/u/226628320?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1503",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "redagents",
+          "service_id": "io.blog",
+          "filename": "redagents.io.blog.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "redagents",
+          "service_id": "io.website",
+          "filename": "redagents.io.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1502,
+      "title": "Create supdesk.app.portal.json for portal settings",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T20:29:37Z",
+      "updated_at": "2026-08-01T20:46:13Z",
+      "merged_at": null,
+      "author": "alexrabin",
+      "author_avatar": "https://avatars.githubusercontent.com/u/15949910?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1502",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "supdesk",
+          "service_id": "app.portal",
+          "filename": "supdesk.app.portal.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1501,
       "title": "Add BuckCRM email sending template (buckcrm.com.email)",
       "state": "open",
@@ -3246,7 +3360,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T16:25:56Z",
-      "updated_at": "2026-07-30T16:36:19Z",
+      "updated_at": "2026-08-01T09:35:38Z",
       "merged_at": null,
       "author": "sivertbjo",
       "author_avatar": "https://avatars.githubusercontent.com/u/64668223?v=4",
@@ -3685,7 +3799,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-28T03:08:34Z",
-      "updated_at": "2026-07-28T03:09:04Z",
+      "updated_at": "2026-08-01T18:24:16Z",
       "merged_at": null,
       "author": "ucheigwedinma",
       "author_avatar": "https://avatars.githubusercontent.com/u/116019021?v=4",
