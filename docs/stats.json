@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T01:32:07.774731",
+  "generated_at": "2026-08-03T01:45:38.970517",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -8,8 +8,8 @@
   "summary": {
     "total_templates": 998,
     "total_providers": 605,
-    "total_merged_prs": 1098,
-    "total_open_prs": 75,
+    "total_merged_prs": 1099,
+    "total_open_prs": 80,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -1572,8 +1572,8 @@
     },
     {
       "month": "2026-08",
-      "created": 3,
-      "merged": 0
+      "created": 9,
+      "merged": 1
     }
   ],
   "pr_time_to_merge": [
@@ -1972,6 +1972,10 @@
     {
       "month": "2026-07",
       "avg_days": 1.9
+    },
+    {
+      "month": "2026-08",
+      "avg_days": 0.1
     }
   ],
   "pr_label_activity": [
@@ -2286,17 +2290,17 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 0,
+      "Checklist of common problems not complete": 3,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 1,
+      "PR description incomplete": 4,
       "Stale": 0,
-      "Test links missing": 2,
-      "automerge-possible": 3,
+      "Test links missing": 6,
+      "automerge-possible": 6,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 2,
+      "hostRequired": 3,
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
@@ -3058,6 +3062,170 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1510,
+      "title": "add Sending, 3 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T15:38:09Z",
+      "updated_at": "2026-08-02T15:38:57Z",
+      "merged_at": null,
+      "author": "bluworl",
+      "author_avatar": "https://avatars.githubusercontent.com/u/4705056?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1510",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "sending",
+          "service_id": "dev.dmarc",
+          "filename": "sending.dev.dmarc.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "sending",
+          "service_id": "dev.email",
+          "filename": "sending.dev.email.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "sending",
+          "service_id": "dev.inbound",
+          "filename": "sending.dev.inbound.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1509,
+      "title": "add Edka, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T15:12:44Z",
+      "updated_at": "2026-08-02T15:13:22Z",
+      "merged_at": null,
+      "author": "camilb",
+      "author_avatar": "https://avatars.githubusercontent.com/u/2655869?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1509",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "edka",
+          "service_id": "io.cluster-cname",
+          "filename": "edka.io.cluster-cname.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "edka",
+          "service_id": "io.cluster",
+          "filename": "edka.io.cluster.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1508,
+      "title": "Add anvilmail.io templates (verify, dmarc, spf, dkim)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T12:15:48Z",
+      "updated_at": "2026-08-02T12:16:19Z",
+      "merged_at": null,
+      "author": "webdevtodayjason",
+      "author_avatar": "https://avatars.githubusercontent.com/u/115739170?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1508",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "anvilmail",
+          "service_id": "io.dkim",
+          "filename": "anvilmail.io.dkim.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "anvilmail",
+          "service_id": "io.dmarc",
+          "filename": "anvilmail.io.dmarc.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "anvilmail",
+          "service_id": "io.spf",
+          "filename": "anvilmail.io.spf.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "anvilmail",
+          "service_id": "io.verify",
+          "filename": "anvilmail.io.verify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1506,
+      "title": "add Meep email sending template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T06:39:50Z",
+      "updated_at": "2026-08-02T06:42:12Z",
+      "merged_at": null,
+      "author": "tcasey",
+      "author_avatar": "https://avatars.githubusercontent.com/u/14131748?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1506",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "usemeep",
+          "service_id": "com.email",
+          "filename": "usemeep.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1505,
+      "title": "Add bytsend.com.mail.json template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T01:59:17Z",
+      "updated_at": "2026-08-02T14:42:04Z",
+      "merged_at": null,
+      "author": "paulowerner",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7460737?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1505",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "bytsend",
+          "service_id": "com.mail",
+          "filename": "bytsend.com.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1504,
       "title": "Update Peleka domain auth JSON: increment version, replace SPF with mail_from CNAME, add essential flag to DMARC",
@@ -3931,7 +4099,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-26T15:46:08Z",
-      "updated_at": "2026-07-26T16:54:10Z",
+      "updated_at": "2026-08-02T17:55:58Z",
       "merged_at": null,
       "author": "AnkitArsh19",
       "author_avatar": "https://avatars.githubusercontent.com/u/94040432?v=4",
@@ -4780,12 +4948,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-02T13:20:37Z",
-      "updated_at": "2026-07-02T13:21:13Z",
+      "updated_at": "2026-08-02T04:50:01Z",
       "merged_at": null,
       "author": "kaitohotmart-afk",
       "author_avatar": "https://avatars.githubusercontent.com/u/246487750?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1319",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -5090,7 +5259,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 819,
+        "review_count": 820,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -5122,13 +5291,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 84,
+        "review_count": 77,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 45,
+        "review_count": 41,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
