@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T01:45:38.970517",
+  "generated_at": "2026-08-04T01:22:03.757413",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 998,
     "total_providers": 605,
     "total_merged_prs": 1099,
-    "total_open_prs": 80,
+    "total_open_prs": 88,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -1572,7 +1572,7 @@
     },
     {
       "month": "2026-08",
-      "created": 9,
+      "created": 17,
       "merged": 1
     }
   ],
@@ -2293,14 +2293,14 @@
       "Checklist of common problems not complete": 3,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 4,
+      "PR description incomplete": 5,
       "Stale": 0,
-      "Test links missing": 6,
-      "automerge-possible": 6,
+      "Test links missing": 11,
+      "automerge-possible": 10,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 3,
+      "hostRequired": 8,
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
@@ -2717,7 +2717,7 @@
     },
     {
       "month": "2026-08",
-      "avg_comments": 0.0
+      "avg_comments": 0.1
     }
   ],
   "record_types": [
@@ -3062,6 +3062,197 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1518,
+      "title": "add Rekomi, Custom tracking domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T22:05:38Z",
+      "updated_at": "2026-08-03T22:06:42Z",
+      "merged_at": null,
+      "author": "caldwellg",
+      "author_avatar": "https://avatars.githubusercontent.com/u/136218800?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1518",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "rekomi",
+          "service_id": "com.tracking",
+          "filename": "rekomi.com.tracking.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1517,
+      "title": "add OpenCartAudit, Free scan domain verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T21:24:40Z",
+      "updated_at": "2026-08-03T21:49:38Z",
+      "merged_at": null,
+      "author": "dariuxas",
+      "author_avatar": "https://avatars.githubusercontent.com/u/82940827?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1517",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "opencartaudit",
+          "service_id": "com.domain-verification",
+          "filename": "opencartaudit.com.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1516,
+      "title": "add AskSoma, Website hosting",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T20:12:34Z",
+      "updated_at": "2026-08-03T21:12:22Z",
+      "merged_at": null,
+      "author": "savanvyas",
+      "author_avatar": "https://avatars.githubusercontent.com/u/5290037?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1516",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "asksoma",
+          "service_id": "ai.hosting",
+          "filename": "asksoma.ai.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1515,
+      "title": "add Fair, Fair Booking Site",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T18:38:04Z",
+      "updated_at": "2026-08-03T18:40:13Z",
+      "merged_at": null,
+      "author": "rc-brunner",
+      "author_avatar": "https://avatars.githubusercontent.com/u/189819335?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1515",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "fairoperator",
+          "service_id": "com.booking",
+          "filename": "fairoperator.com.booking.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1514,
+      "title": "add 10ashara, 10ashara LMS (lms-subdomain)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T18:25:15Z",
+      "updated_at": "2026-08-03T18:25:50Z",
+      "merged_at": null,
+      "author": "samehdoush",
+      "author_avatar": "https://avatars.githubusercontent.com/u/48515888?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1514",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "10ashara",
+          "service_id": "com.lms-subdomain",
+          "filename": "10ashara.com.lms-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1513,
+      "title": "add XORAI, XORAI Website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T18:04:18Z",
+      "updated_at": "2026-08-03T18:13:04Z",
+      "merged_at": null,
+      "author": "jayunewal",
+      "author_avatar": "https://avatars.githubusercontent.com/u/47106966?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1513",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "xorai",
+          "service_id": "com.domain-connect",
+          "filename": "xorai.com.domain-connect.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1512,
+      "title": "Add eldhorn.com.website.json (Eldhorn custom domain, single CNAME)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T16:50:11Z",
+      "updated_at": "2026-08-03T17:02:20Z",
+      "merged_at": null,
+      "author": "mschneider456",
+      "author_avatar": "https://avatars.githubusercontent.com/u/140700357?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1512",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "eldhorn",
+          "service_id": "com.website",
+          "filename": "eldhorn.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1511,
+      "title": "Add Knockwire sender authentication template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T09:51:02Z",
+      "updated_at": "2026-08-03T09:51:50Z",
+      "merged_at": null,
+      "author": "Altareq",
+      "author_avatar": "https://avatars.githubusercontent.com/u/411481?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1511",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "knockwire",
+          "service_id": "com.sender-auth",
+          "filename": "knockwire.com.sender-auth.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1510,
       "title": "add Sending, 3 templates",
@@ -3429,7 +3620,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-31T04:34:33Z",
-      "updated_at": "2026-07-31T05:02:58Z",
+      "updated_at": "2026-08-03T07:33:29Z",
       "merged_at": null,
       "author": "jasonzhao3",
       "author_avatar": "https://avatars.githubusercontent.com/u/3674355?v=4",
@@ -3687,7 +3878,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-29T20:07:23Z",
-      "updated_at": "2026-07-29T20:09:25Z",
+      "updated_at": "2026-08-03T11:22:55Z",
       "merged_at": null,
       "author": "Pablo-Wynistorf",
       "author_avatar": "https://avatars.githubusercontent.com/u/89579477?v=4",
@@ -3737,7 +3928,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-29T15:09:21Z",
-      "updated_at": "2026-07-29T15:10:18Z",
+      "updated_at": "2026-08-03T15:58:11Z",
       "merged_at": null,
       "author": "bjarn",
       "author_avatar": "https://avatars.githubusercontent.com/u/14638441?v=4",
@@ -4015,7 +4206,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-27T10:05:38Z",
-      "updated_at": "2026-07-27T10:06:34Z",
+      "updated_at": "2026-08-03T02:51:53Z",
       "merged_at": null,
       "author": "tranquilsoftware",
       "author_avatar": "https://avatars.githubusercontent.com/u/53103851?v=4",
@@ -4392,7 +4583,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T18:53:10Z",
-      "updated_at": "2026-07-26T06:19:17Z",
+      "updated_at": "2026-08-03T08:55:52Z",
       "merged_at": null,
       "author": "reouvenm",
       "author_avatar": "https://avatars.githubusercontent.com/u/302629496?v=4",
@@ -4923,12 +5114,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-03T23:44:14Z",
-      "updated_at": "2026-07-03T23:44:57Z",
+      "updated_at": "2026-08-03T04:59:20Z",
       "merged_at": null,
       "author": "refynit",
       "author_avatar": "https://avatars.githubusercontent.com/u/231971170?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1328",
       "labels": [
+        "Stale",
         "Test links missing",
         "automerge-possible"
       ],
@@ -5291,7 +5483,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 77,
+        "review_count": 74,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -5303,7 +5495,7 @@
       },
       {
         "login": "copilot-pull-request-reviewer[bot]",
-        "review_count": 2,
+        "review_count": 1,
         "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
         "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       },
