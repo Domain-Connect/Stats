@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T01:27:05.014967",
+  "generated_at": "2026-08-06T01:24:05.558495",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 998,
     "total_providers": 605,
     "total_merged_prs": 1099,
-    "total_open_prs": 94,
+    "total_open_prs": 100,
     "total_contributors": 442,
     "avg_records_per_template": 3.25
   },
@@ -1572,7 +1572,7 @@
     },
     {
       "month": "2026-08",
-      "created": 23,
+      "created": 31,
       "merged": 1
     }
   ],
@@ -2290,17 +2290,17 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 4,
+      "Checklist of common problems not complete": 5,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 6,
+      "PR description incomplete": 10,
       "Stale": 0,
-      "Test links missing": 16,
-      "automerge-possible": 12,
+      "Test links missing": 22,
+      "automerge-possible": 17,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 13,
+      "hostRequired": 17,
       "new review needed": 0,
       "no syncPubKeyDomain": 2,
       "question": 0,
@@ -3063,6 +3063,197 @@
   },
   "recent_prs": [
     {
+      "number": 1533,
+      "title": "Add SanityCheck domain verification template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T22:53:33Z",
+      "updated_at": "2026-08-05T23:05:23Z",
+      "merged_at": null,
+      "author": "vancuren",
+      "author_avatar": "https://avatars.githubusercontent.com/u/31829375?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1533",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "sanitycheck",
+          "service_id": "dev.domain-verification",
+          "filename": "sanitycheck.dev.domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1532,
+      "title": "add Citevine, Google Search Console verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T20:15:55Z",
+      "updated_at": "2026-08-05T20:16:31Z",
+      "merged_at": null,
+      "author": "TristanKdev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/234525609?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1532",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "citevine",
+          "service_id": "com.verify",
+          "filename": "citevine.com.verify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1531,
+      "title": "Add SWAI hosting templates (swai.ai.web, swai.ai.web-sub)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T19:06:29Z",
+      "updated_at": "2026-08-05T19:07:06Z",
+      "merged_at": null,
+      "author": "swai-behzad",
+      "author_avatar": "https://avatars.githubusercontent.com/u/153726494?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1531",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "swai",
+          "service_id": "ai.web-sub",
+          "filename": "swai.ai.web-sub.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "swai",
+          "service_id": "ai.web",
+          "filename": "swai.ai.web.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1530,
+      "title": "Add configuration for Adhoc custom domain service",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T18:58:12Z",
+      "updated_at": "2026-08-05T18:59:04Z",
+      "merged_at": null,
+      "author": "fas-adhoc",
+      "author_avatar": "https://avatars.githubusercontent.com/u/274887571?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1530",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "adhoc",
+          "service_id": "inc.custom-domain",
+          "filename": "adhoc.inc.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1528,
+      "title": "Add GitResume resume hosting template (gitresume.co.resume)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T15:45:43Z",
+      "updated_at": "2026-08-05T15:46:33Z",
+      "merged_at": null,
+      "author": "yhao3",
+      "author_avatar": "https://avatars.githubusercontent.com/u/97726491?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1528",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "gitresume",
+          "service_id": "co.resume",
+          "filename": "gitresume.co.resume.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1527,
+      "title": "add Synchronise AI, Email authentication (Google Workspace / Microsoft 365)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T15:06:08Z",
+      "updated_at": "2026-08-05T15:14:14Z",
+      "merged_at": null,
+      "author": "getgautham",
+      "author_avatar": "https://avatars.githubusercontent.com/u/95213647?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1527",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "synchronise",
+          "service_id": "ai.mail-auth-gmail",
+          "filename": "synchronise.ai.mail-auth-gmail.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "synchronise",
+          "service_id": "ai.mail-auth-outlook",
+          "filename": "synchronise.ai.mail-auth-outlook.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1526,
+      "title": "Add onpack.link resolver template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T11:04:56Z",
+      "updated_at": "2026-08-05T11:06:00Z",
+      "merged_at": null,
+      "author": "wrtp2p",
+      "author_avatar": "https://avatars.githubusercontent.com/u/50306746?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1526",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "onpack",
+          "service_id": "link.resolver",
+          "filename": "onpack.link.resolver.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1525,
       "title": "Add InstaRep website template (instarep.io / site)",
       "state": "open",
@@ -3677,7 +3868,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-01T20:29:37Z",
-      "updated_at": "2026-08-01T20:46:13Z",
+      "updated_at": "2026-08-06T00:34:40Z",
       "merged_at": null,
       "author": "alexrabin",
       "author_avatar": "https://avatars.githubusercontent.com/u/15949910?v=4",
@@ -4657,7 +4848,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-22T15:15:16Z",
-      "updated_at": "2026-07-31T12:59:06Z",
+      "updated_at": "2026-08-05T19:00:13Z",
       "merged_at": null,
       "author": "vshaveyko",
       "author_avatar": "https://avatars.githubusercontent.com/u/10478693?v=4",
@@ -4747,13 +4938,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T19:11:31Z",
-      "updated_at": "2026-07-24T12:15:09Z",
+      "updated_at": "2026-08-05T17:18:04Z",
       "merged_at": null,
       "author": "emabellor",
       "author_avatar": "https://avatars.githubusercontent.com/u/6153669?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1443",
       "labels": [
-        "PR description incomplete",
         "hostRequired"
       ],
       "templates": [
@@ -5566,32 +5756,6 @@
       ]
     },
     {
-      "number": 1258,
-      "title": "Create grapecloud.eu.website.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-19T20:12:55Z",
-      "updated_at": "2026-07-20T05:01:28Z",
-      "merged_at": null,
-      "author": "kimaah",
-      "author_avatar": "https://avatars.githubusercontent.com/u/70794496?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1258",
-      "labels": [
-        "Stale",
-        "hostRequired",
-        "review issues"
-      ],
-      "templates": [
-        {
-          "provider_id": "grapecloud",
-          "service_id": "eu.website",
-          "filename": "grapecloud.eu.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1226,
       "title": "Create theelevateagent.com.agentsite.json",
       "state": "open",
@@ -5694,12 +5858,6 @@
         "review_count": 1,
         "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
         "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
-      },
-      {
-        "login": "wdbaker-godaddy",
-        "review_count": 1,
-        "avatar_url": "https://avatars.githubusercontent.com/u/83673606?v=4",
-        "profile_url": "https://github.com/wdbaker-godaddy"
       }
     ]
   },
