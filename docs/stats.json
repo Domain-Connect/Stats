@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T02:03:47.597875",
+  "generated_at": "2026-08-08T00:46:54.286070",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1025,
     "total_providers": 628,
     "total_merged_prs": 1124,
-    "total_open_prs": 81,
+    "total_open_prs": 84,
     "total_contributors": 443,
     "avg_records_per_template": 3.23
   },
@@ -1583,7 +1583,7 @@
     },
     {
       "month": "2026-08",
-      "created": 37,
+      "created": 42,
       "merged": 26
     }
   ],
@@ -2301,17 +2301,17 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 6,
+      "Checklist of common problems not complete": 7,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 13,
+      "PR description incomplete": 15,
       "Stale": 0,
-      "Test links missing": 26,
-      "automerge-possible": 20,
+      "Test links missing": 28,
+      "automerge-possible": 21,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 20,
+      "hostRequired": 22,
       "new review needed": 0,
       "no syncPubKeyDomain": 4,
       "question": 0,
@@ -3074,6 +3074,100 @@
   },
   "recent_prs": [
     {
+      "number": 1544,
+      "title": "Add Pag Ninja custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T20:18:23Z",
+      "updated_at": "2026-08-07T20:20:11Z",
+      "merged_at": null,
+      "author": "joaobnobre",
+      "author_avatar": "https://avatars.githubusercontent.com/u/30326963?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1544",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "pagninja",
+          "service_id": "com.custom-domain",
+          "filename": "pagninja.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1543,
+      "title": "New template: gofarther.dev / site (Go Farther)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T20:09:05Z",
+      "updated_at": "2026-08-07T20:24:50Z",
+      "merged_at": null,
+      "author": "canias7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/260366526?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1543",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "gofarther",
+          "service_id": "dev.site",
+          "filename": "gofarther.dev.site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1541,
+      "title": "Add Netivo template for synchronous Domain Connect setup",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T12:16:16Z",
+      "updated_at": "2026-08-07T12:47:58Z",
+      "merged_at": null,
+      "author": "netivobilling",
+      "author_avatar": "https://avatars.githubusercontent.com/u/252439725?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1541",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "netivo",
+          "service_id": "co.ke.netivo",
+          "filename": "netivo.co.ke.netivo.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1540,
+      "title": "Add bunni.ee.customdomain.json (Bunni custom domain for profiles and short links)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T08:05:07Z",
+      "updated_at": "2026-08-07T08:05:55Z",
+      "merged_at": null,
+      "author": "emiliioaguirre",
+      "author_avatar": "https://avatars.githubusercontent.com/u/142072018?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1540",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "bunni",
+          "service_id": "ee.customdomain",
+          "filename": "bunni.ee.customdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1539,
       "title": "add Drivethrough, Drivethrough website",
       "state": "open",
@@ -3150,7 +3244,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-06T13:51:03Z",
-      "updated_at": "2026-08-06T22:54:21Z",
+      "updated_at": "2026-08-08T00:24:01Z",
       "merged_at": null,
       "author": "JonK123",
       "author_avatar": "https://avatars.githubusercontent.com/u/20395364?v=4",
@@ -3974,14 +4068,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-29T20:07:23Z",
-      "updated_at": "2026-08-06T20:29:03Z",
+      "updated_at": "2026-08-07T13:21:49Z",
       "merged_at": null,
       "author": "Pablo-Wynistorf",
       "author_avatar": "https://avatars.githubusercontent.com/u/89579477?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1486",
       "labels": [
-        "no syncPubKeyDomain",
-        "warnPhishing",
         "review issues"
       ],
       "templates": [
@@ -5268,33 +5360,6 @@
       ]
     },
     {
-      "number": 1272,
-      "title": "Add unitops.app.portal template (signed-sync CNAME)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-22T03:33:59Z",
-      "updated_at": "2026-07-22T04:42:32Z",
-      "merged_at": null,
-      "author": "neilberkman",
-      "author_avatar": "https://avatars.githubusercontent.com/u/37657?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1272",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "unitops",
-          "service_id": "app.portal",
-          "filename": "unitops.app.portal.json",
-          "logo_url": "https://unitops.app/images/logo.svg",
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1226,
       "title": "Create theelevateagent.com.agentsite.json",
       "state": "open",
@@ -5382,13 +5447,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 72,
+        "review_count": 68,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 62,
+        "review_count": 56,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
