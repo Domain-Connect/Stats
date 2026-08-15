@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T00:59:11.998107",
+  "generated_at": "2026-08-15T00:35:11.117267",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -8,10 +8,10 @@
   "summary": {
     "total_templates": 1100,
     "total_providers": 677,
-    "total_merged_prs": 1183,
-    "total_open_prs": 52,
+    "total_merged_prs": 1184,
+    "total_open_prs": 58,
     "total_contributors": 443,
-    "avg_records_per_template": 3.2
+    "avg_records_per_template": 3.21
   },
   "templates_growth": [
     {
@@ -1583,8 +1583,8 @@
     },
     {
       "month": "2026-08",
-      "created": 76,
-      "merged": 85
+      "created": 85,
+      "merged": 86
     }
   ],
   "pr_time_to_merge": [
@@ -2301,24 +2301,24 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 12,
+      "Checklist of common problems not complete": 14,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 24,
+      "PR description incomplete": 27,
       "Stale": 0,
-      "Test links missing": 50,
-      "automerge-possible": 34,
+      "Test links missing": 54,
+      "automerge-possible": 37,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 36,
+      "hostRequired": 40,
       "new review needed": 0,
-      "no syncPubKeyDomain": 7,
+      "no syncPubKeyDomain": 8,
       "question": 0,
       "review issues": 1,
       "schema-error": 0,
       "syncBlock": 0,
-      "warnPhishing": 3
+      "warnPhishing": 4
     }
   ],
   "pr_comment_activity": [
@@ -2750,7 +2750,7 @@
     },
     {
       "type": "MX",
-      "count": 228
+      "count": 229
     },
     {
       "type": "SRV",
@@ -3074,6 +3074,235 @@
   },
   "recent_prs": [
     {
+      "number": 1589,
+      "title": "Add sikkasoft website builder template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T22:57:57Z",
+      "updated_at": "2026-08-14T22:58:29Z",
+      "merged_at": null,
+      "author": "rutuja-sikka",
+      "author_avatar": "https://avatars.githubusercontent.com/u/139915681?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1589",
+      "labels": [
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "sikkasoft",
+          "service_id": "com.verify",
+          "filename": "sikkasoft.com.verify.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "sikkasoft",
+          "service_id": "com.websitebuilder-www",
+          "filename": "sikkasoft.com.websitebuilder-www.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "sikkasoft",
+          "service_id": "com.websitebuilder",
+          "filename": "sikkasoft.com.websitebuilder.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1588,
+      "title": "Create wepamail.com.email.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T21:43:08Z",
+      "updated_at": "2026-08-14T22:20:10Z",
+      "merged_at": null,
+      "author": "JOGABLOP",
+      "author_avatar": "https://avatars.githubusercontent.com/u/80358715?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1588",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "wepamail",
+          "service_id": "com.email",
+          "filename": "wepamail.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1587,
+      "title": "Add Genesis adaptive website delivery template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T21:40:11Z",
+      "updated_at": "2026-08-14T21:40:43Z",
+      "merged_at": null,
+      "author": "mblifetagger",
+      "author_avatar": "https://avatars.githubusercontent.com/u/102319185?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1587",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "genesis",
+          "service_id": "lifetaggerapp.com.website",
+          "filename": "genesis.lifetaggerapp.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1586,
+      "title": "add CadêncIA, Blog CadêncIA",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T19:14:25Z",
+      "updated_at": "2026-08-14T19:25:44Z",
+      "merged_at": null,
+      "author": "Leonardo-S-b",
+      "author_avatar": "https://avatars.githubusercontent.com/u/206976232?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1586",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "cadenciaoficial",
+          "service_id": "com.br.cadencia-blog",
+          "filename": "cadenciaoficial.com.br.cadencia-blog.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1585,
+      "title": "Add MailRift email service configuration",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T18:06:19Z",
+      "updated_at": "2026-08-14T18:06:51Z",
+      "merged_at": null,
+      "author": "Pablo-Wynistorf",
+      "author_avatar": "https://avatars.githubusercontent.com/u/89579477?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1585",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "mailrift",
+          "service_id": "io.email",
+          "filename": "mailrift.io.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1584,
+      "title": "Add adsu.ai.tracking template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T16:09:04Z",
+      "updated_at": "2026-08-14T22:39:37Z",
+      "merged_at": null,
+      "author": "Ochodev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/213890554?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1584",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "adsu",
+          "service_id": "ai.tracking",
+          "filename": "adsu.ai.tracking.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1583,
+      "title": "add Einblick, Email sending",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T13:56:01Z",
+      "updated_at": "2026-08-14T13:56:34Z",
+      "merged_at": null,
+      "author": "lucameusburger",
+      "author_avatar": "https://avatars.githubusercontent.com/u/25350597?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1583",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "einblick",
+          "service_id": "xyz.sending-domain",
+          "filename": "einblick.xyz.sending-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1582,
+      "title": "add motif, Tracking subdomain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T06:41:23Z",
+      "updated_at": "2026-08-14T06:41:56Z",
+      "merged_at": null,
+      "author": "josephgoksu",
+      "author_avatar": "https://avatars.githubusercontent.com/u/6523823?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1582",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "motif",
+          "service_id": "reaktif.io.tracking",
+          "filename": "motif.reaktif.io.tracking.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1581,
+      "title": "Add Bloom website hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T05:39:12Z",
+      "updated_at": "2026-08-14T05:44:31Z",
+      "merged_at": null,
+      "author": "psxio",
+      "author_avatar": "https://avatars.githubusercontent.com/u/239246345?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1581",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "getbloom",
+          "service_id": "cloud.website",
+          "filename": "getbloom.cloud.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1580,
       "title": "Add wildventures.ai / linkdomain template (Syndicate)",
       "state": "open",
@@ -3103,13 +3332,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-13T15:00:02Z",
-      "updated_at": "2026-08-13T15:00:45Z",
+      "updated_at": "2026-08-14T09:02:01Z",
       "merged_at": null,
       "author": "guoliu",
       "author_avatar": "https://avatars.githubusercontent.com/u/8460804?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1579",
       "labels": [
-        "Test links missing",
         "no syncPubKeyDomain"
       ],
       "templates": [
@@ -3215,30 +3443,6 @@
           "filename": "lighthost.it.kr.mail.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1549,
-      "title": "modify Dub, Dub Partner email",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T19:41:37Z",
-      "updated_at": "2026-08-13T22:03:41Z",
-      "merged_at": null,
-      "author": "pepeladeira",
-      "author_avatar": "https://avatars.githubusercontent.com/u/57876830?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1549",
-      "labels": [
-        "new review needed"
-      ],
-      "templates": [
-        {
-          "provider_id": "dub",
-          "service_id": "co.email",
-          "filename": "dub.co.email.json",
-          "logo_url": "https://assets.dub.co/brand/logo.svg",
-          "status": "modified"
         }
       ]
     },
@@ -3631,30 +3835,6 @@
       ]
     },
     {
-      "number": 1486,
-      "title": "Add MailRift email service configuration",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-29T20:07:23Z",
-      "updated_at": "2026-08-07T13:21:49Z",
-      "merged_at": null,
-      "author": "Pablo-Wynistorf",
-      "author_avatar": "https://avatars.githubusercontent.com/u/89579477?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1486",
-      "labels": [
-        "review issues"
-      ],
-      "templates": [
-        {
-          "provider_id": "mailrift",
-          "service_id": "io.email",
-          "filename": "mailrift.io.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1480,
       "title": "add otterdeploy, Connect a custom domain",
       "state": "open",
@@ -3990,7 +4170,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-18T00:36:53Z",
-      "updated_at": "2026-07-24T12:15:31Z",
+      "updated_at": "2026-08-14T14:02:56Z",
       "merged_at": null,
       "author": "Stay1444",
       "author_avatar": "https://avatars.githubusercontent.com/u/36738990?v=4",
@@ -4463,32 +4643,6 @@
       ]
     },
     {
-      "number": 1307,
-      "title": "add TensorHost, TensorHost Email",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-28T16:48:50Z",
-      "updated_at": "2026-07-29T04:41:56Z",
-      "merged_at": null,
-      "author": "michaelwetyyy",
-      "author_avatar": "https://avatars.githubusercontent.com/u/64970902?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1307",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "tensorhost",
-          "service_id": "com.email",
-          "filename": "tensorhost.com.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1294,
       "title": "Added rvn-app.com branded site template",
       "state": "open",
@@ -4578,7 +4732,7 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 865,
+        "review_count": 866,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4610,13 +4764,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 85,
+        "review_count": 81,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 61,
+        "review_count": 59,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -6661,7 +6815,7 @@
       "provider_name": "Dub",
       "service_name": "Dub Partner email",
       "logo_url": "https://assets.dub.co/brand/logo.svg",
-      "record_count": 4
+      "record_count": 5
     },
     {
       "filename": "dub.co.links-apex.json",
