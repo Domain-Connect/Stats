@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T00:35:11.117267",
+  "generated_at": "2026-08-16T00:36:44.203197",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1100,
     "total_providers": 677,
     "total_merged_prs": 1184,
-    "total_open_prs": 58,
+    "total_open_prs": 57,
     "total_contributors": 443,
     "avg_records_per_template": 3.21
   },
@@ -1583,7 +1583,7 @@
     },
     {
       "month": "2026-08",
-      "created": 85,
+      "created": 86,
       "merged": 86
     }
   ],
@@ -2304,14 +2304,14 @@
       "Checklist of common problems not complete": 14,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 27,
+      "PR description incomplete": 28,
       "Stale": 0,
       "Test links missing": 54,
-      "automerge-possible": 37,
+      "automerge-possible": 38,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 40,
+      "hostRequired": 41,
       "new review needed": 0,
       "no syncPubKeyDomain": 8,
       "question": 0,
@@ -3074,6 +3074,31 @@
   },
   "recent_prs": [
     {
+      "number": 1590,
+      "title": "Create 1bw.app.business-hub.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-15T21:42:02Z",
+      "updated_at": "2026-08-15T21:44:05Z",
+      "merged_at": null,
+      "author": "1businessworld",
+      "author_avatar": "https://avatars.githubusercontent.com/u/286035960?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1590",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "1bw",
+          "service_id": "app.business-hub",
+          "filename": "1bw.app.business-hub.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1589,
       "title": "Add sikkasoft website builder template",
       "state": "open",
@@ -3118,14 +3143,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-14T21:43:08Z",
-      "updated_at": "2026-08-14T22:20:10Z",
+      "updated_at": "2026-08-15T01:35:42Z",
       "merged_at": null,
       "author": "JOGABLOP",
       "author_avatar": "https://avatars.githubusercontent.com/u/80358715?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1588",
-      "labels": [
-        "Test links missing"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "wepamail",
@@ -4598,80 +4621,6 @@
           "provider_id": "clonadorpro",
           "service_id": "com.cloaker",
           "filename": "clonadorpro.com.cloaker.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1310,
-      "title": "feat(everinbox): add subdomain sending templates",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-29T19:45:46Z",
-      "updated_at": "2026-07-30T04:28:15Z",
-      "merged_at": null,
-      "author": "gbretas",
-      "author_avatar": "https://avatars.githubusercontent.com/u/18703762?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1310",
-      "labels": [
-        "Stale",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "everinbox",
-          "service_id": "domain-auth-subdomain",
-          "filename": "everinbox.domain-auth-subdomain.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "everinbox",
-          "service_id": "domain-auth-tracking-subdomain",
-          "filename": "everinbox.domain-auth-tracking-subdomain.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "everinbox",
-          "service_id": "domain-auth-tracking",
-          "filename": "everinbox.domain-auth-tracking.json",
-          "logo_url": "https://everinbox.com.br/everinbox-logo-dark.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 1294,
-      "title": "Added rvn-app.com branded site template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T04:19:57Z",
-      "updated_at": "2026-07-30T04:28:17Z",
-      "merged_at": null,
-      "author": "revynmedia",
-      "author_avatar": "https://avatars.githubusercontent.com/u/293404464?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1294",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "no syncPubKeyDomain"
-      ],
-      "templates": [
-        {
-          "provider_id": "revynmedia",
-          "service_id": "com.branded-site",
-          "filename": "revynmedia.com.branded-site.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "rvn-app",
-          "service_id": "com.branded-site",
-          "filename": "rvn-app.com.branded-site.json",
           "logo_url": null,
           "status": "added"
         }
