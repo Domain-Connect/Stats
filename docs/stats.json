@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T00:35:34.964913",
+  "generated_at": "2026-08-18T00:34:59.001445",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1120,
     "total_providers": 695,
     "total_merged_prs": 1202,
-    "total_open_prs": 50,
+    "total_open_prs": 56,
     "total_contributors": 443,
     "avg_records_per_template": 3.19
   },
@@ -1583,7 +1583,7 @@
     },
     {
       "month": "2026-08",
-      "created": 100,
+      "created": 106,
       "merged": 104
     }
   ],
@@ -2301,22 +2301,22 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 19,
+      "Checklist of common problems not complete": 20,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 34,
+      "PR description incomplete": 35,
       "Stale": 0,
-      "Test links missing": 63,
-      "automerge-possible": 44,
+      "Test links missing": 68,
+      "automerge-possible": 48,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 48,
+      "hostRequired": 50,
       "new review needed": 0,
       "no syncPubKeyDomain": 10,
       "question": 0,
       "review issues": 1,
-      "schema-error": 3,
+      "schema-error": 4,
       "syncBlock": 0,
       "warnPhishing": 5
     }
@@ -3074,6 +3074,158 @@
   },
   "recent_prs": [
     {
+      "number": 1610,
+      "title": "Add template: mailnail.com / mailbox (MX, SPF merge, DKIM, DMARC)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T20:38:20Z",
+      "updated_at": "2026-08-17T21:06:37Z",
+      "merged_at": null,
+      "author": "1fc0nfig",
+      "author_avatar": "https://avatars.githubusercontent.com/u/88715196?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1610",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "mailnail",
+          "service_id": "com.mailbox",
+          "filename": "mailnail.com.mailbox.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1609,
+      "title": "Add groundlio.com.connect.json (Groundlio domain connect template)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T19:57:16Z",
+      "updated_at": "2026-08-17T20:41:21Z",
+      "merged_at": null,
+      "author": "coreywilkison-svg",
+      "author_avatar": "https://avatars.githubusercontent.com/u/312655239?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1609",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "groundlio",
+          "service_id": "com.connect",
+          "filename": "groundlio.com.connect.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1608,
+      "title": "Add cite-met.com.site template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T16:30:01Z",
+      "updated_at": "2026-08-17T17:32:30Z",
+      "merged_at": null,
+      "author": "choyiny",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1128055?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1608",
+      "labels": [
+        "PR description incomplete",
+        "Test links missing",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "cite-met",
+          "service_id": "com.site",
+          "filename": "cite-met.com.site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1607,
+      "title": "Add StreamAgent hosting templates (streamagent.io)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T15:57:03Z",
+      "updated_at": "2026-08-17T16:22:35Z",
+      "merged_at": null,
+      "author": "justinsmithla-dotcom",
+      "author_avatar": "https://avatars.githubusercontent.com/u/234857084?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1607",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "streamagent",
+          "service_id": "io.hosting-apex",
+          "filename": "streamagent.io.hosting-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "streamagent",
+          "service_id": "io.hosting-subdomain",
+          "filename": "streamagent.io.hosting-subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1606,
+      "title": "Add Pixelize showcase site template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T13:00:18Z",
+      "updated_at": "2026-08-17T13:15:43Z",
+      "merged_at": null,
+      "author": "dropshoppingryan-cloud",
+      "author_avatar": "https://avatars.githubusercontent.com/u/307674646?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1606",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "agence-pixelize",
+          "service_id": "fr.site",
+          "filename": "agence-pixelize.fr.site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1605,
+      "title": "Add posthastemail.dev.dkim template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T10:03:40Z",
+      "updated_at": "2026-08-17T10:04:24Z",
+      "merged_at": null,
+      "author": "hardil-bitdecentro",
+      "author_avatar": "https://avatars.githubusercontent.com/u/281011379?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1605",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "posthastemail",
+          "service_id": "dev.dkim",
+          "filename": "posthastemail.dev.dkim.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1604,
       "title": "add Werkmail, Email authentication",
       "state": "open",
@@ -3206,13 +3358,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-14T22:57:57Z",
-      "updated_at": "2026-08-14T22:58:29Z",
+      "updated_at": "2026-08-17T20:36:51Z",
       "merged_at": null,
       "author": "rutuja-sikka",
       "author_avatar": "https://avatars.githubusercontent.com/u/139915681?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1589",
       "labels": [
-        "Test links missing",
         "hostRequired"
       ],
       "templates": [
@@ -3662,13 +3813,14 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-31T20:05:01Z",
-      "updated_at": "2026-08-16T16:15:08Z",
+      "updated_at": "2026-08-18T00:11:48Z",
       "merged_at": null,
       "author": "fnavarroe18",
       "author_avatar": "https://avatars.githubusercontent.com/u/276437444?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1500",
       "labels": [
-        "review issues"
+        "automerge-possible",
+        "new review needed"
       ],
       "templates": [
         {
