@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T00:34:59.001445",
+  "generated_at": "2026-08-19T00:35:50.150363",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1120,
     "total_providers": 695,
     "total_merged_prs": 1202,
-    "total_open_prs": 56,
+    "total_open_prs": 62,
     "total_contributors": 443,
     "avg_records_per_template": 3.19
   },
@@ -1583,7 +1583,7 @@
     },
     {
       "month": "2026-08",
-      "created": 106,
+      "created": 114,
       "merged": 104
     }
   ],
@@ -2301,17 +2301,17 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 20,
+      "Checklist of common problems not complete": 21,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 35,
+      "PR description incomplete": 39,
       "Stale": 0,
-      "Test links missing": 68,
-      "automerge-possible": 48,
+      "Test links missing": 71,
+      "automerge-possible": 52,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 0,
-      "hostRequired": 50,
+      "filename-error": 1,
+      "hostRequired": 51,
       "new review needed": 0,
       "no syncPubKeyDomain": 10,
       "question": 0,
@@ -3074,6 +3074,168 @@
   },
   "recent_prs": [
     {
+      "number": 1618,
+      "title": "Create xbuildnow.com.web.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T23:54:53Z",
+      "updated_at": "2026-08-19T00:22:56Z",
+      "merged_at": null,
+      "author": "mahmoud2001858833",
+      "author_avatar": "https://avatars.githubusercontent.com/u/188773395?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1618",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "xbuildnow",
+          "service_id": "com.web",
+          "filename": "xbuildnow.com.web.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1617,
+      "title": "Add rejoy.com.br custom-domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T21:59:44Z",
+      "updated_at": "2026-08-18T22:00:22Z",
+      "merged_at": null,
+      "author": "mouradsm",
+      "author_avatar": "https://avatars.githubusercontent.com/u/2678285?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1617",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "rejoy",
+          "service_id": "com.br.custom-domain",
+          "filename": "rejoy.com.br.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1616,
+      "title": "Add rudys.ai website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T13:48:44Z",
+      "updated_at": "2026-08-18T13:49:18Z",
+      "merged_at": null,
+      "author": "shahriarshm",
+      "author_avatar": "https://avatars.githubusercontent.com/u/50263221?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1616",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "rudys",
+          "service_id": "ai.website",
+          "filename": "rudys.ai.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1615,
+      "title": "update to trustifi.com.dpoo.stage template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T08:24:44Z",
+      "updated_at": "2026-08-18T08:35:29Z",
+      "merged_at": null,
+      "author": "markb-trustifi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/29097494?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1615",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "trustifi",
+          "service_id": "com.dpoo.stage",
+          "filename": "trustifi.com.dpoo.stage.json",
+          "logo_url": "https://stagebe.trustifi.com/api/o/v1/assets/logo-transparent.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1614,
+      "title": "Add posthastemail.dev.dkim template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T08:10:04Z",
+      "updated_at": "2026-08-18T08:22:14Z",
+      "merged_at": null,
+      "author": "hardil-bitdecentro",
+      "author_avatar": "https://avatars.githubusercontent.com/u/281011379?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1614",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "posthastemail",
+          "service_id": "dev.dkim",
+          "filename": "posthastemail.dev.dkim.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1613,
+      "title": "add Photon, Email sending and receiving",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T07:27:34Z",
+      "updated_at": "2026-08-18T07:34:07Z",
+      "merged_at": null,
+      "author": "invisicat",
+      "author_avatar": "https://avatars.githubusercontent.com/u/26664578?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1613",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "photon",
+          "service_id": "codes.email-sending",
+          "filename": "photon.codes.email-sending.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1611,
+      "title": "Add siteprompter.com.hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T03:06:10Z",
+      "updated_at": "2026-08-18T03:17:20Z",
+      "merged_at": null,
+      "author": "waynekendall-ui",
+      "author_avatar": "https://avatars.githubusercontent.com/u/305316973?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1611",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "siteprompter",
+          "service_id": "com.hosting",
+          "filename": "siteprompter.com.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1610,
       "title": "Add template: mailnail.com / mailbox (MX, SPF merge, DKIM, DMARC)",
       "state": "open",
@@ -3231,7 +3393,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-16T22:43:19Z",
-      "updated_at": "2026-08-16T22:49:17Z",
+      "updated_at": "2026-08-18T18:26:20Z",
       "merged_at": null,
       "author": "sebastianhochreiter",
       "author_avatar": "https://avatars.githubusercontent.com/u/80312565?v=4",
@@ -4585,35 +4747,6 @@
       ]
     },
     {
-      "number": 1319,
-      "title": "Create clonadorpro.com.cloaker.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-02T13:20:37Z",
-      "updated_at": "2026-08-02T04:50:01Z",
-      "merged_at": null,
-      "author": "kaitohotmart-afk",
-      "author_avatar": "https://avatars.githubusercontent.com/u/246487750?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1319",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "no syncPubKeyDomain",
-        "warnPhishing"
-      ],
-      "templates": [
-        {
-          "provider_id": "clonadorpro",
-          "service_id": "com.cloaker",
-          "filename": "clonadorpro.com.cloaker.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1288,
       "title": "Add Nex Mail Domain Connect template (#1274)",
       "state": "open",
@@ -4700,13 +4833,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 91,
+        "review_count": 78,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 56,
+        "review_count": 49,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
