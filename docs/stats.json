@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T00:37:23.146810",
+  "generated_at": "2026-08-22T00:34:47.041194",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1154,
     "total_providers": 719,
     "total_merged_prs": 1228,
-    "total_open_prs": 48,
+    "total_open_prs": 55,
     "total_contributors": 445,
     "avg_records_per_template": 3.17
   },
@@ -1583,7 +1583,7 @@
     },
     {
       "month": "2026-08",
-      "created": 128,
+      "created": 136,
       "merged": 130
     }
   ],
@@ -2301,22 +2301,22 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 21,
+      "Checklist of common problems not complete": 22,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 45,
+      "PR description incomplete": 46,
       "Stale": 0,
-      "Test links missing": 82,
-      "automerge-possible": 59,
+      "Test links missing": 86,
+      "automerge-possible": 60,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 57,
+      "hostRequired": 61,
       "new review needed": 0,
-      "no syncPubKeyDomain": 11,
+      "no syncPubKeyDomain": 13,
       "question": 0,
       "review issues": 1,
-      "schema-error": 5,
+      "schema-error": 6,
       "syncBlock": 0,
       "warnPhishing": 6
     }
@@ -3074,12 +3074,227 @@
   },
   "recent_prs": [
     {
+      "number": 1640,
+      "title": "Add askotter.ai site and subdomain templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T21:33:28Z",
+      "updated_at": "2026-08-21T21:47:46Z",
+      "merged_at": null,
+      "author": "ZuechB",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1290658?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1640",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "askotter",
+          "service_id": "ai.site",
+          "filename": "askotter.ai.site.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "askotter",
+          "service_id": "ai.subdomain",
+          "filename": "askotter.ai.subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1639,
+      "title": "Add AffRev funnel templates (affrev.com)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T20:09:47Z",
+      "updated_at": "2026-08-21T20:18:47Z",
+      "merged_at": null,
+      "author": "9vs",
+      "author_avatar": "https://avatars.githubusercontent.com/u/80248593?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1639",
+      "labels": [
+        "no syncPubKeyDomain",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "affrev",
+          "service_id": "com.funnel-apex",
+          "filename": "affrev.com.funnel-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "affrev",
+          "service_id": "com.funnel",
+          "filename": "affrev.com.funnel.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1638,
+      "title": "Add EmyCommerce landing template (emycommerce.com/landing)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T19:48:24Z",
+      "updated_at": "2026-08-21T19:49:09Z",
+      "merged_at": null,
+      "author": "jquintero9",
+      "author_avatar": "https://avatars.githubusercontent.com/u/22737657?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1638",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "emycommerce",
+          "service_id": "com.landing",
+          "filename": "emycommerce.com.landing.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1637,
+      "title": "Add Araute email sending template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T19:26:03Z",
+      "updated_at": "2026-08-21T19:44:40Z",
+      "merged_at": null,
+      "author": "yandv",
+      "author_avatar": "https://avatars.githubusercontent.com/u/43113169?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1637",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "araute",
+          "service_id": "com.email-sending",
+          "filename": "araute.com.email-sending.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1636,
+      "title": "Add tradesite.ai website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T17:09:25Z",
+      "updated_at": "2026-08-21T17:10:04Z",
+      "merged_at": null,
+      "author": "ponzidog",
+      "author_avatar": "https://avatars.githubusercontent.com/u/248189522?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1636",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing",
+        "schema-error"
+      ],
+      "templates": [
+        {
+          "provider_id": "tradesite",
+          "service_id": "ai.website",
+          "filename": "tradesite.ai.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1635,
+      "title": "Create karmaflow.ai.emailsending.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T17:05:16Z",
+      "updated_at": "2026-08-21T17:05:50Z",
+      "merged_at": null,
+      "author": "hackerjwe",
+      "author_avatar": "https://avatars.githubusercontent.com/u/38702108?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1635",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "karmaflow",
+          "service_id": "ai.emailsending",
+          "filename": "karmaflow.ai.emailsending.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1634,
+      "title": "add Agent Tolls, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T16:06:35Z",
+      "updated_at": "2026-08-21T16:07:20Z",
+      "merged_at": null,
+      "author": "johnlegoat",
+      "author_avatar": "https://avatars.githubusercontent.com/u/186728352?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1634",
+      "labels": [
+        "Test links missing",
+        "no syncPubKeyDomain",
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "agent-toll",
+          "service_id": "com.gate-apex",
+          "filename": "agent-toll.com.gate-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "agent-toll",
+          "service_id": "com.gate",
+          "filename": "agent-toll.com.gate.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1633,
+      "title": "Hoversite, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T11:23:55Z",
+      "updated_at": "2026-08-21T11:29:05Z",
+      "merged_at": null,
+      "author": "untilhamza",
+      "author_avatar": "https://avatars.githubusercontent.com/u/46571439?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1633",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "hoversite",
+          "service_id": "build.hosting-cname",
+          "filename": "hoversite.build.hosting-cname.json",
+          "logo_url": null,
+          "status": "renamed"
+        }
+      ]
+    },
+    {
       "number": 1632,
       "title": "add Resend's new engine, 2 templates (mail-mta, mail-send-and-receive-mta)",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-20T20:53:14Z",
-      "updated_at": "2026-08-20T20:53:47Z",
+      "updated_at": "2026-08-21T11:12:07Z",
       "merged_at": null,
       "author": "lucasfcosta",
       "author_avatar": "https://avatars.githubusercontent.com/u/6868147?v=4",
@@ -3204,30 +3419,6 @@
           "service_id": "com.site",
           "filename": "cite-met.com.site.json",
           "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1605,
-      "title": "Add posthastemail.dev.dkim template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T10:03:40Z",
-      "updated_at": "2026-08-17T10:04:24Z",
-      "merged_at": null,
-      "author": "hardil-bitdecentro",
-      "author_avatar": "https://avatars.githubusercontent.com/u/281011379?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1605",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "posthastemail",
-          "service_id": "dev.dkim",
-          "filename": "posthastemail.dev.dkim.json",
-          "logo_url": "https://posthastemail.dev/icon",
           "status": "added"
         }
       ]
@@ -3487,7 +3678,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-04T23:39:37Z",
-      "updated_at": "2026-08-20T18:07:18Z",
+      "updated_at": "2026-08-21T11:10:43Z",
       "merged_at": null,
       "author": "InstaRep-io",
       "author_avatar": "https://avatars.githubusercontent.com/u/274312981?v=4",
@@ -3946,25 +4137,6 @@
           "status": "modified"
         }
       ]
-    },
-    {
-      "number": 1446,
-      "title": "Allow fork-PR checkout in pull_request_target workflows",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T00:03:04Z",
-      "updated_at": "2026-07-24T12:15:10Z",
-      "merged_at": null,
-      "author": "JMJBILLINGS",
-      "author_avatar": "https://avatars.githubusercontent.com/u/272277961?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1446",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "automerge-possible"
-      ],
-      "templates": []
     },
     {
       "number": 1444,
