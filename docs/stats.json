@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T00:34:47.041194",
+  "generated_at": "2026-08-23T00:37:55.233927",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1154,
     "total_providers": 719,
     "total_merged_prs": 1228,
-    "total_open_prs": 55,
+    "total_open_prs": 59,
     "total_contributors": 445,
     "avg_records_per_template": 3.17
   },
@@ -1583,7 +1583,7 @@
     },
     {
       "month": "2026-08",
-      "created": 136,
+      "created": 140,
       "merged": 130
     }
   ],
@@ -2301,17 +2301,17 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 22,
+      "Checklist of common problems not complete": 24,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 46,
+      "PR description incomplete": 49,
       "Stale": 0,
-      "Test links missing": 86,
+      "Test links missing": 88,
       "automerge-possible": 60,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 61,
+      "hostRequired": 63,
       "new review needed": 0,
       "no syncPubKeyDomain": 13,
       "question": 0,
@@ -3074,6 +3074,98 @@
   },
   "recent_prs": [
     {
+      "number": 1644,
+      "title": "add Kissaki, Kissaki Domain Ownership Verification",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-22T22:13:08Z",
+      "updated_at": "2026-08-22T22:15:32Z",
+      "merged_at": null,
+      "author": "jcardonne",
+      "author_avatar": "https://avatars.githubusercontent.com/u/50085165?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1644",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "kissaki",
+          "service_id": "io.domain-verify",
+          "filename": "kissaki.io.domain-verify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1643,
+      "title": "Add template: tinidy.io / proxy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-22T14:22:02Z",
+      "updated_at": "2026-08-22T14:22:45Z",
+      "merged_at": null,
+      "author": "Tinidy",
+      "author_avatar": "https://avatars.githubusercontent.com/u/319854841?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1643",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "tinidy",
+          "service_id": "io.proxy",
+          "filename": "tinidy.io.proxy.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1642,
+      "title": "Add relaydns.dev.relay-connect template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-22T10:45:43Z",
+      "updated_at": "2026-08-22T10:48:33Z",
+      "merged_at": null,
+      "author": "endibuka",
+      "author_avatar": "https://avatars.githubusercontent.com/u/85651684?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1642",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "relaydns",
+          "service_id": "dev.relay-connect",
+          "filename": "relaydns.dev.relay-connect.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1641,
+      "title": "Add instantpixapp.com/gallery template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-22T07:46:20Z",
+      "updated_at": "2026-08-22T08:16:14Z",
+      "merged_at": null,
+      "author": "kowshikkj19",
+      "author_avatar": "https://avatars.githubusercontent.com/u/178143928?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1641",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "instantpixapp",
+          "service_id": "com.gallery",
+          "filename": "instantpixapp.com.gallery.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1640,
       "title": "Add askotter.ai site and subdomain templates",
       "state": "open",
@@ -3162,11 +3254,11 @@
     },
     {
       "number": 1637,
-      "title": "Add Araute email sending template",
+      "title": "Add Araute email sending templates (Resend and SES record sets)",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-21T19:26:03Z",
-      "updated_at": "2026-08-21T19:44:40Z",
+      "updated_at": "2026-08-22T03:51:49Z",
       "merged_at": null,
       "author": "yandv",
       "author_avatar": "https://avatars.githubusercontent.com/u/43113169?v=4",
@@ -3175,8 +3267,15 @@
       "templates": [
         {
           "provider_id": "araute",
-          "service_id": "com.email-sending",
-          "filename": "araute.com.email-sending.json",
+          "service_id": "com.email-sending-resend",
+          "filename": "araute.com.email-sending-resend.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "araute",
+          "service_id": "com.email-sending-ses",
+          "filename": "araute.com.email-sending-ses.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3476,13 +3575,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-14T16:09:04Z",
-      "updated_at": "2026-08-16T16:09:56Z",
+      "updated_at": "2026-08-22T17:59:58Z",
       "merged_at": null,
       "author": "Ochodev",
       "author_avatar": "https://avatars.githubusercontent.com/u/213890554?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1584",
       "labels": [
-        "PR description incomplete",
         "hostRequired"
       ],
       "templates": [
