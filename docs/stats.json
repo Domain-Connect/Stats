@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T00:37:55.233927",
+  "generated_at": "2026-08-24T00:36:48.411130",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1154,
     "total_providers": 719,
     "total_merged_prs": 1228,
-    "total_open_prs": 59,
+    "total_open_prs": 62,
     "total_contributors": 445,
     "avg_records_per_template": 3.17
   },
@@ -1583,7 +1583,7 @@
     },
     {
       "month": "2026-08",
-      "created": 140,
+      "created": 143,
       "merged": 130
     }
   ],
@@ -2301,23 +2301,23 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 24,
+      "Checklist of common problems not complete": 26,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 49,
+      "PR description incomplete": 51,
       "Stale": 0,
-      "Test links missing": 88,
-      "automerge-possible": 60,
+      "Test links missing": 90,
+      "automerge-possible": 62,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 63,
+      "hostRequired": 64,
       "new review needed": 0,
       "no syncPubKeyDomain": 13,
       "question": 0,
       "review issues": 1,
       "schema-error": 6,
-      "syncBlock": 0,
+      "syncBlock": 1,
       "warnPhishing": 6
     }
   ],
@@ -3073,6 +3073,82 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1647,
+      "title": "Add SendHQ email sending template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-23T22:05:33Z",
+      "updated_at": "2026-08-23T22:06:03Z",
+      "merged_at": null,
+      "author": "barotdhrumil21",
+      "author_avatar": "https://avatars.githubusercontent.com/u/20736584?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1647",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "sendhq",
+          "service_id": "cc.email-sending",
+          "filename": "sendhq.cc.email-sending.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1646,
+      "title": "Add LaunchOne website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-23T17:00:17Z",
+      "updated_at": "2026-08-23T17:01:03Z",
+      "merged_at": null,
+      "author": "LaunchOne",
+      "author_avatar": "https://avatars.githubusercontent.com/u/318298038?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1646",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "launchone",
+          "service_id": "co.uk.website",
+          "filename": "launchone.co.uk.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1645,
+      "title": "Add soniqmail.co.uk.soniq-email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-23T09:15:16Z",
+      "updated_at": "2026-08-23T16:34:28Z",
+      "merged_at": null,
+      "author": "jonnyweareone",
+      "author_avatar": "https://avatars.githubusercontent.com/u/221204387?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1645",
+      "labels": [
+        "syncBlock",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "soniqmail",
+          "service_id": "co.uk.soniq-email",
+          "filename": "soniqmail.co.uk.soniq-email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1644,
       "title": "add Kissaki, Kissaki Domain Ownership Verification",
@@ -4242,7 +4318,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T21:13:06Z",
-      "updated_at": "2026-08-10T22:53:46Z",
+      "updated_at": "2026-08-24T00:27:17Z",
       "merged_at": null,
       "author": "JMJBILLINGS",
       "author_avatar": "https://avatars.githubusercontent.com/u/272277961?v=4",
@@ -4747,13 +4823,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 90,
+        "review_count": 77,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 64,
+        "review_count": 55,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
