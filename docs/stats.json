@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T00:36:23.725794",
+  "generated_at": "2026-08-26T00:37:01.572826",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1154,
     "total_providers": 719,
     "total_merged_prs": 1229,
-    "total_open_prs": 67,
+    "total_open_prs": 74,
     "total_contributors": 445,
     "avg_records_per_template": 3.17
   },
@@ -1583,7 +1583,7 @@
     },
     {
       "month": "2026-08",
-      "created": 148,
+      "created": 161,
       "merged": 130
     }
   ],
@@ -2301,17 +2301,17 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 29,
+      "Checklist of common problems not complete": 32,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 54,
+      "PR description incomplete": 57,
       "Stale": 0,
-      "Test links missing": 93,
-      "automerge-possible": 63,
+      "Test links missing": 103,
+      "automerge-possible": 64,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 67,
+      "hostRequired": 75,
       "new review needed": 0,
       "no syncPubKeyDomain": 13,
       "question": 0,
@@ -3074,6 +3074,207 @@
   },
   "recent_prs": [
     {
+      "number": 1665,
+      "title": "add Hintoric, custom domain and CAA templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T17:10:35Z",
+      "updated_at": "2026-08-25T17:13:39Z",
+      "merged_at": null,
+      "author": "waigel",
+      "author_avatar": "https://avatars.githubusercontent.com/u/25115243?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1665",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "hintoric",
+          "service_id": "com.caa",
+          "filename": "hintoric.com.caa.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "hintoric",
+          "service_id": "com.customdomain",
+          "filename": "hintoric.com.customdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1664,
+      "title": "Add WISP - Web Gateway",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T16:58:55Z",
+      "updated_at": "2026-08-25T18:26:32Z",
+      "merged_at": null,
+      "author": "mason-rogers",
+      "author_avatar": "https://avatars.githubusercontent.com/u/26467584?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1664",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "wisp",
+          "service_id": "gg.webgateway",
+          "filename": "wisp.gg.webgateway.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1663,
+      "title": "Add peloran.com.email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T16:37:42Z",
+      "updated_at": "2026-08-25T17:11:05Z",
+      "merged_at": null,
+      "author": "ersanyus",
+      "author_avatar": "https://avatars.githubusercontent.com/u/192884236?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1663",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "peloran",
+          "service_id": "com.email",
+          "filename": "peloran.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1662,
+      "title": "Add Easy Street CRM email sending template (theeasystreetcrm.com.sending)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T16:28:13Z",
+      "updated_at": "2026-08-25T16:29:05Z",
+      "merged_at": null,
+      "author": "corqdorq",
+      "author_avatar": "https://avatars.githubusercontent.com/u/291177916?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1662",
+      "labels": [
+        "PR description incomplete",
+        "Checklist of common problems not complete",
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "theeasystreetcrm",
+          "service_id": "com.sending",
+          "filename": "theeasystreetcrm.com.sending.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1661,
+      "title": "Add KapsuleHost templates (kapsulehost.com): hosting and email",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T07:53:09Z",
+      "updated_at": "2026-08-25T14:05:28Z",
+      "merged_at": null,
+      "author": "kapsulenz",
+      "author_avatar": "https://avatars.githubusercontent.com/u/275991168?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1661",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "kapsulehost",
+          "service_id": "com.email",
+          "filename": "kapsulehost.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "kapsulehost",
+          "service_id": "com.hosting",
+          "filename": "kapsulehost.com.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1660,
+      "title": "add PressyPress, PressyPress WordPress Hosting",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T07:08:23Z",
+      "updated_at": "2026-08-25T07:21:05Z",
+      "merged_at": null,
+      "author": "pressypresshosting-sketch",
+      "author_avatar": "https://avatars.githubusercontent.com/u/319217133?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1660",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "pressypress",
+          "service_id": "com.wordpress",
+          "filename": "pressypress.com.wordpress.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1659,
+      "title": "add Melocalizai, Melocalizai Websites",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T02:48:01Z",
+      "updated_at": "2026-08-25T02:48:34Z",
+      "merged_at": null,
+      "author": "jonathannvs",
+      "author_avatar": "https://avatars.githubusercontent.com/u/64108295?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1659",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "melocalizai",
+          "service_id": "com.website",
+          "filename": "melocalizai.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1658,
+      "title": "Update version and logo URL in azbrand.ca.web.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T01:06:30Z",
+      "updated_at": "2026-08-25T01:07:08Z",
+      "merged_at": null,
+      "author": "AZBrandCanada",
+      "author_avatar": "https://avatars.githubusercontent.com/u/26288231?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1658",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "azbrand",
+          "service_id": "ca.web",
+          "filename": "azbrand.ca.web.json",
+          "logo_url": "https://azbrand.ca/logo2.webp",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 1652,
       "title": "Add host.impossibuild.ai custom-domain template",
       "state": "open",
@@ -3127,15 +3328,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-24T11:51:30Z",
-      "updated_at": "2026-08-24T13:09:23Z",
+      "updated_at": "2026-08-25T12:00:20Z",
       "merged_at": null,
       "author": "sagarpixlerlab",
       "author_avatar": "https://avatars.githubusercontent.com/u/194218507?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1650",
-      "labels": [
-        "Test links missing",
-        "automerge-possible"
-      ],
+      "labels": [],
       "templates": [
         {
           "provider_id": "aboutmii",
@@ -4136,7 +4334,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-31T20:05:01Z",
-      "updated_at": "2026-08-18T00:11:48Z",
+      "updated_at": "2026-08-25T21:17:25Z",
       "merged_at": null,
       "author": "fnavarroe18",
       "author_avatar": "https://avatars.githubusercontent.com/u/276437444?v=4",
@@ -4624,12 +4822,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-14T03:38:46Z",
-      "updated_at": "2026-07-24T12:15:29Z",
+      "updated_at": "2026-08-25T02:35:09Z",
       "merged_at": null,
       "author": "searchpod",
       "author_avatar": "https://avatars.githubusercontent.com/u/226559374?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1387",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Test links missing"
       ],
@@ -4649,12 +4848,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-12T16:28:09Z",
-      "updated_at": "2026-07-24T12:16:14Z",
+      "updated_at": "2026-08-25T02:35:11Z",
       "merged_at": null,
       "author": "nakisisageorge",
       "author_avatar": "https://avatars.githubusercontent.com/u/55050232?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1378",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -4676,12 +4876,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-12T15:26:43Z",
-      "updated_at": "2026-07-24T12:16:20Z",
+      "updated_at": "2026-08-25T02:35:12Z",
       "merged_at": null,
       "author": "covenantsoftworksenterprise-boop",
       "author_avatar": "https://avatars.githubusercontent.com/u/304070166?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1377",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -4704,12 +4905,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-12T12:19:48Z",
-      "updated_at": "2026-07-24T12:16:23Z",
+      "updated_at": "2026-08-25T02:35:13Z",
       "merged_at": null,
       "author": "franrtorres77",
       "author_avatar": "https://avatars.githubusercontent.com/u/2893810?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1375",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -4731,12 +4933,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-11T05:20:22Z",
-      "updated_at": "2026-07-24T12:16:26Z",
+      "updated_at": "2026-08-25T02:35:15Z",
       "merged_at": null,
       "author": "Joeymaniz95",
       "author_avatar": "https://avatars.githubusercontent.com/u/261822152?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1367",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Test links missing"
       ],
@@ -4756,12 +4959,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-10T18:37:19Z",
-      "updated_at": "2026-07-24T12:16:24Z",
+      "updated_at": "2026-08-25T02:35:16Z",
       "merged_at": null,
       "author": "erickgrau",
       "author_avatar": "https://avatars.githubusercontent.com/u/12092672?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1365",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -4806,39 +5010,6 @@
           "provider_id": "emergeo",
           "service_id": "ai.bloghub",
           "filename": "emergeo.ai.bloghub.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1349,
-      "title": "add template: vProxy Cloud Game Cloud",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T07:12:33Z",
-      "updated_at": "2026-08-09T03:12:53Z",
-      "merged_at": null,
-      "author": "FanYueee",
-      "author_avatar": "https://avatars.githubusercontent.com/u/84763600?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1349",
-      "labels": [
-        "Stale",
-        "Test links missing",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "vproxy",
-          "service_id": "cloud.gamecloud-bedrock",
-          "filename": "vproxy.cloud.gamecloud-bedrock.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "vproxy",
-          "service_id": "cloud.gamecloud-java",
-          "filename": "vproxy.cloud.gamecloud-java.json",
           "logo_url": null,
           "status": "added"
         }
