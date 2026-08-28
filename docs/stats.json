@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-27T05:33:05.739368",
+  "generated_at": "2026-08-28T07:28:46.090094",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 1190,
-    "total_providers": 747,
-    "total_merged_prs": 1260,
-    "total_open_prs": 49,
+    "total_templates": 1204,
+    "total_providers": 758,
+    "total_merged_prs": 1270,
+    "total_open_prs": 46,
     "total_contributors": 445,
-    "avg_records_per_template": 3.16
+    "avg_records_per_template": 3.18
   },
   "templates_growth": [
     {
@@ -598,9 +598,9 @@
     },
     {
       "month": "2026-08",
-      "added": 192,
+      "added": 206,
       "deleted": 0,
-      "cumulative": 1190
+      "cumulative": 1204
     }
   ],
   "providers_growth": [
@@ -1056,8 +1056,8 @@
     },
     {
       "month": "2026-08",
-      "added": 142,
-      "cumulative": 747
+      "added": 153,
+      "cumulative": 758
     }
   ],
   "pr_activity": [
@@ -1583,8 +1583,8 @@
     },
     {
       "month": "2026-08",
-      "created": 169,
-      "merged": 161
+      "created": 177,
+      "merged": 171
     }
   ],
   "pr_time_to_merge": [
@@ -1986,7 +1986,7 @@
     },
     {
       "month": "2026-08",
-      "avg_days": 2.5
+      "avg_days": 2.4
     }
   ],
   "pr_label_activity": [
@@ -2301,17 +2301,17 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 38,
+      "Checklist of common problems not complete": 40,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 62,
+      "PR description incomplete": 64,
       "Stale": 0,
-      "Test links missing": 110,
-      "automerge-possible": 64,
+      "Test links missing": 113,
+      "automerge-possible": 70,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 2,
-      "hostRequired": 76,
+      "hostRequired": 79,
       "new review needed": 0,
       "no syncPubKeyDomain": 14,
       "question": 0,
@@ -2734,23 +2734,23 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 838
+      "count": 847
     },
     {
       "type": "TXT",
-      "count": 591
+      "count": 599
     },
     {
       "type": "A",
-      "count": 349
+      "count": 351
     },
     {
       "type": "SPFM",
-      "count": 289
+      "count": 296
     },
     {
       "type": "MX",
-      "count": 247
+      "count": 254
     },
     {
       "type": "SRV",
@@ -2906,6 +2906,76 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "orbit.buape.com",
+        "provider_name": "Orbit",
+        "logo_url": "https://orbit.buape.com/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-08-28"
+      },
+      {
+        "provider_id": "readstall.com",
+        "provider_name": "Readstall",
+        "logo_url": null,
+        "template_count": 1,
+        "first_added": "2026-08-28"
+      },
+      {
+        "provider_id": "sequenzy.com",
+        "provider_name": "Sequenzy",
+        "logo_url": "https://www.sequenzy.com/logo.png",
+        "template_count": 4,
+        "first_added": "2026-08-28"
+      },
+      {
+        "provider_id": "guzli.com",
+        "provider_name": "Guzli",
+        "logo_url": "https://guzli.com/favicon.svg",
+        "template_count": 1,
+        "first_added": "2026-08-28"
+      },
+      {
+        "provider_id": "shopiyz.com",
+        "provider_name": "Shopiyz",
+        "logo_url": "https://superadmin.shopiyz.com/brand/shopiyz-logo-black.svg",
+        "template_count": 1,
+        "first_added": "2026-08-28"
+      },
+      {
+        "provider_id": "omucloud.co",
+        "provider_name": "Omucloud",
+        "logo_url": "https://www.alano.ai/domain-connect-logo.png",
+        "template_count": 1,
+        "first_added": "2026-08-28"
+      },
+      {
+        "provider_id": "myemail.ge",
+        "provider_name": "myemail.ge",
+        "logo_url": "https://myemail.ge/myemail-logo.svg",
+        "template_count": 1,
+        "first_added": "2026-08-28"
+      },
+      {
+        "provider_id": "myserv.ge",
+        "provider_name": "myserv.ge",
+        "logo_url": "https://myserv.ge/icon.svg",
+        "template_count": 1,
+        "first_added": "2026-08-28"
+      },
+      {
+        "provider_id": "the-sitehub.com",
+        "provider_name": "The SiteHub",
+        "logo_url": "https://the-sitehub.com/favicon.ico",
+        "template_count": 1,
+        "first_added": "2026-08-28"
+      },
+      {
+        "provider_id": "titanshub.app",
+        "provider_name": "TitansHub",
+        "logo_url": "https://titanshub.app/titanshub-logo-120.png",
+        "template_count": 1,
+        "first_added": "2026-08-28"
+      },
+      {
         "provider_id": "grundy.app",
         "provider_name": "Grundy",
         "logo_url": "https://www.grundy.app/grundy-logo-negro.svg",
@@ -2962,103 +3032,33 @@
         "first_added": "2026-08-27"
       },
       {
+        "provider_id": "vonza.com",
+        "provider_name": "Vonza",
+        "logo_url": "https://vonza.com/images/logo.png",
+        "template_count": 1,
+        "first_added": "2026-08-27"
+      },
+      {
         "provider_id": "hintoric.com",
         "provider_name": "Hintoric",
         "logo_url": "https://cdn.hintoric.com/assets/logo/dc/black.svg",
         "template_count": 2,
         "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "launchone.co.uk",
-        "provider_name": "LaunchOne",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "hoversite.build",
-        "provider_name": "Hoversite",
-        "logo_url": "https://assets.hoversite.build/logo.svg",
-        "template_count": 1,
-        "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "growithnsi.com",
-        "provider_name": "Growith NSI",
-        "logo_url": "https://growithnsi.com/nsi.png",
-        "template_count": 2,
-        "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "metorik.com",
-        "provider_name": "Metorik",
-        "logo_url": "https://metorik.com/img/brand/logo-icon.png",
-        "template_count": 1,
-        "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "wisp.gg",
-        "provider_name": "Wisp",
-        "logo_url": "https://cdn.wisp.gg/assets/connect/square.svg",
-        "template_count": 1,
-        "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "peloran.com",
-        "provider_name": "Peloran",
-        "logo_url": "https://www.peloran.com/peloran-logo3b.svg",
-        "template_count": 1,
-        "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "kapsulehost.com",
-        "provider_name": "KapsuleHost",
-        "logo_url": "https://kapsulehost.com/logo.png",
-        "template_count": 2,
-        "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "pressypress.com",
-        "provider_name": "PressyPress",
-        "logo_url": "https://pressypress.com/domain-connect-logo.png",
-        "template_count": 1,
-        "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "melocalizai.com",
-        "provider_name": "Melocalizai",
-        "logo_url": "https://melocalizai.com/assets/domain-connect-logo.svg",
-        "template_count": 1,
-        "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "host.impossibuild.ai",
-        "provider_name": "hostimpossibuild",
-        "logo_url": null,
-        "template_count": 1,
-        "first_added": "2026-08-26"
-      },
-      {
-        "provider_id": "domivy.app",
-        "provider_name": "Domivy",
-        "logo_url": "https://domivy.app/icon.svg",
-        "template_count": 1,
-        "first_added": "2026-08-26"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 1190,
+    "total_templates": 1204,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 1118
+        "count": 1132
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 866
+        "count": 880
       },
       {
         "name": "warnPhishing",
@@ -3068,59 +3068,30 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 343
+        "count": 348
       }
     ]
   },
   "recent_prs": [
     {
-      "number": 1673,
-      "title": "Add SiteHub web service template (the-sitehub.com.web.json)",
+      "number": 1677,
+      "title": "Rename Vambe template to vambe-mail.com/email",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-27T03:11:48Z",
-      "updated_at": "2026-08-27T03:20:27Z",
+      "created_at": "2026-08-27T20:00:52Z",
+      "updated_at": "2026-08-27T20:01:33Z",
       "merged_at": null,
-      "author": "rossocheath",
-      "author_avatar": "https://avatars.githubusercontent.com/u/56430531?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1673",
-      "labels": [
-        "Test links missing",
-        "schema-error"
-      ],
+      "author": "Rlopeze",
+      "author_avatar": "https://avatars.githubusercontent.com/u/69649817?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1677",
+      "labels": [],
       "templates": [
         {
-          "provider_id": "the-sitehub",
-          "service_id": "com.web",
-          "filename": "the-sitehub.com.web.json",
+          "provider_id": "vambe-mail",
+          "service_id": "com.email",
+          "filename": "vambe-mail.com.email.json",
           "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1672,
-      "title": "Add TitansHub (titanshub.app) domain-full-setup template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T22:02:56Z",
-      "updated_at": "2026-08-26T22:11:04Z",
-      "merged_at": null,
-      "author": "viviendoelexito",
-      "author_avatar": "https://avatars.githubusercontent.com/u/271864669?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1672",
-      "labels": [
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "titanshub",
-          "service_id": "app.domain-full-setup",
-          "filename": "titanshub.app.domain-full-setup.json",
-          "logo_url": null,
-          "status": "added"
+          "status": "renamed"
         }
       ]
     },
@@ -3192,30 +3163,6 @@
           "provider_id": "anvilmail",
           "service_id": "io.verify",
           "filename": "anvilmail.io.verify.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1649,
-      "title": "Add Vonza custom domain template (vonza.com.custom-domain)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T11:18:58Z",
-      "updated_at": "2026-08-27T04:42:40Z",
-      "merged_at": null,
-      "author": "UsamaaAbbas",
-      "author_avatar": "https://avatars.githubusercontent.com/u/320537624?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1649",
-      "labels": [
-        "review issues"
-      ],
-      "templates": [
-        {
-          "provider_id": "vonza",
-          "service_id": "com.custom-domain",
-          "filename": "vonza.com.custom-domain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -4443,33 +4390,6 @@
       ]
     },
     {
-      "number": 1357,
-      "title": "add Emergeo, Emergeo Content Hub",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-10T02:59:00Z",
-      "updated_at": "2026-08-10T03:23:29Z",
-      "merged_at": null,
-      "author": "twopackagingteam-svg",
-      "author_avatar": "https://avatars.githubusercontent.com/u/287792297?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1357",
-      "labels": [
-        "Stale",
-        "no syncPubKeyDomain",
-        "warnPhishing",
-        "review issues"
-      ],
-      "templates": [
-        {
-          "provider_id": "emergeo",
-          "service_id": "ai.bloghub",
-          "filename": "emergeo.ai.bloghub.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1288,
       "title": "Add Nex Mail Domain Connect template (#1274)",
       "state": "open",
@@ -4499,13 +4419,13 @@
     "all_time": [
       {
         "login": "pawel-kow",
-        "review_count": 923,
+        "review_count": 927,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 119,
+        "review_count": 125,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -4531,13 +4451,13 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 104,
+        "review_count": 108,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 63,
+        "review_count": 69,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -8823,6 +8743,15 @@
       "record_count": 8
     },
     {
+      "filename": "guzli.com.ses-sender-domain.json",
+      "provider_id": "guzli.com",
+      "service_id": "ses-sender-domain",
+      "provider_name": "Guzli",
+      "service_name": "Guzli Email Sender Domain (SES)",
+      "logo_url": "https://guzli.com/favicon.svg",
+      "record_count": 5
+    },
+    {
       "filename": "gvng.com.hosting_development.json",
       "provider_id": "gvng.com",
       "service_id": "hosting_development",
@@ -10839,6 +10768,15 @@
       "record_count": 1
     },
     {
+      "filename": "myemail.ge.mail.json",
+      "provider_id": "myemail.ge",
+      "service_id": "mail",
+      "provider_name": "myemail.ge",
+      "service_name": "myemail.ge mailboxes",
+      "logo_url": "https://myemail.ge/myemail-logo.svg",
+      "record_count": 5
+    },
+    {
       "filename": "mylocalpress.com.custom-domain.json",
       "provider_id": "mylocalpress.com",
       "service_id": "custom-domain",
@@ -10855,6 +10793,15 @@
       "service_name": "Email Setup",
       "logo_url": "https://mymangomail.com/assets/mango-domain-connect-logo.png",
       "record_count": 10
+    },
+    {
+      "filename": "myserv.ge.mail.json",
+      "provider_id": "myserv.ge",
+      "service_id": "mail",
+      "provider_name": "myserv.ge",
+      "service_name": "Email hosting",
+      "logo_url": "https://myserv.ge/icon.svg",
+      "record_count": 5
     },
     {
       "filename": "myshopline.com.website.json",
@@ -11298,6 +11245,15 @@
       "record_count": 2
     },
     {
+      "filename": "omucloud.co.email.json",
+      "provider_id": "omucloud.co",
+      "service_id": "email",
+      "provider_name": "Omucloud",
+      "service_name": "Omucloud Email",
+      "logo_url": "https://www.alano.ai/domain-connect-logo.png",
+      "record_count": 5
+    },
+    {
       "filename": "one-email.com.email.json",
       "provider_id": "one-email.com",
       "service_id": "email",
@@ -11403,6 +11359,15 @@
       "provider_name": "Optimizex",
       "service_name": "Domain proof of ownership for configuring Optimizex services",
       "logo_url": "https://app.optimizex.io/icons/logo.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "orbit.buape.com.suggestions.json",
+      "provider_id": "orbit.buape.com",
+      "service_id": "suggestions",
+      "provider_name": "Orbit",
+      "service_name": "Suggestions",
+      "logo_url": "https://orbit.buape.com/logo.svg",
       "record_count": 1
     },
     {
@@ -12052,6 +12017,15 @@
       "service_name": "Readdy Site (Test)",
       "logo_url": "https://static.readdy.ai/logo.svg",
       "record_count": 2
+    },
+    {
+      "filename": "readstall.com.storefront.json",
+      "provider_id": "readstall.com",
+      "service_id": "storefront",
+      "provider_name": "Readstall",
+      "service_name": "Readstall storefront",
+      "logo_url": null,
+      "record_count": 1
     },
     {
       "filename": "readymag.com.apex.json",
@@ -13053,6 +13027,42 @@
       "record_count": 1
     },
     {
+      "filename": "sequenzy.com.click-tracking.json",
+      "provider_id": "sequenzy.com",
+      "service_id": "click-tracking",
+      "provider_name": "Sequenzy",
+      "service_name": "Click Tracking",
+      "logo_url": "https://www.sequenzy.com/logo.png",
+      "record_count": 1
+    },
+    {
+      "filename": "sequenzy.com.dmarc.json",
+      "provider_id": "sequenzy.com",
+      "service_id": "dmarc",
+      "provider_name": "Sequenzy",
+      "service_name": "DMARC Policy",
+      "logo_url": "https://www.sequenzy.com/logo.png",
+      "record_count": 1
+    },
+    {
+      "filename": "sequenzy.com.landing-page.json",
+      "provider_id": "sequenzy.com",
+      "service_id": "landing-page",
+      "provider_name": "Sequenzy",
+      "service_name": "Landing Page",
+      "logo_url": "https://www.sequenzy.com/logo.png",
+      "record_count": 1
+    },
+    {
+      "filename": "sequenzy.com.mail.json",
+      "provider_id": "sequenzy.com",
+      "service_id": "mail",
+      "provider_name": "Sequenzy",
+      "service_name": "Mail",
+      "logo_url": "https://www.sequenzy.com/logo.png",
+      "record_count": 3
+    },
+    {
       "filename": "shipmail.to.email.json",
       "provider_id": "shipmail.to",
       "service_id": "email",
@@ -13123,6 +13133,15 @@
       "service_name": "Shopify Site",
       "logo_url": "https://domainconnect.org/wp-content/uploads/2016/08/shopify.png",
       "record_count": 4
+    },
+    {
+      "filename": "shopiyz.com.mail-sending.json",
+      "provider_id": "shopiyz.com",
+      "service_id": "mail-sending",
+      "provider_name": "Shopiyz",
+      "service_name": "Mail Sending",
+      "logo_url": "https://superadmin.shopiyz.com/brand/shopiyz-logo-black.svg",
+      "record_count": 22
     },
     {
       "filename": "shoplazza.com.website.json",
@@ -13872,6 +13891,15 @@
       "record_count": 7
     },
     {
+      "filename": "the-sitehub.com.web.json",
+      "provider_id": "the-sitehub.com",
+      "service_id": "web",
+      "provider_name": "The SiteHub",
+      "service_name": "SiteHub Web Hosting",
+      "logo_url": "https://the-sitehub.com/favicon.ico",
+      "record_count": 3
+    },
+    {
       "filename": "thecarshowhq.com.whitelabel-apex.json",
       "provider_id": "thecarshowhq.com",
       "service_id": "whitelabel-apex",
@@ -14068,6 +14096,15 @@
       "service_name": "InstantDMARC 1-Click Deliverability",
       "logo_url": "https://img.plasmic.app/img-optimizer/v1/img?src=https%3A%2F%2Fimg.plasmic.app%2Fimg-optimizer%2Fv1%2Fimg%2F8e5e377d6700a6e005cda1483ddd5e1f.png&w=384&q=75&f=webp",
       "record_count": 1
+    },
+    {
+      "filename": "titanshub.app.domain-full-setup.json",
+      "provider_id": "titanshub.app",
+      "service_id": "domain-full-setup",
+      "provider_name": "TitansHub",
+      "service_name": "TitansHub — Website & Email",
+      "logo_url": "https://titanshub.app/titanshub-logo-120.png",
+      "record_count": 8
     },
     {
       "filename": "tjservice.mcroute.json",
@@ -14635,6 +14672,15 @@
       "service_name": "Email authentication",
       "logo_url": "https://vohtrah.com/logo.svg",
       "record_count": 9
+    },
+    {
+      "filename": "vonza.com.custom-domain.json",
+      "provider_id": "vonza.com",
+      "service_id": "custom-domain",
+      "provider_name": "Vonza",
+      "service_name": "Vonza Custom Domain",
+      "logo_url": "https://vonza.com/images/logo.png",
+      "record_count": 3
     },
     {
       "filename": "vulnalyze.com.domain-verification.json",
@@ -15389,16 +15435,10 @@
       "profile_url": "https://github.com/john-zli"
     },
     {
-      "login": "jotra7",
+      "login": "astrutzenberg-godaddy",
       "contributions": 10,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4241654?v=4",
-      "profile_url": "https://github.com/jotra7"
-    },
-    {
-      "login": "slxca",
-      "contributions": 10,
-      "avatar_url": "https://avatars.githubusercontent.com/u/93574921?v=4",
-      "profile_url": "https://github.com/slxca"
+      "avatar_url": "https://avatars.githubusercontent.com/u/2229854?v=4",
+      "profile_url": "https://github.com/astrutzenberg-godaddy"
     },
     {
       "login": "asafdl",
@@ -15407,34 +15447,16 @@
       "profile_url": "https://github.com/asafdl"
     },
     {
-      "login": "astrutzenberg-godaddy",
+      "login": "slxca",
       "contributions": 10,
-      "avatar_url": "https://avatars.githubusercontent.com/u/2229854?v=4",
-      "profile_url": "https://github.com/astrutzenberg-godaddy"
+      "avatar_url": "https://avatars.githubusercontent.com/u/93574921?v=4",
+      "profile_url": "https://github.com/slxca"
     },
     {
-      "login": "TracyFogel",
-      "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/16194195?v=4",
-      "profile_url": "https://github.com/TracyFogel"
-    },
-    {
-      "login": "jeevan-getmoda",
-      "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/128358938?v=4",
-      "profile_url": "https://github.com/jeevan-getmoda"
-    },
-    {
-      "login": "thoag-godaddy",
-      "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/89269158?v=4",
-      "profile_url": "https://github.com/thoag-godaddy"
-    },
-    {
-      "login": "imgerson",
-      "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/3615268?v=4",
-      "profile_url": "https://github.com/imgerson"
+      "login": "jotra7",
+      "contributions": 10,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "profile_url": "https://github.com/jotra7"
     },
     {
       "login": "apxcarter",
@@ -15443,16 +15465,28 @@
       "profile_url": "https://github.com/apxcarter"
     },
     {
-      "login": "arya-dos",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/164984012?v=4",
-      "profile_url": "https://github.com/arya-dos"
+      "login": "imgerson",
+      "contributions": 9,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3615268?v=4",
+      "profile_url": "https://github.com/imgerson"
     },
     {
-      "login": "kiranvsr",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/13899484?v=4",
-      "profile_url": "https://github.com/kiranvsr"
+      "login": "thoag-godaddy",
+      "contributions": 9,
+      "avatar_url": "https://avatars.githubusercontent.com/u/89269158?v=4",
+      "profile_url": "https://github.com/thoag-godaddy"
+    },
+    {
+      "login": "jeevan-getmoda",
+      "contributions": 9,
+      "avatar_url": "https://avatars.githubusercontent.com/u/128358938?v=4",
+      "profile_url": "https://github.com/jeevan-getmoda"
+    },
+    {
+      "login": "TracyFogel",
+      "contributions": 9,
+      "avatar_url": "https://avatars.githubusercontent.com/u/16194195?v=4",
+      "profile_url": "https://github.com/TracyFogel"
     },
     {
       "login": "JoaoFSCruz",
@@ -15467,28 +15501,16 @@
       "profile_url": "https://github.com/cmalec"
     },
     {
-      "login": "anish2690",
+      "login": "arya-dos",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
-      "profile_url": "https://github.com/anish2690"
+      "avatar_url": "https://avatars.githubusercontent.com/u/164984012?v=4",
+      "profile_url": "https://github.com/arya-dos"
     },
     {
-      "login": "jonroig",
+      "login": "kiranvsr",
       "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/928215?v=4",
-      "profile_url": "https://github.com/jonroig"
-    },
-    {
-      "login": "MrExcitingDigits",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
-      "profile_url": "https://github.com/MrExcitingDigits"
-    },
-    {
-      "login": "kerolasa",
-      "contributions": 8,
-      "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
-      "profile_url": "https://github.com/kerolasa"
+      "avatar_url": "https://avatars.githubusercontent.com/u/13899484?v=4",
+      "profile_url": "https://github.com/kiranvsr"
     },
     {
       "login": "tombeard",
@@ -15503,10 +15525,34 @@
       "profile_url": "https://github.com/dommholland"
     },
     {
-      "login": "cassiozen",
+      "login": "kerolasa",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/572411?v=4",
+      "profile_url": "https://github.com/kerolasa"
+    },
+    {
+      "login": "MrExcitingDigits",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/122944243?v=4",
+      "profile_url": "https://github.com/MrExcitingDigits"
+    },
+    {
+      "login": "jonroig",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/928215?v=4",
+      "profile_url": "https://github.com/jonroig"
+    },
+    {
+      "login": "anish2690",
+      "contributions": 8,
+      "avatar_url": "https://avatars.githubusercontent.com/u/22445409?v=4",
+      "profile_url": "https://github.com/anish2690"
+    },
+    {
+      "login": "pernydev",
       "contributions": 7,
-      "avatar_url": "https://avatars.githubusercontent.com/u/33676?v=4",
-      "profile_url": "https://github.com/cassiozen"
+      "avatar_url": "https://avatars.githubusercontent.com/u/83672513?v=4",
+      "profile_url": "https://github.com/pernydev"
     },
     {
       "login": "FlorentinStafie",
@@ -15521,16 +15567,10 @@
       "profile_url": "https://github.com/GokulnathMadhivanan"
     },
     {
-      "login": "pernydev",
+      "login": "cassiozen",
       "contributions": 7,
-      "avatar_url": "https://avatars.githubusercontent.com/u/83672513?v=4",
-      "profile_url": "https://github.com/pernydev"
-    },
-    {
-      "login": "abdulaziz-mohammed",
-      "contributions": 7,
-      "avatar_url": "https://avatars.githubusercontent.com/u/55058438?v=4",
-      "profile_url": "https://github.com/abdulaziz-mohammed"
+      "avatar_url": "https://avatars.githubusercontent.com/u/33676?v=4",
+      "profile_url": "https://github.com/cassiozen"
     },
     {
       "login": "tomnugent",
@@ -15539,22 +15579,16 @@
       "profile_url": "https://github.com/tomnugent"
     },
     {
-      "login": "chintans1",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/6274806?v=4",
-      "profile_url": "https://github.com/chintans1"
+      "login": "abdulaziz-mohammed",
+      "contributions": 7,
+      "avatar_url": "https://avatars.githubusercontent.com/u/55058438?v=4",
+      "profile_url": "https://github.com/abdulaziz-mohammed"
     },
     {
       "login": "csjewell",
       "contributions": 6,
       "avatar_url": "https://avatars.githubusercontent.com/u/67483?v=4",
       "profile_url": "https://github.com/csjewell"
-    },
-    {
-      "login": "JoaoBarrosJunho",
-      "contributions": 6,
-      "avatar_url": "https://avatars.githubusercontent.com/u/51545505?v=4",
-      "profile_url": "https://github.com/JoaoBarrosJunho"
     },
     {
       "login": "tauthomas01",
@@ -15567,6 +15601,18 @@
       "contributions": 6,
       "avatar_url": "https://avatars.githubusercontent.com/u/46862560?v=4",
       "profile_url": "https://github.com/elementortzvi"
+    },
+    {
+      "login": "alanxuan-houzz",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/54787010?v=4",
+      "profile_url": "https://github.com/alanxuan-houzz"
+    },
+    {
+      "login": "fgorodishter-godaddy",
+      "contributions": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/77742018?v=4",
+      "profile_url": "https://github.com/fgorodishter-godaddy"
     }
   ]
 }
