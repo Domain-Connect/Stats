@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T07:28:46.090094",
+  "generated_at": "2026-08-29T04:39:01.955798",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1204,
     "total_providers": 758,
     "total_merged_prs": 1270,
-    "total_open_prs": 46,
+    "total_open_prs": 56,
     "total_contributors": 445,
     "avg_records_per_template": 3.18
   },
@@ -1583,7 +1583,7 @@
     },
     {
       "month": "2026-08",
-      "created": 177,
+      "created": 187,
       "merged": 171
     }
   ],
@@ -2301,22 +2301,22 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 40,
+      "Checklist of common problems not complete": 44,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 64,
+      "PR description incomplete": 68,
       "Stale": 0,
-      "Test links missing": 113,
-      "automerge-possible": 70,
+      "Test links missing": 119,
+      "automerge-possible": 73,
       "blocked": 0,
       "duplicate": 0,
-      "filename-error": 2,
-      "hostRequired": 79,
+      "filename-error": 3,
+      "hostRequired": 81,
       "new review needed": 0,
-      "no syncPubKeyDomain": 14,
+      "no syncPubKeyDomain": 16,
       "question": 0,
       "review issues": 1,
-      "schema-error": 8,
+      "schema-error": 9,
       "syncBlock": 1,
       "warnPhishing": 7
     }
@@ -3074,12 +3074,279 @@
   },
   "recent_prs": [
     {
+      "number": 1691,
+      "title": "Add Mailflow373 email sending template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T03:48:31Z",
+      "updated_at": "2026-08-29T03:56:44Z",
+      "merged_at": null,
+      "author": "TroyMack",
+      "author_avatar": "https://avatars.githubusercontent.com/u/322343283?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1691",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "mailflow373",
+          "service_id": "software373.com.ses-sending-domain",
+          "filename": "mailflow373.software373.com.ses-sending-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1690,
+      "title": "add 1HourSites, Website and Email Sending Domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T02:58:17Z",
+      "updated_at": "2026-08-29T02:58:57Z",
+      "merged_at": null,
+      "author": "russell1707",
+      "author_avatar": "https://avatars.githubusercontent.com/u/92952513?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1690",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "1hoursites",
+          "service_id": "com.email",
+          "filename": "1hoursites.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "1hoursites",
+          "service_id": "com.website",
+          "filename": "1hoursites.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1689,
+      "title": "Fix DMARC record host and logo URL for grundy.app/dominio-unificado",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T21:46:59Z",
+      "updated_at": "2026-08-28T22:06:25Z",
+      "merged_at": null,
+      "author": "fnavarroe18",
+      "author_avatar": "https://avatars.githubusercontent.com/u/276437444?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1689",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "grundy",
+          "service_id": "app.dominio-unificado",
+          "filename": "grundy.app.dominio-unificado.json",
+          "logo_url": "https://www.grundy.app/grundy-logo-negro.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1688,
+      "title": "Create rinpush.com.mail.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T21:42:06Z",
+      "updated_at": "2026-08-28T22:53:57Z",
+      "merged_at": null,
+      "author": "DTATCHUM",
+      "author_avatar": "https://avatars.githubusercontent.com/u/175616160?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1688",
+      "labels": [
+        "Test links missing",
+        "schema-error"
+      ],
+      "templates": [
+        {
+          "provider_id": "rinpush",
+          "service_id": "com.mail",
+          "filename": "rinpush.com.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1687,
+      "title": "Add taskruler.com hosting service template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T20:53:34Z",
+      "updated_at": "2026-08-28T21:01:22Z",
+      "merged_at": null,
+      "author": "TaskRuler",
+      "author_avatar": "https://avatars.githubusercontent.com/u/83439875?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1687",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "taskruler",
+          "service_id": "com.hosting",
+          "filename": "taskruler.com.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1686,
+      "title": "add EmailFleet, verify and mail templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T20:13:30Z",
+      "updated_at": "2026-08-28T21:04:33Z",
+      "merged_at": null,
+      "author": "MainStreetAITeam",
+      "author_avatar": "https://avatars.githubusercontent.com/u/269021486?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1686",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "emailfleet",
+          "service_id": "io.mail",
+          "filename": "emailfleet.io.mail.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "emailfleet",
+          "service_id": "io.verify",
+          "filename": "emailfleet.io.verify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1685,
+      "title": "Great Pages, 4 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T17:21:36Z",
+      "updated_at": "2026-08-28T18:20:40Z",
+      "merged_at": null,
+      "author": "allangreatsoftwares",
+      "author_avatar": "https://avatars.githubusercontent.com/u/258448024?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1685",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "greatpages",
+          "service_id": "com.br.site",
+          "filename": "greatpages.com.br.site.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "greatpages",
+          "service_id": "com.br.subdomain",
+          "filename": "greatpages.com.br.subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "greatpages",
+          "service_id": "dev.br.site",
+          "filename": "greatpages.dev.br.site.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "greatpages",
+          "service_id": "dev.br.subdomain",
+          "filename": "greatpages.dev.br.subdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1684,
+      "title": "add DriveReachAds, DriveReachAds Dealer Website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T16:50:07Z",
+      "updated_at": "2026-08-28T16:50:40Z",
+      "merged_at": null,
+      "author": "alex-rogers-876",
+      "author_avatar": "https://avatars.githubusercontent.com/u/7826735?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1684",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "drivereachads",
+          "service_id": "com.hosting",
+          "filename": "drivereachads.com.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1683,
+      "title": "Add SOMS-QC email authentication template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T15:15:45Z",
+      "updated_at": "2026-08-28T20:16:30Z",
+      "merged_at": null,
+      "author": "franchoalejo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/41211806?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1683",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "soms-qc",
+          "service_id": "ca.email-authentication",
+          "filename": "soms-qc.ca.email-authentication.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1682,
+      "title": "Rename qlara.ai template to xmessage.io",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T14:13:29Z",
+      "updated_at": "2026-08-28T14:31:21Z",
+      "merged_at": null,
+      "author": "agiletony",
+      "author_avatar": "https://avatars.githubusercontent.com/u/320615443?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1682",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "xmessage",
+          "service_id": "io.email-composer-ses",
+          "filename": "xmessage.io.email-composer-ses.json",
+          "logo_url": null,
+          "status": "renamed"
+        }
+      ]
+    },
+    {
       "number": 1677,
       "title": "Rename Vambe template to vambe-mail.com/email",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-27T20:00:52Z",
-      "updated_at": "2026-08-27T20:01:33Z",
+      "updated_at": "2026-08-28T13:28:20Z",
       "merged_at": null,
       "author": "Rlopeze",
       "author_avatar": "https://avatars.githubusercontent.com/u/69649817?v=4",
