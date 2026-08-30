@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T04:39:01.955798",
+  "generated_at": "2026-08-30T02:10:44.807025",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1204,
     "total_providers": 758,
     "total_merged_prs": 1270,
-    "total_open_prs": 56,
+    "total_open_prs": 60,
     "total_contributors": 445,
     "avg_records_per_template": 3.18
   },
@@ -1583,7 +1583,7 @@
     },
     {
       "month": "2026-08",
-      "created": 187,
+      "created": 191,
       "merged": 171
     }
   ],
@@ -2301,22 +2301,22 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 44,
+      "Checklist of common problems not complete": 45,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 68,
+      "PR description incomplete": 69,
       "Stale": 0,
-      "Test links missing": 119,
-      "automerge-possible": 73,
+      "Test links missing": 120,
+      "automerge-possible": 76,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 3,
-      "hostRequired": 81,
+      "hostRequired": 83,
       "new review needed": 0,
       "no syncPubKeyDomain": 16,
       "question": 0,
       "review issues": 1,
-      "schema-error": 9,
+      "schema-error": 10,
       "syncBlock": 1,
       "warnPhishing": 7
     }
@@ -3073,6 +3073,102 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1695,
+      "title": "add DMARC Analyst, DMARC Aggregate Reporting",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T20:36:14Z",
+      "updated_at": "2026-08-29T20:36:57Z",
+      "merged_at": null,
+      "author": "dp-dmarcanalyst",
+      "author_avatar": "https://avatars.githubusercontent.com/u/322587787?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1695",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "dmarcanalyst",
+          "service_id": "com.dmarc-monitoring",
+          "filename": "dmarcanalyst.com.dmarc-monitoring.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1694,
+      "title": "Add Mailif email forwarding template (mailif.uvxyz.in.email.json)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T18:13:00Z",
+      "updated_at": "2026-08-29T19:07:59Z",
+      "merged_at": null,
+      "author": "TheJayaTeja",
+      "author_avatar": "https://avatars.githubusercontent.com/u/56495773?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1694",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mailif",
+          "service_id": "uvxyz.in.email",
+          "filename": "mailif.uvxyz.in.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1693,
+      "title": "add Message Kit, Message Kit Custom Domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T16:05:10Z",
+      "updated_at": "2026-08-29T16:05:56Z",
+      "merged_at": null,
+      "author": "thewilloftheshadow",
+      "author_avatar": "https://avatars.githubusercontent.com/u/35580099?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1693",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "messagekit",
+          "service_id": "app.custom-domain",
+          "filename": "messagekit.app.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1692,
+      "title": "Add lumitra.co.qr template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T09:41:07Z",
+      "updated_at": "2026-08-29T09:41:50Z",
+      "merged_at": null,
+      "author": "marlinjai",
+      "author_avatar": "https://avatars.githubusercontent.com/u/108397281?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1692",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "lumitra",
+          "service_id": "co.qr",
+          "filename": "lumitra.co.qr.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1691,
       "title": "Add Mailflow373 email sending template",
@@ -4058,12 +4154,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T05:25:03Z",
-      "updated_at": "2026-07-30T05:25:33Z",
+      "updated_at": "2026-08-29T08:01:25Z",
       "merged_at": null,
       "author": "edudavidblaesing",
       "author_avatar": "https://avatars.githubusercontent.com/u/184784020?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1490",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Test links missing",
         "hostRequired"
@@ -4098,12 +4195,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-29T09:31:32Z",
-      "updated_at": "2026-07-29T09:32:16Z",
+      "updated_at": "2026-08-29T08:01:27Z",
       "merged_at": null,
       "author": "artzkaizen",
       "author_avatar": "https://avatars.githubusercontent.com/u/121627078?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1480",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Test links missing"
       ],
@@ -4123,12 +4221,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-29T01:45:40Z",
-      "updated_at": "2026-07-29T01:46:11Z",
+      "updated_at": "2026-08-29T08:01:28Z",
       "merged_at": null,
       "author": "megazoor",
       "author_avatar": "https://avatars.githubusercontent.com/u/24616413?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1475",
       "labels": [
+        "Stale",
         "Checklist of common problems not complete",
         "Test links missing"
       ],
@@ -4148,12 +4247,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-28T15:20:02Z",
-      "updated_at": "2026-07-29T11:34:49Z",
+      "updated_at": "2026-08-29T08:01:30Z",
       "merged_at": null,
       "author": "MattiaPun",
       "author_avatar": "https://avatars.githubusercontent.com/u/46904691?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1473",
       "labels": [
+        "Stale",
         "Test links missing",
         "hostRequired"
       ],
@@ -4313,7 +4413,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T21:13:06Z",
-      "updated_at": "2026-08-24T00:27:17Z",
+      "updated_at": "2026-08-29T19:17:11Z",
       "merged_at": null,
       "author": "JMJBILLINGS",
       "author_avatar": "https://avatars.githubusercontent.com/u/272277961?v=4",
