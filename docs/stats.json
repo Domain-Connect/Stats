@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-31T02:05:59.977278",
+  "generated_at": "2026-09-01T02:26:48.078600",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 1227,
-    "total_providers": 776,
-    "total_merged_prs": 1290,
-    "total_open_prs": 48,
+    "total_templates": 1230,
+    "total_providers": 779,
+    "total_merged_prs": 1293,
+    "total_open_prs": 50,
     "total_contributors": 446,
-    "avg_records_per_template": 3.17
+    "avg_records_per_template": 3.16
   },
   "templates_growth": [
     {
@@ -598,9 +598,9 @@
     },
     {
       "month": "2026-08",
-      "added": 229,
+      "added": 232,
       "deleted": 0,
-      "cumulative": 1227
+      "cumulative": 1230
     }
   ],
   "providers_growth": [
@@ -1056,8 +1056,8 @@
     },
     {
       "month": "2026-08",
-      "added": 171,
-      "cumulative": 776
+      "added": 174,
+      "cumulative": 779
     }
   ],
   "pr_activity": [
@@ -1583,8 +1583,8 @@
     },
     {
       "month": "2026-08",
-      "created": 199,
-      "merged": 191
+      "created": 204,
+      "merged": 194
     }
   ],
   "pr_time_to_merge": [
@@ -2301,22 +2301,22 @@
     {
       "month": "2026-08",
       "AI crap": 0,
-      "Checklist of common problems not complete": 45,
+      "Checklist of common problems not complete": 46,
       "Chores": 0,
       "Forged editor links": 0,
-      "PR description incomplete": 72,
+      "PR description incomplete": 73,
       "Stale": 0,
-      "Test links missing": 122,
-      "automerge-possible": 78,
+      "Test links missing": 126,
+      "automerge-possible": 81,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 3,
-      "hostRequired": 86,
+      "hostRequired": 88,
       "new review needed": 0,
       "no syncPubKeyDomain": 16,
       "question": 0,
       "review issues": 1,
-      "schema-error": 10,
+      "schema-error": 11,
       "syncBlock": 1,
       "warnPhishing": 7
     }
@@ -2734,7 +2734,7 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 864
+      "count": 867
     },
     {
       "type": "TXT",
@@ -2742,7 +2742,7 @@
     },
     {
       "type": "A",
-      "count": 355
+      "count": 356
     },
     {
       "type": "SPFM",
@@ -2906,6 +2906,27 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "juudd.com",
+        "provider_name": "juudd",
+        "logo_url": "https://juudd.com/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-08-31"
+      },
+      {
+        "provider_id": "zuppi.io",
+        "provider_name": "Zuppi",
+        "logo_url": "https://zuppi.io/icons/icon-512.png",
+        "template_count": 1,
+        "first_added": "2026-08-31"
+      },
+      {
+        "provider_id": "mybussinessweb.com",
+        "provider_name": "MyBusinessWeb",
+        "logo_url": "https://mybussinessweb.com/favicon.ico",
+        "template_count": 1,
+        "first_added": "2026-08-31"
+      },
+      {
         "provider_id": "jmjbillings.com",
         "provider_name": "JMJ Billings",
         "logo_url": "https://portal.jmjbillings.com/logo-domainconnect.png",
@@ -3023,42 +3044,21 @@
         "logo_url": "https://pipegrid.soms-qc.ca/logo.png",
         "template_count": 1,
         "first_added": "2026-08-30"
-      },
-      {
-        "provider_id": "vambe-mail.com",
-        "provider_name": "Vambe",
-        "logo_url": "https://app.vambeai.com/logos/vambe-logo.svg",
-        "template_count": 1,
-        "first_added": "2026-08-30"
-      },
-      {
-        "provider_id": "fieldblasters.com",
-        "provider_name": "Field Blasters",
-        "logo_url": "https://fieldblasters.com/img/logo.png",
-        "template_count": 1,
-        "first_added": "2026-08-30"
-      },
-      {
-        "provider_id": "xmessage.io",
-        "provider_name": "xMessage",
-        "logo_url": "https://qlara-public-asset.s3.eu-west-par.io.cloud.ovh.net/loghi/xmessage-dark.svg",
-        "template_count": 1,
-        "first_added": "2026-08-30"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 1227,
+    "total_templates": 1230,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 1155
+        "count": 1158
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 901
+        "count": 903
       },
       {
         "name": "warnPhishing",
@@ -3068,18 +3068,62 @@
       {
         "name": "hostRequired",
         "label": "hostRequired",
-        "count": 356
+        "count": 358
       }
     ]
   },
   "recent_prs": [
+    {
+      "number": 1708,
+      "title": "add aser.tr, aser.tr Business Email",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T18:02:40Z",
+      "updated_at": "2026-08-31T18:05:34Z",
+      "merged_at": null,
+      "author": "dogukanerguner",
+      "author_avatar": "https://avatars.githubusercontent.com/u/219527818?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1708",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "aser",
+          "service_id": "tr.eposta",
+          "filename": "aser.tr.eposta.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1707,
+      "title": "Update fingerprint.com.custom-subdomain.json",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T13:50:42Z",
+      "updated_at": "2026-08-31T14:17:54Z",
+      "merged_at": null,
+      "author": "ozy-s",
+      "author_avatar": "https://avatars.githubusercontent.com/u/191480710?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1707",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "fingerprint",
+          "service_id": "com.custom-subdomain",
+          "filename": "fingerprint.com.custom-subdomain.json",
+          "logo_url": "https://fingerprint.com/img/email-assets/fingerprint_logo_with_name.png",
+          "status": "modified"
+        }
+      ]
+    },
     {
       "number": 1703,
       "title": "Add template: heygetfound.com / getfound",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-30T18:25:59Z",
-      "updated_at": "2026-08-30T18:27:50Z",
+      "updated_at": "2026-08-31T22:58:48Z",
       "merged_at": null,
       "author": "omricohen",
       "author_avatar": "https://avatars.githubusercontent.com/u/130946?v=4",
@@ -4475,7 +4519,7 @@
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 133,
+        "review_count": 136,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -4507,7 +4551,7 @@
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 77,
+        "review_count": 80,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -9621,6 +9665,15 @@
       "record_count": 20
     },
     {
+      "filename": "juudd.com.site.json",
+      "provider_id": "juudd.com",
+      "service_id": "site",
+      "provider_name": "juudd",
+      "service_name": "Point a domain at a juudd site",
+      "logo_url": "https://juudd.com/logo.svg",
+      "record_count": 1
+    },
+    {
       "filename": "kangarua.net.dmarc.json",
       "provider_id": "kangarua.net",
       "service_id": "dmarc",
@@ -11005,6 +11058,15 @@
       "service_name": "Custom Domain",
       "logo_url": "https://logo.multos.app/logo.svg",
       "record_count": 1
+    },
+    {
+      "filename": "mybussinessweb.com.website.json",
+      "provider_id": "mybussinessweb.com",
+      "service_id": "website",
+      "provider_name": "MyBusinessWeb",
+      "service_name": "MyBusinessWeb Live Website",
+      "logo_url": "https://mybussinessweb.com/favicon.ico",
+      "record_count": 2
     },
     {
       "filename": "myemail.ge.mail.json",
@@ -15559,6 +15621,15 @@
       "service_name": "Zoho",
       "logo_url": "https://mailadmin.zoho.com/cpanel/mailimage?filename=zoho-logo.png",
       "record_count": 13
+    },
+    {
+      "filename": "zuppi.io.tracking.json",
+      "provider_id": "zuppi.io",
+      "service_id": "tracking",
+      "provider_name": "Zuppi",
+      "service_name": "Zuppi link tracking",
+      "logo_url": "https://zuppi.io/icons/icon-512.png",
+      "record_count": 1
     },
     {
       "filename": "zybr.ai.mailgun-autosecurity.json",
