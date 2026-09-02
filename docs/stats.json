@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T02:26:48.078600",
+  "generated_at": "2026-09-02T01:48:30.459552",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1230,
     "total_providers": 779,
     "total_merged_prs": 1293,
-    "total_open_prs": 50,
+    "total_open_prs": 55,
     "total_contributors": 446,
     "avg_records_per_template": 3.16
   },
@@ -1585,6 +1585,11 @@
       "month": "2026-08",
       "created": 204,
       "merged": 194
+    },
+    {
+      "month": "2026-09",
+      "created": 5,
+      "merged": 0
     }
   ],
   "pr_time_to_merge": [
@@ -2319,6 +2324,28 @@
       "schema-error": 11,
       "syncBlock": 1,
       "warnPhishing": 7
+    },
+    {
+      "month": "2026-09",
+      "AI crap": 0,
+      "Checklist of common problems not complete": 0,
+      "Chores": 0,
+      "Forged editor links": 0,
+      "PR description incomplete": 2,
+      "Stale": 0,
+      "Test links missing": 3,
+      "automerge-possible": 1,
+      "blocked": 0,
+      "duplicate": 0,
+      "filename-error": 0,
+      "hostRequired": 1,
+      "new review needed": 0,
+      "no syncPubKeyDomain": 0,
+      "question": 0,
+      "review issues": 0,
+      "schema-error": 0,
+      "syncBlock": 0,
+      "warnPhishing": 0
     }
   ],
   "pr_comment_activity": [
@@ -2729,6 +2756,10 @@
     {
       "month": "2026-08",
       "avg_comments": 0.1
+    },
+    {
+      "month": "2026-09",
+      "avg_comments": 0.0
     }
   ],
   "record_types": [
@@ -3074,17 +3105,140 @@
   },
   "recent_prs": [
     {
+      "number": 1713,
+      "title": "Add kissaki.io domain-verify template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T20:35:34Z",
+      "updated_at": "2026-09-01T20:59:18Z",
+      "merged_at": null,
+      "author": "jcardonne",
+      "author_avatar": "https://avatars.githubusercontent.com/u/50085165?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1713",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "kissaki",
+          "service_id": "io.domain-verify",
+          "filename": "kissaki.io.domain-verify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1712,
+      "title": "Postboi: dkim-dmarc-inbound and dkim-inbound templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T15:38:34Z",
+      "updated_at": "2026-09-01T15:39:09Z",
+      "merged_at": null,
+      "author": "darbymanning",
+      "author_avatar": "https://avatars.githubusercontent.com/u/8170676?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1712",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "postboi",
+          "service_id": "email.dkim-dmarc-inbound",
+          "filename": "postboi.email.dkim-dmarc-inbound.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "postboi",
+          "service_id": "email.dkim-inbound",
+          "filename": "postboi.email.dkim-inbound.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1711,
+      "title": "Add Kilo Routes, Kilo branded link domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T15:27:43Z",
+      "updated_at": "2026-09-01T15:28:18Z",
+      "merged_at": null,
+      "author": "razl3vi",
+      "author_avatar": "https://avatars.githubusercontent.com/u/54993822?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1711",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "kiloroutes",
+          "service_id": "com.link-domain",
+          "filename": "kiloroutes.com.link-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1710,
+      "title": "add EasyDNSConnector, Managed Email DNS Setup",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T14:47:22Z",
+      "updated_at": "2026-09-01T14:52:17Z",
+      "merged_at": null,
+      "author": "murcked",
+      "author_avatar": "https://avatars.githubusercontent.com/u/313208336?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1710",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "easydnsconnector",
+          "service_id": "com.email",
+          "filename": "easydnsconnector.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1709,
+      "title": "Update shopdeck.com.website-service-id template to v3",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T11:40:11Z",
+      "updated_at": "2026-09-01T12:23:51Z",
+      "merged_at": null,
+      "author": "pratikkhulge-blitz",
+      "author_avatar": "https://avatars.githubusercontent.com/u/170920752?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1709",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "shopdeck",
+          "service_id": "com.website-service-id",
+          "filename": "shopdeck.com.website-service-id.json",
+          "logo_url": "https://pro.shopdeck.com/logo192.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
       "number": 1708,
       "title": "add aser.tr, aser.tr Business Email",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-31T18:02:40Z",
-      "updated_at": "2026-08-31T18:05:34Z",
+      "updated_at": "2026-09-01T20:19:57Z",
       "merged_at": null,
       "author": "dogukanerguner",
       "author_avatar": "https://avatars.githubusercontent.com/u/219527818?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1708",
-      "labels": [],
+      "labels": [
+        "automerge-possible"
+      ],
       "templates": [
         {
           "provider_id": "aser",
@@ -4545,7 +4699,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 119,
+        "review_count": 118,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -15709,16 +15863,16 @@
       "profile_url": "https://github.com/twalmsley"
     },
     {
-      "login": "bdickson1-godaddy",
-      "contributions": 18,
-      "avatar_url": "https://avatars.githubusercontent.com/u/54912895?v=4",
-      "profile_url": "https://github.com/bdickson1-godaddy"
-    },
-    {
       "login": "greenreader9",
       "contributions": 18,
       "avatar_url": "https://avatars.githubusercontent.com/u/75644395?v=4",
       "profile_url": "https://github.com/greenreader9"
+    },
+    {
+      "login": "bdickson1-godaddy",
+      "contributions": 18,
+      "avatar_url": "https://avatars.githubusercontent.com/u/54912895?v=4",
+      "profile_url": "https://github.com/bdickson1-godaddy"
     },
     {
       "login": "webtoolbox",
@@ -15763,16 +15917,10 @@
       "profile_url": "https://github.com/john-zli"
     },
     {
-      "login": "jotra7",
+      "login": "astrutzenberg-godaddy",
       "contributions": 10,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4241654?v=4",
-      "profile_url": "https://github.com/jotra7"
-    },
-    {
-      "login": "slxca",
-      "contributions": 10,
-      "avatar_url": "https://avatars.githubusercontent.com/u/93574921?v=4",
-      "profile_url": "https://github.com/slxca"
+      "avatar_url": "https://avatars.githubusercontent.com/u/2229854?v=4",
+      "profile_url": "https://github.com/astrutzenberg-godaddy"
     },
     {
       "login": "asafdl",
@@ -15781,28 +15929,22 @@
       "profile_url": "https://github.com/asafdl"
     },
     {
-      "login": "astrutzenberg-godaddy",
+      "login": "slxca",
       "contributions": 10,
-      "avatar_url": "https://avatars.githubusercontent.com/u/2229854?v=4",
-      "profile_url": "https://github.com/astrutzenberg-godaddy"
+      "avatar_url": "https://avatars.githubusercontent.com/u/93574921?v=4",
+      "profile_url": "https://github.com/slxca"
     },
     {
-      "login": "TracyFogel",
-      "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/16194195?v=4",
-      "profile_url": "https://github.com/TracyFogel"
+      "login": "jotra7",
+      "contributions": 10,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4241654?v=4",
+      "profile_url": "https://github.com/jotra7"
     },
     {
-      "login": "jeevan-getmoda",
+      "login": "apxcarter",
       "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/128358938?v=4",
-      "profile_url": "https://github.com/jeevan-getmoda"
-    },
-    {
-      "login": "thoag-godaddy",
-      "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/89269158?v=4",
-      "profile_url": "https://github.com/thoag-godaddy"
+      "avatar_url": "https://avatars.githubusercontent.com/u/135069364?v=4",
+      "profile_url": "https://github.com/apxcarter"
     },
     {
       "login": "imgerson",
@@ -15811,10 +15953,22 @@
       "profile_url": "https://github.com/imgerson"
     },
     {
-      "login": "apxcarter",
+      "login": "thoag-godaddy",
       "contributions": 9,
-      "avatar_url": "https://avatars.githubusercontent.com/u/135069364?v=4",
-      "profile_url": "https://github.com/apxcarter"
+      "avatar_url": "https://avatars.githubusercontent.com/u/89269158?v=4",
+      "profile_url": "https://github.com/thoag-godaddy"
+    },
+    {
+      "login": "jeevan-getmoda",
+      "contributions": 9,
+      "avatar_url": "https://avatars.githubusercontent.com/u/128358938?v=4",
+      "profile_url": "https://github.com/jeevan-getmoda"
+    },
+    {
+      "login": "TracyFogel",
+      "contributions": 9,
+      "avatar_url": "https://avatars.githubusercontent.com/u/16194195?v=4",
+      "profile_url": "https://github.com/TracyFogel"
     },
     {
       "login": "arya-dos",
