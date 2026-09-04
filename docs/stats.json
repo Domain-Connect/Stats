@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T01:53:56.716191",
+  "generated_at": "2026-09-04T01:48:32.314741",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1244,
     "total_providers": 786,
     "total_merged_prs": 1308,
-    "total_open_prs": 50,
+    "total_open_prs": 56,
     "total_contributors": 447,
     "avg_records_per_template": 3.18
   },
@@ -1599,7 +1599,7 @@
     },
     {
       "month": "2026-09",
-      "created": 17,
+      "created": 23,
       "merged": 15
     }
   ],
@@ -2346,14 +2346,14 @@
       "Checklist of common problems not complete": 1,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 4,
+      "PR description incomplete": 5,
       "Stale": 0,
-      "Test links missing": 8,
-      "automerge-possible": 7,
+      "Test links missing": 10,
+      "automerge-possible": 10,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 6,
+      "hostRequired": 7,
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
@@ -2774,7 +2774,7 @@
     },
     {
       "month": "2026-09",
-      "avg_comments": 0.2
+      "avg_comments": 0.1
     }
   ],
   "record_types": [
@@ -3120,6 +3120,146 @@
   },
   "recent_prs": [
     {
+      "number": 1731,
+      "title": "add oriiion, oriiion website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T23:49:51Z",
+      "updated_at": "2026-09-03T23:50:28Z",
+      "merged_at": null,
+      "author": "BrightMindAgency",
+      "author_avatar": "https://avatars.githubusercontent.com/u/82108719?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1731",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "oriiion",
+          "service_id": "ai.website",
+          "filename": "oriiion.ai.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1730,
+      "title": "Add Krafter Mail template (krafter.dev / mail)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T17:09:45Z",
+      "updated_at": "2026-09-03T17:26:32Z",
+      "merged_at": null,
+      "author": "misho85",
+      "author_avatar": "https://avatars.githubusercontent.com/u/23007950?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1730",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "krafter",
+          "service_id": "dev.mail",
+          "filename": "krafter.dev.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1729,
+      "title": "Add Wavelinker, email (Postmark) template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T16:51:03Z",
+      "updated_at": "2026-09-03T17:38:06Z",
+      "merged_at": null,
+      "author": "wszostak8",
+      "author_avatar": "https://avatars.githubusercontent.com/u/16568110?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1729",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "wavelinker",
+          "service_id": "io.email-postmark",
+          "filename": "wavelinker.io.email-postmark.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1728,
+      "title": "mailsoftly.com.email-auth: version 3, add ms102 MAIL FROM CNAME to delivery group",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T12:48:25Z",
+      "updated_at": "2026-09-03T12:49:16Z",
+      "merged_at": null,
+      "author": "mailsoftly-dev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/300470534?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1728",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "mailsoftly",
+          "service_id": "com.email-auth",
+          "filename": "mailsoftly.com.email-auth.json",
+          "logo_url": "https://app.mailsoftly.com/mailsoftly_dark_logo.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1727,
+      "title": "Add noonapp.com.au.email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T10:04:53Z",
+      "updated_at": "2026-09-03T10:17:15Z",
+      "merged_at": null,
+      "author": "shouldntregister",
+      "author_avatar": "https://avatars.githubusercontent.com/u/185353423?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1727",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "noonapp",
+          "service_id": "com.au.email",
+          "filename": "noonapp.com.au.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1726,
+      "title": "Add backlinkhell.com ownership template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T02:57:48Z",
+      "updated_at": "2026-09-03T02:58:22Z",
+      "merged_at": null,
+      "author": "BugraAkdogan",
+      "author_avatar": "https://avatars.githubusercontent.com/u/78607538?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1726",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "backlinkhell",
+          "service_id": "com.ownership",
+          "filename": "backlinkhell.com.ownership.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1725,
       "title": "Add ururu.store.storefront template",
       "state": "open",
@@ -3174,14 +3314,15 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-01T15:27:43Z",
-      "updated_at": "2026-09-02T22:19:27Z",
+      "updated_at": "2026-09-03T17:45:38Z",
       "merged_at": null,
       "author": "razl3vi",
       "author_avatar": "https://avatars.githubusercontent.com/u/54993822?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1711",
       "labels": [
+        "Test links missing",
         "hostRequired",
-        "review issues"
+        "new review needed"
       ],
       "templates": [
         {
