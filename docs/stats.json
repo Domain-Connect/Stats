@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T01:48:32.314741",
+  "generated_at": "2026-09-05T01:49:19.878406",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1244,
     "total_providers": 786,
     "total_merged_prs": 1308,
-    "total_open_prs": 56,
+    "total_open_prs": 65,
     "total_contributors": 447,
     "avg_records_per_template": 3.18
   },
@@ -1599,7 +1599,7 @@
     },
     {
       "month": "2026-09",
-      "created": 23,
+      "created": 33,
       "merged": 15
     }
   ],
@@ -2346,14 +2346,14 @@
       "Checklist of common problems not complete": 1,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 5,
+      "PR description incomplete": 8,
       "Stale": 0,
-      "Test links missing": 10,
-      "automerge-possible": 10,
+      "Test links missing": 13,
+      "automerge-possible": 11,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 7,
+      "hostRequired": 12,
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
@@ -3120,6 +3120,267 @@
   },
   "recent_prs": [
     {
+      "number": 1741,
+      "title": "add Foral, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T21:28:52Z",
+      "updated_at": "2026-09-04T21:29:32Z",
+      "merged_at": null,
+      "author": "jeyvison",
+      "author_avatar": "https://avatars.githubusercontent.com/u/2052262?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1741",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "foral",
+          "service_id": "cloud.dkim",
+          "filename": "foral.cloud.dkim.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "foral",
+          "service_id": "cloud.verify-mx",
+          "filename": "foral.cloud.verify-mx.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1740,
+      "title": "Add zahbrandsolutions.com.site template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T20:30:44Z",
+      "updated_at": "2026-09-04T20:31:14Z",
+      "merged_at": null,
+      "author": "Yawitazah",
+      "author_avatar": "https://avatars.githubusercontent.com/u/188621630?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1740",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "zahbrandsolutions",
+          "service_id": "com.site",
+          "filename": "zahbrandsolutions.com.site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1739,
+      "title": "add FunnelLingo, Hosted multilingual pages",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T19:01:53Z",
+      "updated_at": "2026-09-04T19:02:34Z",
+      "merged_at": null,
+      "author": "mooshee",
+      "author_avatar": "https://avatars.githubusercontent.com/u/874270?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1739",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "funnellingo",
+          "service_id": "com.custom-domain",
+          "filename": "funnellingo.com.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1738,
+      "title": "add AgentMail, AgentMail Email",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T18:48:10Z",
+      "updated_at": "2026-09-04T18:57:02Z",
+      "merged_at": null,
+      "author": "josephfeleke",
+      "author_avatar": "https://avatars.githubusercontent.com/u/53655514?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1738",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "agentmail",
+          "service_id": "to.email",
+          "filename": "agentmail.to.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1737,
+      "title": "Add Zylosync Storefront custom domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T16:54:50Z",
+      "updated_at": "2026-09-04T16:55:28Z",
+      "merged_at": null,
+      "author": "khanshifaul",
+      "author_avatar": "https://avatars.githubusercontent.com/u/37363422?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1737",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "zylosync",
+          "service_id": "app.storefront-custom-domain",
+          "filename": "zylosync.app.storefront-custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1736,
+      "title": "Add Rosebud Cloud Solutions Journey templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T14:28:31Z",
+      "updated_at": "2026-09-04T19:45:53Z",
+      "merged_at": null,
+      "author": "mackdanny",
+      "author_avatar": "https://avatars.githubusercontent.com/u/33415671?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1736",
+      "labels": [
+        "Test links missing"
+      ],
+      "templates": [
+        {
+          "provider_id": "rosebudcloudsolutions",
+          "service_id": "co.uk.journey-managed-dmarc",
+          "filename": "rosebudcloudsolutions.co.uk.journey-managed-dmarc.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "rosebudcloudsolutions",
+          "service_id": "co.uk.journey-monitor",
+          "filename": "rosebudcloudsolutions.co.uk.journey-monitor.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "rosebudcloudsolutions",
+          "service_id": "co.uk.journey-verify",
+          "filename": "rosebudcloudsolutions.co.uk.journey-verify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1735,
+      "title": "Add astrae.us verification template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T10:43:36Z",
+      "updated_at": "2026-09-04T11:00:22Z",
+      "merged_at": null,
+      "author": "Zenofex",
+      "author_avatar": "https://avatars.githubusercontent.com/u/1518041?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1735",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "astrae",
+          "service_id": "us.verification",
+          "filename": "astrae.us.verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1734,
+      "title": "add Relay, Relay help center",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T10:04:04Z",
+      "updated_at": "2026-09-04T10:04:38Z",
+      "merged_at": null,
+      "author": "geongeorge",
+      "author_avatar": "https://avatars.githubusercontent.com/u/29296982?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1734",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "superrelay",
+          "service_id": "ai.helpcenter",
+          "filename": "superrelay.ai.helpcenter.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1733,
+      "title": "Add naulon.app templates: verify (ownership TXT) and route (traffic CNAME)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T08:50:11Z",
+      "updated_at": "2026-09-04T08:50:49Z",
+      "merged_at": null,
+      "author": "RavianXReaver",
+      "author_avatar": "https://avatars.githubusercontent.com/u/11337577?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1733",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "naulon",
+          "service_id": "app.route",
+          "filename": "naulon.app.route.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "naulon",
+          "service_id": "app.verify",
+          "filename": "naulon.app.verify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1732,
+      "title": "Add hicurb.com website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T06:50:59Z",
+      "updated_at": "2026-09-04T06:51:38Z",
+      "merged_at": null,
+      "author": "Adamparishspok",
+      "author_avatar": "https://avatars.githubusercontent.com/u/888242?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1732",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "hicurb",
+          "service_id": "com.website",
+          "filename": "hicurb.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1731,
       "title": "add oriiion, oriiion website",
       "state": "open",
@@ -3279,30 +3540,6 @@
           "provider_id": "ururu",
           "service_id": "store.storefront",
           "filename": "ururu.store.storefront.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1720,
-      "title": "Add Zylosync Storefront custom domain template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T11:45:58Z",
-      "updated_at": "2026-09-02T12:04:08Z",
-      "merged_at": null,
-      "author": "khanshifaul",
-      "author_avatar": "https://avatars.githubusercontent.com/u/37363422?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1720",
-      "labels": [
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "zylosync",
-          "service_id": "app.storefront-custom-domain",
-          "filename": "zylosync.app.storefront-custom-domain.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3939,12 +4176,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-04T22:26:35Z",
-      "updated_at": "2026-08-04T22:27:33Z",
+      "updated_at": "2026-09-04T06:12:09Z",
       "merged_at": null,
       "author": "ryannegri",
       "author_avatar": "https://avatars.githubusercontent.com/u/16611425?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1524",
       "labels": [
+        "Stale",
         "PR description incomplete",
         "Checklist of common problems not complete",
         "Test links missing",
@@ -3959,12 +4197,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-04T06:06:32Z",
-      "updated_at": "2026-08-04T06:07:13Z",
+      "updated_at": "2026-09-04T06:12:12Z",
       "merged_at": null,
       "author": "TheCommandCat",
       "author_avatar": "https://avatars.githubusercontent.com/u/45752648?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1519",
       "labels": [
+        "Stale",
         "Test links missing",
         "hostRequired"
       ],
