@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T01:58:30.994919",
+  "generated_at": "2026-09-10T01:54:49.454875",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1305,
     "total_providers": 829,
     "total_merged_prs": 1360,
-    "total_open_prs": 58,
+    "total_open_prs": 60,
     "total_contributors": 448,
     "avg_records_per_template": 3.17
   },
@@ -1599,7 +1599,7 @@
     },
     {
       "month": "2026-09",
-      "created": 83,
+      "created": 93,
       "merged": 67
     }
   ],
@@ -2343,17 +2343,17 @@
     {
       "month": "2026-09",
       "AI crap": 0,
-      "Checklist of common problems not complete": 11,
+      "Checklist of common problems not complete": 12,
       "Chores": 0,
       "Forged editor links": 1,
-      "PR description incomplete": 20,
+      "PR description incomplete": 21,
       "Stale": 0,
-      "Test links missing": 27,
-      "automerge-possible": 27,
+      "Test links missing": 31,
+      "automerge-possible": 32,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 0,
-      "hostRequired": 34,
+      "hostRequired": 40,
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
@@ -2774,7 +2774,7 @@
     },
     {
       "month": "2026-09",
-      "avg_comments": 0.0
+      "avg_comments": 0.1
     }
   ],
   "record_types": [
@@ -3119,6 +3119,272 @@
     ]
   },
   "recent_prs": [
+    {
+      "number": 1801,
+      "title": "AI-CMYK, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T01:16:27Z",
+      "updated_at": "2026-09-10T01:17:19Z",
+      "merged_at": null,
+      "author": "mjohnson10111",
+      "author_avatar": "https://avatars.githubusercontent.com/u/133209575?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1801",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "ai-cmyk",
+          "service_id": "com.portal",
+          "filename": "ai-cmyk.com.portal.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "ai-cmyk",
+          "service_id": "com.website",
+          "filename": "ai-cmyk.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1800,
+      "title": "dnsdoctor.dev.domainverify: v2 — declare syncRedirectDomain, add logoUrl",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T19:54:10Z",
+      "updated_at": "2026-09-09T19:59:36Z",
+      "merged_at": null,
+      "author": "dnsdoctor-ops",
+      "author_avatar": "https://avatars.githubusercontent.com/u/307774225?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1800",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "dnsdoctor",
+          "service_id": "dev.domainverify",
+          "filename": "dnsdoctor.dev.domainverify.json",
+          "logo_url": null,
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1799,
+      "title": "Add waybornusa.com mail-delegation and email-records templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T15:27:50Z",
+      "updated_at": "2026-09-09T15:33:06Z",
+      "merged_at": null,
+      "author": "evanholo",
+      "author_avatar": "https://avatars.githubusercontent.com/u/143361940?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1799",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "waybornusa",
+          "service_id": "com.email-records",
+          "filename": "waybornusa.com.email-records.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "waybornusa",
+          "service_id": "com.mail-delegation",
+          "filename": "waybornusa.com.mail-delegation.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1798,
+      "title": "Add Feedvote custom feedback portal templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T13:28:18Z",
+      "updated_at": "2026-09-09T13:28:55Z",
+      "merged_at": null,
+      "author": "DraGSsine",
+      "author_avatar": "https://avatars.githubusercontent.com/u/58791370?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1798",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "feedvote",
+          "service_id": "app.custom-domain-ownership",
+          "filename": "feedvote.app.custom-domain-ownership.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "feedvote",
+          "service_id": "app.custom-domain",
+          "filename": "feedvote.app.custom-domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1797,
+      "title": "Add siteinthemail.com website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T12:59:28Z",
+      "updated_at": "2026-09-09T13:00:37Z",
+      "merged_at": null,
+      "author": "BenBart67",
+      "author_avatar": "https://avatars.githubusercontent.com/u/15621606?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1797",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "siteinthemail",
+          "service_id": "com.website",
+          "filename": "siteinthemail.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1796,
+      "title": "add Vyron Technologies, Vyron Hosting",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T12:49:25Z",
+      "updated_at": "2026-09-09T12:58:11Z",
+      "merged_at": null,
+      "author": "niceguyyk",
+      "author_avatar": "https://avatars.githubusercontent.com/u/182919847?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1796",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "vyronhosting",
+          "service_id": "com.hosting",
+          "filename": "vyronhosting.com.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1795,
+      "title": "add VacayOps, VacayOps website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T12:38:12Z",
+      "updated_at": "2026-09-09T12:38:46Z",
+      "merged_at": null,
+      "author": "quietfunction-us",
+      "author_avatar": "https://avatars.githubusercontent.com/u/223894952?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1795",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "vacayops",
+          "service_id": "com.website",
+          "filename": "vacayops.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1794,
+      "title": "Add mailermine.com.email-sending template (MailerMine email sending)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T10:11:18Z",
+      "updated_at": "2026-09-09T10:11:54Z",
+      "merged_at": null,
+      "author": "rahulyadav5192",
+      "author_avatar": "https://avatars.githubusercontent.com/u/140411578?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1794",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "mailermine",
+          "service_id": "com.email-sending",
+          "filename": "mailermine.com.email-sending.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1793,
+      "title": "Shopiyz, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T08:18:11Z",
+      "updated_at": "2026-09-09T08:19:04Z",
+      "merged_at": null,
+      "author": "ads-dotcom",
+      "author_avatar": "https://avatars.githubusercontent.com/u/229527597?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1793",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "shopiyz",
+          "service_id": "com.storefront-routing",
+          "filename": "shopiyz.com.storefront-routing.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "shopiyz",
+          "service_id": "com.storefront-verification",
+          "filename": "shopiyz.com.storefront-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1792,
+      "title": "Add slydeonline.com.website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T05:04:26Z",
+      "updated_at": "2026-09-09T05:15:38Z",
+      "merged_at": null,
+      "author": "cigarandbourbontickets",
+      "author_avatar": "https://avatars.githubusercontent.com/u/246918394?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1792",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "slydeonline",
+          "service_id": "com.website",
+          "filename": "slydeonline.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
     {
       "number": 1791,
       "title": "Add cowliss.com.sending-domain template",
@@ -4398,238 +4664,6 @@
       ]
     },
     {
-      "number": 1451,
-      "title": "Add Oezer Mail Purelymail template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T22:59:58Z",
-      "updated_at": "2026-08-24T02:41:41Z",
-      "merged_at": null,
-      "author": "Borekobama",
-      "author_avatar": "https://avatars.githubusercontent.com/u/100217477?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1451",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "mail",
-          "service_id": "oezer.ch.purelymail",
-          "filename": "mail.oezer.ch.purelymail.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1447,
-      "title": "Add groupId to optional DKIM records in godaddy.com.aab.json",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T05:55:59Z",
-      "updated_at": "2026-08-24T02:41:42Z",
-      "merged_at": null,
-      "author": "rkorin-godaddy",
-      "author_avatar": "https://avatars.githubusercontent.com/u/112121904?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1447",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "godaddy",
-          "service_id": "com.aab",
-          "filename": "godaddy.com.aab.json",
-          "logo_url": "https://www.domainconnect.org/wp-content/uploads/2020/02/godaddy_logo_new.png",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 1437,
-      "title": "Add contactcloud365.com.email (AlphaOutreach email sending)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T03:54:42Z",
-      "updated_at": "2026-08-24T02:41:44Z",
-      "merged_at": null,
-      "author": "netpediaweb",
-      "author_avatar": "https://avatars.githubusercontent.com/u/159089811?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1437",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "contactcloud365",
-          "service_id": "com.email",
-          "filename": "contactcloud365.com.email.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1430,
-      "title": "Add knola.ai website template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T07:25:22Z",
-      "updated_at": "2026-08-24T02:41:45Z",
-      "merged_at": null,
-      "author": "viddyoze",
-      "author_avatar": "https://avatars.githubusercontent.com/u/15088093?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1430",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "knola",
-          "service_id": "ai.website",
-          "filename": "knola.ai.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1392,
-      "title": "Add VeloCMS templates (velocms.org / connect, connect-apex)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T12:30:29Z",
-      "updated_at": "2026-08-24T02:41:46Z",
-      "merged_at": null,
-      "author": "muharremyurtsever",
-      "author_avatar": "https://avatars.githubusercontent.com/u/174323786?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1392",
-      "labels": [
-        "Stale",
-        "hostRequired",
-        "syncBlock",
-        "review issues"
-      ],
-      "templates": [
-        {
-          "provider_id": "velocms",
-          "service_id": "org.connect-apex",
-          "filename": "velocms.org.connect-apex.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "velocms",
-          "service_id": "org.connect",
-          "filename": "velocms.org.connect.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1389,
-      "title": "add Grok, App Builder (subdomain + apex)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T05:42:00Z",
-      "updated_at": "2026-08-24T02:41:47Z",
-      "merged_at": null,
-      "author": "shamwow",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5105488?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1389",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing",
-        "hostRequired"
-      ],
-      "templates": [
-        {
-          "provider_id": "grok",
-          "service_id": "com.app-builder-apex",
-          "filename": "grok.com.app-builder-apex.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "grok",
-          "service_id": "com.app-builder",
-          "filename": "grok.com.app-builder.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1388,
-      "title": "Add shiftpress.ai.custom-domain template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T04:57:19Z",
-      "updated_at": "2026-08-24T06:38:56Z",
-      "merged_at": null,
-      "author": "joaoaguiam",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5901730?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1388",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing",
-        "no syncPubKeyDomain",
-        "warnPhishing"
-      ],
-      "templates": [
-        {
-          "provider_id": "shiftpress",
-          "service_id": "ai.custom-domain",
-          "filename": "shiftpress.ai.custom-domain.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1387,
-      "title": "Add brokerfold.com.website template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T03:38:46Z",
-      "updated_at": "2026-08-25T02:35:09Z",
-      "merged_at": null,
-      "author": "searchpod",
-      "author_avatar": "https://avatars.githubusercontent.com/u/226559374?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1387",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "brokerfold",
-          "service_id": "com.website",
-          "filename": "brokerfold.com.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1378,
       "title": "Add MallOne storefront template (mallone.ug.storefront)",
       "state": "open",
@@ -4837,7 +4871,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 150,
+        "review_count": 130,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
@@ -4849,7 +4883,7 @@
       },
       {
         "login": "copilot-pull-request-reviewer[bot]",
-        "review_count": 4,
+        "review_count": 3,
         "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
         "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       },
