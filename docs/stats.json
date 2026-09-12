@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T01:53:58.252352",
+  "generated_at": "2026-09-12T01:58:51.515123",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1346,
     "total_providers": 852,
     "total_merged_prs": 1391,
-    "total_open_prs": 42,
+    "total_open_prs": 50,
     "total_contributors": 449,
     "avg_records_per_template": 3.14
   },
@@ -1599,7 +1599,7 @@
     },
     {
       "month": "2026-09",
-      "created": 114,
+      "created": 123,
       "merged": 99
     }
   ],
@@ -2348,12 +2348,12 @@
       "Forged editor links": 1,
       "PR description incomplete": 25,
       "Stale": 0,
-      "Test links missing": 41,
-      "automerge-possible": 42,
+      "Test links missing": 42,
+      "automerge-possible": 47,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 53,
+      "hostRequired": 55,
       "new review needed": 0,
       "no syncPubKeyDomain": 0,
       "question": 0,
@@ -3120,6 +3120,224 @@
   },
   "recent_prs": [
     {
+      "number": 1831,
+      "title": "Pointer, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T22:40:03Z",
+      "updated_at": "2026-09-11T22:40:31Z",
+      "merged_at": null,
+      "author": "ojieame12",
+      "author_avatar": "https://avatars.githubusercontent.com/u/144963578?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1831",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "pointer",
+          "service_id": "ojieame.design.public-website-apex",
+          "filename": "pointer.ojieame.design.public-website-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "pointer",
+          "service_id": "ojieame.design.public-website-cname",
+          "filename": "pointer.ojieame.design.public-website-cname.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1830,
+      "title": "add Dineora, Dineora restaurant website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T17:20:33Z",
+      "updated_at": "2026-09-11T17:21:06Z",
+      "merged_at": null,
+      "author": "Dineora-Marketing-Agency",
+      "author_avatar": "https://avatars.githubusercontent.com/u/131419321?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1830",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "dineora",
+          "service_id": "io.site",
+          "filename": "dineora.io.site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1829,
+      "title": "add Speech Oak, Speech Oak practice website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T17:03:05Z",
+      "updated_at": "2026-09-11T17:04:52Z",
+      "merged_at": null,
+      "author": "aanshshah",
+      "author_avatar": "https://avatars.githubusercontent.com/u/17893780?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1829",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "speechoak",
+          "service_id": "com.practice-sites",
+          "filename": "speechoak.com.practice-sites.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1828,
+      "title": "add Pentoggle, Pentoggle custom domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T13:47:23Z",
+      "updated_at": "2026-09-11T14:51:26Z",
+      "merged_at": null,
+      "author": "abhinav2600",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3799098?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1828",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "pentoggle",
+          "service_id": "com.customdomain",
+          "filename": "pentoggle.com.customdomain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1827,
+      "title": "update SendBeam, SendBeam sending domain (version 2)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T13:13:48Z",
+      "updated_at": "2026-09-11T13:14:36Z",
+      "merged_at": null,
+      "author": "allinthecode1",
+      "author_avatar": "https://avatars.githubusercontent.com/u/207598317?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1827",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "sendbeam",
+          "service_id": "io.sending-domain",
+          "filename": "sendbeam.io.sending-domain.json",
+          "logo_url": "https://sendbeam.io/brand/sendbeam-wordmark.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1826,
+      "title": "Add folita.me.domainverify template (folita custom domain verification)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T09:05:32Z",
+      "updated_at": "2026-09-11T09:06:03Z",
+      "merged_at": null,
+      "author": "amanetoki7",
+      "author_avatar": "https://avatars.githubusercontent.com/u/201019579?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1826",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "folita",
+          "service_id": "me.domainverify",
+          "filename": "folita.me.domainverify.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1825,
+      "title": "add UNIVU, UNIVU Website",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T04:37:45Z",
+      "updated_at": "2026-09-11T04:38:36Z",
+      "merged_at": null,
+      "author": "univu-dev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/116323762?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1825",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "univu",
+          "service_id": "app.website",
+          "filename": "univu.app.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1824,
+      "title": "Add hellagood.food website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T04:08:46Z",
+      "updated_at": "2026-09-11T04:09:26Z",
+      "merged_at": null,
+      "author": "johnnytaco11",
+      "author_avatar": "https://avatars.githubusercontent.com/u/209190481?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1824",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "hellagood",
+          "service_id": "food.website",
+          "filename": "hellagood.food.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1823,
+      "title": "add Calemander, Calemander Email Sending (dual provider)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T01:55:25Z",
+      "updated_at": "2026-09-11T01:56:16Z",
+      "merged_at": null,
+      "author": "calemander",
+      "author_avatar": "https://avatars.githubusercontent.com/u/327722468?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1823",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "calemander",
+          "service_id": "com.email-sending-dual",
+          "filename": "calemander.com.email-sending-dual.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1822,
       "title": "add Calemander, Calemander Booking Domain",
       "state": "open",
@@ -3211,31 +3429,6 @@
           "provider_id": "sparkos",
           "service_id": "site",
           "filename": "sparkos.site.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1817,
-      "title": "Add ScaleNodes web service template",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T21:35:33Z",
-      "updated_at": "2026-09-10T21:58:09Z",
-      "merged_at": null,
-      "author": "JohnKinyanjui",
-      "author_avatar": "https://avatars.githubusercontent.com/u/52638680?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1817",
-      "labels": [
-        "hostRequired",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "scalenodes",
-          "service_id": "com.web-service",
-          "filename": "scalenodes.com.web-service.json",
           "logo_url": null,
           "status": "added"
         }
@@ -4307,12 +4500,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-26T15:46:08Z",
-      "updated_at": "2026-08-10T20:37:16Z",
+      "updated_at": "2026-09-11T06:19:06Z",
       "merged_at": null,
       "author": "AnkitArsh19",
       "author_avatar": "https://avatars.githubusercontent.com/u/94040432?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1466",
       "labels": [
+        "Stale",
         "review issues"
       ],
       "templates": [
