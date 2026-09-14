@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T01:51:26.702761",
+  "generated_at": "2026-09-14T02:09:35.562200",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
@@ -9,7 +9,7 @@
     "total_templates": 1355,
     "total_providers": 859,
     "total_merged_prs": 1401,
-    "total_open_prs": 46,
+    "total_open_prs": 63,
     "total_contributors": 449,
     "avg_records_per_template": 3.13
   },
@@ -1599,7 +1599,7 @@
     },
     {
       "month": "2026-09",
-      "created": 129,
+      "created": 146,
       "merged": 109
     }
   ],
@@ -2343,17 +2343,17 @@
     {
       "month": "2026-09",
       "AI crap": 0,
-      "Checklist of common problems not complete": 15,
+      "Checklist of common problems not complete": 16,
       "Chores": 0,
       "Forged editor links": 2,
-      "PR description incomplete": 27,
+      "PR description incomplete": 32,
       "Stale": 0,
-      "Test links missing": 44,
-      "automerge-possible": 49,
+      "Test links missing": 47,
+      "automerge-possible": 57,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 57,
+      "hostRequired": 63,
       "new review needed": 0,
       "no syncPubKeyDomain": 1,
       "question": 0,
@@ -3120,6 +3120,441 @@
   },
   "recent_prs": [
     {
+      "number": 1854,
+      "title": "git.staylively, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T23:40:32Z",
+      "updated_at": "2026-09-13T23:45:36Z",
+      "merged_at": null,
+      "author": "gagedesilets",
+      "author_avatar": "https://avatars.githubusercontent.com/u/188234485?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1854",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "git",
+          "service_id": "staylively.us.hosting-traffic",
+          "filename": "git.staylively.us.hosting-traffic.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "git",
+          "service_id": "staylively.us.hosting-verification",
+          "filename": "git.staylively.us.hosting-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1853,
+      "title": "Add sapt.ai.domain template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T23:15:33Z",
+      "updated_at": "2026-09-13T23:16:47Z",
+      "merged_at": null,
+      "author": "SkiingPickle",
+      "author_avatar": "https://avatars.githubusercontent.com/u/129332173?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1853",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "sapt",
+          "service_id": "ai.domain",
+          "filename": "sapt.ai.domain.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1852,
+      "title": "Add kreova.app website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T23:02:52Z",
+      "updated_at": "2026-09-13T23:22:34Z",
+      "merged_at": null,
+      "author": "r71408396-glitch",
+      "author_avatar": "https://avatars.githubusercontent.com/u/241791274?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1852",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "kreova",
+          "service_id": "app.website",
+          "filename": "kreova.app.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1851,
+      "title": "add VibeFlow, Loja e landing pages",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T22:16:24Z",
+      "updated_at": "2026-09-13T22:22:10Z",
+      "merged_at": null,
+      "author": "LucasMVPBuilders",
+      "author_avatar": "https://avatars.githubusercontent.com/u/251183927?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1851",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "vibeflow",
+          "service_id": "com.br.storefront",
+          "filename": "vibeflow.com.br.storefront.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1850,
+      "title": "Add runkeepai.com.website template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T20:12:40Z",
+      "updated_at": "2026-09-13T20:13:23Z",
+      "merged_at": null,
+      "author": "KobeonDevin",
+      "author_avatar": "https://avatars.githubusercontent.com/u/274316550?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1850",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "runkeepai",
+          "service_id": "com.website",
+          "filename": "runkeepai.com.website.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1849,
+      "title": "Add StatOSS status page templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T17:04:09Z",
+      "updated_at": "2026-09-13T17:04:55Z",
+      "merged_at": null,
+      "author": "kroqdotdev",
+      "author_avatar": "https://avatars.githubusercontent.com/u/150483703?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1849",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "statoss",
+          "service_id": "com.status-page-apex",
+          "filename": "statoss.com.status-page-apex.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "statoss",
+          "service_id": "com.status-page",
+          "filename": "statoss.com.status-page.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1848,
+      "title": "Helm, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T16:47:54Z",
+      "updated_at": "2026-09-13T17:36:42Z",
+      "merged_at": null,
+      "author": "jcavin83-crypto",
+      "author_avatar": "https://avatars.githubusercontent.com/u/267089396?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1848",
+      "labels": [
+        "Test links missing",
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "helm",
+          "service_id": "biz.site",
+          "filename": "helm.biz.site.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "helm",
+          "service_id": "biz.subdomain-site",
+          "filename": "helm.biz.subdomain-site.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1847,
+      "title": "Add allio.dk email template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T14:59:24Z",
+      "updated_at": "2026-09-13T16:09:31Z",
+      "merged_at": null,
+      "author": "VictorLafargue",
+      "author_avatar": "https://avatars.githubusercontent.com/u/148215824?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1847",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "allio",
+          "service_id": "dk.email",
+          "filename": "allio.dk.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1846,
+      "title": "Add t-host.co.uk.hosting template",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T09:15:00Z",
+      "updated_at": "2026-09-13T09:15:55Z",
+      "merged_at": null,
+      "author": "TWSOLLTD",
+      "author_avatar": "https://avatars.githubusercontent.com/u/50328257?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1846",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "t-host",
+          "service_id": "co.uk.hosting",
+          "filename": "t-host.co.uk.hosting.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1845,
+      "title": "Adwave, 2 templates",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T08:41:55Z",
+      "updated_at": "2026-09-13T08:49:23Z",
+      "merged_at": null,
+      "author": "naffis",
+      "author_avatar": "https://avatars.githubusercontent.com/u/3753?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1845",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "adwave",
+          "service_id": "com.waverunner-landing-staging",
+          "filename": "adwave.com.waverunner-landing-staging.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "adwave",
+          "service_id": "com.waverunner-landing",
+          "filename": "adwave.com.waverunner-landing.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1844,
+      "title": "add Postra, Postra Mail",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T08:40:59Z",
+      "updated_at": "2026-09-13T08:41:33Z",
+      "merged_at": null,
+      "author": "0xymg",
+      "author_avatar": "https://avatars.githubusercontent.com/u/19360452?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1844",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "postra",
+          "service_id": "it.mail",
+          "filename": "postra.it.mail.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1843,
+      "title": "add DobroDesk, Verify a support email domain",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T08:03:45Z",
+      "updated_at": "2026-09-13T08:04:23Z",
+      "merged_at": null,
+      "author": "dschewchenko",
+      "author_avatar": "https://avatars.githubusercontent.com/u/8172940?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1843",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "dobrodesk",
+          "service_id": "com.email-domain-verification",
+          "filename": "dobrodesk.com.email-domain-verification.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1842,
+      "title": "add Stages, Forward this domain to your Stages speaker page",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T06:22:20Z",
+      "updated_at": "2026-09-13T06:22:54Z",
+      "merged_at": null,
+      "author": "Market-theory",
+      "author_avatar": "https://avatars.githubusercontent.com/u/193753215?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1842",
+      "labels": [],
+      "templates": [
+        {
+          "provider_id": "stages",
+          "service_id": "fyi.speaker-page-forward",
+          "filename": "stages.fyi.speaker-page-forward.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1841,
+      "title": "Add Formahand storefront template (formahand.com.storefront)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T03:44:49Z",
+      "updated_at": "2026-09-13T03:45:33Z",
+      "merged_at": null,
+      "author": "VietnameseRick",
+      "author_avatar": "https://avatars.githubusercontent.com/u/95068784?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1841",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "formahand",
+          "service_id": "com.storefront",
+          "filename": "formahand.com.storefront.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1840,
+      "title": "add OSV-1, Email sending and receiving",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T02:51:26Z",
+      "updated_at": "2026-09-13T04:31:18Z",
+      "merged_at": null,
+      "author": "ankrstak",
+      "author_avatar": "https://avatars.githubusercontent.com/u/275162351?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1840",
+      "labels": [
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "osv-1",
+          "service_id": "com.email",
+          "filename": "osv-1.com.email.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1839,
+      "title": "Add WorkSync inbound-mail template (worksync.works.inbound.json)",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T02:36:42Z",
+      "updated_at": "2026-09-13T02:37:20Z",
+      "merged_at": null,
+      "author": "satorisage",
+      "author_avatar": "https://avatars.githubusercontent.com/u/21957769?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1839",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "worksync",
+          "service_id": "works.inbound",
+          "filename": "worksync.works.inbound.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "number": 1838,
+      "title": "Add SMTP Zen templates: DKIM signing and aligned Return-Path",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T02:25:40Z",
+      "updated_at": "2026-09-13T03:15:51Z",
+      "merged_at": null,
+      "author": "joilson96",
+      "author_avatar": "https://avatars.githubusercontent.com/u/145712293?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1838",
+      "labels": [
+        "hostRequired"
+      ],
+      "templates": [
+        {
+          "provider_id": "smtpzen",
+          "service_id": "com.br.email",
+          "filename": "smtpzen.com.br.email.json",
+          "logo_url": null,
+          "status": "added"
+        },
+        {
+          "provider_id": "smtpzen",
+          "service_id": "com.br.returnpath",
+          "filename": "smtpzen.com.br.returnpath.json",
+          "logo_url": null,
+          "status": "added"
+        }
+      ]
+    },
+    {
       "number": 1837,
       "title": "add Casccade, Casccade sites",
       "state": "open",
@@ -3436,7 +3871,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-10T19:21:39Z",
-      "updated_at": "2026-09-10T19:22:17Z",
+      "updated_at": "2026-09-13T23:46:51Z",
       "merged_at": null,
       "author": "dylanclootlabs",
       "author_avatar": "https://avatars.githubusercontent.com/u/241823729?v=4",
@@ -3959,12 +4394,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-09T15:17:24Z",
-      "updated_at": "2026-08-12T09:40:06Z",
+      "updated_at": "2026-09-13T06:28:32Z",
       "merged_at": null,
       "author": "younghokim11",
       "author_avatar": "https://avatars.githubusercontent.com/u/114582908?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1552",
       "labels": [
+        "Stale",
         "Test links missing",
         "Forged editor links"
       ],
@@ -4228,12 +4664,13 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-31T00:28:22Z",
-      "updated_at": "2026-08-13T14:11:07Z",
+      "updated_at": "2026-09-13T06:28:38Z",
       "merged_at": null,
       "author": "knstormapps",
       "author_avatar": "https://avatars.githubusercontent.com/u/157762937?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1494",
       "labels": [
+        "Stale",
         "hostRequired",
         "review issues"
       ],
@@ -4469,7 +4906,7 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 136,
+        "review_count": 135,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
