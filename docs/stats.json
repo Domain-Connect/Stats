@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-18T01:59:54.705664",
+  "generated_at": "2026-09-19T02:04:30.499389",
   "repository": {
     "owner": "Domain-Connect",
     "name": "Templates",
     "url": "https://github.com/Domain-Connect/Templates"
   },
   "summary": {
-    "total_templates": 1429,
-    "total_providers": 908,
-    "total_merged_prs": 1469,
-    "total_open_prs": 39,
+    "total_templates": 1436,
+    "total_providers": 912,
+    "total_merged_prs": 1477,
+    "total_open_prs": 37,
     "total_contributors": 450,
-    "avg_records_per_template": 3.1
+    "avg_records_per_template": 3.11
   },
   "templates_growth": [
     {
@@ -604,9 +604,9 @@
     },
     {
       "month": "2026-09",
-      "added": 199,
+      "added": 206,
       "deleted": 0,
-      "cumulative": 1429
+      "cumulative": 1436
     }
   ],
   "providers_growth": [
@@ -1067,8 +1067,8 @@
     },
     {
       "month": "2026-09",
-      "added": 129,
-      "cumulative": 908
+      "added": 133,
+      "cumulative": 912
     }
   ],
   "pr_activity": [
@@ -1599,8 +1599,8 @@
     },
     {
       "month": "2026-09",
-      "created": 196,
-      "merged": 177
+      "created": 205,
+      "merged": 185
     }
   ],
   "pr_time_to_merge": [
@@ -2006,7 +2006,7 @@
     },
     {
       "month": "2026-09",
-      "avg_days": 1.0
+      "avg_days": 0.9
     }
   ],
   "pr_label_activity": [
@@ -2343,17 +2343,17 @@
     {
       "month": "2026-09",
       "AI crap": 0,
-      "Checklist of common problems not complete": 21,
+      "Checklist of common problems not complete": 23,
       "Chores": 0,
       "Forged editor links": 3,
-      "PR description incomplete": 45,
+      "PR description incomplete": 50,
       "Stale": 0,
-      "Test links missing": 65,
-      "automerge-possible": 98,
+      "Test links missing": 71,
+      "automerge-possible": 106,
       "blocked": 0,
       "duplicate": 0,
       "filename-error": 1,
-      "hostRequired": 84,
+      "hostRequired": 86,
       "new review needed": 0,
       "no syncPubKeyDomain": 2,
       "question": 0,
@@ -2780,23 +2780,23 @@
   "record_types": [
     {
       "type": "CNAME",
-      "count": 1013
+      "count": 1015
     },
     {
       "type": "TXT",
-      "count": 723
+      "count": 730
     },
     {
       "type": "A",
-      "count": 390
+      "count": 391
     },
     {
       "type": "SPFM",
-      "count": 349
+      "count": 353
     },
     {
       "type": "MX",
-      "count": 306
+      "count": 311
     },
     {
       "type": "SRV",
@@ -2952,6 +2952,34 @@
     ],
     "last_30_added": [
       {
+        "provider_id": "maxsend.dev",
+        "provider_name": "Maxsend",
+        "logo_url": "https://maxsend.dev/logo.svg",
+        "template_count": 1,
+        "first_added": "2026-09-18"
+      },
+      {
+        "provider_id": "soberlivingriches.com",
+        "provider_name": "Homebase by Sober Living Riches",
+        "logo_url": "https://homebase.soberlivingriches.com/brand/homebase-wordmark-slr-gold-v2.png",
+        "template_count": 1,
+        "first_added": "2026-09-18"
+      },
+      {
+        "provider_id": "launched.so",
+        "provider_name": "Launched.so",
+        "logo_url": "https://app.launched.so/domain-connect-logo.svg",
+        "template_count": 1,
+        "first_added": "2026-09-18"
+      },
+      {
+        "provider_id": "postfleet.ai",
+        "provider_name": "Postfleet",
+        "logo_url": null,
+        "template_count": 1,
+        "first_added": "2026-09-18"
+      },
+      {
         "provider_id": "elmob.ai",
         "provider_name": "Elmob",
         "logo_url": "https://elmob.ai/favicon.svg",
@@ -3062,49 +3090,21 @@
         "logo_url": "https://toshiku.com/favicon.svg",
         "template_count": 1,
         "first_added": "2026-09-15"
-      },
-      {
-        "provider_id": "tella.tv",
-        "provider_name": "Tella",
-        "logo_url": null,
-        "template_count": 2,
-        "first_added": "2026-09-15"
-      },
-      {
-        "provider_id": "talkee.chat",
-        "provider_name": "talkee web",
-        "logo_url": "https://web.talkee.chat/assets/talkee-header.png",
-        "template_count": 1,
-        "first_added": "2026-09-15"
-      },
-      {
-        "provider_id": "revendo.no",
-        "provider_name": "Revendo",
-        "logo_url": "https://revendo.no/icon.png",
-        "template_count": 3,
-        "first_added": "2026-09-15"
-      },
-      {
-        "provider_id": "adwave.com",
-        "provider_name": "Adwave",
-        "logo_url": null,
-        "template_count": 2,
-        "first_added": "2026-09-15"
       }
     ]
   },
   "feature_usage": {
-    "total_templates": 1429,
+    "total_templates": 1436,
     "features": [
       {
         "name": "syncPubKeyDomain",
         "label": "syncPubKeyDomain",
-        "count": 1357
+        "count": 1364
       },
       {
         "name": "syncRedirectDomain",
         "label": "syncRedirectDomain",
-        "count": 1075
+        "count": 1081
       },
       {
         "name": "warnPhishing",
@@ -3120,48 +3120,103 @@
   },
   "recent_prs": [
     {
-      "number": 1904,
-      "title": "Add Launched.so domain ownership verification template",
+      "number": 1912,
+      "title": "RelayDNS, 2 templates",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-17T17:54:12Z",
-      "updated_at": "2026-09-17T18:28:59Z",
+      "created_at": "2026-09-18T19:17:50Z",
+      "updated_at": "2026-09-18T19:30:56Z",
       "merged_at": null,
-      "author": "raldjr",
-      "author_avatar": "https://avatars.githubusercontent.com/u/23492710?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1904",
+      "author": "endibuka",
+      "author_avatar": "https://avatars.githubusercontent.com/u/85651684?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1912",
       "labels": [
         "automerge-possible"
       ],
       "templates": [
         {
-          "provider_id": "launched",
-          "service_id": "so.verification",
-          "filename": "launched.so.verification.json",
+          "provider_id": "relaydns",
+          "service_id": "dev.relay-email-inbound",
+          "filename": "relaydns.dev.relay-email-inbound.json",
+          "logo_url": null,
+          "status": "removed"
+        },
+        {
+          "provider_id": "relaydns",
+          "service_id": "dev.relay-email",
+          "filename": "relaydns.dev.relay-email.json",
+          "logo_url": "https://relaydns.dev/relaydns-logo-on-light.svg",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1911,
+      "title": "modify Handoff, Client links",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T14:49:46Z",
+      "updated_at": "2026-09-18T14:50:34Z",
+      "merged_at": null,
+      "author": "giovaniif",
+      "author_avatar": "https://avatars.githubusercontent.com/u/47906761?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1911",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "handoff",
+          "service_id": "ai.links",
+          "filename": "handoff.ai.links.json",
+          "logo_url": "https://app.handoff.ai/logo512.png",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "number": 1910,
+      "title": "add Kolvo, Loja Kolvo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T13:39:55Z",
+      "updated_at": "2026-09-18T14:12:06Z",
+      "merged_at": null,
+      "author": "richardverse",
+      "author_avatar": "https://avatars.githubusercontent.com/u/127887852?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1910",
+      "labels": [
+        "hostRequired",
+        "automerge-possible"
+      ],
+      "templates": [
+        {
+          "provider_id": "kolvo",
+          "service_id": "net.loja",
+          "filename": "kolvo.net.loja.json",
           "logo_url": null,
           "status": "added"
         }
       ]
     },
     {
-      "number": 1903,
-      "title": "add Postfleet, Custom email domain",
+      "number": 1909,
+      "title": "Add Neogenic SendGrid domain authentication template",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-17T17:37:44Z",
-      "updated_at": "2026-09-17T17:43:39Z",
+      "created_at": "2026-09-18T10:10:53Z",
+      "updated_at": "2026-09-18T10:11:28Z",
       "merged_at": null,
-      "author": "Thestral12",
-      "author_avatar": "https://avatars.githubusercontent.com/u/183735965?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1903",
-      "labels": [
-        "automerge-possible"
-      ],
+      "author": "Sefy-Tofan",
+      "author_avatar": "https://avatars.githubusercontent.com/u/199765535?v=4",
+      "url": "https://github.com/Domain-Connect/Templates/pull/1909",
+      "labels": [],
       "templates": [
         {
-          "provider_id": "postfleet",
-          "service_id": "ai.email",
-          "filename": "postfleet.ai.email.json",
+          "provider_id": "neogenic",
+          "service_id": "ai.sendgrid-domain-authentication",
+          "filename": "neogenic.ai.sendgrid-domain-authentication.json",
           "logo_url": null,
           "status": "added"
         }
@@ -3189,55 +3244,6 @@
           "filename": "datascale.kr.gameshield.json",
           "logo_url": null,
           "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1900,
-      "title": "Update cowliss.com.sending-domain template to version 2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T13:37:28Z",
-      "updated_at": "2026-09-17T13:38:11Z",
-      "merged_at": null,
-      "author": "bogdanrn",
-      "author_avatar": "https://avatars.githubusercontent.com/u/5882067?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1900",
-      "labels": [
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "cowliss",
-          "service_id": "com.sending-domain",
-          "filename": "cowliss.com.sending-domain.json",
-          "logo_url": "https://cowliss.com/favicon.svg",
-          "status": "modified"
-        }
-      ]
-    },
-    {
-      "number": 1899,
-      "title": "modify Handoff, Client links",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T12:50:20Z",
-      "updated_at": "2026-09-17T12:51:05Z",
-      "merged_at": null,
-      "author": "giovaniif",
-      "author_avatar": "https://avatars.githubusercontent.com/u/47906761?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1899",
-      "labels": [
-        "hostRequired",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "handoff",
-          "service_id": "ai.links",
-          "filename": "handoff.ai.links.json",
-          "logo_url": "https://app.handoff.ai/logo512.png",
-          "status": "modified"
         }
       ]
     },
@@ -3432,13 +3438,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-01T15:27:43Z",
-      "updated_at": "2026-09-03T17:45:38Z",
+      "updated_at": "2026-09-18T19:26:42Z",
       "merged_at": null,
       "author": "razl3vi",
       "author_avatar": "https://avatars.githubusercontent.com/u/54993822?v=4",
       "url": "https://github.com/Domain-Connect/Templates/pull/1711",
       "labels": [
-        "Test links missing",
         "hostRequired",
         "new review needed"
       ],
@@ -4061,89 +4066,6 @@
       ]
     },
     {
-      "number": 1508,
-      "title": "Add anvilmail.io templates (verify, dmarc, spf, dkim)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-02T12:15:48Z",
-      "updated_at": "2026-09-02T06:06:30Z",
-      "merged_at": null,
-      "author": "webdevtodayjason",
-      "author_avatar": "https://avatars.githubusercontent.com/u/115739170?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1508",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Checklist of common problems not complete",
-        "Test links missing"
-      ],
-      "templates": [
-        {
-          "provider_id": "anvilmail",
-          "service_id": "io.dkim",
-          "filename": "anvilmail.io.dkim.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "anvilmail",
-          "service_id": "io.dmarc",
-          "filename": "anvilmail.io.dmarc.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "anvilmail",
-          "service_id": "io.spf",
-          "filename": "anvilmail.io.spf.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "anvilmail",
-          "service_id": "io.verify",
-          "filename": "anvilmail.io.verify.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
-      "number": 1503,
-      "title": "Add RedAgents templates (blog, website)",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-01T22:59:30Z",
-      "updated_at": "2026-09-02T06:06:31Z",
-      "merged_at": null,
-      "author": "ExDocs",
-      "author_avatar": "https://avatars.githubusercontent.com/u/226628320?v=4",
-      "url": "https://github.com/Domain-Connect/Templates/pull/1503",
-      "labels": [
-        "Stale",
-        "PR description incomplete",
-        "Test links missing",
-        "hostRequired",
-        "automerge-possible"
-      ],
-      "templates": [
-        {
-          "provider_id": "redagents",
-          "service_id": "io.blog",
-          "filename": "redagents.io.blog.json",
-          "logo_url": null,
-          "status": "added"
-        },
-        {
-          "provider_id": "redagents",
-          "service_id": "io.website",
-          "filename": "redagents.io.website.json",
-          "logo_url": null,
-          "status": "added"
-        }
-      ]
-    },
-    {
       "number": 1494,
       "title": "StorM, 2 templates",
       "state": "open",
@@ -4239,7 +4161,7 @@
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 222,
+        "review_count": 230,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
@@ -4265,19 +4187,19 @@
     "last_30_days": [
       {
         "login": "pawel-kow",
-        "review_count": 145,
+        "review_count": 138,
         "avatar_url": "https://avatars.githubusercontent.com/u/28707030?u=dcf13a53b3f5cccaca5cf0dfe5052f007e2cfc7f&v=4",
         "profile_url": "https://github.com/pawel-kow"
       },
       {
         "login": "github-actions[bot]",
-        "review_count": 126,
+        "review_count": 124,
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
         "profile_url": "https://github.com/apps/github-actions"
       },
       {
         "login": "copilot-pull-request-reviewer[bot]",
-        "review_count": 2,
+        "review_count": 3,
         "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
         "profile_url": "https://github.com/apps/copilot-pull-request-reviewer"
       },
@@ -6106,7 +6028,7 @@
       "provider_name": "Cowliss",
       "service_name": "Cowliss sending domain",
       "logo_url": "https://cowliss.com/favicon.svg",
-      "record_count": 5
+      "record_count": 6
     },
     {
       "filename": "crawldrift.com.domain-verification.json",
@@ -9355,7 +9277,7 @@
       "provider_name": "Handoff",
       "service_name": "Client links",
       "logo_url": "https://app.handoff.ai/logo512.png",
-      "record_count": 1
+      "record_count": 2
     },
     {
       "filename": "happyuptime.com.status-page.json",
@@ -10255,6 +10177,15 @@
       "provider_name": "Krynox",
       "service_name": "Krynox domain verification",
       "logo_url": "https://krynox.net/favicon-light.png",
+      "record_count": 1
+    },
+    {
+      "filename": "launched.so.verification.json",
+      "provider_id": "launched.so",
+      "service_id": "verification",
+      "provider_name": "Launched.so",
+      "service_name": "Domain ownership verification",
+      "logo_url": "https://app.launched.so/domain-connect-logo.svg",
       "record_count": 1
     },
     {
@@ -11273,6 +11204,15 @@
       "service_name": "White-label custom domain",
       "logo_url": null,
       "record_count": 1
+    },
+    {
+      "filename": "maxsend.dev.mail.json",
+      "provider_id": "maxsend.dev",
+      "service_id": "mail",
+      "provider_name": "Maxsend",
+      "service_name": "Mail",
+      "logo_url": "https://maxsend.dev/logo.svg",
+      "record_count": 7
     },
     {
       "filename": "mcp-use.com.custom-domain.json",
@@ -12796,6 +12736,15 @@
       "record_count": 2
     },
     {
+      "filename": "postfleet.ai.email.json",
+      "provider_id": "postfleet.ai",
+      "service_id": "email",
+      "provider_name": "Postfleet",
+      "service_name": "Custom email domain",
+      "logo_url": null,
+      "record_count": 5
+    },
+    {
       "filename": "posthastemail.dev.dkim.json",
       "provider_id": "posthastemail.dev",
       "service_id": "dkim",
@@ -13370,6 +13319,24 @@
       "service_name": "Connect a domain to RelayDNS",
       "logo_url": "https://relaydns.dev/relaydns-logo-on-light.svg",
       "record_count": 2
+    },
+    {
+      "filename": "relaydns.dev.relay-email-inbound.json",
+      "provider_id": "relaydns.dev",
+      "service_id": "relay-email-inbound",
+      "provider_name": "RelayDNS",
+      "service_name": "Receive email at this domain",
+      "logo_url": "https://relaydns.dev/relaydns-logo-on-light.svg",
+      "record_count": 1
+    },
+    {
+      "filename": "relaydns.dev.relay-email.json",
+      "provider_id": "relaydns.dev",
+      "service_id": "relay-email",
+      "provider_name": "RelayDNS",
+      "service_name": "Set up a sending domain",
+      "logo_url": "https://relaydns.dev/relaydns-logo-on-light.svg",
+      "record_count": 4
     },
     {
       "filename": "reloop.sh.email-setup.json",
@@ -14695,6 +14662,15 @@
       "record_count": 4
     },
     {
+      "filename": "smtpzen.com.br.email-sending.json",
+      "provider_id": "smtpzen.com.br",
+      "service_id": "email-sending",
+      "provider_name": "SMTP Zen",
+      "service_name": "SMTP Zen — envio de e-mail",
+      "logo_url": "https://smtpzen.com.br/logo.png",
+      "record_count": 3
+    },
+    {
       "filename": "smtpzen.com.br.email.json",
       "provider_id": "smtpzen.com.br",
       "service_id": "email",
@@ -14728,6 +14704,15 @@
       "provider_name": "SmugMug",
       "service_name": "SmugMug Custom Domain",
       "logo_url": "https://cdn.smugmug.com/img/domain-connect/smugmug-logo.png",
+      "record_count": 1
+    },
+    {
+      "filename": "soberlivingriches.com.homebase-website.json",
+      "provider_id": "soberlivingriches.com",
+      "service_id": "homebase-website",
+      "provider_name": "Homebase by Sober Living Riches",
+      "service_name": "Homebase website",
+      "logo_url": "https://homebase.soberlivingriches.com/brand/homebase-wordmark-slr-gold-v2.png",
       "record_count": 1
     },
     {
